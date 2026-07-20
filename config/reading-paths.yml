@@ -1,0 +1,22 @@
+version: 1
+paths:
+  - id: startup-zero-to-one
+    name: 创业 0→1
+    themes: [startup-pmf, product-discovery-design, product-strategy-execution, growth-distribution]
+    stages: [idea, validation, zero-to-one, pmf]
+  - id: product-manager-growth
+    name: 产品经理进阶
+    themes: [product-discovery-design, product-strategy-execution, organization-leadership, career-development]
+    roles: [product-manager]
+  - id: growth-operator
+    name: 增长负责人
+    themes: [growth-distribution, monetization-gtm, product-strategy-execution]
+    stages: [pmf, growth, scale]
+  - id: ai-product-builder
+    name: AI 产品构建者
+    themes: [ai-native, product-discovery-design, product-strategy-execution]
+    roles: [product-manager, designer, engineer]
+  - id: team-leader
+    name: 团队管理者
+    themes: [organization-leadership, career-development, product-strategy-execution]
+    roles: [leader]
