@@ -3,21 +3,29 @@
 .env.*
 !.env.example
 
-# Dependencies and build outputs
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# JavaScript dependencies and build output
 node_modules/
 dist/
 coverage/
-.turbo/
+.next/
 
-# Local-only knowledge-base state
-runtime/
-*.sqlite
-*.sqlite-shm
-*.sqlite-wal
-*.db
-*.db-shm
-*.db-wal
-logs/
+# Generated retrieval data and runtime state; retain directory scaffolding.
+retrieval/**
+!retrieval/**/
+!retrieval/**/.gitkeep
+runtime/**
+!runtime/**/
+!runtime/**/.gitkeep
+
+# Evaluation output is reproducible; evaluation cases remain versioned.
+evals/results/**
+!evals/results/.gitkeep
 
 # Operating-system files
 .DS_Store

@@ -1,38 +1,73 @@
 # Lenny Compass
 
-Private, local-first knowledge-base workspace for a paid Lenny's Newsletter and Podcast archive.
+Private, local-first workspace for a paid Lenny's Newsletter and Podcast archive.
+This repository must remain private. It contains subscriber-only source material and
+derived full-text copies.
 
-## Repository rules
+## Data layers
 
-- Keep this GitHub repository **private**.
-- `archive/` is a byte-preserved source snapshot. Do not edit, rename, or add derived files there.
-- Keep runtime data, generated SQLite databases, chat history, indexes, and secrets out of Git.
-- Do not deploy this repository to GitHub Pages or any public hosting service.
+- `corpus/raw/` is the immutable upstream snapshot. Its 641 files were moved from
+  the former `archive/` directory without byte changes. Do not edit or normalize
+  files in this directory.
+- `corpus/enhanced/` contains 638 structure-preserving Markdown documents derived
+  from the 349 newsletters and 289 podcast transcripts. Newsletter title conflicts
+  are normalized deterministically; podcast H2/H3 chapter headings were generated
+  by the source-enhancement pipeline. Raw front matter remains the metadata authority.
+- `pipelines/source_enhancement/` contains the Python 3.11 transformation,
+  validation, tests, and provenance records for the enhanced layer.
+- `facts/` is reserved for future knowledge-layer artifacts. It is not a source of
+  truth for this migration.
+- `retrieval/` and `runtime/` hold generated local indexes and application state and
+  are ignored by Git except for directory placeholders.
+- `backend/`, `frontend/`, `contracts/`, and `evals/` are application scaffolding;
+  they are not part of the corpus migration.
 
-## Layout
+The upstream license is preserved at
+`corpus/raw/01-start-here/LICENSE.md`. See `NOTICE.md`,
+`docs/PROVENANCE.md`, and `docs/USAGE_POLICY.md` before using the data.
 
-- `archive/` — original subscriber archive and upstream license.
-- `docs/` — provenance, usage policy, architecture, and future public-blog outline.
-- `config/` — personal taxonomy and reading-path definitions.
-- `apps/api/` — reserved localhost API application.
-- `apps/web/` — reserved local browser workbench.
-- `packages/core/` — reserved shared parsing, retrieval, and citation logic.
-- `scripts/` — archive manifest and integrity validation scripts.
-- `runtime/` — ignored local databases, indexes, notes, logs, and chat history.
+## Validate the migration
 
-## Verify the source snapshot
+The validation command does not require an API key. From PowerShell:
 
 ```powershell
-pnpm archive:validate
+Push-Location pipelines/source_enhancement
+$env:PYTHONPATH = (Resolve-Path "src").Path
+uv sync --frozen
+uv run python -m archive_enhancer validate --stage final
+uv run python -m unittest discover -s tests -v
+Pop-Location
 ```
 
-Regenerate the checked-in archive manifest only after intentionally importing a new source snapshot:
+Final validation checks the raw SHA-256 snapshot, the upstream index against raw
+front matter, the raw/enhanced document mapping, structural and body fidelity, and
+the checked-in per-document enhanced manifest. Regenerate that manifest only after
+an intentional, validated enhanced-layer rebuild:
 
 ```powershell
-pnpm archive:manifest
-pnpm archive:validate
+Push-Location pipelines/source_enhancement
+$env:PYTHONPATH = (Resolve-Path "src").Path
+uv run python -m archive_enhancer manifest
+Pop-Location
 ```
 
-## Planned local application
+## Secrets
 
-The future application runs only on `http://127.0.0.1:4317`. It will import the archive into SQLite FTS5, provide local search and reading, and optionally use a backend-only DeepSeek API key for evidence-grounded Chinese answers. See `docs/ARCHITECTURE.md`.
+Copy `.env.example` to an ignored `.env` only when a pipeline actually needs an API
+credential. Never place a real key in `.env.example`, source code, provenance JSON,
+or any committed file. Corpus and provenance validation are fully local.
+
+## Retired migration-era paths and tools
+
+The following files from the initial repository layout are intentionally retired;
+their last historical versions remain in Git commit `c360399`:
+
+- `config/taxonomy.yml` and `config/reading-paths.yml`;
+- the root `package.json`, `pnpm-lock.yaml`, and `pnpm-workspace.yaml`;
+- `scripts/generate-archive-manifest.mjs` and `scripts/validate-archive.mjs`;
+- the old `apps/` and `packages/core/` placeholders.
+
+The Python source-enhancement validator and the manifests under
+`pipelines/source_enhancement/provenance/` replace the old path-specific JavaScript
+archive checks. Do not restore the retired tools without updating them for the
+current `corpus/raw` and `corpus/enhanced` contract.

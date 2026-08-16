@@ -1,4 +1,7 @@
 * text=auto eol=lf
 
 # Preserve the paid archive byte-for-byte; do not normalize its text files.
-archive/** -text
+corpus/raw/** -text
+
+# Enhanced transcripts intentionally preserve source trailing whitespace.
+corpus/enhanced/** -whitespace

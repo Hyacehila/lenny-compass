@@ -1,19 +1,24 @@
 # Personal-use policy
 
-This repository stores subscriber-only source material. The upstream archive license is authoritative and is preserved in `archive/01-start-here/LICENSE.md`.
+This repository stores subscriber-only source material. The authoritative upstream
+terms are preserved at `corpus/raw/01-start-here/LICENSE.md` and apply to both the raw
+archive and derived full-text layers.
 
-## Allowed repository use
+## Allowed use
 
 - Personal reading, tagging, retrieval, notes, and non-commercial experimentation.
-- Personal AI-assisted analysis when the subscriber accepts the relevant model provider's data handling.
-- Private GitHub backup under the subscriber's own account.
+- Personal AI-assisted analysis when the subscriber accepts the relevant provider's
+  data-handling terms.
+- A private backup controlled by the paid subscriber.
 
-## Prohibited repository use
+## Prohibited use
 
-- Making the repository, raw archive, searchable full-text index, embeddings, or transcript chunks public.
-- Republishing substantial source passages or selling access to archive-derived functionality.
-- Storing DeepSeek API keys or local chat logs in Git.
+- Publishing the repository or exposing raw documents, enhanced documents, search
+  indexes, embeddings, transcript chunks, or substantial passages to others.
+- Selling access or using the archive as the basis of a commercial product or API.
+- Committing API keys, local chat logs, credentials, or generated runtime state.
+- Treating generated headings, chunks, summaries, or model output as a replacement
+  license for the underlying paid content.
 
-## Public blog boundary
-
-Any future public article must be original commentary about the organizing method, theme map, and personal workflow. It must not function as an alternate copy, search interface, or downloadable mirror of the archive.
+Any public writing must be original commentary and must not function as an alternate
+copy, searchable mirror, or downloadable reconstruction of the archive.

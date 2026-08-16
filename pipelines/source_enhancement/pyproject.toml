@@ -1,0 +1,14 @@
+[project]
+name = "lenny-compass-archive-tools"
+version = "0.1.0"
+description = "Local tools for preparing and chaptering the Lenny Compass archive"
+requires-python = "==3.11.*"
+dependencies = [
+    "httpx>=0.28,<0.29",
+    "markdown-it-py>=4,<5",
+    "pyyaml>=6.0,<7",
+]
+
+[tool.uv]
+package = false
+link-mode = "copy"
