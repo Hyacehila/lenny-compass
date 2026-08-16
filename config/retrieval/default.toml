@@ -1,0 +1,35 @@
+schema_version = "1"
+
+[bundle]
+manifest_path = "retrieval/manifests/build.json"
+
+[keyword]
+database_path = "retrieval/lexical/fts.sqlite3"
+candidate_limit = 50
+tokenizer = "unicode61 remove_diacritics 2"
+title_weight = 5.0
+headings_weight = 3.0
+metadata_weight = 2.0
+body_weight = 1.0
+
+[semantic]
+database_path = "retrieval/semantic/vec.sqlite3"
+candidate_limit = 50
+provider = "zhipu"
+base_url = "https://open.bigmodel.cn/api/paas/v4"
+model = "embedding-3"
+dimensions = 2048
+batch_size = 64
+max_input_tokens = 3072
+overlong_strategy = "provider_confirmed_recursive_boundary_split"
+distance_metric = "cosine"
+
+[fusion]
+rrf_k = 60
+result_limit = 12
+
+[agentic]
+enabled_by_default = false
+
+[llm_wiki]
+enabled = false
