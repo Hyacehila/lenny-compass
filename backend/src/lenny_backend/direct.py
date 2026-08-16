@@ -153,7 +153,7 @@ class DirectAnswerService:
     ) -> AsyncIterator[SseEvent]:
         if request.mode != "direct":
             raise ProviderError(
-                "AGENTIC_RAG_DISABLED",
+                "INVALID_ANSWER_MODE",
                 "The direct answer service cannot execute agentic mode",
             )
         context = build_recent_context(history, current_question=request.question)

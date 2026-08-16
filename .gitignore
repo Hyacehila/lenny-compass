@@ -25,6 +25,9 @@ facts/.fact-build-staging-*/
 retrieval/**
 !retrieval/**/
 !retrieval/**/.gitkeep
+!retrieval/lexical/fts.sqlite3
+!retrieval/semantic/vec.sqlite3
+!retrieval/manifests/build.json
 runtime/**
 !runtime/**/
 !runtime/**/.gitkeep

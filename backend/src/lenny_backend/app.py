@@ -94,7 +94,9 @@ def _error_from_exception(exc: Exception) -> ApiError:
     )
 
 
-def _read_health(settings: Settings) -> dict[str, Any]:
+def _read_health(
+    settings: Settings, answer_service: AnswerService | None = None
+) -> dict[str, Any]:
     facts_ready = False
     lexical_ready = False
     semantic_ready = False
@@ -131,7 +133,10 @@ def _read_health(settings: Settings) -> dict[str, Any]:
     full_ready = answer_ready and semantic_ready and zhipu_ready
     return {
         "status": "ready" if full_ready else "answer_ready" if answer_ready else "degraded",
-        "agentic_enabled": settings.agentic_rag_enabled,
+        "agentic_enabled": bool(
+            answer_service is not None
+            and getattr(answer_service, "agentic_available", False)
+        ),
         "facts_ready": facts_ready,
         "lexical_ready": lexical_ready,
         "semantic_ready": semantic_ready,
@@ -170,7 +175,7 @@ def create_app(
 
     @app.get("/api/v1/health")
     def health() -> dict[str, Any]:
-        return _read_health(settings)
+        return _read_health(settings, app.state.answer_service)
 
     @app.get("/api/v1/index/status")
     def index_status() -> Any:
@@ -257,17 +262,6 @@ def create_app(
                 conversation_id, "user", request.question, mode=request.mode
             )
             history = store.messages(conversation_id)
-            if request.mode == "agentic" and not settings.agentic_rag_enabled:
-                yield _sse(
-                    SseErrorEvent(
-                        error=ApiError(
-                            code="AGENTIC_RAG_DISABLED",
-                            message="Agentic RAG is disabled by configuration",
-                            retryable=False,
-                        )
-                    )
-                )
-                return
             service = app.state.answer_service
             if service is None:
                 yield _sse(
@@ -394,21 +388,18 @@ def _build_default_answer_service(settings: Settings) -> AnswerService | None:
             facts=facts,
             image_observer=image_observer,
         )
-        agentic = None
-        if settings.agentic_rag_enabled:
-            agentic = AgenticAnswerService(
-                deepseek=deepseek,
-                retrieval=retrieval,
-                facts=facts,
-                system_prompt=settings.resolved_agentic_prompt_path.read_text(
-                    encoding="utf-8"
-                ),
-                image_observer=image_observer,
-            )
+        agentic = AgenticAnswerService(
+            deepseek=deepseek,
+            retrieval=retrieval,
+            facts=facts,
+            system_prompt=settings.resolved_agentic_prompt_path.read_text(
+                encoding="utf-8"
+            ),
+            image_observer=image_observer,
+        )
         return AnswerRouter(
             direct=direct,
             agentic=agentic,
-            agentic_enabled=settings.agentic_rag_enabled,
         )
     except (OSError, ValueError):
         return None

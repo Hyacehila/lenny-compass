@@ -460,16 +460,16 @@ class AgenticAnswerService:
 
 
 class AnswerRouter:
+    agentic_available = True
+
     def __init__(
         self,
         *,
         direct: Any,
-        agentic: AgenticAnswerService | None,
-        agentic_enabled: bool,
+        agentic: AgenticAnswerService,
     ):
         self.direct = direct
         self.agentic = agentic
-        self.agentic_enabled = agentic_enabled
 
     def stream_answer(
         self,
@@ -482,19 +482,9 @@ class AnswerRouter:
             return self.direct.stream_answer(
                 conversation_id=conversation_id, request=request, history=history
             )
-        if not self.agentic_enabled or self.agentic is None:
-            return _raise_agentic_disabled()
         return self.agentic.stream_answer(
             conversation_id=conversation_id, request=request, history=history
         )
-
-
-async def _raise_agentic_disabled() -> AsyncIterator[SseEvent]:
-    raise ProviderError(
-        "AGENTIC_RAG_DISABLED", "Agentic RAG is disabled by configuration"
-    )
-    if False:  # pragma: no cover - makes this an async iterator for the protocol
-        yield SsePhaseEvent(phase="unreachable")
 
 
 def _tool_error(code: str, message: str) -> dict[str, Any]:

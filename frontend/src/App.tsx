@@ -132,7 +132,7 @@ export default function App() {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, phase]);
 
-  const agenticAvailable = health?.agentic_enabled === true;
+  const agenticAvailable = health?.agentic_enabled !== false;
   useEffect(() => {
     if (!agenticAvailable && mode === "agentic") setMode("direct");
   }, [agenticAvailable, mode]);
@@ -274,7 +274,7 @@ export default function App() {
               className={mode === "agentic" ? "active" : ""}
               onClick={() => setMode("agentic")}
               disabled={!agenticAvailable}
-              title={agenticAvailable ? "Agent chooses searches and evidence windows" : "Enable AGENTIC_RAG_ENABLED in the backend"}
+              title={agenticAvailable ? "Agent chooses searches and evidence windows" : "Agentic mode is unavailable until the answer service is ready"}
             >Agentic</button>
           </div>
         </header>

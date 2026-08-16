@@ -8,6 +8,7 @@ from ai_pm_contracts import (
     DocumentChunkLocator,
     DocumentSegment,
     Evidence,
+    SseAnswerDeltaEvent,
     SseDoneEvent,
     SsePhaseEvent,
 )
@@ -71,6 +72,7 @@ def test_health_and_conversation_routes(tmp_path: Path) -> None:
     assert health.json()["facts_ready"] is False
     assert health.json()["answer_ready"] is False
     assert health.json()["full_ready"] is False
+    assert health.json()["agentic_enabled"] is False
 
     created = client.post("/api/v1/conversations", json={"title": "Test"})
     assert created.status_code == 201
@@ -118,7 +120,7 @@ def test_health_and_conversation_routes(tmp_path: Path) -> None:
         f"/api/v1/conversations/{conversation_id}/ask",
         json={"question": "Use tools", "mode": "agentic"},
     )
-    assert _sse_payloads(agentic.text)[0]["error"]["code"] == "AGENTIC_RAG_DISABLED"  # type: ignore[index]
+    assert _sse_payloads(agentic.text)[0]["error"]["code"] == "ANSWER_SERVICE_UNAVAILABLE"  # type: ignore[index]
 
     deleted = client.delete(f"/api/v1/conversations/{conversation_id}")
     assert deleted.status_code == 200
@@ -126,9 +128,13 @@ def test_health_and_conversation_routes(tmp_path: Path) -> None:
 
 
 class _AnswerService:
+    agentic_available = True
+
     async def stream_answer(self, *, conversation_id, request, history):
         assert history[-1].content == request.question
         yield SsePhaseEvent(phase="answer")
+        yield SseAnswerDeltaEvent(delta="Grounded")
+        yield SseAnswerDeltaEvent(delta=" answer")
         yield SseDoneEvent(
             response=AnswerResponse(
                 request_id="request-one",
@@ -144,11 +150,23 @@ def test_injected_answer_service_persists_only_done_answer(tmp_path: Path) -> No
     )
     conversation_id = client.post("/api/v1/conversations", json={}).json()["id"]
 
+    assert client.get("/api/v1/health").json()["agentic_enabled"] is True
+
     response = client.post(
         f"/api/v1/conversations/{conversation_id}/ask",
         json={"question": "Question", "mode": "direct"},
     )
-    assert [item["type"] for item in _sse_payloads(response.text)] == ["phase", "done"]
+    payloads = _sse_payloads(response.text)
+    assert [item["type"] for item in payloads] == [
+        "phase",
+        "answer_delta",
+        "answer_delta",
+        "done",
+    ]
+    assert [item["delta"] for item in payloads if item["type"] == "answer_delta"] == [
+        "Grounded",
+        " answer",
+    ]
     messages = client.get(
         f"/api/v1/conversations/{conversation_id}/messages"
     ).json()

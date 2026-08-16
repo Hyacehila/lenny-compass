@@ -230,6 +230,7 @@ class DeepSeekClient:
             "reasoning_effort": "max",
             "stream": True,
         }
+        pending_whitespace = ""
         try:
             async with (
                 httpx.AsyncClient(
@@ -266,7 +267,11 @@ class DeepSeekClient:
                     # reasoning_content is deliberately ignored and never leaves this method.
                     content = delta.get("content") if isinstance(delta, dict) else None
                     if isinstance(content, str) and content:
-                        yield content
+                        if not content.strip():
+                            pending_whitespace += content
+                            continue
+                        yield pending_whitespace + content
+                        pending_whitespace = ""
         except ProviderError:
             raise
         except httpx.HTTPError as exc:

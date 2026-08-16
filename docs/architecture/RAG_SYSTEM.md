@@ -29,8 +29,9 @@ input-length rejection. Those vector segments keep a retrieval segment ordinal b
 all resolve to the unchanged parent fact locator; unrelated provider failures are
 never treated as length errors.
 
-Agentic mode is disabled by default. When explicitly enabled, its first turn is
-seeded from the original, unmodified question with up to six FTS5 locators and six
+The interface defaults to Direct mode, while Agentic mode is always available when
+the DeepSeek-backed answer service is ready. Its first turn is seeded from the
+original, unmodified question with up to six FTS5 locators and six
 semantic locators. These two result lists are not fused and are not evidence. The
 agent may then call either search tool with its own query and an explicit result
 limit, chooses source windows, and may cite only evidence returned by a source-read

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Annotated, Literal
 
-from pydantic import Field, JsonValue
+from pydantic import ConfigDict, Field, JsonValue, field_validator
 
 from ._base import ContractModel
 from .facts import DocumentChunkLocator, Evidence, NonEmpty
@@ -62,8 +62,17 @@ class SseEvidenceEvent(ContractModel):
 
 
 class SseAnswerDeltaEvent(ContractModel):
+    model_config = ConfigDict(str_strip_whitespace=False)
+
     type: Literal["answer_delta"] = "answer_delta"
     delta: NonEmpty
+
+    @field_validator("delta")
+    @classmethod
+    def validate_visible_delta(cls, value: str) -> str:
+        if not value.strip():
+            raise ValueError("delta must contain a non-whitespace character")
+        return value
 
 
 class SseDoneEvent(ContractModel):

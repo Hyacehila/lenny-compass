@@ -34,7 +34,6 @@ class Settings(BaseSettings):
     agentic_prompt_path: Path = Path("config/agent/agentic_answer.txt")
     vision_prompt_path: Path = Path("config/agent/vision_observation.txt")
 
-    agentic_rag_enabled: bool = False
     llm_wiki_enabled: bool = False
     llm_wiki_api_base_url: str = "http://127.0.0.1:19828/api/v1"
     llm_wiki_api_token: str | None = None

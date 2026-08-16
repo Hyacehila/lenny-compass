@@ -1,0 +1,20 @@
+{
+  "build_id": "30c4300c7bf34e2d9851ccdd226eed52",
+  "chunk_count": 11286,
+  "created_at": "2026-08-16T09:26:53.007986Z",
+  "document_count": 638,
+  "embedding_dimensions": 2048,
+  "embedding_model": "embedding-3",
+  "facts_manifest_file": "facts/manifests/build.json",
+  "facts_manifest_sha256": "881a6f6fee4e3ceba5bbd3e31107bf6ec9ec00d9fc8a439e7bed07a7acde6976",
+  "lexical_database_file": "lexical/fts.sqlite3",
+  "lexical_database_sha256": "9a121e582ab84411b4b3361d255ddc16acd109757f8778e5c793e1c8494d9ec6",
+  "lexical_status": "ready",
+  "schema_version": "1",
+  "semantic_database_file": "semantic/vec.sqlite3",
+  "semantic_database_sha256": "ee047b89678242cc0e89fded060212e041cd73a85b0076af7de7460d15ffac01",
+  "semantic_reason": null,
+  "semantic_status": "ready",
+  "sqlite_vec_version": "v0.1.9",
+  "sqlite_version": "3.50.4"
+}

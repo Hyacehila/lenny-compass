@@ -12,8 +12,9 @@ material and derived full-text facts.
   Raw frontmatter remains the metadata authority.
 - `facts/` contains the versioned local Docling fact layer: 638 lossless
   `DoclingDocument` JSON files and 638 HybridChunker artifacts with 11,286 chunks.
-- `retrieval/` contains reproducible local SQLite indexes and is ignored by Git.
-  FTS5 is usable without a model key; sqlite-vec requires Zhipu `embedding-3`.
+- `retrieval/` contains versioned local SQLite indexes. The two generated databases
+  use Git LFS; FTS5 is usable without a model key and sqlite-vec requires Zhipu
+  `embedding-3`.
 - `backend/` is the localhost FastAPI/SSE service, and `frontend/` is the React
   interface it serves after a production build.
 - `contracts/` contains the strict fact, locator, retrieval, evidence, and SSE
@@ -44,10 +45,12 @@ Git and stores the real values in plain text on this machine:
 Copy-Item .env.example .env
 ```
 
-`DEEPSEEK_API_KEY` enables query rewriting and answers.
+`DEEPSEEK_API_KEY` enables query rewriting, Direct answers, and the user-selectable
+Agentic mode.
 `ZHIPU_API_KEY` enables the 2048-dimensional vector index and optional image
-inspection. Never put a real key in `.env.example`, source code, a manifest, or a
-commit.
+inspection. The template fixes the supported model names and endpoints; only the
+two key values remain local. Never put a real key in `.env.example`, source code, a
+manifest, or a commit.
 
 ## Validate or rebuild facts
 
@@ -100,9 +103,9 @@ uv run --package lenny-backend lenny-backend
 ```
 
 Open `http://127.0.0.1:4317`. Conversations are stored in ignored local SQLite
-state under `runtime/`. Direct mode is the default. Agentic mode additionally
-requires `AGENTIC_RAG_ENABLED=true`; LLM Wiki remains a disabled future adapter and
-is not part of Direct retrieval or RRF.
+state under `runtime/`. Direct mode is the interface default, and Agentic mode can
+be selected per request without an environment feature flag. LLM Wiki remains a
+disabled future adapter and is not part of Direct retrieval or RRF.
 
 ## Test the layers
 

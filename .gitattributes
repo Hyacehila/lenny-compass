@@ -5,3 +5,7 @@ corpus/raw/** -text
 
 # Enhanced transcripts intentionally preserve source trailing whitespace.
 corpus/enhanced/** -whitespace
+
+# Version generated retrieval databases without inflating regular Git objects.
+retrieval/lexical/fts.sqlite3 filter=lfs diff=lfs merge=lfs -text
+retrieval/semantic/vec.sqlite3 filter=lfs diff=lfs merge=lfs -text

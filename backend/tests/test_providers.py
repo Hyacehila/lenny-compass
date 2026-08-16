@@ -87,7 +87,8 @@ def test_deepseek_payloads_and_reasoning_is_never_yielded() -> None:
         stream = (
             'data: {"choices":[{"delta":{"reasoning_content":"PRIVATE_CHAIN"}}]}\n\n'
             'data: {"choices":[{"delta":{"content":"Visible"}}]}\n\n'
-            'data: {"choices":[{"delta":{"content":" answer"}}]}\n\n'
+            'data: {"choices":[{"delta":{"content":" "}}]}\n\n'
+            'data: {"choices":[{"delta":{"content":"answer"}}]}\n\n'
             "data: [DONE]\n\n"
         )
         return httpx.Response(200, content=stream, headers={"content-type": "text/event-stream"})
