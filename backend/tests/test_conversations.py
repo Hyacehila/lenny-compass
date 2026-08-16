@@ -76,5 +76,6 @@ def test_existing_message_database_is_migrated_to_store_mode(tmp_path: Path) -> 
     conversation = store.create()
     stored = store.add_message(conversation.id, "user", "Question", mode="agentic")
 
+    assert conversation.title == "新对话"
     assert stored.mode == "agentic"
     assert store.messages(conversation.id)[0].mode == "agentic"

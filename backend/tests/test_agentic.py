@@ -14,7 +14,7 @@ from ai_pm_contracts import (
     ImageReference,
     RetrievalHit,
 )
-from lenny_backend.agentic import AGENTIC_TOOLS, AgenticAnswerService
+from lenny_backend.agentic import AGENTIC_MAX_READS, AGENTIC_TOOLS, AgenticAnswerService
 from lenny_backend.conversations import Message
 from lenny_backend.providers import (
     AssistantToolTurn,
@@ -294,19 +294,9 @@ class _RepeatedToolModel:
     ("model", "service_kwargs", "expected_code"),
     [
         (
-            "read_limit",
-            {"max_reads": 1, "max_rounds": 3},
-            "AGENTIC_READ_LIMIT",
-        ),
-        (
             "invalid_window",
             {"max_reads": 12, "max_rounds": 2},
             "AGENTIC_INVALID_WINDOW",
-        ),
-        (
-            "evidence_limit",
-            {"max_evidence_tokens": 1, "max_rounds": 2},
-            "AGENTIC_EVIDENCE_LIMIT",
         ),
         (
             "round_limit",
@@ -348,6 +338,85 @@ def test_agentic_limits_are_typed(
     assert caught.value.code == expected_code
 
 
+class _BudgetRecoveryModel:
+    def __init__(self, locator: DocumentChunkLocator, read_calls: int):
+        self.locator = locator
+        self.read_calls = read_calls
+        self.calls = 0
+        self.tool_errors: list[str] = []
+
+    async def tool_turn(self, *, messages, tools):
+        self.calls += 1
+        if self.calls <= self.read_calls:
+            raw = {
+                "id": f"read-{self.calls}",
+                "type": "function",
+                "function": {
+                    "name": "read_source_window",
+                    "arguments": json.dumps(
+                        {"locator": self.locator.model_dump(mode="json"), "window": 0}
+                    ),
+                },
+            }
+            return AssistantToolTurn(
+                content=None,
+                tool_calls=(
+                    ToolCall(
+                        id=raw["id"],
+                        name="read_source_window",
+                        arguments=raw["function"]["arguments"],  # type: ignore[index]
+                    ),
+                ),
+                provider_message={
+                    "role": "assistant",
+                    "content": None,
+                    "tool_calls": [raw],
+                },
+            )
+        tool_result = json.loads(messages[-1]["content"])
+        self.tool_errors.append(tool_result["error"]["code"])
+        return AssistantToolTurn(
+            content="证据不足，无法进一步确认。",
+            tool_calls=(),
+            provider_message={"role": "assistant", "content": "证据不足，无法进一步确认。"},
+        )
+
+
+@pytest.mark.parametrize(
+    ("service_kwargs", "read_calls", "expected_code"),
+    [
+        ({"max_reads": 1, "max_rounds": 4}, 2, "AGENTIC_READ_LIMIT"),
+        ({"max_evidence_tokens": 1, "max_rounds": 3}, 1, "AGENTIC_EVIDENCE_LIMIT"),
+    ],
+)
+def test_agentic_budget_limits_are_recoverable(
+    service_kwargs: dict[str, int], read_calls: int, expected_code: str
+) -> None:
+    locator = _locator()
+    model = _BudgetRecoveryModel(locator, read_calls)
+    service = AgenticAnswerService(
+        deepseek=model,
+        retrieval=_Retrieval(locator),  # type: ignore[arg-type]
+        facts=_Facts(_evidence(locator, text="x" * 100)),
+        system_prompt="Read first.",
+        **service_kwargs,
+    )
+
+    async def collect():
+        return [
+            event
+            async for event in service.stream_answer(
+                conversation_id="conversation",
+                request=AnswerRequest(question="问题", mode="agentic"),
+                history=(),
+            )
+        ]
+
+    events = asyncio.run(collect())
+    assert model.tool_errors == [expected_code]
+    assert events[-1].type == "done"
+
+
 def test_agentic_tool_registry_is_exact_and_has_no_wiki_or_rescan() -> None:
     names = [tool["function"]["name"] for tool in AGENTIC_TOOLS]
     assert names == [
@@ -358,6 +427,7 @@ def test_agentic_tool_registry_is_exact_and_has_no_wiki_or_rescan() -> None:
     ]
     for tool in AGENTIC_TOOLS[:2]:
         assert tool["function"]["parameters"]["required"] == ["query", "limit"]
+    assert AGENTIC_MAX_READS == 24
 
 
 class _BrokenImageObserver:

@@ -23,7 +23,7 @@ export const api = {
   createConversation: () =>
     jsonRequest<Conversation>("/conversations", {
       method: "POST",
-      body: JSON.stringify({ title: "New conversation" }),
+      body: JSON.stringify({ title: "新对话" }),
     }),
   deleteConversation: (id: string) =>
     jsonRequest<void>(`/conversations/${encodeURIComponent(id)}`, { method: "DELETE" }),

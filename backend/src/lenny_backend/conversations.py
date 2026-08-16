@@ -90,7 +90,7 @@ class ConversationStore:
         timestamp = _now()
         conversation = Conversation(
             id=str(uuid.uuid4()),
-            title=(title or "New conversation").strip() or "New conversation",
+            title=(title or "新对话").strip() or "新对话",
             created_at=timestamp,
             updated_at=timestamp,
         )

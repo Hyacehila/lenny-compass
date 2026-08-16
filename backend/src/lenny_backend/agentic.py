@@ -33,6 +33,7 @@ from .providers import (
 
 AGENTIC_INITIAL_HITS_PER_PROVIDER = 6
 AGENTIC_MAX_SEARCH_RESULTS = 50
+AGENTIC_MAX_READS = 24
 
 AGENTIC_TOOLS: tuple[dict[str, Any], ...] = (
     {
@@ -138,7 +139,7 @@ class AgenticAnswerService:
         system_prompt: str,
         image_observer: ImageObserver | None = None,
         max_rounds: int = 16,
-        max_reads: int = 12,
+        max_reads: int = AGENTIC_MAX_READS,
         max_evidence_tokens: int = 200_000,
     ):
         self.deepseek = deepseek
@@ -164,7 +165,7 @@ class AgenticAnswerService:
         context = build_recent_context(history, current_question=request.question)
         yield SsePhaseEvent(
             phase="retrieve",
-            message="Seeding Agentic RAG with six unmodified-query hits per index",
+            message="正在为智能检索准备初始候选结果",
         )
         initial_results, provider_counts = await self._initial_search(request.question)
         messages: list[dict[str, Any]] = [
@@ -187,7 +188,7 @@ class AgenticAnswerService:
         evidence_tokens = 0
         read_count = 0
         yield SsePhaseEvent(
-            phase="agentic", message="Selecting and reading source evidence"
+            phase="agentic", message="智能体正在选择并读取原文证据"
         )
         final_answer: str | None = None
         for _round in range(self.max_rounds):
@@ -224,16 +225,18 @@ class AgenticAnswerService:
                     elif call.name == "read_source_window":
                         read_count += 1
                         if read_count > self.max_reads:
-                            raise ProviderError(
+                            result = _tool_error(
                                 "AGENTIC_READ_LIMIT",
-                                f"Agentic fact reads exceed {self.max_reads}",
+                                f"Read budget reached ({self.max_reads}). Stop calling tools "
+                                "and answer from evidence already read; if it is insufficient, say so.",
                             )
-                        result, added_tokens = self._read(
-                            arguments,
-                            evidence_by_id,
-                            evidence_tokens=evidence_tokens,
-                        )
-                        evidence_tokens += added_tokens
+                        else:
+                            result, added_tokens = self._read(
+                                arguments,
+                                evidence_by_id,
+                                evidence_tokens=evidence_tokens,
+                            )
+                            evidence_tokens += added_tokens
                     elif call.name == "inspect_images":
                         result, added_tokens = await self._inspect(
                             arguments,
@@ -269,7 +272,7 @@ class AgenticAnswerService:
         )
         for item in evidence:
             yield SseEvidenceEvent(evidence=item)
-        yield SsePhaseEvent(phase="answer", message="Answering from read evidence")
+        yield SsePhaseEvent(phase="answer", message="正在根据已读取的证据生成回答")
         yield SseAnswerDeltaEvent(delta=final_answer)
         yield SseDoneEvent(
             response=AnswerResponse(
@@ -374,9 +377,14 @@ class AgenticAnswerService:
             conservative_token_estimate(item.model_dump_json()) for item in additions
         )
         if evidence_tokens + added_tokens > self.max_evidence_tokens:
-            raise ProviderError(
-                "AGENTIC_EVIDENCE_LIMIT",
-                f"Agentic evidence exceeds {self.max_evidence_tokens} conservative tokens",
+            return (
+                _tool_error(
+                    "AGENTIC_EVIDENCE_LIMIT",
+                    f"Evidence budget reached ({self.max_evidence_tokens} conservative "
+                    "tokens). Stop calling tools and answer from evidence already read; "
+                    "if it is insufficient, say so.",
+                ),
+                0,
             )
         for item in additions:
             evidence_by_id[item.evidence_id] = item
@@ -441,9 +449,14 @@ class AgenticAnswerService:
         )
         added_tokens = max(0, new_tokens - old_tokens)
         if evidence_tokens + added_tokens > self.max_evidence_tokens:
-            raise ProviderError(
-                "AGENTIC_EVIDENCE_LIMIT",
-                f"Agentic evidence exceeds {self.max_evidence_tokens} conservative tokens",
+            return (
+                _tool_error(
+                    "AGENTIC_EVIDENCE_LIMIT",
+                    f"Evidence budget reached ({self.max_evidence_tokens} conservative "
+                    "tokens). Stop calling tools and answer from evidence already read; "
+                    "if it is insufficient, say so.",
+                ),
+                0,
             )
         for item in enriched:
             evidence_by_id[item.evidence_id] = item

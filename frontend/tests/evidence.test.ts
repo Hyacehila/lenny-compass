@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { mergeCitationImages } from "../src/App";
-import type { Citation } from "../src/types";
+import { mergeCitationImages, modeDescription, phaseLabel, readinessLabel } from "../src/App";
+import type { Citation, HealthStatus } from "../src/types";
 
 function citation(): Citation {
   return {
@@ -44,5 +44,24 @@ describe("mergeCitationImages", () => {
     expect(images[0].observation).toBe("A visible chart");
     expect(images[1].url).toBe("https://example.com/two.png");
     expect(images[2].error).toBe("VISION_ERROR");
+  });
+});
+
+describe("Chinese interface labels", () => {
+  it("renders readiness states in Chinese", () => {
+    expect(readinessLabel(null)).toBe("正在连接");
+    expect(readinessLabel({ full_ready: true } as HealthStatus)).toBe("系统就绪");
+    expect(readinessLabel({ facts_ready: true, lexical_ready: true } as HealthStatus)).toBe("本地知识库已就绪");
+  });
+
+  it("localizes known backend phases even when their message is English", () => {
+    expect(phaseLabel("retrieve", "Searching local indexes")).toBe("正在检索本地知识库");
+    expect(phaseLabel("agentic", "Selecting evidence")).toBe("智能体正在选择和读取证据");
+  });
+
+  it("explains the selected retrieval mode", () => {
+    expect(modeDescription("direct")).toContain("响应更快");
+    expect(modeDescription("agentic")).toContain("多轮搜索");
+    expect(modeDescription("agentic")).toContain("需要更长时间");
   });
 });

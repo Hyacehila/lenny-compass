@@ -158,10 +158,10 @@ class DirectAnswerService:
             )
         context = build_recent_context(history, current_question=request.question)
 
-        yield SsePhaseEvent(phase="rewrite", message="Preparing retrieval query")
+        yield SsePhaseEvent(phase="rewrite", message="正在理解问题")
         rewrite = await self.deepseek.rewrite(request.question, context)
 
-        yield SsePhaseEvent(phase="retrieve", message="Searching local indexes")
+        yield SsePhaseEvent(phase="retrieve", message="正在检索本地知识库")
         outcome = await self.retrieval.search(rewrite)
         fused = reciprocal_rank_fusion(
             (outcome.keyword_hits, outcome.vector_hits), k=60, limit=12
@@ -174,7 +174,7 @@ class DirectAnswerService:
             fused_count=len(fused),
         )
 
-        yield SsePhaseEvent(phase="resolve", message="Reading fact-layer evidence")
+        yield SsePhaseEvent(phase="resolve", message="正在读取原文证据")
         resolved: list[Evidence] = []
         seen: set[str] = set()
         for hit in fused:
@@ -202,12 +202,12 @@ class DirectAnswerService:
                 if fallback != evidence_items:
                     yield SsePhaseEvent(
                         phase="inspect_images",
-                        message="Vision unavailable; preserving image references",
+                        message="视觉模型暂不可用，保留原始图片引用",
                     )
                 evidence_items = fallback
             else:
                 yield SsePhaseEvent(
-                    phase="inspect_images", message="Inspecting referenced images"
+                    phase="inspect_images", message="正在分析相关图片"
                 )
                 try:
                     evidence_items = await self.image_observer.enrich(evidence_items)
@@ -220,7 +220,7 @@ class DirectAnswerService:
         for evidence in evidence_items:
             yield SseEvidenceEvent(evidence=evidence)
 
-        yield SsePhaseEvent(phase="answer", message="Answering from resolved facts")
+        yield SsePhaseEvent(phase="answer", message="正在根据证据生成回答")
         answer_parts: list[str] = []
         async for delta in self.deepseek.stream_answer(
             question=request.question,
