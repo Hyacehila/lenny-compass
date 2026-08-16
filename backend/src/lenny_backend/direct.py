@@ -181,7 +181,10 @@ class DirectAnswerService:
             if not isinstance(hit.locator, DocumentChunkLocator):
                 continue
             try:
-                window = self.facts.read_source_window(hit.locator, 0)
+                # Direct retrieval returns the fused parent hit plus one
+                # neighboring HybridChunker block on either side. A single
+                # block may itself resolve to many Docling item references.
+                window = self.facts.read_source_window(hit.locator, 1)
             except (OSError, RuntimeError, ValueError, sqlite3.Error):
                 # A stale/bad locator is not evidence and is skipped fail-closed.
                 continue

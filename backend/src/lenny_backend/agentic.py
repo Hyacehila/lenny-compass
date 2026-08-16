@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import asyncio
 import json
 import re
 import sqlite3
@@ -30,6 +31,9 @@ from .providers import (
     mark_images_uninspected,
 )
 
+AGENTIC_INITIAL_HITS_PER_PROVIDER = 6
+AGENTIC_MAX_SEARCH_RESULTS = 50
+
 AGENTIC_TOOLS: tuple[dict[str, Any], ...] = (
     {
         "type": "function",
@@ -40,9 +44,13 @@ AGENTIC_TOOLS: tuple[dict[str, Any], ...] = (
                 "type": "object",
                 "properties": {
                     "query": {"type": "string", "minLength": 1},
-                    "limit": {"type": "integer", "minimum": 1, "maximum": 50},
+                    "limit": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": AGENTIC_MAX_SEARCH_RESULTS,
+                    },
                 },
-                "required": ["query"],
+                "required": ["query", "limit"],
                 "additionalProperties": False,
             },
         },
@@ -56,9 +64,13 @@ AGENTIC_TOOLS: tuple[dict[str, Any], ...] = (
                 "type": "object",
                 "properties": {
                     "query": {"type": "string", "minLength": 1},
-                    "limit": {"type": "integer", "minimum": 1, "maximum": 50},
+                    "limit": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": AGENTIC_MAX_SEARCH_RESULTS,
+                    },
                 },
-                "required": ["query"],
+                "required": ["query", "limit"],
                 "additionalProperties": False,
             },
         },
@@ -150,21 +162,30 @@ class AgenticAnswerService:
                 "INVALID_ANSWER_MODE", "AgenticAnswerService requires agentic mode"
             )
         context = build_recent_context(history, current_question=request.question)
+        yield SsePhaseEvent(
+            phase="retrieve",
+            message="Seeding Agentic RAG with six unmodified-query hits per index",
+        )
+        initial_results, provider_counts = await self._initial_search(request.question)
         messages: list[dict[str, Any]] = [
             {"role": "system", "content": self.system_prompt},
             {
                 "role": "user",
                 "content": (
                     "CONVERSATION CONTEXT (interpretation only; not evidence):\n"
-                    f"{context or '[none]'}\n\nCURRENT QUESTION:\n{request.question}"
+                    f"{context or '[none]'}\n\nCURRENT QUESTION:\n{request.question}\n\n"
+                    "INITIAL RETRIEVAL HITS (unfused locators/ranks only; not evidence):\n"
+                    + json.dumps(
+                        initial_results,
+                        ensure_ascii=False,
+                        separators=(",", ":"),
+                    )
                 ),
             },
         ]
         evidence_by_id: OrderedDict[str, Evidence] = OrderedDict()
         evidence_tokens = 0
         read_count = 0
-        provider_counts = {"keyword": 0, "vector": 0}
-
         yield SsePhaseEvent(
             phase="agentic", message="Selecting and reading source evidence"
         )
@@ -266,11 +287,18 @@ class AgenticAnswerService:
         provider_counts: dict[str, int],
     ) -> dict[str, Any]:
         query = arguments.get("query")
-        limit = arguments.get("limit", 50)
+        limit = arguments.get("limit")
         if not isinstance(query, str) or not query.strip():
             return _tool_error("INVALID_SEARCH_QUERY", "query must be non-empty")
-        if isinstance(limit, bool) or not isinstance(limit, int) or not 1 <= limit <= 50:
-            return _tool_error("INVALID_SEARCH_LIMIT", "limit must be 1..50")
+        if (
+            isinstance(limit, bool)
+            or not isinstance(limit, int)
+            or not 1 <= limit <= AGENTIC_MAX_SEARCH_RESULTS
+        ):
+            return _tool_error(
+                "INVALID_SEARCH_LIMIT",
+                f"limit must be 1..{AGENTIC_MAX_SEARCH_RESULTS}",
+            )
         try:
             if provider == "keyword":
                 hits = await self.retrieval.keyword(query, limit=limit)
@@ -282,15 +310,41 @@ class AgenticAnswerService:
             )
         provider_counts[provider] += len(hits)
         return {
-            "hits": [
-                {
-                    "provider": str(hit.provider),
-                    "rank": hit.rank,
-                    "locator": hit.locator.model_dump(mode="json"),
-                }
-                for hit in hits
-            ]
+            "hits": _serialize_hits(hits)
         }
+
+    async def _initial_search(
+        self, query: str
+    ) -> tuple[dict[str, Any], dict[str, int]]:
+        """Seed the first model turn without hidden rewriting or fusion."""
+
+        keyword_result, vector_result = await asyncio.gather(
+            self.retrieval.keyword(
+                query, limit=AGENTIC_INITIAL_HITS_PER_PROVIDER
+            ),
+            self.retrieval.semantic(
+                query, limit=AGENTIC_INITIAL_HITS_PER_PROVIDER
+            ),
+            return_exceptions=True,
+        )
+        results: dict[str, Any] = {}
+        counts = {"keyword": 0, "vector": 0}
+        for provider, result in (
+            ("keyword", keyword_result),
+            ("vector", vector_result),
+        ):
+            if isinstance(result, BaseException):
+                results[provider] = {
+                    "hits": [],
+                    "error": {
+                        "code": str(getattr(result, "code", "SEARCH_ERROR")),
+                        "message": str(result),
+                    },
+                }
+                continue
+            counts[provider] = len(result)
+            results[provider] = {"hits": _serialize_hits(result)}
+        return results, counts
 
     def _read(
         self,
@@ -445,6 +499,17 @@ async def _raise_agentic_disabled() -> AsyncIterator[SseEvent]:
 
 def _tool_error(code: str, message: str) -> dict[str, Any]:
     return {"error": {"code": code, "message": message}}
+
+
+def _serialize_hits(hits: Sequence[Any]) -> list[dict[str, Any]]:
+    return [
+        {
+            "provider": str(hit.provider),
+            "rank": hit.rank,
+            "locator": hit.locator.model_dump(mode="json"),
+        }
+        for hit in hits
+    ]
 
 
 _CITATION = re.compile(r"\[evidence:([^\]]+)\]")

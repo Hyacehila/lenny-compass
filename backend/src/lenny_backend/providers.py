@@ -108,7 +108,8 @@ class DeepSeekClient:
                     ),
                 },
             ],
-            "thinking": {"type": "disabled"},
+            "thinking": {"type": "enabled"},
+            "reasoning_effort": "max",
             "response_format": {"type": "json_object"},
             "stream": False,
         }

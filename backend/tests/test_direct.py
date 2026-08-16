@@ -72,7 +72,7 @@ class _Facts:
 
     def read_source_window(self, locator, window=0):
         assert locator == self.evidence.locator
-        assert window == 0
+        assert window == 1
         return (self.evidence,)
 
 

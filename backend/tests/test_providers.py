@@ -10,6 +10,7 @@ from ai_pm_contracts import (
     DocumentChunkLocator,
     DocumentSegment,
     Evidence,
+    ImageObservation,
     ImageReference,
 )
 from lenny_backend.providers import (
@@ -94,10 +95,32 @@ def test_deepseek_payloads_and_reasoning_is_never_yielded() -> None:
     async def exercise() -> tuple[object, list[str]]:
         client = _deepseek(httpx.MockTransport(handler))
         rewrite = await client.rewrite("如何提高留存？", "")
+        image = ImageReference(
+            image_id="chart",
+            url="https://cdn.example.com/chart.png",
+            caption="Retention chart",
+        )
+        evidence = Evidence(
+            evidence_id="source:doc:chunk",
+            evidence_kind="source_chunk",
+            locator=_locator((image,)),
+            text="Fact with a chart",
+            image_observations=(
+                ImageObservation(
+                    image_id=image.image_id,
+                    url=image.url,
+                    caption=image.caption,
+                    observation="The visible retention curve rises.",
+                    inspected=True,
+                ),
+            ),
+        )
         deltas = [
             item
             async for item in client.stream_answer(
-                question="如何提高留存？", conversation_context="", evidence=()
+                question="如何提高留存？",
+                conversation_context="",
+                evidence=(evidence,),
             )
         ]
         return rewrite, deltas
@@ -106,12 +129,16 @@ def test_deepseek_payloads_and_reasoning_is_never_yielded() -> None:
     assert rewrite.semantic_query_en == "How to improve retention"
     assert deltas == ["Visible", " answer"]
     assert "PRIVATE_CHAIN" not in "".join(deltas)
-    assert requests[0]["thinking"] == {"type": "disabled"}
+    assert requests[0]["thinking"] == {"type": "enabled"}
+    assert requests[0]["reasoning_effort"] == "max"
     assert requests[0]["response_format"] == {"type": "json_object"}
     assert requests[1]["thinking"] == {"type": "enabled"}
     assert requests[1]["reasoning_effort"] == "max"
     assert "temperature" not in requests[1]
     assert "top_p" not in requests[1]
+    answer_input = requests[1]["messages"][1]["content"]
+    assert "The visible retention curve rises." in answer_input
+    assert "https://cdn.example.com/chart.png" in answer_input
 
 
 def test_chinese_rewrite_failure_is_lossless_safe_fallback() -> None:
@@ -237,6 +264,12 @@ def test_successful_vision_observation_is_cached(tmp_path: Path) -> None:
     def handler(request: httpx.Request) -> httpx.Response:
         nonlocal calls
         calls += 1
+        payload = json.loads(request.content)
+        image_input = payload["messages"][0]["content"][0]
+        assert image_input == {
+            "type": "image_url",
+            "image_url": {"url": "https://cdn.example.com/chart.png"},
+        }
         return httpx.Response(
             200,
             json={"choices": [{"message": {"content": "A visible chart."}}]},

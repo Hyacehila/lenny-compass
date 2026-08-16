@@ -60,8 +60,10 @@ def _evidence(locator: DocumentChunkLocator, text: str = "READ_FACT") -> Evidenc
 class _Retrieval:
     def __init__(self, locator: DocumentChunkLocator):
         self.locator = locator
+        self.calls: list[tuple[str, str, int]] = []
 
     async def keyword(self, query: str, *, limit: int = 50):
+        self.calls.append(("keyword", query, limit))
         return (
             RetrievalHit(
                 provider="keyword",
@@ -72,6 +74,7 @@ class _Retrieval:
         )
 
     async def semantic(self, query: str, *, limit: int = 50):
+        self.calls.append(("vector", query, limit))
         return ()
 
 
@@ -168,9 +171,10 @@ def test_agentic_reasoning_roundtrip_fact_gate_and_sse_secrecy() -> None:
         answer_prompt="unused",
         transport=httpx.MockTransport(handler),
     )
+    retrieval = _Retrieval(locator)
     service = AgenticAnswerService(
         deepseek=deepseek,
-        retrieval=_Retrieval(locator),  # type: ignore[arg-type]
+        retrieval=retrieval,  # type: ignore[arg-type]
         facts=_Facts(evidence),
         system_prompt="Read before citing.",
     )
@@ -188,6 +192,7 @@ def test_agentic_reasoning_roundtrip_fact_gate_and_sse_secrecy() -> None:
     events = asyncio.run(collect())
     assert [event.type for event in events] == [
         "phase",
+        "phase",
         "retrieval_summary",
         "evidence",
         "phase",
@@ -200,6 +205,17 @@ def test_agentic_reasoning_roundtrip_fact_gate_and_sse_secrecy() -> None:
     assert "PRIVATE" not in serialized
     assert all(request["thinking"] == {"type": "enabled"} for request in requests)
     assert all(request["reasoning_effort"] == "max" for request in requests)
+    initial_prompt = requests[0]["messages"][1]["content"]
+    assert "INITIAL RETRIEVAL HITS" in initial_prompt
+    assert "12345.0" not in initial_prompt
+    assert retrieval.calls[:2] == [
+        ("keyword", "Question", 6),
+        ("vector", "Question", 6),
+    ]
+    assert retrieval.calls[2] == ("keyword", "retention", 3)
+    summary = next(event for event in events if event.type == "retrieval_summary")
+    assert summary.provider_counts == {"keyword": 2, "vector": 0}
+    assert summary.fused_count == 0
 
 
 class _FinalModel:
@@ -340,6 +356,8 @@ def test_agentic_tool_registry_is_exact_and_has_no_wiki_or_rescan() -> None:
         "read_source_window",
         "inspect_images",
     ]
+    for tool in AGENTIC_TOOLS[:2]:
+        assert tool["function"]["parameters"]["required"] == ["query", "limit"]
 
 
 class _BrokenImageObserver:

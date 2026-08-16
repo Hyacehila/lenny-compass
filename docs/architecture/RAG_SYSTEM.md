@@ -18,7 +18,10 @@ fact, while only a resolved fact may be given to an answer model.
 
 Direct mode rewrites the question once, retrieves up to 50 keyword and 50 semantic
 candidates, combines ranks with equal-weight RRF (`k=60`), retains 12 locators, and
-resolves each at `window=0`. Retrieval snippets and scores never become evidence.
+resolves each at `window=1` (the hit plus one neighboring chunk on each side).
+Retrieval snippets and scores never become evidence. The resulting evidence count
+may exceed 12 because windows are expanded after fusion and each chunk may contain
+any number of Docling item references.
 
 The vector builder normally stores one vector per HybridChunker block. It performs
 a deterministic secondary text split only when Zhipu explicitly identifies an
@@ -26,10 +29,13 @@ input-length rejection. Those vector segments keep a retrieval segment ordinal b
 all resolve to the unchanged parent fact locator; unrelated provider failures are
 never treated as length errors.
 
-Agentic mode is disabled by default. When explicitly enabled, its tools return
-locators rather than excerpts. The agent chooses searches and source windows, and
-may cite only evidence returned by a source-read or image-inspection tool. Agentic
-mode does not perform automatic RRF or a hidden rewrite.
+Agentic mode is disabled by default. When explicitly enabled, its first turn is
+seeded from the original, unmodified question with up to six FTS5 locators and six
+semantic locators. These two result lists are not fused and are not evidence. The
+agent may then call either search tool with its own query and an explicit result
+limit, chooses source windows, and may cite only evidence returned by a source-read
+or image-inspection tool. Agentic mode does not perform automatic RRF or a hidden
+LLM rewrite.
 
 ## Source windows
 
@@ -45,15 +51,18 @@ pointers and versioned chunk ordinals are therefore the canonical locations.
 ## Images
 
 Fact conversion does not fetch remote images. It retains the remote URL, caption,
-and Docling reference. Direct answers may ask `glm-5v-turbo` to inspect at most four
-unique ranked images. The resulting description is marked as a derived visual
-observation and remains tied to its source locator. If inspection fails, the answer
-receives only the caption and URL plus an explicit failure marker.
+and Docling reference. `glm-5v-turbo` accepts a public image URL directly, so the
+runtime sends that URL rather than downloading an untrusted remote asset locally.
+Direct answers may inspect at most four unique ranked images. The resulting
+description is marked as a derived visual observation and remains tied to its
+source locator. If inspection fails, the answer receives only the caption and URL
+plus an explicit failure marker.
 
 ## Model boundary
 
-- DeepSeek query rewriting uses JSON output with thinking disabled.
-- Final and Agentic answers use `deepseek-v4-flash` with thinking enabled and
+- DeepSeek query rewriting uses JSON output with `deepseek-v4-flash`, thinking
+  enabled, and `reasoning_effort=max`.
+- Final and Agentic answers use the same model with thinking enabled and
   `reasoning_effort=max`.
 - `reasoning_content` is round-tripped only inside a provider tool loop. It is not
   persisted or sent through SSE.
