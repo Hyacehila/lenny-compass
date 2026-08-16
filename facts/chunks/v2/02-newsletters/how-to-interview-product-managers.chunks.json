@@ -1,0 +1,1479 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000000",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nI can understand why so many people are befuddled by interviewing product managers—the role is so endlessly undefined, how can non-PMs possibly know what to interview for? As\n[Gergely Orosz](https://twitter.com/GergelyOrosz/)\n(ex-Uber, Microsoft, Skype engineer) confessed in\n[a tweet](https://twitter.com/GergelyOrosz/status/1443275923843862536)\n, “we EMs have no clue how to do these. At first, you wing it; by the third time, everyone has their own, completely different setup.”\nIn my\n[chat with Harry Stebbings last week](https://www.thetwentyminutevc.com/lenny-rachitsky/)\n, I shared a bit of advice on this, but it was quite brief. So let’s get much deeper. Below, I’ll share suggestions for:\n1. Structuring your PM interview process\n2. What specific skills to test for\n3. My favorite interview questions\n4. How to structure an interview project (plus a bunch of real-life examples)\n5. Tips to get them to take your offer\n*Disclaimer: People have strong opinions about how to interview, but very few people have enough data (or have looked at their data) to know if their interview assumptions are actually predictive of performance. Interview best practices are generally anecdotal, so definitely do your own research.*\nWith that, let’s get into it.",
+      "doc_item_refs": [
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000000",
+        "chunk_sha256": "301ce903be478df6ea8625ad45ce03fe60c167c2f586e6a5931590c645ace8ca",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/2",
+          "item_count": 15,
+          "last_self_ref": "#/texts/16"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "I can understand why so many people are befuddled by interviewing product managers—the role is so endlessly undefined, how can non-PMs possibly know what to interview for? As\n[Gergely Orosz](https://twitter.com/GergelyOrosz/)\n(ex-Uber, Microsoft, Skype engineer) confessed in\n[a tweet](https://twitter.com/GergelyOrosz/status/1443275923843862536)\n, “we EMs have no clue how to do these. At first, you wing it; by the third time, everyone has their own, completely different setup.”\nIn my\n[chat with Harry Stebbings last week](https://www.thetwentyminutevc.com/lenny-rachitsky/)\n, I shared a bit of advice on this, but it was quite brief. So let’s get much deeper. Below, I’ll share suggestions for:\n1. Structuring your PM interview process\n2. What specific skills to test for\n3. My favorite interview questions\n4. How to structure an interview project (plus a bunch of real-life examples)\n5. Tips to get them to take your offer\n*Disclaimer: People have strong opinions about how to interview, but very few people have enough data (or have looked at their data) to know if their interview assumptions are actually predictive of performance. Interview best practices are generally anecdotal, so definitely do your own research.*\nWith that, let’s get into it.",
+      "token_count": 389
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000001",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nHow to structure your PM interview process\nHigh-level, I’d set up your interview process like so:\n1. **Recruiter phone screen [30 minutes, optional]:** Make sure the candidate meets the minimum requirements for the role and is likely to be a fit for the organization. Focus on their expectations for the role, basic skill questions, personality fit (e.g. [not an asshole](https://www.amazon.com/Asshole-Rule-Civilized-Workplace-Surviving-ebook/dp/B000OT8GV2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=) ), and their interview timelines. About 50% of candidates should make it through this step.\n2. **Hiring manager phone screen [30 minutes]:** Make sure there is a strong chance that the candidate is a fit for the role. Focus on getting to know the person as a human, the role, and a couple skills or attributes that you believe to be most important to this role (more on this below). About 40% to 50% of candidates should make it through this step.\n3. **A full-day interview [4-5 hours]:** The day is made up of two parts:\n4. **A project** (done at home before arriving, in the office, or live), sharing what they came up with, with a group of potential colleagues 2. **Three to six 1:1 interviews** with potential colleagues, each testing for a key PM skill\n5. **Post-interview panel discussion [30-60 minutes]:** Each interviewer blind votes Strong No, No, Yes, or Strong Yes. Share your vote, discuss, and then the hiring manager makes a decision.\n6. **Reference checks:** Ping their references (and backchannel) to make sure you aren’t missing anything.\n7. **Make an offer:** Put together a compelling offer, share it with them,and try like hell to get them to accept.\nTo benchmark a typical hiring funnel, I asked\n[Benji Encz](https://www.linkedin.com/in/benjaminencz/)\n, CEO of the recruiting platform\n[Ashby](https://ashbyhq.com/)\n, to share stats he had on conversion rates at each step, and wow, did he deliver. Here are hot-off-the-presses stats his team pulled for me, based on over 75,000 recent applications across high-growth tech companies. Takeaway: You need to talk to an average of 23 PM candidates to hire one great one.\nImage from How to interview product managers\nImage from How to interview product managers",
+      "doc_item_refs": [
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/24",
+        "#/texts/27",
+        "#/texts/30",
+        "#/texts/36",
+        "#/texts/39",
+        "#/texts/42",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/48",
+        "#/texts/49",
+        "#/texts/398",
+        "#/texts/50"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?",
+        "How to structure your PM interview process"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to interview product managers",
+          "image_id": "02-newsletters/how-to-interview-product-managers.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/0c4ede2f-8f42-4730-aa3a-db1d66227f69_2024x1012.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000001",
+        "chunk_sha256": "aaaea291ce0b153b5a5f2457fce5bd0ed4456f5598ab0bf86017f19a65f11043",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?",
+          "How to structure your PM interview process"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to interview product managers",
+            "image_id": "02-newsletters/how-to-interview-product-managers.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/0c4ede2f-8f42-4730-aa3a-db1d66227f69_2024x1012.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/18",
+          "item_count": 15,
+          "last_self_ref": "#/texts/50"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/24",
+          "#/texts/27",
+          "#/texts/30",
+          "#/texts/36",
+          "#/texts/39",
+          "#/texts/42",
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/48",
+          "#/texts/49",
+          "#/texts/398",
+          "#/texts/50"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "High-level, I’d set up your interview process like so:\n1. **Recruiter phone screen [30 minutes, optional]:** Make sure the candidate meets the minimum requirements for the role and is likely to be a fit for the organization. Focus on their expectations for the role, basic skill questions, personality fit (e.g. [not an asshole](https://www.amazon.com/Asshole-Rule-Civilized-Workplace-Surviving-ebook/dp/B000OT8GV2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=) ), and their interview timelines. About 50% of candidates should make it through this step.\n2. **Hiring manager phone screen [30 minutes]:** Make sure there is a strong chance that the candidate is a fit for the role. Focus on getting to know the person as a human, the role, and a couple skills or attributes that you believe to be most important to this role (more on this below). About 40% to 50% of candidates should make it through this step.\n3. **A full-day interview [4-5 hours]:** The day is made up of two parts:\n4. **A project** (done at home before arriving, in the office, or live), sharing what they came up with, with a group of potential colleagues 2. **Three to six 1:1 interviews** with potential colleagues, each testing for a key PM skill\n5. **Post-interview panel discussion [30-60 minutes]:** Each interviewer blind votes Strong No, No, Yes, or Strong Yes. Share your vote, discuss, and then the hiring manager makes a decision.\n6. **Reference checks:** Ping their references (and backchannel) to make sure you aren’t missing anything.\n7. **Make an offer:** Put together a compelling offer, share it with them,and try like hell to get them to accept.\nTo benchmark a typical hiring funnel, I asked\n[Benji Encz](https://www.linkedin.com/in/benjaminencz/)\n, CEO of the recruiting platform\n[Ashby](https://ashbyhq.com/)\n, to share stats he had on conversion rates at each step, and wow, did he deliver. Here are hot-off-the-presses stats his team pulled for me, based on over 75,000 recent applications across high-growth tech companies. Takeaway: You need to talk to an average of 23 PM candidates to hire one great one.\nImage from How to interview product managers\nImage from How to interview product managers",
+      "token_count": 640
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000002",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nHow to structure your PM interview process\n\n—\n[Benji Encz](https://www.linkedin.com/in/benjaminencz/)\n, CEO of\n[Ashby](https://ashbyhq.com/)\nI would be remiss if I didn’t plug my new\n[Talent Collective](https://www.lennysjobs.com/talent/)\nhere, which is quickly becoming the single best place to find and hire product managers—and help you find your next dream gig.\n[Learn more here](https://twitter.com/lennysan/status/1503437573263282178)\n.",
+      "doc_item_refs": [
+        "#/texts/53",
+        "#/texts/54",
+        "#/texts/55",
+        "#/texts/56",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60",
+        "#/texts/61"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?",
+        "How to structure your PM interview process",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000002",
+        "chunk_sha256": "55b4c72f8234af6766a760a30dcfe0be7827c7396ce794d8aa1ff5106a4aee59",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?",
+          "How to structure your PM interview process",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/53",
+          "item_count": 9,
+          "last_self_ref": "#/texts/61"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/53",
+          "#/texts/54",
+          "#/texts/55",
+          "#/texts/56",
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/60",
+          "#/texts/61"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "—\n[Benji Encz](https://www.linkedin.com/in/benjaminencz/)\n, CEO of\n[Ashby](https://ashbyhq.com/)\nI would be remiss if I didn’t plug my new\n[Talent Collective](https://www.lennysjobs.com/talent/)\nhere, which is quickly becoming the single best place to find and hire product managers—and help you find your next dream gig.\n[Learn more here](https://twitter.com/lennysan/status/1503437573263282178)\n.",
+      "token_count": 199
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000003",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nWhat skills to interview for\nThere are\n[10 core skills of product management](https://www.lennysnewsletter.com/p/jobs-of-product-manager?s=w)\n, but assuming you’re interviewing an IC PM (i.e. not a manager), you can whittle it down to these six:\n1. Communication\n2. Collaboration\n3. Execution\n4. Strategy\n5. Impact\n6. Product sense\nImage from How to interview product managers\nImage from How to interview product managers\nInterestingly, product sense isn’t ever on PM career ladders, but\n[it is something that companies interview for](https://www.lennysnewsletter.com/p/what-is-product-management?s=w#:~:text=The%20most%20important%20PM%20skills%20when%20interviewing)\n, so I’ve included it in the list above.\nImage from How to interview product managers\nImage from How to interview product managers",
+      "doc_item_refs": [
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65",
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/70",
+        "#/texts/71",
+        "#/texts/399",
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/74",
+        "#/texts/75",
+        "#/texts/400",
+        "#/texts/76"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?",
+        "What skills to interview for"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to interview product managers",
+          "image_id": "02-newsletters/how-to-interview-product-managers.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/72e7fff6-10dc-429e-bd57-2a2a9d8d9711_2048x1654.png"
+        },
+        {
+          "caption": "Image from How to interview product managers",
+          "image_id": "02-newsletters/how-to-interview-product-managers.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a2286546-990f-48f3-88d1-140a51e48271_925x566.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000003",
+        "chunk_sha256": "235503147a1567169696e74783d76210233289498bc5cc3efc5fcf9343d78fbb",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?",
+          "What skills to interview for"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to interview product managers",
+            "image_id": "02-newsletters/how-to-interview-product-managers.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/72e7fff6-10dc-429e-bd57-2a2a9d8d9711_2048x1654.png"
+          },
+          {
+            "caption": "Image from How to interview product managers",
+            "image_id": "02-newsletters/how-to-interview-product-managers.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a2286546-990f-48f3-88d1-140a51e48271_925x566.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/63",
+          "item_count": 16,
+          "last_self_ref": "#/texts/76"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65",
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69",
+          "#/texts/70",
+          "#/texts/71",
+          "#/texts/399",
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/74",
+          "#/texts/75",
+          "#/texts/400",
+          "#/texts/76"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "There are\n[10 core skills of product management](https://www.lennysnewsletter.com/p/jobs-of-product-manager?s=w)\n, but assuming you’re interviewing an IC PM (i.e. not a manager), you can whittle it down to these six:\n1. Communication\n2. Collaboration\n3. Execution\n4. Strategy\n5. Impact\n6. Product sense\nImage from How to interview product managers\nImage from How to interview product managers\nInterestingly, product sense isn’t ever on PM career ladders, but\n[it is something that companies interview for](https://www.lennysnewsletter.com/p/what-is-product-management?s=w#:~:text=The%20most%20important%20PM%20skills%20when%20interviewing)\n, so I’ve included it in the list above.\nImage from How to interview product managers\nImage from How to interview product managers",
+      "token_count": 278
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000004",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nWhat interview questions to ask\nI wrote a whole post sharing\n[my favorite PM interview questions](https://www.lennysnewsletter.com/p/my-favorite-pm-interview-questions?s=w)\n, so definitely go read that, but here’s a sampling:\n- **Collaboration:** Tell me about a time you disagreed with an engineer on your team and how you resolved it.\n- **Execution:** Pick a project you’re proud of that took 3-9 months. Walk me through it from beginning to end. I’ll ask questions along the way. [Give this ~7-10 minutes]\n- **Strategy:** Pick a product you worked on in the past year—talk me through your strategy for it.\n- **Customer insights:** Tell me about a time you did user research on a product/feature and that research had a big impact on the product.\n- **Impact:** What’s the most important or impactful product you shipped? What made it so important or impactful? Would it have been as impactful without you, and why?\n- **Product sense:** How would you improve feature x in our product?\n[This full post](https://www.lennysnewsletter.com/p/my-favorite-pm-interview-questions?s=w)\nincludes what to look for in the answers, red flags, and a ton more great interview questions to inspire you. Seriously, go check it out.\nAnd don’t forget to keep your questions consistent, with predefined good and bad answers, to\n[avoid bias](https://hbr.org/2016/04/how-to-take-the-bias-out-of-interviews)\n.",
+      "doc_item_refs": [
+        "#/texts/78",
+        "#/texts/79",
+        "#/texts/80",
+        "#/texts/81",
+        "#/texts/84",
+        "#/texts/87",
+        "#/texts/90",
+        "#/texts/93",
+        "#/texts/96",
+        "#/texts/99",
+        "#/texts/100",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/103"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?",
+        "What interview questions to ask"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000004",
+        "chunk_sha256": "0cd70f2b482bebd5318e9a66be2371ce5ce57ebadf66b7b09d532a7b59a21015",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?",
+          "What interview questions to ask"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/78",
+          "item_count": 14,
+          "last_self_ref": "#/texts/103"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/78",
+          "#/texts/79",
+          "#/texts/80",
+          "#/texts/81",
+          "#/texts/84",
+          "#/texts/87",
+          "#/texts/90",
+          "#/texts/93",
+          "#/texts/96",
+          "#/texts/99",
+          "#/texts/100",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/103"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "I wrote a whole post sharing\n[my favorite PM interview questions](https://www.lennysnewsletter.com/p/my-favorite-pm-interview-questions?s=w)\n, so definitely go read that, but here’s a sampling:\n- **Collaboration:** Tell me about a time you disagreed with an engineer on your team and how you resolved it.\n- **Execution:** Pick a project you’re proud of that took 3-9 months. Walk me through it from beginning to end. I’ll ask questions along the way. [Give this ~7-10 minutes]\n- **Strategy:** Pick a product you worked on in the past year—talk me through your strategy for it.\n- **Customer insights:** Tell me about a time you did user research on a product/feature and that research had a big impact on the product.\n- **Impact:** What’s the most important or impactful product you shipped? What made it so important or impactful? Would it have been as impactful without you, and why?\n- **Product sense:** How would you improve feature x in our product?\n[This full post](https://www.lennysnewsletter.com/p/my-favorite-pm-interview-questions?s=w)\nincludes what to look for in the answers, red flags, and a ton more great interview questions to inspire you. Seriously, go check it out.\nAnd don’t forget to keep your questions consistent, with predefined good and bad answers, to\n[avoid bias](https://hbr.org/2016/04/how-to-take-the-bias-out-of-interviews)\n.",
+      "token_count": 438
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000005",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nWhat interview questions to ask\n\n—Iris Bohnet,\n*Harvard Business Review*",
+      "doc_item_refs": [
+        "#/texts/106",
+        "#/texts/107"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?",
+        "What interview questions to ask",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000005",
+        "chunk_sha256": "1898c9cd887e3c67a4c2c61ef5cfa6d4f43b97e6ab1d4e05b2a588e2476252ab",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?",
+          "What interview questions to ask",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/106",
+          "item_count": 2,
+          "last_self_ref": "#/texts/107"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/106",
+          "#/texts/107"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "—Iris Bohnet,\n*Harvard Business Review*",
+      "token_count": 72
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000006",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nThe project\nI’ve found the project portion of the PM interview process to be the most informative component of the interview. It’s the only time you’ll get to see the candidate tackle a chunky new problem, be able to watch them in action, and have a discussion about it. Though some people don’t include it, I couldn’t imagine a PM interview without it.",
+      "doc_item_refs": [
+        "#/texts/109"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?",
+        "The project"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000006",
+        "chunk_sha256": "f496af1e79ebc5a1d888a6bbcbd60220bb837ba2580fcc1d7208b2a37c9d92c6",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?",
+          "The project"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/109",
+          "item_count": 1,
+          "last_self_ref": "#/texts/109"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/109"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "I’ve found the project portion of the PM interview process to be the most informative component of the interview. It’s the only time you’ll get to see the candidate tackle a chunky new problem, be able to watch them in action, and have a discussion about it. Though some people don’t include it, I couldn’t imagine a PM interview without it.",
+      "token_count": 137
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000007",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nThe project\n\n—\n[Merci Grace](https://twitter.com/merci)\n, former Head of Growth at Slack\nThe goal of the project is to get a taste of how a candidate approaches a new problem. Most importantly, you aren’t looking at how close they got to the right answer. Instead, you are looking at how they break down the problem, how they structure their solution, and how they communicate it to you. Often the discussion afterward is even more valuable than the prompt itself.\nYou have two options for delivering the project:\n1. **Before the interview:** Give them a project before the full-day interview, to work on at home in some timeboxed amount of time. They then share what they came up with when they come in (or Zoom in) for the full-day interview.\n2. **The day of the interview:** Give them a project at the beginning of the interview day, with a timeboxed amount of time for them to work on it (e.g. 90 minutes). Once they are done, they share what they’ve come up with.\nI did\n[an informal survey on Twitter](https://twitter.com/lennysan/status/1499452039541112833)\n, and the majority (maybe two-thirds) of hiring managers prefer Option 1—to give the candidate the project ahead of time. I personally prefer Option 2, giving the project the day of the interview.\nInstead of telling you exactly what to do, I’ll instead share the pros and cons of each, a few people’s perspectives, and let you decide for yourself.\n**Option 1: Project at home, before the interview**\n- **Pros:** More time to think, closer to real life, and gives you more interview time during the day\n- **Cons:** Unfair for people with less time outside of work, some people don’t like being asked to “work” on their own time, and more confounding variables\n“At Slack, we gave projects to be done on their own time. I’ve heard the reasons people have not to do this, but it works. It worked for the IC product writing and UX research roles I hired and managed as well. I hired a diverse team that included parents, people with student loan debt, women, men, people of color, veterans.” —\n[Merci Grace](https://twitter.com/merci)\n, former Head of Growth at Slack\n“On their own time allows them to do research if they don’t have too much background on industry or space. Plus, preparation shows care and commitment.” —\n[Kosta Kolev](https://twitter.com/Kosta_kolev)\n, founder\n“For candidates who are more interested in the domain and the problem you are solving (the ‘missionaries’), the assignment can actually generate additional excitement about the opportunity. These candidates will likely find working on the problem so intrinsically motivating that it gives them energy rather than draining it.” —\n[Jens-Fabian Goetzmann](https://www.jefago.com/product-leadership/homework-for-product-manager-candidates/)\n, Head of Product at RevenueCat\n**Option 2: Project during the interview day**\n- **Pros:** Equalizes interview conditions and doesn’t suck up candidates’ personal time\n- **Cons:** Candidate has less time to think and is under more pressure, and it gives you less time for other interviews\n“We found take-homes have high friction vs. signal, and the best candidates have multiple offers.” —\n[David Cheng](https://twitter.com/DavidPCheng/status)\n, Senior GPM at Chime\n“During the day of the interview, to truly equalize amount of time spent (2 hours) by each candidate.” —\n[Ketki Duvvuru](https://twitter.com/k3tk1/)\n, Product Lead at Superhuman\n“I have done it in their own time in the past but have since moved to doing it during the interview. Many reasons why, and still today kinda on the fence/grapple with it, but mainly I choose to do it as I believe it’s more equitable.” —\n[Ant Murphy](https://twitter.com/ant_murphy)\n, Product Coach\nIf you’re unsure which way to go, try both and see which feels like a better signal of the candidates’ potential. Also, as a last resort, if you can’t decide, you can also give them the choice and accommodate both.",
+      "doc_item_refs": [
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/114",
+        "#/texts/115",
+        "#/texts/116",
+        "#/texts/117",
+        "#/texts/120",
+        "#/texts/123",
+        "#/texts/124",
+        "#/texts/125",
+        "#/texts/126",
+        "#/texts/127",
+        "#/texts/128",
+        "#/texts/131",
+        "#/texts/135",
+        "#/texts/136",
+        "#/texts/137",
+        "#/texts/139",
+        "#/texts/140",
+        "#/texts/141",
+        "#/texts/143",
+        "#/texts/144",
+        "#/texts/145",
+        "#/texts/146",
+        "#/texts/147",
+        "#/texts/150",
+        "#/texts/154",
+        "#/texts/155",
+        "#/texts/156",
+        "#/texts/158",
+        "#/texts/159",
+        "#/texts/160",
+        "#/texts/162",
+        "#/texts/163",
+        "#/texts/164",
+        "#/texts/165"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?",
+        "The project",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000007",
+        "chunk_sha256": "08c5d6c49dc7aa8bf39ebb6820ba48dd80a9bbb3a1d7f4495cd0fb2f537e75d7",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?",
+          "The project",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/112",
+          "item_count": 36,
+          "last_self_ref": "#/texts/165"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/112",
+          "#/texts/113",
+          "#/texts/114",
+          "#/texts/115",
+          "#/texts/116",
+          "#/texts/117",
+          "#/texts/120",
+          "#/texts/123",
+          "#/texts/124",
+          "#/texts/125",
+          "#/texts/126",
+          "#/texts/127",
+          "#/texts/128",
+          "#/texts/131",
+          "#/texts/135",
+          "#/texts/136",
+          "#/texts/137",
+          "#/texts/139",
+          "#/texts/140",
+          "#/texts/141",
+          "#/texts/143",
+          "#/texts/144",
+          "#/texts/145",
+          "#/texts/146",
+          "#/texts/147",
+          "#/texts/150",
+          "#/texts/154",
+          "#/texts/155",
+          "#/texts/156",
+          "#/texts/158",
+          "#/texts/159",
+          "#/texts/160",
+          "#/texts/162",
+          "#/texts/163",
+          "#/texts/164",
+          "#/texts/165"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "—\n[Merci Grace](https://twitter.com/merci)\n, former Head of Growth at Slack\nThe goal of the project is to get a taste of how a candidate approaches a new problem. Most importantly, you aren’t looking at how close they got to the right answer. Instead, you are looking at how they break down the problem, how they structure their solution, and how they communicate it to you. Often the discussion afterward is even more valuable than the prompt itself.\nYou have two options for delivering the project:\n1. **Before the interview:** Give them a project before the full-day interview, to work on at home in some timeboxed amount of time. They then share what they came up with when they come in (or Zoom in) for the full-day interview.\n2. **The day of the interview:** Give them a project at the beginning of the interview day, with a timeboxed amount of time for them to work on it (e.g. 90 minutes). Once they are done, they share what they’ve come up with.\nI did\n[an informal survey on Twitter](https://twitter.com/lennysan/status/1499452039541112833)\n, and the majority (maybe two-thirds) of hiring managers prefer Option 1—to give the candidate the project ahead of time. I personally prefer Option 2, giving the project the day of the interview.\nInstead of telling you exactly what to do, I’ll instead share the pros and cons of each, a few people’s perspectives, and let you decide for yourself.\n**Option 1: Project at home, before the interview**\n- **Pros:** More time to think, closer to real life, and gives you more interview time during the day\n- **Cons:** Unfair for people with less time outside of work, some people don’t like being asked to “work” on their own time, and more confounding variables\n“At Slack, we gave projects to be done on their own time. I’ve heard the reasons people have not to do this, but it works. It worked for the IC product writing and UX research roles I hired and managed as well. I hired a diverse team that included parents, people with student loan debt, women, men, people of color, veterans.” —\n[Merci Grace](https://twitter.com/merci)\n, former Head of Growth at Slack\n“On their own time allows them to do research if they don’t have too much background on industry or space. Plus, preparation shows care and commitment.” —\n[Kosta Kolev](https://twitter.com/Kosta_kolev)\n, founder\n“For candidates who are more interested in the domain and the problem you are solving (the ‘missionaries’), the assignment can actually generate additional excitement about the opportunity. These candidates will likely find working on the problem so intrinsically motivating that it gives them energy rather than draining it.” —\n[Jens-Fabian Goetzmann](https://www.jefago.com/product-leadership/homework-for-product-manager-candidates/)\n, Head of Product at RevenueCat\n**Option 2: Project during the interview day**\n- **Pros:** Equalizes interview conditions and doesn’t suck up candidates’ personal time\n- **Cons:** Candidate has less time to think and is under more pressure, and it gives you less time for other interviews\n“We found take-homes have high friction vs. signal, and the best candidates have multiple offers.” —\n[David Cheng](https://twitter.com/DavidPCheng/status)\n, Senior GPM at Chime\n“During the day of the interview, to truly equalize amount of time spent (2 hours) by each candidate.” —\n[Ketki Duvvuru](https://twitter.com/k3tk1/)\n, Product Lead at Superhuman\n“I have done it in their own time in the past but have since moved to doing it during the interview. Many reasons why, and still today kinda on the fence/grapple with it, but mainly I choose to do it as I believe it’s more equitable.” —\n[Ant Murphy](https://twitter.com/ant_murphy)\n, Product Coach\nIf you’re unsure which way to go, try both and see which feels like a better signal of the candidates’ potential. Also, as a last resort, if you can’t decide, you can also give them the choice and accommodate both.",
+      "token_count": 1048
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000008",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nThe project\nWhat should the project be?\nYou have three options:\n1. A real problem you’ve faced\n2. A hypothetical problem, related to your product\n3. A hypothetical problem, unrelated to your product\nIn the same\n[informal Twitter survey](https://twitter.com/lennysan/status/1499452039541112833)\n, the majority of hiring managers go with Option 1 or 2—a hypothetical problem, related to, or based on, their actual product.",
+      "doc_item_refs": [
+        "#/texts/167",
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/170",
+        "#/texts/171",
+        "#/texts/172",
+        "#/texts/173"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?",
+        "The project",
+        "What should the project be?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000008",
+        "chunk_sha256": "6712f1c797db93f752124defbc9f347681ec51ddfa143df6d96cfc8c79c4eee0",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?",
+          "The project",
+          "What should the project be?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/167",
+          "item_count": 7,
+          "last_self_ref": "#/texts/173"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/167",
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/170",
+          "#/texts/171",
+          "#/texts/172",
+          "#/texts/173"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "You have three options:\n1. A real problem you’ve faced\n2. A hypothetical problem, related to your product\n3. A hypothetical problem, unrelated to your product\nIn the same\n[informal Twitter survey](https://twitter.com/lennysan/status/1499452039541112833)\n, the majority of hiring managers go with Option 1 or 2—a hypothetical problem, related to, or based on, their actual product.",
+      "token_count": 159
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000009",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nThe project\n\n“Closely resemble what their day-to-day work would look like.” —\n[Marissa Goldberg](https://twitter.com/mar15sa)\n, founder of Remote Work Prep\n“I typically use a case that is in the domain but doesn’t require specific product knowledge, to prevent bias.” —\n[David Cheng](https://twitter.com/DavidPCheng/status)\n, Senior GPM at Chime\n“I want the person to learn about what we do and get excited about it. Interviews are two-way.” —\n[Fareed Mosavat](https://twitter.com/far33d)\n, CDO at Reforge, ex-Slack, Instacart\n“Our prompt is venture-specific, but we explain the venture pieces. We don’t expect people to have that domain knowledge, and we generally overlook ‘mistakes’ that are simply related to that. It’s a good litmus test, though, to see whether applicants do their own research on the space.” —\n[Jessica Toy](https://twitter.com/jtoyPro)\n, Director of Product at AngelList Venture\nI personally went with Option 1, because I found that I was able to get the best signal, but I didn’t have the chance to experiment in-depth here.\nBe careful about asking candidates to do actual work for you (e.g. solving a problem you’re currently facing) without paying them for the work. But do feel free to pay them for their time, especially if the project is being done on their own time.",
+      "doc_item_refs": [
+        "#/texts/175",
+        "#/texts/176",
+        "#/texts/177",
+        "#/texts/179",
+        "#/texts/180",
+        "#/texts/181",
+        "#/texts/183",
+        "#/texts/184",
+        "#/texts/185",
+        "#/texts/187",
+        "#/texts/188",
+        "#/texts/189",
+        "#/texts/190",
+        "#/texts/191"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?",
+        "The project",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000009",
+        "chunk_sha256": "5601a3c2154bccf9c12939fdcb9ea9e4a74cdb222f9a011e787acb213f64af9b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?",
+          "The project",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/175",
+          "item_count": 14,
+          "last_self_ref": "#/texts/191"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/175",
+          "#/texts/176",
+          "#/texts/177",
+          "#/texts/179",
+          "#/texts/180",
+          "#/texts/181",
+          "#/texts/183",
+          "#/texts/184",
+          "#/texts/185",
+          "#/texts/187",
+          "#/texts/188",
+          "#/texts/189",
+          "#/texts/190",
+          "#/texts/191"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "“Closely resemble what their day-to-day work would look like.” —\n[Marissa Goldberg](https://twitter.com/mar15sa)\n, founder of Remote Work Prep\n“I typically use a case that is in the domain but doesn’t require specific product knowledge, to prevent bias.” —\n[David Cheng](https://twitter.com/DavidPCheng/status)\n, Senior GPM at Chime\n“I want the person to learn about what we do and get excited about it. Interviews are two-way.” —\n[Fareed Mosavat](https://twitter.com/far33d)\n, CDO at Reforge, ex-Slack, Instacart\n“Our prompt is venture-specific, but we explain the venture pieces. We don’t expect people to have that domain knowledge, and we generally overlook ‘mistakes’ that are simply related to that. It’s a good litmus test, though, to see whether applicants do their own research on the space.” —\n[Jessica Toy](https://twitter.com/jtoyPro)\n, Director of Product at AngelList Venture\nI personally went with Option 1, because I found that I was able to get the best signal, but I didn’t have the chance to experiment in-depth here.\nBe careful about asking candidates to do actual work for you (e.g. solving a problem you’re currently facing) without paying them for the work. But do feel free to pay them for their time, especially if the project is being done on their own time.",
+      "token_count": 393
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000010",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nExamples of real project prompts\nTo make this even more concrete, I’ve collected a handful of real-life prompts from fellow PMs. As I come across more, I’ll add them to this post. Use this as inspiration for coming up with your own custom project.",
+      "doc_item_refs": [
+        "#/texts/193"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?",
+        "Examples of real project prompts"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000010",
+        "chunk_sha256": "54025a15811e230c43571267c6b4dd4fe45003c684c093cd0bf512065cbf0369",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?",
+          "Examples of real project prompts"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/193",
+          "item_count": 1,
+          "last_self_ref": "#/texts/193"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/193"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "To make this even more concrete, I’ve collected a handful of real-life prompts from fellow PMs. As I come across more, I’ll add them to this post. Use this as inspiration for coming up with your own custom project.",
+      "token_count": 114
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000011",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nExamples of real project prompts\nDavid Cheng\n**, Senior GPM at Chime**\nThis is a take-home assignment (when he used to do take-homes), about a hypothetical product, used to hire a manager for the identity product (owning KYC, authentication, and profiles):\n*The take-home should be timeboxed to 3-4 hours. You will be presenting this as part of your on-site interview, so please choose a presentation format. You will have 45 minutes to present.*\n***Net(Income)Flix***\n*Imagine you’re the product lead for identity at a video streaming service called Net(Income)Flix. The CEO wants to maximize financial returns and has anecdotally heard that many of our customers share their accounts with their friends and family, leading to potential lost revenue.*\n*You have been tasked to come up with a plan to identify access to these rogue accounts and shut them down. Specifically, this plan must address:*\n- *How do you measure the scale of the problem/opportunity?*\n- *What other product teams may be impacted by this? How could you address their concerns?*\n- *What are some features/solutions that may address this issue (just a bullet point description, nothing in-depth)?*\n- *How do you prioritize and sequence your plan?*\n- *How do you think about user experience?*\n*Things I looked for:*\n- *Answered the questions I posed (surprisingly, some candidates didn’t do that!)*\n- *I tried to make sure the candidate knew to spend at least 1/4 of the time on user experience, because oftentimes that would get overlooked, particularly given the domain*\n- *Understood the domain around identity (e.g. 2FA, identity signals like device, location, etc.)*\n- *Had success metrics that tied back to the problem/opportunity*\n- *Created user personas and tied them to features/user experiences. They also tied features back to the success metrics they chose*\n- *[Bonus] Talked about getting user feedback through quant and qual*\n- *[Bonus] Pushed back and said some fraud is okay to optimize for user experience*\n- *[Bonus] Pushed back and said there was market opportunity for “stolen” accounts (e.g. different user profiles, different pricing schemes, referrals)*",
+      "doc_item_refs": [
+        "#/texts/195",
+        "#/texts/196",
+        "#/texts/197",
+        "#/texts/198",
+        "#/texts/199",
+        "#/texts/200",
+        "#/texts/201",
+        "#/texts/202",
+        "#/texts/203",
+        "#/texts/204",
+        "#/texts/205",
+        "#/texts/206",
+        "#/texts/207",
+        "#/texts/208",
+        "#/texts/209",
+        "#/texts/210",
+        "#/texts/211",
+        "#/texts/212",
+        "#/texts/213",
+        "#/texts/214"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?",
+        "Examples of real project prompts",
+        "David Cheng"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000011",
+        "chunk_sha256": "949be16ad1f217e9b32173fa9341a701b986f436ce92e03589bdae4db955ad03",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?",
+          "Examples of real project prompts",
+          "David Cheng"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/195",
+          "item_count": 20,
+          "last_self_ref": "#/texts/214"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/195",
+          "#/texts/196",
+          "#/texts/197",
+          "#/texts/198",
+          "#/texts/199",
+          "#/texts/200",
+          "#/texts/201",
+          "#/texts/202",
+          "#/texts/203",
+          "#/texts/204",
+          "#/texts/205",
+          "#/texts/206",
+          "#/texts/207",
+          "#/texts/208",
+          "#/texts/209",
+          "#/texts/210",
+          "#/texts/211",
+          "#/texts/212",
+          "#/texts/213",
+          "#/texts/214"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "**, Senior GPM at Chime**\nThis is a take-home assignment (when he used to do take-homes), about a hypothetical product, used to hire a manager for the identity product (owning KYC, authentication, and profiles):\n*The take-home should be timeboxed to 3-4 hours. You will be presenting this as part of your on-site interview, so please choose a presentation format. You will have 45 minutes to present.*\n***Net(Income)Flix***\n*Imagine you’re the product lead for identity at a video streaming service called Net(Income)Flix. The CEO wants to maximize financial returns and has anecdotally heard that many of our customers share their accounts with their friends and family, leading to potential lost revenue.*\n*You have been tasked to come up with a plan to identify access to these rogue accounts and shut them down. Specifically, this plan must address:*\n- *How do you measure the scale of the problem/opportunity?*\n- *What other product teams may be impacted by this? How could you address their concerns?*\n- *What are some features/solutions that may address this issue (just a bullet point description, nothing in-depth)?*\n- *How do you prioritize and sequence your plan?*\n- *How do you think about user experience?*\n*Things I looked for:*\n- *Answered the questions I posed (surprisingly, some candidates didn’t do that!)*\n- *I tried to make sure the candidate knew to spend at least 1/4 of the time on user experience, because oftentimes that would get overlooked, particularly given the domain*\n- *Understood the domain around identity (e.g. 2FA, identity signals like device, location, etc.)*\n- *Had success metrics that tied back to the problem/opportunity*\n- *Created user personas and tied them to features/user experiences. They also tied features back to the success metrics they chose*\n- *[Bonus] Talked about getting user feedback through quant and qual*\n- *[Bonus] Pushed back and said some fraud is okay to optimize for user experience*\n- *[Bonus] Pushed back and said there was market opportunity for “stolen” accounts (e.g. different user profiles, different pricing schemes, referrals)*",
+      "token_count": 560
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000012",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nExamples of real project prompts\n\n[Merci Grace](https://twitter.com/merci)\n, former Head of Growth at Slack\nThis is a take-home assignment about a real Slack product opportunity, used to hire all levels of PM:\n***Background***\n*The first part of your interview will be an assignment for members of the product, engineering, and design teams. Our goal is to see how you approach product problems in depth, with real-life situations. Please prepare a presentation that covers the topic below.*\n*We ask that you try to complete this within 72 hours of receipt. If your schedule does not permit and you need more time, just let us know.*\n*When you’re done, please send us a copy of your presentation. We’re excited to see what you come up with!*\n***Problem statement***\n*Every day, human beings create new Slack teams. These people are often not officially tasked with finding new enterprise software in their day-to-day role, but they have a problem that they think Slack can solve.*\n*The most successful Slack team creators are able to get several people to create accounts on their team a​nd​ have a meaningful conversation within the product in the first day or so. Inviting people to a new product is fairly straightforward—we can set that aside. What is much more difficult is getting 3 or more people to have a meaningful conversation in a new messaging service.*\n*Go through the process of creating a new Slack team. Assume that you are someone with a reasonable level of intent in creating this team: you have a problem that you think Slack can solve. Identify issues or missed opportunities with the current new-user experience that you think hold people back from having meaningful conversations in Slack. Generate ideas for experiments to run that you think would positively impact this metric. Prepare materials for a plan that ranks your ideas in priority order. Flesh out at least 3 of those ideas into experiments you think the Growth team should run.*\n***What we want to see from you:***\n1. *What questions do you have?*\n2. *What assumptions are you making?*\n3. *What data would help make your case?*\n4. *How would you measure success?*\n5. *How would you execute quickly on this?*\n*Things I looked for:*\n- *Their ability to structure and communicate ideas clearly and succinctly in the overall presentation. Can this person write in a compelling way? Can they present well?*\n- *Are they curious? I got a lot from the questions they asked either while working on the project or within the presentation itself. Are they comfortable making a gut call when there’s little or conflicting data? When in doubt, do they prioritize creating a quality customer experience?*\n- *Their creativity within the constraints of the product. Did they come up with a solution that’s feasible, testable, and not too over-reaching? (We’d often see more junior product managers over-rely on a hand-wavy solution, like reaching toward Slackbot for a deus ex machina conversation with the user.)*\n*No joke, literally no former Facebook PM I interviewed would make a decision about something without data. They actually refused. I stopped interviewing people from FB. Your success is hugely dependent on your fit at the company, which is why it can feel so arbitrary.*\n[Kevin Yien](https://twitter.com/kevinyien)\n, former product lead at Square, currently Head of Product & Design at Mutiny\nThis is a take-home assignment about a fictional, but realistic, product used to assess mid-senior PMs. They were given 2-3 days to work on it, and were expected to spend 2-3 hours (though everyone always spent more).\n*You are the product manager for Square Training, a new product that we will build to help merchants train their staff on Square products (starting with the point of sale).*\n*Please prepare a short presentation to describe what you would build, in what order, and why.*\n*Designs are not required but may help in articulating the solution you have in mind. Be prepared to speak for 30 minutes, with 15 minutes of discussion on top.*\n*Things I looked for:*\n- *Problem context grounded in actual customer conversations (i.e. they went out and talked to real customers)*\n- *Solution was tangible and defined enough to have actual conversation around, able to reframe questions around a framework rather than get bogged down in an actual response (which would be unrealistic to expect)*\n- *Thought through the before/during/after of a solution, not just the during*\n- *Considered design, technical, and GTM constraints (not just one)*\n- *Able to improve upon the idea in the meeting, rather than try to bring back to original solution*\n*I experimented with both slide and doc formats, with the live discussion being both oral presentation and a silent read of the doc (which always tripped people up unless they came from a heavy doc culture).*",
+      "doc_item_refs": [
+        "#/texts/216",
+        "#/texts/217",
+        "#/texts/218",
+        "#/texts/219",
+        "#/texts/220",
+        "#/texts/221",
+        "#/texts/222",
+        "#/texts/223",
+        "#/texts/224",
+        "#/texts/225",
+        "#/texts/226",
+        "#/texts/227",
+        "#/texts/228",
+        "#/texts/229",
+        "#/texts/230",
+        "#/texts/231",
+        "#/texts/232",
+        "#/texts/233",
+        "#/texts/234",
+        "#/texts/235",
+        "#/texts/236",
+        "#/texts/237",
+        "#/texts/239",
+        "#/texts/240",
+        "#/texts/241",
+        "#/texts/242",
+        "#/texts/243",
+        "#/texts/244",
+        "#/texts/245",
+        "#/texts/246",
+        "#/texts/247",
+        "#/texts/248",
+        "#/texts/249",
+        "#/texts/250",
+        "#/texts/251"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?",
+        "Examples of real project prompts",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000012",
+        "chunk_sha256": "31a7f3e6f9776cf7bdc0dac9810bc44f9630452b8bead829f63fdb91b0dbff58",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?",
+          "Examples of real project prompts",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/216",
+          "item_count": 35,
+          "last_self_ref": "#/texts/251"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/216",
+          "#/texts/217",
+          "#/texts/218",
+          "#/texts/219",
+          "#/texts/220",
+          "#/texts/221",
+          "#/texts/222",
+          "#/texts/223",
+          "#/texts/224",
+          "#/texts/225",
+          "#/texts/226",
+          "#/texts/227",
+          "#/texts/228",
+          "#/texts/229",
+          "#/texts/230",
+          "#/texts/231",
+          "#/texts/232",
+          "#/texts/233",
+          "#/texts/234",
+          "#/texts/235",
+          "#/texts/236",
+          "#/texts/237",
+          "#/texts/239",
+          "#/texts/240",
+          "#/texts/241",
+          "#/texts/242",
+          "#/texts/243",
+          "#/texts/244",
+          "#/texts/245",
+          "#/texts/246",
+          "#/texts/247",
+          "#/texts/248",
+          "#/texts/249",
+          "#/texts/250",
+          "#/texts/251"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "[Merci Grace](https://twitter.com/merci)\n, former Head of Growth at Slack\nThis is a take-home assignment about a real Slack product opportunity, used to hire all levels of PM:\n***Background***\n*The first part of your interview will be an assignment for members of the product, engineering, and design teams. Our goal is to see how you approach product problems in depth, with real-life situations. Please prepare a presentation that covers the topic below.*\n*We ask that you try to complete this within 72 hours of receipt. If your schedule does not permit and you need more time, just let us know.*\n*When you’re done, please send us a copy of your presentation. We’re excited to see what you come up with!*\n***Problem statement***\n*Every day, human beings create new Slack teams. These people are often not officially tasked with finding new enterprise software in their day-to-day role, but they have a problem that they think Slack can solve.*\n*The most successful Slack team creators are able to get several people to create accounts on their team a​nd​ have a meaningful conversation within the product in the first day or so. Inviting people to a new product is fairly straightforward—we can set that aside. What is much more difficult is getting 3 or more people to have a meaningful conversation in a new messaging service.*\n*Go through the process of creating a new Slack team. Assume that you are someone with a reasonable level of intent in creating this team: you have a problem that you think Slack can solve. Identify issues or missed opportunities with the current new-user experience that you think hold people back from having meaningful conversations in Slack. Generate ideas for experiments to run that you think would positively impact this metric. Prepare materials for a plan that ranks your ideas in priority order. Flesh out at least 3 of those ideas into experiments you think the Growth team should run.*\n***What we want to see from you:***\n1. *What questions do you have?*\n2. *What assumptions are you making?*\n3. *What data would help make your case?*\n4. *How would you measure success?*\n5. *How would you execute quickly on this?*\n*Things I looked for:*\n- *Their ability to structure and communicate ideas clearly and succinctly in the overall presentation. Can this person write in a compelling way? Can they present well?*\n- *Are they curious? I got a lot from the questions they asked either while working on the project or within the presentation itself. Are they comfortable making a gut call when there’s little or conflicting data? When in doubt, do they prioritize creating a quality customer experience?*\n- *Their creativity within the constraints of the product. Did they come up with a solution that’s feasible, testable, and not too over-reaching? (We’d often see more junior product managers over-rely on a hand-wavy solution, like reaching toward Slackbot for a deus ex machina conversation with the user.)*\n*No joke, literally no former Facebook PM I interviewed would make a decision about something without data. They actually refused. I stopped interviewing people from FB. Your success is hugely dependent on your fit at the company, which is why it can feel so arbitrary.*\n[Kevin Yien](https://twitter.com/kevinyien)\n, former product lead at Square, currently Head of Product & Design at Mutiny\nThis is a take-home assignment about a fictional, but realistic, product used to assess mid-senior PMs. They were given 2-3 days to work on it, and were expected to spend 2-3 hours (though everyone always spent more).\n*You are the product manager for Square Training, a new product that we will build to help merchants train their staff on Square products (starting with the point of sale).*\n*Please prepare a short presentation to describe what you would build, in what order, and why.*\n*Designs are not required but may help in articulating the solution you have in mind. Be prepared to speak for 30 minutes, with 15 minutes of discussion on top.*\n*Things I looked for:*\n- *Problem context grounded in actual customer conversations (i.e. they went out and talked to real customers)*\n- *Solution was tangible and defined enough to have actual conversation around, able to reframe questions around a framework rather than get bogged down in an actual response (which would be unrealistic to expect)*\n- *Thought through the before/during/after of a solution, not just the during*\n- *Considered design, technical, and GTM constraints (not just one)*\n- *Able to improve upon the idea in the meeting, rather than try to bring back to original solution*\n*I experimented with both slide and doc formats, with the live discussion being both oral presentation and a silent read of the doc (which always tripped people up unless they came from a heavy doc culture).*",
+      "token_count": 1116
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000013",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nExamples of real project prompts\nMe, while at Airbnb\nThis is a day-of-interview assignment about a real product opportunity the team faced, used to hire IC PMs and managers, for the host side of the product. I’m sharing this from memory (didn’t have it written down).\n*You have 90 minutes to work on this project. Once you’re done, you’ll share what you’ve come up with with a small group of potential colleagues (e.g. an engineer, a designer, a researcher, etc.). Don’t worry about having the perfect answer; just do your best.*\n***Problem:***\n*When Airbnb guests attempt to book a place, 50% of the time they are ignored or rejected by hosts. This leads to a bad user experience and a lack of trust in the platform, and the business misses out on revenue. How would you increase this conversion rate from 50% to 90%?*\n**Context**\n- *Nearly all host rejections are for logistical reasons—their calendar is not up to date, they can’t support pets, they don’t allow parties, etc.*\n- *Hosts sometimes don’t know they recieved a guest request*\n- *Hosts have 24 hours to respond to a guest request before it expires*\n*Things I looked for:*\n- *How did they break down the opportunity to increase conversion—what levers did they come up with?*\n- *Which lever/opportunity did they see as the biggest opportunity, and why?*\n- *Did they think big (i.e. working backward from the ideal) or incrementally (i.e. optimizing at the edges)?*\n- *How they prioritized—what did they optimize for?*\n- *How they laid out their proposal and communicated it—did it make sense?*\n- *How they balanced the needs of both sides of the marketplace*",
+      "doc_item_refs": [
+        "#/texts/253",
+        "#/texts/254",
+        "#/texts/255",
+        "#/texts/256",
+        "#/texts/257",
+        "#/texts/258",
+        "#/texts/259",
+        "#/texts/260",
+        "#/texts/261",
+        "#/texts/262",
+        "#/texts/263",
+        "#/texts/264",
+        "#/texts/265",
+        "#/texts/266",
+        "#/texts/267"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?",
+        "Examples of real project prompts",
+        "Me, while at Airbnb"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000013",
+        "chunk_sha256": "de3854a76b1e6ee23c95aa83d6d1613eaf9d53fcf2cbbc12715e03c8e809c3d2",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?",
+          "Examples of real project prompts",
+          "Me, while at Airbnb"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/253",
+          "item_count": 15,
+          "last_self_ref": "#/texts/267"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/253",
+          "#/texts/254",
+          "#/texts/255",
+          "#/texts/256",
+          "#/texts/257",
+          "#/texts/258",
+          "#/texts/259",
+          "#/texts/260",
+          "#/texts/261",
+          "#/texts/262",
+          "#/texts/263",
+          "#/texts/264",
+          "#/texts/265",
+          "#/texts/266",
+          "#/texts/267"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "This is a day-of-interview assignment about a real product opportunity the team faced, used to hire IC PMs and managers, for the host side of the product. I’m sharing this from memory (didn’t have it written down).\n*You have 90 minutes to work on this project. Once you’re done, you’ll share what you’ve come up with with a small group of potential colleagues (e.g. an engineer, a designer, a researcher, etc.). Don’t worry about having the perfect answer; just do your best.*\n***Problem:***\n*When Airbnb guests attempt to book a place, 50% of the time they are ignored or rejected by hosts. This leads to a bad user experience and a lack of trust in the platform, and the business misses out on revenue. How would you increase this conversion rate from 50% to 90%?*\n**Context**\n- *Nearly all host rejections are for logistical reasons—their calendar is not up to date, they can’t support pets, they don’t allow parties, etc.*\n- *Hosts sometimes don’t know they recieved a guest request*\n- *Hosts have 24 hours to respond to a guest request before it expires*\n*Things I looked for:*\n- *How did they break down the opportunity to increase conversion—what levers did they come up with?*\n- *Which lever/opportunity did they see as the biggest opportunity, and why?*\n- *Did they think big (i.e. working backward from the ideal) or incrementally (i.e. optimizing at the edges)?*\n- *How they prioritized—what did they optimize for?*\n- *How they laid out their proposal and communicated it—did it make sense?*\n- *How they balanced the needs of both sides of the marketplace*",
+      "token_count": 471
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000014",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nExamples of real project prompts\n\n[**Ronnie Regev**](https://twitter.com/RonnieRegev)\n**,**\nformer product leader at\n**Procore, AppFolio**\nThis is a take-home assignment to be done on their own time, with guidelines to try to keep it to a few hours. It took 6-9 months of iteration just to get the exercise dialed in.\n*Pick a modern collaboration tool (e.g. Miro, Asana, Mural, Slack, etc.) and design a new feature*\nor\n*improvements to the acquisition, activation, or engagement steps.*\n*Constraints:*\n- *3 months of dev time with a team of 4 eng who know the code base*\n- *Present the problem, the customer value, the solution, the success criteria, a roadmap, trade-offs, release strategy, and mid fidelity mock-up*\n- *A one-pager supporting the presentation*\n- *No bonus points for a super-slick presentation; focus on content over form*\n- *You have 30 minutes max to cover all content, and 30 minutes of discussion*\n*This approach allowed me to assess one’s product sense and execution, and how they articulate ideas visually (mocks), verbally (presentation), and in prose (one-pager). It also worked well for designers, with different constraints.*\n**More projects inspiration:**",
+      "doc_item_refs": [
+        "#/texts/269",
+        "#/texts/270",
+        "#/texts/271",
+        "#/texts/272",
+        "#/texts/273",
+        "#/texts/274",
+        "#/texts/275",
+        "#/texts/276",
+        "#/texts/277",
+        "#/texts/278",
+        "#/texts/279",
+        "#/texts/280",
+        "#/texts/281",
+        "#/texts/282",
+        "#/texts/283",
+        "#/texts/284"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?",
+        "Examples of real project prompts",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000014",
+        "chunk_sha256": "6067bad8de78ae428f4e6e5778675679f5009dbd198d14ca947e61f37ccc2842",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?",
+          "Examples of real project prompts",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/269",
+          "item_count": 16,
+          "last_self_ref": "#/texts/284"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/269",
+          "#/texts/270",
+          "#/texts/271",
+          "#/texts/272",
+          "#/texts/273",
+          "#/texts/274",
+          "#/texts/275",
+          "#/texts/276",
+          "#/texts/277",
+          "#/texts/278",
+          "#/texts/279",
+          "#/texts/280",
+          "#/texts/281",
+          "#/texts/282",
+          "#/texts/283",
+          "#/texts/284"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "[**Ronnie Regev**](https://twitter.com/RonnieRegev)\n**,**\nformer product leader at\n**Procore, AppFolio**\nThis is a take-home assignment to be done on their own time, with guidelines to try to keep it to a few hours. It took 6-9 months of iteration just to get the exercise dialed in.\n*Pick a modern collaboration tool (e.g. Miro, Asana, Mural, Slack, etc.) and design a new feature*\nor\n*improvements to the acquisition, activation, or engagement steps.*\n*Constraints:*\n- *3 months of dev time with a team of 4 eng who know the code base*\n- *Present the problem, the customer value, the solution, the success criteria, a roadmap, trade-offs, release strategy, and mid fidelity mock-up*\n- *A one-pager supporting the presentation*\n- *No bonus points for a super-slick presentation; focus on content over form*\n- *You have 30 minutes max to cover all content, and 30 minutes of discussion*\n*This approach allowed me to assess one’s product sense and execution, and how they articulate ideas visually (mocks), verbally (presentation), and in prose (one-pager). It also worked well for designers, with different constraints.*\n**More projects inspiration:**",
+      "token_count": 360
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000015",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\nQ: How should I structure my PM interview process?\nHow to convince them to take your offer\nFinally, after you’ve found the person you want to hire, the final step is convincing them to take your offer. I wrote\n[about winning at hiring](https://www.lennysnewsletter.com/p/early-stage-hiring?s=w)\n, which has a bunch of great advice from founders who are world-class at this, so here’s some tactical advice from that post:\n1. [Julianna Lamb](https://www.linkedin.com/in/juliannaelamb/) (CTO of [Stytch](https://stytch.com/) ): “ **We see the actual offer stage as a big place you can stand out.** We do a Zoom to surprise the candidate with everyone from their interview panel to share why they’re excited about the candidate potentially joining.”\n2. [Siqi Chen](https://www.linkedin.com/in/siqic/) (CEO of [Runway](https://runway.com/) ): “ **We treat closing a candidate almost exactly the same as closing an investor.** In fact, we’ve found the best candidates will do even more diligence than the average investor. Arguably, candidates are investing something even more valuable than capital: their time. Our pitch and demo for our Series A is pretty much exactly the pitch and demo we do for candidates.”\n3. [Sam Corcos](https://www.linkedin.com/in/samcorcos/) (CEO of [Levels](https://www.levelshealth.com/) ): “ **Be prepared to commit ~100 hours for each hire you make.** Interview a lot of people. Ask your network for introductions. Reach out to people on LinkedIn. Get creative on how you source candidates. Write excellent [job descriptions](https://levels.link/eng) . There are no shortcuts.”",
+      "doc_item_refs": [
+        "#/texts/286",
+        "#/texts/287",
+        "#/texts/288",
+        "#/texts/289",
+        "#/texts/296",
+        "#/texts/303"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "Q: How should I structure my PM interview process?",
+        "How to convince them to take your offer"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000015",
+        "chunk_sha256": "272bf8de2e25643724ad05ebeccb707f9efe6aa800d9a3c13d0fd772552c3ae7",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "Q: How should I structure my PM interview process?",
+          "How to convince them to take your offer"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 15,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/286",
+          "item_count": 6,
+          "last_self_ref": "#/texts/303"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/286",
+          "#/texts/287",
+          "#/texts/288",
+          "#/texts/289",
+          "#/texts/296",
+          "#/texts/303"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 15,
+      "raw_text": "Finally, after you’ve found the person you want to hire, the final step is convincing them to take your offer. I wrote\n[about winning at hiring](https://www.lennysnewsletter.com/p/early-stage-hiring?s=w)\n, which has a bunch of great advice from founders who are world-class at this, so here’s some tactical advice from that post:\n1. [Julianna Lamb](https://www.linkedin.com/in/juliannaelamb/) (CTO of [Stytch](https://stytch.com/) ): “ **We see the actual offer stage as a big place you can stand out.** We do a Zoom to surprise the candidate with everyone from their interview panel to share why they’re excited about the candidate potentially joining.”\n2. [Siqi Chen](https://www.linkedin.com/in/siqic/) (CEO of [Runway](https://runway.com/) ): “ **We treat closing a candidate almost exactly the same as closing an investor.** In fact, we’ve found the best candidates will do even more diligence than the average investor. Arguably, candidates are investing something even more valuable than capital: their time. Our pitch and demo for our Series A is pretty much exactly the pitch and demo we do for candidates.”\n3. [Sam Corcos](https://www.linkedin.com/in/samcorcos/) (CEO of [Levels](https://www.levelshealth.com/) ): “ **Be prepared to commit ~100 hours for each hire you make.** Interview a lot of people. Ask your network for introductions. Reach out to people on LinkedIn. Get creative on how you source candidates. Write excellent [job descriptions](https://levels.link/eng) . There are no shortcuts.”",
+      "token_count": 495
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000016",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\n📚 Further study\n1. [My favorite PM interview questions](https://www.lennysnewsletter.com/p/my-favorite-pm-interview-questions?s=w)\n2. [Constructing an effective phone screen](https://kevinyien.com/blog/phone-screen.html)\n3. [Winning at early-stage hiring](https://www.lennysnewsletter.com/p/early-stage-hiring?s=w)\n4. [Product management career ladders](https://www.lennysnewsletter.com/p/jobs-of-product-manager?s=w)\n5. [What is product management](https://www.lennysnewsletter.com/p/what-is-product-management?s=w)\n6. [A Twitter thread with dozens of PM interview process examples](https://twitter.com/lennysan/status/1443264202831896578)\n7. [Product Interviewing by Hadar Dor](https://www.hadardor.com/product-interviewing)\n8. [Take-home assignments for product management candidates](https://www.jefago.com/product-leadership/homework-for-product-manager-candidates/)\n9. [Bias in Interviews: Eliminate It Fast with These 6 Easy Strategies](https://codesubmit.io/blog/eliminate-bias-in-interviews/)\n10. [10 Ways to Reduce Interviewer Bias](https://www.linkedin.com/business/talent/blog/talent-strategy/ways-to-reduce-interviewer-bias)\n*Have a fulfilling and productive week 🙏*",
+      "doc_item_refs": [
+        "#/texts/313",
+        "#/texts/314",
+        "#/texts/315",
+        "#/texts/316",
+        "#/texts/317",
+        "#/texts/318",
+        "#/texts/319",
+        "#/texts/320",
+        "#/texts/321",
+        "#/texts/322",
+        "#/texts/323"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "📚 Further study"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000016",
+        "chunk_sha256": "0ac34f8e674a66b72bc545ac603bd11a5e73f1c07792b03aa77bea2d1bed2ae3",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "📚 Further study"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 16,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/313",
+          "item_count": 11,
+          "last_self_ref": "#/texts/323"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/313",
+          "#/texts/314",
+          "#/texts/315",
+          "#/texts/316",
+          "#/texts/317",
+          "#/texts/318",
+          "#/texts/319",
+          "#/texts/320",
+          "#/texts/321",
+          "#/texts/322",
+          "#/texts/323"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 16,
+      "raw_text": "1. [My favorite PM interview questions](https://www.lennysnewsletter.com/p/my-favorite-pm-interview-questions?s=w)\n2. [Constructing an effective phone screen](https://kevinyien.com/blog/phone-screen.html)\n3. [Winning at early-stage hiring](https://www.lennysnewsletter.com/p/early-stage-hiring?s=w)\n4. [Product management career ladders](https://www.lennysnewsletter.com/p/jobs-of-product-manager?s=w)\n5. [What is product management](https://www.lennysnewsletter.com/p/what-is-product-management?s=w)\n6. [A Twitter thread with dozens of PM interview process examples](https://twitter.com/lennysan/status/1443264202831896578)\n7. [Product Interviewing by Hadar Dor](https://www.hadardor.com/product-interviewing)\n8. [Take-home assignments for product management candidates](https://www.jefago.com/product-leadership/homework-for-product-manager-candidates/)\n9. [Bias in Interviews: Eliminate It Fast with These 6 Easy Strategies](https://codesubmit.io/blog/eliminate-bias-in-interviews/)\n10. [10 Ways to Reduce Interviewer Bias](https://www.linkedin.com/business/talent/blog/talent-strategy/ways-to-reduce-interviewer-bias)\n*Have a fulfilling and productive week 🙏*",
+      "token_count": 431
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000017",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\n🔥 Featured job openings\n1. **Fractal Software:** [CEO/Founder](https://www.lennysjobs.com/jobs/bbb7f335-4841-48fc-aff8-702a83f26f35) (SF, NYC)\n2. **Perfect Venue:** [Founding Team Full Stack Engineer](https://www.lennysjobs.com/jobs/461940f7-6f12-42af-a0d7-8fca71b2c693) (Remote-US)\n3. **Snackpass:** [Senior Product Manager](https://lennys-jobs.pallet.com/jobs/3e5c5552-cb71-4b23-9773-95f21ab14dfc) (NYC, LA, SF)\n4. **Silo Finance:** [Technical Product Manager](https://lennys-jobs.pallet.com/jobs/dceac63a-d817-47e7-a4a5-5f653f298bdd) (Remote-Global, Remote-EU, Remote-US)\n5. **Donut:** [First Product Manager](https://lennys-jobs.pallet.com/jobs/6259d930-475f-4ed4-82a3-fea29273b40a) (Remote-US, Remote-EU)\n6. **Mindbloom:** [Product Designer](https://lennys-jobs.pallet.com/jobs/0db1f9c0-266c-4d77-9852-df27b58f8779) (Remote-US, Remote-Canada)\n7. **Finch Care Inc.:** [Product Designer](https://lennys-jobs.pallet.com/jobs/18311f14-d482-48a1-808e-3716a7f1aabe) (Remote)\n8. **Mos:** [Product Manager](https://lennys-jobs.pallet.com/jobs/86e76563-7237-4a39-8465-3682823f7506) (Remote-US)\n9. **Airhouse:** [Senior Product Manager](https://lennys-jobs.pallet.com/jobs/1739a7ee-41ab-43fb-8ac9-788738baad22) (SF, Oakland)\n10. **CommerceHub:** [Director of Product Management, Delivery](https://lennys-jobs.pallet.com/jobs/5e4c79e3-9c75-4cd3-aa6f-0b9fc40636bf) (Remote-US)\n11. **CommerceHub:** [Sr. Product Manager](https://lennys-jobs.pallet.com/jobs/125eafba-2e93-41ee-98aa-abaae84c1b35) (Remote-US)\n12. **Elevate Labs:** [Senior Product Manager, Balance](https://lennys-jobs.pallet.com/jobs/54802bbd-3ad4-4abf-bd0f-308e86d52586) (Remote)\n13. **Oath Care:** [UX Designer](https://lennys-jobs.pallet.com/jobs/0e35e470-6b81-4dae-a706-33139219fa68) (Remote-US)\n*Browse more open roles, or add your own, at*\n[*Lenny’s Job Board*](https://lennysnewsletter.com/jobs)\n*.*",
+      "doc_item_refs": [
+        "#/texts/325",
+        "#/texts/329",
+        "#/texts/333",
+        "#/texts/337",
+        "#/texts/341",
+        "#/texts/345",
+        "#/texts/349",
+        "#/texts/353",
+        "#/texts/357",
+        "#/texts/361",
+        "#/texts/365",
+        "#/texts/369",
+        "#/texts/373",
+        "#/texts/377",
+        "#/texts/378",
+        "#/texts/379"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "🔥 Featured job openings"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000017",
+        "chunk_sha256": "9944879070bc09bf2554cdd73aad237e39925169c90831549762c36ee92c8938",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "🔥 Featured job openings"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 17,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/325",
+          "item_count": 16,
+          "last_self_ref": "#/texts/379"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/325",
+          "#/texts/329",
+          "#/texts/333",
+          "#/texts/337",
+          "#/texts/341",
+          "#/texts/345",
+          "#/texts/349",
+          "#/texts/353",
+          "#/texts/357",
+          "#/texts/361",
+          "#/texts/365",
+          "#/texts/369",
+          "#/texts/373",
+          "#/texts/377",
+          "#/texts/378",
+          "#/texts/379"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 17,
+      "raw_text": "1. **Fractal Software:** [CEO/Founder](https://www.lennysjobs.com/jobs/bbb7f335-4841-48fc-aff8-702a83f26f35) (SF, NYC)\n2. **Perfect Venue:** [Founding Team Full Stack Engineer](https://www.lennysjobs.com/jobs/461940f7-6f12-42af-a0d7-8fca71b2c693) (Remote-US)\n3. **Snackpass:** [Senior Product Manager](https://lennys-jobs.pallet.com/jobs/3e5c5552-cb71-4b23-9773-95f21ab14dfc) (NYC, LA, SF)\n4. **Silo Finance:** [Technical Product Manager](https://lennys-jobs.pallet.com/jobs/dceac63a-d817-47e7-a4a5-5f653f298bdd) (Remote-Global, Remote-EU, Remote-US)\n5. **Donut:** [First Product Manager](https://lennys-jobs.pallet.com/jobs/6259d930-475f-4ed4-82a3-fea29273b40a) (Remote-US, Remote-EU)\n6. **Mindbloom:** [Product Designer](https://lennys-jobs.pallet.com/jobs/0db1f9c0-266c-4d77-9852-df27b58f8779) (Remote-US, Remote-Canada)\n7. **Finch Care Inc.:** [Product Designer](https://lennys-jobs.pallet.com/jobs/18311f14-d482-48a1-808e-3716a7f1aabe) (Remote)\n8. **Mos:** [Product Manager](https://lennys-jobs.pallet.com/jobs/86e76563-7237-4a39-8465-3682823f7506) (Remote-US)\n9. **Airhouse:** [Senior Product Manager](https://lennys-jobs.pallet.com/jobs/1739a7ee-41ab-43fb-8ac9-788738baad22) (SF, Oakland)\n10. **CommerceHub:** [Director of Product Management, Delivery](https://lennys-jobs.pallet.com/jobs/5e4c79e3-9c75-4cd3-aa6f-0b9fc40636bf) (Remote-US)\n11. **CommerceHub:** [Sr. Product Manager](https://lennys-jobs.pallet.com/jobs/125eafba-2e93-41ee-98aa-abaae84c1b35) (Remote-US)\n12. **Elevate Labs:** [Senior Product Manager, Balance](https://lennys-jobs.pallet.com/jobs/54802bbd-3ad4-4abf-bd0f-308e86d52586) (Remote)\n13. **Oath Care:** [UX Designer](https://lennys-jobs.pallet.com/jobs/0e35e470-6b81-4dae-a706-33139219fa68) (Remote-US)\n*Browse more open roles, or add your own, at*\n[*Lenny’s Job Board*](https://lennysnewsletter.com/jobs)\n*.*",
+      "token_count": 937
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000018",
+      "contextualized_text": "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth\n🧠 Inspiration for the week ahead\n1. **Listen:** [20 Product: Lenny Rachitsky and Harry Stebbings](https://www.thetwentyminutevc.com/lenny-rachitsky/?v=2)\n2. **Read:** [Can’t cook, won’t cook? Here are the tips that saved me from a life of terrible meals](https://www.theguardian.com/food/2022/mar/02/cant-cook-wont-cook-here-are-the-tips-that-saved-me-from-a-life-of-terrible-meals) by Elle Hunt\n3. **Watch:** [*The Rescue*](https://www.disneyplus.com/movies/the-rescue/6u1VV7RFRiRz) . From the Oscar-winning team behind *Free Solo* , it chronicles the daring rescue of 12 boys and their soccer coach from deep inside a flooded cave in Thailand.\n[Watch on YouTube](https://www.youtube.com/watch?v=raVceiFQSjw)\n**If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/381",
+        "#/texts/384",
+        "#/texts/388",
+        "#/texts/394",
+        "#/texts/395",
+        "#/texts/396",
+        "#/texts/397"
+      ],
+      "document_id": "02-newsletters/how-to-interview-product-managers.md",
+      "headings": [
+        "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+        "🧠 Inspiration for the week ahead"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-interview-product-managers.md#chunk=000018",
+        "chunk_sha256": "020b028ae41e2697cd649e202d79a79bd4626fd2a187349079231aa3c67c3935",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+        "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+        "document_id": "02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+        "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+        "headings": [
+          "How to interview product managers — Interview structure, skills to test, questions to ask, project examples, and more | 2022-03-22 | Tags: career, leadership, product-management, design, newsletter, growth",
+          "🧠 Inspiration for the week ahead"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 18,
+        "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+        "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+        "segment": {
+          "first_self_ref": "#/texts/381",
+          "item_count": 7,
+          "last_self_ref": "#/texts/397"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/381",
+          "#/texts/384",
+          "#/texts/388",
+          "#/texts/394",
+          "#/texts/395",
+          "#/texts/396",
+          "#/texts/397"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 18,
+      "raw_text": "1. **Listen:** [20 Product: Lenny Rachitsky and Harry Stebbings](https://www.thetwentyminutevc.com/lenny-rachitsky/?v=2)\n2. **Read:** [Can’t cook, won’t cook? Here are the tips that saved me from a life of terrible meals](https://www.theguardian.com/food/2022/mar/02/cant-cook-wont-cook-here-are-the-tips-that-saved-me-from-a-life-of-terrible-meals) by Elle Hunt\n3. **Watch:** [*The Rescue*](https://www.disneyplus.com/movies/the-rescue/6u1VV7RFRiRz) . From the Oscar-winning team behind *Free Solo* , it chronicles the daring rescue of 12 boys and their soccer coach from deep inside a flooded cave in Thailand.\n[Watch on YouTube](https://www.youtube.com/watch?v=raVceiFQSjw)\n**If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "token_count": 336
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/how-to-interview-product-managers.docling.json",
+  "docling_sha256": "d4efd452dec77d786a185662006b565bed7f105836344bc3dca4dc9d24c8dd04",
+  "document_id": "02-newsletters/how-to-interview-product-managers.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/how-to-interview-product-managers.md",
+  "enhanced_sha256": "e53d51f1d1ce9567db5c50a97008f9f4fa9491a79b305223a01f06081a0cda68",
+  "fact_document_path": "chunks/v2/02-newsletters/how-to-interview-product-managers.chunks.json",
+  "metadata": {
+    "date": "2022-03-22",
+    "subtitle": "Interview structure, skills to test, questions to ask, project examples, and more",
+    "tags": [
+      "career",
+      "leadership",
+      "product-management",
+      "design",
+      "newsletter",
+      "growth"
+    ],
+    "title": "How to interview product managers",
+    "type": "newsletter",
+    "word_count": 4446
+  },
+  "raw_path": "corpus/raw/02-newsletters/how-to-interview-product-managers.md",
+  "raw_sha256": "640213af9d5c7281596f56eeacf8bdc5caac117c1bbc4846a226e74f0127bf8b",
+  "schema_version": "1",
+  "title": "How to interview product managers"
+}

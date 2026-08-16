@@ -1,0 +1,2277 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000000",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\nThink about it: When was the last time you (1) installed, (2) paid for, and (3) continued to pay for, a new app? I bet you it’s been a while. For me, it was upgrading to\n[Twitter Blue](https://help.twitter.com/en/using-twitter/twitter-blue)\n, and I’m probably going to cancel it. I certainly pay for apps (e.g.\n[AllTrails](https://www.alltrails.com/)\n,\n[Centered](https://www.centered.app/)\n,\n[Copilot](https://copilot.money/)\n,\n[Future](https://www.future.co/)\n, and a few streaming services), but I’ve tried and discarded 10x more over the years. Consumers (e.g. you and me) are busy, distractible, always looking for something new. A couple of years ago,\n[GP Bullhound](https://docsend.com/view/fn3udv2wxzqrirw4)\ncreated this map of B2C subscription apps. How many are still thriving? A very small percentage.\nImage from How to win in consumer subscription\nImage from How to win in consumer subscription\nIt’s brutal out there. But it’s not hopeless. There are a number of consumer apps that have stood the test of time, including some of my favorites:\n[Grammarly](https://www.grammarly.com/)\n,\n[Duolingo](https://www.duolingo.com/)\n,\n[Noom](https://www.noom.com/)\n,\n[Calm](https://calm.com/)\n,\n[Flo](https://flo.health/)\n,\n[Future](https://www.future.co/)\n, and\n[Spotify](https://www.spotify.com/)\n. To answer your question, I went deep into these seven companies (along with a few up-and-comers like\n[Copilot](https://copilot.money/)\n,\n[Centered](https://centered.app/)\n,\n[Mighty Health](https://mightyhealth.com/)\n, and\n[Greg](https://greg.app/)\n) to understand what it takes to win in the B2C subscription space. Here’s what stood out:\n1. **An obsession with efficiency**\n2. **Alignment between product strategy and acquisition strategy**\n3. **A singular focus to build a magical, sticky product through rapid iteration and endless optimization**\nBelow I’ll share stories and insights from each of these companies, but remember, a lot goes into building a successful company. Following all of this advice won’t guarantee you make it. In the end you still need to build something people want, continue to want, and make money doing it. But these tips will certainly help your odds.\n*Thank you,*\n[*Alex Ross*](https://www.linkedin.com/in/alexross8/)\n*(*\n[*Greg*](https://greg.app/)\n*),*\n[*Andres Ugarte*](https://www.linkedin.com/in/andresugarte/)\n*(*\n[*Copilot*](https://copilot.money/)\n*),*\n[*Artem Petakov*](https://twitter.com/artemon)\n*(*\n[*Noom*](https://noom.com/)\n*),*\n[*Cem Kansu*](https://www.linkedin.com/in/cemkansu/)\n*(*\n[*Duolingo*](https://www.duolingo.com/)\n*),*\n[*James Li*](https://www.linkedin.com/in/lijames/)\n*(*\n[*Mighty Health*](https://mightyhealth.com/)\n*),*\n[*Nick Lisher*](https://www.linkedin.com/in/lish/)\n*(*\n[*Flo*](https://flo.health/)\n*),*\n[*Nikhil Jhunjhnuwala*](https://www.linkedin.com/in/nikhiljhunjhnuwala/)\n*(*\n[*Noom*](https://noom.com/)\n*),*\n[*Rasmus Andersson*](https://www.linkedin.com/in/rasmusandersson/)\n*(*\n[*Spotify*](https://www.spotify.com/)\n*),*\n[*Rishi Mandal*](https://www.linkedin.com/in/rmandal/)\n*(*\n[*Future*](https://www.future.co/)\n*),*\n[*Ulf Schwekendiek*](https://www.linkedin.com/in/sulfme/)\n*(*\n[*Centered*](https://www.centered.app/)\n*), and*\n[*Yuriy Timen*](https://www.linkedin.com/in/yuriytimen/)\n*(*\n[*Grammarly*](https://www.grammarly.com/)\n*), for sharing their insights and advice with me for this post 🙏*\nImage from How to win in consumer subscription\nImage from How to win in consumer subscription",
+      "doc_item_refs": [
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/359",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/44",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/48",
+        "#/texts/49",
+        "#/texts/50",
+        "#/texts/51",
+        "#/texts/52",
+        "#/texts/53",
+        "#/texts/54",
+        "#/texts/55",
+        "#/texts/56",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60",
+        "#/texts/61",
+        "#/texts/62",
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65",
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/70",
+        "#/texts/71",
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/74",
+        "#/texts/75",
+        "#/texts/76",
+        "#/texts/77",
+        "#/texts/78",
+        "#/texts/79",
+        "#/texts/80",
+        "#/texts/81",
+        "#/texts/82",
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/87",
+        "#/texts/360",
+        "#/texts/88"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app."
+      ],
+      "images": [
+        {
+          "caption": "Image from How to win in consumer subscription",
+          "image_id": "02-newsletters/how-to-win-in-consumer-subscription.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/452ad144-54ec-4979-9fe0-535c1f0cb4d1_2470x1350.png"
+        },
+        {
+          "caption": "Image from How to win in consumer subscription",
+          "image_id": "02-newsletters/how-to-win-in-consumer-subscription.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/63b45077-5325-4e87-a600-2d1d50e2bfb6_4096x2048.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000000",
+        "chunk_sha256": "1c5c856844caa285bf3c42736f93476499d558ddccb4f944e5bb405deee4ac32",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app."
+        ],
+        "images": [
+          {
+            "caption": "Image from How to win in consumer subscription",
+            "image_id": "02-newsletters/how-to-win-in-consumer-subscription.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/452ad144-54ec-4979-9fe0-535c1f0cb4d1_2470x1350.png"
+          },
+          {
+            "caption": "Image from How to win in consumer subscription",
+            "image_id": "02-newsletters/how-to-win-in-consumer-subscription.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/63b45077-5325-4e87-a600-2d1d50e2bfb6_4096x2048.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/2",
+          "item_count": 89,
+          "last_self_ref": "#/texts/88"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/359",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32",
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/40",
+          "#/texts/41",
+          "#/texts/42",
+          "#/texts/43",
+          "#/texts/44",
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/48",
+          "#/texts/49",
+          "#/texts/50",
+          "#/texts/51",
+          "#/texts/52",
+          "#/texts/53",
+          "#/texts/54",
+          "#/texts/55",
+          "#/texts/56",
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/60",
+          "#/texts/61",
+          "#/texts/62",
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65",
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69",
+          "#/texts/70",
+          "#/texts/71",
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/74",
+          "#/texts/75",
+          "#/texts/76",
+          "#/texts/77",
+          "#/texts/78",
+          "#/texts/79",
+          "#/texts/80",
+          "#/texts/81",
+          "#/texts/82",
+          "#/texts/83",
+          "#/texts/84",
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/87",
+          "#/texts/360",
+          "#/texts/88"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "Think about it: When was the last time you (1) installed, (2) paid for, and (3) continued to pay for, a new app? I bet you it’s been a while. For me, it was upgrading to\n[Twitter Blue](https://help.twitter.com/en/using-twitter/twitter-blue)\n, and I’m probably going to cancel it. I certainly pay for apps (e.g.\n[AllTrails](https://www.alltrails.com/)\n,\n[Centered](https://www.centered.app/)\n,\n[Copilot](https://copilot.money/)\n,\n[Future](https://www.future.co/)\n, and a few streaming services), but I’ve tried and discarded 10x more over the years. Consumers (e.g. you and me) are busy, distractible, always looking for something new. A couple of years ago,\n[GP Bullhound](https://docsend.com/view/fn3udv2wxzqrirw4)\ncreated this map of B2C subscription apps. How many are still thriving? A very small percentage.\nImage from How to win in consumer subscription\nImage from How to win in consumer subscription\nIt’s brutal out there. But it’s not hopeless. There are a number of consumer apps that have stood the test of time, including some of my favorites:\n[Grammarly](https://www.grammarly.com/)\n,\n[Duolingo](https://www.duolingo.com/)\n,\n[Noom](https://www.noom.com/)\n,\n[Calm](https://calm.com/)\n,\n[Flo](https://flo.health/)\n,\n[Future](https://www.future.co/)\n, and\n[Spotify](https://www.spotify.com/)\n. To answer your question, I went deep into these seven companies (along with a few up-and-comers like\n[Copilot](https://copilot.money/)\n,\n[Centered](https://centered.app/)\n,\n[Mighty Health](https://mightyhealth.com/)\n, and\n[Greg](https://greg.app/)\n) to understand what it takes to win in the B2C subscription space. Here’s what stood out:\n1. **An obsession with efficiency**\n2. **Alignment between product strategy and acquisition strategy**\n3. **A singular focus to build a magical, sticky product through rapid iteration and endless optimization**\nBelow I’ll share stories and insights from each of these companies, but remember, a lot goes into building a successful company. Following all of this advice won’t guarantee you make it. In the end you still need to build something people want, continue to want, and make money doing it. But these tips will certainly help your odds.\n*Thank you,*\n[*Alex Ross*](https://www.linkedin.com/in/alexross8/)\n*(*\n[*Greg*](https://greg.app/)\n*),*\n[*Andres Ugarte*](https://www.linkedin.com/in/andresugarte/)\n*(*\n[*Copilot*](https://copilot.money/)\n*),*\n[*Artem Petakov*](https://twitter.com/artemon)\n*(*\n[*Noom*](https://noom.com/)\n*),*\n[*Cem Kansu*](https://www.linkedin.com/in/cemkansu/)\n*(*\n[*Duolingo*](https://www.duolingo.com/)\n*),*\n[*James Li*](https://www.linkedin.com/in/lijames/)\n*(*\n[*Mighty Health*](https://mightyhealth.com/)\n*),*\n[*Nick Lisher*](https://www.linkedin.com/in/lish/)\n*(*\n[*Flo*](https://flo.health/)\n*),*\n[*Nikhil Jhunjhnuwala*](https://www.linkedin.com/in/nikhiljhunjhnuwala/)\n*(*\n[*Noom*](https://noom.com/)\n*),*\n[*Rasmus Andersson*](https://www.linkedin.com/in/rasmusandersson/)\n*(*\n[*Spotify*](https://www.spotify.com/)\n*),*\n[*Rishi Mandal*](https://www.linkedin.com/in/rmandal/)\n*(*\n[*Future*](https://www.future.co/)\n*),*\n[*Ulf Schwekendiek*](https://www.linkedin.com/in/sulfme/)\n*(*\n[*Centered*](https://www.centered.app/)\n*), and*\n[*Yuriy Timen*](https://www.linkedin.com/in/yuriytimen/)\n*(*\n[*Grammarly*](https://www.grammarly.com/)\n*), for sharing their insights and advice with me for this post 🙏*\nImage from How to win in consumer subscription\nImage from How to win in consumer subscription",
+      "token_count": 1373
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000001",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\nPattern #1: Obsession with efficiency\nThe most common thread across every company was an obsession with efficiency—staying small, keeping costs down, and getting profitable. They all stayed lean until they found strong product-market fit and, in many cases, far beyond that.\nIn the case of Calm, an early employee shared that “for years, they had a hard time getting funding, so they were left with no alternative but to make the business profitable. They were obsessed with profitability, margins, and LTV/CAC. They kept the team size under 10, worked long hours in a one-bedroom apartment in San Francisco, and sharply questioned every outgoing dollar.”\nAt Grammarly,\n[Yuriy Timen](https://www.linkedin.com/in/yuriytimen/)\n(ex-Head of Growth) shared a similar story:",
+      "doc_item_refs": [
+        "#/texts/90",
+        "#/texts/91",
+        "#/texts/92",
+        "#/texts/93",
+        "#/texts/94"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "Pattern #1: Obsession with efficiency"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000001",
+        "chunk_sha256": "2c5453d96a503b3067f8a2c5e23e25972fa8b19a76c79b80ccf851264dd674eb",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "Pattern #1: Obsession with efficiency"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/90",
+          "item_count": 5,
+          "last_self_ref": "#/texts/94"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/90",
+          "#/texts/91",
+          "#/texts/92",
+          "#/texts/93",
+          "#/texts/94"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "The most common thread across every company was an obsession with efficiency—staying small, keeping costs down, and getting profitable. They all stayed lean until they found strong product-market fit and, in many cases, far beyond that.\nIn the case of Calm, an early employee shared that “for years, they had a hard time getting funding, so they were left with no alternative but to make the business profitable. They were obsessed with profitability, margins, and LTV/CAC. They kept the team size under 10, worked long hours in a one-bedroom apartment in San Francisco, and sharply questioned every outgoing dollar.”\nAt Grammarly,\n[Yuriy Timen](https://www.linkedin.com/in/yuriytimen/)\n(ex-Head of Growth) shared a similar story:",
+      "token_count": 276
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000002",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\nPattern #1: Obsession with efficiency\n“Grammarly was bootstrapped, so it could go really deep on R&D without the external pressure to launch too quickly. We remained self-funded for a while, which just built a culture and operating identity of being lean, efficient, and focusing on sustainable growth. If I had to guess, Grammarly was probably 2-4x leaner than other companies of comparable scale, which also allowed us to maintain profitability. This applied to hiring as well—Grammarly always paced its hiring goals based on its ability to maintain cultural cohesion and operational excellence.”\nSame with Noom, as\n[Artem Petakov](https://www.linkedin.com/in/artem-petakov-745a62b/)\n(co-founder) shared:",
+      "doc_item_refs": [
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/98"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "Pattern #1: Obsession with efficiency",
+        "“Grammarly was bootstrapped, so it could go really deep on R&D without the external pressure to launch too quickly. We remained self-funded for a while, which just built a culture and operating identity of being lean, efficient, and focusing on sustainable growth. If I had to guess, Grammarly was probably 2-4x leaner than other companies of comparable scale, which also allowed us to maintain profitability. This applied to hiring as well—Grammarly always paced its hiring goals based on its ability to maintain cultural cohesion and operational excellence.”"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000002",
+        "chunk_sha256": "500cc26aa0a61da59cfa94973a0c3396bf8ec7d0733a119ebc110c7b033fa3ba",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "Pattern #1: Obsession with efficiency",
+          "“Grammarly was bootstrapped, so it could go really deep on R&D without the external pressure to launch too quickly. We remained self-funded for a while, which just built a culture and operating identity of being lean, efficient, and focusing on sustainable growth. If I had to guess, Grammarly was probably 2-4x leaner than other companies of comparable scale, which also allowed us to maintain profitability. This applied to hiring as well—Grammarly always paced its hiring goals based on its ability to maintain cultural cohesion and operational excellence.”"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/96",
+          "item_count": 3,
+          "last_self_ref": "#/texts/98"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/98"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "Same with Noom, as\n[Artem Petakov](https://www.linkedin.com/in/artem-petakov-745a62b/)\n(co-founder) shared:",
+      "token_count": 271
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000003",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\nPattern #1: Obsession with efficiency\n“We were all living and working in one apartment for two years.”\n[Nikhil Jhunjhnuwala](https://www.linkedin.com/in/nikhiljhunjhnuwala/)\n(VP of Growth at Noom) went deeper:",
+      "doc_item_refs": [
+        "#/texts/100",
+        "#/texts/101"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "Pattern #1: Obsession with efficiency",
+        "“We were all living and working in one apartment for two years.”"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000003",
+        "chunk_sha256": "662be474312133be8f13d98786e6b87192d4f02a9ceed3675c2702493d8e81f1",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "Pattern #1: Obsession with efficiency",
+          "“We were all living and working in one apartment for two years.”"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/100",
+          "item_count": 2,
+          "last_self_ref": "#/texts/101"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/100",
+          "#/texts/101"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "[Nikhil Jhunjhnuwala](https://www.linkedin.com/in/nikhiljhunjhnuwala/)\n(VP of Growth at Noom) went deeper:",
+      "token_count": 166
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000004",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\nPattern #1: Obsession with efficiency\nI also think it helped that we targeted one-month payback, which allowed us to immediately reinvest money into our performance marketing engine, making us less reliant on raising money to grow. We started hiring significantly in 2019 after raising a round with Sequoia, once we were well past $60M in revenue/year.”\nAnd at\n[Future](https://www.future.co/)\n, as\n[Rishi Mandal](https://www.linkedin.com/in/rmandal/)\n(CEO) shared:",
+      "doc_item_refs": [
+        "#/texts/105",
+        "#/texts/106",
+        "#/texts/107",
+        "#/texts/108",
+        "#/texts/109"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "Pattern #1: Obsession with efficiency",
+        "I also think it helped that we targeted one-month payback, which allowed us to immediately reinvest money into our performance marketing engine, making us less reliant on raising money to grow. We started hiring significantly in 2019 after raising a round with Sequoia, once we were well past $60M in revenue/year.”"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000004",
+        "chunk_sha256": "1db45289a7b022f4e2db629fe7b6353a6691eeaa064f553f38b195697f7cd620",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "Pattern #1: Obsession with efficiency",
+          "I also think it helped that we targeted one-month payback, which allowed us to immediately reinvest money into our performance marketing engine, making us less reliant on raising money to grow. We started hiring significantly in 2019 after raising a round with Sequoia, once we were well past $60M in revenue/year.”"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/105",
+          "item_count": 5,
+          "last_self_ref": "#/texts/109"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/105",
+          "#/texts/106",
+          "#/texts/107",
+          "#/texts/108",
+          "#/texts/109"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "And at\n[Future](https://www.future.co/)\n, as\n[Rishi Mandal](https://www.linkedin.com/in/rmandal/)\n(CEO) shared:",
+      "token_count": 224
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000005",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\nPattern #1: Obsession with efficiency\nWhen we started Future, we felt that the broader world (consumers, investors, our friends, the press) may not fully grasp why connected coaching is a game changer until we showed it to them at scale. With this in mind, we aimed to keep our team size and cost structure small so that we could fund years of patient development and growth. To compensate for this smaller size, we’ve hired a team of talented and experienced people, where each team member is trusted with a lot of scope and decision-making power.”\nIt’s probably not a coincidence that the founders of all five of the biggest B2C subscription companies are immigrants: Noom and Grammarly’s founders were from Ukraine, Duolingo’s founder is from Guatemala, Calm’s from the U.K., and Spotify’s from Sweden.\n**Takeaway:**\nStay as lean as possible, and focus on revenue over growth—at least until you’ve found PMF.",
+      "doc_item_refs": [
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/114"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "Pattern #1: Obsession with efficiency",
+        "When we started Future, we felt that the broader world (consumers, investors, our friends, the press) may not fully grasp why connected coaching is a game changer until we showed it to them at scale. With this in mind, we aimed to keep our team size and cost structure small so that we could fund years of patient development and growth. To compensate for this smaller size, we’ve hired a team of talented and experienced people, where each team member is trusted with a lot of scope and decision-making power.”"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000005",
+        "chunk_sha256": "d3293368ca426e8577e0176f5d3e9d6d98d35f99aa191d38065e54d579ab94ee",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "Pattern #1: Obsession with efficiency",
+          "When we started Future, we felt that the broader world (consumers, investors, our friends, the press) may not fully grasp why connected coaching is a game changer until we showed it to them at scale. With this in mind, we aimed to keep our team size and cost structure small so that we could fund years of patient development and growth. To compensate for this smaller size, we’ve hired a team of talented and experienced people, where each team member is trusted with a lot of scope and decision-making power.”"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/112",
+          "item_count": 3,
+          "last_self_ref": "#/texts/114"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/112",
+          "#/texts/113",
+          "#/texts/114"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "It’s probably not a coincidence that the founders of all five of the biggest B2C subscription companies are immigrants: Noom and Grammarly’s founders were from Ukraine, Duolingo’s founder is from Guatemala, Calm’s from the U.K., and Spotify’s from Sweden.\n**Takeaway:**\nStay as lean as possible, and focus on revenue over growth—at least until you’ve found PMF.",
+      "token_count": 308
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000006",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\nPattern #2: Alignment between product strategy and acquisition strategy\nThe second most consistent pattern across these companies was an inseparable alignment between the product roadmap and the growth engine. Surviving in B2C is all about finding an efficient (aka cheap) growth channel. All of these five teams found a way to grow very efficiently—either through word of mouth or highly optimized paid ads.\nGrammarly’s growth strategy was to be everywhere:",
+      "doc_item_refs": [
+        "#/texts/116",
+        "#/texts/117"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "Pattern #2: Alignment between product strategy and acquisition strategy"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000006",
+        "chunk_sha256": "b14e561dc3514f936ca12424a4883231115fe413b51ee9aecf077e1eba811641",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "Pattern #2: Alignment between product strategy and acquisition strategy"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/116",
+          "item_count": 2,
+          "last_self_ref": "#/texts/117"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/116",
+          "#/texts/117"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "The second most consistent pattern across these companies was an inseparable alignment between the product roadmap and the growth engine. Surviving in B2C is all about finding an efficient (aka cheap) growth channel. All of these five teams found a way to grow very efficiently—either through word of mouth or highly optimized paid ads.\nGrammarly’s growth strategy was to be everywhere:",
+      "token_count": 190
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000007",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\nPattern #2: Alignment between product strategy and acquisition strategy\n\n“Grammarly’s product strategy was to sit across all your apps and writing environments (i.e. mobile keyboard, browser extension), so that immediately informed our rapid funnel and creative experimentation.” —\n[Yuriy Timen](https://www.linkedin.com/in/yuriytimen/)\nDuolingo, which was also driven almost exclusively by word of mouth, optimized for free user growth:\n—\n[Cem Kansu](https://www.linkedin.com/in/cemkansu/)\n, VP of Product at Duolingo\nAs did Spotify, which found a lot of success with the freemium model:\n—Gustav Söderström, chief R&D officer, via\n[Spotify: A Product Story](https://open.spotify.com/episode/7oB1UYZtOiKqY1Gj3niptG)\nNoom, which grew primarily through paid ads, focused on making it very easy for their teams to iterate and learn:",
+      "doc_item_refs": [
+        "#/texts/119",
+        "#/texts/120",
+        "#/texts/121",
+        "#/texts/126",
+        "#/texts/127",
+        "#/texts/128",
+        "#/texts/129",
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/134"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "Pattern #2: Alignment between product strategy and acquisition strategy",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000007",
+        "chunk_sha256": "6f4b385cc87117751c736e91b3aa4b22575414858792afe31a7049b51237f667",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "Pattern #2: Alignment between product strategy and acquisition strategy",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/119",
+          "item_count": 10,
+          "last_self_ref": "#/texts/134"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/119",
+          "#/texts/120",
+          "#/texts/121",
+          "#/texts/126",
+          "#/texts/127",
+          "#/texts/128",
+          "#/texts/129",
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/134"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "“Grammarly’s product strategy was to sit across all your apps and writing environments (i.e. mobile keyboard, browser extension), so that immediately informed our rapid funnel and creative experimentation.” —\n[Yuriy Timen](https://www.linkedin.com/in/yuriytimen/)\nDuolingo, which was also driven almost exclusively by word of mouth, optimized for free user growth:\n—\n[Cem Kansu](https://www.linkedin.com/in/cemkansu/)\n, VP of Product at Duolingo\nAs did Spotify, which found a lot of success with the freemium model:\n—Gustav Söderström, chief R&D officer, via\n[Spotify: A Product Story](https://open.spotify.com/episode/7oB1UYZtOiKqY1Gj3niptG)\nNoom, which grew primarily through paid ads, focused on making it very easy for their teams to iterate and learn:",
+      "token_count": 330
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000008",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\nPattern #2: Alignment between product strategy and acquisition strategy\n—Nikhil Jhunjhnuwala\nBut be forewarned, the paid growth channel is very different these days, as\n[James Li](https://www.linkedin.com/in/lijames/)\n(founder of\n[Mighty Health](https://www.mightyhealth.com/)\n, an exercise and nutrition app for adults 50+) pointed out:",
+      "doc_item_refs": [
+        "#/texts/138",
+        "#/texts/139",
+        "#/texts/140",
+        "#/texts/141",
+        "#/texts/142"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "Pattern #2: Alignment between product strategy and acquisition strategy",
+        "—Nikhil Jhunjhnuwala"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000008",
+        "chunk_sha256": "17d2ae13dbcbbf8843b8f1be9cc7b312c7035fe4c8d3b9c5cfb956bbaed61561",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "Pattern #2: Alignment between product strategy and acquisition strategy",
+          "—Nikhil Jhunjhnuwala"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/138",
+          "item_count": 5,
+          "last_self_ref": "#/texts/142"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/138",
+          "#/texts/139",
+          "#/texts/140",
+          "#/texts/141",
+          "#/texts/142"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "But be forewarned, the paid growth channel is very different these days, as\n[James Li](https://www.linkedin.com/in/lijames/)\n(founder of\n[Mighty Health](https://www.mightyhealth.com/)\n, an exercise and nutrition app for adults 50+) pointed out:",
+      "token_count": 194
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000009",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\nPattern #2: Alignment between product strategy and acquisition strategy\n\n“The paid acquisition landscape is more challenging than ever. With a saturated B2C app market, CPMs were already trending higher, but last year’s iOS 14 changes were the proverbial nail in the coffin. We’ve observed founder friends at companies of all sizes and budgets struggling with paid social. Some of the largest app companies (such as the ones you’re exploring) rode the wave of cheaper social ads in previous years but are struggling now; luckily, most were able to achieve escape velocity and build a big revenue base before it was too late. You can still get healthy ROAs on Facebook at lower budgets to kickstart things in the early days, but you’d better start finding some hit channels in referral/PLG or content/SEO (as you outlined in\n[the racecar framework](https://www.reforge.com/blog/racecar-growth-framework)\n) to get to the next level.”\nThough it’s not all bad news:\n“One noteworthy tailwind that’s helping to offset some of the increase in CAC for earlier-stage subscription apps is that the cuts App Store and Play Store take are coming down, which boosts gross margins. Most big apps that are operating at scale and have web-based subscription options were seeing a blended gross margin of around 85% before 2022. Google Play now charges 15% for most apps, and the Apple App Store is 15% for your first $1M in revenue, so new apps can also now plan for gross margins of 85% and over time it should be possible to push that up to 90%+. There’s more pressure for that cut to come down even further, and Google Play\n[is testing a ‘user-choice’ third-party billing option with Spotify](https://newsroom.spotify.com/2022-03-23/spotify-and-google-announce-user-choice-billing/)\n.”\n—\n[Alex Ross](https://www.linkedin.com/in/alexross8/)\n, CEO of\n[Greg](https://greg.app/)\n**Takeaway:**\nDetermine how you’ll grow (e.g. paid ads, word of mouth, or SEO) and then make sure your product roadmap is actively supporting this growth engine.",
+      "doc_item_refs": [
+        "#/texts/144",
+        "#/texts/145",
+        "#/texts/146",
+        "#/texts/147",
+        "#/texts/149",
+        "#/texts/150",
+        "#/texts/151",
+        "#/texts/153",
+        "#/texts/154",
+        "#/texts/155",
+        "#/texts/156",
+        "#/texts/157",
+        "#/texts/158"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "Pattern #2: Alignment between product strategy and acquisition strategy",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000009",
+        "chunk_sha256": "b65d088c6f91cc64b5ed898995a784b9b0b554b6961d5e450772dbfbba2170b8",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "Pattern #2: Alignment between product strategy and acquisition strategy",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/144",
+          "item_count": 13,
+          "last_self_ref": "#/texts/158"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/144",
+          "#/texts/145",
+          "#/texts/146",
+          "#/texts/147",
+          "#/texts/149",
+          "#/texts/150",
+          "#/texts/151",
+          "#/texts/153",
+          "#/texts/154",
+          "#/texts/155",
+          "#/texts/156",
+          "#/texts/157",
+          "#/texts/158"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "“The paid acquisition landscape is more challenging than ever. With a saturated B2C app market, CPMs were already trending higher, but last year’s iOS 14 changes were the proverbial nail in the coffin. We’ve observed founder friends at companies of all sizes and budgets struggling with paid social. Some of the largest app companies (such as the ones you’re exploring) rode the wave of cheaper social ads in previous years but are struggling now; luckily, most were able to achieve escape velocity and build a big revenue base before it was too late. You can still get healthy ROAs on Facebook at lower budgets to kickstart things in the early days, but you’d better start finding some hit channels in referral/PLG or content/SEO (as you outlined in\n[the racecar framework](https://www.reforge.com/blog/racecar-growth-framework)\n) to get to the next level.”\nThough it’s not all bad news:\n“One noteworthy tailwind that’s helping to offset some of the increase in CAC for earlier-stage subscription apps is that the cuts App Store and Play Store take are coming down, which boosts gross margins. Most big apps that are operating at scale and have web-based subscription options were seeing a blended gross margin of around 85% before 2022. Google Play now charges 15% for most apps, and the Apple App Store is 15% for your first $1M in revenue, so new apps can also now plan for gross margins of 85% and over time it should be possible to push that up to 90%+. There’s more pressure for that cut to come down even further, and Google Play\n[is testing a ‘user-choice’ third-party billing option with Spotify](https://newsroom.spotify.com/2022-03-23/spotify-and-google-announce-user-choice-billing/)\n.”\n—\n[Alex Ross](https://www.linkedin.com/in/alexross8/)\n, CEO of\n[Greg](https://greg.app/)\n**Takeaway:**\nDetermine how you’ll grow (e.g. paid ads, word of mouth, or SEO) and then make sure your product roadmap is actively supporting this growth engine.",
+      "token_count": 605
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000010",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\n\nPattern #3:\n**A magical, sticky product through rapid iteration and endless optimization**\nMore than simply “building something people want,” the bar for a sticky consumer subscription app is high. People get bored and quickly look for the next shiny thing. Every one of these apps did something unique to keep people coming back.\nFor Noom, it was getting deep into human psychology:",
+      "doc_item_refs": [
+        "#/texts/160",
+        "#/texts/161",
+        "#/texts/162",
+        "#/texts/163"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000010",
+        "chunk_sha256": "c446b3e20c678a1ed24a5cbac55cda574dc154134ed5f59de8777a1170955643",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/160",
+          "item_count": 4,
+          "last_self_ref": "#/texts/163"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/160",
+          "#/texts/161",
+          "#/texts/162",
+          "#/texts/163"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "Pattern #3:\n**A magical, sticky product through rapid iteration and endless optimization**\nMore than simply “building something people want,” the bar for a sticky consumer subscription app is high. People get bored and quickly look for the next shiny thing. Every one of these apps did something unique to keep people coming back.\nFor Noom, it was getting deep into human psychology:",
+      "token_count": 177
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000011",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\n\n“We used a lot of tactics to maximize and capitalize on motivation (behavioral economics, psychology, etc.). Our product isn’t ‘fun’—getting healthy is hard. Acquisition is part of the product—changing people’s minds.” —Nikhil Jhunjhnuwala\nArtem (co-founder of Noom) shared the same point on Twitter:\nFor Duolingo, its special sauce was making the experience incredibly fun:",
+      "doc_item_refs": [
+        "#/texts/165",
+        "#/texts/166"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "",
+        "“We used a lot of tactics to maximize and capitalize on motivation (behavioral economics, psychology, etc.). Our product isn’t ‘fun’—getting healthy is hard. Acquisition is part of the product—changing people’s minds.” —Nikhil Jhunjhnuwala"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000011",
+        "chunk_sha256": "f1f957683e5842cc07a6c9cf63edb4e464777d648167091ea906d506f5eaf024",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "",
+          "“We used a lot of tactics to maximize and capitalize on motivation (behavioral economics, psychology, etc.). Our product isn’t ‘fun’—getting healthy is hard. Acquisition is part of the product—changing people’s minds.” —Nikhil Jhunjhnuwala"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/165",
+          "item_count": 2,
+          "last_self_ref": "#/texts/166"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/165",
+          "#/texts/166"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "Artem (co-founder of Noom) shared the same point on Twitter:\nFor Duolingo, its special sauce was making the experience incredibly fun:",
+      "token_count": 192
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000012",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\n\n\n“Learning a language is hard, especially since it’s self-motivated learning. So we knew we had to create a fun experience in order to create a sticky product with good retention. We gamified language learning through many product features: mechanics like streaks and\n[leaderboards](https://twitter.com/cemkansu/status/1366165611496296451)\n, or having our mascot Duo be your coach, or using design elements like progress bars.",
+      "doc_item_refs": [
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/170"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000012",
+        "chunk_sha256": "786823d58dcde8a5bab4da722dd9f0199a1e4d3d4ad75dbb9f706a9640f955df",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/168",
+          "item_count": 3,
+          "last_self_ref": "#/texts/170"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/170"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "“Learning a language is hard, especially since it’s self-motivated learning. So we knew we had to create a fun experience in order to create a sticky product with good retention. We gamified language learning through many product features: mechanics like streaks and\n[leaderboards](https://twitter.com/cemkansu/status/1366165611496296451)\n, or having our mascot Duo be your coach, or using design elements like progress bars.",
+      "token_count": 201
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000013",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\n\nThis helped us continuously increase our retention over the years, making Duolingo more fun and sticky. Every screen in our products is obsessed over many times by many people. You can see this throughout the product, where every screen takes Duolingo design principles seriously: every screen will have minimal text, be gamified, simple and intuitive etc. Even though this slows down how fast you can ship features, it’s key to creating a delightful product experience.” —Cem Kansu\nFor Spotify, it was about creating magic:",
+      "doc_item_refs": [
+        "#/texts/172"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "",
+        "This helped us continuously increase our retention over the years, making Duolingo more fun and sticky. Every screen in our products is obsessed over many times by many people. You can see this throughout the product, where every screen takes Duolingo design principles seriously: every screen will have minimal text, be gamified, simple and intuitive etc. Even though this slows down how fast you can ship features, it’s key to creating a delightful product experience.” —Cem Kansu"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000013",
+        "chunk_sha256": "0c09d9e3f7a26453afd886032197e1ee972bb2e6059d1503521e51bb540932db",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "",
+          "This helped us continuously increase our retention over the years, making Duolingo more fun and sticky. Every screen in our products is obsessed over many times by many people. You can see this throughout the product, where every screen takes Duolingo design principles seriously: every screen will have minimal text, be gamified, simple and intuitive etc. Even though this slows down how fast you can ship features, it’s key to creating a delightful product experience.” —Cem Kansu"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/172",
+          "item_count": 1,
+          "last_self_ref": "#/texts/172"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/172"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "For Spotify, it was about creating magic:",
+      "token_count": 209
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000014",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\n\n\n—Gustav Söderström via\n[Spotify: A Product Story](https://open.spotify.com/episode/7oB1UYZtOiKqY1Gj3niptG)",
+      "doc_item_refs": [
+        "#/texts/176",
+        "#/texts/177"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000014",
+        "chunk_sha256": "403b3e88781d98762b621b3b834838cac4ad884549475592037d2a8eeae388dd",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/176",
+          "item_count": 2,
+          "last_self_ref": "#/texts/177"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/176",
+          "#/texts/177"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "—Gustav Söderström via\n[Spotify: A Product Story](https://open.spotify.com/episode/7oB1UYZtOiKqY1Gj3niptG)",
+      "token_count": 144
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000015",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\n\n—Rasmus Andersson, ex-Head of Design at Spotify\nFor Grammarly, it was to intensely focus on a very specific use case:",
+      "doc_item_refs": [
+        "#/texts/180"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "",
+        "—Rasmus Andersson, ex-Head of Design at Spotify"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000015",
+        "chunk_sha256": "21e73c914b6d882ef84182f2eb2d1fb960780d8091da9cbec948fa2957a6403a",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "",
+          "—Rasmus Andersson, ex-Head of Design at Spotify"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 15,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/180",
+          "item_count": 1,
+          "last_self_ref": "#/texts/180"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/180"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 15,
+      "raw_text": "For Grammarly, it was to intensely focus on a very specific use case:",
+      "token_count": 128
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000016",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\n\n—Yuriy Timen\nFor\n[Future](https://www.future.co/)\n, it was figuring out how to crack churn in a historically high-churn market:",
+      "doc_item_refs": [
+        "#/texts/183",
+        "#/texts/184",
+        "#/texts/185"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "",
+        "—Yuriy Timen"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000016",
+        "chunk_sha256": "6988b8604f80770742e925851a825821716ff2ff4c7abdfba7a2dd12fdb7b415",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "",
+          "—Yuriy Timen"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 16,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/183",
+          "item_count": 3,
+          "last_self_ref": "#/texts/185"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/183",
+          "#/texts/184",
+          "#/texts/185"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 16,
+      "raw_text": "For\n[Future](https://www.future.co/)\n, it was figuring out how to crack churn in a historically high-churn market:",
+      "token_count": 139
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000017",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\n\n\nWe did this through rapid iteration. What we did early on was set an\n*insanely*\nhigh bar for our 3-month retention (relative to that characteristic curve above). Then we onboarded cohorts of members every 3 months. To make sure we weren’t tricking ourselves, each member was billed and reminded monthly (many subscription businesses don’t bother doing this; and this is still the case today—we even still remind members ~1 week\n*before*\ntheir first recurring charge).\n—\n**Rishi Mandal**\nFor\n[Greg](https://greg.app/)\n(a plant care app), it’s about getting users to that “aha” moment as quickly as possible:\n—\n**Alex Ross**\nMost important of all, across growth and product, is to figure out what’s\n*different*\nabout your product or distribution very early on, as\n[Andres Ugarte](https://www.linkedin.com/in/andresugarte/)\n(CEO of\n[Copilot](https://copilot.money/)\n) pointed out:",
+      "doc_item_refs": [
+        "#/texts/188",
+        "#/texts/189",
+        "#/texts/190",
+        "#/texts/191",
+        "#/texts/192",
+        "#/texts/195",
+        "#/texts/196",
+        "#/texts/197",
+        "#/texts/198",
+        "#/texts/199",
+        "#/texts/202",
+        "#/texts/203",
+        "#/texts/204",
+        "#/texts/205",
+        "#/texts/206",
+        "#/texts/207",
+        "#/texts/208",
+        "#/texts/209",
+        "#/texts/210"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000017",
+        "chunk_sha256": "41b5eedcc8ba92263e335ac3c7fa061dae3eb3d5af51c4c10d79cf5e255bee28",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 17,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/188",
+          "item_count": 19,
+          "last_self_ref": "#/texts/210"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/188",
+          "#/texts/189",
+          "#/texts/190",
+          "#/texts/191",
+          "#/texts/192",
+          "#/texts/195",
+          "#/texts/196",
+          "#/texts/197",
+          "#/texts/198",
+          "#/texts/199",
+          "#/texts/202",
+          "#/texts/203",
+          "#/texts/204",
+          "#/texts/205",
+          "#/texts/206",
+          "#/texts/207",
+          "#/texts/208",
+          "#/texts/209",
+          "#/texts/210"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 17,
+      "raw_text": "We did this through rapid iteration. What we did early on was set an\n*insanely*\nhigh bar for our 3-month retention (relative to that characteristic curve above). Then we onboarded cohorts of members every 3 months. To make sure we weren’t tricking ourselves, each member was billed and reminded monthly (many subscription businesses don’t bother doing this; and this is still the case today—we even still remind members ~1 week\n*before*\ntheir first recurring charge).\n—\n**Rishi Mandal**\nFor\n[Greg](https://greg.app/)\n(a plant care app), it’s about getting users to that “aha” moment as quickly as possible:\n—\n**Alex Ross**\nMost important of all, across growth and product, is to figure out what’s\n*different*\nabout your product or distribution very early on, as\n[Andres Ugarte](https://www.linkedin.com/in/andresugarte/)\n(CEO of\n[Copilot](https://copilot.money/)\n) pointed out:",
+      "token_count": 335
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000018",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\n\n**“**This is particularly important when you’re entering a crowded category but applies to any SaaS business. You either have a clever new way of finding users or you make your product hard to ignore. In our case, we started Copilot because we were frustrated with the quality of the apps in the space. So we focused on delighting users with a best-in-class app that would blow the competition out of the water. That’s our main driver for growth, retention, and engagement. Everything else is secondary.”\nAnd to build a loop that keeps them coming back:",
+      "doc_item_refs": [
+        "#/texts/212"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "",
+        "**“**This is particularly important when you’re entering a crowded category but applies to any SaaS business. You either have a clever new way of finding users or you make your product hard to ignore. In our case, we started Copilot because we were frustrated with the quality of the apps in the space. So we focused on delighting users with a best-in-class app that would blow the competition out of the water. That’s our main driver for growth, retention, and engagement. Everything else is secondary.”"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000018",
+        "chunk_sha256": "942f998fb0e3a983390af0ac8eb221600e9ab3617909ed835d9889ef94379a6b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "",
+          "**“**This is particularly important when you’re entering a crowded category but applies to any SaaS business. You either have a clever new way of finding users or you make your product hard to ignore. In our case, we started Copilot because we were frustrated with the quality of the apps in the space. So we focused on delighting users with a best-in-class app that would blow the competition out of the water. That’s our main driver for growth, retention, and engagement. Everything else is secondary.”"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 18,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/212",
+          "item_count": 1,
+          "last_self_ref": "#/texts/212"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/212"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 18,
+      "raw_text": "And to build a loop that keeps them coming back:",
+      "token_count": 222
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000019",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\n\n\n—\n[Andres Ugarte](https://www.linkedin.com/in/andresugarte/)\n, CEO of Copilot\nTo accomplish this, you need to create a culture of learning and rapid iteration. For example, Nikhil Jhunjhnuwala (VP of Growth at Noom) shared how the company operated in the early days:\n“We optimized for\n*fast*\nlearning, encouraged rapid experimentation, with nothing off-limits. For example:",
+      "doc_item_refs": [
+        "#/texts/215",
+        "#/texts/216",
+        "#/texts/217",
+        "#/texts/218",
+        "#/texts/220",
+        "#/texts/221",
+        "#/texts/222"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000019",
+        "chunk_sha256": "e389348516127da9967ee7185e5f80a1dd46cf7c83978b10f08a47d7cb33ba62",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 19,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/215",
+          "item_count": 7,
+          "last_self_ref": "#/texts/222"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/215",
+          "#/texts/216",
+          "#/texts/217",
+          "#/texts/218",
+          "#/texts/220",
+          "#/texts/221",
+          "#/texts/222"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 19,
+      "raw_text": "—\n[Andres Ugarte](https://www.linkedin.com/in/andresugarte/)\n, CEO of Copilot\nTo accomplish this, you need to create a culture of learning and rapid iteration. For example, Nikhil Jhunjhnuwala (VP of Growth at Noom) shared how the company operated in the early days:\n“We optimized for\n*fast*\nlearning, encouraged rapid experimentation, with nothing off-limits. For example:",
+      "token_count": 200
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000020",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\n\nI think companies underestimate the power of experimentation volume. There’s an assumption that quality (high effort) will increase win rate or size. Possibly, but you lose out on learnings that can be used to help you eventually figure it out. There’s an appropriate level of speed and quality depending on what you’re validating and risk; no one size fits all.”\n[Flo](https://flo.health/)\nhad a similar philosophy, as\n[Nick Lisher](https://www.linkedin.com/in/lish/)\n(CMO) shared with me:",
+      "doc_item_refs": [
+        "#/texts/227",
+        "#/texts/228",
+        "#/texts/229",
+        "#/texts/230"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "",
+        "I think companies underestimate the power of experimentation volume. There’s an assumption that quality (high effort) will increase win rate or size. Possibly, but you lose out on learnings that can be used to help you eventually figure it out. There’s an appropriate level of speed and quality depending on what you’re validating and risk; no one size fits all.”"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000020",
+        "chunk_sha256": "c8bfe27088994f5cc1389a6df02fa33775b42d2907debc7370071ea34619bd53",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "",
+          "I think companies underestimate the power of experimentation volume. There’s an assumption that quality (high effort) will increase win rate or size. Possibly, but you lose out on learnings that can be used to help you eventually figure it out. There’s an appropriate level of speed and quality depending on what you’re validating and risk; no one size fits all.”"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 20,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/227",
+          "item_count": 4,
+          "last_self_ref": "#/texts/230"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/227",
+          "#/texts/228",
+          "#/texts/229",
+          "#/texts/230"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 20,
+      "raw_text": "[Flo](https://flo.health/)\nhad a similar philosophy, as\n[Nick Lisher](https://www.linkedin.com/in/lish/)\n(CMO) shared with me:",
+      "token_count": 230
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000021",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\n\n“Flo Health’s subscription product has incredibly low churn, which was only possible through relentless high-tempo testing of every aspect of the funnel. From user acquisition to onboarding to paywall, it has been essential not only in communicating these benefits but also in learning which benefits our customers want from a health app.”\n[James Li](https://www.linkedin.com/in/lijames/)\n(\n[Mighty Health](https://mightyhealth.com/)\n) also shared how important constant optimization has been for his company:",
+      "doc_item_refs": [
+        "#/texts/232",
+        "#/texts/233",
+        "#/texts/234",
+        "#/texts/235"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "",
+        "“Flo Health’s subscription product has incredibly low churn, which was only possible through relentless high-tempo testing of every aspect of the funnel. From user acquisition to onboarding to paywall, it has been essential not only in communicating these benefits but also in learning which benefits our customers want from a health app.”"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000021",
+        "chunk_sha256": "76c370295c53f6a9c576d4ffa0509bb8423512e39108003f4f87ed94ea10b1e1",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "",
+          "“Flo Health’s subscription product has incredibly low churn, which was only possible through relentless high-tempo testing of every aspect of the funnel. From user acquisition to onboarding to paywall, it has been essential not only in communicating these benefits but also in learning which benefits our customers want from a health app.”"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 21,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/232",
+          "item_count": 4,
+          "last_self_ref": "#/texts/235"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/232",
+          "#/texts/233",
+          "#/texts/234",
+          "#/texts/235"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 21,
+      "raw_text": "[James Li](https://www.linkedin.com/in/lijames/)\n(\n[Mighty Health](https://mightyhealth.com/)\n) also shared how important constant optimization has been for his company:",
+      "token_count": 218
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000022",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\n\n\n“We’ve found that it’s essential to focus on conversion rate optimization (CRO)—constantly iterating on and improving every step of your initial funnel, from the app store page to your paywall (and beyond). It’s a super-unsexy, disciplined process, running weekly sprints with multiple A/B tests and being conscientious about monitoring the metrics, but it leads to success over time. You have to be OK with most of your tests failing, but the 1 in 5 or 1 in 10 experiments that\n*do*\nwin accrue to big gains over time. For example, we’ve recently had a string of failed experiments, but adding a ‘sizzle reel’ video of our most popular features to our onboarding flow last week increased conversion from account creation to start trial by over 50%.”\nSimilarly, Ulf Schwekendiek (CEO of\n[Centered](https://www.centered.app/)\n) recently saw massive improvement from a small update to the website:",
+      "doc_item_refs": [
+        "#/texts/237",
+        "#/texts/238",
+        "#/texts/239",
+        "#/texts/240",
+        "#/texts/241",
+        "#/texts/242"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000022",
+        "chunk_sha256": "7a393c9ea7bc6c026b78be43624ae59bea28b63896a6bb0eb726770dd7d420d1",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 22,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/237",
+          "item_count": 6,
+          "last_self_ref": "#/texts/242"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/237",
+          "#/texts/238",
+          "#/texts/239",
+          "#/texts/240",
+          "#/texts/241",
+          "#/texts/242"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 22,
+      "raw_text": "“We’ve found that it’s essential to focus on conversion rate optimization (CRO)—constantly iterating on and improving every step of your initial funnel, from the app store page to your paywall (and beyond). It’s a super-unsexy, disciplined process, running weekly sprints with multiple A/B tests and being conscientious about monitoring the metrics, but it leads to success over time. You have to be OK with most of your tests failing, but the 1 in 5 or 1 in 10 experiments that\n*do*\nwin accrue to big gains over time. For example, we’ve recently had a string of failed experiments, but adding a ‘sizzle reel’ video of our most popular features to our onboarding flow last week increased conversion from account creation to start trial by over 50%.”\nSimilarly, Ulf Schwekendiek (CEO of\n[Centered](https://www.centered.app/)\n) recently saw massive improvement from a small update to the website:",
+      "token_count": 317
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000023",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\n\n“We 2x’d our web conversions by stripping everything out above the fold (header links, platform-specific download link, et al.) and forcing new subscriptions into a single CTA.”\nBut as\n[Cem Kansu](https://www.linkedin.com/in/cemkansu/)\n(VP of Product at Duolingo) reminds us, it’s important to think long-term:",
+      "doc_item_refs": [
+        "#/texts/244",
+        "#/texts/245",
+        "#/texts/246"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "",
+        "“We 2x’d our web conversions by stripping everything out above the fold (header links, platform-specific download link, et al.) and forcing new subscriptions into a single CTA.”"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000023",
+        "chunk_sha256": "ec7e076ae01125a8efb9e0080d80112683266c7f722adcf19178e0100f67f37a",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "",
+          "“We 2x’d our web conversions by stripping everything out above the fold (header links, platform-specific download link, et al.) and forcing new subscriptions into a single CTA.”"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 23,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/244",
+          "item_count": 3,
+          "last_self_ref": "#/texts/246"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/244",
+          "#/texts/245",
+          "#/texts/246"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 23,
+      "raw_text": "But as\n[Cem Kansu](https://www.linkedin.com/in/cemkansu/)\n(VP of Product at Duolingo) reminds us, it’s important to think long-term:",
+      "token_count": 191
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000024",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nQ: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.\n\nFor example: If you offer subscription pricing that’s confusing to users, you might make more revenue in the short term from user confusion, but you’ll pay the price in the long term by losing your users’ trust. Instead, always do the right thing for your users and build things you will be proud of in 10 years.”\n**Takeaway:**\nWork backward from a magical app experience, and then continue to refine, iterate, and optimize until you get there.",
+      "doc_item_refs": [
+        "#/texts/249",
+        "#/texts/250"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+        "",
+        "For example: If you offer subscription pricing that’s confusing to users, you might make more revenue in the short term from user confusion, but you’ll pay the price in the long term by losing your users’ trust. Instead, always do the right thing for your users and build things you will be proud of in 10 years.”"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000024",
+        "chunk_sha256": "e1a94c13029ebcac6e33bb0ae50d44e8f5d49f7c8e6b8f875310d7a6b0f8fe20",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Q: I’m building an app targeted at consumers, and plan to charge a monthly fee. I’d love your advice around what it takes to build a durable business as a B2C subscription app.",
+          "",
+          "For example: If you offer subscription pricing that’s confusing to users, you might make more revenue in the short term from user confusion, but you’ll pay the price in the long term by losing your users’ trust. Instead, always do the right thing for your users and build things you will be proud of in 10 years.”"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 24,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/249",
+          "item_count": 2,
+          "last_self_ref": "#/texts/250"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/249",
+          "#/texts/250"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 24,
+      "raw_text": "**Takeaway:**\nWork backward from a magical app experience, and then continue to refine, iterate, and optimize until you get there.",
+      "token_count": 202
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000025",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nBonus advice\nAs a bonus, I asked every founder for any additional tactical advice. Here’s what they shared.",
+      "doc_item_refs": [
+        "#/texts/252"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Bonus advice"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000025",
+        "chunk_sha256": "c27c7861663e1abcffbe014b5b1731fb09d4f960c7fd8704753a5b7817489234",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Bonus advice"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 25,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/252",
+          "item_count": 1,
+          "last_self_ref": "#/texts/252"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/252"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 25,
+      "raw_text": "As a bonus, I asked every founder for any additional tactical advice. Here’s what they shared.",
+      "token_count": 79
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000026",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nBonus advice\n1. Encourage longer plans\n“One of our biggest wins came from going from monthly to four-month plans, and offering add-ons right after signups when motivation is the highest for our customers. Interestingly, money is a strong lever for us. Even paying $1 up front will increase engagement and retention vs. $0.”\n—\n[Nikhil Jhunjhnuwala](https://www.linkedin.com/in/nikhiljhunjhnuwala/)\n, Noom\nI heard similar stories from Calm and others.",
+      "doc_item_refs": [
+        "#/texts/254",
+        "#/texts/255",
+        "#/texts/256",
+        "#/texts/257",
+        "#/texts/258"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Bonus advice",
+        "1. Encourage longer plans"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000026",
+        "chunk_sha256": "f051ef482bf2514811b3839d4eaeedafcd69c5b9a0ff8545b6bd387056a34b0c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Bonus advice",
+          "1. Encourage longer plans"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 26,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/254",
+          "item_count": 5,
+          "last_self_ref": "#/texts/258"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/254",
+          "#/texts/255",
+          "#/texts/256",
+          "#/texts/257",
+          "#/texts/258"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 26,
+      "raw_text": "“One of our biggest wins came from going from monthly to four-month plans, and offering add-ons right after signups when motivation is the highest for our customers. Interestingly, money is a strong lever for us. Even paying $1 up front will increase engagement and retention vs. $0.”\n—\n[Nikhil Jhunjhnuwala](https://www.linkedin.com/in/nikhiljhunjhnuwala/)\n, Noom\nI heard similar stories from Calm and others.",
+      "token_count": 174
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000027",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nBonus advice\n2. Play with pricing\n“An often-forgotten part of product-market fit is pricing. If you’re seeing conversion rates lower than benchmark, it can be easy to assume that consumers don’t want your product, while it could sometimes be an issue with pricing.\nConsumers are typically accustomed to paying $10-20/month at most for digital apps (ironically, usually anchored to the price of Netflix), so a higher price can be jarring.\nWe’ve observed a trend of consumer apps pushing annual discounted pricing more and more aggressively (sometimes not even offering monthly prices anymore, like Calm) to improve revenue retention metrics and reinvest revenues into growth. We’ve also seen others do a lot of creative experimentation with their price points (e.g. Noom’s ‘name your own price’ option for the first month, giving users a sense of control).\nYou have much more freedom to price-test by driving users to a web-based funnel than within the iOS subscription framework (where every pricing change needs to be approved and displayed).”\n—\n[James Li](https://www.linkedin.com/in/lijames/)\n, Mighty Health",
+      "doc_item_refs": [
+        "#/texts/260",
+        "#/texts/261",
+        "#/texts/262",
+        "#/texts/263",
+        "#/texts/264",
+        "#/texts/265",
+        "#/texts/266"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Bonus advice",
+        "2. Play with pricing"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000027",
+        "chunk_sha256": "2c6b294ad2057a407e893c5abbba7cb7906ad690583fc2558d8074f7d652930e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Bonus advice",
+          "2. Play with pricing"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 27,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/260",
+          "item_count": 7,
+          "last_self_ref": "#/texts/266"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/260",
+          "#/texts/261",
+          "#/texts/262",
+          "#/texts/263",
+          "#/texts/264",
+          "#/texts/265",
+          "#/texts/266"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 27,
+      "raw_text": "“An often-forgotten part of product-market fit is pricing. If you’re seeing conversion rates lower than benchmark, it can be easy to assume that consumers don’t want your product, while it could sometimes be an issue with pricing.\nConsumers are typically accustomed to paying $10-20/month at most for digital apps (ironically, usually anchored to the price of Netflix), so a higher price can be jarring.\nWe’ve observed a trend of consumer apps pushing annual discounted pricing more and more aggressively (sometimes not even offering monthly prices anymore, like Calm) to improve revenue retention metrics and reinvest revenues into growth. We’ve also seen others do a lot of creative experimentation with their price points (e.g. Noom’s ‘name your own price’ option for the first month, giving users a sense of control).\nYou have much more freedom to price-test by driving users to a web-based funnel than within the iOS subscription framework (where every pricing change needs to be approved and displayed).”\n—\n[James Li](https://www.linkedin.com/in/lijames/)\n, Mighty Health",
+      "token_count": 306
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000028",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nBonus advice\n3. Add multi-player features\n“By taking the SaaS product from single-player to multi-player, we increased our K factor organically.”\n—\n[Ulf Schwekendiek](https://www.linkedin.com/in/sulfme/)\n, Centered",
+      "doc_item_refs": [
+        "#/texts/268",
+        "#/texts/269",
+        "#/texts/270",
+        "#/texts/271"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Bonus advice",
+        "3. Add multi-player features"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000028",
+        "chunk_sha256": "643524bfee2df7c8c67408bf93358e354cb3d34069ff203ad069047ccc0a6b6a",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Bonus advice",
+          "3. Add multi-player features"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 28,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/268",
+          "item_count": 4,
+          "last_self_ref": "#/texts/271"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/268",
+          "#/texts/269",
+          "#/texts/270",
+          "#/texts/271"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 28,
+      "raw_text": "“By taking the SaaS product from single-player to multi-player, we increased our K factor organically.”\n—\n[Ulf Schwekendiek](https://www.linkedin.com/in/sulfme/)\n, Centered",
+      "token_count": 122
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000029",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nBonus advice\n4. Unpack churn\n“It’s critical to have a good understanding of what makes users churn; otherwise you’re going to have a leaky bucket that will become a problem once you start growing faster. But not all churn is created equal. You don’t have to make everyone happy; some users simply aren’t a good fit for what you’re offering. Focus instead of what you need to do in order to make your product stickier for your best users. Measure by cohorts to track your progress over time.”\n—\n[Andres Ugarte](https://www.linkedin.com/in/andresugarte/)\n, Copilot",
+      "doc_item_refs": [
+        "#/texts/273",
+        "#/texts/274",
+        "#/texts/275",
+        "#/texts/276"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Bonus advice",
+        "4. Unpack churn"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000029",
+        "chunk_sha256": "d4dbe9a82e90d66138c01923a8822327d4f44f8ef7d4e0e3e70755f5f64bd566",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Bonus advice",
+          "4. Unpack churn"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 29,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/273",
+          "item_count": 4,
+          "last_self_ref": "#/texts/276"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/273",
+          "#/texts/274",
+          "#/texts/275",
+          "#/texts/276"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 29,
+      "raw_text": "“It’s critical to have a good understanding of what makes users churn; otherwise you’re going to have a leaky bucket that will become a problem once you start growing faster. But not all churn is created equal. You don’t have to make everyone happy; some users simply aren’t a good fit for what you’re offering. Focus instead of what you need to do in order to make your product stickier for your best users. Measure by cohorts to track your progress over time.”\n—\n[Andres Ugarte](https://www.linkedin.com/in/andresugarte/)\n, Copilot",
+      "token_count": 202
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000030",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nBonus advice\n5. Explore B2B2C\n“An interesting distribution strategy I’ve seen emerge is B2B2C. I think Calm and Headspace leveraged this by distributing their app through employee wellness groups.\n[Klima](https://klima.com/blog/the-next-big-update/)\nis testing that now.\n[Beam](https://beamimpact.com/)\n(not subscription-based) is scaling through an e-commerce integration with retailers, which has a lower barrier to entry than the native mobile app they started with.”\n—\n[Alex Ross](https://www.linkedin.com/in/alexross8/)\n, Greg\nI hope this gives you enough to go on. Good luck!",
+      "doc_item_refs": [
+        "#/texts/278",
+        "#/texts/279",
+        "#/texts/280",
+        "#/texts/281",
+        "#/texts/282",
+        "#/texts/283",
+        "#/texts/284",
+        "#/texts/285",
+        "#/texts/286"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Bonus advice",
+        "5. Explore B2B2C"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000030",
+        "chunk_sha256": "26c4245a979e9f5073b6bc951ec7b345ff4cfdbbcc7eabc97882b592e67534d7",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Bonus advice",
+          "5. Explore B2B2C"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 30,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/278",
+          "item_count": 9,
+          "last_self_ref": "#/texts/286"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/278",
+          "#/texts/279",
+          "#/texts/280",
+          "#/texts/281",
+          "#/texts/282",
+          "#/texts/283",
+          "#/texts/284",
+          "#/texts/285",
+          "#/texts/286"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 30,
+      "raw_text": "“An interesting distribution strategy I’ve seen emerge is B2B2C. I think Calm and Headspace leveraged this by distributing their app through employee wellness groups.\n[Klima](https://klima.com/blog/the-next-big-update/)\nis testing that now.\n[Beam](https://beamimpact.com/)\n(not subscription-based) is scaling through an e-commerce integration with retailers, which has a lower barrier to entry than the native mobile app they started with.”\n—\n[Alex Ross](https://www.linkedin.com/in/alexross8/)\n, Greg\nI hope this gives you enough to go on. Good luck!",
+      "token_count": 222
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000031",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\nBonus advice\n📚 Further study\n1. [2020 Consumer Subscription Software Insights](https://docsend.com/view/fn3udv2wxzqrirw4?__hssc=45195259.1.1599757901297&__hstc=45195259.0547c74be4e12ea2c32fa878c57a99ed.1599757901297.1599757901297.1599757901297.1&__hsfp=3942711842&hsCtaTracking=07aefb9e-c575-410d-8d5d-88afc155de51%7C11a5bf2d-8ba8-4f2c-9250-d5a0ab74ea26) by GP Bullhound\n2. [What is a good payback period](https://www.lennysnewsletter.com/p/payback-period?s=w)\n3. [What is good retention](https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29?s=w)\n4. [From Onboarding to Healthy Habits, Noom’s Growth Is Powered by Psychology](https://breakoutgrowth.net/2021/02/02/podcast-from-onboarding-to-healthy-habits-nooms-growth-is-powered-by-psychology/)\n5. [Spotify: A Product Story](https://open.spotify.com/show/3L9tzrt0CthF6hNkxYIeSB) podcast\n6. [Consumer Subscription KPI Benchmarks: Retention, Engagement, and Conversion Rates](https://medium.com/parsa-vc/consumer-subscription-kpi-benchmarks-retention-engagement-and-conversion-rates-9ac13b57c3d3) by Parsa Saljoughian\n7. [The Racecar Growth Framework](https://www.reforge.com/blog/racecar-growth-framework)\n*Have a fulfilling and productive week 🙏*",
+      "doc_item_refs": [
+        "#/texts/288",
+        "#/texts/291",
+        "#/texts/292",
+        "#/texts/293",
+        "#/texts/294",
+        "#/texts/297",
+        "#/texts/300",
+        "#/texts/301"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "Bonus advice",
+        "📚 Further study"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000031",
+        "chunk_sha256": "fec98413ab5ae56c6bd89067a3e40b117d128ffc3e2fb234167ff023ac5da788",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "Bonus advice",
+          "📚 Further study"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 31,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/288",
+          "item_count": 8,
+          "last_self_ref": "#/texts/301"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/288",
+          "#/texts/291",
+          "#/texts/292",
+          "#/texts/293",
+          "#/texts/294",
+          "#/texts/297",
+          "#/texts/300",
+          "#/texts/301"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 31,
+      "raw_text": "1. [2020 Consumer Subscription Software Insights](https://docsend.com/view/fn3udv2wxzqrirw4?__hssc=45195259.1.1599757901297&__hstc=45195259.0547c74be4e12ea2c32fa878c57a99ed.1599757901297.1599757901297.1599757901297.1&__hsfp=3942711842&hsCtaTracking=07aefb9e-c575-410d-8d5d-88afc155de51%7C11a5bf2d-8ba8-4f2c-9250-d5a0ab74ea26) by GP Bullhound\n2. [What is a good payback period](https://www.lennysnewsletter.com/p/payback-period?s=w)\n3. [What is good retention](https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29?s=w)\n4. [From Onboarding to Healthy Habits, Noom’s Growth Is Powered by Psychology](https://breakoutgrowth.net/2021/02/02/podcast-from-onboarding-to-healthy-habits-nooms-growth-is-powered-by-psychology/)\n5. [Spotify: A Product Story](https://open.spotify.com/show/3L9tzrt0CthF6hNkxYIeSB) podcast\n6. [Consumer Subscription KPI Benchmarks: Retention, Engagement, and Conversion Rates](https://medium.com/parsa-vc/consumer-subscription-kpi-benchmarks-retention-engagement-and-conversion-rates-9ac13b57c3d3) by Parsa Saljoughian\n7. [The Racecar Growth Framework](https://www.reforge.com/blog/racecar-growth-framework)\n*Have a fulfilling and productive week 🙏*",
+      "token_count": 553
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000032",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\n📣 Join Lenny’s Talent Collective 📣\nIf you’re hiring,\n[join Lenny’s Talent Collective](https://www.lennysjobs.com/talent/welcome)\nto start getting bi-monthly drops of world-class hand-curated product and growth people who are open to new opportunities.\nImage from How to win in consumer subscription\nImage from How to win in consumer subscription\nIf you’re looking for a new gig, join to get personalized opportunities from hand-selected companies. You can join publicly or anonymously, and leave anytime.\n[Apply Now](https://www.lennysjobs.com/talent/welcome)",
+      "doc_item_refs": [
+        "#/texts/303",
+        "#/texts/304",
+        "#/texts/305",
+        "#/texts/361",
+        "#/texts/306",
+        "#/texts/307",
+        "#/texts/308"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "📣 Join Lenny’s Talent Collective 📣"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to win in consumer subscription",
+          "image_id": "02-newsletters/how-to-win-in-consumer-subscription.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/fd2a86a0-dc08-4cf2-9095-e88dd7f2e5cf_1476x856.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000032",
+        "chunk_sha256": "a228f44fac5e38b3d5a06554c9a360eea56f93653b2c3a5d017adc61ec3b326a",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "📣 Join Lenny’s Talent Collective 📣"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to win in consumer subscription",
+            "image_id": "02-newsletters/how-to-win-in-consumer-subscription.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/fd2a86a0-dc08-4cf2-9095-e88dd7f2e5cf_1476x856.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 32,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/303",
+          "item_count": 7,
+          "last_self_ref": "#/texts/308"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/303",
+          "#/texts/304",
+          "#/texts/305",
+          "#/texts/361",
+          "#/texts/306",
+          "#/texts/307",
+          "#/texts/308"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 32,
+      "raw_text": "If you’re hiring,\n[join Lenny’s Talent Collective](https://www.lennysjobs.com/talent/welcome)\nto start getting bi-monthly drops of world-class hand-curated product and growth people who are open to new opportunities.\nImage from How to win in consumer subscription\nImage from How to win in consumer subscription\nIf you’re looking for a new gig, join to get personalized opportunities from hand-selected companies. You can join publicly or anonymously, and leave anytime.\n[Apply Now](https://www.lennysjobs.com/talent/welcome)",
+      "token_count": 193
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000033",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\n📣 Join Lenny’s Talent Collective 📣\n🔥 Featured job openings\n1. **Wethos:** [Director of Fintech Product Operations](https://www.lennysjobs.com/jobs/a9a10752-0952-4ca7-9116-924dd0a4d0ca) (Remote)\n2. **Roofstock:** [Senior Product Manager](https://www.lennysjobs.com/jobs/89098663-b9f7-414b-b374-b76111d93917) (Remote)\n3. **Clipboard Health:** [Growth Strategy and Marketing Manager](https://www.lennysjobs.com/jobs/82ed8c6a-418a-44e3-9b37-fff54792ba6f) (Remote)\n4. **Around:** [Product Manager](https://www.lennysjobs.com/jobs/942a7802-9e65-40ed-bced-cb939e6cfa32) (Remote)\n5. **Karate Combat:** [Founding Product Manager](https://www.lennysjobs.com/jobs/bb059354-70d4-41de-a0b0-77b51067a817) (Remote)\n6. **Balance Homes:** [Founding Product Manager](https://www.lennysjobs.com/jobs/b9e8f81a-ae8c-427b-8072-71097b7c3197) (Remote)\n7. **Ellis:** [Software Engineer](https://www.lennysjobs.com/jobs/dbba97cd-8552-4e1f-96d2-f6092bdff5a5) (Remote)\n8. **Clipboard Health:** [Engineering Manager](https://www.lennysjobs.com/jobs/299a6ac5-8435-4596-8262-b29c15c7613f) (Remote)",
+      "doc_item_refs": [
+        "#/texts/310",
+        "#/texts/314",
+        "#/texts/318",
+        "#/texts/322",
+        "#/texts/326",
+        "#/texts/330",
+        "#/texts/334",
+        "#/texts/338"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "📣 Join Lenny’s Talent Collective 📣",
+        "🔥 Featured job openings"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000033",
+        "chunk_sha256": "c3015d3bfa54d0c4a99829d58a57450ee8edfa16ee1c627a57d777dae9d9ab41",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "📣 Join Lenny’s Talent Collective 📣",
+          "🔥 Featured job openings"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 33,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/310",
+          "item_count": 8,
+          "last_self_ref": "#/texts/338"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/310",
+          "#/texts/314",
+          "#/texts/318",
+          "#/texts/322",
+          "#/texts/326",
+          "#/texts/330",
+          "#/texts/334",
+          "#/texts/338"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 33,
+      "raw_text": "1. **Wethos:** [Director of Fintech Product Operations](https://www.lennysjobs.com/jobs/a9a10752-0952-4ca7-9116-924dd0a4d0ca) (Remote)\n2. **Roofstock:** [Senior Product Manager](https://www.lennysjobs.com/jobs/89098663-b9f7-414b-b374-b76111d93917) (Remote)\n3. **Clipboard Health:** [Growth Strategy and Marketing Manager](https://www.lennysjobs.com/jobs/82ed8c6a-418a-44e3-9b37-fff54792ba6f) (Remote)\n4. **Around:** [Product Manager](https://www.lennysjobs.com/jobs/942a7802-9e65-40ed-bced-cb939e6cfa32) (Remote)\n5. **Karate Combat:** [Founding Product Manager](https://www.lennysjobs.com/jobs/bb059354-70d4-41de-a0b0-77b51067a817) (Remote)\n6. **Balance Homes:** [Founding Product Manager](https://www.lennysjobs.com/jobs/b9e8f81a-ae8c-427b-8072-71097b7c3197) (Remote)\n7. **Ellis:** [Software Engineer](https://www.lennysjobs.com/jobs/dbba97cd-8552-4e1f-96d2-f6092bdff5a5) (Remote)\n8. **Clipboard Health:** [Engineering Manager](https://www.lennysjobs.com/jobs/299a6ac5-8435-4596-8262-b29c15c7613f) (Remote)",
+      "token_count": 561
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000034",
+      "contextualized_text": "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups\n🧠 Inspiration for the week ahead\n**1. Listen:**\n[Jeff Jordan—Building & Investing in Marketplaces, with Patrick O’Shaughnessy](https://podcasts.apple.com/us/podcast/jeff-jordan-building-investing-in-marketplaces/id1154105909?i=1000560238242)\n1. **Watch:** [Geometry](https://www.instagram.com/p/CcdXnTVFnLB/) via Tim Ferriss\n[geometriasagrada](https://instagram.com/geometriasagrada)\nImage from How to win in consumer subscription\n[Image from How to win in consumer subscription](https://instagram.com/p/CcdXnTVFnLB)\nA post shared by Geometria Sagrada (\n[@geometriasagrada](https://instagram.com/geometriasagrada)\n)\n**3. Look:**\nMost detailed image of a human cell to date\n**If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/343",
+        "#/texts/344",
+        "#/texts/345",
+        "#/texts/349",
+        "#/texts/362",
+        "#/texts/350",
+        "#/texts/351",
+        "#/texts/352",
+        "#/texts/353",
+        "#/texts/354",
+        "#/texts/355",
+        "#/texts/356",
+        "#/texts/357",
+        "#/texts/358"
+      ],
+      "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+      "headings": [
+        "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+        "🧠 Inspiration for the week ahead"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to win in consumer subscription",
+          "image_id": "02-newsletters/how-to-win-in-consumer-subscription.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/__ss-rehost__IG-CcdXnTVFnLB.jpg"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-win-in-consumer-subscription.md#chunk=000034",
+        "chunk_sha256": "f549a14dcba067b962f01e26f51479d989e95f805614d051907566c9659bb9e4",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+        "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+        "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+        "headings": [
+          "How to win in consumer subscription — Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others | 2022-05-17 | Tags: growth, design, b2c, leadership, strategy, startups",
+          "🧠 Inspiration for the week ahead"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to win in consumer subscription",
+            "image_id": "02-newsletters/how-to-win-in-consumer-subscription.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/__ss-rehost__IG-CcdXnTVFnLB.jpg"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 34,
+        "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+        "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+        "segment": {
+          "first_self_ref": "#/texts/343",
+          "item_count": 14,
+          "last_self_ref": "#/texts/358"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/343",
+          "#/texts/344",
+          "#/texts/345",
+          "#/texts/349",
+          "#/texts/362",
+          "#/texts/350",
+          "#/texts/351",
+          "#/texts/352",
+          "#/texts/353",
+          "#/texts/354",
+          "#/texts/355",
+          "#/texts/356",
+          "#/texts/357",
+          "#/texts/358"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 34,
+      "raw_text": "**1. Listen:**\n[Jeff Jordan—Building & Investing in Marketplaces, with Patrick O’Shaughnessy](https://podcasts.apple.com/us/podcast/jeff-jordan-building-investing-in-marketplaces/id1154105909?i=1000560238242)\n1. **Watch:** [Geometry](https://www.instagram.com/p/CcdXnTVFnLB/) via Tim Ferriss\n[geometriasagrada](https://instagram.com/geometriasagrada)\nImage from How to win in consumer subscription\n[Image from How to win in consumer subscription](https://instagram.com/p/CcdXnTVFnLB)\nA post shared by Geometria Sagrada (\n[@geometriasagrada](https://instagram.com/geometriasagrada)\n)\n**3. Look:**\nMost detailed image of a human cell to date\n**If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "token_count": 329
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/how-to-win-in-consumer-subscription.docling.json",
+  "docling_sha256": "5d0e0b00740d514cf32dadfd32b42db549537cbe23bf538c3d209e35ddbc06ca",
+  "document_id": "02-newsletters/how-to-win-in-consumer-subscription.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/how-to-win-in-consumer-subscription.md",
+  "enhanced_sha256": "ff7cafadba46a37b65555bfbc6db1f946ed5200691c2a77cd87763860cb9d77c",
+  "fact_document_path": "chunks/v2/02-newsletters/how-to-win-in-consumer-subscription.chunks.json",
+  "metadata": {
+    "date": "2022-05-17",
+    "subtitle": "Learnings from Noom, Duolingo, Grammarly, Calm, Spotify, Future, Flo, and others",
+    "tags": [
+      "growth",
+      "design",
+      "b2c",
+      "leadership",
+      "strategy",
+      "startups"
+    ],
+    "title": "How to win in consumer subscription",
+    "type": "newsletter",
+    "word_count": 4679
+  },
+  "raw_path": "corpus/raw/02-newsletters/how-to-win-in-consumer-subscription.md",
+  "raw_sha256": "86de834b0f3925e51a6dc8b340599de9e44a728e9a934dc275e2a7a2617f939d",
+  "schema_version": "1",
+  "title": "How to win in consumer subscription"
+}

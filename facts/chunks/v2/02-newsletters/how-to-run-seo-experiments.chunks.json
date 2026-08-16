@@ -1,0 +1,1665 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000000",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nQ: How do I run experiments with SEO?\nExperimentation and SEO have been a hot topic with readers lately, so let’s spend one more week on it. If you look\n[into how companies grow](https://firstround.com/review/drive-growth-by-picking-the-right-lane-a-customer-acquisition-playbook-for-consumer-startups/)\n, SEO is the primary growth engine for a large percentage of today’s biggest and fastest-growing companies (e.g. Pinterest, Thumbtack, Expedia, Wayfair, Canva, Glassdoor, etc):\nImage from How to run SEO experiments\nImage from How to run SEO experiments\nAnd it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious. If you can make it work, it’s a superpower.\nUnfortunately, relying on SEO has a major downside: it’s challenging to run experiments. How does one A/B test the impact of your changes on Google’s crawling of your site? Tough.\nBut good news! Returning guest author\n[Brian Ta](https://twitter.com/fanfavorite_bta)\ngenerously offered to tackle this question for us this week. Brian led SEO efforts at five different companies, including Airbnb, Strava, and now AngelList, and\n[his previous post about Winning at SEO](https://www.lennyrachitsky.com/p/crafting-an-seo-strategy-issue-34)\nwas one of my most popular posts. As always with these guest posts, I learned a ton from Brian and I’m excited to share this knowledge-bomb with you.\nBelow, Brian teaches us about:\n1. **Setting up** an SEO experimentation framework\n2. **Knowing** what to measure with SEO experiments\n3. **Running** an SEO experiment\n4. **Limitations** with SEO experiments\n5. **A walk-through of a real-life** SEO experiment\n6. **His most impactful** SEO experiments\n7. **Recommended reading** for further study\nLet’s dive in!",
+      "doc_item_refs": [
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/330",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/17",
+        "#/texts/20",
+        "#/texts/23",
+        "#/texts/26",
+        "#/texts/29",
+        "#/texts/32",
+        "#/texts/35"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Q: How do I run experiments with SEO?"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to run SEO experiments",
+          "image_id": "02-newsletters/how-to-run-seo-experiments.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/47014f97-f468-4f85-907a-03c0160a3a78_1003x572.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000000",
+        "chunk_sha256": "59abcbdab774099dd0144e7c3c5ea0a7bc3ac98b328999c569f1f44d951a743a",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Q: How do I run experiments with SEO?"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to run SEO experiments",
+            "image_id": "02-newsletters/how-to-run-seo-experiments.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/47014f97-f468-4f85-907a-03c0160a3a78_1003x572.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/2",
+          "item_count": 21,
+          "last_self_ref": "#/texts/35"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/330",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/17",
+          "#/texts/20",
+          "#/texts/23",
+          "#/texts/26",
+          "#/texts/29",
+          "#/texts/32",
+          "#/texts/35"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "Experimentation and SEO have been a hot topic with readers lately, so let’s spend one more week on it. If you look\n[into how companies grow](https://firstround.com/review/drive-growth-by-picking-the-right-lane-a-customer-acquisition-playbook-for-consumer-startups/)\n, SEO is the primary growth engine for a large percentage of today’s biggest and fastest-growing companies (e.g. Pinterest, Thumbtack, Expedia, Wayfair, Canva, Glassdoor, etc):\nImage from How to run SEO experiments\nImage from How to run SEO experiments\nAnd it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious. If you can make it work, it’s a superpower.\nUnfortunately, relying on SEO has a major downside: it’s challenging to run experiments. How does one A/B test the impact of your changes on Google’s crawling of your site? Tough.\nBut good news! Returning guest author\n[Brian Ta](https://twitter.com/fanfavorite_bta)\ngenerously offered to tackle this question for us this week. Brian led SEO efforts at five different companies, including Airbnb, Strava, and now AngelList, and\n[his previous post about Winning at SEO](https://www.lennyrachitsky.com/p/crafting-an-seo-strategy-issue-34)\nwas one of my most popular posts. As always with these guest posts, I learned a ton from Brian and I’m excited to share this knowledge-bomb with you.\nBelow, Brian teaches us about:\n1. **Setting up** an SEO experimentation framework\n2. **Knowing** what to measure with SEO experiments\n3. **Running** an SEO experiment\n4. **Limitations** with SEO experiments\n5. **A walk-through of a real-life** SEO experiment\n6. **His most impactful** SEO experiments\n7. **Recommended reading** for further study\nLet’s dive in!",
+      "token_count": 519
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000001",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n*by Brian Ta*\nImage from How to run SEO experiments\nImage from How to run SEO experiments\nI get asked about SEO experimentation\n**a lot.**\nIt’s probably the second-most asked question I get right after “how do I rank number 1 for my company name?” Surprisingly, there aren’t many resources that actually explain how to run experiments with SEO. In this post, I’m going to share how I’ve run SEO experiments at Airbnb, AngelList, and Strava.\nFirst, I’ll make a couple of assumptions about your business:\n1. **You’re familiar with SEO:** I’ll be talking about how to set up your experiments, and so assume some foundational knowledge of SEO.\n2. **Organic traffic is already one of the main drivers of your business:** SEO experimentation is not intended to help you learn whether you *should* pursue SEO.\n3. **You have thousands of pages:** This advice will be targeted at companies that are already doing SEO at scale, and have thousands of programmatically generated pages. This is not meant to help you experiment on your blog posts. You could*,* but I’ve never used this approach for that.",
+      "doc_item_refs": [
+        "#/texts/37",
+        "#/texts/331",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/46",
+        "#/texts/51"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to run SEO experiments",
+          "image_id": "02-newsletters/how-to-run-seo-experiments.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b0f2d437-89d3-44c7-bd04-e6e7d2ea224b_2400x1350.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000001",
+        "chunk_sha256": "d922e6b10c4a073b592f92577293cfc9f950abd306d2034000754bbf20ae5557",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to run SEO experiments",
+            "image_id": "02-newsletters/how-to-run-seo-experiments.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b0f2d437-89d3-44c7-bd04-e6e7d2ea224b_2400x1350.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/37",
+          "item_count": 10,
+          "last_self_ref": "#/texts/51"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/37",
+          "#/texts/331",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/40",
+          "#/texts/41",
+          "#/texts/42",
+          "#/texts/43",
+          "#/texts/46",
+          "#/texts/51"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "*by Brian Ta*\nImage from How to run SEO experiments\nImage from How to run SEO experiments\nI get asked about SEO experimentation\n**a lot.**\nIt’s probably the second-most asked question I get right after “how do I rank number 1 for my company name?” Surprisingly, there aren’t many resources that actually explain how to run experiments with SEO. In this post, I’m going to share how I’ve run SEO experiments at Airbnb, AngelList, and Strava.\nFirst, I’ll make a couple of assumptions about your business:\n1. **You’re familiar with SEO:** I’ll be talking about how to set up your experiments, and so assume some foundational knowledge of SEO.\n2. **Organic traffic is already one of the main drivers of your business:** SEO experimentation is not intended to help you learn whether you *should* pursue SEO.\n3. **You have thousands of pages:** This advice will be targeted at companies that are already doing SEO at scale, and have thousands of programmatically generated pages. This is not meant to help you experiment on your blog posts. You could*,* but I’ve never used this approach for that.",
+      "token_count": 316
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000002",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n1. How do I set up an SEO experimentation framework?\nSEO experiments are fundamentally different from typical A/B experiments. The majority of experiments at most tech companies are tested on the user-level – control and treatment groups are bucketed at the\n*user*\n. For example, if you’re running an experiment that changes the color of the purchase button from green to blue, a user will always get a consistent experience of either a green or blue button each time they visit the site.\nWhen you’re running an SEO experiment\n**you’re testing on the page level**\n. Thus, you need to have an experimentation system that can do your bucketing on the page level. Why is that? Because every time Google visits the site, it’ll count as a different user and get re-assigned to treatment or control. So if you're running an experiment that adds a piece of content on the page, Google may get a different experience every single time it crawls the page, and won’t be able to get a good read on your site. As a result, you won’t know what effect your change has on Google. The only user that you’re designing for is Google, so it’s essential that you give Google a consistent experience when it crawls your site.",
+      "doc_item_refs": [
+        "#/texts/55",
+        "#/texts/56",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "1. How do I set up an SEO experimentation framework?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000002",
+        "chunk_sha256": "d05d7442f474345c3223d96582f972c603238cddf475ae56355212e35dfd931e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "1. How do I set up an SEO experimentation framework?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/55",
+          "item_count": 6,
+          "last_self_ref": "#/texts/60"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/55",
+          "#/texts/56",
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/60"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "SEO experiments are fundamentally different from typical A/B experiments. The majority of experiments at most tech companies are tested on the user-level – control and treatment groups are bucketed at the\n*user*\n. For example, if you’re running an experiment that changes the color of the purchase button from green to blue, a user will always get a consistent experience of either a green or blue button each time they visit the site.\nWhen you’re running an SEO experiment\n**you’re testing on the page level**\n. Thus, you need to have an experimentation system that can do your bucketing on the page level. Why is that? Because every time Google visits the site, it’ll count as a different user and get re-assigned to treatment or control. So if you're running an experiment that adds a piece of content on the page, Google may get a different experience every single time it crawls the page, and won’t be able to get a good read on your site. As a result, you won’t know what effect your change has on Google. The only user that you’re designing for is Google, so it’s essential that you give Google a consistent experience when it crawls your site.",
+      "token_count": 322
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000003",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n2. Do I have to build an experimentation framework myself?\nI’d highly recommend doing so. Why?\n1. As far as I’m aware, **bucketing by the page-level isn’t possible** on any of the major experimentation platforms, such as Optimizely. So you can’t really hack this together with existing solutions.\n2. I’ve asked around my SEO network, and **there were very few people who run SEO experiments** , and those who do, all roll out their own frameworks. There was no one in my network that had any experience with a 3rd party out-of-the-box SEO experimentation framework.\nI’ll go over how to build it yourself, plus I’ve linked to a couple of blogs at the end of the post that go into more detail. It’s worth noting that building out an SEO experimentation framework isn’t a trivial task and that in 95% of cases, I recommend most startups avoid doing so. I go over this later on in this post.",
+      "doc_item_refs": [
+        "#/texts/62",
+        "#/texts/63",
+        "#/texts/67",
+        "#/texts/71"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "2. Do I have to build an experimentation framework myself?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000003",
+        "chunk_sha256": "17d2afcdb5a94f3887d32833ed89c04a1dc1566372d113d62dc72737f9008fd7",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "2. Do I have to build an experimentation framework myself?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/62",
+          "item_count": 4,
+          "last_self_ref": "#/texts/71"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/62",
+          "#/texts/63",
+          "#/texts/67",
+          "#/texts/71"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "I’d highly recommend doing so. Why?\n1. As far as I’m aware, **bucketing by the page-level isn’t possible** on any of the major experimentation platforms, such as Optimizely. So you can’t really hack this together with existing solutions.\n2. I’ve asked around my SEO network, and **there were very few people who run SEO experiments** , and those who do, all roll out their own frameworks. There was no one in my network that had any experience with a 3rd party out-of-the-box SEO experimentation framework.\nI’ll go over how to build it yourself, plus I’ve linked to a couple of blogs at the end of the post that go into more detail. It’s worth noting that building out an SEO experimentation framework isn’t a trivial task and that in 95% of cases, I recommend most startups avoid doing so. I go over this later on in this post.",
+      "token_count": 275
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000004",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n3. What kind of SEO experiments can I run?\nAnything your heart desires, as long as it’s an\n*on-page*\nchange and the effects are limited to only one page. If you want to test your title tags, meta descriptions, or image alt tags – run wild. However, if you want to measure the effectiveness of internal linking, that’s an entirely different beast.\nIt’s different because your framework will be measuring\n*changes to individual pages*\nin the treatment group, and not the pages being linked to. The pages in treatment (the ones that include the new links) will not get more traffic because the new links are there — other pages outside the experiment will.\nHow do you measure the effects of internal linking? Our solution at Airbnb was to get the best data scientist in the entire company to do a manual analysis for us. We could have built something to do this, but it was pretty expensive (engineering-wise) for us to do, and has limited uses.\ntl;dr this is likely not something you’ll build for a while, so start with on-page testing.",
+      "doc_item_refs": [
+        "#/texts/73",
+        "#/texts/74",
+        "#/texts/75",
+        "#/texts/76",
+        "#/texts/77",
+        "#/texts/78",
+        "#/texts/79",
+        "#/texts/80"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "3. What kind of SEO experiments can I run?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000004",
+        "chunk_sha256": "d1e4216a5de91b69afe49710cb8802d1d69d5e432dc4578124022635f38083bc",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "3. What kind of SEO experiments can I run?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/73",
+          "item_count": 8,
+          "last_self_ref": "#/texts/80"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/73",
+          "#/texts/74",
+          "#/texts/75",
+          "#/texts/76",
+          "#/texts/77",
+          "#/texts/78",
+          "#/texts/79",
+          "#/texts/80"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "Anything your heart desires, as long as it’s an\n*on-page*\nchange and the effects are limited to only one page. If you want to test your title tags, meta descriptions, or image alt tags – run wild. However, if you want to measure the effectiveness of internal linking, that’s an entirely different beast.\nIt’s different because your framework will be measuring\n*changes to individual pages*\nin the treatment group, and not the pages being linked to. The pages in treatment (the ones that include the new links) will not get more traffic because the new links are there — other pages outside the experiment will.\nHow do you measure the effects of internal linking? Our solution at Airbnb was to get the best data scientist in the entire company to do a manual analysis for us. We could have built something to do this, but it was pretty expensive (engineering-wise) for us to do, and has limited uses.\ntl;dr this is likely not something you’ll build for a while, so start with on-page testing.",
+      "token_count": 287
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000005",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n4. What should I measure with SEO experiments?\nOrganic traffic. Nothing else.\nYou’ll likely want to measure other things experimentally, but unfortunately, it will not work:\n- **Keyword rankings** : Rankings change daily. You also don’t have visibility into all of the keywords that you’re ranking for. In addition, rankings also change based on your location. Whatever tool you’re using to get your ranking for a keyword isn’t going to be accurate enough for you to conclude your experiment.\n- **Average ranking** : I assume you’re getting this from Google Search Console. That data is heavily sampled, and not something that I’d even consider to determine the success of an experiment. You also have the added complication of this number being heavily skewed the more pages that you have. More pages equate to more potential (low-quality) keywords that you can rank for (probably terribly). That’s just the nature of the beast. You don’t have control over the exact keywords that you’re driving.\n- **Search Engine Result Page Clicks** : I assume that you’re also getting this data from Google Search Console. This data is *heavily* sampled, and while it’s useful for directionality, it is not data that you can base the success of an experiment on.\n- **Conversions** : Why? You’re testing SEO changes, not user experience changes. You shouldset this up as a counter metric to make sure you’re not tanking your conversion rate, but this is not a success criteria.\nImage from How to run SEO experiments\nImage from How to run SEO experiments\nYour single source of truth is incoming organic traffic. Anything else is unreliable.\n**If more people are coming into your site through organic traffic, then your experiment was a success.**\nAll of the other metrics mentioned above (except for conversions) lead to increased organic traffic anyway, so why wouldn’t you just focus on organic traffic?",
+      "doc_item_refs": [
+        "#/texts/82",
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/87",
+        "#/texts/90",
+        "#/texts/95",
+        "#/texts/332",
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/100",
+        "#/texts/101"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "4. What should I measure with SEO experiments?"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to run SEO experiments",
+          "image_id": "02-newsletters/how-to-run-seo-experiments.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/d4472d90-d162-4758-a8a9-8c64f3ec8d8a_930x634.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000005",
+        "chunk_sha256": "cbc4a72c93f8b99c8fd2d72373a23f3c8dc30d55c9778ce4bcaee9fe248a2a5b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "4. What should I measure with SEO experiments?"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to run SEO experiments",
+            "image_id": "02-newsletters/how-to-run-seo-experiments.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/d4472d90-d162-4758-a8a9-8c64f3ec8d8a_930x634.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/82",
+          "item_count": 11,
+          "last_self_ref": "#/texts/101"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/82",
+          "#/texts/83",
+          "#/texts/84",
+          "#/texts/87",
+          "#/texts/90",
+          "#/texts/95",
+          "#/texts/332",
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/100",
+          "#/texts/101"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "Organic traffic. Nothing else.\nYou’ll likely want to measure other things experimentally, but unfortunately, it will not work:\n- **Keyword rankings** : Rankings change daily. You also don’t have visibility into all of the keywords that you’re ranking for. In addition, rankings also change based on your location. Whatever tool you’re using to get your ranking for a keyword isn’t going to be accurate enough for you to conclude your experiment.\n- **Average ranking** : I assume you’re getting this from Google Search Console. That data is heavily sampled, and not something that I’d even consider to determine the success of an experiment. You also have the added complication of this number being heavily skewed the more pages that you have. More pages equate to more potential (low-quality) keywords that you can rank for (probably terribly). That’s just the nature of the beast. You don’t have control over the exact keywords that you’re driving.\n- **Search Engine Result Page Clicks** : I assume that you’re also getting this data from Google Search Console. This data is *heavily* sampled, and while it’s useful for directionality, it is not data that you can base the success of an experiment on.\n- **Conversions** : Why? You’re testing SEO changes, not user experience changes. You shouldset this up as a counter metric to make sure you’re not tanking your conversion rate, but this is not a success criteria.\nImage from How to run SEO experiments\nImage from How to run SEO experiments\nYour single source of truth is incoming organic traffic. Anything else is unreliable.\n**If more people are coming into your site through organic traffic, then your experiment was a success.**\nAll of the other metrics mentioned above (except for conversions) lead to increased organic traffic anyway, so why wouldn’t you just focus on organic traffic?",
+      "token_count": 477
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000006",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n5. How do I run an SEO experiment?\nDisclaimer: This is a way to get you pointed in generally the right direction and will probably work best for smaller startups. If you have an analyst or a data scientist, I'd encourage you to work with them to figure out what’ll work best in your specific situation. At the end of this post, I’ve also included a few additional reads that go even deeper.",
+      "doc_item_refs": [
+        "#/texts/103"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "5. How do I run an SEO experiment?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000006",
+        "chunk_sha256": "a13a75fec43fb887ddca06c8b738450fe5ddb0ef91ee70ae217da8eb2552e669",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "5. How do I run an SEO experiment?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/103",
+          "item_count": 1,
+          "last_self_ref": "#/texts/103"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/103"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "Disclaimer: This is a way to get you pointed in generally the right direction and will probably work best for smaller startups. If you have an analyst or a data scientist, I'd encourage you to work with them to figure out what’ll work best in your specific situation. At the end of this post, I’ve also included a few additional reads that go even deeper.",
+      "token_count": 147
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000007",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n5. How do I run an SEO experiment?\n1. You’ll first need the ability to do a couple of things\n- **The ability to bucket your treatment and control on the page level:** You can bucket treatment/control by taking a hash of the canonical URL, or if your site is small enough manually bucketing it yourself by picking the URLs you want in control/treatment. As far as I’m aware, there are no out-of-the-box solutions that will allow you to do this. You will need to build this out yourself.\n- **The ability to track incoming organic traffic to your website** : This is more than just looking at Google Analytics. You’ll need this data to be as accurate as possible since this will be what you look at to measure the success of the experiment. At Airbnb and Strava, we had a visitors table that logged every incoming visit and what their referral was. This was the data used to determine the success of SEO experiments. **Platforms like Google Analytics are sampled, and will not be an effective method of tracking organic visitors.**",
+      "doc_item_refs": [
+        "#/texts/105",
+        "#/texts/108"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "5. How do I run an SEO experiment?",
+        "1. You’ll first need the ability to do a couple of things"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000007",
+        "chunk_sha256": "4469f52b5f7927665fc4ceab4bb477d8f8adce7973c648477ccdb30e3d08cd9d",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "5. How do I run an SEO experiment?",
+          "1. You’ll first need the ability to do a couple of things"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/105",
+          "item_count": 2,
+          "last_self_ref": "#/texts/108"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/105",
+          "#/texts/108"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "- **The ability to bucket your treatment and control on the page level:** You can bucket treatment/control by taking a hash of the canonical URL, or if your site is small enough manually bucketing it yourself by picking the URLs you want in control/treatment. As far as I’m aware, there are no out-of-the-box solutions that will allow you to do this. You will need to build this out yourself.\n- **The ability to track incoming organic traffic to your website** : This is more than just looking at Google Analytics. You’ll need this data to be as accurate as possible since this will be what you look at to measure the success of the experiment. At Airbnb and Strava, we had a visitors table that logged every incoming visit and what their referral was. This was the data used to determine the success of SEO experiments. **Platforms like Google Analytics are sampled, and will not be an effective method of tracking organic visitors.**",
+      "token_count": 292
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000008",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n5. How do I run an SEO experiment?\n2. Second, design and roll out your experiment to the pages in the treatment group\n- Bucket treatment/control pages\n- Run one experiment at a time (unless you have tons of traffic)\n- Roll out your experiment to your entire website. Do not roll out the experiment only for mobile web or desktop. While Google primarily crawls the web with their mobile crawler, you’ll want a consistent experience for all versions of Googlebot. This assures that any possible version of Googlebot that crawls your page sees the experiment and makes the necessary adjustments.",
+      "doc_item_refs": [
+        "#/texts/113",
+        "#/texts/114",
+        "#/texts/115"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "5. How do I run an SEO experiment?",
+        "2. Second, design and roll out your experiment to the pages in the treatment group"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000008",
+        "chunk_sha256": "51d6c1aabba466f3467de8b79e29782d60e3664ff217b4881513b51c4e9fa7fb",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "5. How do I run an SEO experiment?",
+          "2. Second, design and roll out your experiment to the pages in the treatment group"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/113",
+          "item_count": 3,
+          "last_self_ref": "#/texts/115"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/113",
+          "#/texts/114",
+          "#/texts/115"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "- Bucket treatment/control pages\n- Run one experiment at a time (unless you have tons of traffic)\n- Roll out your experiment to your entire website. Do not roll out the experiment only for mobile web or desktop. While Google primarily crawls the web with their mobile crawler, you’ll want a consistent experience for all versions of Googlebot. This assures that any possible version of Googlebot that crawls your page sees the experiment and makes the necessary adjustments.",
+      "token_count": 179
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000009",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n5. How do I run an SEO experiment?\n3. Let the experiment run for 2-4 weeks\n- You’ll want to let the experiment run for a while so that Google can discover the changes, and make the necessary adjustments\n- SEO experiments take more time than A/B tests to show impact",
+      "doc_item_refs": [
+        "#/texts/117",
+        "#/texts/118"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "5. How do I run an SEO experiment?",
+        "3. Let the experiment run for 2-4 weeks"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000009",
+        "chunk_sha256": "794a19d7f9a6ab1dfbacd27aea1f835b9414e707c219efa4ed759d9cd497b6ad",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "5. How do I run an SEO experiment?",
+          "3. Let the experiment run for 2-4 weeks"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/117",
+          "item_count": 2,
+          "last_self_ref": "#/texts/118"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/117",
+          "#/texts/118"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "- You’ll want to let the experiment run for a while so that Google can discover the changes, and make the necessary adjustments\n- SEO experiments take more time than A/B tests to show impact",
+      "token_count": 118
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000010",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n5. How do I run an SEO experiment?\n4. Run an analysis on the expected difference in organic traffic\n- Compare the expected change in traffic if you hadn’t run the experiment against the difference that you see now that you’ve made the change\n- Since you bucketed your control and treatment randomly, you could end up with one bucket receiving more traffic than the other (e.g. in Airbnb’s case, one bucket might have more large cities than the other). By measuring the difference in difference, you’re accounting for the imbalance in traffic and measuring the impact independent of the raw traffic count.\n- Remember to pull out bot traffic from your data source. You can do this by excluding traffic with user agents of well-known bots (e.g. Googlebot, Bingbot, Duckduckgo, etc).",
+      "doc_item_refs": [
+        "#/texts/120",
+        "#/texts/121",
+        "#/texts/122"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "5. How do I run an SEO experiment?",
+        "4. Run an analysis on the expected difference in organic traffic"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000010",
+        "chunk_sha256": "a6de29b643825bd6c10f8accc98ec155bb6d07869fb2071e34c9442697a0e67e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "5. How do I run an SEO experiment?",
+          "4. Run an analysis on the expected difference in organic traffic"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/120",
+          "item_count": 3,
+          "last_self_ref": "#/texts/122"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/120",
+          "#/texts/121",
+          "#/texts/122"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "- Compare the expected change in traffic if you hadn’t run the experiment against the difference that you see now that you’ve made the change\n- Since you bucketed your control and treatment randomly, you could end up with one bucket receiving more traffic than the other (e.g. in Airbnb’s case, one bucket might have more large cities than the other). By measuring the difference in difference, you’re accounting for the imbalance in traffic and measuring the impact independent of the raw traffic count.\n- Remember to pull out bot traffic from your data source. You can do this by excluding traffic with user agents of well-known bots (e.g. Googlebot, Bingbot, Duckduckgo, etc).",
+      "token_count": 232
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000011",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n5. How do I run an SEO experiment?\n5. You can conclude the experiment after it has run for more than two weeks and the results are statistically significant.\nImage from How to run SEO experiments\nImage from How to run SEO experiments",
+      "doc_item_refs": [
+        "#/texts/333",
+        "#/texts/124"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "5. How do I run an SEO experiment?",
+        "5. You can conclude the experiment after it has run for more than two weeks and the results are statistically significant."
+      ],
+      "images": [
+        {
+          "caption": "Image from How to run SEO experiments",
+          "image_id": "02-newsletters/how-to-run-seo-experiments.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/16435111-5378-4c97-9501-fd66d0bf5ff0_1358x758.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000011",
+        "chunk_sha256": "c1b5419f3388d42f67dc846d0e73e26629d8a8df6be8060b4721b64afe988d62",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "5. How do I run an SEO experiment?",
+          "5. You can conclude the experiment after it has run for more than two weeks and the results are statistically significant."
+        ],
+        "images": [
+          {
+            "caption": "Image from How to run SEO experiments",
+            "image_id": "02-newsletters/how-to-run-seo-experiments.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/16435111-5378-4c97-9501-fd66d0bf5ff0_1358x758.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/333",
+          "item_count": 2,
+          "last_self_ref": "#/texts/124"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/333",
+          "#/texts/124"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "Image from How to run SEO experiments\nImage from How to run SEO experiments",
+      "token_count": 105
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000012",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n6. Let’s design and run an SEO experiment!\nFor this exercise, let’s pretend that we’re a Growth Product Manager at Figma on the Community team, and we want to grow the organic traffic coming into the\n[Community pages](https://www.figma.com/community)\n.\nImage from How to run SEO experiments\nImage from How to run SEO experiments\nFrom looking at their\n[Community File page](https://www.figma.com/community/file/858143367356468985)\n, I can see that they constructed their title tags with the following structure:\n{name of file | description of file that gets truncated}\nThis isn’t a bad way to be constructing it, but maybe we could do something better.\n*Note: There are quite a few things wrong with their pages on the SEO-side, but we’ll pretend they aren’t there for the sake of this example.*",
+      "doc_item_refs": [
+        "#/texts/126",
+        "#/texts/127",
+        "#/texts/128",
+        "#/texts/334",
+        "#/texts/129",
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/134",
+        "#/texts/135"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "6. Let’s design and run an SEO experiment!"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to run SEO experiments",
+          "image_id": "02-newsletters/how-to-run-seo-experiments.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/d1144248-21ca-4a18-981d-ac8f34cc59eb_1017x727.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000012",
+        "chunk_sha256": "85b4c00e51e267e01626188dbe98905c2cb32127321e4561bddc52ec6876e43e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "6. Let’s design and run an SEO experiment!"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to run SEO experiments",
+            "image_id": "02-newsletters/how-to-run-seo-experiments.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/d1144248-21ca-4a18-981d-ac8f34cc59eb_1017x727.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/126",
+          "item_count": 11,
+          "last_self_ref": "#/texts/135"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/126",
+          "#/texts/127",
+          "#/texts/128",
+          "#/texts/334",
+          "#/texts/129",
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/134",
+          "#/texts/135"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "For this exercise, let’s pretend that we’re a Growth Product Manager at Figma on the Community team, and we want to grow the organic traffic coming into the\n[Community pages](https://www.figma.com/community)\n.\nImage from How to run SEO experiments\nImage from How to run SEO experiments\nFrom looking at their\n[Community File page](https://www.figma.com/community/file/858143367356468985)\n, I can see that they constructed their title tags with the following structure:\n{name of file | description of file that gets truncated}\nThis isn’t a bad way to be constructing it, but maybe we could do something better.\n*Note: There are quite a few things wrong with their pages on the SEO-side, but we’ll pretend they aren’t there for the sake of this example.*",
+      "token_count": 259
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000013",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n6. Let’s design and run an SEO experiment!\n1. Design the experiment\n**Current title tag:**\n```\n{name of file | description of file that gets truncated with HTML(?!)}\n```\n*Figma - iOS & iPadOS 14 UI Kit for Figma |*\n*Excited to share the latest iOS & iPadOS 14 UI Kit for Figma!*\n*---*\n*<...*\n**Desired title tag:**\n```\n{name of file | tags}\n```\n*Figma - iOS & iPadOS 14 UI Kit for Figma | 14, alert, apple, dark, emoji, ios, iphone, kit, light*\n**Reasoning**\n: The way that Figma constructs title tags is actually a bit funny. Since the title tag is truncated, there's a good chance you cut off keywords and content before they even appear there. The current implementation isn't bad, but since files do have tags associated with them, using the tags is probably a better solution. What is bad about the title tags is that some of them have HTML injected into them.",
+      "doc_item_refs": [
+        "#/texts/137",
+        "#/texts/138",
+        "#/texts/139",
+        "#/texts/140",
+        "#/texts/141",
+        "#/texts/142",
+        "#/texts/143",
+        "#/texts/144",
+        "#/texts/145",
+        "#/texts/146",
+        "#/texts/147"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "6. Let’s design and run an SEO experiment!",
+        "1. Design the experiment"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000013",
+        "chunk_sha256": "c02a9c864c5ad3bb20d0e640f2ce6fe23d4400ecfffbd2aa8567dded2895cb44",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "6. Let’s design and run an SEO experiment!",
+          "1. Design the experiment"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/137",
+          "item_count": 11,
+          "last_self_ref": "#/texts/147"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/137",
+          "#/texts/138",
+          "#/texts/139",
+          "#/texts/140",
+          "#/texts/141",
+          "#/texts/142",
+          "#/texts/143",
+          "#/texts/144",
+          "#/texts/145",
+          "#/texts/146",
+          "#/texts/147"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "**Current title tag:**\n```\n{name of file | description of file that gets truncated with HTML(?!)}\n```\n*Figma - iOS & iPadOS 14 UI Kit for Figma |*\n*Excited to share the latest iOS & iPadOS 14 UI Kit for Figma!*\n*---*\n*<...*\n**Desired title tag:**\n```\n{name of file | tags}\n```\n*Figma - iOS & iPadOS 14 UI Kit for Figma | 14, alert, apple, dark, emoji, ios, iphone, kit, light*\n**Reasoning**\n: The way that Figma constructs title tags is actually a bit funny. Since the title tag is truncated, there's a good chance you cut off keywords and content before they even appear there. The current implementation isn't bad, but since files do have tags associated with them, using the tags is probably a better solution. What is bad about the title tags is that some of them have HTML injected into them.",
+      "token_count": 299
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000014",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n6. Let’s design and run an SEO experiment!\n2. Roll out your experiment to the pages in the treatment group\nWe’ll do a straight A/B test with 50/50 treatment versus control to ALL Community File pages.",
+      "doc_item_refs": [
+        "#/texts/149"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "6. Let’s design and run an SEO experiment!",
+        "2. Roll out your experiment to the pages in the treatment group"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000014",
+        "chunk_sha256": "b2fb0910bd7548c31d1bb083c397d434c3f8a90ae563f1b85ed71913dd9014c0",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "6. Let’s design and run an SEO experiment!",
+          "2. Roll out your experiment to the pages in the treatment group"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/149",
+          "item_count": 1,
+          "last_self_ref": "#/texts/149"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/149"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "We’ll do a straight A/B test with 50/50 treatment versus control to ALL Community File pages.",
+      "token_count": 105
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000015",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n6. Let’s design and run an SEO experiment!\n3. Wait patiently\nTitle tag experiments are usually pretty impactful. I’d probably wait two weeks before running an analysis.",
+      "doc_item_refs": [
+        "#/texts/151"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "6. Let’s design and run an SEO experiment!",
+        "3. Wait patiently"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000015",
+        "chunk_sha256": "f68be797c8f9ab67a46e5c91690657f751cfea492fd70409ffccff04ecfd7764",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "6. Let’s design and run an SEO experiment!",
+          "3. Wait patiently"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 15,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/151",
+          "item_count": 1,
+          "last_self_ref": "#/texts/151"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/151"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 15,
+      "raw_text": "Title tag experiments are usually pretty impactful. I’d probably wait two weeks before running an analysis.",
+      "token_count": 94
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000016",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n6. Let’s design and run an SEO experiment!\n4. Run your analysis\nWe’ll look at the expected difference in traffic if you hadn’t run the experiment (control group) and compare it against the difference that you see now that you’ve made the change (treatment). I’ll work with a data scientist to make sure that we’re pulling data from our visitors table.",
+      "doc_item_refs": [
+        "#/texts/153"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "6. Let’s design and run an SEO experiment!",
+        "4. Run your analysis"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000016",
+        "chunk_sha256": "dedcab8a15eedfb45e7e6ddeb5fb1a371aa9ec043d0ae5a7038794fe9c8b38e2",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "6. Let’s design and run an SEO experiment!",
+          "4. Run your analysis"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 16,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/153",
+          "item_count": 1,
+          "last_self_ref": "#/texts/153"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/153"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 16,
+      "raw_text": "We’ll look at the expected difference in traffic if you hadn’t run the experiment (control group) and compare it against the difference that you see now that you’ve made the change (treatment). I’ll work with a data scientist to make sure that we’re pulling data from our visitors table.",
+      "token_count": 139
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000017",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n6. Let’s design and run an SEO experiment!\n5. Launch\nIf results are positive and are statistically significant, I’d launch to 100%. If it’s neutral, or inconclusive after a month, you can use your own judgment on whether or not you want to launch it.",
+      "doc_item_refs": [
+        "#/texts/155"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "6. Let’s design and run an SEO experiment!",
+        "5. Launch"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000017",
+        "chunk_sha256": "f0ae767cc91be122f76e5895ac88bef7eb280bc8fbe5de2787bd60d1f19d2d74",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "6. Let’s design and run an SEO experiment!",
+          "5. Launch"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 17,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/155",
+          "item_count": 1,
+          "last_self_ref": "#/texts/155"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/155"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 17,
+      "raw_text": "If results are positive and are statistically significant, I’d launch to 100%. If it’s neutral, or inconclusive after a month, you can use your own judgment on whether or not you want to launch it.",
+      "token_count": 120
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000018",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n6. Let’s design and run an SEO experiment!\n6. Iterate\nDocument your learnings, and start thinking about other experiments you can do.\nWould it make a difference if we only added the most popular tags to the title tag? What about if we put both the tags and description in there?",
+      "doc_item_refs": [
+        "#/texts/157",
+        "#/texts/158"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "6. Let’s design and run an SEO experiment!",
+        "6. Iterate"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000018",
+        "chunk_sha256": "c12ef9a35a930124b28cc2ff6ab89ffb531a1beed4d8557af5a760e169e59eb5",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "6. Let’s design and run an SEO experiment!",
+          "6. Iterate"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 18,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/157",
+          "item_count": 2,
+          "last_self_ref": "#/texts/158"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/157",
+          "#/texts/158"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 18,
+      "raw_text": "Document your learnings, and start thinking about other experiments you can do.\nWould it make a difference if we only added the most popular tags to the title tag? What about if we put both the tags and description in there?",
+      "token_count": 119
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000019",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n7. What are the limitations of SEO experiments?\nTwo things: The amount of traffic you have, and the number of pages you have.\n- **Traffic:** If you don’t have a consistently high amount of traffic to your website, running SEO experiments will be quite tough. You’ll have a hard time trying to figure out what’s working, and what’s spiky traffic. As a general rule, **you’ll want at least 5,000 organic visitors a day** to the page type that you want to run the experiment on.\n- **Number of pages:** The number of pages that you have will limit the number of experiments you could run at a time. At Airbnb, we were able to run *maybe* 5 experiments at a time, while at Strava, we were limited to only one at a time.\nIt’s important to note that you’ll need to be careful about the types of pages you test on and the amount of traffic they get. We ran an SEO test at Strava on our user-profiles and had to dump out a bunch of bad data because we had profile pages that got marginally more traffic, which ended up skewing traffic numbers.",
+      "doc_item_refs": [
+        "#/texts/160",
+        "#/texts/161",
+        "#/texts/166",
+        "#/texts/171"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "7. What are the limitations of SEO experiments?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000019",
+        "chunk_sha256": "973f39d9dfe29739c3bb3d7e4297ed71240b31ea02b75786a23d186f36a679fd",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "7. What are the limitations of SEO experiments?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 19,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/160",
+          "item_count": 4,
+          "last_self_ref": "#/texts/171"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/160",
+          "#/texts/161",
+          "#/texts/166",
+          "#/texts/171"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 19,
+      "raw_text": "Two things: The amount of traffic you have, and the number of pages you have.\n- **Traffic:** If you don’t have a consistently high amount of traffic to your website, running SEO experiments will be quite tough. You’ll have a hard time trying to figure out what’s working, and what’s spiky traffic. As a general rule, **you’ll want at least 5,000 organic visitors a day** to the page type that you want to run the experiment on.\n- **Number of pages:** The number of pages that you have will limit the number of experiments you could run at a time. At Airbnb, we were able to run *maybe* 5 experiments at a time, while at Strava, we were limited to only one at a time.\nIt’s important to note that you’ll need to be careful about the types of pages you test on and the amount of traffic they get. We ran an SEO test at Strava on our user-profiles and had to dump out a bunch of bad data because we had profile pages that got marginally more traffic, which ended up skewing traffic numbers.",
+      "token_count": 315
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000020",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n8. Should I build an experimentation framework?\nThis is the million-dollar question. My recommendation to 95% of startups is that it’s not worth your time to create. These experimentation frameworks are generally useful in two scenarios:\n1. When you’re actually in the optimization part of your SEO strategy. Most companies/websites aren’t even close to this part yet. The large majority of companies are still in the “build” phase of their strategy.\n2. If leadership wants to account for every single feature you build/implement and the success of your team is tied to being able to incrementally prove out these changes/wins.\nMost of the startups I talk to are just starting to spin up their SEO strategy. They don’t know what type of pages they’re going to create, they don’t know if their current pages are built correctly, they lack internal linking, they don’t have half-decent title tags….the list goes on. Experimentation frameworks are meant to be used for you to learn and optimize, and if your SEO product isn’t in a space to optimize, you’re just slowing yourself down. Don’t waste precious time trying to validate foundational SEO features.\nOnce you know that SEO is a core part of your strategy, and you have a set of pages that are performing really well, then you can put in time and effort to create an experimentation framework and try to perfect your pages.",
+      "doc_item_refs": [
+        "#/texts/173",
+        "#/texts/174",
+        "#/texts/175",
+        "#/texts/176",
+        "#/texts/177"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "8. Should I build an experimentation framework?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000020",
+        "chunk_sha256": "8a8474cd0c5f937c5b678ad31bdf6fc1e7c715be290cf219788ade32966bbaa8",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "8. Should I build an experimentation framework?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 20,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/173",
+          "item_count": 5,
+          "last_self_ref": "#/texts/177"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/173",
+          "#/texts/174",
+          "#/texts/175",
+          "#/texts/176",
+          "#/texts/177"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 20,
+      "raw_text": "This is the million-dollar question. My recommendation to 95% of startups is that it’s not worth your time to create. These experimentation frameworks are generally useful in two scenarios:\n1. When you’re actually in the optimization part of your SEO strategy. Most companies/websites aren’t even close to this part yet. The large majority of companies are still in the “build” phase of their strategy.\n2. If leadership wants to account for every single feature you build/implement and the success of your team is tied to being able to incrementally prove out these changes/wins.\nMost of the startups I talk to are just starting to spin up their SEO strategy. They don’t know what type of pages they’re going to create, they don’t know if their current pages are built correctly, they lack internal linking, they don’t have half-decent title tags….the list goes on. Experimentation frameworks are meant to be used for you to learn and optimize, and if your SEO product isn’t in a space to optimize, you’re just slowing yourself down. Don’t waste precious time trying to validate foundational SEO features.\nOnce you know that SEO is a core part of your strategy, and you have a set of pages that are performing really well, then you can put in time and effort to create an experimentation framework and try to perfect your pages.",
+      "token_count": 361
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000021",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n9. What were the most impactful SEO experiments I’ve run?\n**In aggregate, title tag experiments led to a 15-20% increase in traffic at Airbnb**\n. Being able to continuously run title tag experiments is one of the top reasons to invest in creating an SEO framework. A minor title tag change resulted in the most impactful SEO experiment ever run at Airbnb.\nHere are some tips and things to keep in mind when trying to come up with title tag experiments:\n1. Can you leverage structured content to provide more consistent title tags?\n2. How do you provide more context to Google?\n3. What information are people looking for when they’re searching for your high-performance keywords?\n4. People really like clicking on numbers\nIn the Figma example above, we ran a title tag experiment that provides more context to Google about what the page is, and uses high-quality structured content to do so.\n**Content always drives more traffic.**\nThere’s a good reason why SEO landing pages always have a ton of content and text on them, that’s because there’s a very strong correlation between the amount of unique, high-quality content on your page, and the amount of incoming organic traffic. Every time we added more content to our Airbnb landing pages, it always led to more incoming traffic. The most impactful\n*single*\nexperiment we ever ran at Strava increased the amount of traffic to our pages by 20%, and the only thing that we did was add more routes to our “Where to run in {city} pages.”\nThings to keep in mind when you’re experimenting with content:\n- How do I leverage existing content that I already have, and repackage it to be useful on my landing page?\n- Can I remove low-quality pieces of content on your page, and replace them with something that’s of higher quality. For example, remove low word count reviews from your page, and replace them with keyword-dense, lengthy, high-quality reviews\n**In aggregate, meta description experimentation led to a 6% increase in traffic at Airbnb.**\nWhile meta descriptions don’t have a direct impact on your ranking, it does have an effect on your CTR on the search engine result pages. Being able to optimize and tweak your meta descriptions to make it more attractive to click on, will lead to a higher CTR, which leads to more traffic, which leads to higher rankings.",
+      "doc_item_refs": [
+        "#/texts/179",
+        "#/texts/180",
+        "#/texts/181",
+        "#/texts/182",
+        "#/texts/183",
+        "#/texts/184",
+        "#/texts/185",
+        "#/texts/186",
+        "#/texts/187",
+        "#/texts/188",
+        "#/texts/189",
+        "#/texts/190",
+        "#/texts/191",
+        "#/texts/192",
+        "#/texts/193",
+        "#/texts/194",
+        "#/texts/195"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        "9. What were the most impactful SEO experiments I’ve run?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000021",
+        "chunk_sha256": "d4b903b504c88e33cc291c07a59ded3d06d7ae24615a14cae2d319fef4360b60",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          "9. What were the most impactful SEO experiments I’ve run?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 21,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/179",
+          "item_count": 17,
+          "last_self_ref": "#/texts/195"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/179",
+          "#/texts/180",
+          "#/texts/181",
+          "#/texts/182",
+          "#/texts/183",
+          "#/texts/184",
+          "#/texts/185",
+          "#/texts/186",
+          "#/texts/187",
+          "#/texts/188",
+          "#/texts/189",
+          "#/texts/190",
+          "#/texts/191",
+          "#/texts/192",
+          "#/texts/193",
+          "#/texts/194",
+          "#/texts/195"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 21,
+      "raw_text": "**In aggregate, title tag experiments led to a 15-20% increase in traffic at Airbnb**\n. Being able to continuously run title tag experiments is one of the top reasons to invest in creating an SEO framework. A minor title tag change resulted in the most impactful SEO experiment ever run at Airbnb.\nHere are some tips and things to keep in mind when trying to come up with title tag experiments:\n1. Can you leverage structured content to provide more consistent title tags?\n2. How do you provide more context to Google?\n3. What information are people looking for when they’re searching for your high-performance keywords?\n4. People really like clicking on numbers\nIn the Figma example above, we ran a title tag experiment that provides more context to Google about what the page is, and uses high-quality structured content to do so.\n**Content always drives more traffic.**\nThere’s a good reason why SEO landing pages always have a ton of content and text on them, that’s because there’s a very strong correlation between the amount of unique, high-quality content on your page, and the amount of incoming organic traffic. Every time we added more content to our Airbnb landing pages, it always led to more incoming traffic. The most impactful\n*single*\nexperiment we ever ran at Strava increased the amount of traffic to our pages by 20%, and the only thing that we did was add more routes to our “Where to run in {city} pages.”\nThings to keep in mind when you’re experimenting with content:\n- How do I leverage existing content that I already have, and repackage it to be useful on my landing page?\n- Can I remove low-quality pieces of content on your page, and replace them with something that’s of higher quality. For example, remove low word count reviews from your page, and replace them with keyword-dense, lengthy, high-quality reviews\n**In aggregate, meta description experimentation led to a 6% increase in traffic at Airbnb.**\nWhile meta descriptions don’t have a direct impact on your ranking, it does have an effect on your CTR on the search engine result pages. Being able to optimize and tweak your meta descriptions to make it more attractive to click on, will lead to a higher CTR, which leads to more traffic, which leads to higher rankings.",
+      "token_count": 572
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000022",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\nRunning SEO Experiments\n\n🧠\n**Further study**\n1. [Jeff Chang’s Growth Blog](https://www.growthengblog.com/blog/2018/4/15/scaling-new-growth-opportunities-series-seo-basics) : Jeff is one of the original growth engineers at Pinterest and was the Growth Tech Lead there. Airbnb’s experimentation framework is heavily borrowed from Pinterest. This is an extremely simple version of an SEO experimentation framework and may be your best option to roll something out quickly.\n2. [Airbnb SEO Data Scientist Blog](https://medium.com/airbnb-engineering/experimentation-measurement-for-search-engine-optimization-b64136629760) : This is written by our data scientist on the SEO team, Brian de Luna, who was absolutely amazing.\n3. [Pinterest Engineering Blog](https://medium.com/pinterest-engineering/demystifying-seo-with-experiments-a183b325cf4c) : An original blog post from Pinterest about their SEO experimentation framework. Airbnb’s experimentation framework is heavily borrowed from this, with our data scientists and engineers walking over to the Pinterest office for knowledge sharing.\n*You can follow Brian on*\n[*Twitter*](https://twitter.com/fanfavorite_bta)\n*and*\n[*LinkedIn*](https://www.linkedin.com/in/brianta626/)\n*.*\nThat’s it for this week! Have anything to add? Leave a comment 👇\n[Leave a comment](https://www.lennyrachitsky.com/p/managing-up/comments)",
+      "doc_item_refs": [
+        "#/texts/197",
+        "#/texts/198",
+        "#/texts/199",
+        "#/texts/202",
+        "#/texts/205",
+        "#/texts/208",
+        "#/texts/209",
+        "#/texts/210",
+        "#/texts/211",
+        "#/texts/212",
+        "#/texts/213",
+        "#/texts/214"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "Running SEO Experiments",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000022",
+        "chunk_sha256": "7bf32c11168fa6a0bb09873285c394ae5c73c3dba86cb1524c1811c9a9dd4f92",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "Running SEO Experiments",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 22,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/197",
+          "item_count": 12,
+          "last_self_ref": "#/texts/214"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/197",
+          "#/texts/198",
+          "#/texts/199",
+          "#/texts/202",
+          "#/texts/205",
+          "#/texts/208",
+          "#/texts/209",
+          "#/texts/210",
+          "#/texts/211",
+          "#/texts/212",
+          "#/texts/213",
+          "#/texts/214"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 22,
+      "raw_text": "🧠\n**Further study**\n1. [Jeff Chang’s Growth Blog](https://www.growthengblog.com/blog/2018/4/15/scaling-new-growth-opportunities-series-seo-basics) : Jeff is one of the original growth engineers at Pinterest and was the Growth Tech Lead there. Airbnb’s experimentation framework is heavily borrowed from Pinterest. This is an extremely simple version of an SEO experimentation framework and may be your best option to roll something out quickly.\n2. [Airbnb SEO Data Scientist Blog](https://medium.com/airbnb-engineering/experimentation-measurement-for-search-engine-optimization-b64136629760) : This is written by our data scientist on the SEO team, Brian de Luna, who was absolutely amazing.\n3. [Pinterest Engineering Blog](https://medium.com/pinterest-engineering/demystifying-seo-with-experiments-a183b325cf4c) : An original blog post from Pinterest about their SEO experimentation framework. Airbnb’s experimentation framework is heavily borrowed from this, with our data scientists and engineers walking over to the Pinterest office for knowledge sharing.\n*You can follow Brian on*\n[*Twitter*](https://twitter.com/fanfavorite_bta)\n*and*\n[*LinkedIn*](https://www.linkedin.com/in/brianta626/)\n*.*\nThat’s it for this week! Have anything to add? Leave a comment 👇\n[Leave a comment](https://www.lennyrachitsky.com/p/managing-up/comments)",
+      "token_count": 433
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000023",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\n🔥 Job opportunities\n**✨ Group Product Managers at Quora**\n:\n[Subscriptions](https://grnh.se/7c4200392us)\nand\n[Moderation](https://grnh.se/35dbcae12us)\n**(**\n**sponsored**\n**) ✨**\n1. **Product** : [Cerebral](https://boards.greenhouse.io/cerebral/jobs/4124465003) , [Descript](https://jobs.lever.co/descript-2/08f9b563-c3e6-49a4-be07-82fafc1868af) , [KUDO](https://angel.co/company/kudo-meeting/jobs/913705-product-manager) , [Hipcamp](https://jobs.lever.co/hipcamp/d04821c3-fb9a-4d3f-9a7a-1b75deacc09f) , [Prenda](https://apply.workable.com/prenda/j/63270A44BB/)\n2. **Growth** : [BasisOne](https://www.basisone.com/careers/growth-strategy-lead) , [Coda](https://boards.greenhouse.io/coda/jobs/4794809002) , [Levels](https://levels.link/growth) , [Prenda](https://apply.workable.com/prenda/j/AC98C5FDFB/)\n3. **Design** : [Ashby](https://jobs.ashbyhq.com/ashby/145ff46b-1441-4773-bcd3-c8c90baa598a) , [Cascade](https://www.cascade.io/jobs/analytical-product-designer) , [Office Hours](https://docs.google.com/document/d/1_aHEl08ahc6NjOhwmi9GQlNv8CvlOwf8hL-FyCrmAes/edit) , [Runway](https://www.notion.so/A-Product-Designer-baa24543701f472bb291d4429812064a) , [Stytch](https://jobs.lever.co/stytch/675e6a11-5a33-41bc-9315-5a3ca141d444) , [Watershed](https://www.notion.so/Designer-Watershed-7cb7bf8bd750432399d36e83e4e32391)\n4. **Engineering manager** : [Cerebral](https://boards.greenhouse.io/cerebral/jobs/4076598003)\n5. **Frontend engineer** : [Levels](https://www.notion.so/levelshealth/Join-Levels-Remote-Developer-58454f0db7e3466692f7b75db6237ddf) , [Practice](https://www.notion.so/Front-end-Developer-929e1933b9b4432a851043adbb7bff04)\n6. **Backend engineer** : [Coda](https://boards.greenhouse.io/coda/jobs/4489268002) , [Sourcetable](https://sourcetable.com/jobs#backend-engineer) , [Transform](https://transformdata.io/careers/)\n7. **Fullstack engineer** : [Cascade](https://www.cascade.io/jobs/full-stack-product-engineer) , [Centered](https://www.notion.so/Software-Developer-e7cad269968e4d5aaeb1f6da9e282626) , [Cerebral](https://boards.greenhouse.io/cerebral/jobs/4188468003) , [Icebreaker](https://icebreaker.video/product-engineer) , [Iggy](https://www.notion.so/askiggy/Full-Stack-Engineer-IggyAPI-5a8c1825028e421b9587538718f370b4) , [Primer](https://www.notion.so/Senior-Software-Engineer-Full-stack-web-San-Francisco-CA-3a0af35008104def82836a5b9a5a88e1) , [Runway](https://www.notion.so/A-Product-first-Full-stack-Engineer-5e056689b68048aeb1ccfea6ac73eb9e) , [Snackpass](https://jobs.lever.co/snackpass/7c3bb72b-70d3-45ca-9dea-eea57ed5333d)\n8. **iOS engineer** : [Pairplay](https://www.notion.so/Lead-iOS-Developer-ba18577b6ba44ad68e45b8e7a957353c) , [Primer](https://www.notion.so/Senior-Software-Engineer-iOS-San-Francisco-CA-87f0fd3ee3dc4c3f8d0419c07fcdd434) , [Stytch](https://jobs.lever.co/stytch/d3bf3860-4aaa-4a23-8e28-dad20957be44) , [Vori](https://www.notion.so/Mobile-Engineer-Vori-c5ceccd966a04c8aa9e970f0355ca13c)",
+      "doc_item_refs": [
+        "#/texts/216",
+        "#/texts/217",
+        "#/texts/218",
+        "#/texts/219",
+        "#/texts/220",
+        "#/texts/221",
+        "#/texts/222",
+        "#/texts/223",
+        "#/texts/224",
+        "#/texts/236",
+        "#/texts/246",
+        "#/texts/260",
+        "#/texts/264",
+        "#/texts/270",
+        "#/texts/278",
+        "#/texts/296"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "🔥 Job opportunities"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000023",
+        "chunk_sha256": "51b578ea6a7f9ab0ccbe4a73ac97c3494a6a6e334f0c5558e8971390dbfed934",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "🔥 Job opportunities"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 23,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/216",
+          "item_count": 16,
+          "last_self_ref": "#/texts/296"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/216",
+          "#/texts/217",
+          "#/texts/218",
+          "#/texts/219",
+          "#/texts/220",
+          "#/texts/221",
+          "#/texts/222",
+          "#/texts/223",
+          "#/texts/224",
+          "#/texts/236",
+          "#/texts/246",
+          "#/texts/260",
+          "#/texts/264",
+          "#/texts/270",
+          "#/texts/278",
+          "#/texts/296"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 23,
+      "raw_text": "**✨ Group Product Managers at Quora**\n:\n[Subscriptions](https://grnh.se/7c4200392us)\nand\n[Moderation](https://grnh.se/35dbcae12us)\n**(**\n**sponsored**\n**) ✨**\n1. **Product** : [Cerebral](https://boards.greenhouse.io/cerebral/jobs/4124465003) , [Descript](https://jobs.lever.co/descript-2/08f9b563-c3e6-49a4-be07-82fafc1868af) , [KUDO](https://angel.co/company/kudo-meeting/jobs/913705-product-manager) , [Hipcamp](https://jobs.lever.co/hipcamp/d04821c3-fb9a-4d3f-9a7a-1b75deacc09f) , [Prenda](https://apply.workable.com/prenda/j/63270A44BB/)\n2. **Growth** : [BasisOne](https://www.basisone.com/careers/growth-strategy-lead) , [Coda](https://boards.greenhouse.io/coda/jobs/4794809002) , [Levels](https://levels.link/growth) , [Prenda](https://apply.workable.com/prenda/j/AC98C5FDFB/)\n3. **Design** : [Ashby](https://jobs.ashbyhq.com/ashby/145ff46b-1441-4773-bcd3-c8c90baa598a) , [Cascade](https://www.cascade.io/jobs/analytical-product-designer) , [Office Hours](https://docs.google.com/document/d/1_aHEl08ahc6NjOhwmi9GQlNv8CvlOwf8hL-FyCrmAes/edit) , [Runway](https://www.notion.so/A-Product-Designer-baa24543701f472bb291d4429812064a) , [Stytch](https://jobs.lever.co/stytch/675e6a11-5a33-41bc-9315-5a3ca141d444) , [Watershed](https://www.notion.so/Designer-Watershed-7cb7bf8bd750432399d36e83e4e32391)\n4. **Engineering manager** : [Cerebral](https://boards.greenhouse.io/cerebral/jobs/4076598003)\n5. **Frontend engineer** : [Levels](https://www.notion.so/levelshealth/Join-Levels-Remote-Developer-58454f0db7e3466692f7b75db6237ddf) , [Practice](https://www.notion.so/Front-end-Developer-929e1933b9b4432a851043adbb7bff04)\n6. **Backend engineer** : [Coda](https://boards.greenhouse.io/coda/jobs/4489268002) , [Sourcetable](https://sourcetable.com/jobs#backend-engineer) , [Transform](https://transformdata.io/careers/)\n7. **Fullstack engineer** : [Cascade](https://www.cascade.io/jobs/full-stack-product-engineer) , [Centered](https://www.notion.so/Software-Developer-e7cad269968e4d5aaeb1f6da9e282626) , [Cerebral](https://boards.greenhouse.io/cerebral/jobs/4188468003) , [Icebreaker](https://icebreaker.video/product-engineer) , [Iggy](https://www.notion.so/askiggy/Full-Stack-Engineer-IggyAPI-5a8c1825028e421b9587538718f370b4) , [Primer](https://www.notion.so/Senior-Software-Engineer-Full-stack-web-San-Francisco-CA-3a0af35008104def82836a5b9a5a88e1) , [Runway](https://www.notion.so/A-Product-first-Full-stack-Engineer-5e056689b68048aeb1ccfea6ac73eb9e) , [Snackpass](https://jobs.lever.co/snackpass/7c3bb72b-70d3-45ca-9dea-eea57ed5333d)\n8. **iOS engineer** : [Pairplay](https://www.notion.so/Lead-iOS-Developer-ba18577b6ba44ad68e45b8e7a957353c) , [Primer](https://www.notion.so/Senior-Software-Engineer-iOS-San-Francisco-CA-87f0fd3ee3dc4c3f8d0419c07fcdd434) , [Stytch](https://jobs.lever.co/stytch/d3bf3860-4aaa-4a23-8e28-dad20957be44) , [Vori](https://www.notion.so/Mobile-Engineer-Vori-c5ceccd966a04c8aa9e970f0355ca13c)",
+      "token_count": 1449
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000024",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\n🧠 Inspiration for the week ahead\n1. **Listen** : [Does Advertising Actually Work?](https://freakonomics.com/podcast/advertising-part-1/) , by Freakonomics podcast\n2. **Read** : [The Unusual Signs of a Billion Dollar Company](https://www.nfx.com/post/unusual-signs-billion-dollar-companies/) , by Elad Gil\n3. **Learn** : How to give product feedback",
+      "doc_item_refs": [
+        "#/texts/307",
+        "#/texts/312",
+        "#/texts/317"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "🧠 Inspiration for the week ahead"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000024",
+        "chunk_sha256": "87e8e8502056786a650892cfb44e362452bfad3c8c85691b1f17e648b2d78969",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "🧠 Inspiration for the week ahead"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 24,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/307",
+          "item_count": 3,
+          "last_self_ref": "#/texts/317"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/307",
+          "#/texts/312",
+          "#/texts/317"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 24,
+      "raw_text": "1. **Listen** : [Does Advertising Actually Work?](https://freakonomics.com/podcast/advertising-part-1/) , by Freakonomics podcast\n2. **Read** : [The Unusual Signs of a Billion Dollar Company](https://www.nfx.com/post/unusual-signs-billion-dollar-companies/) , by Elad Gil\n3. **Learn** : How to give product feedback",
+      "token_count": 163
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000025",
+      "contextualized_text": "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter\n🧠 Inspiration for the week ahead\nHow would you rate this week's newsletter? 🤔\n[Great](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4Hp2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n•\n[Good](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4vX2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n•\n[Meh](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4kr2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n*Have someone in your life who would benefit from this newsletter? Feel free to forward this to them, or better yet, give them a gift subscription*\n💖\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/321",
+        "#/texts/322",
+        "#/texts/323",
+        "#/texts/324",
+        "#/texts/325",
+        "#/texts/326",
+        "#/texts/327",
+        "#/texts/328",
+        "#/texts/329"
+      ],
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "headings": [
+        "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+        "🧠 Inspiration for the week ahead",
+        "How would you rate this week's newsletter? 🤔"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-run-seo-experiments.md#chunk=000025",
+        "chunk_sha256": "b5e74d19fcf5f99f4363a50d016777c1cc5229959805d13f4b0fcd5872b296d9",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+        "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+        "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+        "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+        "headings": [
+          "How to run SEO experiments — And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious | 2020-12-15 | Tags: analytics, design, b2c, growth, go-to-market, newsletter",
+          "🧠 Inspiration for the week ahead",
+          "How would you rate this week's newsletter? 🤔"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 25,
+        "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+        "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+        "segment": {
+          "first_self_ref": "#/texts/321",
+          "item_count": 9,
+          "last_self_ref": "#/texts/329"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/321",
+          "#/texts/322",
+          "#/texts/323",
+          "#/texts/324",
+          "#/texts/325",
+          "#/texts/326",
+          "#/texts/327",
+          "#/texts/328",
+          "#/texts/329"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 25,
+      "raw_text": "[Great](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4Hp2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n•\n[Good](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4vX2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n•\n[Meh](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4kr2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n*Have someone in your life who would benefit from this newsletter? Feel free to forward this to them, or better yet, give them a gift subscription*\n💖\nSincerely,\nLenny 👋",
+      "token_count": 786
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/how-to-run-seo-experiments.docling.json",
+  "docling_sha256": "6902447a51b4f39b486b4eaf8578e86152016244cc0afd7aff4ef8ffeb51a4f4",
+  "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/how-to-run-seo-experiments.md",
+  "enhanced_sha256": "bc30188b66b2628e24f4b025efd933210722a4b3d3fa69ac568e5b551caf70a6",
+  "fact_document_path": "chunks/v2/02-newsletters/how-to-run-seo-experiments.chunks.json",
+  "metadata": {
+    "date": "2020-12-15",
+    "subtitle": "And it makes sense — SEO is one of the few remaining “free” growth channels, and still somewhat mysterious",
+    "tags": [
+      "analytics",
+      "design",
+      "b2c",
+      "growth",
+      "go-to-market",
+      "newsletter"
+    ],
+    "title": "How to run SEO experiments",
+    "type": "newsletter",
+    "word_count": 3711
+  },
+  "raw_path": "corpus/raw/02-newsletters/how-to-run-seo-experiments.md",
+  "raw_sha256": "977f23dc22a40b30fd18a936d065bf8fb3f8c2c766660183baff0ca77bc2d623",
+  "schema_version": "1",
+  "title": "How to run SEO experiments"
+}

@@ -1,0 +1,544 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/groups/1"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/furniture"
+  },
+  "groups": [
+    {
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/0"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/pictures/0"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/pictures/1"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/pictures/2"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/1"
+    }
+  ],
+  "key_value_items": [],
+  "name": "taking-the-week-off",
+  "origin": {
+    "binary_hash": 11417631126165677594,
+    "filename": "taking-the-week-off.md",
+    "mimetype": "text/markdown",
+    "uri": null
+  },
+  "pages": {},
+  "pictures": [
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/gif",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://substack-post-media.s3.amazonaws.com/public/images/e8bd8c6e-e344-4b08-8fc4-678293a21db8_640x480.gif"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/0"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://substack-post-media.s3.amazonaws.com/public/images/d7331afa-3859-426c-83ab-9839b93bb8f2_3317x2017.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/1"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/jpeg",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://substack-post-media.s3.amazonaws.com/public/images/df562a22-a5cb-4ed9-8d42-e52a470677f9_4032x3024.jpeg"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/2"
+    }
+  ],
+  "schema_name": "DoclingDocument",
+  "tables": [],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "title",
+      "meta": null,
+      "orig": "Taking the week off — Back next week! | 2023-04-04 | Tags: newsletter, design",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/0",
+      "text": "Taking the week off — Back next week! | 2023-04-04 | Tags: newsletter, design"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I’m taking this week off to recharge (and babymoon!!) in Big Sur. If you’re hankering for something to read,",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/1",
+      "text": "I’m taking this week off to recharge (and babymoon!!) in Big Sur. If you’re hankering for something to read,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/the-best-of-lennys-newsletter-d61",
+      "label": "text",
+      "meta": null,
+      "orig": "check out this collection of my best stuff",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/2",
+      "text": "check out this collection of my best stuff"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "and",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/3",
+      "text": "and"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/archive?sort=top",
+      "label": "text",
+      "meta": null,
+      "orig": "my most viewed posts",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/4",
+      "text": "my most viewed posts"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/5",
+      "text": "."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "See you next week!",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/6",
+      "text": "See you next week!"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "P.S.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/7",
+      "text": "P.S."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.lennysnewsletter.com/p/pto-policy",
+      "label": "text",
+      "meta": null,
+      "orig": "Read more about my PTO policy here",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/8",
+      "text": "Read more about my PTO policy here"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/9",
+      "text": "."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "P.P.S. I’m going to try to take a month off when baby arrives (early June 🤞), and since I don’t get parental leave (a downside of solopreneur life), I’m putting out a call for guest posts. Many of my most popular posts were guest posts, and I’ve never put out a public call for submissions. I’m excited to see what comes in. No prior writing experience required, but the bar is high.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/10",
+      "text": "P.P.S. I’m going to try to take a month off when baby arrives (early June 🤞), and since I don’t get parental leave (a downside of solopreneur life), I’m putting out a call for guest posts. Many of my most popular posts were guest posts, and I’ve never put out a public call for submissions. I’m excited to see what comes in. No prior writing experience required, but the bar is high."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://docs.google.com/forms/d/e/1FAIpQLSeh7aTCK19P63fVzTE4sXztqFZQu9xHL2C4osirSqc2cUdBAA/viewform",
+      "label": "text",
+      "meta": null,
+      "orig": "Submit your pitch here",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/11",
+      "text": "Submit your pitch here"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/12",
+      "text": "."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Taking the week off",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/13",
+      "text": "Image from Taking the week off"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Taking the week off",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/14",
+      "text": "Image from Taking the week off"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Taking the week off",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/15",
+      "text": "Image from Taking the week off"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Taking the week off",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/16",
+      "text": "Image from Taking the week off"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Taking the week off",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/17",
+      "text": "Image from Taking the week off"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Taking the week off",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/18",
+      "text": "Image from Taking the week off"
+    }
+  ],
+  "version": "1.10.0"
+}

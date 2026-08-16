@@ -1,0 +1,455 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/14"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/furniture"
+  },
+  "groups": [
+    {
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/0"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/1"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/2"
+    }
+  ],
+  "key_value_items": [],
+  "name": "skipping-newsletter-today",
+  "origin": {
+    "binary_hash": 4326627976346376242,
+    "filename": "skipping-newsletter-today.md",
+    "mimetype": "text/markdown",
+    "uri": null
+  },
+  "pages": {},
+  "pictures": [
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/jpeg",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://substack-post-media.s3.amazonaws.com/public/images/__ss-rehost__IG-meta-CyJe9CDPJmC.jpg"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/0"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/jpeg",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://substack-post-media.s3.amazonaws.com/public/images/__ss-rehost__IG-meta-CyJfMkEubQ0.jpg"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/1"
+    }
+  ],
+  "schema_name": "DoclingDocument",
+  "tables": [],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "title",
+      "meta": null,
+      "orig": "Skipping newsletter today — Given what is happening in the world, we’ve got more important things to focus on right now | 2023-10-10 | Tags: newsletter, podcast",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/0",
+      "text": "Skipping newsletter today — Given what is happening in the world, we’ve got more important things to focus on right now | 2023-10-10 | Tags: newsletter, podcast"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Given what is happening in the world, we’ve got more important things to focus on right now.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/1",
+      "text": "Given what is happening in the world, we’ve got more important things to focus on right now."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’re wondering where I stand, these three messages resonated deeply:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/2",
+      "text": "If you’re wondering where I stand, these three messages resonated deeply:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://instagram.com/alexedelman",
+      "label": "text",
+      "meta": null,
+      "orig": "alexedelman",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/3",
+      "text": "alexedelman"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://instagram.com/p/CyJe9CDPJmC",
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Skipping newsletter today",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/4",
+      "text": "Image from Skipping newsletter today"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "A post shared by",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/5",
+      "text": "A post shared by"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://instagram.com/alexedelman",
+      "label": "text",
+      "meta": null,
+      "orig": "@alexedelman",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/6",
+      "text": "@alexedelman"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://instagram.com/amyschumer",
+      "label": "text",
+      "meta": null,
+      "orig": "amyschumer",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/7",
+      "text": "amyschumer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://instagram.com/p/CyJfMkEubQ0",
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Skipping newsletter today",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/8",
+      "text": "Image from Skipping newsletter today"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "A post shared by",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/9",
+      "text": "A post shared by"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://instagram.com/amyschumer",
+      "label": "text",
+      "meta": null,
+      "orig": "@amyschumer",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/10",
+      "text": "@amyschumer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’re looking for more ways to help,",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/11",
+      "text": "If you’re looking for more ways to help,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://x.com/benln/status/1711001072842543225?s=20",
+      "label": "text",
+      "meta": null,
+      "orig": "here’s one way",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/12",
+      "text": "here’s one way"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/13",
+      "text": "."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I’ll be back this Thursday with a brand-new podcast episode, and a new newsletter post next week 🙏💔",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/14",
+      "text": "I’ll be back this Thursday with a brand-new podcast episode, and a new newsletter post next week 🙏💔"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Skipping newsletter today",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/15",
+      "text": "Image from Skipping newsletter today"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Skipping newsletter today",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/16",
+      "text": "Image from Skipping newsletter today"
+    }
+  ],
+  "version": "1.10.0"
+}

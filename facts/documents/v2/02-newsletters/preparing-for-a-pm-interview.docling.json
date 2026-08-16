@@ -1,0 +1,4069 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/142"
+      },
+      {
+        "$ref": "#/texts/143"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/147"
+      },
+      {
+        "$ref": "#/texts/148"
+      },
+      {
+        "$ref": "#/texts/149"
+      },
+      {
+        "$ref": "#/texts/150"
+      },
+      {
+        "$ref": "#/groups/17"
+      },
+      {
+        "$ref": "#/texts/167"
+      },
+      {
+        "$ref": "#/groups/22"
+      },
+      {
+        "$ref": "#/texts/171"
+      },
+      {
+        "$ref": "#/groups/24"
+      },
+      {
+        "$ref": "#/groups/25"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/178"
+      },
+      {
+        "$ref": "#/texts/179"
+      },
+      {
+        "$ref": "#/texts/180"
+      },
+      {
+        "$ref": "#/texts/181"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/furniture"
+  },
+  "groups": [
+    {
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/0"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/1"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/14"
+      },
+      "self_ref": "#/groups/2"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/17"
+      },
+      "self_ref": "#/groups/3"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "self_ref": "#/groups/4"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/29"
+      },
+      "self_ref": "#/groups/5"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/60"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/6"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/38"
+      },
+      "self_ref": "#/groups/7"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/49"
+      },
+      "self_ref": "#/groups/8"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/60"
+      },
+      "self_ref": "#/groups/9"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/10"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/131"
+        },
+        {
+          "$ref": "#/texts/132"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/11"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/81"
+      },
+      "self_ref": "#/groups/12"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/99"
+      },
+      "self_ref": "#/groups/13"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        },
+        {
+          "$ref": "#/texts/107"
+        },
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        },
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/116"
+        },
+        {
+          "$ref": "#/texts/117"
+        },
+        {
+          "$ref": "#/texts/118"
+        },
+        {
+          "$ref": "#/texts/119"
+        },
+        {
+          "$ref": "#/texts/120"
+        },
+        {
+          "$ref": "#/texts/121"
+        },
+        {
+          "$ref": "#/texts/122"
+        },
+        {
+          "$ref": "#/texts/123"
+        },
+        {
+          "$ref": "#/texts/124"
+        },
+        {
+          "$ref": "#/texts/125"
+        },
+        {
+          "$ref": "#/texts/126"
+        },
+        {
+          "$ref": "#/texts/127"
+        },
+        {
+          "$ref": "#/texts/128"
+        },
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/130"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/104"
+      },
+      "self_ref": "#/groups/14"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        },
+        {
+          "$ref": "#/texts/135"
+        },
+        {
+          "$ref": "#/texts/136"
+        },
+        {
+          "$ref": "#/texts/137"
+        },
+        {
+          "$ref": "#/texts/138"
+        },
+        {
+          "$ref": "#/texts/139"
+        },
+        {
+          "$ref": "#/texts/140"
+        },
+        {
+          "$ref": "#/texts/141"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/132"
+      },
+      "self_ref": "#/groups/15"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/144"
+        },
+        {
+          "$ref": "#/texts/145"
+        },
+        {
+          "$ref": "#/texts/146"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/16"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/151"
+        },
+        {
+          "$ref": "#/texts/155"
+        },
+        {
+          "$ref": "#/texts/159"
+        },
+        {
+          "$ref": "#/texts/163"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/17"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/152"
+        },
+        {
+          "$ref": "#/texts/153"
+        },
+        {
+          "$ref": "#/texts/154"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/151"
+      },
+      "self_ref": "#/groups/18"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/156"
+        },
+        {
+          "$ref": "#/texts/157"
+        },
+        {
+          "$ref": "#/texts/158"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/155"
+      },
+      "self_ref": "#/groups/19"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/160"
+        },
+        {
+          "$ref": "#/texts/161"
+        },
+        {
+          "$ref": "#/texts/162"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/159"
+      },
+      "self_ref": "#/groups/20"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/164"
+        },
+        {
+          "$ref": "#/texts/165"
+        },
+        {
+          "$ref": "#/texts/166"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/163"
+      },
+      "self_ref": "#/groups/21"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/168"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/22"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/169"
+        },
+        {
+          "$ref": "#/texts/170"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/168"
+      },
+      "self_ref": "#/groups/23"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/172"
+        },
+        {
+          "$ref": "#/texts/173"
+        },
+        {
+          "$ref": "#/texts/174"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/24"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/175"
+        },
+        {
+          "$ref": "#/texts/176"
+        },
+        {
+          "$ref": "#/texts/177"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/25"
+    }
+  ],
+  "key_value_items": [],
+  "name": "preparing-for-a-pm-interview",
+  "origin": {
+    "binary_hash": 18018721010805938449,
+    "filename": "preparing-for-a-pm-interview.md",
+    "mimetype": "text/markdown",
+    "uri": null
+  },
+  "pages": {},
+  "pictures": [
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/182"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/182"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/82c20790-61d8-4c5a-8037-5e5314ed1ec9_4096x2048.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/0"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/183"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/183"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/08085e94-3a8c-418e-a973-e9a484f0f100_1486x886.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/1"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/184"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/184"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/jpeg",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/f3114aac-a859-4d20-bc84-c9837f0b153a_1200x1179.jpeg"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/2"
+    }
+  ],
+  "schema_name": "DoclingDocument",
+  "tables": [],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "title",
+      "meta": null,
+      "orig": "Preparing for a PM interview — My favorite resources for getting ready for product interviews | 2022-04-19 | Tags: career, product-management, leadership, strategy, newsletter, design",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/0",
+      "text": "Preparing for a PM interview — My favorite resources for getting ready for product interviews | 2022-04-19 | Tags: career, product-management, leadership, strategy, newsletter, design"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "Q: I’m interviewing for a PM role. What should I do to prepare?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/1",
+      "text": "Q: I’m interviewing for a PM role. What should I do to prepare?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I’ve interviewed hundreds of PMs over the years. As an interviewer, you want to believe that no matter how long the candidate has spent preparing, you can see through it all to their true PM nature. But that’s just not true. Preparing gives you a big leg up, even if you spend just a few hours. A little prep helps you nail common questions, build frameworks for confronting unexpected questions, and gets your mind into the interviewing game (which is very different from doing the job itself).",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/2",
+      "text": "I’ve interviewed hundreds of PMs over the years. As an interviewer, you want to believe that no matter how long the candidate has spent preparing, you can see through it all to their true PM nature. But that’s just not true. Preparing gives you a big leg up, even if you spend just a few hours. A little prep helps you nail common questions, build frameworks for confronting unexpected questions, and gets your mind into the interviewing game (which is very different from doing the job itself)."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Broadly, there are three parts to the preparation process:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/3",
+      "text": "Broadly, there are three parts to the preparation process:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Research",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/4",
+      "text": "Research"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Practice",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/5",
+      "text": "Practice"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Study",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/6",
+      "text": "Study"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Below I’ll share a bunch of advice, and point you to my favorite resources, to help you through your preparation process.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/7",
+      "text": "Below I’ll share a bunch of advice, and point you to my favorite resources, to help you through your preparation process."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If there’s anything else you’ve found helpful in your own interview prep process, I’d love to hear it 👇",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/8",
+      "text": "If there’s anything else you’ve found helpful in your own interview prep process, I’d love to hear it 👇"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/preparing-for-a-pm-interview/comments",
+      "label": "text",
+      "meta": null,
+      "orig": "Leave a comment",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/9",
+      "text": "Leave a comment"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Disclaimer: This guide will help you prepare for an interview, but it won’t help you do the actual job. Be careful about becoming so good at interviewing that you get into a role you aren’t ready for and end up having a bad time.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/10",
+      "text": "Disclaimer: This guide will help you prepare for an interview, but it won’t help you do the actual job. Be careful about becoming so good at interviewing that you get into a role you aren’t ready for and end up having a bad time."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Preparing for a PM interview",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/11",
+      "text": "Image from Preparing for a PM interview"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "1. Research",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/12",
+      "text": "1. Research"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Start by doing your homework on the product, the company, and its interview process.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/13",
+      "text": "Start by doing your homework on the product, the company, and its interview process."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/14",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Use the product",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/15",
+      "text": "Use the product"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". Form an opinion about what could be improved, what you’d prioritize if you were in charge, and where the product might go in the future.",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/16",
+      "text": ". Form an opinion about what could be improved, what you’d prioritize if you were in charge, and where the product might go in the future."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/17",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Research the company.",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/18",
+      "text": "Research the company."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "What’s its mission and vision? What has it launched recently? Who does it compete with? Where do you think it’s going next? Try to find someone at the company to get insight from.",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/19",
+      "text": "What’s its mission and vision? What has it launched recently? Who does it compete with? Where do you think it’s going next? Try to find someone at the company to get insight from."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/20",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Review common interview questions",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/21",
+      "text": "Review common interview questions"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". Skim questions on",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/22",
+      "text": ". Skim questions on"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.glassdoor.com/Interview/index.htm",
+      "label": "text",
+      "meta": null,
+      "orig": "Glassdoor",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/23",
+      "text": "Glassdoor"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/24",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.tryexponent.com/questions?page=1&role=pm",
+      "label": "text",
+      "meta": null,
+      "orig": "Exponent",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/25",
+      "text": "Exponent"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", and",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/26",
+      "text": ", and"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.productmanagementexercises.com/interview-questions",
+      "label": "text",
+      "meta": null,
+      "orig": "PMExercises",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/27",
+      "text": "PMExercises"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". Identify the typical question structure, and the skill sets the company seems to care most about, e.g.:",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/28",
+      "text": ". Identify the typical question structure, and the skill sets the company seems to care most about, e.g.:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/5"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/29",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Product design/sense",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/30",
+      "text": "Product design/sense"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. Execution",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/31",
+      "text": "2. Execution"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. Strategy",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/32",
+      "text": "3. Strategy"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "4. Leadership/behavioral",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/33",
+      "text": "4. Leadership/behavioral"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "5. Analytical skills",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/34",
+      "text": "5. Analytical skills"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "6. Technical skills",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/35",
+      "text": "6. Technical skills"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "2. Practice",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/36",
+      "text": "2. Practice"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Nothing will better help you prepare for an interview than actually doing interviews. Instead of reading about interviewing, start practicing with real people. I put this section above “Study” because too many people spend their time studying and not doing.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/37",
+      "text": "Nothing will better help you prepare for an interview than actually doing interviews. Instead of reading about interviewing, start practicing with real people. I put this section above “Study” because too many people spend their time studying and not doing."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/7"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/38",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Find PMs who can do mock interviews with you",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/39",
+      "text": "Find PMs who can do mock interviews with you"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". If you can’t find enough willing friends, check out peer groups from",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/40",
+      "text": ". If you can’t find enough willing friends, check out peer groups from"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.tryexponent.com/practice?src=nav",
+      "label": "text",
+      "meta": null,
+      "orig": "Exponent",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/41",
+      "text": "Exponent"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/42",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.productmanagementexercises.com/practice",
+      "label": "text",
+      "meta": null,
+      "orig": "PMExercises",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/43",
+      "text": "PMExercises"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/44",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://igotanoffer.com/pages/technical-mock-interviews",
+      "label": "text",
+      "meta": null,
+      "orig": "IGotAnOffer",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/45",
+      "text": "IGotAnOffer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", and",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/46",
+      "text": ", and"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://launchpass.com/pminterview",
+      "label": "text",
+      "meta": null,
+      "orig": "Lewis C. Lin’s Interview Community",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/47",
+      "text": "Lewis C. Lin’s Interview Community"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/48",
+      "text": "."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/8"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/49",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Watch mock interviews",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/50",
+      "text": "Watch mock interviews"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "by",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/51",
+      "text": "by"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.youtube.com/c/ExponentTV",
+      "label": "text",
+      "meta": null,
+      "orig": "Exponent",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/52",
+      "text": "Exponent"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/53",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.youtube.com/c/ProductAlliance/videos?view=0&sort=p&flow=grid",
+      "label": "text",
+      "meta": null,
+      "orig": "Product Alliance",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/54",
+      "text": "Product Alliance"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/55",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.youtube.com/c/rocketblocks",
+      "label": "text",
+      "meta": null,
+      "orig": "RocketBlocks",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/56",
+      "text": "RocketBlocks"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", and",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/57",
+      "text": ", and"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.youtube.com/c/PMDiegoGranados",
+      "label": "text",
+      "meta": null,
+      "orig": "Diego Granados",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/58",
+      "text": "Diego Granados"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". These are particularly useful if you’re interviewing at a larger company with a consistent interview process. While you’re watching these mock interviews, pause the video as soon as you hear the question and try to answer it yourself in front of a friend. Then watch the answer and see what you could have done better.",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/59",
+      "text": ". These are particularly useful if you’re interviewing at a larger company with a consistent interview process. While you’re watching these mock interviews, pause the video as soon as you hear the question and try to answer it yourself in front of a friend. Then watch the answer and see what you could have done better."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/9"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/60",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Get an interview coach",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/61",
+      "text": "Get an interview coach"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "through",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/62",
+      "text": "through"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://app.igotanoffer.com/coaching/tech/",
+      "label": "text",
+      "meta": null,
+      "orig": "IGotAnOffer",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/63",
+      "text": "IGotAnOffer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/64",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.tryexponent.com/coaching?src=nav",
+      "label": "text",
+      "meta": null,
+      "orig": "Exponent",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/65",
+      "text": "Exponent"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/66",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.rocketblocks.me/#pricing",
+      "label": "text",
+      "meta": null,
+      "orig": "RocketBlocks",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/67",
+      "text": "RocketBlocks"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/68",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.productalliance.com/coaching",
+      "label": "text",
+      "meta": null,
+      "orig": "Product Alliance",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/69",
+      "text": "Product Alliance"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", or",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/70",
+      "text": ", or"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.productmanagementexercises.com/coaching",
+      "label": "text",
+      "meta": null,
+      "orig": "PMExercises",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/71",
+      "text": "PMExercises"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/72",
+      "text": "."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "A few select videos to get you started:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/73",
+      "text": "A few select videos to get you started:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.youtube.com/watch?v=m-qyEDwB1tw",
+      "label": "text",
+      "meta": null,
+      "orig": "Watch on YouTube",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/74",
+      "text": "Watch on YouTube"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.youtube.com/watch?v=-Pg_7Tiohns",
+      "label": "text",
+      "meta": null,
+      "orig": "Watch on YouTube",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/75",
+      "text": "Watch on YouTube"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.youtube.com/watch?v=se6Soyi2k0U",
+      "label": "text",
+      "meta": null,
+      "orig": "Watch on YouTube",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/76",
+      "text": "Watch on YouTube"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Above all else, start practicing with real people ASAP.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/77",
+      "text": "Above all else, start practicing with real people ASAP."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "3. Study",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/78",
+      "text": "3. Study"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Finally, while you’re practicing, study up on frameworks, best practices, and core PM skills.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/79",
+      "text": "Finally, while you’re practicing, study up on frameworks, best practices, and core PM skills."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Learn a few useful frameworks",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/80",
+      "text": "Learn a few useful frameworks"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/12"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/81",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.productplan.com/glossary/circles-method/",
+      "label": "text",
+      "meta": null,
+      "orig": "CIRCLES",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/82",
+      "text": "CIRCLES"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", for product design questions",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/83",
+      "text": ", for product design questions"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2.",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/84",
+      "text": "2."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.thebalancecareers.com/what-is-the-star-interview-response-technique-2061629",
+      "label": "text",
+      "meta": null,
+      "orig": "STAR",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/85",
+      "text": "STAR"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "and",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/86",
+      "text": "and"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lewis-lin.com/blog/2019/9/16/what-is-the-digs-method",
+      "label": "text",
+      "meta": null,
+      "orig": "DIGS",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/87",
+      "text": "DIGS"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", for behavioral questions",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/88",
+      "text": ", for behavioral questions"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3.",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/89",
+      "text": "3."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lewis-lin.com/blog/2017/11/3/what-is-the-aarm-method",
+      "label": "text",
+      "meta": null,
+      "orig": "AARM",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/90",
+      "text": "AARM"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", for picking a metric for a product",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/91",
+      "text": ", for picking a metric for a product"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "4.",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/92",
+      "text": "4."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers",
+      "label": "text",
+      "meta": null,
+      "orig": "RICE",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/93",
+      "text": "RICE"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", for prioritizing",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/94",
+      "text": ", for prioritizing"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "5.",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/95",
+      "text": "5."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.tryexponent.com/courses/general-interview/broad-then-deep",
+      "label": "text",
+      "meta": null,
+      "orig": "Broad then deep",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/96",
+      "text": "Broad then deep"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", for any question",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/97",
+      "text": ", for any question"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Read the two most popular books on PM interviewing",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/98",
+      "text": "Read the two most popular books on PM interviewing"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/13"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/99",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.crackingthepminterview.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "Cracking the PM Interview",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/100",
+      "text": "Cracking the PM Interview"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2.",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/101",
+      "text": "2."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.amazon.com/Decode-Conquer-Answers-Management-Interviews/dp/0615930417/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=",
+      "label": "text",
+      "meta": null,
+      "orig": "Decode and Conquer",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/102",
+      "text": "Decode and Conquer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Read up on the core PM skills",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/103",
+      "text": "Read up on the core PM skills"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/14"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/104",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://blackboxofpm.com/ruthless-prioritization-e4256e3520a9",
+      "label": "text",
+      "meta": null,
+      "orig": "Ruthless prioritization",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/105",
+      "text": "Ruthless prioritization"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "by Brandon Chu",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/106",
+      "text": "by Brandon Chu"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2.",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/107",
+      "text": "2."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/prioritizing?s=w",
+      "label": "text",
+      "meta": null,
+      "orig": "Prioritizing",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/108",
+      "text": "Prioritizing"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "by me",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/109",
+      "text": "by me"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3.",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/110",
+      "text": "3."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://hackernoon.com/wtf-is-a-strategy-bcaa3fda9a31",
+      "label": "text",
+      "meta": null,
+      "orig": "WTF is strategy?",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/111",
+      "text": "WTF is strategy?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "by Vince Law",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/112",
+      "text": "by Vince Law"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "4.",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/113",
+      "text": "4."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/getting-better-at-product-strategy",
+      "label": "text",
+      "meta": null,
+      "orig": "Getting better at product strategy",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/114",
+      "text": "Getting better at product strategy"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "by me",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/115",
+      "text": "by me"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "5.",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/116",
+      "text": "5."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://sloanreview.mit.edu/article/how-to-become-a-strategic-leader/",
+      "label": "text",
+      "meta": null,
+      "orig": "How to become a strategic leader",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/117",
+      "text": "How to become a strategic leader"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "by Julie Zhuo",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/118",
+      "text": "by Julie Zhuo"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "6.",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/119",
+      "text": "6."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.sachinrekhi.com/how-am-i-going-to-move-my-product-forward-today",
+      "label": "text",
+      "meta": null,
+      "orig": "How am I going to move my product forward today?",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/120",
+      "text": "How am I going to move my product forward today?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "by Sachin Rekhi",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/121",
+      "text": "by Sachin Rekhi"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "7.",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/122",
+      "text": "7."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/what-is-product-management",
+      "label": "text",
+      "meta": null,
+      "orig": "What is product management",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/123",
+      "text": "What is product management"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "by me",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/124",
+      "text": "by me"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "8.",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/125",
+      "text": "8."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/product-sense?s=w",
+      "label": "text",
+      "meta": null,
+      "orig": "How to develop product sense",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/126",
+      "text": "How to develop product sense"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "by Jules Walter",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/127",
+      "text": "by Jules Walter"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "9.",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/128",
+      "text": "9."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://medium.com/the-year-of-the-looking-glass/building-products-91aa93bea4bb",
+      "label": "text",
+      "meta": null,
+      "orig": "Building products",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/129",
+      "text": "Building products"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "by Julie Zhuo",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/130",
+      "text": "by Julie Zhuo"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Prepare stories and answers to common interview questions",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/131",
+      "text": "Prepare stories and answers to common interview questions"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/15"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/132",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Walk me through your resume.",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/133",
+      "text": "Walk me through your resume."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. Why are you excited about this role?",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/134",
+      "text": "2. Why are you excited about this role?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. What’s your biggest weakness?",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/135",
+      "text": "3. What’s your biggest weakness?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "4. What’s your favorite product and why?",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/136",
+      "text": "4. What’s your favorite product and why?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "5. What’s a project you led that drove significant impact?",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/137",
+      "text": "5. What’s a project you led that drove significant impact?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "6. Tell me about a time you had a disagreement with an engineer. How did you get past it?",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/138",
+      "text": "6. Tell me about a time you had a disagreement with an engineer. How did you get past it?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "7. Tell me about a time you had a conflict with someone. How did you resolve it and what did you learn?",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/139",
+      "text": "7. Tell me about a time you had a conflict with someone. How did you resolve it and what did you learn?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "8. Tell me about a time you made a mistake.",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/140",
+      "text": "8. Tell me about a time you made a mistake."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "9. Tell me about a time you went against what the data told you, and relied on instinct or some other insight.",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/141",
+      "text": "9. Tell me about a time you went against what the data told you, and relied on instinct or some other insight."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Good luck 🙏",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/142",
+      "text": "Good luck 🙏"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "📣 Join Lenny’s Talent Collective 📣",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/143",
+      "text": "📣 Join Lenny’s Talent Collective 📣"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’re hiring,",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/144",
+      "text": "If you’re hiring,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/talent/welcome",
+      "label": "text",
+      "meta": null,
+      "orig": "join Lenny’s Talent Collective",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/145",
+      "text": "join Lenny’s Talent Collective"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "to start getting bi-monthly drops of hand-curated product and growth people open to new opportunities.",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/146",
+      "text": "to start getting bi-monthly drops of hand-curated product and growth people open to new opportunities."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Preparing for a PM interview",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/147",
+      "text": "Image from Preparing for a PM interview"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’re looking for a new gig, join to get personalized opportunities from hand-selected companies. You can join publicly or anonymously, and leave anytime.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/148",
+      "text": "If you’re looking for a new gig, join to get personalized opportunities from hand-selected companies. You can join publicly or anonymously, and leave anytime."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/talent/welcome",
+      "label": "text",
+      "meta": null,
+      "orig": "Apply Now",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/149",
+      "text": "Apply Now"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "🔥 Featured job openings",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/150",
+      "text": "🔥 Featured job openings"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/18"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/151",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Ellis:",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/152",
+      "text": "Ellis:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/jobs/dbba97cd-8552-4e1f-96d2-f6092bdff5a5",
+      "label": "text",
+      "meta": null,
+      "orig": "Software Engineer",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/153",
+      "text": "Software Engineer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(Remote)",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/154",
+      "text": "(Remote)"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/19"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/155",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "WorkWhile:",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/156",
+      "text": "WorkWhile:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://lennys-jobs.pallet.com/jobs/8be3c844-7997-4d22-9edd-28ae8e541860",
+      "label": "text",
+      "meta": null,
+      "orig": "Head of Product",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/157",
+      "text": "Head of Product"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(Remote-US)",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/158",
+      "text": "(Remote-US)"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/20"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/159",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Clipboard Health:",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/160",
+      "text": "Clipboard Health:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/jobs/299a6ac5-8435-4596-8262-b29c15c7613f",
+      "label": "text",
+      "meta": null,
+      "orig": "Engineering Manager",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/161",
+      "text": "Engineering Manager"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(Remote-Global)",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/162",
+      "text": "(Remote-Global)"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/21"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/163",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Brilliant.org:",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/164",
+      "text": "Brilliant.org:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/jobs/a9f29cee-d7b7-42ce-b1dc-05d6d29ecec7",
+      "label": "text",
+      "meta": null,
+      "orig": "Senior Product Manager, Growth",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/165",
+      "text": "Senior Product Manager, Growth"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(SF, Remote-US)",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/166",
+      "text": "(SF, Remote-US)"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "🧠 Inspiration for the week ahead",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/167",
+      "text": "🧠 Inspiration for the week ahead"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/23"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "prov": [],
+      "self_ref": "#/texts/168",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Watch:",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/169",
+      "text": "Watch:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Flying Through Giga Berlin",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/170",
+      "text": "Flying Through Giga Berlin"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.youtube.com/watch?v=7-4yOx1CnXE",
+      "label": "text",
+      "meta": null,
+      "orig": "Watch on YouTube",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/171",
+      "text": "Watch on YouTube"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. Listen:",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/172",
+      "text": "2. Listen:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://podcasts.apple.com/us/podcast/275-rick-rubin-legendary-music-producer/id1434243584?i=1000556892280",
+      "label": "text",
+      "meta": null,
+      "orig": "Rick Rubin: Legendary Music Producer",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/173",
+      "text": "Rick Rubin: Legendary Music Producer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "on Lex Fridman Podcast",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/174",
+      "text": "on Lex Fridman Podcast"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. Read:",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/175",
+      "text": "3. Read:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://future.a16z.com/marketplace-100/",
+      "label": "text",
+      "meta": null,
+      "orig": "The Marketplace 100: 2022",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/176",
+      "text": "The Marketplace 100: 2022"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "by a16z",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/177",
+      "text": "by a16z"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Preparing for a PM interview",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/178",
+      "text": "Image from Preparing for a PM interview"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/179",
+      "text": "If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Sincerely,",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/180",
+      "text": "Sincerely,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Lenny 👋",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/181",
+      "text": "Lenny 👋"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Preparing for a PM interview",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/182",
+      "text": "Image from Preparing for a PM interview"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Preparing for a PM interview",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/183",
+      "text": "Image from Preparing for a PM interview"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Preparing for a PM interview",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/184",
+      "text": "Image from Preparing for a PM interview"
+    }
+  ],
+  "version": "1.10.0"
+}

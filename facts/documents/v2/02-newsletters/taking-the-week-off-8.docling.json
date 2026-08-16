@@ -1,0 +1,282 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/furniture"
+  },
+  "groups": [
+    {
+      "children": [
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/0"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/1"
+    }
+  ],
+  "key_value_items": [],
+  "name": "taking-the-week-off-8",
+  "origin": {
+    "binary_hash": 6138038477534806832,
+    "filename": "taking-the-week-off-8.md",
+    "mimetype": "text/markdown",
+    "uri": null
+  },
+  "pages": {},
+  "pictures": [
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "application/octet-stream",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/c7c591b9-0443-4677-a216-8df1b962adcd"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/0"
+    }
+  ],
+  "schema_name": "DoclingDocument",
+  "tables": [],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "title",
+      "meta": null,
+      "orig": "Taking the week off — Back next week! | 2021-12-21 | Tags: newsletter, strategy",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/0",
+      "text": "Taking the week off — Back next week! | 2021-12-21 | Tags: newsletter, strategy"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Taking this week off to spend time with family, friends, and getting outside. Happy holidays, and see you next week 👋",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/1",
+      "text": "Taking this week off to spend time with family, friends, and getting outside. Happy holidays, and see you next week 👋"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Taking the week off",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/2",
+      "text": "Image from Taking the week off"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "P.S.",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/3",
+      "text": "P.S."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/marketplace-city-expansion",
+      "label": "text",
+      "meta": null,
+      "orig": "My PTO policy",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/4",
+      "text": "My PTO policy"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/5",
+      "text": "."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "P.P.S. If you’re hankering for some time off,",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/6",
+      "text": "P.P.S. If you’re hankering for some time off,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/sabbatical-time-off",
+      "label": "text",
+      "meta": null,
+      "orig": "don’t miss this post",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/7",
+      "text": "don’t miss this post"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/8",
+      "text": "."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Taking the week off",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/9",
+      "text": "Image from Taking the week off"
+    }
+  ],
+  "version": "1.10.0"
+}

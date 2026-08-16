@@ -1,0 +1,132 @@
+{
+  "config_sha256": "1a55a79c7d05b8ef24081067beea1f370d894c3c47c98156de11f456ace702b7",
+  "config_version": "fact-build-v2",
+  "created_at": "2026-08-16T05:52:14.099084+00:00",
+  "document_count": 5,
+  "documents": [
+    {
+      "checks": {
+        "contract_roundtrip": true,
+        "docling_roundtrip": true,
+        "image_urls_and_captions": true,
+        "ordinals_contiguous": true,
+        "refs_resolve": true,
+        "short_without_section_heading": true,
+        "tokens_within_limit": true
+      },
+      "chunk_count": 1,
+      "code_item_count": 0,
+      "document_id": "02-newsletters/get-perplexity-pro-free-for-1-year.md",
+      "duration_seconds": 0.048,
+      "image_count": 0,
+      "max_chunk_tokens": 69,
+      "section_header_count": 0,
+      "section_header_levels": [],
+      "status": "passed",
+      "title_count": 1
+    },
+    {
+      "checks": {
+        "contract_roundtrip": true,
+        "docling_roundtrip": true,
+        "image_urls_and_captions": true,
+        "large_complex_structure": true,
+        "ordinals_contiguous": true,
+        "refs_resolve": true,
+        "tokens_within_limit": true
+      },
+      "chunk_count": 72,
+      "code_item_count": 0,
+      "document_id": "02-newsletters/how-to-kickstart-and-scale-a-consumer-business.md",
+      "duration_seconds": 2.066,
+      "image_count": 20,
+      "max_chunk_tokens": 1115,
+      "section_header_count": 80,
+      "section_header_levels": [
+        1,
+        2,
+        3
+      ],
+      "status": "passed",
+      "title_count": 1
+    },
+    {
+      "checks": {
+        "code_items_preserved": true,
+        "contract_roundtrip": true,
+        "docling_roundtrip": true,
+        "image_urls_and_captions": true,
+        "ordinals_contiguous": true,
+        "refs_resolve": true,
+        "tokens_within_limit": true
+      },
+      "chunk_count": 16,
+      "code_item_count": 2,
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "duration_seconds": 0.692,
+      "image_count": 12,
+      "max_chunk_tokens": 1035,
+      "section_header_count": 16,
+      "section_header_levels": [
+        1,
+        2,
+        3
+      ],
+      "status": "passed",
+      "title_count": 1
+    },
+    {
+      "checks": {
+        "contract_roundtrip": true,
+        "docling_roundtrip": true,
+        "image_urls_and_captions": true,
+        "native_html_preserved": true,
+        "ordinals_contiguous": true,
+        "refs_resolve": true,
+        "tokens_within_limit": true
+      },
+      "chunk_count": 26,
+      "code_item_count": 2,
+      "document_id": "02-newsletters/how-to-run-seo-experiments.md",
+      "duration_seconds": 0.589,
+      "image_count": 5,
+      "max_chunk_tokens": 1449,
+      "section_header_count": 26,
+      "section_header_levels": [
+        1,
+        2,
+        3
+      ],
+      "status": "passed",
+      "title_count": 1
+    },
+    {
+      "checks": {
+        "contract_roundtrip": true,
+        "docling_roundtrip": true,
+        "image_urls_and_captions": true,
+        "ordinals_contiguous": true,
+        "podcast_heading_hierarchy": true,
+        "refs_resolve": true,
+        "tokens_within_limit": true
+      },
+      "chunk_count": 42,
+      "code_item_count": 0,
+      "document_id": "03-podcasts/eric-ries.md",
+      "duration_seconds": 2.113,
+      "image_count": 0,
+      "max_chunk_tokens": 1499,
+      "section_header_count": 32,
+      "section_header_levels": [
+        1,
+        2
+      ],
+      "status": "passed",
+      "title_count": 1
+    }
+  ],
+  "failed_count": 0,
+  "passed": true,
+  "passed_count": 5,
+  "schema_version": "1"
+}

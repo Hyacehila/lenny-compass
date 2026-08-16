@@ -1,0 +1,1527 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000000",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\n*👋 Hey,*\n[*Lenny*](https://twitter.com/lennysan)\n*here! Welcome to this month’s ✨*\n***free edition***\n*✨ of Lenny’s Newsletter. Each week I tackle reader questions about building product, driving growth, and accelerating your career.*\n*If you’re not a subscriber, here’s what you missed this month:*\n1. [*How to use ChatGPT in your PM work*](https://www.lennysnewsletter.com/p/how-to-use-chatgpt-in-your-pm-work)\n2. [*Discussion: How and where are you finding the best job opportunities?*](https://www.lennysnewsletter.com/p/discussion-how-and-where-are-you/comments)\n3. [*What jury duty taught me about product management*](https://www.lennysnewsletter.com/p/what-jury-duty-taught-me-about-product)\n*Subscribe to get access to these posts, and every post.*",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000000",
+        "chunk_sha256": "3e521092cab719bea3d98161773a6c385f69a24e8d038502f7eed11bd0ee01da",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 10,
+          "last_self_ref": "#/texts/10"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "*👋 Hey,*\n[*Lenny*](https://twitter.com/lennysan)\n*here! Welcome to this month’s ✨*\n***free edition***\n*✨ of Lenny’s Newsletter. Each week I tackle reader questions about building product, driving growth, and accelerating your career.*\n*If you’re not a subscriber, here’s what you missed this month:*\n1. [*How to use ChatGPT in your PM work*](https://www.lennysnewsletter.com/p/how-to-use-chatgpt-in-your-pm-work)\n2. [*Discussion: How and where are you finding the best job opportunities?*](https://www.lennysnewsletter.com/p/discussion-how-and-where-are-you/comments)\n3. [*What jury duty taught me about product management*](https://www.lennysnewsletter.com/p/what-jury-duty-taught-me-about-product)\n*Subscribe to get access to these posts, and every post.*",
+      "token_count": 302
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000001",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\nQ: You’ve mentioned regression analysis a few times in your posts . What exactly is a regression analysis, and how do I run one?\nI’ll be honest. Though it’s come up in the newsletter a few times, I’ve also never\n*truly*\nunderstood what a regression analysis is. I know it helps you understand how two metrics are connected, but when exactly to run one, how to run one, and how regression differs from metrics being\n*correlated*\n, I’ve never deeply understood. I imagine many of you feel the same way. Considering how often these two methods come up, and (as you’ll see below) how powerful these tools can be, it’s important we all get smarter about this.\nTo help us out, making her\n[return appearance](https://www.lennysnewsletter.com/p/measuring-cohort-retention)\n, I’ve pulled in\n[Olga Berezovsky](https://www.linkedin.com/in/olgaberezovsky/)\n, author of the wonderful\n[Data Analysis Journal](https://dataanalysis.substack.com/)\nnewsletter, to explain what exactly correlation and regression analysis are, when to use one versus the other, how to run an analysis yourself (including recommended tools and templates), and a couple of common pitfalls to avoid. I’ve always wanted a simple, clear, and actionable explanation of correlation and regression analysis, and I’m excited to finally have one.\n*You can find Olga on*\n[*LinkedIn*](https://www.linkedin.com/in/olgaberezovsky/)\n*and*\n[*Twitter*](https://twitter.com/OlgaBerezovsky)\n*, and*\n[*subscribe to her newsletter*](https://dataanalysis.substack.com/)\n*for all kinds of great, actionable advice on data analysis and product analytics. Also, don’t miss Olga’s other guest post, on*\n[*measuring cohort retention*](https://www.lennysnewsletter.com/p/measuring-cohort-retention)\n*.*\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nLinear regression and correlation analysis are two of the most common (and crucial) methods for getting insights from data. Both are used as a foundation for predictions and forecasting, but they are hard to understand, often confused with each other, and difficult to do without prior training.\nIn this post, I will cover the fundamentals of both linear regression and correlation analysis, demonstrate the primary use cases for each, and lay out steps and tools for how you can quickly conduct such analysis on your own.",
+      "doc_item_refs": [
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/246",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+        "Q: You’ve mentioned regression analysis a few times in your posts . What exactly is a regression analysis, and how do I run one?"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/f96f8914-8651-4375-9d0c-f67756b4329a_8000x4000.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000001",
+        "chunk_sha256": "cc3c41cbf4b1da2eb11e55b5d5b989428158d5ee80daa60fe5e57203fe3cae6b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+          "Q: You’ve mentioned regression analysis a few times in your posts . What exactly is a regression analysis, and how do I run one?"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/f96f8914-8651-4375-9d0c-f67756b4329a_8000x4000.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/12",
+          "item_count": 25,
+          "last_self_ref": "#/texts/35"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32",
+          "#/texts/246",
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "I’ll be honest. Though it’s come up in the newsletter a few times, I’ve also never\n*truly*\nunderstood what a regression analysis is. I know it helps you understand how two metrics are connected, but when exactly to run one, how to run one, and how regression differs from metrics being\n*correlated*\n, I’ve never deeply understood. I imagine many of you feel the same way. Considering how often these two methods come up, and (as you’ll see below) how powerful these tools can be, it’s important we all get smarter about this.\nTo help us out, making her\n[return appearance](https://www.lennysnewsletter.com/p/measuring-cohort-retention)\n, I’ve pulled in\n[Olga Berezovsky](https://www.linkedin.com/in/olgaberezovsky/)\n, author of the wonderful\n[Data Analysis Journal](https://dataanalysis.substack.com/)\nnewsletter, to explain what exactly correlation and regression analysis are, when to use one versus the other, how to run an analysis yourself (including recommended tools and templates), and a couple of common pitfalls to avoid. I’ve always wanted a simple, clear, and actionable explanation of correlation and regression analysis, and I’m excited to finally have one.\n*You can find Olga on*\n[*LinkedIn*](https://www.linkedin.com/in/olgaberezovsky/)\n*and*\n[*Twitter*](https://twitter.com/OlgaBerezovsky)\n*, and*\n[*subscribe to her newsletter*](https://dataanalysis.substack.com/)\n*for all kinds of great, actionable advice on data analysis and product analytics. Also, don’t miss Olga’s other guest post, on*\n[*measuring cohort retention*](https://www.lennysnewsletter.com/p/measuring-cohort-retention)\n*.*\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nLinear regression and correlation analysis are two of the most common (and crucial) methods for getting insights from data. Both are used as a foundation for predictions and forecasting, but they are hard to understand, often confused with each other, and difficult to do without prior training.\nIn this post, I will cover the fundamentals of both linear regression and correlation analysis, demonstrate the primary use cases for each, and lay out steps and tools for how you can quickly conduct such analysis on your own.",
+      "token_count": 641
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000002",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\nCorrelation analysis\nCorrelation analysis illustrates\n**the degree of a relationship**\nbetween two variables, i.e. how closely they are correlated. The result is always between -1.0 and 1.0, where 1.0 denotes the highest positive correlation, -1.0 stands for the highest negative correlation (explained below), and 0 means no correlation:\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nCorrelation does not imply causation, but it’s the simplest and fastest way to locate which features or metrics correlate the most with high or low user engagement.\nIn my work, I like to run a correlation analysis first thing when I am coming fresh to the data and looking for connections between metrics. For example, at MyFitnessPal, I used correlation analysis to understand if logging weight is correlated with starting a trial, or if stopping logging exercises is correlated with user churn.\nExamples of great use cases for doing correlation analysis:\n1. Is there any relationship between the two features or two user activities (e.g. booking a hotel and purchasing a concert ticket, creating a document template, and sending a message to a collaborator)?\n2. Do they increase and decrease together (e.g. does an increase in comments per post correlate with an increase in post shares? Is the decline in activated trials related to the price change)?\n3. Are they dependent or independent (e.g. the day’s weather and your app usage, activations by day of the week, or market recession and your subscription churn)?",
+      "doc_item_refs": [
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/247",
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/44",
+        "#/texts/45",
+        "#/texts/46"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+        "Correlation analysis"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/2c4dd36d-ef1e-45af-8499-b94875043d75_1600x431.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000002",
+        "chunk_sha256": "027e5900d48205f546726eebd7fa727be6e7be9cfd139c59b061a87b0b6ab18f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+          "Correlation analysis"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/2c4dd36d-ef1e-45af-8499-b94875043d75_1600x431.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/37",
+          "item_count": 11,
+          "last_self_ref": "#/texts/46"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/247",
+          "#/texts/40",
+          "#/texts/41",
+          "#/texts/42",
+          "#/texts/43",
+          "#/texts/44",
+          "#/texts/45",
+          "#/texts/46"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "Correlation analysis illustrates\n**the degree of a relationship**\nbetween two variables, i.e. how closely they are correlated. The result is always between -1.0 and 1.0, where 1.0 denotes the highest positive correlation, -1.0 stands for the highest negative correlation (explained below), and 0 means no correlation:\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nCorrelation does not imply causation, but it’s the simplest and fastest way to locate which features or metrics correlate the most with high or low user engagement.\nIn my work, I like to run a correlation analysis first thing when I am coming fresh to the data and looking for connections between metrics. For example, at MyFitnessPal, I used correlation analysis to understand if logging weight is correlated with starting a trial, or if stopping logging exercises is correlated with user churn.\nExamples of great use cases for doing correlation analysis:\n1. Is there any relationship between the two features or two user activities (e.g. booking a hotel and purchasing a concert ticket, creating a document template, and sending a message to a collaborator)?\n2. Do they increase and decrease together (e.g. does an increase in comments per post correlate with an increase in post shares? Is the decline in activated trials related to the price change)?\n3. Are they dependent or independent (e.g. the day’s weather and your app usage, activations by day of the week, or market recession and your subscription churn)?",
+      "token_count": 379
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000003",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\nCorrelation analysis\nThere is a “positive” and “negative” correlation\nPositive correlation—increase in X is correlated with an increase in Y:\n- An increase in installs relates to an increase in signups\n- An increase in notifications relates to an increase in daily active users\nNegative correlation (or inverse correlation)—increase in X is correlated with a decrease in Y:\n- An increase in price is related to a decrease in the trial-to-paid rate\n- An increase in webpage time load relates to a decrease in page views\nDepending on your question, you may find everything you need with just a correlation analysis. It’s simpler and faster to do than linear regression, it’s easier to understand, and this step alone might give you enough insight into your question. For example, if you simply want to measure the strength of the connection between, for example, a user seeing an upsell and activated trials, correlation would be sufficient. If, however, having the upsell view data, you want to predict new trials or gauge how much of the increase in showing upsells will be reflected in new trials, then you need linear regression.\nNote: If you jump straight to doing a linear regression and the values are not correlated, you’ll often find an inconclusive pattern. That’s why I recommend running a correlation analysis first—to confirm whether there is a correlation between X and Y, and if it’s a positive or negative correlation. Once you know if X and Y are related, then you can expand the analysis and predict Y using linear regression.",
+      "doc_item_refs": [
+        "#/texts/48",
+        "#/texts/49",
+        "#/texts/50",
+        "#/texts/51",
+        "#/texts/52",
+        "#/texts/53",
+        "#/texts/54",
+        "#/texts/55"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+        "Correlation analysis",
+        "There is a “positive” and “negative” correlation"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000003",
+        "chunk_sha256": "26a6128e78f64090e720f97cb23f45c8125296b108cf7eeaea236148fee5a8c4",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+          "Correlation analysis",
+          "There is a “positive” and “negative” correlation"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/48",
+          "item_count": 8,
+          "last_self_ref": "#/texts/55"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/48",
+          "#/texts/49",
+          "#/texts/50",
+          "#/texts/51",
+          "#/texts/52",
+          "#/texts/53",
+          "#/texts/54",
+          "#/texts/55"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "Positive correlation—increase in X is correlated with an increase in Y:\n- An increase in installs relates to an increase in signups\n- An increase in notifications relates to an increase in daily active users\nNegative correlation (or inverse correlation)—increase in X is correlated with a decrease in Y:\n- An increase in price is related to a decrease in the trial-to-paid rate\n- An increase in webpage time load relates to a decrease in page views\nDepending on your question, you may find everything you need with just a correlation analysis. It’s simpler and faster to do than linear regression, it’s easier to understand, and this step alone might give you enough insight into your question. For example, if you simply want to measure the strength of the connection between, for example, a user seeing an upsell and activated trials, correlation would be sufficient. If, however, having the upsell view data, you want to predict new trials or gauge how much of the increase in showing upsells will be reflected in new trials, then you need linear regression.\nNote: If you jump straight to doing a linear regression and the values are not correlated, you’ll often find an inconclusive pattern. That’s why I recommend running a correlation analysis first—to confirm whether there is a correlation between X and Y, and if it’s a positive or negative correlation. Once you know if X and Y are related, then you can expand the analysis and predict Y using linear regression.",
+      "token_count": 367
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000004",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\nLinear regression\nLinear regression takes correlation analysis further and shows\n**how much one variable affects another**\nand, more importantly, whether you can\n**use the pattern of one variable to predict and estimate the behavior**\n**of another**\n. Importantly, just like correlation analysis, a linear regression doesn’t prove causation, but it does give you more confidence that there’s a strong connection between variables, plus how this connection is expected to change if you increase or decrease variables.\nUse cases for linear regression:\n1. How much do page views have to increase to improve signups by 2x?\n2. Is showing more recommended articles to readers increasing return visits?\n3. How many exercises do users have to log in the app to see an improvement in user retention?\n4. If we send 3x more notifications, how much will this increase DAU?\n5. How many months will it take for Lenny to reach 500,000 subscribers? (Answer: About two months, assuming the current trend won’t change and Substack won’t release another killer feature. It’s estimated around July 2023.)\nPer the last point, linear regression is also often used for predicting averages for user activity, growth, and revenue. For example, at Change.org I used regression to forecast the day and time when we hit 200 million users (and I was within 10 minutes right!). At MyFitnessPal we use linear regression to estimate how many meals users have to log to become “sticky” or how many days users have to use the app to upgrade their subscription plan.",
+      "doc_item_refs": [
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60",
+        "#/texts/61",
+        "#/texts/62",
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65",
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+        "Linear regression"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000004",
+        "chunk_sha256": "e40bc9939ca0028280cdab93cc6c4a53b441dfc5c7a092bc90f1a9ddad5630ef",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+          "Linear regression"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/57",
+          "item_count": 13,
+          "last_self_ref": "#/texts/69"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/60",
+          "#/texts/61",
+          "#/texts/62",
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65",
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "Linear regression takes correlation analysis further and shows\n**how much one variable affects another**\nand, more importantly, whether you can\n**use the pattern of one variable to predict and estimate the behavior**\n**of another**\n. Importantly, just like correlation analysis, a linear regression doesn’t prove causation, but it does give you more confidence that there’s a strong connection between variables, plus how this connection is expected to change if you increase or decrease variables.\nUse cases for linear regression:\n1. How much do page views have to increase to improve signups by 2x?\n2. Is showing more recommended articles to readers increasing return visits?\n3. How many exercises do users have to log in the app to see an improvement in user retention?\n4. If we send 3x more notifications, how much will this increase DAU?\n5. How many months will it take for Lenny to reach 500,000 subscribers? (Answer: About two months, assuming the current trend won’t change and Substack won’t release another killer feature. It’s estimated around July 2023.)\nPer the last point, linear regression is also often used for predicting averages for user activity, growth, and revenue. For example, at Change.org I used regression to forecast the day and time when we hit 200 million users (and I was within 10 minutes right!). At MyFitnessPal we use linear regression to estimate how many meals users have to log to become “sticky” or how many days users have to use the app to upgrade their subscription plan.",
+      "token_count": 376
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000005",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\nLinear regression\nThe difference between linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nCorrelation analysis confirms\n**the relationship**\nand\n**connection**\nbetween two variables.\nLinear regression analysis shows\n**how much one variable affects another**\nand how to\n**predict, estimate, or explain its behavior**\n.\nAnother way to understand it:\n- If you can swap X and Y and get the same result, use correlation. If changing them affects your outcome, use regression.\n- If your analysis aims to answer *if* there is a relationship between X and Y, use correlation. If you aim to answer *how* X affects Y or haveX *predict* Y, use regression.",
+      "doc_item_refs": [
+        "#/texts/248",
+        "#/texts/71",
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/74",
+        "#/texts/75",
+        "#/texts/76",
+        "#/texts/77",
+        "#/texts/78",
+        "#/texts/79",
+        "#/texts/80",
+        "#/texts/81",
+        "#/texts/82",
+        "#/texts/83",
+        "#/texts/84"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+        "Linear regression",
+        "The difference between linear regression and correlation analysis"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/62413fa0-3d80-411c-af93-ebd0f096a26a_1042x644.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000005",
+        "chunk_sha256": "7f8e7d368b2c669ea885aba0c79ae694bfa0a9a0f3eda50ad028a7b50ac9568d",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+          "Linear regression",
+          "The difference between linear regression and correlation analysis"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/62413fa0-3d80-411c-af93-ebd0f096a26a_1042x644.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/248",
+          "item_count": 15,
+          "last_self_ref": "#/texts/84"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/248",
+          "#/texts/71",
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/74",
+          "#/texts/75",
+          "#/texts/76",
+          "#/texts/77",
+          "#/texts/78",
+          "#/texts/79",
+          "#/texts/80",
+          "#/texts/81",
+          "#/texts/82",
+          "#/texts/83",
+          "#/texts/84"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "Image from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nCorrelation analysis confirms\n**the relationship**\nand\n**connection**\nbetween two variables.\nLinear regression analysis shows\n**how much one variable affects another**\nand how to\n**predict, estimate, or explain its behavior**\n.\nAnother way to understand it:\n- If you can swap X and Y and get the same result, use correlation. If changing them affects your outcome, use regression.\n- If your analysis aims to answer *if* there is a relationship between X and Y, use correlation. If you aim to answer *how* X affects Y or haveX *predict* Y, use regression.",
+      "token_count": 205
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000006",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\nHow to run a correlation and linear regression analysis\nTo demonstrate both of these analyses, I’ll share some of the work my team did at\n[MyFitnessPal](https://www.myfitnesspal.com/)\n. We set out to prove that encouraging users to log more foods soon after signup would improve overall user retention.\nMyFitnessPal is the leading nutrition and food-tracking app, offering the tools to log meals quickly and easily. Using the app, users can track meals, learn about their habits, and reach their weight goals.\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nFor my analysis, I will be using “food logging events” to measure and analyze user engagement (\n[see my previous guest post](https://www.lennysnewsletter.com/i/70174617/step-define-active)\nfor advice on how to pick your “active” user metric). For your product, your active user metric could be app opens, session starts, screen views, requesting rides, booking a room, etc.\nTo prove that food logging has an impact on user retention, I will be running both a correlation and linear regression (using dummy data), as an example:\n1. Correlation analysis to confirm:\n2. There is a relationship between logging foods and retention. 2. The relationship is strong, and the correlation is positive.\n3. If there is a relationship, and it’s strong, then take the next step with regression to validate that an increase in the number of users who log a meal has the opportunity to increase active user retention.",
+      "doc_item_refs": [
+        "#/texts/93",
+        "#/texts/94",
+        "#/texts/95",
+        "#/texts/96",
+        "#/texts/249",
+        "#/texts/97",
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/100",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/103",
+        "#/texts/106"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+        "How to run a correlation and linear regression analysis"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c3827257-40ba-4493-afab-8b1ecaa464e3_1486x932.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000006",
+        "chunk_sha256": "82940cfcc52e2d3663a7e2ad235bba244ab79dc4f531de2ee2da697db4ec04ab",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+          "How to run a correlation and linear regression analysis"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c3827257-40ba-4493-afab-8b1ecaa464e3_1486x932.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/93",
+          "item_count": 13,
+          "last_self_ref": "#/texts/106"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/93",
+          "#/texts/94",
+          "#/texts/95",
+          "#/texts/96",
+          "#/texts/249",
+          "#/texts/97",
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/100",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/103",
+          "#/texts/106"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "To demonstrate both of these analyses, I’ll share some of the work my team did at\n[MyFitnessPal](https://www.myfitnesspal.com/)\n. We set out to prove that encouraging users to log more foods soon after signup would improve overall user retention.\nMyFitnessPal is the leading nutrition and food-tracking app, offering the tools to log meals quickly and easily. Using the app, users can track meals, learn about their habits, and reach their weight goals.\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nFor my analysis, I will be using “food logging events” to measure and analyze user engagement (\n[see my previous guest post](https://www.lennysnewsletter.com/i/70174617/step-define-active)\nfor advice on how to pick your “active” user metric). For your product, your active user metric could be app opens, session starts, screen views, requesting rides, booking a room, etc.\nTo prove that food logging has an impact on user retention, I will be running both a correlation and linear regression (using dummy data), as an example:\n1. Correlation analysis to confirm:\n2. There is a relationship between logging foods and retention. 2. The relationship is strong, and the correlation is positive.\n3. If there is a relationship, and it’s strong, then take the next step with regression to validate that an increase in the number of users who log a meal has the opportunity to increase active user retention.",
+      "token_count": 392
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000007",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\nHow to run a correlation and linear regression analysis\nRunning analysis using product analytics tools\nUnlike my early years as an analyst, having to run such analysis in Excel, R, SPSS, or STATA software that required training and had a steep learning curve, today we can take advantage of product analytics tools that are intuitive and help you confirm the relationship between variables in seconds.\nBelow I’ll show you a way to run such an analysis in Amplitude and Mixpanel, along with Excel, Google Sheets, and other tools. These digital analytics tools offer features that are similar to correlation and linear regression modeling. They use your historical data to help you locate signals, patterns, and connections by doing correlation analysis, and on top of that develop predictions of expected user behavior. In other words, using Mixpanel and Amplitude, you can do correlation and go slightly beyond that with predictions. For linear regression, I’ll show you how to supplement your analysis with Excel and Google Sheets.",
+      "doc_item_refs": [
+        "#/texts/108",
+        "#/texts/109"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+        "How to run a correlation and linear regression analysis",
+        "Running analysis using product analytics tools"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000007",
+        "chunk_sha256": "aa411b258d1c5f526180a5db078cd3da7a77f2bb5157291f6cd4b8aa822d53e7",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+          "How to run a correlation and linear regression analysis",
+          "Running analysis using product analytics tools"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/108",
+          "item_count": 2,
+          "last_self_ref": "#/texts/109"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/108",
+          "#/texts/109"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "Unlike my early years as an analyst, having to run such analysis in Excel, R, SPSS, or STATA software that required training and had a steep learning curve, today we can take advantage of product analytics tools that are intuitive and help you confirm the relationship between variables in seconds.\nBelow I’ll show you a way to run such an analysis in Amplitude and Mixpanel, along with Excel, Google Sheets, and other tools. These digital analytics tools offer features that are similar to correlation and linear regression modeling. They use your historical data to help you locate signals, patterns, and connections by doing correlation analysis, and on top of that develop predictions of expected user behavior. In other words, using Mixpanel and Amplitude, you can do correlation and go slightly beyond that with predictions. For linear regression, I’ll show you how to supplement your analysis with Excel and Google Sheets.",
+      "token_count": 244
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000008",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\nHow to run a correlation and linear regression analysis\nRunning analysis using product analytics tools\nAmplitude—Compass feature\nIn Amplitude, you can click into the\n*Analysis*\nsection and pick the\n[Compass](https://help.amplitude.com/hc/en-us/articles/235147347-The-Compass-chart-discover-your-users-a-ha-moments)\nchart. Follow these steps to run a correlation analysis:\n1. Select the user activity you want to measure—logging a meal, opening the app, sending an invite, viewing a listing, creating a video, etc.\n2. Pick the metric you want to see an impact on—retention, trial, churn, activation, etc.\n3. Adjust the time range for the user activity—e.g. 7 days after signup, for example:\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nCompass returns the correlation score based on your input data (using a sample of data for reference):\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nWe received a 0.564 correlation score, which proves there is a relationship between food logging and user retention in this dataset. Amplitude says it’s “highly predictive,” meaning there is a high likelihood of food logging predicting high retention. That said, it\n**doesn’t mean that new users registering tomorrow and logging more foods will have better retention**\n. There is still work to do to prove that. This just indicates that based on our historical data:\n- A big percentage of users who logged food in their first 7 days after signup returned to the app on the 14th day.\n- Among users who returned to the app on the 14th day, a big percentage of them had logged food in their first 7 days.\nThere is no proof yet that every new user who will log in twice as often will show improved retention.\nMy next step here was to run the same analysis for other user activities and see if there is as strong a relationship for other MyFitnessPal features: water intake logging, plan activation, intermittent fasting, logging an exercise, etc. As you can see below, many other features don’t show as strong a correlation with retention:\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nAs a bonus, the Compass report in Amplitude also shows the impact of the\n*frequency*\nof activity on retention. For example, it helped us determine if logging food once in 7 days (versus, say, five times) is sufficient to detect improvement (it is).",
+      "doc_item_refs": [
+        "#/texts/111",
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/114",
+        "#/texts/115",
+        "#/texts/116",
+        "#/texts/117",
+        "#/texts/118",
+        "#/texts/250",
+        "#/texts/119",
+        "#/texts/120",
+        "#/texts/251",
+        "#/texts/121",
+        "#/texts/122",
+        "#/texts/123",
+        "#/texts/124",
+        "#/texts/125",
+        "#/texts/126",
+        "#/texts/127",
+        "#/texts/128",
+        "#/texts/252",
+        "#/texts/129",
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/132"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+        "How to run a correlation and linear regression analysis",
+        "Running analysis using product analytics tools",
+        "Amplitude—Compass feature"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/78e896f2-95f7-48ee-9b9b-54afade0ed89_1600x262.png"
+        },
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/2baa5a31-974f-4d36-9ca0-143669f4e8d0_794x436.png"
+        },
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/2b0d4576-4b64-44f1-acc7-6b5e44b58755_1600x983.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000008",
+        "chunk_sha256": "9bd7fa9ad4244e93a7a0557a22042bba1de211dacce2cd72a3edf7d14c8d1ed5",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+          "How to run a correlation and linear regression analysis",
+          "Running analysis using product analytics tools",
+          "Amplitude—Compass feature"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/78e896f2-95f7-48ee-9b9b-54afade0ed89_1600x262.png"
+          },
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/2baa5a31-974f-4d36-9ca0-143669f4e8d0_794x436.png"
+          },
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/2b0d4576-4b64-44f1-acc7-6b5e44b58755_1600x983.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/111",
+          "item_count": 25,
+          "last_self_ref": "#/texts/132"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/111",
+          "#/texts/112",
+          "#/texts/113",
+          "#/texts/114",
+          "#/texts/115",
+          "#/texts/116",
+          "#/texts/117",
+          "#/texts/118",
+          "#/texts/250",
+          "#/texts/119",
+          "#/texts/120",
+          "#/texts/251",
+          "#/texts/121",
+          "#/texts/122",
+          "#/texts/123",
+          "#/texts/124",
+          "#/texts/125",
+          "#/texts/126",
+          "#/texts/127",
+          "#/texts/128",
+          "#/texts/252",
+          "#/texts/129",
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/132"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "In Amplitude, you can click into the\n*Analysis*\nsection and pick the\n[Compass](https://help.amplitude.com/hc/en-us/articles/235147347-The-Compass-chart-discover-your-users-a-ha-moments)\nchart. Follow these steps to run a correlation analysis:\n1. Select the user activity you want to measure—logging a meal, opening the app, sending an invite, viewing a listing, creating a video, etc.\n2. Pick the metric you want to see an impact on—retention, trial, churn, activation, etc.\n3. Adjust the time range for the user activity—e.g. 7 days after signup, for example:\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nCompass returns the correlation score based on your input data (using a sample of data for reference):\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nWe received a 0.564 correlation score, which proves there is a relationship between food logging and user retention in this dataset. Amplitude says it’s “highly predictive,” meaning there is a high likelihood of food logging predicting high retention. That said, it\n**doesn’t mean that new users registering tomorrow and logging more foods will have better retention**\n. There is still work to do to prove that. This just indicates that based on our historical data:\n- A big percentage of users who logged food in their first 7 days after signup returned to the app on the 14th day.\n- Among users who returned to the app on the 14th day, a big percentage of them had logged food in their first 7 days.\nThere is no proof yet that every new user who will log in twice as often will show improved retention.\nMy next step here was to run the same analysis for other user activities and see if there is as strong a relationship for other MyFitnessPal features: water intake logging, plan activation, intermittent fasting, logging an exercise, etc. As you can see below, many other features don’t show as strong a correlation with retention:\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nAs a bonus, the Compass report in Amplitude also shows the impact of the\n*frequency*\nof activity on retention. For example, it helped us determine if logging food once in 7 days (versus, say, five times) is sufficient to detect improvement (it is).",
+      "token_count": 595
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000009",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\nHow to run a correlation and linear regression analysis\nRunning analysis using product analytics tools\nMixpanel—Signal report\nIn Mixpanel, you can use the\n[Signal](https://help.mixpanel.com/hc/en-us/articles/115004567503-Signal-Report)\nfeature to confirm the relationship and connection between user activity and any of your metrics. To access this feature, click on Mixpanel Apps in the top navigation bar:\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nSignal analyzes the correlation between an action and an outcome, to help you understand what user behavior drives conversion, retention, or growth.\nTo create a Signal report in Mixpanel, follow these steps:\n1. Define the user cohort for analysis (e.g. new users)\n2. Choose a time frame (e.g. the last quarter)\n3. Pick the goal/metric (e.g. second-week retention)\n4. Select the user activity you want to measure (e.g. “log food”)\n5. Add additional filters to the selected user activity (such as specific time, device type, or geo)\n6. Click “Correlate”\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nSignal returns the correlation score based on your inputs:\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nIn our example, we received a 0.78 correlation score, which proves logging food is strongly correlated with second-week retention in this dataset. If you click on “Details,” you can view the heatmap that helps you locate the ideal frequency of food logs to get the highest retention (not actual data; using an example for reference):\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nMixpanel suggests that this action needs to be completed at least 2 times within 3 days of registration to have an impact on user retention (see the green box above).\nWe can run the same analysis for other user activities in our app to confirm if there is a strong relationship for other features, using the “Top features” breakdown:\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nMixpanel returns a list of top activities in the app along with their correlation score to user retention. It makes it very easy to locate strong product features.\nBoth Amplitude and Mixpanel help us confirm the association between retention and food logs, and determine how strongly predictive these associations are and their pattern of relationship. They don’t, however, give us an estimate of how much we should increase food logs to improve active user retention. And this is what linear regression can help to uncover. To confirm any type of prediction, we have to leverage statistical tools to model the linear regression trend line.\nThis can be done in Excel, Google Sheets, or in a number of free online tools.\nFor Excel, you will need to install an additional package, the\n[Analysis ToolPak](https://support.microsoft.com/en-us/office/load-the-analysis-toolpak-in-excel-6a63e598-cd6d-42e3-9317-6b40ba1a66b4)\n. Once it’s downloaded, from the Data menu select Data Analysis, then select Regression. For running either a correlation or linear regression in Excel, you need to create two columns with your input data, like so (again, using made-up data):\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nFor Google Sheets, you can leverage functions and a scatterplot chart:\n1. Correlation =CORREL(X range, Y range):\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\n1. Linear regression, instead use *=LINEST(Y range, X range, true, true)* , where *true* stands for if you want to see additional statistics or calculate intercept.\nHere’s a quick template to help you get started:\n[Correlation and Linear regression template](https://docs.google.com/spreadsheets/d/1T4LAcBx9HHhDydMW0NPr1jOaEzx5GtZ9CTrcjeTrFZ8/edit#gid=1443729456)\n.\nAlternatively, you can upload the same input data into online calculators such as\n[DATAtab](https://datatab.net/statistics-calculator/regression)\n,\n[Statistics Kingdom](https://www.statskingdom.com/linear-regression-calculator.html)\n, or\n[Social Science Statistics](https://www.socscistatistics.com/tests/regression/default.aspx)\nand get correlation and linear regression right in the tools.\nNote: Addressing outliers for linear regression is important. Depending on their value and position, outliers can affect the regression and change its trend line. In some cases, you should keep them, because they make your regression more precise (the image below on the left). In other cases, outliers deviate from the whole result and must be eliminated (the image on the right):\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\n[*Learn more about outliers in linear regression*](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/find-a-linear-regression-equation/#definition)\nTo understand which outliers should be removed, you have to see the whole distribution of your data points. As a rule of thumb, the closer outliers are to your average, the less likely they affect the regression. The further outliers fall from the average, the more leverage they have to skew the trend line. Additionally, you also need to consider data variance. If it’s overall high, you should keep extreme outliers. Read more:\n[Leverage in Linear Regression: How it Affects Graphs](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/find-a-linear-regression-equation/#definition)\n.",
+      "doc_item_refs": [
+        "#/texts/134",
+        "#/texts/135",
+        "#/texts/136",
+        "#/texts/253",
+        "#/texts/137",
+        "#/texts/138",
+        "#/texts/139",
+        "#/texts/140",
+        "#/texts/141",
+        "#/texts/142",
+        "#/texts/143",
+        "#/texts/144",
+        "#/texts/145",
+        "#/texts/254",
+        "#/texts/146",
+        "#/texts/147",
+        "#/texts/255",
+        "#/texts/148",
+        "#/texts/149",
+        "#/texts/256",
+        "#/texts/150",
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/257",
+        "#/texts/153",
+        "#/texts/258",
+        "#/texts/154",
+        "#/texts/155",
+        "#/texts/156",
+        "#/texts/157",
+        "#/texts/158",
+        "#/texts/159",
+        "#/texts/160",
+        "#/texts/259",
+        "#/texts/161",
+        "#/texts/162",
+        "#/texts/163",
+        "#/texts/260",
+        "#/texts/164",
+        "#/texts/165",
+        "#/texts/171",
+        "#/texts/172",
+        "#/texts/173",
+        "#/texts/174",
+        "#/texts/175",
+        "#/texts/176",
+        "#/texts/177",
+        "#/texts/178",
+        "#/texts/179",
+        "#/texts/180",
+        "#/texts/181",
+        "#/texts/261",
+        "#/texts/182",
+        "#/texts/183",
+        "#/texts/184",
+        "#/texts/185",
+        "#/texts/186"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+        "How to run a correlation and linear regression analysis",
+        "Running analysis using product analytics tools",
+        "Mixpanel—Signal report"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/fa43cedf-6c5c-4c86-9004-1834eb8014f6_586x752.png"
+        },
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/8e337589-70ec-4914-a080-8c27c63ba1a2_1600x448.png"
+        },
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000009",
+          "path": null,
+          "self_ref": "#/pictures/9",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/1e69ca2a-9ffc-4948-98d7-663ce47dd701_1600x148.png"
+        },
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000010",
+          "path": null,
+          "self_ref": "#/pictures/10",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/3b519473-fc93-4ef5-a103-028630c7b1e5_1600x989.png"
+        },
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000011",
+          "path": null,
+          "self_ref": "#/pictures/11",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a7a8aedf-95b6-482c-85ad-6f299c0a30ae_840x960.png"
+        },
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000012",
+          "path": null,
+          "self_ref": "#/pictures/12",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c7c739bc-4c61-48f3-9732-c5729c79bb62_1600x527.png"
+        },
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000013",
+          "path": null,
+          "self_ref": "#/pictures/13",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c2e8f0f1-fc74-4244-8d72-cf3f60ce40b1_988x970.png"
+        },
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000014",
+          "path": null,
+          "self_ref": "#/pictures/14",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/1dfeb900-e932-49d9-847b-90cf739235a2_1176x458.png"
+        },
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000015",
+          "path": null,
+          "self_ref": "#/pictures/15",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/ee4bea31-3c86-4d10-bff1-73e0d26c68ec_1600x697.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000009",
+        "chunk_sha256": "a4259d7ddb5f6fb0a987090de6ccb600d0cfc0799fbef8c153eaf0f8450a2d4a",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+          "How to run a correlation and linear regression analysis",
+          "Running analysis using product analytics tools",
+          "Mixpanel—Signal report"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/fa43cedf-6c5c-4c86-9004-1834eb8014f6_586x752.png"
+          },
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/8e337589-70ec-4914-a080-8c27c63ba1a2_1600x448.png"
+          },
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000009",
+            "path": null,
+            "self_ref": "#/pictures/9",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/1e69ca2a-9ffc-4948-98d7-663ce47dd701_1600x148.png"
+          },
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000010",
+            "path": null,
+            "self_ref": "#/pictures/10",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/3b519473-fc93-4ef5-a103-028630c7b1e5_1600x989.png"
+          },
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000011",
+            "path": null,
+            "self_ref": "#/pictures/11",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a7a8aedf-95b6-482c-85ad-6f299c0a30ae_840x960.png"
+          },
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000012",
+            "path": null,
+            "self_ref": "#/pictures/12",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c7c739bc-4c61-48f3-9732-c5729c79bb62_1600x527.png"
+          },
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000013",
+            "path": null,
+            "self_ref": "#/pictures/13",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c2e8f0f1-fc74-4244-8d72-cf3f60ce40b1_988x970.png"
+          },
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000014",
+            "path": null,
+            "self_ref": "#/pictures/14",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/1dfeb900-e932-49d9-847b-90cf739235a2_1176x458.png"
+          },
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000015",
+            "path": null,
+            "self_ref": "#/pictures/15",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/ee4bea31-3c86-4d10-bff1-73e0d26c68ec_1600x697.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/134",
+          "item_count": 57,
+          "last_self_ref": "#/texts/186"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/134",
+          "#/texts/135",
+          "#/texts/136",
+          "#/texts/253",
+          "#/texts/137",
+          "#/texts/138",
+          "#/texts/139",
+          "#/texts/140",
+          "#/texts/141",
+          "#/texts/142",
+          "#/texts/143",
+          "#/texts/144",
+          "#/texts/145",
+          "#/texts/254",
+          "#/texts/146",
+          "#/texts/147",
+          "#/texts/255",
+          "#/texts/148",
+          "#/texts/149",
+          "#/texts/256",
+          "#/texts/150",
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/257",
+          "#/texts/153",
+          "#/texts/258",
+          "#/texts/154",
+          "#/texts/155",
+          "#/texts/156",
+          "#/texts/157",
+          "#/texts/158",
+          "#/texts/159",
+          "#/texts/160",
+          "#/texts/259",
+          "#/texts/161",
+          "#/texts/162",
+          "#/texts/163",
+          "#/texts/260",
+          "#/texts/164",
+          "#/texts/165",
+          "#/texts/171",
+          "#/texts/172",
+          "#/texts/173",
+          "#/texts/174",
+          "#/texts/175",
+          "#/texts/176",
+          "#/texts/177",
+          "#/texts/178",
+          "#/texts/179",
+          "#/texts/180",
+          "#/texts/181",
+          "#/texts/261",
+          "#/texts/182",
+          "#/texts/183",
+          "#/texts/184",
+          "#/texts/185",
+          "#/texts/186"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "In Mixpanel, you can use the\n[Signal](https://help.mixpanel.com/hc/en-us/articles/115004567503-Signal-Report)\nfeature to confirm the relationship and connection between user activity and any of your metrics. To access this feature, click on Mixpanel Apps in the top navigation bar:\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nSignal analyzes the correlation between an action and an outcome, to help you understand what user behavior drives conversion, retention, or growth.\nTo create a Signal report in Mixpanel, follow these steps:\n1. Define the user cohort for analysis (e.g. new users)\n2. Choose a time frame (e.g. the last quarter)\n3. Pick the goal/metric (e.g. second-week retention)\n4. Select the user activity you want to measure (e.g. “log food”)\n5. Add additional filters to the selected user activity (such as specific time, device type, or geo)\n6. Click “Correlate”\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nSignal returns the correlation score based on your inputs:\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nIn our example, we received a 0.78 correlation score, which proves logging food is strongly correlated with second-week retention in this dataset. If you click on “Details,” you can view the heatmap that helps you locate the ideal frequency of food logs to get the highest retention (not actual data; using an example for reference):\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nMixpanel suggests that this action needs to be completed at least 2 times within 3 days of registration to have an impact on user retention (see the green box above).\nWe can run the same analysis for other user activities in our app to confirm if there is a strong relationship for other features, using the “Top features” breakdown:\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nMixpanel returns a list of top activities in the app along with their correlation score to user retention. It makes it very easy to locate strong product features.\nBoth Amplitude and Mixpanel help us confirm the association between retention and food logs, and determine how strongly predictive these associations are and their pattern of relationship. They don’t, however, give us an estimate of how much we should increase food logs to improve active user retention. And this is what linear regression can help to uncover. To confirm any type of prediction, we have to leverage statistical tools to model the linear regression trend line.\nThis can be done in Excel, Google Sheets, or in a number of free online tools.\nFor Excel, you will need to install an additional package, the\n[Analysis ToolPak](https://support.microsoft.com/en-us/office/load-the-analysis-toolpak-in-excel-6a63e598-cd6d-42e3-9317-6b40ba1a66b4)\n. Once it’s downloaded, from the Data menu select Data Analysis, then select Regression. For running either a correlation or linear regression in Excel, you need to create two columns with your input data, like so (again, using made-up data):\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nFor Google Sheets, you can leverage functions and a scatterplot chart:\n1. Correlation =CORREL(X range, Y range):\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\n1. Linear regression, instead use *=LINEST(Y range, X range, true, true)* , where *true* stands for if you want to see additional statistics or calculate intercept.\nHere’s a quick template to help you get started:\n[Correlation and Linear regression template](https://docs.google.com/spreadsheets/d/1T4LAcBx9HHhDydMW0NPr1jOaEzx5GtZ9CTrcjeTrFZ8/edit#gid=1443729456)\n.\nAlternatively, you can upload the same input data into online calculators such as\n[DATAtab](https://datatab.net/statistics-calculator/regression)\n,\n[Statistics Kingdom](https://www.statskingdom.com/linear-regression-calculator.html)\n, or\n[Social Science Statistics](https://www.socscistatistics.com/tests/regression/default.aspx)\nand get correlation and linear regression right in the tools.\nNote: Addressing outliers for linear regression is important. Depending on their value and position, outliers can affect the regression and change its trend line. In some cases, you should keep them, because they make your regression more precise (the image below on the left). In other cases, outliers deviate from the whole result and must be eliminated (the image on the right):\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\n[*Learn more about outliers in linear regression*](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/find-a-linear-regression-equation/#definition)\nTo understand which outliers should be removed, you have to see the whole distribution of your data points. As a rule of thumb, the closer outliers are to your average, the less likely they affect the regression. The further outliers fall from the average, the more leverage they have to skew the trend line. Additionally, you also need to consider data variance. If it’s overall high, you should keep extreme outliers. Read more:\n[Leverage in Linear Regression: How it Affects Graphs](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/find-a-linear-regression-equation/#definition)\n.",
+      "token_count": 1410
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000010",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\nHow to run a correlation and linear regression analysis\nRunning analysis using product analytics tools\nMixpanel—Signal report\nThat’s why running linear regression on your own in Excel can be tricky. It’s safer to leverage online tools and statistical applications that can build the regression for you. If you need help with exploring outliers, different types of regressions, or distributions, I recommend using a product called\n[Wizard](https://www.wizardmac.com/)\n. It helps you build a scatterplot in seconds, find outliers, find correlation scores, and more:\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis",
+      "doc_item_refs": [
+        "#/texts/187",
+        "#/texts/188",
+        "#/texts/189",
+        "#/texts/262",
+        "#/texts/190"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+        "How to run a correlation and linear regression analysis",
+        "Running analysis using product analytics tools",
+        "Mixpanel—Signal report"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000016",
+          "path": null,
+          "self_ref": "#/pictures/16",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/d754829c-8750-4337-9674-b91adfd950a8_1126x1050.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000010",
+        "chunk_sha256": "1287ef6f88273f748807f7ee603225d885c18cc2b280ca8684c25495a8d85bb7",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+          "How to run a correlation and linear regression analysis",
+          "Running analysis using product analytics tools",
+          "Mixpanel—Signal report"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000016",
+            "path": null,
+            "self_ref": "#/pictures/16",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/d754829c-8750-4337-9674-b91adfd950a8_1126x1050.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/187",
+          "item_count": 5,
+          "last_self_ref": "#/texts/190"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/187",
+          "#/texts/188",
+          "#/texts/189",
+          "#/texts/262",
+          "#/texts/190"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "That’s why running linear regression on your own in Excel can be tricky. It’s safer to leverage online tools and statistical applications that can build the regression for you. If you need help with exploring outliers, different types of regressions, or distributions, I recommend using a product called\n[Wizard](https://www.wizardmac.com/)\n. It helps you build a scatterplot in seconds, find outliers, find correlation scores, and more:\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis",
+      "token_count": 191
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000011",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\nHow to run a correlation and linear regression analysis\nTo recap, here are the steps to run correlation and linear regression:\n**Hypothesis:**\nAn increase in food logs will improve active user day-30 retention.\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis",
+      "doc_item_refs": [
+        "#/texts/192",
+        "#/texts/193",
+        "#/texts/263",
+        "#/texts/194"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+        "How to run a correlation and linear regression analysis",
+        "To recap, here are the steps to run correlation and linear regression:"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000017",
+          "path": null,
+          "self_ref": "#/pictures/17",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/94a29cc5-cd83-491e-9f6c-6b9a332596bd_1278x974.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000011",
+        "chunk_sha256": "13f39659091a7b06d1edc07aa590670026b0e67f86d18f81f54f480070dd3fec",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+          "How to run a correlation and linear regression analysis",
+          "To recap, here are the steps to run correlation and linear regression:"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000017",
+            "path": null,
+            "self_ref": "#/pictures/17",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/94a29cc5-cd83-491e-9f6c-6b9a332596bd_1278x974.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/192",
+          "item_count": 4,
+          "last_self_ref": "#/texts/194"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/192",
+          "#/texts/193",
+          "#/texts/263",
+          "#/texts/194"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "**Hypothesis:**\nAn increase in food logs will improve active user day-30 retention.\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis",
+      "token_count": 113
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000012",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\nTo conclude\n1. Correlation is the simplest and fastest way to locate which features or metrics correlate the most with high or low user engagement.\n2. Linear regression takes correlation analysis a few steps further. It shows how much one variable affects another and if you can use the pattern of one variable to predict and estimate the behavior of another.\n3. Neither correlation nor linear regression implies causation. They help you locate which features or metrics correlate the most with user engagement and answer whether there’s a strong connection between variables, and if this connection will change if you increase or decrease variables.\n4. The fastest way to confirm relationships between metrics and user activity is by leveraging product analytics tools, like Mixpanel, Amplitude, etc.\n5. To learn how much one variable affects another, or to predict, estimate, or explain its behavior, you have to supplement analysis with linear regression either via online tools, statistical applications, or Excel.\n6. If you do linear regression manually in Excel, make sure you address influential outliers (if you have any), which can make your trend line skewed.",
+      "doc_item_refs": [
+        "#/texts/196",
+        "#/texts/197",
+        "#/texts/198",
+        "#/texts/199",
+        "#/texts/200",
+        "#/texts/201"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+        "To conclude"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000012",
+        "chunk_sha256": "ed343bbd0b58b2b6119bcf3246f90121082538470641c18f5fb50cb9f6cdc837",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+          "To conclude"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/196",
+          "item_count": 6,
+          "last_self_ref": "#/texts/201"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/196",
+          "#/texts/197",
+          "#/texts/198",
+          "#/texts/199",
+          "#/texts/200",
+          "#/texts/201"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "1. Correlation is the simplest and fastest way to locate which features or metrics correlate the most with high or low user engagement.\n2. Linear regression takes correlation analysis a few steps further. It shows how much one variable affects another and if you can use the pattern of one variable to predict and estimate the behavior of another.\n3. Neither correlation nor linear regression implies causation. They help you locate which features or metrics correlate the most with user engagement and answer whether there’s a strong connection between variables, and if this connection will change if you increase or decrease variables.\n4. The fastest way to confirm relationships between metrics and user activity is by leveraging product analytics tools, like Mixpanel, Amplitude, etc.\n5. To learn how much one variable affects another, or to predict, estimate, or explain its behavior, you have to supplement analysis with linear regression either via online tools, statistical applications, or Excel.\n6. If you do linear regression manually in Excel, make sure you address influential outliers (if you have any), which can make your trend line skewed.",
+      "token_count": 280
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000013",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\nTo conclude\n📚 Further study\n1. A fun, quick [video walk-through](https://www.youtube.com/watch?v=QzY4roUb3HM) on the differences between correlation and regression, from 365 Data Science\n2. [A Refresher on Regression Analysis](https://hbr.org/2015/11/a-refresher-on-regression-analysis)\n3. [A Visual Introduction To (Almost) Everything You Should Know](https://mlu-explain.github.io/linear-regression/)\n4. [The Compass chart: discover your users’ “a-ha” moments](https://help.amplitude.com/hc/en-us/articles/235147347)\n5. [Mixpanel Signal Report](https://help.mixpanel.com/hc/en-us/articles/115004567503-Signal-Report#build-a-query-in-signal)\n6. [Linear Regression: Simple Steps, Video. Find Equation, Coefficient, Slope](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/find-a-linear-regression-equation/#definition)\n7. [What Statistics Are Used In Data Analysis?](https://dataanalysis.substack.com/p/what-statistics-are-used-in-data)\n8. [Behold! How You Can Handle Missing Data](https://dataanalysis.substack.com/p/behold-how-you-can-handle-missing)\n9. [Causality, correlation and regression](https://datatab.net/tutorial/causality)\n*Thanks, Olga! You can find Olga on*\n[*LinkedIn*](https://www.linkedin.com/in/olgaberezovsky/)\n*and*\n[*Twitter*](https://twitter.com/OlgaBerezovsky)\n*, and*\n[*subscribe to her newsletter*](https://dataanalysis.substack.com/)\n*for all kinds of great, actionable advice on data analysis and product analytics.*\n*Have a fulfilling and productive week 🙏*",
+      "doc_item_refs": [
+        "#/texts/203",
+        "#/texts/207",
+        "#/texts/208",
+        "#/texts/209",
+        "#/texts/210",
+        "#/texts/211",
+        "#/texts/212",
+        "#/texts/213",
+        "#/texts/214",
+        "#/texts/215",
+        "#/texts/216",
+        "#/texts/217",
+        "#/texts/218",
+        "#/texts/219",
+        "#/texts/220",
+        "#/texts/221",
+        "#/texts/222"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+        "To conclude",
+        "📚 Further study"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000013",
+        "chunk_sha256": "be9d54f10af4a69815fbdbcfffcb052298be587805dd31a17124c7250a390af2",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+          "To conclude",
+          "📚 Further study"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/203",
+          "item_count": 17,
+          "last_self_ref": "#/texts/222"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/203",
+          "#/texts/207",
+          "#/texts/208",
+          "#/texts/209",
+          "#/texts/210",
+          "#/texts/211",
+          "#/texts/212",
+          "#/texts/213",
+          "#/texts/214",
+          "#/texts/215",
+          "#/texts/216",
+          "#/texts/217",
+          "#/texts/218",
+          "#/texts/219",
+          "#/texts/220",
+          "#/texts/221",
+          "#/texts/222"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "1. A fun, quick [video walk-through](https://www.youtube.com/watch?v=QzY4roUb3HM) on the differences between correlation and regression, from 365 Data Science\n2. [A Refresher on Regression Analysis](https://hbr.org/2015/11/a-refresher-on-regression-analysis)\n3. [A Visual Introduction To (Almost) Everything You Should Know](https://mlu-explain.github.io/linear-regression/)\n4. [The Compass chart: discover your users’ “a-ha” moments](https://help.amplitude.com/hc/en-us/articles/235147347)\n5. [Mixpanel Signal Report](https://help.mixpanel.com/hc/en-us/articles/115004567503-Signal-Report#build-a-query-in-signal)\n6. [Linear Regression: Simple Steps, Video. Find Equation, Coefficient, Slope](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/find-a-linear-regression-equation/#definition)\n7. [What Statistics Are Used In Data Analysis?](https://dataanalysis.substack.com/p/what-statistics-are-used-in-data)\n8. [Behold! How You Can Handle Missing Data](https://dataanalysis.substack.com/p/behold-how-you-can-handle-missing)\n9. [Causality, correlation and regression](https://datatab.net/tutorial/causality)\n*Thanks, Olga! You can find Olga on*\n[*LinkedIn*](https://www.linkedin.com/in/olgaberezovsky/)\n*and*\n[*Twitter*](https://twitter.com/OlgaBerezovsky)\n*, and*\n[*subscribe to her newsletter*](https://dataanalysis.substack.com/)\n*for all kinds of great, actionable advice on data analysis and product analytics.*\n*Have a fulfilling and productive week 🙏*",
+      "token_count": 544
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000014",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\n📣 Join Lenny’s Talent Collective 📣\nIf you’re hiring,\n[join Lenny’s Talent Collective](https://www.lennysjobs.com/talent/welcome)\nto start getting bi-monthly drops of world-class hand-curated product and growth people who are open to new opportunities.\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nIf you’re looking for a new gig, join the collective to get personalized opportunities from hand-selected companies. You can join publicly or anonymously, and leave anytime.\n[Apply to join](https://www.lennysjobs.com/talent)",
+      "doc_item_refs": [
+        "#/texts/224",
+        "#/texts/225",
+        "#/texts/226",
+        "#/texts/264",
+        "#/texts/227",
+        "#/texts/228",
+        "#/texts/229"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+        "📣 Join Lenny’s Talent Collective 📣"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to do linear regression and correlation analysis",
+          "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000018",
+          "path": null,
+          "self_ref": "#/pictures/18",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/f8eb7d1d-965c-4b8a-813d-b233fc74197b_1526x1240.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000014",
+        "chunk_sha256": "8ffd020dce3e987ebff5f13848e27ab2c7577f403c043e0b57f3889d82b03f47",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+          "📣 Join Lenny’s Talent Collective 📣"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to do linear regression and correlation analysis",
+            "image_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#image=000018",
+            "path": null,
+            "self_ref": "#/pictures/18",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/f8eb7d1d-965c-4b8a-813d-b233fc74197b_1526x1240.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/224",
+          "item_count": 7,
+          "last_self_ref": "#/texts/229"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/224",
+          "#/texts/225",
+          "#/texts/226",
+          "#/texts/264",
+          "#/texts/227",
+          "#/texts/228",
+          "#/texts/229"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "If you’re hiring,\n[join Lenny’s Talent Collective](https://www.lennysjobs.com/talent/welcome)\nto start getting bi-monthly drops of world-class hand-curated product and growth people who are open to new opportunities.\nImage from How to do linear regression and correlation analysis\nImage from How to do linear regression and correlation analysis\nIf you’re looking for a new gig, join the collective to get personalized opportunities from hand-selected companies. You can join publicly or anonymously, and leave anytime.\n[Apply to join](https://www.lennysjobs.com/talent)",
+      "token_count": 191
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000015",
+      "contextualized_text": "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management\n📣 Join Lenny’s Talent Collective 📣\n❤️‍🔥 Featured job opportunities\n1. **Wingspan:** [Product Marketing Manager](https://www.lennysjobs.com/jobs/02f1d98a-a58e-427b-a46e-9e8b1fd52295) (NY, remote)\n2. **Wingspan:** [Senior Software Engineer](https://www.lennysjobs.com/jobs/e42afaf7-f323-441d-8f4c-cf7a252e9ca3) (Remote)\n3. **Wingspan:** [Technical Account Manager](https://www.lennysjobs.com/jobs/b8d36434-9885-4d23-80bf-9ac3847e37de) (Remote)\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/231",
+        "#/texts/235",
+        "#/texts/239",
+        "#/texts/243",
+        "#/texts/244",
+        "#/texts/245"
+      ],
+      "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+      "headings": [
+        "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+        "📣 Join Lenny’s Talent Collective 📣",
+        "❤️‍🔥 Featured job opportunities"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md#chunk=000015",
+        "chunk_sha256": "47ce7e19149a13f45778f978d4cb451393a28b9b01a17bc402c470276da44d1d",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+        "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+        "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+        "headings": [
+          "How to do linear regression and correlation analysis — Steps, methods, tools, and use cases for locating predictable user actions and improving retention | 2023-05-02 | Tags: growth, analytics, newsletter, design, ai, product-management",
+          "📣 Join Lenny’s Talent Collective 📣",
+          "❤️‍🔥 Featured job opportunities"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 15,
+        "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+        "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+        "segment": {
+          "first_self_ref": "#/texts/231",
+          "item_count": 6,
+          "last_self_ref": "#/texts/245"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/231",
+          "#/texts/235",
+          "#/texts/239",
+          "#/texts/243",
+          "#/texts/244",
+          "#/texts/245"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 15,
+      "raw_text": "1. **Wingspan:** [Product Marketing Manager](https://www.lennysjobs.com/jobs/02f1d98a-a58e-427b-a46e-9e8b1fd52295) (NY, remote)\n2. **Wingspan:** [Senior Software Engineer](https://www.lennysjobs.com/jobs/e42afaf7-f323-441d-8f4c-cf7a252e9ca3) (Remote)\n3. **Wingspan:** [Technical Account Manager](https://www.lennysjobs.com/jobs/b8d36434-9885-4d23-80bf-9ac3847e37de) (Remote)\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "token_count": 279
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.docling.json",
+  "docling_sha256": "8c7ecccb2faafa7fb6087084557c073e1998c50697cd019541592fc346dc63e8",
+  "document_id": "02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+  "enhanced_sha256": "d5f7ba16549650cf608c8e48cf49656644f6badf776d24eb56dbda9faa0b3558",
+  "fact_document_path": "chunks/v2/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.chunks.json",
+  "metadata": {
+    "date": "2023-05-02",
+    "subtitle": "Steps, methods, tools, and use cases for locating predictable user actions and improving retention",
+    "tags": [
+      "growth",
+      "analytics",
+      "newsletter",
+      "design",
+      "ai",
+      "product-management"
+    ],
+    "title": "How to do linear regression and correlation analysis",
+    "type": "newsletter",
+    "word_count": 3711
+  },
+  "raw_path": "corpus/raw/02-newsletters/how-to-do-linear-regression-and-correlation-analysis.md",
+  "raw_sha256": "47affcdc443f8612e17774e900f509dbea3bc19b45a779ac51ac7da7ceab6a8b",
+  "schema_version": "1",
+  "title": "How to do linear regression and correlation analysis"
+}

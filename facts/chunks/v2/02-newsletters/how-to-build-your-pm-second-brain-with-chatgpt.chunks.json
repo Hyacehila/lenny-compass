@@ -1,0 +1,973 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#chunk=000000",
+      "contextualized_text": "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy\n*👋 Hey there, I’m Lenny. Each week, I tackle reader questions about building product, driving growth, and accelerating your career. For more:*\n[***Lennybot***](https://www.lennybot.com/)\nLenny’s Podcast. How I AI. Lenny’s Reads. AI/PM courses\n*Annual subscribers get*\n***19 premium products for free for one year***\n*:*\n[*Lovable, Replit, Gamma, n8n, Bolt, Devin, Wispr Flow, Descript, Linear, PostHog, Superhuman, Granola, Warp, Perplexity, Raycast, Magic Patterns, Mobbin, ChatPRD + Stripe Atlas*](https://www.lennysnewsletter.com/p/productpass)\n*(while supplies last).*\n[***Subscribe now***](https://www.lennysnewsletter.com/subscribe?)\n***.***\nSomeone smarter than me once said,\n**“AI won’t replace you, but a person using AI better than you might.”**\nI believe this is exactly right. Right now, we all need to be building the skills that help us become that person using AI better. Lucky for us, Amir Klein is already that person and has written a guide for the rest of us. Though it’s targeted at product managers, the advice and workflows can be implemented by anyone in any function. Thank you, Amir, for giving us a glimpse into the future and the concrete steps to get there.\n*For more, follow Amir on*\n[*LinkedIn*](https://www.linkedin.com/in/amir-klein-9b8444189/)\n*. You can also listen to this post in convenient podcast form on*\n[*Spotify*](https://open.spotify.com/show/0IIunA06qMtrcQLfypTooj)\n*/*\n[*Apple*](https://podcasts.apple.com/us/podcast/lennys-reads/id1810314693)\n*/*\n[*YouTube*](https://www.youtube.com/@lennysreads)\n*.*\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nThe first month in my new role at monday.com, I was tasked with building our first AI agent. The goal was to create an AI co-pilot, something users could turn to for insights, explanations, or building complex workflows they wouldn’t know how to create on their own. To build that, I needed a ton of context—all the internal knowledge, decisions, assumptions, and scattered inputs that shape any product direction. And gathering all of that felt completely overwhelming.\nI was drowning.\nAll that context lives everywhere: Slack channels, Notion pages, Monday boards, decks, Google Docs. Hundreds of tiny fragments I could never quite piece together. I kept running into mental blocks, forgetting what I knew from where, and getting stuck. Instead of trying to keep all of that context in my head like I always had, this time I wanted to try something new. I dumped everything I had into a ChatGPT Project, word-vomited all that was on my mind, and asked if it could help me get started. And boy, did it.\nFinally, I felt like I could smell a roadmap on the horizon, a direction was forming, and things began to click. Even better, I felt\n*somewhat*\nin control without being stressed about storing everything in my head. I could store it in the AI instead—a second brain. Instead of all that information overloading my own brain and pulling my attention in a hundred different directions, I could finally focus on the product work I love and need to get right to be successful: understanding the problem, shaping the vision, and building something meaningful.\nMy good friend Tal taught us\n[how to think with AI](https://www.lennysnewsletter.com/p/build-your-personal-ai-copilot)\n. I’m building on Tal’s post by showing what happens when AI becomes an extension of your mind—when it carries your context, grows alongside you, and ultimately amplifies what you’re capable of as a PM.",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/tables/0",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/144",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31"
+      ],
+      "document_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+      "headings": [
+        "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c33617f9-bda1-49fb-ad65-965d4cd30017_1456x970.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#chunk=000000",
+        "chunk_sha256": "e6a5226d31445fde99566456d4250551804d0e8cbface9a6ea9aa35bdef78fd3",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.docling.json",
+        "docling_sha256": "ac51bb48557fe413c057317596b804134dc8be9e48704565d0fc43a12ab8d869",
+        "document_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "enhanced_sha256": "2079dfa885a48b0e3470da6278760d3f8272aa4f17c417df4fdeb7137088c967",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.chunks.json",
+        "headings": [
+          "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c33617f9-bda1-49fb-ad65-965d4cd30017_1456x970.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "raw_sha256": "727327d67860b9c063fb165bf278414db1f449dd03d86ee50fb73db15b19b603",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 33,
+          "last_self_ref": "#/texts/31"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/tables/0",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/144",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "*👋 Hey there, I’m Lenny. Each week, I tackle reader questions about building product, driving growth, and accelerating your career. For more:*\n[***Lennybot***](https://www.lennybot.com/)\nLenny’s Podcast. How I AI. Lenny’s Reads. AI/PM courses\n*Annual subscribers get*\n***19 premium products for free for one year***\n*:*\n[*Lovable, Replit, Gamma, n8n, Bolt, Devin, Wispr Flow, Descript, Linear, PostHog, Superhuman, Granola, Warp, Perplexity, Raycast, Magic Patterns, Mobbin, ChatPRD + Stripe Atlas*](https://www.lennysnewsletter.com/p/productpass)\n*(while supplies last).*\n[***Subscribe now***](https://www.lennysnewsletter.com/subscribe?)\n***.***\nSomeone smarter than me once said,\n**“AI won’t replace you, but a person using AI better than you might.”**\nI believe this is exactly right. Right now, we all need to be building the skills that help us become that person using AI better. Lucky for us, Amir Klein is already that person and has written a guide for the rest of us. Though it’s targeted at product managers, the advice and workflows can be implemented by anyone in any function. Thank you, Amir, for giving us a glimpse into the future and the concrete steps to get there.\n*For more, follow Amir on*\n[*LinkedIn*](https://www.linkedin.com/in/amir-klein-9b8444189/)\n*. You can also listen to this post in convenient podcast form on*\n[*Spotify*](https://open.spotify.com/show/0IIunA06qMtrcQLfypTooj)\n*/*\n[*Apple*](https://podcasts.apple.com/us/podcast/lennys-reads/id1810314693)\n*/*\n[*YouTube*](https://www.youtube.com/@lennysreads)\n*.*\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nThe first month in my new role at monday.com, I was tasked with building our first AI agent. The goal was to create an AI co-pilot, something users could turn to for insights, explanations, or building complex workflows they wouldn’t know how to create on their own. To build that, I needed a ton of context—all the internal knowledge, decisions, assumptions, and scattered inputs that shape any product direction. And gathering all of that felt completely overwhelming.\nI was drowning.\nAll that context lives everywhere: Slack channels, Notion pages, Monday boards, decks, Google Docs. Hundreds of tiny fragments I could never quite piece together. I kept running into mental blocks, forgetting what I knew from where, and getting stuck. Instead of trying to keep all of that context in my head like I always had, this time I wanted to try something new. I dumped everything I had into a ChatGPT Project, word-vomited all that was on my mind, and asked if it could help me get started. And boy, did it.\nFinally, I felt like I could smell a roadmap on the horizon, a direction was forming, and things began to click. Even better, I felt\n*somewhat*\nin control without being stressed about storing everything in my head. I could store it in the AI instead—a second brain. Instead of all that information overloading my own brain and pulling my attention in a hundred different directions, I could finally focus on the product work I love and need to get right to be successful: understanding the problem, shaping the vision, and building something meaningful.\nMy good friend Tal taught us\n[how to think with AI](https://www.lennysnewsletter.com/p/build-your-personal-ai-copilot)\n. I’m building on Tal’s post by showing what happens when AI becomes an extension of your mind—when it carries your context, grows alongside you, and ultimately amplifies what you’re capable of as a PM.",
+      "token_count": 995
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#chunk=000001",
+      "contextualized_text": "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy\nContext is important—but comes with a heavy mental load\nNo matter\n*what*\nwe’re doing, we’re constantly trying to hold way too much information in our heads. I always imagine it like carrying a giant basket filled with random things like eggs, water bottles, watermelons, toy cars, a cactus (I hope you’re picturing a Dr. Seuss scene). And I’m on the go, so things are rocking all around the basket, and more things keep being added, and then an egg falls and cracks, one of the water bottles starts to spill over, a toy car keeps banging into one of the watermelons . . . basically anxiety in a metaphor.\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nThat’s what it feels like trying to hold all the context required to do product work. But the hardest part isn’t just\n*carrying*\nit; it’s that none of these pieces arrive neatly fitted together. Context comes in fragments: user feedback, metrics, market changes, internal constraints, past decisions, intuition. As PMs, our job is to assemble those pieces into a clear picture—shaping the problem, forming the hypothesis, and defining the solution space.\nWhen you can pull that together, you build products that solve real problems so well that customers change habits for them, pay for them, and genuinely feel the impact. But doing that synthesis in your head, and doing it over and over again, can literally feel impossible.\nThat’s where AI comes in. When you feed in all of that context that you’ve been trying to juggle yourself, your ChatGPT Project becomes a second brain that can store the information and synthesize it for you. That means that it can know and retrieve the right piece of data for the right problem—like an instantaneous librarian—and even use what it knows to run analyses and generate recommendations, like an associate PM.\nIt’s important to say: using a second brain doesn’t dull your role but actually sharpens it. Your reasoning, product sense, knowledge, and taste are still doing the real work; AI just amplifies them. You can’t outsource judgment or creativity. This isn’t AI thinking instead of you—it’s you thinking with more clarity because all the mental overhead is gone. You still make every decision; the second brain just clears the path from your insight to the output.\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT",
+      "doc_item_refs": [
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/145",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/42",
+        "#/texts/146",
+        "#/texts/43"
+      ],
+      "document_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+      "headings": [
+        "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy",
+        "Context is important—but comes with a heavy mental load"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/5bcfe94d-b894-40b4-b540-f3d151ec6934_1452x1021.png"
+        },
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/9c40ace8-e4df-4d0b-bd26-d88744f0404e_1456x970.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#chunk=000001",
+        "chunk_sha256": "d7594db48fd83d7f35bb15634ea7ce979f13b60d713ea6cd3d948c8119b9e51f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.docling.json",
+        "docling_sha256": "ac51bb48557fe413c057317596b804134dc8be9e48704565d0fc43a12ab8d869",
+        "document_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "enhanced_sha256": "2079dfa885a48b0e3470da6278760d3f8272aa4f17c417df4fdeb7137088c967",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.chunks.json",
+        "headings": [
+          "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy",
+          "Context is important—but comes with a heavy mental load"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/5bcfe94d-b894-40b4-b540-f3d151ec6934_1452x1021.png"
+          },
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/9c40ace8-e4df-4d0b-bd26-d88744f0404e_1456x970.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "raw_sha256": "727327d67860b9c063fb165bf278414db1f449dd03d86ee50fb73db15b19b603",
+        "segment": {
+          "first_self_ref": "#/texts/33",
+          "item_count": 13,
+          "last_self_ref": "#/texts/43"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/145",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/40",
+          "#/texts/41",
+          "#/texts/42",
+          "#/texts/146",
+          "#/texts/43"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "No matter\n*what*\nwe’re doing, we’re constantly trying to hold way too much information in our heads. I always imagine it like carrying a giant basket filled with random things like eggs, water bottles, watermelons, toy cars, a cactus (I hope you’re picturing a Dr. Seuss scene). And I’m on the go, so things are rocking all around the basket, and more things keep being added, and then an egg falls and cracks, one of the water bottles starts to spill over, a toy car keeps banging into one of the watermelons . . . basically anxiety in a metaphor.\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nThat’s what it feels like trying to hold all the context required to do product work. But the hardest part isn’t just\n*carrying*\nit; it’s that none of these pieces arrive neatly fitted together. Context comes in fragments: user feedback, metrics, market changes, internal constraints, past decisions, intuition. As PMs, our job is to assemble those pieces into a clear picture—shaping the problem, forming the hypothesis, and defining the solution space.\nWhen you can pull that together, you build products that solve real problems so well that customers change habits for them, pay for them, and genuinely feel the impact. But doing that synthesis in your head, and doing it over and over again, can literally feel impossible.\nThat’s where AI comes in. When you feed in all of that context that you’ve been trying to juggle yourself, your ChatGPT Project becomes a second brain that can store the information and synthesize it for you. That means that it can know and retrieve the right piece of data for the right problem—like an instantaneous librarian—and even use what it knows to run analyses and generate recommendations, like an associate PM.\nIt’s important to say: using a second brain doesn’t dull your role but actually sharpens it. Your reasoning, product sense, knowledge, and taste are still doing the real work; AI just amplifies them. You can’t outsource judgment or creativity. This isn’t AI thinking instead of you—it’s you thinking with more clarity because all the mental overhead is gone. You still make every decision; the second brain just clears the path from your insight to the output.\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT",
+      "token_count": 588
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#chunk=000002",
+      "contextualized_text": "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy\nContext is important—but comes with a heavy mental load\nStep 1: Create its personality\nIf someone were to ask you, “Hey, do you want a really smart, eager, motivated, capable person by your side who knows what you know and is super-enthusiastic to tackle anything you want?” you’d probably say yes in a heartbeat. Well, you’re in luck, because that’s exactly what Projects can be.\nAt monday.com, I had all of this information (my ever-growing basket) that I was in dire need to create a plan from. So I turned to ChatGPT, opened a Project, and got started. Cue the music.\nIf you’re trying this yourself, Projects live in ChatGPT’s left sidebar under “New project.”\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\n*(I’ll share how to do the same thing in Claude and Gemini later on.)*\nOnce you’re inside, if you approach Projects like a second brain that you’re growing, you want to first make sure it thinks in the way you think. In other words, you need to build its personality. Each Project has an instructions section where you can first define this “personality” in plain language.\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nA really awesome way of doing this is with the help of ChatGPT (of course). Open a new chat and describe what you want. For example:\n```\nI’m a Monday PM working on AI agents. I’m building a ChatGPT Project to be my thought partner, something that’ll work with me on my initiatives, something that’ll know how to challenge me in all the right places, push back on areas that feel weak, and creatively think of alternatives with me. This Project’s “personality” has to be sharp, smart, fun, and not always agreeing with everything I come up with. It also needs to be a pro at product management—this includes product sense and product execution, with a strong sense for product taste and delight. Can you help me write the instructions for this project? :) Cheers!\n```\nIt’ll output instructions for what you want:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nTweak what you want or just copy the whole thing as is into the instructions page, and your second brain is now eagerly waiting for you to feed it information!\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT",
+      "doc_item_refs": [
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/147",
+        "#/texts/48",
+        "#/texts/49",
+        "#/texts/50",
+        "#/texts/148",
+        "#/texts/51",
+        "#/texts/52",
+        "#/texts/53",
+        "#/texts/54",
+        "#/texts/149",
+        "#/texts/55",
+        "#/texts/56",
+        "#/texts/150",
+        "#/texts/57"
+      ],
+      "document_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+      "headings": [
+        "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy",
+        "Context is important—but comes with a heavy mental load",
+        "Step 1: Create its personality"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/0e557423-fe2a-4492-adc3-0cb032bec4a3_1456x815.png"
+        },
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/1ddada6e-be58-48ce-a679-be0826af983a_1456x648.png"
+        },
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/23039a59-4ae2-4571-bfdf-5e1ea9bbffa3_1456x725.png"
+        },
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/79a93831-a93b-4a7d-8f4e-537ca24b0d2a_1456x685.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#chunk=000002",
+        "chunk_sha256": "58be79efefaffa997cf1ba8d6119b9788d30df0054e3092e30a5403e349c65e5",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.docling.json",
+        "docling_sha256": "ac51bb48557fe413c057317596b804134dc8be9e48704565d0fc43a12ab8d869",
+        "document_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "enhanced_sha256": "2079dfa885a48b0e3470da6278760d3f8272aa4f17c417df4fdeb7137088c967",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.chunks.json",
+        "headings": [
+          "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy",
+          "Context is important—but comes with a heavy mental load",
+          "Step 1: Create its personality"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/0e557423-fe2a-4492-adc3-0cb032bec4a3_1456x815.png"
+          },
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/1ddada6e-be58-48ce-a679-be0826af983a_1456x648.png"
+          },
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/23039a59-4ae2-4571-bfdf-5e1ea9bbffa3_1456x725.png"
+          },
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/79a93831-a93b-4a7d-8f4e-537ca24b0d2a_1456x685.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "raw_sha256": "727327d67860b9c063fb165bf278414db1f449dd03d86ee50fb73db15b19b603",
+        "segment": {
+          "first_self_ref": "#/texts/45",
+          "item_count": 17,
+          "last_self_ref": "#/texts/57"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/147",
+          "#/texts/48",
+          "#/texts/49",
+          "#/texts/50",
+          "#/texts/148",
+          "#/texts/51",
+          "#/texts/52",
+          "#/texts/53",
+          "#/texts/54",
+          "#/texts/149",
+          "#/texts/55",
+          "#/texts/56",
+          "#/texts/150",
+          "#/texts/57"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "If someone were to ask you, “Hey, do you want a really smart, eager, motivated, capable person by your side who knows what you know and is super-enthusiastic to tackle anything you want?” you’d probably say yes in a heartbeat. Well, you’re in luck, because that’s exactly what Projects can be.\nAt monday.com, I had all of this information (my ever-growing basket) that I was in dire need to create a plan from. So I turned to ChatGPT, opened a Project, and got started. Cue the music.\nIf you’re trying this yourself, Projects live in ChatGPT’s left sidebar under “New project.”\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\n*(I’ll share how to do the same thing in Claude and Gemini later on.)*\nOnce you’re inside, if you approach Projects like a second brain that you’re growing, you want to first make sure it thinks in the way you think. In other words, you need to build its personality. Each Project has an instructions section where you can first define this “personality” in plain language.\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nA really awesome way of doing this is with the help of ChatGPT (of course). Open a new chat and describe what you want. For example:\n```\nI’m a Monday PM working on AI agents. I’m building a ChatGPT Project to be my thought partner, something that’ll work with me on my initiatives, something that’ll know how to challenge me in all the right places, push back on areas that feel weak, and creatively think of alternatives with me. This Project’s “personality” has to be sharp, smart, fun, and not always agreeing with everything I come up with. It also needs to be a pro at product management—this includes product sense and product execution, with a strong sense for product taste and delight. Can you help me write the instructions for this project? :) Cheers!\n```\nIt’ll output instructions for what you want:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nTweak what you want or just copy the whole thing as is into the instructions page, and your second brain is now eagerly waiting for you to feed it information!\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT",
+      "token_count": 622
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#chunk=000003",
+      "contextualized_text": "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy\nContext is important—but comes with a heavy mental load\nStep 2: Feed it information\nNow comes the fun and legitimately relieving part: feeding it all that context that you are barely holding onto. Go to “Add files” and just dump it in.\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nI think the biggest “whoa” moment for me is realizing that\n*everything*\nis essentially text. The classics, like PRDs and docs, are a given, but decks, websites, Excel/CSV sheets, dashboards, and Slack channels all contain text too. They just need to be exported into PDFs and then you can upload them into the files section too.\nOnce you see everything as text, you start to understand how much context you can actually give your second brain. Here’s what that looks like in practice:\nI’ll scroll through a massive Slack channel that’s gotten impossible to navigate. I’ll export it or, if that’s not possible, I’ll copy and paste the entire channel’s contents into a doc and save it as a PDF. Then I drop it into the Project. Now ChatGPT knows what has already been discussed, what decisions were made, and what issues keep resurfacing.\nWhen I need it to understand our product’s capabilities, instead of rambling on to it about how my product works, I go to our support or docs site, hit Command + P, and save the entire page as a PDF to drop in. That way, whenever I mention a feature, my second brain already knows how it works.\nI do the same with research data like transcripts, interviews, surveys, CSVs. Everything becomes fuel. Each file adds depth to the brain.\nIn the case of the first initiative I led at monday.com, I started with a few decks that different colleagues of mine had made, downloaded PDFs of monday.com documentation pages explaining how specific things work, and added a bunch of CSV files containing Reddit threads of conversations thousands of people had about monday.com in relation to AI and our competitors. This was enough to get the ball rolling and start formulating a plan. The beauty of Projects is that you’ll start creating new artifacts from it. Whatever it is you’re creating—whether it be PRDs, overview docs, or strategy decks—once finished, you can take those, put them in a doc, download them, and feed them back into your second brain. Each new thread you open will be up to date with you on your work. It becomes a living thing.\nThis is what my Project ended up containing after hundreds of threads:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT",
+      "doc_item_refs": [
+        "#/texts/59",
+        "#/texts/151",
+        "#/texts/60",
+        "#/texts/61",
+        "#/texts/62",
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65",
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/152",
+        "#/texts/70"
+      ],
+      "document_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+      "headings": [
+        "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy",
+        "Context is important—but comes with a heavy mental load",
+        "Step 2: Feed it information"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a2b9e072-f56b-4419-aa5e-db1e205ac768_1456x592.png"
+        },
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/14317a45-0720-4493-be0f-4443c227e688_800x444.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#chunk=000003",
+        "chunk_sha256": "2a6fb52ec1011ddc791751772cd8e6fc90f7ad1d83d69b54ccd34d8c37fde525",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.docling.json",
+        "docling_sha256": "ac51bb48557fe413c057317596b804134dc8be9e48704565d0fc43a12ab8d869",
+        "document_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "enhanced_sha256": "2079dfa885a48b0e3470da6278760d3f8272aa4f17c417df4fdeb7137088c967",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.chunks.json",
+        "headings": [
+          "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy",
+          "Context is important—but comes with a heavy mental load",
+          "Step 2: Feed it information"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a2b9e072-f56b-4419-aa5e-db1e205ac768_1456x592.png"
+          },
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/14317a45-0720-4493-be0f-4443c227e688_800x444.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "raw_sha256": "727327d67860b9c063fb165bf278414db1f449dd03d86ee50fb73db15b19b603",
+        "segment": {
+          "first_self_ref": "#/texts/59",
+          "item_count": 14,
+          "last_self_ref": "#/texts/70"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/59",
+          "#/texts/151",
+          "#/texts/60",
+          "#/texts/61",
+          "#/texts/62",
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65",
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69",
+          "#/texts/152",
+          "#/texts/70"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "Now comes the fun and legitimately relieving part: feeding it all that context that you are barely holding onto. Go to “Add files” and just dump it in.\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nI think the biggest “whoa” moment for me is realizing that\n*everything*\nis essentially text. The classics, like PRDs and docs, are a given, but decks, websites, Excel/CSV sheets, dashboards, and Slack channels all contain text too. They just need to be exported into PDFs and then you can upload them into the files section too.\nOnce you see everything as text, you start to understand how much context you can actually give your second brain. Here’s what that looks like in practice:\nI’ll scroll through a massive Slack channel that’s gotten impossible to navigate. I’ll export it or, if that’s not possible, I’ll copy and paste the entire channel’s contents into a doc and save it as a PDF. Then I drop it into the Project. Now ChatGPT knows what has already been discussed, what decisions were made, and what issues keep resurfacing.\nWhen I need it to understand our product’s capabilities, instead of rambling on to it about how my product works, I go to our support or docs site, hit Command + P, and save the entire page as a PDF to drop in. That way, whenever I mention a feature, my second brain already knows how it works.\nI do the same with research data like transcripts, interviews, surveys, CSVs. Everything becomes fuel. Each file adds depth to the brain.\nIn the case of the first initiative I led at monday.com, I started with a few decks that different colleagues of mine had made, downloaded PDFs of monday.com documentation pages explaining how specific things work, and added a bunch of CSV files containing Reddit threads of conversations thousands of people had about monday.com in relation to AI and our competitors. This was enough to get the ball rolling and start formulating a plan. The beauty of Projects is that you’ll start creating new artifacts from it. Whatever it is you’re creating—whether it be PRDs, overview docs, or strategy decks—once finished, you can take those, put them in a doc, download them, and feed them back into your second brain. Each new thread you open will be up to date with you on your work. It becomes a living thing.\nThis is what my Project ended up containing after hundreds of threads:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT",
+      "token_count": 635
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#chunk=000004",
+      "contextualized_text": "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy\nContext is important—but comes with a heavy mental load\nStep 3: Let it cook\nThere’s no one specific thing to use Projects for. As your second brain becomes more and more knowledgeable about your work, you can lean on it for everything that you don’t want to do but needs to get done. For example:\n**1. Sign-up forms**\nI needed to create a sign-up form for users to get early access to the agent we were building. This is a classic case of something that seems pretty easy at first but ends up making you bang your head against a wall. How should I phrase what I want to ask? How do I make the output from the form clear and purposeful for me without making filling out the form exhausting for users? Your second brain can now swoop in to save the day as it holds all the context on your initiative. In this case, I asked:\n```\nI’m sending out a form to users to sign up for a waitlist for our first agent. I want to put 2-3 questions on the form which gauges their expectation to ensure we’re aligned on what we’re building and to receive another level of verification around the pain point. These questions should be concise, and the user’s answer will be open-ended (free text).\n```\nMy sign-up form looked like this:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\n**2. Prototypes**\nSometimes, when I’m deep in a conversation with the Project, we’ll hit a moment where the idea feels stuck in theory. We’re talking about flows, interactions, edge cases, but it’s all abstract. So I’ll say:\n```\n“Let’s make this real. Write me a prompt for Lovable that builds this experience.”\n```\nI’ll drop in screenshots from Figma, highlight the areas I’m referring to, and describe how I want the behavior to work.\n```\n“This panel should expand on hover. This tooltip should guide users through setup. Keep it lightweight, just enough to simulate the flow.”\n```\nThe Project uses those images as a reference, the entire context it has from its lifespan, and it generates a Lovable prompt I can copy straight in. Ten minutes later, we’re looking at a working prototype.\nHere’s an example of a Lovable prototype that I was able to create literally within seconds, thanks to all the context my second brain held:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nAnd this is what we ended up shipping:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nIt’s not just a “wow” moment—it’s a workflow. A prototype like this lets me gather my designer and engineer, show them the idea, and get feedback\n*before*\nanyone has to build. This workflow fits so natively into what I’m doing, and truly increases my productivity and the productivity of the whole team so tremendously, that it’s become one of my favorite things to do.\n**3. Tailored communications**\nWhen you zoom out, PM work is full of moments where you need to communicate the same initiative from a completely different angle. It happens daily. Sometimes hourly:\n- Marketing needs a short blurb for an announcement.\n- Leadership needs three crisp sentences for a QBR.\n- Enablement needs a deck that makes the value obvious to sales.\n- Your designer needs a user-testing script that speaks to the problem, not the roadmap.\nNone of these tasks are hard because of the writing itself. They’re hard because you have to mentally reload the context, remember what matters to each audience, and then translate the same initiative in so many different ways. That reload cost is enormous! My second brain removes that step entirely. I just word-dump everything I want to be highlighted for the respective request (the overview, the goals, the nuances, what I believe is most important for which audience), all as unstructured and messy as you can imagine, and it returns tailored versions for each audience in seconds. I’m still the one making the calls, but the friction between\n*what I know*\nand\n*how I need to express it*\ndisappears. Suddenly the tasks that used to eat half a day take minutes.\nOnce you get into the habit of constantly adding more files to your second brain and opening more threads, you’ll become comfortable with your tailor-made companion by your side. Next, you’ll wonder how you did anything without it. Your second brain becomes such a powerful tool that sometimes you can even forget you aren’t speaking to a human being. You might end up having a moment like this:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nCreepy? Maybe. But also comforting.",
+      "doc_item_refs": [
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/74",
+        "#/texts/75",
+        "#/texts/76",
+        "#/texts/153",
+        "#/texts/77",
+        "#/texts/78",
+        "#/texts/79",
+        "#/texts/80",
+        "#/texts/81",
+        "#/texts/82",
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/154",
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/155",
+        "#/texts/87",
+        "#/texts/88",
+        "#/texts/89",
+        "#/texts/90",
+        "#/texts/91",
+        "#/texts/92",
+        "#/texts/93",
+        "#/texts/94",
+        "#/texts/95",
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/100",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/156",
+        "#/texts/103",
+        "#/texts/104"
+      ],
+      "document_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+      "headings": [
+        "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy",
+        "Context is important—but comes with a heavy mental load",
+        "Step 3: Let it cook"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000009",
+          "path": null,
+          "self_ref": "#/pictures/9",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/026eb721-00ac-4ab7-8220-306932bffc91_800x542.png"
+        },
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000010",
+          "path": null,
+          "self_ref": "#/pictures/10",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b8b9b2eb-b964-447b-88b3-501a2f6cc9aa_800x835.png"
+        },
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000011",
+          "path": null,
+          "self_ref": "#/pictures/11",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/9d4ac194-d2bc-4d5f-a0d0-7e5a934e32da_800x784.gif"
+        },
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000012",
+          "path": null,
+          "self_ref": "#/pictures/12",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/cdf76adf-ccf2-4e05-90cb-1a9d42b4ffb3_1456x380.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#chunk=000004",
+        "chunk_sha256": "0d27fb38a5998514b6ae0229be8e19124b15fc9c660c3b1d5f0eac5dd3f93eba",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.docling.json",
+        "docling_sha256": "ac51bb48557fe413c057317596b804134dc8be9e48704565d0fc43a12ab8d869",
+        "document_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "enhanced_sha256": "2079dfa885a48b0e3470da6278760d3f8272aa4f17c417df4fdeb7137088c967",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.chunks.json",
+        "headings": [
+          "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy",
+          "Context is important—but comes with a heavy mental load",
+          "Step 3: Let it cook"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000009",
+            "path": null,
+            "self_ref": "#/pictures/9",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/026eb721-00ac-4ab7-8220-306932bffc91_800x542.png"
+          },
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000010",
+            "path": null,
+            "self_ref": "#/pictures/10",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/b8b9b2eb-b964-447b-88b3-501a2f6cc9aa_800x835.png"
+          },
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000011",
+            "path": null,
+            "self_ref": "#/pictures/11",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/9d4ac194-d2bc-4d5f-a0d0-7e5a934e32da_800x784.gif"
+          },
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000012",
+            "path": null,
+            "self_ref": "#/pictures/12",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/cdf76adf-ccf2-4e05-90cb-1a9d42b4ffb3_1456x380.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "raw_sha256": "727327d67860b9c063fb165bf278414db1f449dd03d86ee50fb73db15b19b603",
+        "segment": {
+          "first_self_ref": "#/texts/72",
+          "item_count": 37,
+          "last_self_ref": "#/texts/104"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/74",
+          "#/texts/75",
+          "#/texts/76",
+          "#/texts/153",
+          "#/texts/77",
+          "#/texts/78",
+          "#/texts/79",
+          "#/texts/80",
+          "#/texts/81",
+          "#/texts/82",
+          "#/texts/83",
+          "#/texts/84",
+          "#/texts/154",
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/155",
+          "#/texts/87",
+          "#/texts/88",
+          "#/texts/89",
+          "#/texts/90",
+          "#/texts/91",
+          "#/texts/92",
+          "#/texts/93",
+          "#/texts/94",
+          "#/texts/95",
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/100",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/156",
+          "#/texts/103",
+          "#/texts/104"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "There’s no one specific thing to use Projects for. As your second brain becomes more and more knowledgeable about your work, you can lean on it for everything that you don’t want to do but needs to get done. For example:\n**1. Sign-up forms**\nI needed to create a sign-up form for users to get early access to the agent we were building. This is a classic case of something that seems pretty easy at first but ends up making you bang your head against a wall. How should I phrase what I want to ask? How do I make the output from the form clear and purposeful for me without making filling out the form exhausting for users? Your second brain can now swoop in to save the day as it holds all the context on your initiative. In this case, I asked:\n```\nI’m sending out a form to users to sign up for a waitlist for our first agent. I want to put 2-3 questions on the form which gauges their expectation to ensure we’re aligned on what we’re building and to receive another level of verification around the pain point. These questions should be concise, and the user’s answer will be open-ended (free text).\n```\nMy sign-up form looked like this:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\n**2. Prototypes**\nSometimes, when I’m deep in a conversation with the Project, we’ll hit a moment where the idea feels stuck in theory. We’re talking about flows, interactions, edge cases, but it’s all abstract. So I’ll say:\n```\n“Let’s make this real. Write me a prompt for Lovable that builds this experience.”\n```\nI’ll drop in screenshots from Figma, highlight the areas I’m referring to, and describe how I want the behavior to work.\n```\n“This panel should expand on hover. This tooltip should guide users through setup. Keep it lightweight, just enough to simulate the flow.”\n```\nThe Project uses those images as a reference, the entire context it has from its lifespan, and it generates a Lovable prompt I can copy straight in. Ten minutes later, we’re looking at a working prototype.\nHere’s an example of a Lovable prototype that I was able to create literally within seconds, thanks to all the context my second brain held:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nAnd this is what we ended up shipping:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nIt’s not just a “wow” moment—it’s a workflow. A prototype like this lets me gather my designer and engineer, show them the idea, and get feedback\n*before*\nanyone has to build. This workflow fits so natively into what I’m doing, and truly increases my productivity and the productivity of the whole team so tremendously, that it’s become one of my favorite things to do.\n**3. Tailored communications**\nWhen you zoom out, PM work is full of moments where you need to communicate the same initiative from a completely different angle. It happens daily. Sometimes hourly:\n- Marketing needs a short blurb for an announcement.\n- Leadership needs three crisp sentences for a QBR.\n- Enablement needs a deck that makes the value obvious to sales.\n- Your designer needs a user-testing script that speaks to the problem, not the roadmap.\nNone of these tasks are hard because of the writing itself. They’re hard because you have to mentally reload the context, remember what matters to each audience, and then translate the same initiative in so many different ways. That reload cost is enormous! My second brain removes that step entirely. I just word-dump everything I want to be highlighted for the respective request (the overview, the goals, the nuances, what I believe is most important for which audience), all as unstructured and messy as you can imagine, and it returns tailored versions for each audience in seconds. I’m still the one making the calls, but the friction between\n*what I know*\nand\n*how I need to express it*\ndisappears. Suddenly the tasks that used to eat half a day take minutes.\nOnce you get into the habit of constantly adding more files to your second brain and opening more threads, you’ll become comfortable with your tailor-made companion by your side. Next, you’ll wonder how you did anything without it. Your second brain becomes such a powerful tool that sometimes you can even forget you aren’t speaking to a human being. You might end up having a moment like this:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nCreepy? Maybe. But also comforting.",
+      "token_count": 1115
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#chunk=000005",
+      "contextualized_text": "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy\nContext is the new interface\nAs PMs, context is the raw material we think with. It’s how we spot patterns others miss. It’s how we distinguish noise from signal. It’s how we turn a vague cluster of symptoms into a crisp problem statement that we rally around. When all that context lives only in your head, your output is limited by your working memory—the five or six ideas you can juggle at once. When the context sits outside your head, intact and retrievable, your thinking expands. You’re able to see the whole picture instead of just the part you can remember in the moment.\n*That’s*\nthe breakthrough second brains give you: You don’t just remember more. You reason better.\nAt monday.com, we saw the same pattern for months with our customers: they loved the\n*idea*\nof AI in our product, but they had no idea how to start. They didn’t know where to use it, how to set it up, or how to fit it into their workflow. Our team had user interviews, market research, feedback threads, product data about what was going on with our customers—I can feel my heart racing faster and faster just writing about it.\nWe had a beautiful, massive, messy cloud of information, and before creating my second brain, I’d have spent days drowning and reassembling all of it in my head before I could form a clear hypothesis. Within minutes of my blabbering everything on my mind to Projects, it surfaced the key pain point for our users: they weren’t blocked by capability but by confidence. They needed scaffolding, not features. That insight alone unlocked the product direction we eventually shipped—and it was a huge success!\nThe more I worked this way, the more obvious it became that your second brain amplifies you and your skill sets. Once it holds the same context you do—your information, but also your reasoning, your decisions, your instincts—it becomes an extension of how you think.\nAI isn’t replacing what I do. Rather, it’s expanding my capacity to do it well.",
+      "doc_item_refs": [
+        "#/texts/106",
+        "#/texts/107",
+        "#/texts/108",
+        "#/texts/109",
+        "#/texts/110",
+        "#/texts/111",
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/114"
+      ],
+      "document_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+      "headings": [
+        "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy",
+        "Context is the new interface"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#chunk=000005",
+        "chunk_sha256": "e28e844979a91b4f99925a72b579197278dcb7838be62efc7fa421d63331916b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.docling.json",
+        "docling_sha256": "ac51bb48557fe413c057317596b804134dc8be9e48704565d0fc43a12ab8d869",
+        "document_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "enhanced_sha256": "2079dfa885a48b0e3470da6278760d3f8272aa4f17c417df4fdeb7137088c967",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.chunks.json",
+        "headings": [
+          "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy",
+          "Context is the new interface"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "raw_sha256": "727327d67860b9c063fb165bf278414db1f449dd03d86ee50fb73db15b19b603",
+        "segment": {
+          "first_self_ref": "#/texts/106",
+          "item_count": 9,
+          "last_self_ref": "#/texts/114"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/106",
+          "#/texts/107",
+          "#/texts/108",
+          "#/texts/109",
+          "#/texts/110",
+          "#/texts/111",
+          "#/texts/112",
+          "#/texts/113",
+          "#/texts/114"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "As PMs, context is the raw material we think with. It’s how we spot patterns others miss. It’s how we distinguish noise from signal. It’s how we turn a vague cluster of symptoms into a crisp problem statement that we rally around. When all that context lives only in your head, your output is limited by your working memory—the five or six ideas you can juggle at once. When the context sits outside your head, intact and retrievable, your thinking expands. You’re able to see the whole picture instead of just the part you can remember in the moment.\n*That’s*\nthe breakthrough second brains give you: You don’t just remember more. You reason better.\nAt monday.com, we saw the same pattern for months with our customers: they loved the\n*idea*\nof AI in our product, but they had no idea how to start. They didn’t know where to use it, how to set it up, or how to fit it into their workflow. Our team had user interviews, market research, feedback threads, product data about what was going on with our customers—I can feel my heart racing faster and faster just writing about it.\nWe had a beautiful, massive, messy cloud of information, and before creating my second brain, I’d have spent days drowning and reassembling all of it in my head before I could form a clear hypothesis. Within minutes of my blabbering everything on my mind to Projects, it surfaced the key pain point for our users: they weren’t blocked by capability but by confidence. They needed scaffolding, not features. That insight alone unlocked the product direction we eventually shipped—and it was a huge success!\nThe more I worked this way, the more obvious it became that your second brain amplifies you and your skill sets. Once it holds the same context you do—your information, but also your reasoning, your decisions, your instincts—it becomes an extension of how you think.\nAI isn’t replacing what I do. Rather, it’s expanding my capacity to do it well.",
+      "token_count": 487
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#chunk=000006",
+      "contextualized_text": "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy\nAppendix: Using Claude or Gemini as your second brain\nEverything I described above works beautifully with ChatGPT Projects, but the principles don’t belong to any one tool. If you prefer Claude or Gemini, you can build the exact same second-brain setup there too. The workflow is almost identical: give it instructions, feed it context, and let it grow with you.\nIn Gemini it’s called Gems, conveniently found on the left-hand panel:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nWhen you open a new Gem, you put in the custom instructions:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nIn Claude it’s called Projects, also found on the left-hand panel:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nClick on “New project”:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nOnce in, name it and give it a description for future use:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nLike the other AIs, provide it with custom instructions from the right-hand Instructions component:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nPM away!\n*Thanks, Amir!*\n*For more, follow Amir on*\n[*LinkedIn*](https://www.linkedin.com/in/amir-klein-9b8444189/)\n*.*\n*Have a fulfilling and productive week 🙏*\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/116",
+        "#/texts/117",
+        "#/texts/157",
+        "#/texts/118",
+        "#/texts/119",
+        "#/texts/158",
+        "#/texts/120",
+        "#/texts/121",
+        "#/texts/159",
+        "#/texts/122",
+        "#/texts/123",
+        "#/texts/160",
+        "#/texts/124",
+        "#/texts/125",
+        "#/texts/161",
+        "#/texts/126",
+        "#/texts/127",
+        "#/texts/162",
+        "#/texts/128",
+        "#/texts/129",
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/134",
+        "#/texts/135",
+        "#/texts/136",
+        "#/texts/137",
+        "#/texts/138",
+        "#/texts/139",
+        "#/texts/140",
+        "#/texts/141",
+        "#/texts/142",
+        "#/texts/143"
+      ],
+      "document_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+      "headings": [
+        "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy",
+        "Appendix: Using Claude or Gemini as your second brain"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000013",
+          "path": null,
+          "self_ref": "#/pictures/13",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/6ecf35e3-2652-4917-a5ef-0b341df33cb1_1456x826.png"
+        },
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000014",
+          "path": null,
+          "self_ref": "#/pictures/14",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/66fb4557-9965-4024-8d61-0c01064208a4_1456x826.png"
+        },
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000015",
+          "path": null,
+          "self_ref": "#/pictures/15",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/2a23f8c3-ca66-451e-9161-6ee366f07b46_1456x764.png"
+        },
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000016",
+          "path": null,
+          "self_ref": "#/pictures/16",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a943348e-6559-4ab6-85af-6d27fade6985_1456x301.png"
+        },
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000017",
+          "path": null,
+          "self_ref": "#/pictures/17",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/70e2a43d-3b41-42f8-8564-bad80f3c5dc4_1456x764.png"
+        },
+        {
+          "caption": "Image from How to build your PM second brain with ChatGPT",
+          "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000018",
+          "path": null,
+          "self_ref": "#/pictures/18",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/29ab58cb-26cb-4195-86f4-d19f0f382583_1456x764.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#chunk=000006",
+        "chunk_sha256": "96fe0d93a49412f8e9286789acd02fd1331adaf5f55ee370ad3b11b091b9ac7d",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.docling.json",
+        "docling_sha256": "ac51bb48557fe413c057317596b804134dc8be9e48704565d0fc43a12ab8d869",
+        "document_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "enhanced_sha256": "2079dfa885a48b0e3470da6278760d3f8272aa4f17c417df4fdeb7137088c967",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.chunks.json",
+        "headings": [
+          "How to build your PM second brain with ChatGPT — Use AI to amplify your craft, not replace it | 2025-12-16 | Tags: ai, design, product-management, newsletter, leadership, strategy",
+          "Appendix: Using Claude or Gemini as your second brain"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000013",
+            "path": null,
+            "self_ref": "#/pictures/13",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/6ecf35e3-2652-4917-a5ef-0b341df33cb1_1456x826.png"
+          },
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000014",
+            "path": null,
+            "self_ref": "#/pictures/14",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/66fb4557-9965-4024-8d61-0c01064208a4_1456x826.png"
+          },
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000015",
+            "path": null,
+            "self_ref": "#/pictures/15",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/2a23f8c3-ca66-451e-9161-6ee366f07b46_1456x764.png"
+          },
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000016",
+            "path": null,
+            "self_ref": "#/pictures/16",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a943348e-6559-4ab6-85af-6d27fade6985_1456x301.png"
+          },
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000017",
+            "path": null,
+            "self_ref": "#/pictures/17",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/70e2a43d-3b41-42f8-8564-bad80f3c5dc4_1456x764.png"
+          },
+          {
+            "caption": "Image from How to build your PM second brain with ChatGPT",
+            "image_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md#image=000018",
+            "path": null,
+            "self_ref": "#/pictures/18",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/29ab58cb-26cb-4195-86f4-d19f0f382583_1456x764.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+        "raw_sha256": "727327d67860b9c063fb165bf278414db1f449dd03d86ee50fb73db15b19b603",
+        "segment": {
+          "first_self_ref": "#/texts/116",
+          "item_count": 34,
+          "last_self_ref": "#/texts/143"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/116",
+          "#/texts/117",
+          "#/texts/157",
+          "#/texts/118",
+          "#/texts/119",
+          "#/texts/158",
+          "#/texts/120",
+          "#/texts/121",
+          "#/texts/159",
+          "#/texts/122",
+          "#/texts/123",
+          "#/texts/160",
+          "#/texts/124",
+          "#/texts/125",
+          "#/texts/161",
+          "#/texts/126",
+          "#/texts/127",
+          "#/texts/162",
+          "#/texts/128",
+          "#/texts/129",
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/134",
+          "#/texts/135",
+          "#/texts/136",
+          "#/texts/137",
+          "#/texts/138",
+          "#/texts/139",
+          "#/texts/140",
+          "#/texts/141",
+          "#/texts/142",
+          "#/texts/143"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "Everything I described above works beautifully with ChatGPT Projects, but the principles don’t belong to any one tool. If you prefer Claude or Gemini, you can build the exact same second-brain setup there too. The workflow is almost identical: give it instructions, feed it context, and let it grow with you.\nIn Gemini it’s called Gems, conveniently found on the left-hand panel:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nWhen you open a new Gem, you put in the custom instructions:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nIn Claude it’s called Projects, also found on the left-hand panel:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nClick on “New project”:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nOnce in, name it and give it a description for future use:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nLike the other AIs, provide it with custom instructions from the right-hand Instructions component:\nImage from How to build your PM second brain with ChatGPT\nImage from How to build your PM second brain with ChatGPT\nPM away!\n*Thanks, Amir!*\n*For more, follow Amir on*\n[*LinkedIn*](https://www.linkedin.com/in/amir-klein-9b8444189/)\n*.*\n*Have a fulfilling and productive week 🙏*\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "token_count": 576
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.docling.json",
+  "docling_sha256": "ac51bb48557fe413c057317596b804134dc8be9e48704565d0fc43a12ab8d869",
+  "document_id": "02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+  "enhanced_sha256": "2079dfa885a48b0e3470da6278760d3f8272aa4f17c417df4fdeb7137088c967",
+  "fact_document_path": "chunks/v2/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.chunks.json",
+  "metadata": {
+    "date": "2025-12-16",
+    "subtitle": "Use AI to amplify your craft, not replace it",
+    "tags": [
+      "ai",
+      "design",
+      "product-management",
+      "newsletter",
+      "leadership",
+      "strategy"
+    ],
+    "title": "How to build your PM second brain with ChatGPT",
+    "type": "newsletter",
+    "word_count": 3358
+  },
+  "raw_path": "corpus/raw/02-newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md",
+  "raw_sha256": "727327d67860b9c063fb165bf278414db1f449dd03d86ee50fb73db15b19b603",
+  "schema_version": "1",
+  "title": "How to build your PM second brain with ChatGPT"
+}

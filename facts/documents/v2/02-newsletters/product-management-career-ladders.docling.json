@@ -1,0 +1,2825 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/groups/17"
+      },
+      {
+        "$ref": "#/texts/113"
+      },
+      {
+        "$ref": "#/texts/114"
+      },
+      {
+        "$ref": "#/texts/115"
+      },
+      {
+        "$ref": "#/texts/116"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/furniture"
+  },
+  "groups": [
+    {
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/0"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/1"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/21"
+      },
+      "self_ref": "#/groups/2"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/31"
+      },
+      "self_ref": "#/groups/3"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/4"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/5"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/6"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/98"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/7"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/66"
+      },
+      "self_ref": "#/groups/8"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/70"
+      },
+      "self_ref": "#/groups/9"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/74"
+      },
+      "self_ref": "#/groups/10"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/78"
+      },
+      "self_ref": "#/groups/11"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/82"
+      },
+      "self_ref": "#/groups/12"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/86"
+      },
+      "self_ref": "#/groups/13"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/90"
+      },
+      "self_ref": "#/groups/14"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/94"
+      },
+      "self_ref": "#/groups/15"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/98"
+      },
+      "self_ref": "#/groups/16"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/107"
+        },
+        {
+          "$ref": "#/texts/110"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/17"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/103"
+      },
+      "self_ref": "#/groups/18"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/109"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/107"
+      },
+      "self_ref": "#/groups/19"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/110"
+      },
+      "self_ref": "#/groups/20"
+    }
+  ],
+  "key_value_items": [],
+  "name": "product-management-career-ladders",
+  "origin": {
+    "binary_hash": 2276132081151212904,
+    "filename": "product-management-career-ladders.md",
+    "mimetype": "text/markdown",
+    "uri": null
+  },
+  "pages": {},
+  "pictures": [
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/117"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/117"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/647c0676-ca07-4b58-b4a2-6804b26ec1e0_2422x1194.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/0"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/118"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/118"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/fd2a86a0-dc08-4cf2-9095-e88dd7f2e5cf_1476x856.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/1"
+    }
+  ],
+  "schema_name": "DoclingDocument",
+  "tables": [],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "title",
+      "meta": null,
+      "orig": "Product management career ladders — Examples, templates, titles, and attributes from 20+ companies, including Facebook, Google, DoorDash, Airbnb, Instacart, Lyft, Uber, and many more | 2022-05-24 | Tags: leadership, product-management, career, newsletter, strategy, design",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/0",
+      "text": "Product management career ladders — Examples, templates, titles, and attributes from 20+ companies, including Facebook, Google, DoorDash, Airbnb, Instacart, Lyft, Uber, and many more | 2022-05-24 | Tags: leadership, product-management, career, newsletter, strategy, design"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "Q: I’m working on our product management career ladder, and I’m looking for examples of how other companies do it.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/1",
+      "text": "Q: I’m working on our product management career ladder, and I’m looking for examples of how other companies do it."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Career ladders (a.k.a. leveling frameworks, career tracks, competencies, etc.) have long been secretive and mysterious. I’m not totally sure why. I don’t see how sharing these publicly gives anyone a competitive advantage, and every new company ends up scratching their heads and coming up with something new. Why do we do this to ourselves? It’s especially painful for product management—a role that is already so inconsistently defined and evaluated.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/2",
+      "text": "Career ladders (a.k.a. leveling frameworks, career tracks, competencies, etc.) have long been secretive and mysterious. I’m not totally sure why. I don’t see how sharing these publicly gives anyone a competitive advantage, and every new company ends up scratching their heads and coming up with something new. Why do we do this to ourselves? It’s especially painful for product management—a role that is already so inconsistently defined and evaluated."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Let’s change this.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/3",
+      "text": "Let’s change this."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I’ve collected dozens of career ladders from all of the big companies, and though I’m not at liberty to share them fully, below, I’m going to share the high-level frameworks of how 20+ large companies structure their PM role:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/4",
+      "text": "I’ve collected dozens of career ladders from all of the big companies, and though I’m not at liberty to share them fully, below, I’m going to share the high-level frameworks of how 20+ large companies structure their PM role:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Titles at each level",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/5",
+      "text": "Titles at each level"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Attributes/competencies/skills they evaluate for",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/6",
+      "text": "Attributes/competencies/skills they evaluate for"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Where the IC and manager tracks split",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/7",
+      "text": "Where the IC and manager tracks split"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "A handful of public career ladders",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/8",
+      "text": "A handful of public career ladders"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "A bunch of templates to get you started",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/9",
+      "text": "A bunch of templates to get you started"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://docs.google.com/spreadsheets/d/1F1Y3YtjsvAJUZMqS-rK0LGQGg7eHYubq9KqedPwLCDE/edit",
+      "label": "text",
+      "meta": null,
+      "orig": "Check it out",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/10",
+      "text": "Check it out"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Product management career ladders",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/11",
+      "text": "Image from Product management career ladders"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’d like to contribute to this effort by adding your company, or fix a mistake (I’m sure I got something wrong), please",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/12",
+      "text": "If you’d like to contribute to this effort by adding your company, or fix a mistake (I’m sure I got something wrong), please"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://twitter.com/lennysan",
+      "label": "text",
+      "meta": null,
+      "orig": "DM me",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/13",
+      "text": "DM me"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "or",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/14",
+      "text": "or"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.lennysnewsletter.com/p/product-management-career-ladders/comments",
+      "label": "text",
+      "meta": null,
+      "orig": "leave a comment",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/15",
+      "text": "leave a comment"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/16",
+      "text": "."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "Takeaways from reviewing these career ladders",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/17",
+      "text": "Takeaways from reviewing these career ladders"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Two-thirds of companies have both an IC track and a manager track.",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/18",
+      "text": "Two-thirds of companies have both an IC track and a manager track."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "When there’s a manager track, you can switch at L6 (i.e. Sr. Product Manager)",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/19",
+      "text": "When there’s a manager track, you can switch at L6 (i.e. Sr. Product Manager)"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "The most common title sequences:",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/20",
+      "text": "The most common title sequences:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/21",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "IC:",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/22",
+      "text": "IC:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Associate Product Manager (L3) → Product Manager (L4-L5) → Sr. Product Manager (L6) → Principal Product Manager (L7)",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/23",
+      "text": "Associate Product Manager (L3) → Product Manager (L4-L5) → Sr. Product Manager (L6) → Principal Product Manager (L7)"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2.",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/24",
+      "text": "2."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Manager:",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/25",
+      "text": "Manager:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Group Product Manager (L7) → Director of Product Management (L8) → Sr. Director of Product Management (L9) → VP (L10)",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/26",
+      "text": "Group Product Manager (L7) → Director of Product Management (L8) → Sr. Director of Product Management (L9) → VP (L10)"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3.",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/27",
+      "text": "3."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Single track:",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/28",
+      "text": "Single track:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Associate Product Manager (L3) → Product Manager (L4) → Sr. Product Manager (L5) → Group Product Manager (L6) → Director of Product Management (L7) → Sr. Director of Product Management (L8) → VP (L9)",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/29",
+      "text": "Associate Product Manager (L3) → Product Manager (L4) → Sr. Product Manager (L5) → Group Product Manager (L6) → Director of Product Management (L7) → Sr. Director of Product Management (L8) → VP (L9)"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Most common attributes/competencies/skills (in order):",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/30",
+      "text": "Most common attributes/competencies/skills (in order):"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/31",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Leadership",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/32",
+      "text": "Leadership"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. Impact",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/33",
+      "text": "2. Impact"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. Scope",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/34",
+      "text": "3. Scope"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "4. Execution",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/35",
+      "text": "4. Execution"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "5. Communication",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/36",
+      "text": "5. Communication"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "6. Vision",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/37",
+      "text": "6. Vision"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "7. Strategy",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/38",
+      "text": "7. Strategy"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "8. Collaboration",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/39",
+      "text": "8. Collaboration"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "9. Planning",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/40",
+      "text": "9. Planning"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "10. Technical skills",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/41",
+      "text": "10. Technical skills"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Four companies (Stripe, Airbnb, Lyft, and Facebook) try to avoid title inflation and stick to “Product Manager” for the majority of IC levels. Stripe officially sticks to the “Product Manager” title at every level.",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/42",
+      "text": "Four companies (Stripe, Airbnb, Lyft, and Facebook) try to avoid title inflation and stick to “Product Manager” for the majority of IC levels. Stripe officially sticks to the “Product Manager” title at every level."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Two-thirds of companies have an APM role",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/43",
+      "text": "Two-thirds of companies have an APM role"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Two-thirds have a “Principal PM” role",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/44",
+      "text": "Two-thirds have a “Principal PM” role"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Over 80% have a “Senior PM” role",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/45",
+      "text": "Over 80% have a “Senior PM” role"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Only 25% have a Lead PM, or Product Lead, role",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/46",
+      "text": "Only 25% have a Lead PM, or Product Lead, role"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you see any other trends in this data, or would like to contribute to the effort by making your company’s PM ladder public, please",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/47",
+      "text": "If you see any other trends in this data, or would like to contribute to the effort by making your company’s PM ladder public, please"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://twitter.com/lennysan",
+      "label": "text",
+      "meta": null,
+      "orig": "DM me",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/48",
+      "text": "DM me"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "or leave a comment.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/49",
+      "text": "or leave a comment."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/product-management-career-ladders/comments",
+      "label": "text",
+      "meta": null,
+      "orig": "Leave a comment",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/50",
+      "text": "Leave a comment"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "📚 Further study",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/51",
+      "text": "📚 Further study"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://docs.google.com/spreadsheets/d/1fEY8JnLhvjci1F-twKOFK7gh8Z0SwXCdMxOxXrXZEhw/edit#gid=1925149295",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Career ladder templates",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/52",
+      "text": "Career ladder templates"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.levels.fyi/",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Levels.fyi",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/53",
+      "text": "Levels.fyi"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://progression.fyi/?discipline=Product+Management",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Progression.fyi",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/54",
+      "text": "Progression.fyi"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/jobs-of-product-manager?s=w",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Skills PMs need to build",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/55",
+      "text": "Skills PMs need to build"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Have a fulfilling and productive week 🙏",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/56",
+      "text": "Have a fulfilling and productive week 🙏"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "📣 Join Lenny’s Talent Collective 📣",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/57",
+      "text": "📣 Join Lenny’s Talent Collective 📣"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’re hiring:",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/58",
+      "text": "If you’re hiring:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/talent/welcome",
+      "label": "text",
+      "meta": null,
+      "orig": "Join Lenny’s Talent Collective",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/59",
+      "text": "Join Lenny’s Talent Collective"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "to start getting bi-monthly drops of hand-curated world-class product and growth people who are open to new opportunities.",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/60",
+      "text": "to start getting bi-monthly drops of hand-curated world-class product and growth people who are open to new opportunities."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Product management career ladders",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/61",
+      "text": "Image from Product management career ladders"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’re looking for a new gig:",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/62",
+      "text": "If you’re looking for a new gig:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Join to get personalized opportunities from hand-selected companies. I only accept companies I’m confident you’ll be excited to hear from. You can join publicly or anonymously, and leave anytime.",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/63",
+      "text": "Join to get personalized opportunities from hand-selected companies. I only accept companies I’m confident you’ll be excited to hear from. You can join publicly or anonymously, and leave anytime."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/talent/welcome",
+      "label": "text",
+      "meta": null,
+      "orig": "Apply Now",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/64",
+      "text": "Apply Now"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "🔥 Featured job openings",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/65",
+      "text": "🔥 Featured job openings"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/8"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/66",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Firstbase:",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/67",
+      "text": "Firstbase:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/jobs/06fe3597-dd58-4979-93d7-03ee8a0dbe24",
+      "label": "text",
+      "meta": null,
+      "orig": "Business Lead, Fintech",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/68",
+      "text": "Business Lead, Fintech"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(Remote)",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/69",
+      "text": "(Remote)"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/9"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/70",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Weights & Biases:",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/71",
+      "text": "Weights & Biases:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/jobs/c0dab35d-dbb5-47a5-92cc-df0cde2ca009",
+      "label": "text",
+      "meta": null,
+      "orig": "Growth Project Manager",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/72",
+      "text": "Growth Project Manager"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(Remote)",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/73",
+      "text": "(Remote)"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/10"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/74",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Wethos:",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/75",
+      "text": "Wethos:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/jobs/a9a10752-0952-4ca7-9116-924dd0a4d0ca",
+      "label": "text",
+      "meta": null,
+      "orig": "Director of Fintech Product Operations",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/76",
+      "text": "Director of Fintech Product Operations"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(Remote)",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/77",
+      "text": "(Remote)"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/11"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/78",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Roofstock:",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/79",
+      "text": "Roofstock:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/jobs/89098663-b9f7-414b-b374-b76111d93917",
+      "label": "text",
+      "meta": null,
+      "orig": "Senior Product Marketing Manager",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/80",
+      "text": "Senior Product Marketing Manager"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(Remote)",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/81",
+      "text": "(Remote)"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/12"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/82",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Clipboard Health:",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/83",
+      "text": "Clipboard Health:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/jobs/299a6ac5-8435-4596-8262-b29c15c7613f",
+      "label": "text",
+      "meta": null,
+      "orig": "Engineering Manager",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/84",
+      "text": "Engineering Manager"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(Remote)",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/85",
+      "text": "(Remote)"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/13"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/86",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Balance Homes:",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/87",
+      "text": "Balance Homes:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/jobs/b9e8f81a-ae8c-427b-8072-71097b7c3197",
+      "label": "text",
+      "meta": null,
+      "orig": "Founding Product Manager",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/88",
+      "text": "Founding Product Manager"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(Remote)",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/89",
+      "text": "(Remote)"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/14"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/90",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Web3 Sports:",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/91",
+      "text": "Web3 Sports:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/jobs/bb059354-70d4-41de-a0b0-77b51067a817",
+      "label": "text",
+      "meta": null,
+      "orig": "Founding Product Manager",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/92",
+      "text": "Founding Product Manager"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(Remote)",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/93",
+      "text": "(Remote)"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/15"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/94",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Around:",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/95",
+      "text": "Around:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/jobs/942a7802-9e65-40ed-bced-cb939e6cfa32",
+      "label": "text",
+      "meta": null,
+      "orig": "Product Manager",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/96",
+      "text": "Product Manager"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(Remote)",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/97",
+      "text": "(Remote)"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/16"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/98",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Clipboard Health:",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/99",
+      "text": "Clipboard Health:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/jobs/82ed8c6a-418a-44e3-9b37-fff54792ba6f",
+      "label": "text",
+      "meta": null,
+      "orig": "Growth Strategy and Marketing Manager",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/100",
+      "text": "Growth Strategy and Marketing Manager"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(Remote)",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/101",
+      "text": "(Remote)"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "🧠 Inspiration for the week ahead",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/102",
+      "text": "🧠 Inspiration for the week ahead"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/18"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/103",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Read:",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/104",
+      "text": "Read:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.amazon.com/Talent-Identify-Energizers-Creatives-Winners-ebook/dp/B08R2KNYVX/ref=sr_1_2?crid=4MXLSF8KWBMZ&keywords=talent&qid=1653361090&sprefix=talent%2Caps%2C300&sr=8-2",
+      "label": "text",
+      "meta": null,
+      "orig": "Talent: How to Identify Energizers, Creatives, and Winners Around the World",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/105",
+      "text": "Talent: How to Identify Energizers, Creatives, and Winners Around the World"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "by Tyler Cowen and Daniel Gross",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/106",
+      "text": "by Tyler Cowen and Daniel Gross"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/19"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/107",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Learn:",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/108",
+      "text": "Learn:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://goodui.org/patterns/",
+      "label": "text",
+      "meta": null,
+      "orig": "GoodUI—Improve Your UI with Winning & Losing A/B Tests",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/109",
+      "text": "GoodUI—Improve Your UI with Winning & Losing A/B Tests"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/20"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/110",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Watch:",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/111",
+      "text": "Watch:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.youtube.com/watch?v=CnxzrX9tNoc",
+      "label": "text",
+      "meta": null,
+      "orig": "Elon Musk on Twitter’s bot problem, SpaceX’s grand plan, Tesla stories, Giga Texas & more",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/112",
+      "text": "Elon Musk on Twitter’s bot problem, SpaceX’s grand plan, Tesla stories, Giga Texas & more"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.youtube.com/watch?v=CnxzrX9tNoc",
+      "label": "text",
+      "meta": null,
+      "orig": "Watch on YouTube",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/113",
+      "text": "Watch on YouTube"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/114",
+      "text": "If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Sincerely,",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/115",
+      "text": "Sincerely,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Lenny 👋",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/116",
+      "text": "Lenny 👋"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Product management career ladders",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/117",
+      "text": "Image from Product management career ladders"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Product management career ladders",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/118",
+      "text": "Image from Product management career ladders"
+    }
+  ],
+  "version": "1.10.0"
+}

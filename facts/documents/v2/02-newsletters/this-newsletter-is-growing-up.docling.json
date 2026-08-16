@@ -1,0 +1,1502 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/furniture"
+  },
+  "groups": [
+    {
+      "children": [
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/0"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/1"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/2"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/3"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/4"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/5"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/6"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/7"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/8"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/9"
+    }
+  ],
+  "key_value_items": [],
+  "name": "this-newsletter-is-growing-up",
+  "origin": {
+    "binary_hash": 10133327216984824040,
+    "filename": "this-newsletter-is-growing-up.md",
+    "mimetype": "text/markdown",
+    "uri": null
+  },
+  "pages": {},
+  "pictures": [
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/62"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/62"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/gif",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/838e31ff-4934-49e8-863d-f891f2c551ab_480x320.gif"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/0"
+    }
+  ],
+  "schema_name": "DoclingDocument",
+  "tables": [],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "title",
+      "meta": null,
+      "orig": "This newsletter is growing up 🌱 — tl;dr: I’m adding a paid subscription plan! | 2020-04-07 | Tags: newsletter, leadership, strategy, career, growth, product-management",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/0",
+      "text": "This newsletter is growing up 🌱 — tl;dr: I’m adding a paid subscription plan! | 2020-04-07 | Tags: newsletter, leadership, strategy, career, growth, product-management"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "tl;dr: I’m adding a paid subscription plan!",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/1",
+      "text": "tl;dr: I’m adding a paid subscription plan!"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "This newsletter was always meant to be a little side-project while I looked for a “real job”, but after so much positive feedback, and continued prodding from readers and friends, I’ve decided to double-down and turn this into a real thing. 🎉",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/2",
+      "text": "This newsletter was always meant to be a little side-project while I looked for a “real job”, but after so much positive feedback, and continued prodding from readers and friends, I’ve decided to double-down and turn this into a real thing. 🎉"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Starting in two weeks, only paid subscribers will get this newsletter weekly.",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/3",
+      "text": "Starting in two weeks, only paid subscribers will get this newsletter weekly."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "In addition, paid subscriber questions will be prioritized, plus they’ll get a few other goodies (see below). Free subscribers will now receive this newsletter only about once a month.",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/4",
+      "text": "In addition, paid subscriber questions will be prioritized, plus they’ll get a few other goodies (see below). Free subscribers will now receive this newsletter only about once a month."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Whether you’re a founder, a PM, a growth lead, a manager, or just someone who wants to do better in their career,",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/5",
+      "text": "Whether you’re a founder, a PM, a growth lead, a manager, or just someone who wants to do better in their career,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "think of this newsletter as your personal advice column",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/6",
+      "text": "think of this newsletter as your personal advice column"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". Send me your questions, and in return, I’ll share actionable real-talk advice. It’s like having a personal coach, but for real cheap.",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/7",
+      "text": ". Send me your questions, and in return, I’ll share actionable real-talk advice. It’s like having a personal coach, but for real cheap."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "✨ To thank you for being an early supporter, subscribe in the next 48 hours and get 33% off for the first year — just $100, or $10/month ✨",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/8",
+      "text": "✨ To thank you for being an early supporter, subscribe in the next 48 hours and get 33% off for the first year — just $100, or $10/month ✨"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/subscribe?coupon=83a45af2",
+      "label": "text",
+      "meta": null,
+      "orig": "Get 33% off for 1 year",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/9",
+      "text": "Get 33% off for 1 year"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://substackcdn.com/image/fetch/$s_!7FYx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F838e31ff-4934-49e8-863d-f891f2c551ab_480x320.gif",
+      "label": "text",
+      "meta": null,
+      "orig": "Image from This newsletter is growing up 🌱",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/10",
+      "text": "Image from This newsletter is growing up 🌱"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "When I launched this newsletter six months ago, I had no real plan. I knew that after leaving Airbnb I ultimately wanted to start a company. Or maybe full-time advising. Or maybe just get another PM job. In any case, this newsletter was always meant to be a fun little side-project.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/11",
+      "text": "When I launched this newsletter six months ago, I had no real plan. I knew that after leaving Airbnb I ultimately wanted to start a company. Or maybe full-time advising. Or maybe just get another PM job. In any case, this newsletter was always meant to be a fun little side-project."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "But while I wasn’t looking, this has turned into a real thing. And the feedback you’ve been sharing with me has been immensely gratifying 🥰",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/12",
+      "text": "But while I wasn’t looking, this has turned into a real thing. And the feedback you’ve been sharing with me has been immensely gratifying 🥰"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "“Your writings have had a profound impact on me”",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/13",
+      "text": "“Your writings have had a profound impact on me”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "“It’s easily one of the most valuable emails I get every week”",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/14",
+      "text": "“It’s easily one of the most valuable emails I get every week”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "“Your posts have enabled me to accelerate my professional development”",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/15",
+      "text": "“Your posts have enabled me to accelerate my professional development”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "“It's transformed the way I work with my team”",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/16",
+      "text": "“It's transformed the way I work with my team”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "“It’s making me smarter”",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/17",
+      "text": "“It’s making me smarter”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I’ve been deliberating this for a while, and I’ve finally come to the conclusion that I should give this a real shot.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/18",
+      "text": "I’ve been deliberating this for a while, and I’ve finally come to the conclusion that I should give this a real shot."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "What’s changing?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/19",
+      "text": "What’s changing?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Free readers you will continue to get this same newsletter,",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/20",
+      "text": "Free readers you will continue to get this same newsletter,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "but only about once a month",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/21",
+      "text": "but only about once a month"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". If that's enough for you, by all means, stick with it.",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/22",
+      "text": ". If that's enough for you, by all means, stick with it."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Paid subscribers will receive the newsletter weekly.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/23",
+      "text": "Paid subscribers will receive the newsletter weekly."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "The weekly editions will be more in-depth",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/24",
+      "text": "The weekly editions will be more in-depth"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Subscriber questions will be prioritized",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/25",
+      "text": "Subscriber questions will be prioritized"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Your support will mean the world to me. And, it will allow me to make this newsletter even better.",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/26",
+      "text": "Your support will mean the world to me. And, it will allow me to make this newsletter even better."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I’m also going to tinker with a few goodies for paid subscribers:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/27",
+      "text": "I’m also going to tinker with a few goodies for paid subscribers:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Access to a new private community, where we dive deeper on topics",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/28",
+      "text": "Access to a new private community, where we dive deeper on topics"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Live AMAs with amazing guests",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/29",
+      "text": "Live AMAs with amazing guests"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Intimate Zoom chats",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/30",
+      "text": "Intimate Zoom chats"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "Why should I subscribe?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/31",
+      "text": "Why should I subscribe?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "To become better at your job.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/32",
+      "text": "To become better at your job."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Whether you’re a founder, a PM, a growth lead, a manager, or just someone who wants to do better in their career,",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/33",
+      "text": "Whether you’re a founder, a PM, a growth lead, a manager, or just someone who wants to do better in their career,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "think of this newsletter as your personal advice column",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/34",
+      "text": "think of this newsletter as your personal advice column"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". Send me your problems, and I (or a smarter guest) will give you real-talk actionable advice.",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/35",
+      "text": ". Send me your problems, and I (or a smarter guest) will give you real-talk actionable advice."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "It’s like having a personal coach, but for real cheap.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/36",
+      "text": "It’s like having a personal coach, but for real cheap."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "A sampling of recent posts:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/37",
+      "text": "A sampling of recent posts:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/this-week-overcoming-impostor-syndrome",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Overcoming impostor syndrome",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/38",
+      "text": "Overcoming impostor syndrome"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/how-to-kickstart-and-scale-a-marketplace",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "How to kickstart and scale a marketplace business",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/39",
+      "text": "How to kickstart and scale a marketplace business"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/this-week-17-turning-around-an-underperforming",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Turning around an underperforming team",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/40",
+      "text": "Turning around an underperforming team"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/how-to-know-if-youve-got-productmarket",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "How to know if you've got product/market fit",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/41",
+      "text": "How to know if you've got product/market fit"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/how-to-get-into-product-management",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "How to get into product management",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/42",
+      "text": "How to get into product management"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "What will it cost?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/43",
+      "text": "What will it cost?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "$150 per year, or $15/month.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/44",
+      "text": "$150 per year, or $15/month."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "My expectation is that you expense this. My pitch to you (or your manager) is that",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/45",
+      "text": "My expectation is that you expense this. My pitch to you (or your manager) is that"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "if this newsletter can help you make",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/46",
+      "text": "if this newsletter can help you make"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "one",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/47",
+      "text": "one"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "better decision each year, it’ll pay for itself",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/48",
+      "text": "better decision each year, it’ll pay for itself"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". And if it doesn’t, you can cancel anytime.",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/49",
+      "text": ". And if it doesn’t, you can cancel anytime."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "For those of you that can’t expense it, or can’t afford it, I’ve got a deal for you. Just email me and let me know what’s up. We’ll work something out. I don’t want the price to be a financial burden on anyone.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/50",
+      "text": "For those of you that can’t expense it, or can’t afford it, I’ve got a deal for you. Just email me and let me know what’s up. We’ll work something out. I don’t want the price to be a financial burden on anyone."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "✨",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/51",
+      "text": "✨"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you subscribe in the next 48 hours, get the first year for only $100, or $10/month (33% off)",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/52",
+      "text": "If you subscribe in the next 48 hours, get the first year for only $100, or $10/month (33% off)"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "✨",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/53",
+      "text": "✨"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "When will this change happen?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/54",
+      "text": "When will this change happen?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "The first subscriber-only post will begin in two weeks!",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/55",
+      "text": "The first subscriber-only post will begin in two weeks!"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "April 21st",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/56",
+      "text": "April 21st"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/57",
+      "text": "."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "That means one more free post next week, and then subscriber-only content begins. If you want to make sure that you don’t miss anything, subscribe now and you’ll automatically get the subscriber-only content. And you won’t be charged until then.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/58",
+      "text": "That means one more free post next week, and then subscriber-only content begins. If you want to make sure that you don’t miss anything, subscribe now and you’ll automatically get the subscriber-only content. And you won’t be charged until then."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’ve found value in this newsletter, or just want to support the work I’m doing, consider subscribing. It would mean a lot to me. 🙏",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/59",
+      "text": "If you’ve found value in this newsletter, or just want to support the work I’m doing, consider subscribing. It would mean a lot to me. 🙏"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Sincerely,",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/60",
+      "text": "Sincerely,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Lenny 👋",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/61",
+      "text": "Lenny 👋"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from This newsletter is growing up 🌱",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/62",
+      "text": "Image from This newsletter is growing up 🌱"
+    }
+  ],
+  "version": "1.10.0"
+}

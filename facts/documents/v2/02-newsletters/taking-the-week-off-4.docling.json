@@ -1,0 +1,575 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/19"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/furniture"
+  },
+  "groups": [
+    {
+      "children": [
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/0"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/6"
+      },
+      "self_ref": "#/groups/1"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/9"
+      },
+      "self_ref": "#/groups/2"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/14"
+      },
+      "self_ref": "#/groups/3"
+    }
+  ],
+  "key_value_items": [],
+  "name": "taking-the-week-off-4",
+  "origin": {
+    "binary_hash": 4942590160348915670,
+    "filename": "taking-the-week-off-4.md",
+    "mimetype": "text/markdown",
+    "uri": null
+  },
+  "pages": {},
+  "pictures": [
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/jpeg",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://substack-post-media.s3.amazonaws.com/public/images/0b07107f-a68b-42b9-8d79-31cbda2c95e6_5712x4284.jpeg"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/0"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/jpeg",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://substack-post-media.s3.amazonaws.com/public/images/d969fb3d-0f6f-4835-a20e-51c633ccbd90_4032x3024.jpeg"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/1"
+    }
+  ],
+  "schema_name": "DoclingDocument",
+  "tables": [],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "title",
+      "meta": null,
+      "orig": "Taking the week off — Back next week! | 2024-07-16 | Tags: b2c, podcast, startups, design, newsletter",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/0",
+      "text": "Taking the week off — Back next week! | 2024-07-16 | Tags: b2c, podcast, startups, design, newsletter"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I’m taking this week off to be fully present on my trip to Wimbledon with my dad. I told my dad a decade ago that I’d take him to all of the Grand Slams of tennis, and with this trip, we’ve done them all.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/1",
+      "text": "I’m taking this week off to be fully present on my trip to Wimbledon with my dad. I told my dad a decade ago that I’d take him to all of the Grand Slams of tennis, and with this trip, we’ve done them all."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Taking the week off",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/2",
+      "text": "Image from Taking the week off"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I even snuck in a community meetup while in London, and let me tell you, the London product community is extraordinary. So much energy, so many great ideas, and such nice people! Big thank-you to Index Ventures for hosting this unbelievable crowd 😮",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/3",
+      "text": "I even snuck in a community meetup while in London, and let me tell you, the London product community is extraordinary. So much energy, so many great ideas, and such nice people! Big thank-you to Index Ventures for hosting this unbelievable crowd 😮"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Taking the week off",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/4",
+      "text": "Image from Taking the week off"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’re looking for something to read or listen to in the meantime:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/5",
+      "text": "If you’re looking for something to read or listen to in the meantime:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/1"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/6",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.youtube.com/watch?v=qbZQjprTnrU",
+      "label": "text",
+      "meta": null,
+      "orig": "My latest podcast episode, with Jeff Weinstein (product lead at Stripe)",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/7",
+      "text": "My latest podcast episode, with Jeff Weinstein (product lead at Stripe)"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". I guarantee you will become a better product leader if you listen to this episode.",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/8",
+      "text": ". I guarantee you will become a better product leader if you listen to this episode."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/9",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://paulgraham.com/persistence.html",
+      "label": "text",
+      "meta": null,
+      "orig": "The Right Kind of Stubborn",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/10",
+      "text": "The Right Kind of Stubborn"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "by Paul Graham, which builds on a conversation Jessica Livingston (his co-founder and wife) and I had",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/11",
+      "text": "by Paul Graham, which builds on a conversation Jessica Livingston (his co-founder and wife) and I had"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://youtu.be/h9MUuhsDJOM?si=CJmF20IW1kG_NMCZ&t=1966",
+      "label": "text",
+      "meta": null,
+      "orig": "during her recent visit to the pod",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/12",
+      "text": "during her recent visit to the pod"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/13",
+      "text": "."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/14",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.nytimes.com/interactive/2024/books/best-books-21st-century.html",
+      "label": "text",
+      "meta": null,
+      "orig": "100 Best Books since 2000",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/15",
+      "text": "100 Best Books since 2000"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "in the",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/16",
+      "text": "in the"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "New York Times",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/17",
+      "text": "New York Times"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/18",
+      "text": "."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "See you next week!",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/19",
+      "text": "See you next week!"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Taking the week off",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/20",
+      "text": "Image from Taking the week off"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Taking the week off",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/21",
+      "text": "Image from Taking the week off"
+    }
+  ],
+  "version": "1.10.0"
+}

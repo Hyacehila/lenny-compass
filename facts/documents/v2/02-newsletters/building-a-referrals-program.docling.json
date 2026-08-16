@@ -1,0 +1,3672 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/groups/17"
+      },
+      {
+        "$ref": "#/groups/18"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/groups/21"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/groups/27"
+      },
+      {
+        "$ref": "#/texts/117"
+      },
+      {
+        "$ref": "#/groups/33"
+      },
+      {
+        "$ref": "#/texts/122"
+      },
+      {
+        "$ref": "#/texts/123"
+      },
+      {
+        "$ref": "#/texts/124"
+      },
+      {
+        "$ref": "#/groups/34"
+      },
+      {
+        "$ref": "#/texts/140"
+      },
+      {
+        "$ref": "#/texts/141"
+      },
+      {
+        "$ref": "#/texts/142"
+      },
+      {
+        "$ref": "#/texts/143"
+      },
+      {
+        "$ref": "#/texts/144"
+      },
+      {
+        "$ref": "#/texts/145"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/furniture"
+  },
+  "groups": [
+    {
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/0"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/1"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/2"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/3"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/24"
+      },
+      "self_ref": "#/groups/4"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/33"
+      },
+      "self_ref": "#/groups/5"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/36"
+      },
+      "self_ref": "#/groups/6"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/52"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/7"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/40"
+      },
+      "self_ref": "#/groups/8"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/43"
+      },
+      "self_ref": "#/groups/9"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/46"
+      },
+      "self_ref": "#/groups/10"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/49"
+      },
+      "self_ref": "#/groups/11"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/52"
+      },
+      "self_ref": "#/groups/12"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/13"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/58"
+      },
+      "self_ref": "#/groups/14"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/63"
+      },
+      "self_ref": "#/groups/15"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/68"
+      },
+      "self_ref": "#/groups/16"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/17"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/18"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/75"
+      },
+      "self_ref": "#/groups/19"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/79"
+      },
+      "self_ref": "#/groups/20"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/98"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/21"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/86"
+      },
+      "self_ref": "#/groups/22"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/89"
+      },
+      "self_ref": "#/groups/23"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/92"
+      },
+      "self_ref": "#/groups/24"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/95"
+      },
+      "self_ref": "#/groups/25"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/98"
+      },
+      "self_ref": "#/groups/26"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/114"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/27"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/102"
+      },
+      "self_ref": "#/groups/28"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/106"
+        },
+        {
+          "$ref": "#/texts/107"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/105"
+      },
+      "self_ref": "#/groups/29"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/108"
+      },
+      "self_ref": "#/groups/30"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/113"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/111"
+      },
+      "self_ref": "#/groups/31"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/116"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/114"
+      },
+      "self_ref": "#/groups/32"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/118"
+        },
+        {
+          "$ref": "#/texts/119"
+        },
+        {
+          "$ref": "#/texts/120"
+        },
+        {
+          "$ref": "#/texts/121"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/33"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/125"
+        },
+        {
+          "$ref": "#/texts/130"
+        },
+        {
+          "$ref": "#/texts/135"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/34"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/126"
+        },
+        {
+          "$ref": "#/texts/127"
+        },
+        {
+          "$ref": "#/texts/128"
+        },
+        {
+          "$ref": "#/texts/129"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/125"
+      },
+      "self_ref": "#/groups/35"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/131"
+        },
+        {
+          "$ref": "#/texts/132"
+        },
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/130"
+      },
+      "self_ref": "#/groups/36"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/136"
+        },
+        {
+          "$ref": "#/texts/137"
+        },
+        {
+          "$ref": "#/texts/138"
+        },
+        {
+          "$ref": "#/texts/139"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/135"
+      },
+      "self_ref": "#/groups/37"
+    }
+  ],
+  "key_value_items": [],
+  "name": "building-a-referrals-program",
+  "origin": {
+    "binary_hash": 15724917834281429031,
+    "filename": "building-a-referrals-program.md",
+    "mimetype": "text/markdown",
+    "uri": null
+  },
+  "pages": {},
+  "pictures": [
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/146"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/146"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e351fe9b-d582-4ce3-a353-4cf38056dc9b_1910x988.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/0"
+    }
+  ],
+  "schema_name": "DoclingDocument",
+  "tables": [],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "title",
+      "meta": null,
+      "orig": "Building a referrals program — Send me your questions (just reply to this email or DM me) and in return I’ll humbly share actionable free real-talk advice | 2020-03-03 | Tags: design, growth, leadership, strategy, newsletter, analytics",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/0",
+      "text": "Building a referrals program — Send me your questions (just reply to this email or DM me) and in return I’ll humbly share actionable free real-talk advice | 2020-03-03 | Tags: design, growth, leadership, strategy, newsletter, analytics"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Hello and welcome to another edition of my weekly newsletter! My name is",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/1",
+      "text": "Hello and welcome to another edition of my weekly newsletter! My name is"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://twitter.com/lennysan",
+      "label": "text",
+      "meta": null,
+      "orig": "Lenny",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/2",
+      "text": "Lenny"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", and each week I tackle reader questions about building product, driving growth, working with humans, and anything else that’s stressing you out at the office. Send me your questions (just reply to this email or",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/3",
+      "text": ", and each week I tackle reader questions about building product, driving growth, working with humans, and anything else that’s stressing you out at the office. Send me your questions (just reply to this email or"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://twitter.com/lennysan",
+      "label": "text",
+      "meta": null,
+      "orig": "DM me",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/4",
+      "text": "DM me"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ") and in return I’ll humbly share actionable free real-talk advice",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/5",
+      "text": ") and in return I’ll humbly share actionable free real-talk advice"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "*. 🤝***",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/6",
+      "text": "*. 🤝***"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "Q: I was wondering if you had any advice for building referral programs for a marketplace. I haven't found great content on this and I’m guessing you have some advice to share on this.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/7",
+      "text": "Q: I was wondering if you had any advice for building referral programs for a marketplace. I haven't found great content on this and I’m guessing you have some advice to share on this."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I do indeed! I love referrals programs so much. While leading the supply growth work at Airbnb, one of the teams I oversaw built and scaled the",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/8",
+      "text": "I do indeed! I love referrals programs so much. While leading the supply growth work at Airbnb, one of the teams I oversaw built and scaled the"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.airbnb.com/refer",
+      "label": "text",
+      "meta": null,
+      "orig": "host referrals program",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/9",
+      "text": "host referrals program"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". The team (made up of folks much smarter than I) took it from a nascent half-functional program to the single biggest driver of attributable supply growth. Not only that, it quickly became the most efficient paid-growth channel AND drove the highest quality supply. So, yeah, I love referral programs.",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/10",
+      "text": ". The team (made up of folks much smarter than I) took it from a nascent half-functional program to the single biggest driver of attributable supply growth. Not only that, it quickly became the most efficient paid-growth channel AND drove the highest quality supply. So, yeah, I love referral programs."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Since I haven’t written much about this before, I’m going to take this opportunity to share a bunch of learnings. Below, you’ll find the",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/11",
+      "text": "Since I haven’t written much about this before, I’m going to take this opportunity to share a bunch of learnings. Below, you’ll find the"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "WHAT",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/12",
+      "text": "WHAT"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/13",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "WHY",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/14",
+      "text": "WHY"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/15",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "WHO",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/16",
+      "text": "WHO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", and",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/17",
+      "text": ", and"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "HOW",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/18",
+      "text": "HOW"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "of referral programs, along with a bunch of pro tips. Enjoy!",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/19",
+      "text": "of referral programs, along with a bunch of pro tips. Enjoy!"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "WHAT is a referral program",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/20",
+      "text": "WHAT is a referral program"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "A referral program incentivizes you existing users (usually with cash or credit) to refer new users. The program is normally self-service and built into the product experience. Some examples from Airbnb, Uber, and Dropbox:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/21",
+      "text": "A referral program incentivizes you existing users (usually with cash or credit) to refer new users. The program is normally self-service and built into the product experience. Some examples from Airbnb, Uber, and Dropbox:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Building a referrals program",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/22",
+      "text": "Image from Building a referrals program"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "WHY build a referral program",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/23",
+      "text": "WHY build a referral program"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/24",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Impact",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/25",
+      "text": "Impact"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ": Based on my previous research into marketplace growth, referrals were tied for the",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/26",
+      "text": ": Based on my previous research into marketplace growth, referrals were tied for the"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/how-to-kickstart-and-scale-a-marketplace-911",
+      "label": "text",
+      "meta": null,
+      "orig": "second most common early growth lever for supply",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/27",
+      "text": "second most common early growth lever for supply"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", and",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/28",
+      "text": ", and"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/how-to-kickstart-and-scale-a-marketplace-2e5",
+      "label": "text",
+      "meta": null,
+      "orig": "valuable to a handful of companies in driving early demand",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/29",
+      "text": "valuable to a handful of companies in driving early demand"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "and",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/30",
+      "text": "and"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/accelerating-growth-at-scale-phase",
+      "label": "text",
+      "meta": null,
+      "orig": "when scaling",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/31",
+      "text": "when scaling"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". At companies where referrals work best (see below for more on this), anywhere from 15% to 50% of their new user growth comes from referrals.",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/32",
+      "text": ". At companies where referrals work best (see below for more on this), anywhere from 15% to 50% of their new user growth comes from referrals."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/5"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/33",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Efficiency",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/34",
+      "text": "Efficiency"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ": Instead of just competing for keywords and placement on Google and FB like everyone else, you leverage your existing user base to help you drive growth. When done right, these programs pay for themselves many times over, and you can easily test and tune the incentives to make them increasingly more efficient.",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/35",
+      "text": ": Instead of just competing for keywords and placement on Google and FB like everyone else, you leverage your existing user base to help you drive growth. When done right, these programs pay for themselves many times over, and you can easily test and tune the incentives to make them increasingly more efficient."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/6"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/36",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Scalability:",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/37",
+      "text": "Scalability:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "It takes a very small team to build and operate a referrals program. At Airbnb, we initially had just three people (eng, design, PM), and you can get started with even less.",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/38",
+      "text": "It takes a very small team to build and operate a referrals program. At Airbnb, we initially had just three people (eng, design, PM), and you can get started with even less."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "WHO should invest in a referral program:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/39",
+      "text": "WHO should invest in a referral program:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/8"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/40",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "The majority of your current growth comes from word-of-mouth",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/41",
+      "text": "The majority of your current growth comes from word-of-mouth"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ": The added incentive that a referral program offers simply adds fuel to an existing fire. I haven’t seen referrals work when there wasn’t strong existing WOM.",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/42",
+      "text": ": The added incentive that a referral program offers simply adds fuel to an existing fire. I haven’t seen referrals work when there wasn’t strong existing WOM."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/9"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/43",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Lots of existing users:",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/44",
+      "text": "Lots of existing users:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Do the math to see what conversation rates you’d need in order for a referral program to drive meaningful growth. For example, if you have a few thousand existing “hosts”, it’s unlikely you’ll drive hundreds of new hosts on an ongoing basis through a referral program. Expect less than 10% of your users to convert a successful referral.",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/45",
+      "text": "Do the math to see what conversation rates you’d need in order for a referral program to drive meaningful growth. For example, if you have a few thousand existing “hosts”, it’s unlikely you’ll drive hundreds of new hosts on an ongoing basis through a referral program. Expect less than 10% of your users to convert a successful referral."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/10"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/46",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "You’re able to offer a meaningful incentive:",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/47",
+      "text": "You’re able to offer a meaningful incentive:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "The key to a strong referrals program is having an incentive that genuinly motivates people to take action. An extra $10 likely won’t cut it. Talk to your users and get a sense of what they’d get excited about (may not be cash), and then figure out if your CAC/LTV can support it.",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/48",
+      "text": "The key to a strong referrals program is having an incentive that genuinly motivates people to take action. An extra $10 likely won’t cut it. Talk to your users and get a sense of what they’d get excited about (may not be cash), and then figure out if your CAC/LTV can support it."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/11"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/49",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Your users know a lot of other potential users:",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/50",
+      "text": "Your users know a lot of other potential users:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Airbnb hosts know other folks with homes, and Dropbox users have friends who would love cheap cloud storage. On the other hand, a head of HR may not know a ton of other heads of HR. Referral programs are most effective when your customers are consumers or small business owners (not enterprises).",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/51",
+      "text": "Airbnb hosts know other folks with homes, and Dropbox users have friends who would love cheap cloud storage. On the other hand, a head of HR may not know a ton of other heads of HR. Referral programs are most effective when your customers are consumers or small business owners (not enterprises)."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/12"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/52",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Your product requires a lot of trust to use",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/53",
+      "text": "Your product requires a lot of trust to use"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ": Referrals and WOM are highest leverage when your product is a little bit scary to use (e.g. staying in a stranger’s home, leaving your dog with someone you just met), and benefit from someone they trust recommending it.",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/54",
+      "text": ": Referrals and WOM are highest leverage when your product is a little bit scary to use (e.g. staying in a stranger’s home, leaving your dog with someone you just met), and benefit from someone they trust recommending it."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "HOW to build a referral program",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/55",
+      "text": "HOW to build a referral program"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "At Airbnb, we went through three phases:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/56",
+      "text": "At Airbnb, we went through three phases:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "It exists!",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/57",
+      "text": "It exists!"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/14"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/58",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Simple incentive: $25 flat-fee travel credit for new guests (both referer and referee), and $75 travel credit for driving new hosts.",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/59",
+      "text": "Simple incentive: $25 flat-fee travel credit for new guests (both referer and referee), and $75 travel credit for driving new hosts."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. Limited discoverability: In the nav and footer",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/60",
+      "text": "2. Limited discoverability: In the nav and footer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. Limited platforms: Just web",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/61",
+      "text": "3. Limited platforms: Just web"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Optimized (on the guest side)",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/62",
+      "text": "Optimized (on the guest side)"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/15"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/63",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Increase discoverability: Added many more touchpoints throughout the guest experience, plus added to mobile",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/64",
+      "text": "Increase discoverability: Added many more touchpoints throughout the guest experience, plus added to mobile"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. Optimized messaging: Tested and optimized the pitch",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/65",
+      "text": "2. Optimized messaging: Tested and optimized the pitch"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. Dedicated resources: Fully dedicated a team to this program",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/66",
+      "text": "3. Dedicated resources: Fully dedicated a team to this program"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Expanded (to host side)",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/67",
+      "text": "Expanded (to host side)"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/16"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/68",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Expanded program: Made the host referral pitch a first-class citizen, including its own landing page",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/69",
+      "text": "Expanded program: Made the host referral pitch a first-class citizen, including its own landing page"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. Improved incentive: Made it a cash award (vs. travel credit) – flat $100 for referer, $50 for the referee",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/70",
+      "text": "2. Improved incentive: Made it a cash award (vs. travel credit) – flat $100 for referer, $50 for the referee"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. Increased efficiency: Created a personalized referral amount based on the LTV of supply you are likely to drive",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/71",
+      "text": "3. Increased efficiency: Created a personalized referral amount based on the LTV of supply you are likely to drive"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Metrics we looked at (for our host referral program)",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/72",
+      "text": "Metrics we looked at (for our host referral program)"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ":",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/73",
+      "text": ":"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Output metrics",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/74",
+      "text": "Output metrics"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/19"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/75",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "New listings (that came through a referral)",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/76",
+      "text": "New listings (that came through a referral)"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. Bookings (to a listing that came through a referral)",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/77",
+      "text": "2. Bookings (to a listing that came through a referral)"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Input",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/78",
+      "text": "Input"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/20"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/79",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Visits to the referral landing page",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/80",
+      "text": "Visits to the referral landing page"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. Total invites sent",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/81",
+      "text": "2. Total invites sent"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. Invites sent per user",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/82",
+      "text": "3. Invites sent per user"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "4. Conversion of an invite to signup",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/83",
+      "text": "4. Conversion of an invite to signup"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "5. Cost efficiency of the program",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/84",
+      "text": "5. Cost efficiency of the program"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Ways to optimize referrals:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/85",
+      "text": "Ways to optimize referrals:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/22"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/86",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Eligibility:",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "prov": [],
+      "self_ref": "#/texts/87",
+      "text": "Eligibility:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Who is allowed to send referrals?",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "prov": [],
+      "self_ref": "#/texts/88",
+      "text": "Who is allowed to send referrals?"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/23"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/89",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Discoverability",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/90",
+      "text": "Discoverability"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ": Do users know it exists?",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/91",
+      "text": ": Do users know it exists?"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/24"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/92",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Motivation",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/93",
+      "text": "Motivation"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ": Do users have a reason to spend time on this?",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/94",
+      "text": ": Do users have a reason to spend time on this?"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/25"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/95",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Conversion",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/96",
+      "text": "Conversion"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ": Do users invite the right (and enough) people?",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/97",
+      "text": ": Do users invite the right (and enough) people?"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/26"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/98",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Efficiency:",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "prov": [],
+      "self_ref": "#/texts/99",
+      "text": "Efficiency:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Incremental revenue divided by incremental spend.",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "prov": [],
+      "self_ref": "#/texts/100",
+      "text": "Incremental revenue divided by incremental spend."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Pro tips:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/101",
+      "text": "Pro tips:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/28"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "prov": [],
+      "self_ref": "#/texts/102",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Pitch referrals everywhere",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "prov": [],
+      "self_ref": "#/texts/103",
+      "text": "Pitch referrals everywhere"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ": Don’t expect your users to immediately (1) discover, (2) understand, and (3) be motivated to refer friends. Repeat the pitch at every touch-point, highlighting the incentive, and don’t rely on one-off campaigns.",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "prov": [],
+      "self_ref": "#/texts/104",
+      "text": ": Don’t expect your users to immediately (1) discover, (2) understand, and (3) be motivated to refer friends. Repeat the pitch at every touch-point, highlighting the incentive, and don’t rely on one-off campaigns."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/29"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "prov": [],
+      "self_ref": "#/texts/105",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Understand cannibalization:",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "prov": [],
+      "self_ref": "#/texts/106",
+      "text": "Understand cannibalization:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Not all of the users that come through a referral are incremental. Many would have signed up anyway. It’s tricky to figure out what haircut to give these numbers, but I’d suggest being conservative.",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "prov": [],
+      "self_ref": "#/texts/107",
+      "text": "Not all of the users that come through a referral are incremental. Many would have signed up anyway. It’s tricky to figure out what haircut to give these numbers, but I’d suggest being conservative."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/30"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "prov": [],
+      "self_ref": "#/texts/108",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Data science:",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "prov": [],
+      "self_ref": "#/texts/109",
+      "text": "Data science:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "You’ll be an order of magnitude more successful in developing this program if you have a data scientist deeply involved in the planning and iterations.",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "prov": [],
+      "self_ref": "#/texts/110",
+      "text": "You’ll be an order of magnitude more successful in developing this program if you have a data scientist deeply involved in the planning and iterations."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/31"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "prov": [],
+      "self_ref": "#/texts/111",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Incentives plateau:",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "prov": [],
+      "self_ref": "#/texts/112",
+      "text": "Incentives plateau:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "We tested doubling the bonus in some markets and found that it occasionally didn’t make a big dent. Our takeaway was that there’s a point at which you aren’t going to motivate people any further (while still having positive ROI on the program).",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "prov": [],
+      "self_ref": "#/texts/113",
+      "text": "We tested doubling the bonus in some markets and found that it occasionally didn’t make a big dent. Our takeaway was that there’s a point at which you aren’t going to motivate people any further (while still having positive ROI on the program)."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/32"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "prov": [],
+      "self_ref": "#/texts/114",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Fraud",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "prov": [],
+      "self_ref": "#/texts/115",
+      "text": "Fraud"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ": The juicier your incentive, the likelier you are to see fraud. You need to make it more expensive to execute the fraud than benefit from the fraud.",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "prov": [],
+      "self_ref": "#/texts/116",
+      "text": ": The juicier your incentive, the likelier you are to see fraud. You need to make it more expensive to execute the fraud than benefit from the fraud."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Further reading:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/117",
+      "text": "Further reading:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": "https://youtu.be/SS9wGKuGVt4",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Referrals At Airbnb: Driving Sustainable & Scalable Growth with Jimmy Tang and Gustaf Alstromer",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "prov": [],
+      "self_ref": "#/texts/118",
+      "text": "Referrals At Airbnb: Driving Sustainable & Scalable Growth with Jimmy Tang and Gustaf Alstromer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": "https://medium.com/airbnb-engineering/hacking-word-of-mouth-making-referrals-work-for-airbnb-46468e7790a6",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Hacking Word-of-Mouth: Making Referrals Work for Airbnb",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "prov": [],
+      "self_ref": "#/texts/119",
+      "text": "Hacking Word-of-Mouth: Making Referrals Work for Airbnb"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": "https://www.youtube.com/watch?v=60WkV2gS-ds",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Under the Microscope: How Airbnb Thinks About Product/Market Fit, Team & More",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "prov": [],
+      "self_ref": "#/texts/120",
+      "text": "Under the Microscope: How Airbnb Thinks About Product/Market Fit, Team & More"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": "https://www.cloudsponge.com/blog/airbnb-referral-program/",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "How Airbnb Built One Of The Most Successful Referral Programs Ever",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "prov": [],
+      "self_ref": "#/texts/121",
+      "text": "How Airbnb Built One Of The Most Successful Referral Programs Ever"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Though a referral program isn’t right for everyone, for many companies it’s one of the most effective growth levers out there.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/122",
+      "text": "Though a referral program isn’t right for everyone, for many companies it’s one of the most effective growth levers out there."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Go get ‘em!",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/123",
+      "text": "Go get ‘em!"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "Inspirations for the week ahead 🧠",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/124",
+      "text": "Inspirations for the week ahead 🧠"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/35"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "prov": [],
+      "self_ref": "#/texts/125",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Read",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "prov": [],
+      "self_ref": "#/texts/126",
+      "text": "Read"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ":",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "prov": [],
+      "self_ref": "#/texts/127",
+      "text": ":"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://firstround.com/review/managers-take-your-1-1s-to-the-next-level-with-these-6-must-reads/",
+      "label": "text",
+      "meta": null,
+      "orig": "Managers, Take Your 1:1s to the Next Level with These 6 Must Reads",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "prov": [],
+      "self_ref": "#/texts/128",
+      "text": "Managers, Take Your 1:1s to the Next Level with These 6 Must Reads"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "— An excellent collection of pro tips for 1:1 meetings, including snippets from yours truly.",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "prov": [],
+      "self_ref": "#/texts/129",
+      "text": "— An excellent collection of pro tips for 1:1 meetings, including snippets from yours truly."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/36"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "prov": [],
+      "self_ref": "#/texts/130",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Watch",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "prov": [],
+      "self_ref": "#/texts/131",
+      "text": "Watch"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ":",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "prov": [],
+      "self_ref": "#/texts/132",
+      "text": ":"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.youtube.com/watch?v=acPhktaGn5o",
+      "label": "text",
+      "meta": null,
+      "orig": "Satisfaction: Mug",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "prov": [],
+      "self_ref": "#/texts/133",
+      "text": "Satisfaction: Mug"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "— Make sure your sound is on.",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "prov": [],
+      "self_ref": "#/texts/134",
+      "text": "— Make sure your sound is on."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/37"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "prov": [],
+      "self_ref": "#/texts/135",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Follow",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "prov": [],
+      "self_ref": "#/texts/136",
+      "text": "Follow"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ":",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "prov": [],
+      "self_ref": "#/texts/137",
+      "text": ":"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://thebrowser.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "The Browser",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "prov": [],
+      "self_ref": "#/texts/138",
+      "text": "The Browser"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "— A curated weekly collection of beautiful and insightful writing.",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "prov": [],
+      "self_ref": "#/texts/139",
+      "text": "— A curated weekly collection of beautiful and insightful writing."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’re finding this newsletter valuable, consider",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/140",
+      "text": "If you’re finding this newsletter valuable, consider"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.lennyrachitsky.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "sharing it with friends",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/141",
+      "text": "sharing it with friends"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(or subscribing if you aren’t already)",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/142",
+      "text": "(or subscribing if you aren’t already)"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/subscribe?",
+      "label": "text",
+      "meta": null,
+      "orig": "Sign up now",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/143",
+      "text": "Sign up now"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Sincerely,",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/144",
+      "text": "Sincerely,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Lenny 👋",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/145",
+      "text": "Lenny 👋"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Building a referrals program",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/146",
+      "text": "Image from Building a referrals program"
+    }
+  ],
+  "version": "1.10.0"
+}

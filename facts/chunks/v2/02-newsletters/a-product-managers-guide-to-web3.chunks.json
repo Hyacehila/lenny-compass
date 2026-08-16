@@ -1,0 +1,2109 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000000",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\n*👋 Hey,*\n[*Lenny*](https://twitter.com/lennysan)\n*here! Welcome to a ✨*\n***monthly free edition***\n*✨ of my weekly newsletter. Each week I tackle reader questions about building product, driving growth, working with humans, and anything else that’s stressing you out about work. If you’re not a subscriber, here’s what you missed this month:*\n1. [Lessons from 140+ angel investments](https://www.lennysnewsletter.com/p/angel-investing)\n2. [How to get promoted](https://www.lennysnewsletter.com/p/how-to-get-promoted)\n3. [What is good monthly churn](https://www.lennysnewsletter.com/p/monthly-churn-benchmarks)",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000000",
+        "chunk_sha256": "7c59d3d2b0049fcb59e7cc79f1b8593339707bd91fbe5ac4e982c43f7eb67dfc",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 8,
+          "last_self_ref": "#/texts/8"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "*👋 Hey,*\n[*Lenny*](https://twitter.com/lennysan)\n*here! Welcome to a ✨*\n***monthly free edition***\n*✨ of my weekly newsletter. Each week I tackle reader questions about building product, driving growth, working with humans, and anything else that’s stressing you out about work. If you’re not a subscriber, here’s what you missed this month:*\n1. [Lessons from 140+ angel investments](https://www.lennysnewsletter.com/p/angel-investing)\n2. [How to get promoted](https://www.lennysnewsletter.com/p/how-to-get-promoted)\n3. [What is good monthly churn](https://www.lennysnewsletter.com/p/monthly-churn-benchmarks)",
+      "token_count": 278
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000001",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nQ: I’ve been a PM for a few years and I’m thinking about getting into web3. How is PM’ing different at a web3 startup, and what’s the best path into web3?\nWith so many smart friends jumping into web3, this question has also been on my mind. The PM role is already so strange and varied—how does the web3 way of working change the role further? Is it fun to be a PM in web3? Are PMs even necessary?\nTo understand this myself, I reached out to my good friend\n[Jason Shah](https://twitter.com/0xShah)\n, who I was lucky to work with at Airbnb for many years and who now leads product at\n[Alchemy](https://www.alchemy.com/)\n. Alchemy is essentially AWS for web3, and has quickly become a fundamental infra layer in the web3 startup stack. And just last week, the company\n[announced a raise of $200M at a $10B valuation](https://techcrunch.com/2022/02/08/alchemy-which-aims-to-be-the-de-facto-platform-for-developers-to-build-on-web3-raises-another-200m-and-is-now-valued-at-10-2b/)\n. Through Jason’s experience scaling Alchemy, working with hundreds of web3 startups in the process, and having just recently (and methodically) made the transition into web3, I knew Jason would be an incredible source of insight on the PM role in web3. He did not disappoint 🔥 Below, he shares the most in-depth guide to product management in web3 you’ll find anywhere. I learned so much about the wild and wonderful world of web3 from Jason, and I hope you enjoy it as much as I did.",
+      "doc_item_refs": [
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "Q: I’ve been a PM for a few years and I’m thinking about getting into web3. How is PM’ing different at a web3 startup, and what’s the best path into web3?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000001",
+        "chunk_sha256": "2039c8f562fa59332aaa72d6fa626c6f155e8c880bb246e44d3e740ec473d6d2",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "Q: I’ve been a PM for a few years and I’m thinking about getting into web3. How is PM’ing different at a web3 startup, and what’s the best path into web3?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/10",
+          "item_count": 8,
+          "last_self_ref": "#/texts/17"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "With so many smart friends jumping into web3, this question has also been on my mind. The PM role is already so strange and varied—how does the web3 way of working change the role further? Is it fun to be a PM in web3? Are PMs even necessary?\nTo understand this myself, I reached out to my good friend\n[Jason Shah](https://twitter.com/0xShah)\n, who I was lucky to work with at Airbnb for many years and who now leads product at\n[Alchemy](https://www.alchemy.com/)\n. Alchemy is essentially AWS for web3, and has quickly become a fundamental infra layer in the web3 startup stack. And just last week, the company\n[announced a raise of $200M at a $10B valuation](https://techcrunch.com/2022/02/08/alchemy-which-aims-to-be-the-de-facto-platform-for-developers-to-build-on-web3-raises-another-200m-and-is-now-valued-at-10-2b/)\n. Through Jason’s experience scaling Alchemy, working with hundreds of web3 startups in the process, and having just recently (and methodically) made the transition into web3, I knew Jason would be an incredible source of insight on the PM role in web3. He did not disappoint 🔥 Below, he shares the most in-depth guide to product management in web3 you’ll find anywhere. I learned so much about the wild and wonderful world of web3 from Jason, and I hope you enjoy it as much as I did.",
+      "token_count": 494
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000002",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nQ: I’ve been a PM for a few years and I’m thinking about getting into web3. How is PM’ing different at a web3 startup, and what’s the best path into web3?\nIn true web3 fashion, Jason minted the core artwork from this post, “\n[**WAGMI: Web2 PM Meet Web3 PM**](https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/59793507817619197726422726491707995633373880928833237379690573428648344289281)\n**,” and will be auctioning it off to raise funds for**\n[**Girls Who Code**](https://girlswhocode.com/)\n**and**\n[**PadawanDAO**](https://twitter.com/PadawanDAO)\n**in a two-day OpenSea auction.**\n[Check out the auction](https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/59793507817619197726422726491707995633373880928833237379690573428648344289281)\nThanks, Jason!\n*P.S. You can now hear this post in audio form:*\nImage from A product manager’s guide to web3\nImage from A product manager’s guide to web3\nIf you hadn’t noticed, web3 is exploding. Everyone is talking about NFTs and DeFi, and investment and job postings in web3 both grew by\n[more than 400% in 2021](https://www.nytimes.com/2021/12/01/business/dealbook/crypto-venture-capital.html)\n. What does that mean for you, anon web2 product manager? There are countless opportunities to make a big impact and grow your career by transitioning into web3. But it can be an opaque process and a risky decision. So let’s prepare you for web3.\nImage from A product manager’s guide to web3\nImage from A product manager’s guide to web3\nIn this article, we will explain three core concepts:\n1. The unique attributes of a web3 PM\n2. The advantages and disadvantages of PM’ing in web3\n3. How to make the transition into web3\nLet’s get into it.",
+      "doc_item_refs": [
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/426",
+        "#/texts/28",
+        "#/texts/427",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/428",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "Q: I’ve been a PM for a few years and I’m thinking about getting into web3. How is PM’ing different at a web3 startup, and what’s the best path into web3?",
+        "In true web3 fashion, Jason minted the core artwork from this post, “"
+      ],
+      "images": [
+        {
+          "caption": "Image from A product manager’s guide to web3",
+          "image_id": "02-newsletters/a-product-managers-guide-to-web3.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/024a1841-c38d-447c-8f10-f0b5f7e7ede2_1456x240.png"
+        },
+        {
+          "caption": "Image from A product manager’s guide to web3",
+          "image_id": "02-newsletters/a-product-managers-guide-to-web3.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/0b8b39b9-518d-447f-84b8-16e168980449_4096x1368.png"
+        },
+        {
+          "caption": "Image from A product manager’s guide to web3",
+          "image_id": "02-newsletters/a-product-managers-guide-to-web3.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/518222ac-b5b0-4105-ab38-551acd759fc9_1000x500.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000002",
+        "chunk_sha256": "9a38f224e956c54a914670351884746487e0918da637dd17ab445a7a3ad72076",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "Q: I’ve been a PM for a few years and I’m thinking about getting into web3. How is PM’ing different at a web3 startup, and what’s the best path into web3?",
+          "In true web3 fashion, Jason minted the core artwork from this post, “"
+        ],
+        "images": [
+          {
+            "caption": "Image from A product manager’s guide to web3",
+            "image_id": "02-newsletters/a-product-managers-guide-to-web3.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/024a1841-c38d-447c-8f10-f0b5f7e7ede2_1456x240.png"
+          },
+          {
+            "caption": "Image from A product manager’s guide to web3",
+            "image_id": "02-newsletters/a-product-managers-guide-to-web3.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/0b8b39b9-518d-447f-84b8-16e168980449_4096x1368.png"
+          },
+          {
+            "caption": "Image from A product manager’s guide to web3",
+            "image_id": "02-newsletters/a-product-managers-guide-to-web3.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/518222ac-b5b0-4105-ab38-551acd759fc9_1000x500.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/19",
+          "item_count": 23,
+          "last_self_ref": "#/texts/38"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/426",
+          "#/texts/28",
+          "#/texts/427",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32",
+          "#/texts/428",
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "[**WAGMI: Web2 PM Meet Web3 PM**](https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/59793507817619197726422726491707995633373880928833237379690573428648344289281)\n**,” and will be auctioning it off to raise funds for**\n[**Girls Who Code**](https://girlswhocode.com/)\n**and**\n[**PadawanDAO**](https://twitter.com/PadawanDAO)\n**in a two-day OpenSea auction.**\n[Check out the auction](https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/59793507817619197726422726491707995633373880928833237379690573428648344289281)\nThanks, Jason!\n*P.S. You can now hear this post in audio form:*\nImage from A product manager’s guide to web3\nImage from A product manager’s guide to web3\nIf you hadn’t noticed, web3 is exploding. Everyone is talking about NFTs and DeFi, and investment and job postings in web3 both grew by\n[more than 400% in 2021](https://www.nytimes.com/2021/12/01/business/dealbook/crypto-venture-capital.html)\n. What does that mean for you, anon web2 product manager? There are countless opportunities to make a big impact and grow your career by transitioning into web3. But it can be an opaque process and a risky decision. So let’s prepare you for web3.\nImage from A product manager’s guide to web3\nImage from A product manager’s guide to web3\nIn this article, we will explain three core concepts:\n1. The unique attributes of a web3 PM\n2. The advantages and disadvantages of PM’ing in web3\n3. How to make the transition into web3\nLet’s get into it.",
+      "token_count": 682
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000003",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nHow is PM’ing different at a web3 startup?\nWeb3 product managers are still cross-functional leaders driving outcomes, but web3 product management is different in three primary ways:\n1. It’s more **versatile**\n2. It’s more **art than science**\n3. It’s more **public**\nIt’s more\n**versatile**\nbecause to find product-market fit, PMs also own incentives, partnerships, and community. This requires a more flexible skill set and the ability to learn quickly.\nIt’s\n**more art than science**\nbecause there is very little user data and A/B testing given web3 values and the small user bases. This requires more intuition and the ability to make decisions in a very high-ambiguity environment.\nIt’s\n**more public**\nin that discussions about decisions tend to happen in Discord, Crypto Twitter, and public Snapshot proposals. This creates more inclusiveness but also requires a PM to be effective at community engagement rather than purely analytical and influential behind closed doors.",
+      "doc_item_refs": [
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/44",
+        "#/texts/47",
+        "#/texts/50",
+        "#/texts/51",
+        "#/texts/52",
+        "#/texts/53",
+        "#/texts/54",
+        "#/texts/55",
+        "#/texts/56",
+        "#/texts/57",
+        "#/texts/58"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "How is PM’ing different at a web3 startup?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000003",
+        "chunk_sha256": "899b0a90f49b7eee4b33955eb3b466360553cadbf3c9308edc84d5b40d85f80c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "How is PM’ing different at a web3 startup?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/40",
+          "item_count": 13,
+          "last_self_ref": "#/texts/58"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/40",
+          "#/texts/41",
+          "#/texts/44",
+          "#/texts/47",
+          "#/texts/50",
+          "#/texts/51",
+          "#/texts/52",
+          "#/texts/53",
+          "#/texts/54",
+          "#/texts/55",
+          "#/texts/56",
+          "#/texts/57",
+          "#/texts/58"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "Web3 product managers are still cross-functional leaders driving outcomes, but web3 product management is different in three primary ways:\n1. It’s more **versatile**\n2. It’s more **art than science**\n3. It’s more **public**\nIt’s more\n**versatile**\nbecause to find product-market fit, PMs also own incentives, partnerships, and community. This requires a more flexible skill set and the ability to learn quickly.\nIt’s\n**more art than science**\nbecause there is very little user data and A/B testing given web3 values and the small user bases. This requires more intuition and the ability to make decisions in a very high-ambiguity environment.\nIt’s\n**more public**\nin that discussions about decisions tend to happen in Discord, Crypto Twitter, and public Snapshot proposals. This creates more inclusiveness but also requires a PM to be effective at community engagement rather than purely analytical and influential behind closed doors.",
+      "token_count": 302
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000004",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nHow is PM’ing different at a web3 startup?\nProduct managers aren’t yet very common in web3\nMost projects have become successful without PMs.\nCreating a DeFi protocol? You need a protocol specialist. Building an engaged community for an NFT project? Hire an anon community manager with 50K Crypto Twitter followers and a penchant for meme mastery. Need to write smart contracts? Solidity or Rust developers can help.\n**The most important things a web3 team needs usually don’t have that much to do with product managers**\n. The\n[Ethereum Foundation that has 97 employees](https://www.linkedin.com/company/ethereum-foundation/people/)\nand stewards a $500B Layer 1 protocol with virtually zero PMs. A leading NFT project like\n[World of Women](https://worldofwomen.art/about-us.html)\nhas artists, a head of philanthropy, and legal counsel, but no PMs. When creating a DeFi protocol or running an NFT drop, teams mainly just need a developer, a community manager, and a protocol designer (DeFi) or an artist (NFTs).\n**PMs have had 20 years to demonstrate value and carve out a role in Big Tech, becoming the leaders of a company’s vision or a feature’s execution. Not here.**\nWhen I explored roles with 20+ web3 teams in 2021, nearly half of them didn’t understand what PMs were for.",
+      "doc_item_refs": [
+        "#/texts/60",
+        "#/texts/61",
+        "#/texts/62",
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65",
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "How is PM’ing different at a web3 startup?",
+        "Product managers aren’t yet very common in web3"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000004",
+        "chunk_sha256": "14ab90359b87b217a0d03b58e381542729d23b2e5a25e8c3bb6d070d82bd9e3f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "How is PM’ing different at a web3 startup?",
+          "Product managers aren’t yet very common in web3"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/60",
+          "item_count": 10,
+          "last_self_ref": "#/texts/69"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/60",
+          "#/texts/61",
+          "#/texts/62",
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65",
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "Most projects have become successful without PMs.\nCreating a DeFi protocol? You need a protocol specialist. Building an engaged community for an NFT project? Hire an anon community manager with 50K Crypto Twitter followers and a penchant for meme mastery. Need to write smart contracts? Solidity or Rust developers can help.\n**The most important things a web3 team needs usually don’t have that much to do with product managers**\n. The\n[Ethereum Foundation that has 97 employees](https://www.linkedin.com/company/ethereum-foundation/people/)\nand stewards a $500B Layer 1 protocol with virtually zero PMs. A leading NFT project like\n[World of Women](https://worldofwomen.art/about-us.html)\nhas artists, a head of philanthropy, and legal counsel, but no PMs. When creating a DeFi protocol or running an NFT drop, teams mainly just need a developer, a community manager, and a protocol designer (DeFi) or an artist (NFTs).\n**PMs have had 20 years to demonstrate value and carve out a role in Big Tech, becoming the leaders of a company’s vision or a feature’s execution. Not here.**\nWhen I explored roles with 20+ web3 teams in 2021, nearly half of them didn’t understand what PMs were for.",
+      "token_count": 401
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000005",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nHow is PM’ing different at a web3 startup?\nProduct managers aren’t as necessary for the web3 0-1 phase\nIn web2, the founder or early product manager can be crucial in deciding what and how to build, which helps get to the holy grail of product-market fit. In web3 the product experience, such as features and perceptible user experience, doesn’t actually matter as much to the success of the project relative to the token incentives (Staking and AMMs), trading pairs (DEX), artwork (NFTs), network design (L1s/L2s), transaction speed (L1s/L2s), security (L1s/L2s), or other attributes. These are areas where PMs are secondary, if relevant at all.\nIn the case of the Ethereum Name Service, the website and front-end interface to register a domain is fairly simple for a developer to do compared with building complex blockchain infrastructure or structuring DAO governance. Web3 0-1 is more about technical infrastructure, cryptoeconomics, and/or online community to find product-market fit. At this time, PMs in web3 are usually better for 1-10, not web3 0-1 when you are going from an idea to initial product-market fit.",
+      "doc_item_refs": [
+        "#/texts/71",
+        "#/texts/72"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "How is PM’ing different at a web3 startup?",
+        "Product managers aren’t as necessary for the web3 0-1 phase"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000005",
+        "chunk_sha256": "1586629ed13b1a2edf73d3a604e95261caf030ce9136a569a25be8f1f126c976",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "How is PM’ing different at a web3 startup?",
+          "Product managers aren’t as necessary for the web3 0-1 phase"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/71",
+          "item_count": 2,
+          "last_self_ref": "#/texts/72"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/71",
+          "#/texts/72"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "In web2, the founder or early product manager can be crucial in deciding what and how to build, which helps get to the holy grail of product-market fit. In web3 the product experience, such as features and perceptible user experience, doesn’t actually matter as much to the success of the project relative to the token incentives (Staking and AMMs), trading pairs (DEX), artwork (NFTs), network design (L1s/L2s), transaction speed (L1s/L2s), security (L1s/L2s), or other attributes. These are areas where PMs are secondary, if relevant at all.\nIn the case of the Ethereum Name Service, the website and front-end interface to register a domain is fairly simple for a developer to do compared with building complex blockchain infrastructure or structuring DAO governance. Web3 0-1 is more about technical infrastructure, cryptoeconomics, and/or online community to find product-market fit. At this time, PMs in web3 are usually better for 1-10, not web3 0-1 when you are going from an idea to initial product-market fit.",
+      "token_count": 362
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000006",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nHow is PM’ing different at a web3 startup?\nProduct managers need different core skills in web3\nMany PMs develop skills like “communication” and “influence” at larger organizations, or even startups where they need to work closely with founders and rally overworked teams. This makes sense because persuasion and coordination have been core to the web2 PM job. Those skills don’t matter as much here. Web3 PM is more focused on execution and community—like signing a big new protocol partner or getting tons of anon users via Twitter.\nIn web2 I was afraid to tweet much, for professional consequences. Now I’d be untrustworthy if I didn’t tweet a lot.\n**Making a viral meme is more important than writing a good email.**\nThat is because getting positive attention in the frenetic world of web3 is more valuable than “alignment.” There are almost no PM career ladders or performance reviews, so teams are purely focused on making a project successful, not politics.",
+      "doc_item_refs": [
+        "#/texts/74",
+        "#/texts/75",
+        "#/texts/76",
+        "#/texts/77"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "How is PM’ing different at a web3 startup?",
+        "Product managers need different core skills in web3"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000006",
+        "chunk_sha256": "e45a3450e671736e30ca93cea87b7cf2315ede4f4ac035311447897ab8c99e5f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "How is PM’ing different at a web3 startup?",
+          "Product managers need different core skills in web3"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/74",
+          "item_count": 4,
+          "last_self_ref": "#/texts/77"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/74",
+          "#/texts/75",
+          "#/texts/76",
+          "#/texts/77"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "Many PMs develop skills like “communication” and “influence” at larger organizations, or even startups where they need to work closely with founders and rally overworked teams. This makes sense because persuasion and coordination have been core to the web2 PM job. Those skills don’t matter as much here. Web3 PM is more focused on execution and community—like signing a big new protocol partner or getting tons of anon users via Twitter.\nIn web2 I was afraid to tweet much, for professional consequences. Now I’d be untrustworthy if I didn’t tweet a lot.\n**Making a viral meme is more important than writing a good email.**\nThat is because getting positive attention in the frenetic world of web3 is more valuable than “alignment.” There are almost no PM career ladders or performance reviews, so teams are purely focused on making a project successful, not politics.",
+      "token_count": 294
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000007",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nHow is PM’ing different at a web3 startup?\nWhen web3 startups generally hire a PM\nAll that being said, there are several situations that create a need for a PM at a web3 startup:\n1. **Engineers have become inefficient:** The engineering team has grown too large to prioritize and self-coordinate projects; a PM adds efficiency (e.g. multiple Layer 1 protocols and EVM solutions).\n2. **The product experience is complex or critical to traction:** The product suite is large and the UX is complex/consumer-facing, as in gaming (e.g. the Sky Mavis play-to-earn game Axie Infinity). Some products compete initially by cloning products (e.g. Sushiswap forked Uniswap) and adding tokens, so that requires less product management support and is more focused on technical and cryptoeconomic changes than gaming or wallets.\n3. **There’s a mix of externally facing activities that a single specialist couldn’t do, but a versatile PM can:** There is marketing, growth, business development, and community work the devs don’t want to do and don’t need a dedicated hire for, such that a versatile PM can help. Over time, there are needs for specialist PMs as well (e.g. an L1 like Flow or a marketplace experience like NBA Top Shot), but less at early-stage web3 startups.",
+      "doc_item_refs": [
+        "#/texts/79",
+        "#/texts/80",
+        "#/texts/83",
+        "#/texts/86"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "How is PM’ing different at a web3 startup?",
+        "When web3 startups generally hire a PM"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000007",
+        "chunk_sha256": "ecf39e730008975c1e15f6214f946882e62d69a657dc6adb93962e3fbd7bf6f6",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "How is PM’ing different at a web3 startup?",
+          "When web3 startups generally hire a PM"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/79",
+          "item_count": 4,
+          "last_self_ref": "#/texts/86"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/79",
+          "#/texts/80",
+          "#/texts/83",
+          "#/texts/86"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "All that being said, there are several situations that create a need for a PM at a web3 startup:\n1. **Engineers have become inefficient:** The engineering team has grown too large to prioritize and self-coordinate projects; a PM adds efficiency (e.g. multiple Layer 1 protocols and EVM solutions).\n2. **The product experience is complex or critical to traction:** The product suite is large and the UX is complex/consumer-facing, as in gaming (e.g. the Sky Mavis play-to-earn game Axie Infinity). Some products compete initially by cloning products (e.g. Sushiswap forked Uniswap) and adding tokens, so that requires less product management support and is more focused on technical and cryptoeconomic changes than gaming or wallets.\n3. **There’s a mix of externally facing activities that a single specialist couldn’t do, but a versatile PM can:** There is marketing, growth, business development, and community work the devs don’t want to do and don’t need a dedicated hire for, such that a versatile PM can help. Over time, there are needs for specialist PMs as well (e.g. an L1 like Flow or a marketplace experience like NBA Top Shot), but less at early-stage web3 startups.",
+      "token_count": 395
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000008",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\n\n**What**\n***is***\n**a web3 PM?**\nOne oversimplified, universal definition of a web3 PM is:",
+      "doc_item_refs": [
+        "#/texts/90",
+        "#/texts/91",
+        "#/texts/92",
+        "#/texts/93"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000008",
+        "chunk_sha256": "c2324e7583405cfc4d4168a8e34c0c1177103a3f0f733050583e699ce663afc0",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/90",
+          "item_count": 4,
+          "last_self_ref": "#/texts/93"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/90",
+          "#/texts/91",
+          "#/texts/92",
+          "#/texts/93"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "**What**\n***is***\n**a web3 PM?**\nOne oversimplified, universal definition of a web3 PM is:",
+      "token_count": 116
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000009",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\n\nWeb3 PMs are responsible for the success of communities rather than increasing acquisition, engagement, or revenue.\nHearts over charts.\nImage from A product manager’s guide to web3\nImage from A product manager’s guide to web3\nWe have seen the past 10 years of web2 demonstrate scenarios where the interests of the community (e.g. internet-addicted teenagers, underpaid ride-share drivers, local restaurants stuck with high platform fees) are deprioritized in favor of company-first north-star metrics.\n**In web3, if the community—such as the NFT creators, liquidity providers, or software developers—is not successful, you are NGMI. Community first.**\nBut how do you make a community successful? To do this, web3 PMs have to think about protocol design, tokenomics, user safety, security, growth marketing, community engagement, and much more that encompasses the interconnected people, technology, and economics of web3 products. Let’s unpack this further.",
+      "doc_item_refs": [
+        "#/texts/95",
+        "#/texts/429",
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/98",
+        "#/texts/99"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "",
+        "Web3 PMs are responsible for the success of communities rather than increasing acquisition, engagement, or revenue."
+      ],
+      "images": [
+        {
+          "caption": "Image from A product manager’s guide to web3",
+          "image_id": "02-newsletters/a-product-managers-guide-to-web3.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/7f9926e6-20fd-45af-a6df-abfc26453c8d_1000x500.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000009",
+        "chunk_sha256": "a0013bf48a26683c875af98eacb2bdc946770061b82f64310d15978bf9e414f6",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "",
+          "Web3 PMs are responsible for the success of communities rather than increasing acquisition, engagement, or revenue."
+        ],
+        "images": [
+          {
+            "caption": "Image from A product manager’s guide to web3",
+            "image_id": "02-newsletters/a-product-managers-guide-to-web3.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/7f9926e6-20fd-45af-a6df-abfc26453c8d_1000x500.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/95",
+          "item_count": 6,
+          "last_self_ref": "#/texts/99"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/95",
+          "#/texts/429",
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/98",
+          "#/texts/99"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "Hearts over charts.\nImage from A product manager’s guide to web3\nImage from A product manager’s guide to web3\nWe have seen the past 10 years of web2 demonstrate scenarios where the interests of the community (e.g. internet-addicted teenagers, underpaid ride-share drivers, local restaurants stuck with high platform fees) are deprioritized in favor of company-first north-star metrics.\n**In web3, if the community—such as the NFT creators, liquidity providers, or software developers—is not successful, you are NGMI. Community first.**\nBut how do you make a community successful? To do this, web3 PMs have to think about protocol design, tokenomics, user safety, security, growth marketing, community engagement, and much more that encompasses the interconnected people, technology, and economics of web3 products. Let’s unpack this further.",
+      "token_count": 293
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000010",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\n\nTen truths of web3 product management\n1. You have to prioritize execution over vision/strategy\nWeb2 PM careers reward setting long-term vision and crafting a nuanced strategy to achieve OKRs. Execution is expected but not what is most recognized as one progresses from a junior PM to a more senior product leader. Not in web3. I have not seen a single PM vision document; vision lives in whitepapers by technical architects who know cryptography and sharding.\nWeb3 instead requires PMs to be more focused on execution: quickly hammering out a spec over Telegram with devs, QA’ing carefully and setting up a smart contract audit given the risk of vulnerabilities, building hype on Twitter, launching—and repeating.\nWeb3 moves too quickly for pontification; new protocols launch daily and DeFi concepts like bonding curves and OHM forks are being tested in real time, so visions and strategies quickly become outdated. This may change over time as the space matures and product vision becomes more of a competitive advantage. But instead, today the best web3 PMs spend 95/5 on execution/vision, not 70/30.\n**Web3 PM emphasizes building, marketing, and iterating rather than planning, managing, and measuring.**\nGiven the pace in web3, this prioritization of execution with the right principles has led to greater success.",
+      "doc_item_refs": [
+        "#/texts/102",
+        "#/texts/103",
+        "#/texts/104",
+        "#/texts/105",
+        "#/texts/106"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "",
+        "Ten truths of web3 product management",
+        "1. You have to prioritize execution over vision/strategy"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000010",
+        "chunk_sha256": "0256e839269c93f7e24f7a2d2b09c2e8dcf8049f076e1158c8974bd39dce1310",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "",
+          "Ten truths of web3 product management",
+          "1. You have to prioritize execution over vision/strategy"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/102",
+          "item_count": 5,
+          "last_self_ref": "#/texts/106"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/102",
+          "#/texts/103",
+          "#/texts/104",
+          "#/texts/105",
+          "#/texts/106"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "Web2 PM careers reward setting long-term vision and crafting a nuanced strategy to achieve OKRs. Execution is expected but not what is most recognized as one progresses from a junior PM to a more senior product leader. Not in web3. I have not seen a single PM vision document; vision lives in whitepapers by technical architects who know cryptography and sharding.\nWeb3 instead requires PMs to be more focused on execution: quickly hammering out a spec over Telegram with devs, QA’ing carefully and setting up a smart contract audit given the risk of vulnerabilities, building hype on Twitter, launching—and repeating.\nWeb3 moves too quickly for pontification; new protocols launch daily and DeFi concepts like bonding curves and OHM forks are being tested in real time, so visions and strategies quickly become outdated. This may change over time as the space matures and product vision becomes more of a competitive advantage. But instead, today the best web3 PMs spend 95/5 on execution/vision, not 70/30.\n**Web3 PM emphasizes building, marketing, and iterating rather than planning, managing, and measuring.**\nGiven the pace in web3, this prioritization of execution with the right principles has led to greater success.",
+      "token_count": 366
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000011",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\n\nTen truths of web3 product management\n2. You have to do user research, business development, and marketing directly, yourself\nAs web2 matured, the PM role was unbundled: user researchers, UX and UI designers, data scientists, QA testers, product marketing managers, social media managers, and more. Because web3 is so new, the 2020s talent market is tight, and web3 teams lack much of the traditional organizational design of web2 companies, PMs have to do everything again: listen to the community on Discord and Crypto Twitter (user researcher), run some on-chain analysis through a tool like Dune Analytics (data scientist), sketch out the token swapping UX and the AMM’s proposed liquidity incentives (designer and tech lead), form partnerships with stablecoin protocols (BD manager), write the launch blog post (product marketing manager), and make the memes and virality happen on Twitter (social media manager).\n**Web3 requires one person to do all of this right now, because the tasks above are uniquely technical and interdependent such that they can’t be easily unbundled.**",
+      "doc_item_refs": [
+        "#/texts/108",
+        "#/texts/109"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "",
+        "Ten truths of web3 product management",
+        "2. You have to do user research, business development, and marketing directly, yourself"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000011",
+        "chunk_sha256": "385e32256e4f370aa499b7d863f39f66030c84384c7c8996a66114cab08eafe8",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "",
+          "Ten truths of web3 product management",
+          "2. You have to do user research, business development, and marketing directly, yourself"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/108",
+          "item_count": 2,
+          "last_self_ref": "#/texts/109"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/108",
+          "#/texts/109"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "As web2 matured, the PM role was unbundled: user researchers, UX and UI designers, data scientists, QA testers, product marketing managers, social media managers, and more. Because web3 is so new, the 2020s talent market is tight, and web3 teams lack much of the traditional organizational design of web2 companies, PMs have to do everything again: listen to the community on Discord and Crypto Twitter (user researcher), run some on-chain analysis through a tool like Dune Analytics (data scientist), sketch out the token swapping UX and the AMM’s proposed liquidity incentives (designer and tech lead), form partnerships with stablecoin protocols (BD manager), write the launch blog post (product marketing manager), and make the memes and virality happen on Twitter (social media manager).\n**Web3 requires one person to do all of this right now, because the tasks above are uniquely technical and interdependent such that they can’t be easily unbundled.**",
+      "token_count": 325
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000012",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\n\nTen truths of web3 product management\n3. You have to focus on perfecting the details rather than expanding features\nFront-end interactions are extremely limited, and winning is based on a marginally more secure or higher-yielding product. Web3 products don’t need to maximize engagement by adding more features. The web3 model doesn’t depend on advertising or a freemium SaaS model that converts free users to paid plans. Those models\n**inherently incentivize web2 PMs to focus on getting people to extensively use a product, rather than simply benefiting from a product**\n.\nIt’s the quality of the artwork for a collection like Bored Ape Yacht Club, or the ease of setup for a DAO, or the availability of liquidity on a DEX to minimize price impact that determines the success of a web3 project.\nConsider native staking through a Layer 1 blockchain like Cosmos. What matters to a user are details like the annual percentage yield (APY, or the return on investment) and if there’s a cooldown period where the tokens remain staked and cannot be accessed—not so much the UI. The UI is a commodity in part because of open-source and composability where teams fork each other’s products.\n**The UX tends to be either a commodity, like a simple token swap two-field design that Uniswap pioneered, or out of your control if gas fees are high and transactions are slow. So the few details you control really matter.**\nThe actual flow of clicking to stake doesn’t matter as much, and, in fact, the ecosystem is optimizing for you to not visit the app very frequently because staked collateral is more stable for the network. But the APY and speed do matter. Engagement less so.",
+      "doc_item_refs": [
+        "#/texts/111",
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/114",
+        "#/texts/115",
+        "#/texts/116",
+        "#/texts/117"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "",
+        "Ten truths of web3 product management",
+        "3. You have to focus on perfecting the details rather than expanding features"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000012",
+        "chunk_sha256": "d73d6f5c0c2ed8b8a6d3ce43a5181edd2a5de76497ac53c53d91218fdbd44d94",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "",
+          "Ten truths of web3 product management",
+          "3. You have to focus on perfecting the details rather than expanding features"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/111",
+          "item_count": 7,
+          "last_self_ref": "#/texts/117"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/111",
+          "#/texts/112",
+          "#/texts/113",
+          "#/texts/114",
+          "#/texts/115",
+          "#/texts/116",
+          "#/texts/117"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "Front-end interactions are extremely limited, and winning is based on a marginally more secure or higher-yielding product. Web3 products don’t need to maximize engagement by adding more features. The web3 model doesn’t depend on advertising or a freemium SaaS model that converts free users to paid plans. Those models\n**inherently incentivize web2 PMs to focus on getting people to extensively use a product, rather than simply benefiting from a product**\n.\nIt’s the quality of the artwork for a collection like Bored Ape Yacht Club, or the ease of setup for a DAO, or the availability of liquidity on a DEX to minimize price impact that determines the success of a web3 project.\nConsider native staking through a Layer 1 blockchain like Cosmos. What matters to a user are details like the annual percentage yield (APY, or the return on investment) and if there’s a cooldown period where the tokens remain staked and cannot be accessed—not so much the UI. The UI is a commodity in part because of open-source and composability where teams fork each other’s products.\n**The UX tends to be either a commodity, like a simple token swap two-field design that Uniswap pioneered, or out of your control if gas fees are high and transactions are slow. So the few details you control really matter.**\nThe actual flow of clicking to stake doesn’t matter as much, and, in fact, the ecosystem is optimizing for you to not visit the app very frequently because staked collateral is more stable for the network. But the APY and speed do matter. Engagement less so.",
+      "token_count": 452
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000013",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\n\nTen truths of web3 product management\n4. You have to understand your users without their email addresses, tracking tools, or running A/B tests\nMoreover, airdrop farming and liquidity incentives can make it difficult to tell if you truly have product-market fit.In web3, users can take their data with them at any time and use multiple wallets that can’t easily be linked despite blockchain transparency, and the ethos around decentralization limits one’s ability to use something like Google Analytics, Mixpanel, or Amplitude, let alone cookies or a customer data provider to match email address to demographic information. Without this data, it can be incredibly difficult to know how people are using your product and whether you have achieved product-market fit.\nInstead you must rely on qualitative information like user feedback, network-wide information like TVL and floor prices/distribution of NFT holders, and concrete but pseudonymous information like wallets that have deposited funds or swapped tokens. Additionally, many products bootstrap communities by offering native tokens either through liquidity provider incentives for putting capital into a DeFi protocol or giving away free tokens to early believers, like when LooksRare ($LOOKS) gave tokens to high-volume OpenSea users to attract them to its decentralized platform. This lack of data and incentivized engagement, including airdrop farming, make measuring utility very unclear.",
+      "doc_item_refs": [
+        "#/texts/119",
+        "#/texts/120"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "",
+        "Ten truths of web3 product management",
+        "4. You have to understand your users without their email addresses, tracking tools, or running A/B tests"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000013",
+        "chunk_sha256": "c8f1f0fdcad53bf902bbe39cee5658ea67ee64ebfa837f15600232707dbb13c3",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "",
+          "Ten truths of web3 product management",
+          "4. You have to understand your users without their email addresses, tracking tools, or running A/B tests"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/119",
+          "item_count": 2,
+          "last_self_ref": "#/texts/120"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/119",
+          "#/texts/120"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "Moreover, airdrop farming and liquidity incentives can make it difficult to tell if you truly have product-market fit.In web3, users can take their data with them at any time and use multiple wallets that can’t easily be linked despite blockchain transparency, and the ethos around decentralization limits one’s ability to use something like Google Analytics, Mixpanel, or Amplitude, let alone cookies or a customer data provider to match email address to demographic information. Without this data, it can be incredibly difficult to know how people are using your product and whether you have achieved product-market fit.\nInstead you must rely on qualitative information like user feedback, network-wide information like TVL and floor prices/distribution of NFT holders, and concrete but pseudonymous information like wallets that have deposited funds or swapped tokens. Additionally, many products bootstrap communities by offering native tokens either through liquidity provider incentives for putting capital into a DeFi protocol or giving away free tokens to early believers, like when LooksRare ($LOOKS) gave tokens to high-volume OpenSea users to attract them to its decentralized platform. This lack of data and incentivized engagement, including airdrop farming, make measuring utility very unclear.",
+      "token_count": 371
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000014",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\n\nTen truths of web3 product management\n5. You have to design your product around the trade-offs of a given L1/L2 blockchain like Ethereum or Solana\nRather than a product fully controlled by your company or mediated by a closed platform like iOS, your product isn’t in a silo. Instead of a product your team fully controls the user interface for, like a travel booking website built on top of AWS or a social networking app distributed in the iPhone App Store that uses iOS design primitives,\n**web3 products are largely subject to the behavior of the Layer 1/Layer 2 protocol they’re built on top of, like the fast transactions on Solana or high gas fees on Ethereum Layer 1.**\nFor example, if you are building a marketplace for NFTs that cost less than $1 geared toward consumers in emerging markets with less disposable income, you may choose a lower-cost blockchain, like Solana or Avalanche, or a mobile-friendly protocol like Celo. Using Ethereum Layer 1 may routinely result in gas fees above $100 and not be accessible to your user base, unless you use a Layer 2 solution like Polygon, Arbitrum, or Optimism. Your choice of which chains you support will impact user adoption, development time, and scalability.\n**Web3 PMs need to understand different blockchains so they can select which chains to support and design accordingly, whereas in web2, PMs today rarely need to be involved with technical infrastructure decisions because it may not directly impact the end-user experience being created.**",
+      "doc_item_refs": [
+        "#/texts/122",
+        "#/texts/123",
+        "#/texts/124",
+        "#/texts/125"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "",
+        "Ten truths of web3 product management",
+        "5. You have to design your product around the trade-offs of a given L1/L2 blockchain like Ethereum or Solana"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000014",
+        "chunk_sha256": "a719a2348983d17dfea337344af4e7d3b9a4fb2d3e60314d667b14ccaae7cf24",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "",
+          "Ten truths of web3 product management",
+          "5. You have to design your product around the trade-offs of a given L1/L2 blockchain like Ethereum or Solana"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/122",
+          "item_count": 4,
+          "last_self_ref": "#/texts/125"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/122",
+          "#/texts/123",
+          "#/texts/124",
+          "#/texts/125"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "Rather than a product fully controlled by your company or mediated by a closed platform like iOS, your product isn’t in a silo. Instead of a product your team fully controls the user interface for, like a travel booking website built on top of AWS or a social networking app distributed in the iPhone App Store that uses iOS design primitives,\n**web3 products are largely subject to the behavior of the Layer 1/Layer 2 protocol they’re built on top of, like the fast transactions on Solana or high gas fees on Ethereum Layer 1.**\nFor example, if you are building a marketplace for NFTs that cost less than $1 geared toward consumers in emerging markets with less disposable income, you may choose a lower-cost blockchain, like Solana or Avalanche, or a mobile-friendly protocol like Celo. Using Ethereum Layer 1 may routinely result in gas fees above $100 and not be accessible to your user base, unless you use a Layer 2 solution like Polygon, Arbitrum, or Optimism. Your choice of which chains you support will impact user adoption, development time, and scalability.\n**Web3 PMs need to understand different blockchains so they can select which chains to support and design accordingly, whereas in web2, PMs today rarely need to be involved with technical infrastructure decisions because it may not directly impact the end-user experience being created.**",
+      "token_count": 411
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000015",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\n\nTen truths of web3 product management\n6. You have to be extremely careful about what you deploy in smart contracts, and that slows development time\nIn web3, you can’t just do a quick patch if it’s buggy. In blockchain, code is immutable. Immutability means the code can’t easily be changed unless there is a proxy contract, which can also undermine trust in a project because users can’t trust that it won’t change.\nThis is different from web2 code, where a bug can just be fixed or a database edited. If there is a security vulnerability, it can lead to massive financial loss that cannot be reversed, since there is no central party or customer support line to call to resolve an issue. This can slow development time and require you to plan around audits.",
+      "doc_item_refs": [
+        "#/texts/127",
+        "#/texts/128"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "",
+        "Ten truths of web3 product management",
+        "6. You have to be extremely careful about what you deploy in smart contracts, and that slows development time"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000015",
+        "chunk_sha256": "c900c94487039db01eeb284c4776a83e71967c2a9fdbc98e0173f8292c5c47c5",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "",
+          "Ten truths of web3 product management",
+          "6. You have to be extremely careful about what you deploy in smart contracts, and that slows development time"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 15,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/127",
+          "item_count": 2,
+          "last_self_ref": "#/texts/128"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/127",
+          "#/texts/128"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 15,
+      "raw_text": "In web3, you can’t just do a quick patch if it’s buggy. In blockchain, code is immutable. Immutability means the code can’t easily be changed unless there is a proxy contract, which can also undermine trust in a project because users can’t trust that it won’t change.\nThis is different from web2 code, where a bug can just be fixed or a database edited. If there is a security vulnerability, it can lead to massive financial loss that cannot be reversed, since there is no central party or customer support line to call to resolve an issue. This can slow development time and require you to plan around audits.",
+      "token_count": 250
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000016",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\n\nTen truths of web3 product management\n7. You cannot rely on proprietary code, trade secrets, and data moats as your competitive advantage\nEverything is open source and composable in web3, preventing incumbency/market domination: whether it’s Sushi forking Uniswap and dropping tokens to all of its users to jump-start usage in a vampire attack or all the protocols forking OHM, code in web3 is generally open source.\nMoreover, your user interface is visible to anyone and usually not that complicated, unlike vast and complex web2 social networks or SaaS product suites. This means anyone can fork your product and compete on tech/product in an instant. Combine this with how users can take their data with them, and you see how the user base isn’t locked in.\nBy contrast, if all of Facebook’s code were public and user data was portable, it’s not hard to imagine a competitor emerging. This means that web3 PMs must continue to compete with better products, stronger communities, and continuous new value to end users, and can’t rest on having an intellectual-property moat or high switching costs to succeed.",
+      "doc_item_refs": [
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/132"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "",
+        "Ten truths of web3 product management",
+        "7. You cannot rely on proprietary code, trade secrets, and data moats as your competitive advantage"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000016",
+        "chunk_sha256": "2e741d6ae127498a111eb85c77bc004ae0470953e1920d2f9a2724f48e82dd67",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "",
+          "Ten truths of web3 product management",
+          "7. You cannot rely on proprietary code, trade secrets, and data moats as your competitive advantage"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 16,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/130",
+          "item_count": 3,
+          "last_self_ref": "#/texts/132"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/132"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 16,
+      "raw_text": "Everything is open source and composable in web3, preventing incumbency/market domination: whether it’s Sushi forking Uniswap and dropping tokens to all of its users to jump-start usage in a vampire attack or all the protocols forking OHM, code in web3 is generally open source.\nMoreover, your user interface is visible to anyone and usually not that complicated, unlike vast and complex web2 social networks or SaaS product suites. This means anyone can fork your product and compete on tech/product in an instant. Combine this with how users can take their data with them, and you see how the user base isn’t locked in.\nBy contrast, if all of Facebook’s code were public and user data was portable, it’s not hard to imagine a competitor emerging. This means that web3 PMs must continue to compete with better products, stronger communities, and continuous new value to end users, and can’t rest on having an intellectual-property moat or high switching costs to succeed.",
+      "token_count": 320
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000017",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\n\nTen truths of web3 product management\n8. You cannot make all product decisions unilaterally and may not control your roadmap\nUser ownership over the protocol or dapp means that the community is a participant in decision-making. Communities need to be engaged early and often as opposed to being an afterthought or just part of a launch marketing campaign. Users generally hold tokens and have the ability to vote on the future of products, like the Ethereum Name Service (ENS) or the proposal to merge Rari Capital and Fei Protocol. While not every decision, like the canonical-but-overly-satirized web2 decision to test the color of blue on a signup button, would need to be approved by a DAO, there isn’t full autonomy either.\nFor example, Uniswap is one of the most popular DeFi protocols and needed a vote from the community to deploy its protocol to Polygon. The proposal was\n[submitted by Polygon in November 2021](https://gov.uniswap.org/t/governance-proposal-up010-deploy-uniswap-v3-to-polygon-pos-chain/15459)\n, and this affected the Uniswap product’s roadmap thereafter. Another example is the ENS core team realizing that bots were snapping up three-letter domain names because the threshold for the bit was too low at $2K and needed to be $100K to prevent squatting. The\n[proposal was submitted in January 2022](https://snapshot.org/#/ens.eth/proposal/0xf854140e16ab96eaed7bbd783f31b441ff5122efc8c002632396df9b7d20342d)\n, approved, and will be implemented through a change to an ENS oracle.\n**Communities structured as DAOs govern most protocols; product leadership must happen through them.**",
+      "doc_item_refs": [
+        "#/texts/134",
+        "#/texts/135",
+        "#/texts/136",
+        "#/texts/137",
+        "#/texts/138",
+        "#/texts/139",
+        "#/texts/140"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "",
+        "Ten truths of web3 product management",
+        "8. You cannot make all product decisions unilaterally and may not control your roadmap"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000017",
+        "chunk_sha256": "553d2f3c36ebcbaf0234ac5ef1a64b64b80cabd9a12b9ade205b8e027609acdc",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "",
+          "Ten truths of web3 product management",
+          "8. You cannot make all product decisions unilaterally and may not control your roadmap"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 17,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/134",
+          "item_count": 7,
+          "last_self_ref": "#/texts/140"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/134",
+          "#/texts/135",
+          "#/texts/136",
+          "#/texts/137",
+          "#/texts/138",
+          "#/texts/139",
+          "#/texts/140"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 17,
+      "raw_text": "User ownership over the protocol or dapp means that the community is a participant in decision-making. Communities need to be engaged early and often as opposed to being an afterthought or just part of a launch marketing campaign. Users generally hold tokens and have the ability to vote on the future of products, like the Ethereum Name Service (ENS) or the proposal to merge Rari Capital and Fei Protocol. While not every decision, like the canonical-but-overly-satirized web2 decision to test the color of blue on a signup button, would need to be approved by a DAO, there isn’t full autonomy either.\nFor example, Uniswap is one of the most popular DeFi protocols and needed a vote from the community to deploy its protocol to Polygon. The proposal was\n[submitted by Polygon in November 2021](https://gov.uniswap.org/t/governance-proposal-up010-deploy-uniswap-v3-to-polygon-pos-chain/15459)\n, and this affected the Uniswap product’s roadmap thereafter. Another example is the ENS core team realizing that bots were snapping up three-letter domain names because the threshold for the bit was too low at $2K and needed to be $100K to prevent squatting. The\n[proposal was submitted in January 2022](https://snapshot.org/#/ens.eth/proposal/0xf854140e16ab96eaed7bbd783f31b441ff5122efc8c002632396df9b7d20342d)\n, approved, and will be implemented through a change to an ENS oracle.\n**Communities structured as DAOs govern most protocols; product leadership must happen through them.**",
+      "token_count": 505
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000018",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\n\nTen truths of web3 product management\n9. You must prioritize user security, because with every transaction there are funds at stake\nEven if the application is for decentralized music listening or a social network, given how web3 wallets work, there is no real separation between funds and user engagement. Web3 can be a scary place; imagine that clicking a button in a Chrome extension can transfer a $100K JPEG to another wallet without your even realizing it.\n**Security is paramount in the space because all transactions stem from the same place: the web3 wallet.**\nHere is an example: Some PMs at NFT marketplaces prefer to prompt users for “approve all” permissions in some Metamask transactions to avoid needing to repeatedly give this permission. Repeatedly doing so would be cumbersome and expensive. But then a risk is that the user could have the entire collection transferred out of their wallet if the marketplace turns out to be malicious or gets hacked. The user just intended to give one-time access to sell an NFT. But if they don’t give that broader access, the user might have to pay repeated fees and have a cumbersome UX every time they want to execute a sale. This is an example where security may be prioritized over UX by requiring repeated approvals despite the expense, given how high the risks are. This would likely never be a consideration for a web2 marketplace like eBay or Etsy because listing an item for sale doesn’t put all of your other assets at risk due to the asset ownership model, and there is always a centralized party and team such as customer support to reverse transactions and mediate.\n**Moreover, in web3, users realistically cannot audit every smart contract, so the burden of ensuring that an app is secure and trustworthy on behalf of your users is higher in web3 given what is at stake in each interaction.**\nThis is part of why Crypto Twitter provides social proof when users can’t complete their own diligence to trust products.",
+      "doc_item_refs": [
+        "#/texts/142",
+        "#/texts/143",
+        "#/texts/144",
+        "#/texts/145",
+        "#/texts/146"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "",
+        "Ten truths of web3 product management",
+        "9. You must prioritize user security, because with every transaction there are funds at stake"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000018",
+        "chunk_sha256": "2728cfd418e1866519301fc6cd1d51f39c91059085b3dae5f59e9c3ef5e564de",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "",
+          "Ten truths of web3 product management",
+          "9. You must prioritize user security, because with every transaction there are funds at stake"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 18,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/142",
+          "item_count": 5,
+          "last_self_ref": "#/texts/146"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/142",
+          "#/texts/143",
+          "#/texts/144",
+          "#/texts/145",
+          "#/texts/146"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 18,
+      "raw_text": "Even if the application is for decentralized music listening or a social network, given how web3 wallets work, there is no real separation between funds and user engagement. Web3 can be a scary place; imagine that clicking a button in a Chrome extension can transfer a $100K JPEG to another wallet without your even realizing it.\n**Security is paramount in the space because all transactions stem from the same place: the web3 wallet.**\nHere is an example: Some PMs at NFT marketplaces prefer to prompt users for “approve all” permissions in some Metamask transactions to avoid needing to repeatedly give this permission. Repeatedly doing so would be cumbersome and expensive. But then a risk is that the user could have the entire collection transferred out of their wallet if the marketplace turns out to be malicious or gets hacked. The user just intended to give one-time access to sell an NFT. But if they don’t give that broader access, the user might have to pay repeated fees and have a cumbersome UX every time they want to execute a sale. This is an example where security may be prioritized over UX by requiring repeated approvals despite the expense, given how high the risks are. This would likely never be a consideration for a web2 marketplace like eBay or Etsy because listing an item for sale doesn’t put all of your other assets at risk due to the asset ownership model, and there is always a centralized party and team such as customer support to reverse transactions and mediate.\n**Moreover, in web3, users realistically cannot audit every smart contract, so the burden of ensuring that an app is secure and trustworthy on behalf of your users is higher in web3 given what is at stake in each interaction.**\nThis is part of why Crypto Twitter provides social proof when users can’t complete their own diligence to trust products.",
+      "token_count": 500
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000019",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\n\nTen truths of web3 product management\n10. Regulatory concerns have mostly shifted from web2 to web3\nCrypto is on the mind of every congressperson in the U.S. and on the radar of most federal governments, from China to India to Brazil to Nigeria. Many congressional hearings about Facebook’s power have turned into sound-bite-generating floggings—but not much has happened, no matter how many times Zuck shows up on C-SPAN. On the other hand, regulators can’t stop talking about crypto, from Senator Elizabeth Warren to SEC chairperson Gary Gensler. The 2021 infrastructure bill was passed with a provision with onerous tax and tracking requirements that directly affect the entire crypto ecosystem and caused an extreme stir among the web3 community and policy advocacy organizations.\nThe IRS, SEC, Commodity Futures Trading Commission, and other U.S. agencies have different rules about crypto, not to mention the international landscape that has chased after companies including Binance and PoolTogether.\n**As a PM, you have to consider these matters far more directly than in most web2 organizations, where legal is more secondary at this point. You liaise with counsel to understand a fragmented and undefined legal environment, unlike today in web2, where most legal matters have been settled and product counsels are there to enable but not guide business direction.**",
+      "doc_item_refs": [
+        "#/texts/148",
+        "#/texts/149",
+        "#/texts/150"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "",
+        "Ten truths of web3 product management",
+        "10. Regulatory concerns have mostly shifted from web2 to web3"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000019",
+        "chunk_sha256": "509fad6605b459035139340d130af599a9ca8b57455fc50e1325837d0e1e6bb5",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "",
+          "Ten truths of web3 product management",
+          "10. Regulatory concerns have mostly shifted from web2 to web3"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 19,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/148",
+          "item_count": 3,
+          "last_self_ref": "#/texts/150"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/148",
+          "#/texts/149",
+          "#/texts/150"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 19,
+      "raw_text": "Crypto is on the mind of every congressperson in the U.S. and on the radar of most federal governments, from China to India to Brazil to Nigeria. Many congressional hearings about Facebook’s power have turned into sound-bite-generating floggings—but not much has happened, no matter how many times Zuck shows up on C-SPAN. On the other hand, regulators can’t stop talking about crypto, from Senator Elizabeth Warren to SEC chairperson Gary Gensler. The 2021 infrastructure bill was passed with a provision with onerous tax and tracking requirements that directly affect the entire crypto ecosystem and caused an extreme stir among the web3 community and policy advocacy organizations.\nThe IRS, SEC, Commodity Futures Trading Commission, and other U.S. agencies have different rules about crypto, not to mention the international landscape that has chased after companies including Binance and PoolTogether.\n**As a PM, you have to consider these matters far more directly than in most web2 organizations, where legal is more secondary at this point. You liaise with counsel to understand a fragmented and undefined legal environment, unlike today in web2, where most legal matters have been settled and product counsels are there to enable but not guide business direction.**",
+      "token_count": 359
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000020",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nWhat are the best and worst parts about being a web3 PM?\nWeb3 has a lot of promise as a career path for those who are low-ego, curious, and interested in building. But it’s not all cryptokitties and ATHs:",
+      "doc_item_refs": [
+        "#/texts/152"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "What are the best and worst parts about being a web3 PM?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000020",
+        "chunk_sha256": "92661f3684099585056d904a388175c7595914f2dcf6229ba3f251b7c0a21f6e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "What are the best and worst parts about being a web3 PM?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 20,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/152",
+          "item_count": 1,
+          "last_self_ref": "#/texts/152"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/152"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 20,
+      "raw_text": "Web3 has a lot of promise as a career path for those who are low-ego, curious, and interested in building. But it’s not all cryptokitties and ATHs:",
+      "token_count": 134
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000021",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nWhat are the best and worst parts about being a web3 PM?\nBest parts:\n- **Build the future:** Web3 remains uncertain. You get to design the next generation of the internet.\n- **Impact:** Because web3 PM is so nascent, what you do and how you do it uniquely matters.\n- **Use all parts of your brain:** Product, partnerships, meme-posting, growth hacking, community—do it all.\n- **Learn every day:** There is so much going on at the intersection of computer science, economics, and sociology.\n- **Fun:** Web3 is much less formal—people post memes, Crypto Twitter always has some new drama. It’s weird.",
+      "doc_item_refs": [
+        "#/texts/154",
+        "#/texts/157",
+        "#/texts/160",
+        "#/texts/163",
+        "#/texts/166"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "What are the best and worst parts about being a web3 PM?",
+        "Best parts:"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000021",
+        "chunk_sha256": "d1ef71a92b2306663dcbd16d6aa1d1f68e7d42d5cb889be85f5a1c54afa0ee67",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "What are the best and worst parts about being a web3 PM?",
+          "Best parts:"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 21,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/154",
+          "item_count": 5,
+          "last_self_ref": "#/texts/166"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/154",
+          "#/texts/157",
+          "#/texts/160",
+          "#/texts/163",
+          "#/texts/166"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 21,
+      "raw_text": "- **Build the future:** Web3 remains uncertain. You get to design the next generation of the internet.\n- **Impact:** Because web3 PM is so nascent, what you do and how you do it uniquely matters.\n- **Use all parts of your brain:** Product, partnerships, meme-posting, growth hacking, community—do it all.\n- **Learn every day:** There is so much going on at the intersection of computer science, economics, and sociology.\n- **Fun:** Web3 is much less formal—people post memes, Crypto Twitter always has some new drama. It’s weird.",
+      "token_count": 239
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000022",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nWhat are the best and worst parts about being a web3 PM?\nWorst parts:\n- **Start again:** Think you know PM? Web3 is so different, you must unlearn what you worked so hard to develop.\n- **24/7:** Web3 is nonstop. Builders are in every country, and what was new is now old. This can be exhausting.\n- **You’re not as important:** Engineers, community leaders, artists—these people are all more important than you.\n- **Immutability and low data:** Experimentation and data are a PM’s best friend at times; not so much in web3.\n- **Financialization of everything:** Token prices, airdrops, and floor prices—everything has a dollar figure (or ETH).",
+      "doc_item_refs": [
+        "#/texts/170",
+        "#/texts/173",
+        "#/texts/176",
+        "#/texts/179",
+        "#/texts/182"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "What are the best and worst parts about being a web3 PM?",
+        "Worst parts:"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000022",
+        "chunk_sha256": "1c51bc2f6ab107e2af7464d7e998238a9d9c64619a2a6c93754954abbb18309f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "What are the best and worst parts about being a web3 PM?",
+          "Worst parts:"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 22,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/170",
+          "item_count": 5,
+          "last_self_ref": "#/texts/182"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/170",
+          "#/texts/173",
+          "#/texts/176",
+          "#/texts/179",
+          "#/texts/182"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 22,
+      "raw_text": "- **Start again:** Think you know PM? Web3 is so different, you must unlearn what you worked so hard to develop.\n- **24/7:** Web3 is nonstop. Builders are in every country, and what was new is now old. This can be exhausting.\n- **You’re not as important:** Engineers, community leaders, artists—these people are all more important than you.\n- **Immutability and low data:** Experimentation and data are a PM’s best friend at times; not so much in web3.\n- **Financialization of everything:** Token prices, airdrops, and floor prices—everything has a dollar figure (or ETH).",
+      "token_count": 255
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000023",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nWhat’s the best path into a web3 gig?\nWeb3 can be strange and scary. Paid in magical internet tokens? The founder is an anonymous giraffe? What?\nBut web3 is at a special moment. It is both risky and inevitable. This makes the upside very high for passionate PMs because the space is not yet flooded with people who might be interested for less authentic reasons.\nHere’s how I’d advise approaching it:\nImage from A product manager’s guide to web3\nImage from A product manager’s guide to web3",
+      "doc_item_refs": [
+        "#/texts/186",
+        "#/texts/187",
+        "#/texts/188",
+        "#/texts/430",
+        "#/texts/189"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "What’s the best path into a web3 gig?"
+      ],
+      "images": [
+        {
+          "caption": "Image from A product manager’s guide to web3",
+          "image_id": "02-newsletters/a-product-managers-guide-to-web3.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/bdf5df9c-145b-47d4-8d0c-4b4a08c412cc_1010x500.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000023",
+        "chunk_sha256": "cd923d84c9719330abfd8056246ccccee23522226ba810e9cee0a0ed1f0dbb46",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "What’s the best path into a web3 gig?"
+        ],
+        "images": [
+          {
+            "caption": "Image from A product manager’s guide to web3",
+            "image_id": "02-newsletters/a-product-managers-guide-to-web3.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/bdf5df9c-145b-47d4-8d0c-4b4a08c412cc_1010x500.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 23,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/186",
+          "item_count": 5,
+          "last_self_ref": "#/texts/189"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/186",
+          "#/texts/187",
+          "#/texts/188",
+          "#/texts/430",
+          "#/texts/189"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 23,
+      "raw_text": "Web3 can be strange and scary. Paid in magical internet tokens? The founder is an anonymous giraffe? What?\nBut web3 is at a special moment. It is both risky and inevitable. This makes the upside very high for passionate PMs because the space is not yet flooded with people who might be interested for less authentic reasons.\nHere’s how I’d advise approaching it:\nImage from A product manager’s guide to web3\nImage from A product manager’s guide to web3",
+      "token_count": 195
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000024",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nWhat’s the best path into a web3 gig?\n1. Learn: Read, use, build\n**Start here:**\nPeruse the\n[Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf)\n. Watch\n[“The Potential of Crypto” from Chris Dixon](https://a16z.com/crypto-startup-school/)\n. Follow\n[influential accounts on Crypto Twitter](https://twitter.com/0xShah/following)\nand go down the rabbit hole.\n**Once you’re ready for more**\n: Read the\n[Bitcoin](https://bitcoin.org/bitcoin.pdf)\nand\n[Ethereum](https://ethereum.org/en/whitepaper/)\nwhitepapers. Watch\n[a16z Crypto School](https://a16z.com/crypto-startup-school/)\n. Listen to\n[Bankless](https://podcast.banklesshq.com/?src=0xshah)\n,\n[The Defiant](https://thedefiant.io/podcast/?src=0xshah)\n, and\n[Unchained](https://unchainedpodcast.com/?src=0xshah)\n. Read\n[The Sovereign Individual](https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720)\nfor philosophical context,\n[The Infinite Machine](https://www.camirusso.com/book)\n(Ethereum), and\n[Crypto Assets](https://www.amazon.com/Cryptoassets-Innovative-Investors-Bitcoin-Beyond/dp/1260026671?src=0xshah)\n. Read\n*Snow Crash*\n,\n*Ready Player One*\n,\n*Dune*\n, and other sci-fi for the culture. Check out recent videos like the\n[EthCC4 conference](https://www.youtube.com/channel/UC_kOxlaYNOTtNwtwySZ0B8w/videos)\n(here’s a\n[talk from Vitalik](https://www.youtube.com/watch?v=oLsb7clrXMQ)\n) and these interviews by Tim Ferriss with\n[Naval and Vitalik](https://www.youtube.com/watch?v=42uhsP4vvCE)\n(March 2021) and\n[Nick Szabo](https://www.youtube.com/watch?v=3FA3UjA0igY)\n(August 2017) and Chris Dixon (\n[Chris Dixon/Naval: Wonders of Web3—October 2021](https://t.co/ApwtOwb4TC)\n), as well as\n[Balaji](https://t.co/UOup9j4Z5O)\n(November 2021) and\n[Hosseeb’s talk in 2022 with the Layer 1 founders](https://twitter.com/hosseeb/status/1481340501815017472)\nfrom Solana, Avalanche, and NEAR, or\n[Brian Armstrong’s interview with Bankless](https://t.co/mtOrVgkMrf)\n(November 2021). Read everything Linda Xie has written\n[here](https://alias.co/linda/essays)\n, and look at\n[Preethi Kasireddy’s guide to Web3](https://www.preethikasireddy.com/intro-to-cryptocurrency)\nor\n[Web3 University](https://web3.university/)\n. Follow insightful people on Crypto Twitter (\n[here](https://twitter.com/i/lists/1466578038351486976)\n[are](https://twitter.com/i/lists/1466196761479839748)\n[some](https://twitter.com/i/lists/1438462993017282563)\n[lists](https://www.blog.cointracking.info/best-85-crypto-twitter-accounts-to-follow)\n) and start posting your own views to learn in public.",
+      "doc_item_refs": [
+        "#/texts/191",
+        "#/texts/192",
+        "#/texts/193",
+        "#/texts/194",
+        "#/texts/195",
+        "#/texts/196",
+        "#/texts/197",
+        "#/texts/198",
+        "#/texts/199",
+        "#/texts/200",
+        "#/texts/201",
+        "#/texts/202",
+        "#/texts/203",
+        "#/texts/204",
+        "#/texts/205",
+        "#/texts/206",
+        "#/texts/207",
+        "#/texts/208",
+        "#/texts/209",
+        "#/texts/210",
+        "#/texts/211",
+        "#/texts/212",
+        "#/texts/213",
+        "#/texts/214",
+        "#/texts/215",
+        "#/texts/216",
+        "#/texts/217",
+        "#/texts/218",
+        "#/texts/219",
+        "#/texts/220",
+        "#/texts/221",
+        "#/texts/222",
+        "#/texts/223",
+        "#/texts/224",
+        "#/texts/225",
+        "#/texts/226",
+        "#/texts/227",
+        "#/texts/228",
+        "#/texts/229",
+        "#/texts/230",
+        "#/texts/231",
+        "#/texts/232",
+        "#/texts/233",
+        "#/texts/234",
+        "#/texts/235",
+        "#/texts/236",
+        "#/texts/237",
+        "#/texts/238",
+        "#/texts/239",
+        "#/texts/240",
+        "#/texts/241",
+        "#/texts/242",
+        "#/texts/243",
+        "#/texts/244",
+        "#/texts/245",
+        "#/texts/246",
+        "#/texts/247",
+        "#/texts/248",
+        "#/texts/249",
+        "#/texts/250",
+        "#/texts/251"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "What’s the best path into a web3 gig?",
+        "1. Learn: Read, use, build"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000024",
+        "chunk_sha256": "1a7d31bbfd49a0a569930872c270d88c2fbb0289555921409c653de2fc99e091",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "What’s the best path into a web3 gig?",
+          "1. Learn: Read, use, build"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 24,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/191",
+          "item_count": 61,
+          "last_self_ref": "#/texts/251"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/191",
+          "#/texts/192",
+          "#/texts/193",
+          "#/texts/194",
+          "#/texts/195",
+          "#/texts/196",
+          "#/texts/197",
+          "#/texts/198",
+          "#/texts/199",
+          "#/texts/200",
+          "#/texts/201",
+          "#/texts/202",
+          "#/texts/203",
+          "#/texts/204",
+          "#/texts/205",
+          "#/texts/206",
+          "#/texts/207",
+          "#/texts/208",
+          "#/texts/209",
+          "#/texts/210",
+          "#/texts/211",
+          "#/texts/212",
+          "#/texts/213",
+          "#/texts/214",
+          "#/texts/215",
+          "#/texts/216",
+          "#/texts/217",
+          "#/texts/218",
+          "#/texts/219",
+          "#/texts/220",
+          "#/texts/221",
+          "#/texts/222",
+          "#/texts/223",
+          "#/texts/224",
+          "#/texts/225",
+          "#/texts/226",
+          "#/texts/227",
+          "#/texts/228",
+          "#/texts/229",
+          "#/texts/230",
+          "#/texts/231",
+          "#/texts/232",
+          "#/texts/233",
+          "#/texts/234",
+          "#/texts/235",
+          "#/texts/236",
+          "#/texts/237",
+          "#/texts/238",
+          "#/texts/239",
+          "#/texts/240",
+          "#/texts/241",
+          "#/texts/242",
+          "#/texts/243",
+          "#/texts/244",
+          "#/texts/245",
+          "#/texts/246",
+          "#/texts/247",
+          "#/texts/248",
+          "#/texts/249",
+          "#/texts/250",
+          "#/texts/251"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 24,
+      "raw_text": "**Start here:**\nPeruse the\n[Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf)\n. Watch\n[“The Potential of Crypto” from Chris Dixon](https://a16z.com/crypto-startup-school/)\n. Follow\n[influential accounts on Crypto Twitter](https://twitter.com/0xShah/following)\nand go down the rabbit hole.\n**Once you’re ready for more**\n: Read the\n[Bitcoin](https://bitcoin.org/bitcoin.pdf)\nand\n[Ethereum](https://ethereum.org/en/whitepaper/)\nwhitepapers. Watch\n[a16z Crypto School](https://a16z.com/crypto-startup-school/)\n. Listen to\n[Bankless](https://podcast.banklesshq.com/?src=0xshah)\n,\n[The Defiant](https://thedefiant.io/podcast/?src=0xshah)\n, and\n[Unchained](https://unchainedpodcast.com/?src=0xshah)\n. Read\n[The Sovereign Individual](https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720)\nfor philosophical context,\n[The Infinite Machine](https://www.camirusso.com/book)\n(Ethereum), and\n[Crypto Assets](https://www.amazon.com/Cryptoassets-Innovative-Investors-Bitcoin-Beyond/dp/1260026671?src=0xshah)\n. Read\n*Snow Crash*\n,\n*Ready Player One*\n,\n*Dune*\n, and other sci-fi for the culture. Check out recent videos like the\n[EthCC4 conference](https://www.youtube.com/channel/UC_kOxlaYNOTtNwtwySZ0B8w/videos)\n(here’s a\n[talk from Vitalik](https://www.youtube.com/watch?v=oLsb7clrXMQ)\n) and these interviews by Tim Ferriss with\n[Naval and Vitalik](https://www.youtube.com/watch?v=42uhsP4vvCE)\n(March 2021) and\n[Nick Szabo](https://www.youtube.com/watch?v=3FA3UjA0igY)\n(August 2017) and Chris Dixon (\n[Chris Dixon/Naval: Wonders of Web3—October 2021](https://t.co/ApwtOwb4TC)\n), as well as\n[Balaji](https://t.co/UOup9j4Z5O)\n(November 2021) and\n[Hosseeb’s talk in 2022 with the Layer 1 founders](https://twitter.com/hosseeb/status/1481340501815017472)\nfrom Solana, Avalanche, and NEAR, or\n[Brian Armstrong’s interview with Bankless](https://t.co/mtOrVgkMrf)\n(November 2021). Read everything Linda Xie has written\n[here](https://alias.co/linda/essays)\n, and look at\n[Preethi Kasireddy’s guide to Web3](https://www.preethikasireddy.com/intro-to-cryptocurrency)\nor\n[Web3 University](https://web3.university/)\n. Follow insightful people on Crypto Twitter (\n[here](https://twitter.com/i/lists/1466578038351486976)\n[are](https://twitter.com/i/lists/1466196761479839748)\n[some](https://twitter.com/i/lists/1438462993017282563)\n[lists](https://www.blog.cointracking.info/best-85-crypto-twitter-accounts-to-follow)\n) and start posting your own views to learn in public.",
+      "token_count": 1047
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000025",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nWhat’s the best path into a web3 gig?\n1. Learn: Read, use, build\n**Use it:**\nBuy some (e.g.\n[Coinbase](https://coinbase.com/)\n,\n[FTX](https://ftx.com/)\n,\n[Binance](https://binance.com/)\n), send it to a web3 wallet (e.g.\n[Metamask](https://metamask.io/download)\nfor Ethereum or BSC or\n[Phantom](https://phantom.app/)\nfor Solana), stake it (e.g.\n[Staked.us](https://staked.us/)\n), swap it (e.g.\n[Uniswap](https://uniswap.org/)\n), yield-farm to participate in DeFi (e.g.\n[Compound](https://app.compound.finance/)\n); find an NFT collection or 1/1 that you love (e.g.\n[World of Women](https://opensea.io/collection/world-of-women-nft)\n,\n[Crypto Coven](https://opensea.io/collection/cryptocoven?search%5BsortAscending%5D=true&search%5BsortBy%5D=PRICE&search%5Btoggles%5D%5B0%5D=BUY_NOW)\n, or\n[Zed Run](https://opensea.io/collection/zed-run-official)\n), get one or two through\n[OpenSea](https://opensea.io/)\n/\n[Rarible](https://rarible.com/)\n/\n[Foundation](https://foundation.app/)\n/\n[LooksRare](https://looksrare.org/)\n, join the Discord for that NFT community, and get engaged with it; try using cross-chain bridges (e.g.\n[Synapse](https://synapseprotocol.com/)\nor\n[Wormhole](https://wormholebridge.com/#/)\n) to move some ETH to different chains or an L2 like Polygon or any other two-way transfer. You have to really live it to build it.\n**Build it:**\nTry a\n[Buildspace project](https://buildspace.so/)\n. Search and read contracts on\n[Etherscan](https://etherscan.io/)\n. Mint an NFT. Join a DAO and start contributing to something like\n[Developer DAO](https://www.developerdao.com/)\nor\n[Friends with Benefits](https://www.fwb.help/)\n. Create something, whether you are technical or not—code, documentation, an event, anything!",
+      "doc_item_refs": [
+        "#/texts/252",
+        "#/texts/253",
+        "#/texts/254",
+        "#/texts/255",
+        "#/texts/256",
+        "#/texts/257",
+        "#/texts/258",
+        "#/texts/259",
+        "#/texts/260",
+        "#/texts/261",
+        "#/texts/262",
+        "#/texts/263",
+        "#/texts/264",
+        "#/texts/265",
+        "#/texts/266",
+        "#/texts/267",
+        "#/texts/268",
+        "#/texts/269",
+        "#/texts/270",
+        "#/texts/271",
+        "#/texts/272",
+        "#/texts/273",
+        "#/texts/274",
+        "#/texts/275",
+        "#/texts/276",
+        "#/texts/277",
+        "#/texts/278",
+        "#/texts/279",
+        "#/texts/280",
+        "#/texts/281",
+        "#/texts/282",
+        "#/texts/283",
+        "#/texts/284",
+        "#/texts/285",
+        "#/texts/286",
+        "#/texts/287",
+        "#/texts/288",
+        "#/texts/289",
+        "#/texts/290",
+        "#/texts/291",
+        "#/texts/292",
+        "#/texts/293",
+        "#/texts/294",
+        "#/texts/295",
+        "#/texts/296",
+        "#/texts/297"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "What’s the best path into a web3 gig?",
+        "1. Learn: Read, use, build"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000025",
+        "chunk_sha256": "570fae5ad0984a32ad8c0cb50dbfc43b8da1ec518e1d83f3c22f4c0d65ac705f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "What’s the best path into a web3 gig?",
+          "1. Learn: Read, use, build"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 25,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/252",
+          "item_count": 46,
+          "last_self_ref": "#/texts/297"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/252",
+          "#/texts/253",
+          "#/texts/254",
+          "#/texts/255",
+          "#/texts/256",
+          "#/texts/257",
+          "#/texts/258",
+          "#/texts/259",
+          "#/texts/260",
+          "#/texts/261",
+          "#/texts/262",
+          "#/texts/263",
+          "#/texts/264",
+          "#/texts/265",
+          "#/texts/266",
+          "#/texts/267",
+          "#/texts/268",
+          "#/texts/269",
+          "#/texts/270",
+          "#/texts/271",
+          "#/texts/272",
+          "#/texts/273",
+          "#/texts/274",
+          "#/texts/275",
+          "#/texts/276",
+          "#/texts/277",
+          "#/texts/278",
+          "#/texts/279",
+          "#/texts/280",
+          "#/texts/281",
+          "#/texts/282",
+          "#/texts/283",
+          "#/texts/284",
+          "#/texts/285",
+          "#/texts/286",
+          "#/texts/287",
+          "#/texts/288",
+          "#/texts/289",
+          "#/texts/290",
+          "#/texts/291",
+          "#/texts/292",
+          "#/texts/293",
+          "#/texts/294",
+          "#/texts/295",
+          "#/texts/296",
+          "#/texts/297"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 25,
+      "raw_text": "**Use it:**\nBuy some (e.g.\n[Coinbase](https://coinbase.com/)\n,\n[FTX](https://ftx.com/)\n,\n[Binance](https://binance.com/)\n), send it to a web3 wallet (e.g.\n[Metamask](https://metamask.io/download)\nfor Ethereum or BSC or\n[Phantom](https://phantom.app/)\nfor Solana), stake it (e.g.\n[Staked.us](https://staked.us/)\n), swap it (e.g.\n[Uniswap](https://uniswap.org/)\n), yield-farm to participate in DeFi (e.g.\n[Compound](https://app.compound.finance/)\n); find an NFT collection or 1/1 that you love (e.g.\n[World of Women](https://opensea.io/collection/world-of-women-nft)\n,\n[Crypto Coven](https://opensea.io/collection/cryptocoven?search%5BsortAscending%5D=true&search%5BsortBy%5D=PRICE&search%5Btoggles%5D%5B0%5D=BUY_NOW)\n, or\n[Zed Run](https://opensea.io/collection/zed-run-official)\n), get one or two through\n[OpenSea](https://opensea.io/)\n/\n[Rarible](https://rarible.com/)\n/\n[Foundation](https://foundation.app/)\n/\n[LooksRare](https://looksrare.org/)\n, join the Discord for that NFT community, and get engaged with it; try using cross-chain bridges (e.g.\n[Synapse](https://synapseprotocol.com/)\nor\n[Wormhole](https://wormholebridge.com/#/)\n) to move some ETH to different chains or an L2 like Polygon or any other two-way transfer. You have to really live it to build it.\n**Build it:**\nTry a\n[Buildspace project](https://buildspace.so/)\n. Search and read contracts on\n[Etherscan](https://etherscan.io/)\n. Mint an NFT. Join a DAO and start contributing to something like\n[Developer DAO](https://www.developerdao.com/)\nor\n[Friends with Benefits](https://www.fwb.help/)\n. Create something, whether you are technical or not—code, documentation, an event, anything!",
+      "token_count": 734
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000026",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nWhat’s the best path into a web3 gig?\n2. Search: Find teams you love\n**Search:**\nReview top web3 VC portfolios (\n[a16z crypto](https://a16z.com/portfolio/#crypto?src=0xshah)\n,\n[Pantera](https://panteracapital.com/portfolio/?src=0xshah)\n,\n[Paradigm](https://www.paradigm.xyz/portfolio/?src=0xshah)\n,\n[Dragonfly Capital](https://www.dcp.capital/?src=0xshah)\n,\n[Electric Capital](https://www.electriccapital.com/?src=0xshah)\n,\n[Fabric Ventures](https://www.fabric.vc/?src=0xshah)\n,\n[Variant Fund](https://variant.fund/)\n) and filter for well-respected teams while looking for missions you care about and a stage that you are well-suited to and where you’re able to have an impact. Create a spreadsheet of the top teams in the space and make notes on what you like, don’t like, and need to understand.\n**Research:**\nRead those project websites, research what they have shipped, and understand how you can help by reviewing community forums (e.g.\n[Lido/staking](https://research.lido.fi/)\n) and Twitter (e.g.\n[Frax/fractional stablecoins](https://twitter.com/fraxfinance)\n).\n**Explore:**\nJoin the project Discords to get a sense for the project momentum and community culture.",
+      "doc_item_refs": [
+        "#/texts/299",
+        "#/texts/300",
+        "#/texts/301",
+        "#/texts/302",
+        "#/texts/303",
+        "#/texts/304",
+        "#/texts/305",
+        "#/texts/306",
+        "#/texts/307",
+        "#/texts/308",
+        "#/texts/309",
+        "#/texts/310",
+        "#/texts/311",
+        "#/texts/312",
+        "#/texts/313",
+        "#/texts/314",
+        "#/texts/315",
+        "#/texts/316",
+        "#/texts/317",
+        "#/texts/318",
+        "#/texts/319",
+        "#/texts/320",
+        "#/texts/321",
+        "#/texts/322"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "What’s the best path into a web3 gig?",
+        "2. Search: Find teams you love"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000026",
+        "chunk_sha256": "e82314e6bb13f491f939a302129bc46be004c652fb38dac4462f58e50ec94c88",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "What’s the best path into a web3 gig?",
+          "2. Search: Find teams you love"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 26,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/299",
+          "item_count": 24,
+          "last_self_ref": "#/texts/322"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/299",
+          "#/texts/300",
+          "#/texts/301",
+          "#/texts/302",
+          "#/texts/303",
+          "#/texts/304",
+          "#/texts/305",
+          "#/texts/306",
+          "#/texts/307",
+          "#/texts/308",
+          "#/texts/309",
+          "#/texts/310",
+          "#/texts/311",
+          "#/texts/312",
+          "#/texts/313",
+          "#/texts/314",
+          "#/texts/315",
+          "#/texts/316",
+          "#/texts/317",
+          "#/texts/318",
+          "#/texts/319",
+          "#/texts/320",
+          "#/texts/321",
+          "#/texts/322"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 26,
+      "raw_text": "**Search:**\nReview top web3 VC portfolios (\n[a16z crypto](https://a16z.com/portfolio/#crypto?src=0xshah)\n,\n[Pantera](https://panteracapital.com/portfolio/?src=0xshah)\n,\n[Paradigm](https://www.paradigm.xyz/portfolio/?src=0xshah)\n,\n[Dragonfly Capital](https://www.dcp.capital/?src=0xshah)\n,\n[Electric Capital](https://www.electriccapital.com/?src=0xshah)\n,\n[Fabric Ventures](https://www.fabric.vc/?src=0xshah)\n,\n[Variant Fund](https://variant.fund/)\n) and filter for well-respected teams while looking for missions you care about and a stage that you are well-suited to and where you’re able to have an impact. Create a spreadsheet of the top teams in the space and make notes on what you like, don’t like, and need to understand.\n**Research:**\nRead those project websites, research what they have shipped, and understand how you can help by reviewing community forums (e.g.\n[Lido/staking](https://research.lido.fi/)\n) and Twitter (e.g.\n[Frax/fractional stablecoins](https://twitter.com/fraxfinance)\n).\n**Explore:**\nJoin the project Discords to get a sense for the project momentum and community culture.",
+      "token_count": 465
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000027",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nWhat’s the best path into a web3 gig?\n3. Ape In: Reach out, evaluate, and join a web3 team\n- **Define your role:** Figure out what value you can add based on the project’s status and your experience.\n- **Reach out:** DM the founder or a core contributor with a concise pitch (e.g. three sentences via Twitter DM).\n- **Connect and decide:** Interview with 5+ teams, evaluate your options, make a decision, and have fun!\nMany teams may not even know they need a product manager. Focus on the value you can offer by working backward from their problems, their goals, and their community ethos, and find alignment in your own interests and experience.",
+      "doc_item_refs": [
+        "#/texts/324",
+        "#/texts/327",
+        "#/texts/330",
+        "#/texts/333"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "What’s the best path into a web3 gig?",
+        "3. Ape In: Reach out, evaluate, and join a web3 team"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000027",
+        "chunk_sha256": "513cb704fd5937f222432d0190ae0de1aae09198d030d884fe063f71c7684836",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "What’s the best path into a web3 gig?",
+          "3. Ape In: Reach out, evaluate, and join a web3 team"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 27,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/324",
+          "item_count": 4,
+          "last_self_ref": "#/texts/333"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/324",
+          "#/texts/327",
+          "#/texts/330",
+          "#/texts/333"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 27,
+      "raw_text": "- **Define your role:** Figure out what value you can add based on the project’s status and your experience.\n- **Reach out:** DM the founder or a core contributor with a concise pitch (e.g. three sentences via Twitter DM).\n- **Connect and decide:** Interview with 5+ teams, evaluate your options, make a decision, and have fun!\nMany teams may not even know they need a product manager. Focus on the value you can offer by working backward from their problems, their goals, and their community ethos, and find alignment in your own interests and experience.",
+      "token_count": 241
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000028",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\nIn conclusion: web3 needs you—join us!\nWeb3 is an exciting new frontier, and product management in web3 will require a lot of unlearning, thinking from first principles, and hard work. But who would want it any other way? See you down the rabbit hole, anon. WAGMI.\n*Thanks so much to lennysan.eth for the opportunity to share this perspective with you. And thanks to contributors for perspectives and feedback on the web3 ecosystem, including Christina Beltramini (Aave), Mike Garland and Rob Boyle (Alchemy), Matt Henderson (Aurora), Rachel Mayer (Circle), Georgiana Mirea (Dapper Labs), Mike Sall (Goldfinch), Veronica Saron (Mirror), Aadil Mamujee (OpenSea), Pooja Shah (Protocol Labs), Nassar Hayat (Radicle), and Ian Lee and Will Papper (SyndicateDAO).*\n*None of this is financial advice. Please do your own research. You can follow Jason on*\n[*Twitter*](https://twitter.com/0xShah)\n*and*\n[*LinkedIn*](https://www.linkedin.com/in/jasonyogeshshah/)\n*.*",
+      "doc_item_refs": [
+        "#/texts/335",
+        "#/texts/336",
+        "#/texts/337",
+        "#/texts/338",
+        "#/texts/339",
+        "#/texts/340",
+        "#/texts/341"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "In conclusion: web3 needs you—join us!"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000028",
+        "chunk_sha256": "5b0eb7b167e9b271312ce90a142cb158084e63c6ea219e484072ac53737dfd6e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "In conclusion: web3 needs you—join us!"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 28,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/335",
+          "item_count": 7,
+          "last_self_ref": "#/texts/341"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/335",
+          "#/texts/336",
+          "#/texts/337",
+          "#/texts/338",
+          "#/texts/339",
+          "#/texts/340",
+          "#/texts/341"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 28,
+      "raw_text": "Web3 is an exciting new frontier, and product management in web3 will require a lot of unlearning, thinking from first principles, and hard work. But who would want it any other way? See you down the rabbit hole, anon. WAGMI.\n*Thanks so much to lennysan.eth for the opportunity to share this perspective with you. And thanks to contributors for perspectives and feedback on the web3 ecosystem, including Christina Beltramini (Aave), Mike Garland and Rob Boyle (Alchemy), Matt Henderson (Aurora), Rachel Mayer (Circle), Georgiana Mirea (Dapper Labs), Mike Sall (Goldfinch), Veronica Saron (Mirror), Aadil Mamujee (OpenSea), Pooja Shah (Protocol Labs), Nassar Hayat (Radicle), and Ian Lee and Will Papper (SyndicateDAO).*\n*None of this is financial advice. Please do your own research. You can follow Jason on*\n[*Twitter*](https://twitter.com/0xShah)\n*and*\n[*LinkedIn*](https://www.linkedin.com/in/jasonyogeshshah/)\n*.*",
+      "token_count": 354
+    },
+    {
+      "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000029",
+      "contextualized_text": "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering\n🔥 Featured job openings\n1. **Alchemy:** [Product Manager](https://www.lennysjobs.com/jobs/3ee9aa95-2101-41b4-b664-c143bc9f2e01) (SF, NYC, Remote)\n2. **Elevate Labs:** [Senior Product Manager, Balance](https://lennys-jobs.pallet.com/jobs/54802bbd-3ad4-4abf-bd0f-308e86d52586) (Remote)\n3. **Oath Care:** [UX Designer](https://lennys-jobs.pallet.com/jobs/0e35e470-6b81-4dae-a706-33139219fa68) (Remote-US)\n4. **Oath Care:** [Community Marketing Manager](https://lennys-jobs.pallet.com/jobs/300b896f-80ca-4893-a39f-1d2dfff8da00) (Remote-US)\n5. **Hex:** [Growth Product Manager](https://lennys-jobs.pallet.com/jobs/957d5c52-aac0-483e-b336-5b63961a99e6) (SF, Remote-US)\n6. **Monarch:** [Data Lead - Growth](https://lennys-jobs.pallet.com/jobs/269cafbf-a15c-41d3-b8cb-566b49fbe84e) (Remote-Global, Remote-US)\n7. **Monarch:** [Performance Marketing Manager](https://lennys-jobs.pallet.com/jobs/e80e525c-d891-422a-8bfe-5a82aa4caad4) (Remote-Global, Remote-US)\n8. **Convosight:** [Sr Product Owner](https://lennys-jobs.pallet.com/jobs/22dd029a-3678-491f-b7ca-820585118380) (Remote-Global, Remote-US, Remote-India)\n9. **Siteline:** [First Product Manager](https://lennys-jobs.pallet.xyz/jobs/3cc1fa57-e3e3-4b93-9d0d-fac7c592545b) (SF, Remote-US)\n10. **Koodos** : [Product Engineer](https://lennys-jobs.pallet.xyz/jobs/1412066a-3922-47c6-99f7-28401ed895f5) (NYC, Remote-US)\n11. **Mynd:** [Senior Product Manager, Communications](https://lennys-jobs.pallet.xyz/jobs/77af7c80-baa3-4208-b322-2ea674604fdb) (Remote-US)\n12. **Empower:** [Product Manager](https://lennys-jobs.pallet.xyz/jobs/5d73dc1a-9b0d-45d9-a661-735f07650d26) (Remote-Global)\n13. **Superjoi:** [UI/UX Designer](https://www.lennysjobs.com/jobs/9710eb14-bc72-46a5-b75b-2949c5c1bfa7) (LA, Remote-Global)\n14. **Superjoi:** [Full Stack Engineer](https://lennys-jobs.pallet.xyz/jobs/4111e336-604a-43c7-90b4-8cf03952800b) (LA, Remote-Global)\n15. **HireArt:** [Senior Full-Stack Engineer](https://lennys-jobs.pallet.xyz/jobs/fd0b1a53-7741-4a2b-8739-a976d2482afe) (Remote-US)\n16. **Universe:** [Product Lead - Commerce Tools](https://lennys-jobs.pallet.xyz/jobs/38cfa180-37e3-4882-99ae-3a6d35a04d32) (Remote)\n17. **Universe:** [Product Lead - Creation Tools](https://lennys-jobs.pallet.xyz/jobs/5b414879-8180-4651-bc80-39610ee206f2) (Remote)\n18. **Clubhouse:** [Growth Product Manager](https://lennys-jobs.pallet.xyz/jobs/ed55d82e-f9b6-47b7-837d-b8f29b9e2b41) (SF, Remote-US)\n19. **Earthly Technologies:** [Senior Product Manager](https://lennys-jobs.pallet.xyz/jobs/958ba7ed-1571-4249-a103-2e58dfcc40bd) (Remote-US, Remote-Canada)\n*Browse more open roles, or add your own, at*\n[*Lenny’s Job Board*](https://lennysnewsletter.com/jobs)\n*.*\n**If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/343",
+        "#/texts/347",
+        "#/texts/351",
+        "#/texts/355",
+        "#/texts/359",
+        "#/texts/363",
+        "#/texts/367",
+        "#/texts/371",
+        "#/texts/375",
+        "#/texts/379",
+        "#/texts/384",
+        "#/texts/388",
+        "#/texts/392",
+        "#/texts/396",
+        "#/texts/400",
+        "#/texts/404",
+        "#/texts/408",
+        "#/texts/412",
+        "#/texts/416",
+        "#/texts/420",
+        "#/texts/421",
+        "#/texts/422",
+        "#/texts/423",
+        "#/texts/424",
+        "#/texts/425"
+      ],
+      "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+      "headings": [
+        "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+        "🔥 Featured job openings"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-product-managers-guide-to-web3.md#chunk=000029",
+        "chunk_sha256": "eb4137200505f39cc4e3972e4b82c6082eab378ed9dea75414ba875455408dd0",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+        "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+        "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+        "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+        "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+        "headings": [
+          "A product manager’s guide to web3 — How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy | 2022-02-15 | Tags: design, product-management, leadership, strategy, b2c, engineering",
+          "🔥 Featured job openings"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 29,
+        "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+        "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+        "segment": {
+          "first_self_ref": "#/texts/343",
+          "item_count": 25,
+          "last_self_ref": "#/texts/425"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/343",
+          "#/texts/347",
+          "#/texts/351",
+          "#/texts/355",
+          "#/texts/359",
+          "#/texts/363",
+          "#/texts/367",
+          "#/texts/371",
+          "#/texts/375",
+          "#/texts/379",
+          "#/texts/384",
+          "#/texts/388",
+          "#/texts/392",
+          "#/texts/396",
+          "#/texts/400",
+          "#/texts/404",
+          "#/texts/408",
+          "#/texts/412",
+          "#/texts/416",
+          "#/texts/420",
+          "#/texts/421",
+          "#/texts/422",
+          "#/texts/423",
+          "#/texts/424",
+          "#/texts/425"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 29,
+      "raw_text": "1. **Alchemy:** [Product Manager](https://www.lennysjobs.com/jobs/3ee9aa95-2101-41b4-b664-c143bc9f2e01) (SF, NYC, Remote)\n2. **Elevate Labs:** [Senior Product Manager, Balance](https://lennys-jobs.pallet.com/jobs/54802bbd-3ad4-4abf-bd0f-308e86d52586) (Remote)\n3. **Oath Care:** [UX Designer](https://lennys-jobs.pallet.com/jobs/0e35e470-6b81-4dae-a706-33139219fa68) (Remote-US)\n4. **Oath Care:** [Community Marketing Manager](https://lennys-jobs.pallet.com/jobs/300b896f-80ca-4893-a39f-1d2dfff8da00) (Remote-US)\n5. **Hex:** [Growth Product Manager](https://lennys-jobs.pallet.com/jobs/957d5c52-aac0-483e-b336-5b63961a99e6) (SF, Remote-US)\n6. **Monarch:** [Data Lead - Growth](https://lennys-jobs.pallet.com/jobs/269cafbf-a15c-41d3-b8cb-566b49fbe84e) (Remote-Global, Remote-US)\n7. **Monarch:** [Performance Marketing Manager](https://lennys-jobs.pallet.com/jobs/e80e525c-d891-422a-8bfe-5a82aa4caad4) (Remote-Global, Remote-US)\n8. **Convosight:** [Sr Product Owner](https://lennys-jobs.pallet.com/jobs/22dd029a-3678-491f-b7ca-820585118380) (Remote-Global, Remote-US, Remote-India)\n9. **Siteline:** [First Product Manager](https://lennys-jobs.pallet.xyz/jobs/3cc1fa57-e3e3-4b93-9d0d-fac7c592545b) (SF, Remote-US)\n10. **Koodos** : [Product Engineer](https://lennys-jobs.pallet.xyz/jobs/1412066a-3922-47c6-99f7-28401ed895f5) (NYC, Remote-US)\n11. **Mynd:** [Senior Product Manager, Communications](https://lennys-jobs.pallet.xyz/jobs/77af7c80-baa3-4208-b322-2ea674604fdb) (Remote-US)\n12. **Empower:** [Product Manager](https://lennys-jobs.pallet.xyz/jobs/5d73dc1a-9b0d-45d9-a661-735f07650d26) (Remote-Global)\n13. **Superjoi:** [UI/UX Designer](https://www.lennysjobs.com/jobs/9710eb14-bc72-46a5-b75b-2949c5c1bfa7) (LA, Remote-Global)\n14. **Superjoi:** [Full Stack Engineer](https://lennys-jobs.pallet.xyz/jobs/4111e336-604a-43c7-90b4-8cf03952800b) (LA, Remote-Global)\n15. **HireArt:** [Senior Full-Stack Engineer](https://lennys-jobs.pallet.xyz/jobs/fd0b1a53-7741-4a2b-8739-a976d2482afe) (Remote-US)\n16. **Universe:** [Product Lead - Commerce Tools](https://lennys-jobs.pallet.xyz/jobs/38cfa180-37e3-4882-99ae-3a6d35a04d32) (Remote)\n17. **Universe:** [Product Lead - Creation Tools](https://lennys-jobs.pallet.xyz/jobs/5b414879-8180-4651-bc80-39610ee206f2) (Remote)\n18. **Clubhouse:** [Growth Product Manager](https://lennys-jobs.pallet.xyz/jobs/ed55d82e-f9b6-47b7-837d-b8f29b9e2b41) (SF, Remote-US)\n19. **Earthly Technologies:** [Senior Product Manager](https://lennys-jobs.pallet.xyz/jobs/958ba7ed-1571-4249-a103-2e58dfcc40bd) (Remote-US, Remote-Canada)\n*Browse more open roles, or add your own, at*\n[*Lenny’s Job Board*](https://lennysnewsletter.com/jobs)\n*.*\n**If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "token_count": 1427
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/a-product-managers-guide-to-web3.docling.json",
+  "docling_sha256": "33e360fbb08074610edcb36f75ee7337f5b1d64e931bbabd7f4e567e06ed3564",
+  "document_id": "02-newsletters/a-product-managers-guide-to-web3.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/a-product-managers-guide-to-web3.md",
+  "enhanced_sha256": "89b972e8560c0b2c57ad2bbc88c2bb457fdf2eb6e2d3032ba7fd4b4368406c2a",
+  "fact_document_path": "chunks/v2/02-newsletters/a-product-managers-guide-to-web3.chunks.json",
+  "metadata": {
+    "date": "2022-02-15",
+    "subtitle": "How PM'ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful—by guest author Jason Shah, head of product at Alchemy",
+    "tags": [
+      "design",
+      "product-management",
+      "leadership",
+      "strategy",
+      "b2c",
+      "engineering"
+    ],
+    "title": "A product manager’s guide to web3",
+    "type": "newsletter",
+    "word_count": 5413
+  },
+  "raw_path": "corpus/raw/02-newsletters/a-product-managers-guide-to-web3.md",
+  "raw_sha256": "ada661cdc19df4cd6f0e312bf8a2a8ac635a01e3cf39d07278f1c3f255f0b709",
+  "schema_version": "1",
+  "title": "A product manager’s guide to web3"
+}

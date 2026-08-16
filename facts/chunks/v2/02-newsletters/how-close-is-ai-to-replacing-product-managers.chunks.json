@@ -1,0 +1,2339 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000000",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\n*👋 Hey,*\n[*Lenny*](https://twitter.com/lennysan)\n*here! Welcome to this month’s ✨*\n***free edition***\n*✨ of Lenny’s Newsletter. Each week I tackle reader questions about building product, driving growth, and accelerating your career. If you’re not a subscriber, here’s what you missed this month:*\n1. [*Counterintuitive advice for building AI products*](https://www.lennysnewsletter.com/p/counterintuitive-advice-for-building)\n2. [*General management, functional, and hybrid models: Which org design works best for top companies?*](https://www.lennysnewsletter.com/p/general-management-functional-and)\n3. [*When and how to run a billboard campaign*](https://www.lennysnewsletter.com/p/when-and-how-to-run-a-billboard-campaign)\n*Subscribe to get access to these posts, and every post. For more:*\n[***Best of Lenny’s Newsletter***](https://www.lennysnewsletter.com/p/the-best-of-lennys-newsletter-2023)\nHire your next product leader. Podcast. Lennybot\nIn my quest to develop a comprehensive benchmark to measure progress toward AI replacing PMs, I teamed up with full-time prompt engineer (and past collaborator)\n[Mike Taylor](https://www.linkedin.com/in/mjt145/)\non a piece that will surely blow your mind. I’d love to hear your reactions in the comments.\n[Leave a comment](https://www.lennysnewsletter.com/p/how-close-is-ai-to-replacing-product/comments)\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nThe AI industry moves fast, which leads to lots of confusion about what AI is actually good at. OpenAI, Anthropic, and all the other AI companies are constantly testing their latest models’ math, language, and coding abilities. However, these abstract benchmarks don’t tell us how much of\n*your*\njob AI is able to potentially replace, now or in the near future—which is really what we care about.\nTo make matters more challenging, expert prompting is necessary to make responses from a model any good.\n**As a result, most people underestimate how close ChatGPT and other tools are to replacing the work of a human. Whenever you see the headline of an article or scientific paper that says “ChatGPT can’t do x,” it’s usually because they didn’t use the latest model and didn’t make use of prompt engineering.**\nFor example, the authors of the paper “\n[ChatGPT is fun, but it is not funny](https://arxiv.org/abs/2306.04563)\n” used only basic prompts like “Tell me a joke, please!” and were testing GPT-3, not GPT-4. When I tried this same task myself, applying some prompting principles, I found that\n[you can very much get the newer models of ChatGPT to tell a funny joke](https://www.saxifrage.xyz/post/chatgpt-joke)\n. “\n[Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)\n” showed that prompting techniques could drive around a 30% improvement in accuracy on some tasks, and if you add multiple examples of the task being done correctly, you can get an overall 50% to 60% accuracy boost.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nThus, to realistically measure how close AI models are to replacing the work of a human—in our case, a product manager—we need to collect real-world examples of difficult PM tasks that AI tools seem to struggle with, use the best current model, and apply\n*prompt engineering*\nprinciples to give the models the best chance possible. (This is\n[the same approach Google recently used](https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf)\nto test Gemini 1.5’s capabilities.)\nI work as a professional prompt engineer and recently published a book with O’Reilly,\n[*Prompt Engineering for Generative AI*](https://www.amazon.com/Prompt-Engineering-Generative-Ai-Future-proof/dp/109815343X)\n, so I’ll use my prompting skills to see if I can get an AI tool to beat humans at a set of PM tasks. We’ll evaluate who “wins” at each task with blind Twitter/X polls, where voters don’t know which response is AI or human. From this exercise, our goal is to understand how close AI is to automating the PM role, and what task areas are most likely to be delegated first.",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/tables/0",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/399",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/400",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career"
+      ],
+      "images": [
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/80761805-aa31-4255-ae20-8a66abd3de16_8000x4000.png"
+        },
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b51d1aab-fe4e-474e-b86d-f7770b798575_1198x630.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000000",
+        "chunk_sha256": "d6d94c6733da4022672f5374ac343d1d6f3097bdd20d1a14fd85f4b82fafd700",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career"
+        ],
+        "images": [
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/80761805-aa31-4255-ae20-8a66abd3de16_8000x4000.png"
+          },
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/b51d1aab-fe4e-474e-b86d-f7770b798575_1198x630.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 39,
+          "last_self_ref": "#/texts/36"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/tables/0",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/399",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/400",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32",
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/36"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "*👋 Hey,*\n[*Lenny*](https://twitter.com/lennysan)\n*here! Welcome to this month’s ✨*\n***free edition***\n*✨ of Lenny’s Newsletter. Each week I tackle reader questions about building product, driving growth, and accelerating your career. If you’re not a subscriber, here’s what you missed this month:*\n1. [*Counterintuitive advice for building AI products*](https://www.lennysnewsletter.com/p/counterintuitive-advice-for-building)\n2. [*General management, functional, and hybrid models: Which org design works best for top companies?*](https://www.lennysnewsletter.com/p/general-management-functional-and)\n3. [*When and how to run a billboard campaign*](https://www.lennysnewsletter.com/p/when-and-how-to-run-a-billboard-campaign)\n*Subscribe to get access to these posts, and every post. For more:*\n[***Best of Lenny’s Newsletter***](https://www.lennysnewsletter.com/p/the-best-of-lennys-newsletter-2023)\nHire your next product leader. Podcast. Lennybot\nIn my quest to develop a comprehensive benchmark to measure progress toward AI replacing PMs, I teamed up with full-time prompt engineer (and past collaborator)\n[Mike Taylor](https://www.linkedin.com/in/mjt145/)\non a piece that will surely blow your mind. I’d love to hear your reactions in the comments.\n[Leave a comment](https://www.lennysnewsletter.com/p/how-close-is-ai-to-replacing-product/comments)\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nThe AI industry moves fast, which leads to lots of confusion about what AI is actually good at. OpenAI, Anthropic, and all the other AI companies are constantly testing their latest models’ math, language, and coding abilities. However, these abstract benchmarks don’t tell us how much of\n*your*\njob AI is able to potentially replace, now or in the near future—which is really what we care about.\nTo make matters more challenging, expert prompting is necessary to make responses from a model any good.\n**As a result, most people underestimate how close ChatGPT and other tools are to replacing the work of a human. Whenever you see the headline of an article or scientific paper that says “ChatGPT can’t do x,” it’s usually because they didn’t use the latest model and didn’t make use of prompt engineering.**\nFor example, the authors of the paper “\n[ChatGPT is fun, but it is not funny](https://arxiv.org/abs/2306.04563)\n” used only basic prompts like “Tell me a joke, please!” and were testing GPT-3, not GPT-4. When I tried this same task myself, applying some prompting principles, I found that\n[you can very much get the newer models of ChatGPT to tell a funny joke](https://www.saxifrage.xyz/post/chatgpt-joke)\n. “\n[Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)\n” showed that prompting techniques could drive around a 30% improvement in accuracy on some tasks, and if you add multiple examples of the task being done correctly, you can get an overall 50% to 60% accuracy boost.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nThus, to realistically measure how close AI models are to replacing the work of a human—in our case, a product manager—we need to collect real-world examples of difficult PM tasks that AI tools seem to struggle with, use the best current model, and apply\n*prompt engineering*\nprinciples to give the models the best chance possible. (This is\n[the same approach Google recently used](https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf)\nto test Gemini 1.5’s capabilities.)\nI work as a professional prompt engineer and recently published a book with O’Reilly,\n[*Prompt Engineering for Generative AI*](https://www.amazon.com/Prompt-Engineering-Generative-Ai-Future-proof/dp/109815343X)\n, so I’ll use my prompting skills to see if I can get an AI tool to beat humans at a set of PM tasks. We’ll evaluate who “wins” at each task with blind Twitter/X polls, where voters don’t know which response is AI or human. From this exercise, our goal is to understand how close AI is to automating the PM role, and what task areas are most likely to be delegated first.",
+      "token_count": 1168
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000001",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nSourcing hard tasks\nTo establish a baseline of what tasks are hard for AI,\n[Lenny put out a call for tasks](https://x.com/lennysan/status/1785055728903897209)\nthat PMs have tried and failed at getting ChatGPT to do:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nOur plan was to take three of these tasks and see if I could prompt the AI to do a better job than a human. Whether one answer to a task is “better” than another is subjective, even among humans. With AI in the mix, some people dislike its overly formal tone, verbosity, or lack of personality, while others appreciate AI’s comprehensiveness, objectivity, and well-structured formatting. For the purposes of this experiment, we're interested in both how people rate the answers and their comments about why.\n**In order to run a fair test, we got people to rate which answer to the task was better, without revealing which was AI. The results were shocking:**\n- **The AI answer beat the human answer in two out of three tasks!**\n- **70% to 80% of people guessed which answer was AI, but many still preferred it**\n- **There is room for improvement—small changes to the prompt yielded better results**\nThis was only a small test, and AI is still a long way from working independently as a product manager. But it’s important to remember that right now is the worst AI will ever be at any task—these models may continue to get twice as good every six months.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?",
+      "doc_item_refs": [
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/401",
+        "#/texts/41",
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/44",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/402",
+        "#/texts/48"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Sourcing hard tasks"
+      ],
+      "images": [
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/9b981867-2dc2-459d-aa73-162a06cb58e4_876x720.png"
+        },
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/0996b5d4-1ba8-43a6-93a0-7570912983a9_1600x900.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000001",
+        "chunk_sha256": "aff45437194e7d9840d4233a80ca6b412e0ad99bd431417932014cf685472bfa",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Sourcing hard tasks"
+        ],
+        "images": [
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/9b981867-2dc2-459d-aa73-162a06cb58e4_876x720.png"
+          },
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/0996b5d4-1ba8-43a6-93a0-7570912983a9_1600x900.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/38",
+          "item_count": 13,
+          "last_self_ref": "#/texts/48"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/40",
+          "#/texts/401",
+          "#/texts/41",
+          "#/texts/42",
+          "#/texts/43",
+          "#/texts/44",
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/402",
+          "#/texts/48"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "To establish a baseline of what tasks are hard for AI,\n[Lenny put out a call for tasks](https://x.com/lennysan/status/1785055728903897209)\nthat PMs have tried and failed at getting ChatGPT to do:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nOur plan was to take three of these tasks and see if I could prompt the AI to do a better job than a human. Whether one answer to a task is “better” than another is subjective, even among humans. With AI in the mix, some people dislike its overly formal tone, verbosity, or lack of personality, while others appreciate AI’s comprehensiveness, objectivity, and well-structured formatting. For the purposes of this experiment, we're interested in both how people rate the answers and their comments about why.\n**In order to run a fair test, we got people to rate which answer to the task was better, without revealing which was AI. The results were shocking:**\n- **The AI answer beat the human answer in two out of three tasks!**\n- **70% to 80% of people guessed which answer was AI, but many still preferred it**\n- **There is room for improvement—small changes to the prompt yielded better results**\nThis was only a small test, and AI is still a long way from working independently as a product manager. But it’s important to remember that right now is the worst AI will ever be at any task—these models may continue to get twice as good every six months.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?",
+      "token_count": 410
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000002",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nOur method for testing AI performance\nFrom the initial shortlist of hard PM tasks we got in response to Lenny’s social posts, we selected three that we thought would be most impactful to day-to-day work:\n1. **Developing a product strategy**\n2. **Defining KPIs**\n3. **Estimating the ROI of a feature idea**\nMy method was to look at what a typical human response to each task might be and then write a prompt to solicit a similar response quality and structure from AI. We then asked people on X which of the two answers they thought was better.\nPrompts were run in the OpenAI Playground (which is available to anyone with a developer account). This let us set our own\n[system prompt](https://docs.anthropic.com/en/docs/system-prompts)\n(the instructions for how the model should behave) rather than using the\n[ChatGPT system prompt](https://www.reddit.com/r/OpenAI/comments/1akye4v/chatgpt_system_prompt_is_1700_tokens_if_you_were/)\n, which has a lot of extra words that might throw off our test.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nThe actual evaluation poll was run by Lenny tweeting screenshots of two solutions, without saying which one was AI. People were encouraged to vote on which they thought was the better answer, and also tell us which one they thought was made by AI:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nWe ran this as a blind test because that’s the only fair way to evaluate performance. Think of it like the\n[Coke vs. Pepsi challenge](https://en.wikipedia.org/wiki/Pepsi_Challenge)\n: when Pepsi is in unmarked containers, people prefer the taste, but when people see the Coca-Cola brand on the can, they prefer that instead. Given that people have so many opinions on AI, both positive and negative, revealing which response was AI could have skewed the test. (Perhaps it’s self-preservation, but when I compare AI output with my own work, I think it’s bad, yet when I run blind tests, people often prefer the AI.)",
+      "doc_item_refs": [
+        "#/texts/50",
+        "#/texts/51",
+        "#/texts/52",
+        "#/texts/53",
+        "#/texts/54",
+        "#/texts/55",
+        "#/texts/56",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/403",
+        "#/texts/60",
+        "#/texts/61",
+        "#/texts/404",
+        "#/texts/62",
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Our method for testing AI performance"
+      ],
+      "images": [
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/38a67f2a-e478-4991-9dc8-3430524914c6_1600x841.png"
+        },
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/3fe35ba3-5cc6-4cd8-9a0e-d3912a762a0c_1208x1296.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000002",
+        "chunk_sha256": "8cac70feae1af65f2f3b2a3a295372a55b922743ea5be57b4fb69ff4015587d8",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Our method for testing AI performance"
+        ],
+        "images": [
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/38a67f2a-e478-4991-9dc8-3430524914c6_1600x841.png"
+          },
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/3fe35ba3-5cc6-4cd8-9a0e-d3912a762a0c_1208x1296.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/50",
+          "item_count": 18,
+          "last_self_ref": "#/texts/65"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/50",
+          "#/texts/51",
+          "#/texts/52",
+          "#/texts/53",
+          "#/texts/54",
+          "#/texts/55",
+          "#/texts/56",
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/403",
+          "#/texts/60",
+          "#/texts/61",
+          "#/texts/404",
+          "#/texts/62",
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "From the initial shortlist of hard PM tasks we got in response to Lenny’s social posts, we selected three that we thought would be most impactful to day-to-day work:\n1. **Developing a product strategy**\n2. **Defining KPIs**\n3. **Estimating the ROI of a feature idea**\nMy method was to look at what a typical human response to each task might be and then write a prompt to solicit a similar response quality and structure from AI. We then asked people on X which of the two answers they thought was better.\nPrompts were run in the OpenAI Playground (which is available to anyone with a developer account). This let us set our own\n[system prompt](https://docs.anthropic.com/en/docs/system-prompts)\n(the instructions for how the model should behave) rather than using the\n[ChatGPT system prompt](https://www.reddit.com/r/OpenAI/comments/1akye4v/chatgpt_system_prompt_is_1700_tokens_if_you_were/)\n, which has a lot of extra words that might throw off our test.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nThe actual evaluation poll was run by Lenny tweeting screenshots of two solutions, without saying which one was AI. People were encouraged to vote on which they thought was the better answer, and also tell us which one they thought was made by AI:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nWe ran this as a blind test because that’s the only fair way to evaluate performance. Think of it like the\n[Coke vs. Pepsi challenge](https://en.wikipedia.org/wiki/Pepsi_Challenge)\n: when Pepsi is in unmarked containers, people prefer the taste, but when people see the Coca-Cola brand on the can, they prefer that instead. Given that people have so many opinions on AI, both positive and negative, revealing which response was AI could have skewed the test. (Perhaps it’s self-preservation, but when I compare AI output with my own work, I think it’s bad, yet when I run blind tests, people often prefer the AI.)",
+      "token_count": 549
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000003",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nFinding training and evaluation data\nThe hardest part of doing a blind evaluation was finding real examples and results from a human doing the task. When we googled these PM tasks, we mostly got blog posts with advice on how to approach the task, but with no tangible real-world examples.\nOne rare exception was the fantastic PM interview questions database curated by\n[Exponent](https://www.tryexponent.com/questions)\n(no affiliation; I just like their content), a website that helps people prepare for job interviews at top-tier tech companies like Google, DoorDash, Amazon, Airbnb, Spotify, and Meta and is the official interview prep partner for schools like Stanford, Yale, Cornell, and Columbia. We used PM answers from Exponent as the human responses for all three selected tasks. I’ll add that there could certainly be better human answers, but thousands of PMs are using these answers in their interview prep monthly, so it’s a strong benchmark to use.",
+      "doc_item_refs": [
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/70"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Finding training and evaluation data"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000003",
+        "chunk_sha256": "6bcde93f44034db956d7b95c233d0b2ed43fd29113b65fea85071745b985b765",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Finding training and evaluation data"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/67",
+          "item_count": 4,
+          "last_self_ref": "#/texts/70"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69",
+          "#/texts/70"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "The hardest part of doing a blind evaluation was finding real examples and results from a human doing the task. When we googled these PM tasks, we mostly got blog posts with advice on how to approach the task, but with no tangible real-world examples.\nOne rare exception was the fantastic PM interview questions database curated by\n[Exponent](https://www.tryexponent.com/questions)\n(no affiliation; I just like their content), a website that helps people prepare for job interviews at top-tier tech companies like Google, DoorDash, Amazon, Airbnb, Spotify, and Meta and is the official interview prep partner for schools like Stanford, Yale, Cornell, and Columbia. We used PM answers from Exponent as the human responses for all three selected tasks. I’ll add that there could certainly be better human answers, but thousands of PMs are using these answers in their interview prep monthly, so it’s a strong benchmark to use.",
+      "token_count": 245
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000004",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nTest results\nNow let’s get to the test results. We’ll first present the task and the two solutions (one AI, one human). Then we’ll reveal how they did when we tested them with X polls and discuss what that means for product managers today. After sharing the results, I’ll also share my prompts for you to use and explain what techniques I deployed to get above-average results.",
+      "doc_item_refs": [
+        "#/texts/72"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Test results"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000004",
+        "chunk_sha256": "9fefb3b66f4251e1e1c76b44ef1b611f0301e99d24d0f301bc62a8b2921cf6cd",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Test results"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/72",
+          "item_count": 1,
+          "last_self_ref": "#/texts/72"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/72"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "Now let’s get to the test results. We’ll first present the task and the two solutions (one AI, one human). Then we’ll reveal how they did when we tested them with X polls and discuss what that means for product managers today. After sharing the results, I’ll also share my prompts for you to use and explain what techniques I deployed to get above-average results.",
+      "token_count": 123
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000005",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nTask **#**1: Developing a product strategy\nWhat AI struggles with:\nOne of the most common complaints about AI is that it can’t think creatively, and therefore makes for a poor sparring partner when developing a strategy. This is so pervasive that I’ve even seen people claim they use ChatGPT to decide what\n*not*\nto do, to avoid any strategy or action that was too obvious.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nThis is a clever use of AI, but I feel that it sells the technology’s capabilities short. LLMs are trained on all the text available on the internet (and beyond), so the default answer you get is going to be approximately the average of the internet. But with better prompting, you can do much better than average, by steering it toward less obvious answers. Developing a strategy is the skill Lenny thinks will become\n[most dominated by AI](https://www.lennysnewsletter.com/p/how-ai-will-impact-product-management#%C2%A7developing-a-product-strategy-and-vision-significantly-impacted)\n, so let’s see where it’s at today.",
+      "doc_item_refs": [
+        "#/texts/75",
+        "#/texts/76",
+        "#/texts/77",
+        "#/texts/405",
+        "#/texts/78",
+        "#/texts/79",
+        "#/texts/80",
+        "#/texts/81"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Task **#**1: Developing a product strategy",
+        "What AI struggles with:"
+      ],
+      "images": [
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/e6fbb40e-77ad-4ce3-89c0-aa6e72ffe80b_1196x538.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000005",
+        "chunk_sha256": "016cdc15842f642af934c60c78056740137b5b3faf6e497d485371eed2232db3",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Task **#**1: Developing a product strategy",
+          "What AI struggles with:"
+        ],
+        "images": [
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/e6fbb40e-77ad-4ce3-89c0-aa6e72ffe80b_1196x538.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/75",
+          "item_count": 8,
+          "last_self_ref": "#/texts/81"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/75",
+          "#/texts/76",
+          "#/texts/77",
+          "#/texts/405",
+          "#/texts/78",
+          "#/texts/79",
+          "#/texts/80",
+          "#/texts/81"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "One of the most common complaints about AI is that it can’t think creatively, and therefore makes for a poor sparring partner when developing a strategy. This is so pervasive that I’ve even seen people claim they use ChatGPT to decide what\n*not*\nto do, to avoid any strategy or action that was too obvious.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nThis is a clever use of AI, but I feel that it sells the technology’s capabilities short. LLMs are trained on all the text available on the internet (and beyond), so the default answer you get is going to be approximately the average of the internet. But with better prompting, you can do much better than average, by steering it toward less obvious answers. Developing a strategy is the skill Lenny thinks will become\n[most dominated by AI](https://www.lennysnewsletter.com/p/how-ai-will-impact-product-management#%C2%A7developing-a-product-strategy-and-vision-significantly-impacted)\n, so let’s see where it’s at today.",
+      "token_count": 305
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000006",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nTask **#**1: Developing a product strategy\nThe real-world scenario we tested:\n**Imagine you’re the PM for YouTube Music. What is your strategy for the next year?**",
+      "doc_item_refs": [
+        "#/texts/83"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Task **#**1: Developing a product strategy",
+        "The real-world scenario we tested:"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000006",
+        "chunk_sha256": "c38564afc1e4b029a0bc6b6ecb5eff3c8756bf8a8b32b2e5d780c517bb85eb27",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Task **#**1: Developing a product strategy",
+          "The real-world scenario we tested:"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/83",
+          "item_count": 1,
+          "last_self_ref": "#/texts/83"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/83"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "**Imagine you’re the PM for YouTube Music. What is your strategy for the next year?**",
+      "token_count": 80
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000007",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nTask **#**1: Developing a product strategy\nThe real-world scenario we tested:\n\n[Solution A](https://docs.google.com/document/d/1-KCePp5C1TWAS6zj1RyVYw3r7-qJtMjAGBKSvoxZqU0/edit?usp=sharing)\n:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\n[Solution B](https://docs.google.com/document/d/17jPWOESqaWHHMuSjJ2CMmt2Qs3O1mEcT5Gfspg-TVhY/edit?usp=sharing)\n:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?",
+      "doc_item_refs": [
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/406",
+        "#/texts/87",
+        "#/texts/89",
+        "#/texts/90",
+        "#/texts/407",
+        "#/texts/91"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Task **#**1: Developing a product strategy",
+        "The real-world scenario we tested:",
+        ""
+      ],
+      "images": [
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/bc3e1f6c-9ede-45b2-a6c5-5090ff845687_1124x1222.png"
+        },
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/bc76128b-3922-49c8-b0cb-7bc8dceb4e3a_1172x1402.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000007",
+        "chunk_sha256": "0789915ab6f881e99ce8f9ae862d431a567ae22db915f404754e9f986672e630",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Task **#**1: Developing a product strategy",
+          "The real-world scenario we tested:",
+          ""
+        ],
+        "images": [
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/bc3e1f6c-9ede-45b2-a6c5-5090ff845687_1124x1222.png"
+          },
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/bc76128b-3922-49c8-b0cb-7bc8dceb4e3a_1172x1402.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/85",
+          "item_count": 8,
+          "last_self_ref": "#/texts/91"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/406",
+          "#/texts/87",
+          "#/texts/89",
+          "#/texts/90",
+          "#/texts/407",
+          "#/texts/91"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "[Solution A](https://docs.google.com/document/d/1-KCePp5C1TWAS6zj1RyVYw3r7-qJtMjAGBKSvoxZqU0/edit?usp=sharing)\n:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\n[Solution B](https://docs.google.com/document/d/17jPWOESqaWHHMuSjJ2CMmt2Qs3O1mEcT5Gfspg-TVhY/edit?usp=sharing)\n:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?",
+      "token_count": 219
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000008",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nTask **#**1: Developing a product strategy\nWhich was the winner?\nThe preferred solution was B, which was the AI version, with 55% of the votes (when you include tied votes)! This was a close contest, but a tie is still a win for AI, because it’s so much cheaper and quicker to have AI develop your strategy versus a human. Shockingly, solution B won despite 77% of people correctly guessing it was the AI answer. The human answer comes from\n[Harshit G’s answer](https://www.tryexponent.com/questions/2930/pick-a-product-that-you-have-been-using-over-the-past-6-months-you-are-the-new-pm-for-it-the-cpo-ask)\nto a job interview question on Exponent.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nGiven that product strategy is so, well … strategic, I’d suspected AI would be further behind on this task. The overriding criticism of the AI version, B, was that it felt like a list of features, rather than a true strategy. I expect this is fixable over time: reasoning ability is an active research area and will likely be the next major leap forward with GPT-5. Humans win on actually being strategic (versus tactical), for now.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nI put a lot of work into the prompts to make it harder to guess which was AI, because I assumed people would reject the AI work if they knew it wasn’t human. Not so, as the majority of people who voted for B knew it was AI but still chose it as the better answer. This was unprecedented for me, and it says a lot about the growing familiarity with and acceptance of AI tools.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nSometimes it’s small details that humanize our work, as in solution A, which mentions a famous cricket player. AI by default produces average answers based on the highest-probability answer, whereas humans can surprise and delight with unexpected connections between concepts. To make your work more noticeably human and less replaceable by AI, incorporating your niche interests and passions into your work seems like it would be a good strategy.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nOne thing to note is that we changed up the prompt slightly between\n[X](https://x.com/lennysan/status/1798412435394904447)\nand what we posted on\n[LinkedIn](https://www.linkedin.com/posts/lennyrachitsky_help-me-with-one-more-ai-experiment-which-activity-7210797636138725376-h9px/)\n. There were a couple of dead giveaways in the first version of solution B posted on X that I wanted to see if I could correct for by adjusting the prompt. For example, the human solution, A, had grammatical errors and a niche reference to a famous cricketer, so I added instructions to my prompt to “add obscure references” and “make some minor grammatical mistakes due to being busy.” As a result, the score did differ between the social networks, giving AI an advantage on LinkedIn: 59% versus 38%. If we had run v2 of solution B on both social platforms, AI would have had an even more dominant win.",
+      "doc_item_refs": [
+        "#/texts/93",
+        "#/texts/94",
+        "#/texts/95",
+        "#/texts/408",
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/409",
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/410",
+        "#/texts/100",
+        "#/texts/101",
+        "#/texts/411",
+        "#/texts/102",
+        "#/texts/103",
+        "#/texts/104",
+        "#/texts/105",
+        "#/texts/106",
+        "#/texts/107"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Task **#**1: Developing a product strategy",
+        "Which was the winner?"
+      ],
+      "images": [
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000009",
+          "path": null,
+          "self_ref": "#/pictures/9",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/2975710d-1fb6-4b80-9139-883ac3c37200_2100x1526.png"
+        },
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000010",
+          "path": null,
+          "self_ref": "#/pictures/10",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/52558cdd-8a67-4139-878d-d651569ddfd4_1100x370.png"
+        },
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000011",
+          "path": null,
+          "self_ref": "#/pictures/11",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/e90fb2ad-c961-4c1a-a478-134a4dd5ac09_1178x268.png"
+        },
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000012",
+          "path": null,
+          "self_ref": "#/pictures/12",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/0870f5d2-ae7a-4eb9-acf9-cc7f51fd03e2_1178x328.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000008",
+        "chunk_sha256": "056cbf62efbe1f6312aa446cd5e48a6a1b5920ca4372412a548f663f8c546853",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Task **#**1: Developing a product strategy",
+          "Which was the winner?"
+        ],
+        "images": [
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000009",
+            "path": null,
+            "self_ref": "#/pictures/9",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/2975710d-1fb6-4b80-9139-883ac3c37200_2100x1526.png"
+          },
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000010",
+            "path": null,
+            "self_ref": "#/pictures/10",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/52558cdd-8a67-4139-878d-d651569ddfd4_1100x370.png"
+          },
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000011",
+            "path": null,
+            "self_ref": "#/pictures/11",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/e90fb2ad-c961-4c1a-a478-134a4dd5ac09_1178x268.png"
+          },
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000012",
+            "path": null,
+            "self_ref": "#/pictures/12",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/0870f5d2-ae7a-4eb9-acf9-cc7f51fd03e2_1178x328.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/93",
+          "item_count": 19,
+          "last_self_ref": "#/texts/107"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/93",
+          "#/texts/94",
+          "#/texts/95",
+          "#/texts/408",
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/409",
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/410",
+          "#/texts/100",
+          "#/texts/101",
+          "#/texts/411",
+          "#/texts/102",
+          "#/texts/103",
+          "#/texts/104",
+          "#/texts/105",
+          "#/texts/106",
+          "#/texts/107"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "The preferred solution was B, which was the AI version, with 55% of the votes (when you include tied votes)! This was a close contest, but a tie is still a win for AI, because it’s so much cheaper and quicker to have AI develop your strategy versus a human. Shockingly, solution B won despite 77% of people correctly guessing it was the AI answer. The human answer comes from\n[Harshit G’s answer](https://www.tryexponent.com/questions/2930/pick-a-product-that-you-have-been-using-over-the-past-6-months-you-are-the-new-pm-for-it-the-cpo-ask)\nto a job interview question on Exponent.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nGiven that product strategy is so, well … strategic, I’d suspected AI would be further behind on this task. The overriding criticism of the AI version, B, was that it felt like a list of features, rather than a true strategy. I expect this is fixable over time: reasoning ability is an active research area and will likely be the next major leap forward with GPT-5. Humans win on actually being strategic (versus tactical), for now.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nI put a lot of work into the prompts to make it harder to guess which was AI, because I assumed people would reject the AI work if they knew it wasn’t human. Not so, as the majority of people who voted for B knew it was AI but still chose it as the better answer. This was unprecedented for me, and it says a lot about the growing familiarity with and acceptance of AI tools.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nSometimes it’s small details that humanize our work, as in solution A, which mentions a famous cricket player. AI by default produces average answers based on the highest-probability answer, whereas humans can surprise and delight with unexpected connections between concepts. To make your work more noticeably human and less replaceable by AI, incorporating your niche interests and passions into your work seems like it would be a good strategy.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nOne thing to note is that we changed up the prompt slightly between\n[X](https://x.com/lennysan/status/1798412435394904447)\nand what we posted on\n[LinkedIn](https://www.linkedin.com/posts/lennyrachitsky_help-me-with-one-more-ai-experiment-which-activity-7210797636138725376-h9px/)\n. There were a couple of dead giveaways in the first version of solution B posted on X that I wanted to see if I could correct for by adjusting the prompt. For example, the human solution, A, had grammatical errors and a niche reference to a famous cricketer, so I added instructions to my prompt to “add obscure references” and “make some minor grammatical mistakes due to being busy.” As a result, the score did differ between the social networks, giving AI an advantage on LinkedIn: 59% versus 38%. If we had run v2 of solution B on both social platforms, AI would have had an even more dominant win.",
+      "token_count": 812
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000009",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nTask #2: Defining performance metrics\nWhat AI struggles with:\nMany of the comments we got on social media mentioned that ChatGPT had a lack of creativity in coming up with performance metrics, and, to be fair, this is a tricky topic that most humans also get wrong. I worked for over 200 startups as a growth-marketing-agency owner, and I would say that less than 10% were confident they were measuring the right performance metrics. But when you do, you can unite an entire organization around a single goal, and magic happens—as was the case with\n[Duolingo and CURR](https://www.lennysnewsletter.com/p/how-duolingo-reignited-user-growth)\n(current users retention rate), a key metric they focused on.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nWhile ChatGPT does perhaps tend to go with the obvious metrics (I haven’t seen it come up with anything as creative as CURR), I was confident we could get it thinking a little deeper about how different metrics stack together. The key was breaking things down by department before bringing everything together in a North Star goal, which is an approach I saw often in human-written responses to this type of task.",
+      "doc_item_refs": [
+        "#/texts/110",
+        "#/texts/111",
+        "#/texts/112",
+        "#/texts/412",
+        "#/texts/113",
+        "#/texts/114"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Task #2: Defining performance metrics",
+        "What AI struggles with:"
+      ],
+      "images": [
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000013",
+          "path": null,
+          "self_ref": "#/pictures/13",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/d0171ec0-d4be-41d7-a5af-5098dcb9a78f_1410x556.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000009",
+        "chunk_sha256": "6e609a4dba693a6e790135d4b2413c8e0f463f8d6186be2b3ad891c4fa511fe9",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Task #2: Defining performance metrics",
+          "What AI struggles with:"
+        ],
+        "images": [
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000013",
+            "path": null,
+            "self_ref": "#/pictures/13",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/d0171ec0-d4be-41d7-a5af-5098dcb9a78f_1410x556.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/110",
+          "item_count": 6,
+          "last_self_ref": "#/texts/114"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/110",
+          "#/texts/111",
+          "#/texts/112",
+          "#/texts/412",
+          "#/texts/113",
+          "#/texts/114"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "Many of the comments we got on social media mentioned that ChatGPT had a lack of creativity in coming up with performance metrics, and, to be fair, this is a tricky topic that most humans also get wrong. I worked for over 200 startups as a growth-marketing-agency owner, and I would say that less than 10% were confident they were measuring the right performance metrics. But when you do, you can unite an entire organization around a single goal, and magic happens—as was the case with\n[Duolingo and CURR](https://www.lennysnewsletter.com/p/how-duolingo-reignited-user-growth)\n(current users retention rate), a key metric they focused on.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nWhile ChatGPT does perhaps tend to go with the obvious metrics (I haven’t seen it come up with anything as creative as CURR), I was confident we could get it thinking a little deeper about how different metrics stack together. The key was breaking things down by department before bringing everything together in a North Star goal, which is an approach I saw often in human-written responses to this type of task.",
+      "token_count": 318
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000010",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nTask #2: Defining performance metrics\nThe real-world scenario we tested:\n**What are the most important metrics for DoorDash?**",
+      "doc_item_refs": [
+        "#/texts/116"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Task #2: Defining performance metrics",
+        "The real-world scenario we tested:"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000010",
+        "chunk_sha256": "af7e7afae886542b237ffaac58882ffe52391fe37304c77eb6f6cafba56e9e26",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Task #2: Defining performance metrics",
+          "The real-world scenario we tested:"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/116",
+          "item_count": 1,
+          "last_self_ref": "#/texts/116"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/116"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "**What are the most important metrics for DoorDash?**",
+      "token_count": 69
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000011",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nTask #2: Defining performance metrics\nThe real-world scenario we tested:\n\n[Solution A](https://docs.google.com/document/d/1n8fC1RJE--r7Rn7oVAXByPw84JCqdrreB5UtGlIppZw/edit?usp=sharing)\n:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\n[Solution B](https://docs.google.com/document/d/1JBUwbRMiisomvIljTVBjpbBkR5TZPH7BD3BnZeHmSno/edit?usp=sharing)\n:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?",
+      "doc_item_refs": [
+        "#/texts/118",
+        "#/texts/119",
+        "#/texts/413",
+        "#/texts/120",
+        "#/texts/122",
+        "#/texts/123",
+        "#/texts/414",
+        "#/texts/124"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Task #2: Defining performance metrics",
+        "The real-world scenario we tested:",
+        ""
+      ],
+      "images": [
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000014",
+          "path": null,
+          "self_ref": "#/pictures/14",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b828e11a-683b-409b-b879-3479e781cd6f_1476x1012.png"
+        },
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000015",
+          "path": null,
+          "self_ref": "#/pictures/15",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/341011ce-32d7-4bf5-aa0f-6b9a2663326a_1476x888.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000011",
+        "chunk_sha256": "022c294148f5590a9e2537fd5669ea517340c48534c4dbf93d277fcf66e08009",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Task #2: Defining performance metrics",
+          "The real-world scenario we tested:",
+          ""
+        ],
+        "images": [
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000014",
+            "path": null,
+            "self_ref": "#/pictures/14",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/b828e11a-683b-409b-b879-3479e781cd6f_1476x1012.png"
+          },
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000015",
+            "path": null,
+            "self_ref": "#/pictures/15",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/341011ce-32d7-4bf5-aa0f-6b9a2663326a_1476x888.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/118",
+          "item_count": 8,
+          "last_self_ref": "#/texts/124"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/118",
+          "#/texts/119",
+          "#/texts/413",
+          "#/texts/120",
+          "#/texts/122",
+          "#/texts/123",
+          "#/texts/414",
+          "#/texts/124"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "[Solution A](https://docs.google.com/document/d/1n8fC1RJE--r7Rn7oVAXByPw84JCqdrreB5UtGlIppZw/edit?usp=sharing)\n:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\n[Solution B](https://docs.google.com/document/d/1JBUwbRMiisomvIljTVBjpbBkR5TZPH7BD3BnZeHmSno/edit?usp=sharing)\n:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?",
+      "token_count": 214
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000012",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nTask #2: Defining performance metrics\nWhich was the winner?\nThe preferred solution was A, with\n**68%**\nof the votes. This was the\n**AI**\n**version**\n, which 70% of people guessed correctly. If you credit any tied votes to AI, it scored 86%! The human answer comes from\n[Anonymous Muskox’s answer](https://www.tryexponent.com/questions/3852/what-metrics-will-you-measure-for-doordash)\nto a job interview question on Exponent.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nThis was a big win for the AI, with a majority of people admitting it was the better answer despite suspecting it was done by the AI. Again the primary way of identifying AI was that it gave a more comprehensive answer. I actually took steps to decrease the verbosity considerably with this prompt, but it was still enough to get noticed. However, for short tasks like this I have found that being more verbose than a human can sometimes lead to a better answer overall.\nMany people were fairly certain that A was AI, and they cited how comprehensive or long-winded the answer was as the obvious tell. If you’re trying to hide whether your answer was AI-generated, finding ways to get it to\n[quit yapping](https://www.reddit.com/r/ChatGPTPromptGenius/comments/1ahu86n/stopping_chat_gpt_from_yapping/)\nseems to be the key.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nSometimes people were wrong about whether an answer was AI but were right in their criticisms. I think if we can get AI to be considered on the same level as a human, that in itself is a win, because AI costs pennies and takes seconds to answer, so can be scaled significantly, leaving human product managers to do higher-value work, or do the research necessary to get us past intern level.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nWe saw many ties across the tests we ran, sometimes because respondents thought both were equally good and other times because they were equally bad. Whether equally good or bad, equal is a win for AI! Especially when you consider it will continue to get better from here, with every possibility that in 6 to 12 months AI could be edging out the average human across multiple PM tasks. We do have to remember that this is a very hard test for AI, given that Lenny’s audience is full of experienced product managers who likely have their own opinions on how to do the task.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?",
+      "doc_item_refs": [
+        "#/texts/126",
+        "#/texts/127",
+        "#/texts/128",
+        "#/texts/129",
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/415",
+        "#/texts/134",
+        "#/texts/135",
+        "#/texts/136",
+        "#/texts/137",
+        "#/texts/138",
+        "#/texts/416",
+        "#/texts/139",
+        "#/texts/140",
+        "#/texts/417",
+        "#/texts/141",
+        "#/texts/142",
+        "#/texts/418",
+        "#/texts/143"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Task #2: Defining performance metrics",
+        "Which was the winner?"
+      ],
+      "images": [
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000016",
+          "path": null,
+          "self_ref": "#/pictures/16",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c636b65e-9c0c-47e6-8c43-b4ac666f2a8f_2100x1526.png"
+        },
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000017",
+          "path": null,
+          "self_ref": "#/pictures/17",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/2438ba1b-d845-4770-831e-74645bf6a42e_1178x160.png"
+        },
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000018",
+          "path": null,
+          "self_ref": "#/pictures/18",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/6110a902-288f-4827-b78f-f156844ceb97_1178x286.png"
+        },
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000019",
+          "path": null,
+          "self_ref": "#/pictures/19",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/537bfdc9-53fc-49bb-80a8-758426f05918_1192x1042.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000012",
+        "chunk_sha256": "3f46279e882e8768ce10aaaabf223fedb6d869157cca0e58d5523451c94fd026",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Task #2: Defining performance metrics",
+          "Which was the winner?"
+        ],
+        "images": [
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000016",
+            "path": null,
+            "self_ref": "#/pictures/16",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c636b65e-9c0c-47e6-8c43-b4ac666f2a8f_2100x1526.png"
+          },
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000017",
+            "path": null,
+            "self_ref": "#/pictures/17",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/2438ba1b-d845-4770-831e-74645bf6a42e_1178x160.png"
+          },
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000018",
+            "path": null,
+            "self_ref": "#/pictures/18",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/6110a902-288f-4827-b78f-f156844ceb97_1178x286.png"
+          },
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000019",
+            "path": null,
+            "self_ref": "#/pictures/19",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/537bfdc9-53fc-49bb-80a8-758426f05918_1192x1042.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/126",
+          "item_count": 22,
+          "last_self_ref": "#/texts/143"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/126",
+          "#/texts/127",
+          "#/texts/128",
+          "#/texts/129",
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/415",
+          "#/texts/134",
+          "#/texts/135",
+          "#/texts/136",
+          "#/texts/137",
+          "#/texts/138",
+          "#/texts/416",
+          "#/texts/139",
+          "#/texts/140",
+          "#/texts/417",
+          "#/texts/141",
+          "#/texts/142",
+          "#/texts/418",
+          "#/texts/143"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "The preferred solution was A, with\n**68%**\nof the votes. This was the\n**AI**\n**version**\n, which 70% of people guessed correctly. If you credit any tied votes to AI, it scored 86%! The human answer comes from\n[Anonymous Muskox’s answer](https://www.tryexponent.com/questions/3852/what-metrics-will-you-measure-for-doordash)\nto a job interview question on Exponent.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nThis was a big win for the AI, with a majority of people admitting it was the better answer despite suspecting it was done by the AI. Again the primary way of identifying AI was that it gave a more comprehensive answer. I actually took steps to decrease the verbosity considerably with this prompt, but it was still enough to get noticed. However, for short tasks like this I have found that being more verbose than a human can sometimes lead to a better answer overall.\nMany people were fairly certain that A was AI, and they cited how comprehensive or long-winded the answer was as the obvious tell. If you’re trying to hide whether your answer was AI-generated, finding ways to get it to\n[quit yapping](https://www.reddit.com/r/ChatGPTPromptGenius/comments/1ahu86n/stopping_chat_gpt_from_yapping/)\nseems to be the key.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nSometimes people were wrong about whether an answer was AI but were right in their criticisms. I think if we can get AI to be considered on the same level as a human, that in itself is a win, because AI costs pennies and takes seconds to answer, so can be scaled significantly, leaving human product managers to do higher-value work, or do the research necessary to get us past intern level.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nWe saw many ties across the tests we ran, sometimes because respondents thought both were equally good and other times because they were equally bad. Whether equally good or bad, equal is a win for AI! Especially when you consider it will continue to get better from here, with every possibility that in 6 to 12 months AI could be edging out the average human across multiple PM tasks. We do have to remember that this is a very hard test for AI, given that Lenny’s audience is full of experienced product managers who likely have their own opinions on how to do the task.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?",
+      "token_count": 646
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000013",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nTask #3: Estimate ROI\nWhat AI struggles with:\nAnother task many PMs were frustrated with getting AI to do well was prioritizing product features. The difficulty with this type of task is that ChatGPT doesn’t have all of the context that you have about your organization and the various tradeoffs that need to be made. AI chatbots that “talk to your data” still don’t solve the problem that most of the important things in your organization are tacit, not explicit, knowledge, and not written down anywhere.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nIn the future, when AI tools have been a fly-on-the-wall participant in every conversation across your business, can access all of your documents, and can fit all of that in its context window (the amount of information it can take into the prompt), they will likely become superhuman at estimating ROI in particular. However, even without these advantages, I’d suspected that AI could be better with just a little bit of advanced prompting.",
+      "doc_item_refs": [
+        "#/texts/146",
+        "#/texts/419",
+        "#/texts/147",
+        "#/texts/148"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Task #3: Estimate ROI",
+        "What AI struggles with:"
+      ],
+      "images": [
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000020",
+          "path": null,
+          "self_ref": "#/pictures/20",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/42ae58c6-35e9-4834-8421-1153547f1e1e_850x610.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000013",
+        "chunk_sha256": "8202e08471e65412f58c07389d041bd07b95f1a9f093312c9c864d98471348c7",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Task #3: Estimate ROI",
+          "What AI struggles with:"
+        ],
+        "images": [
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000020",
+            "path": null,
+            "self_ref": "#/pictures/20",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/42ae58c6-35e9-4834-8421-1153547f1e1e_850x610.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/146",
+          "item_count": 4,
+          "last_self_ref": "#/texts/148"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/146",
+          "#/texts/419",
+          "#/texts/147",
+          "#/texts/148"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "Another task many PMs were frustrated with getting AI to do well was prioritizing product features. The difficulty with this type of task is that ChatGPT doesn’t have all of the context that you have about your organization and the various tradeoffs that need to be made. AI chatbots that “talk to your data” still don’t solve the problem that most of the important things in your organization are tacit, not explicit, knowledge, and not written down anywhere.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nIn the future, when AI tools have been a fly-on-the-wall participant in every conversation across your business, can access all of your documents, and can fit all of that in its context window (the amount of information it can take into the prompt), they will likely become superhuman at estimating ROI in particular. However, even without these advantages, I’d suspected that AI could be better with just a little bit of advanced prompting.",
+      "token_count": 260
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000014",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nTask #3: Estimate ROI\nThe real-world scenario we tested:\n**Imagine you’re a PM for Meta about to release a new Jobs feature. The launch will happen in 2 weeks. How do you measure the success of this product in the short and long term?**",
+      "doc_item_refs": [
+        "#/texts/150"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Task #3: Estimate ROI",
+        "The real-world scenario we tested:"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000014",
+        "chunk_sha256": "2f7f543827856cf220096effaeb69501546bc4d6d6d6d57246e144b1ed75c1e4",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Task #3: Estimate ROI",
+          "The real-world scenario we tested:"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/150",
+          "item_count": 1,
+          "last_self_ref": "#/texts/150"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/150"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "**Imagine you’re a PM for Meta about to release a new Jobs feature. The launch will happen in 2 weeks. How do you measure the success of this product in the short and long term?**",
+      "token_count": 95
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000015",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nTask #3: Estimate ROI\nThe real-world scenario we tested:\n\n[Solution A](https://docs.google.com/document/d/1Fj6Ja0bbWtaZsXSHiObSrTjEGf5bH-iZF5-OHVUd5tI/edit?usp=sharing)\n:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\n[Solution B](https://docs.google.com/document/d/1i4johrJ9FqW39aGbfjfCPYIgxUQ0y3WcTjz_qXchEFo/edit?usp=sharing)\n:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?",
+      "doc_item_refs": [
+        "#/texts/152",
+        "#/texts/153",
+        "#/texts/420",
+        "#/texts/154",
+        "#/texts/156",
+        "#/texts/157",
+        "#/texts/421",
+        "#/texts/158"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Task #3: Estimate ROI",
+        "The real-world scenario we tested:",
+        ""
+      ],
+      "images": [
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000021",
+          "path": null,
+          "self_ref": "#/pictures/21",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4d07fd90-89c1-4d4b-81e0-9d13ac6909ff_1159x1600.png"
+        },
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000022",
+          "path": null,
+          "self_ref": "#/pictures/22",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/5b63ae71-ddf9-4bf4-a9e1-9789142db371_1057x1600.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000015",
+        "chunk_sha256": "97f166076ced8f684cc7e9634a2234612aa84f33c3c747b98d234140fa9e1c4e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Task #3: Estimate ROI",
+          "The real-world scenario we tested:",
+          ""
+        ],
+        "images": [
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000021",
+            "path": null,
+            "self_ref": "#/pictures/21",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/4d07fd90-89c1-4d4b-81e0-9d13ac6909ff_1159x1600.png"
+          },
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000022",
+            "path": null,
+            "self_ref": "#/pictures/22",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/5b63ae71-ddf9-4bf4-a9e1-9789142db371_1057x1600.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 15,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/152",
+          "item_count": 8,
+          "last_self_ref": "#/texts/158"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/152",
+          "#/texts/153",
+          "#/texts/420",
+          "#/texts/154",
+          "#/texts/156",
+          "#/texts/157",
+          "#/texts/421",
+          "#/texts/158"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 15,
+      "raw_text": "[Solution A](https://docs.google.com/document/d/1Fj6Ja0bbWtaZsXSHiObSrTjEGf5bH-iZF5-OHVUd5tI/edit?usp=sharing)\n:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\n[Solution B](https://docs.google.com/document/d/1i4johrJ9FqW39aGbfjfCPYIgxUQ0y3WcTjz_qXchEFo/edit?usp=sharing)\n:\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?",
+      "token_count": 215
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000016",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nTask #3: Estimate ROI\nWhich was the winner?\nThe preferred solution was A, with\n**58%**\nof the votes, which was the\n**human version**\n. This was a very close race, with many people saying they only picked A for marginal reasons. And only 65% of people guessed correctly which was AI. The human answer comes from\n[Avi G’s answer](https://www.tryexponent.com/questions/3811/if-you-were-a-pm-at-meta-and-you-are-about-the-release-jobs-feature-and-this-is-a-new-feature-launch)\nto a job interview question on Exponent. I actually modified it by adding the numbers, as the original human answer didn’t supply any estimates and I wanted it to be a fair fight. I suspect the AI would have won if it was the only one with numbers.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nWe got far fewer people voting on this one; I guess I scared people away with the math! So we posted it on LinkedIn as well to get more votes. This time we kept both versions the same as what we tested on X. One of the common misconceptions is that LLMs are bad at math (an early weakness of LLMs that is now largely solved with\n[chain-of-thought](https://arxiv.org/pdf/2201.11903)\nprompting), so I think I would have fooled more people with this. If you give LLMs plenty of thinking time so they can work things out step-by-step, they are actually fairly good at providing reasonable estimates. Nevertheless, we got a very tight race for the AI and saw a lot of the same patterns we saw in other tests.\nWhen I’m evaluating AI performance for my clients, it frequently becomes clear that we aren’t putting enough effort into measuring human performance. There were disagreements on whether the human answer was good or not, as it did not focus on monetization metrics. Given that this theoretical task was for Meta, which is famously willing to forgo profits for decades before switching on monetization for a feature/platform, I think it’s fair to say that the human-given answer “$ made” wouldn’t be the main metric for launching a new feature. Plenty of PMs disagree, however, and that’s particularly valid now that the era of zero-percent interest rates is over and VC funding is less frothy. How you measure impact is a function of how you measure strategy, which is why these tasks are always going to be somewhat subjective.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nIn their comments on X and LinkedIn, many people guessed which option other people would vote for, separate from their own rating. This adds another interesting dimension to evaluations where the responses are public: there’s a risk of groupthink once the vote sways in one direction, and bias if our mental models of what other people think about AI are out of date. I’m finding that attitudes to AI are changing rapidly over time, and clients that were previously skeptical of AI are suddenly all-in months later. It’s best to run private blind tests periodically to see what people really think about AI results.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nAnother type of answer I saw a lot was “neither was good.” This may be a function of conducting the test publicly in Lenny’s social media feed, where many ambitious PMs are hoping to prove themselves and stir up a discussion. The next time I do this test, I would give people a way to vote privately, and I suspect that would lead to more interesting results—and perhaps even more favorability toward AI results.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?",
+      "doc_item_refs": [
+        "#/texts/160",
+        "#/texts/161",
+        "#/texts/162",
+        "#/texts/163",
+        "#/texts/164",
+        "#/texts/165",
+        "#/texts/166",
+        "#/texts/422",
+        "#/texts/167",
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/170",
+        "#/texts/171",
+        "#/texts/423",
+        "#/texts/172",
+        "#/texts/173",
+        "#/texts/424",
+        "#/texts/174",
+        "#/texts/175",
+        "#/texts/425",
+        "#/texts/176"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Task #3: Estimate ROI",
+        "Which was the winner?"
+      ],
+      "images": [
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000023",
+          "path": null,
+          "self_ref": "#/pictures/23",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/2ba73a49-3e44-49a1-bb92-9b2313e30835_2100x1526.png"
+        },
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000024",
+          "path": null,
+          "self_ref": "#/pictures/24",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/47674042-5d36-485e-b466-cf113187479e_1192x536.png"
+        },
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000025",
+          "path": null,
+          "self_ref": "#/pictures/25",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/3320e619-d22b-43f6-b528-c12c8199dd7f_1192x978.png"
+        },
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000026",
+          "path": null,
+          "self_ref": "#/pictures/26",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b5346689-0299-4678-ab16-fc129cd1d705_1192x316.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000016",
+        "chunk_sha256": "028f58377194567c7c5397c9c6579b5bc13e8f46de6b26536ec396f055cbfa82",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Task #3: Estimate ROI",
+          "Which was the winner?"
+        ],
+        "images": [
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000023",
+            "path": null,
+            "self_ref": "#/pictures/23",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/2ba73a49-3e44-49a1-bb92-9b2313e30835_2100x1526.png"
+          },
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000024",
+            "path": null,
+            "self_ref": "#/pictures/24",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/47674042-5d36-485e-b466-cf113187479e_1192x536.png"
+          },
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000025",
+            "path": null,
+            "self_ref": "#/pictures/25",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/3320e619-d22b-43f6-b528-c12c8199dd7f_1192x978.png"
+          },
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000026",
+            "path": null,
+            "self_ref": "#/pictures/26",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/b5346689-0299-4678-ab16-fc129cd1d705_1192x316.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 16,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/160",
+          "item_count": 21,
+          "last_self_ref": "#/texts/176"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/160",
+          "#/texts/161",
+          "#/texts/162",
+          "#/texts/163",
+          "#/texts/164",
+          "#/texts/165",
+          "#/texts/166",
+          "#/texts/422",
+          "#/texts/167",
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/170",
+          "#/texts/171",
+          "#/texts/423",
+          "#/texts/172",
+          "#/texts/173",
+          "#/texts/424",
+          "#/texts/174",
+          "#/texts/175",
+          "#/texts/425",
+          "#/texts/176"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 16,
+      "raw_text": "The preferred solution was A, with\n**58%**\nof the votes, which was the\n**human version**\n. This was a very close race, with many people saying they only picked A for marginal reasons. And only 65% of people guessed correctly which was AI. The human answer comes from\n[Avi G’s answer](https://www.tryexponent.com/questions/3811/if-you-were-a-pm-at-meta-and-you-are-about-the-release-jobs-feature-and-this-is-a-new-feature-launch)\nto a job interview question on Exponent. I actually modified it by adding the numbers, as the original human answer didn’t supply any estimates and I wanted it to be a fair fight. I suspect the AI would have won if it was the only one with numbers.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nWe got far fewer people voting on this one; I guess I scared people away with the math! So we posted it on LinkedIn as well to get more votes. This time we kept both versions the same as what we tested on X. One of the common misconceptions is that LLMs are bad at math (an early weakness of LLMs that is now largely solved with\n[chain-of-thought](https://arxiv.org/pdf/2201.11903)\nprompting), so I think I would have fooled more people with this. If you give LLMs plenty of thinking time so they can work things out step-by-step, they are actually fairly good at providing reasonable estimates. Nevertheless, we got a very tight race for the AI and saw a lot of the same patterns we saw in other tests.\nWhen I’m evaluating AI performance for my clients, it frequently becomes clear that we aren’t putting enough effort into measuring human performance. There were disagreements on whether the human answer was good or not, as it did not focus on monetization metrics. Given that this theoretical task was for Meta, which is famously willing to forgo profits for decades before switching on monetization for a feature/platform, I think it’s fair to say that the human-given answer “$ made” wouldn’t be the main metric for launching a new feature. Plenty of PMs disagree, however, and that’s particularly valid now that the era of zero-percent interest rates is over and VC funding is less frothy. How you measure impact is a function of how you measure strategy, which is why these tasks are always going to be somewhat subjective.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nIn their comments on X and LinkedIn, many people guessed which option other people would vote for, separate from their own rating. This adds another interesting dimension to evaluations where the responses are public: there’s a risk of groupthink once the vote sways in one direction, and bias if our mental models of what other people think about AI are out of date. I’m finding that attitudes to AI are changing rapidly over time, and clients that were previously skeptical of AI are suddenly all-in months later. It’s best to run private blind tests periodically to see what people really think about AI results.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?\nAnother type of answer I saw a lot was “neither was good.” This may be a function of conducting the test publicly in Lenny’s social media feed, where many ambitious PMs are hoping to prove themselves and stir up a discussion. The next time I do this test, I would give people a way to vote privately, and I suspect that would lead to more interesting results—and perhaps even more favorability toward AI results.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?",
+      "token_count": 891
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000017",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nWhat comes next?\nTesting head-to-head on three tasks isn’t a comprehensive evaluation, so we want to extend these benchmarks across more types of difficult PM tasks. This section describes our suggested approach to doing so. We’d love to hear from you in the comments here on Substack or on\n[social media](https://x.com/hammer_mt)\nabout which may be good ideas, and what we may have missed that would make the results more trustworthy and believable to you.\nLenny\n[once defined](https://www.lennysnewsletter.com/p/what-is-product-management#%C2%A7the-job-of-a-product-manager)\nthe job of a product manager as to “\n**deliver business impact by marshaling the resources of your team to identify and solve the most impactful customer problems**\n.” He also defined a comprehensive framework for categorizing PM skills (below). Aligning the hard PM task benchmarks with this framework will help us track what percentage of the overall PM role is currently automatable.\n1. **Shape the product**\n2. Developing a product strategy and vision 2. Setting goals 3. Creating specs 4. Discovery 5. Building a roadmap 6. Giving product/design feedback\n3. **Ship the product**\n4. Quality assurance 2. Fighting for budget/resources 3. Unblocking blockers 4. GTM 5. Adjusting resources/priorities when things come up\n5. **Sync the people**\n6. Running meetings 2. Communicating important information up and down the ladder 3. Aligning stakeholders 4. Aligning your team 5. Maintaining team morale\nTo go even deeper, we would explore multiple questions per category to get more diverse and robust results, and run the tests with more models (and potentially different prompting techniques). In particular, I would love to explore whether\n[Claude 3.5](https://www.anthropic.com/news/claude-3-5-sonnet)\nor\n[Google Gemini 1.5](https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/)\ncan beat GPT-4o, and how giving a model access to the internet, like\n[Perplexity](https://www.lennysnewsletter.com/p/how-to-use-perplexity-in-your-pm)\nhas, may change which tasks it can compete at.\nOne big problem is\n[data contamination](https://ehudreiter.com/2024/03/12/data-contamination-worries/)\n, where the LLMs learn which answers are “correct” when they are trained on fresh data from the internet, which includes posts like this one that document common LLM failures and reveal what the correct answers are. With an updated post, we would avoid data contamination of the evaluation benchmark by not revealing which solution was AI and just tallying the aggregated results. This would make the evaluation benchmark less accessible (people wouldn’t be able to run the evaluation themselves if we don’t reveal the correct answers), but hopefully there are researchers out there with good suggestions on this front.\nThe voting mechanism we used wasn’t ideal. Posting on X and LinkedIn and then tallying the votes manually was too open to interpretation, and took too long to be able to run tests more frequently. We would need to change the methodology to support an expanded list of tasks. For inspiration, we’re thinking about how\n[LMSYS](https://chat.lmsys.org/)\nhandles their chatbot arena, but we’re open to suggestions. The major difference is that we’d also need to collect real human answers to questions like Exponent does and compare them against the LLM responses.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?",
+      "doc_item_refs": [
+        "#/texts/178",
+        "#/texts/179",
+        "#/texts/180",
+        "#/texts/181",
+        "#/texts/182",
+        "#/texts/183",
+        "#/texts/184",
+        "#/texts/185",
+        "#/texts/186",
+        "#/texts/187",
+        "#/texts/194",
+        "#/texts/195",
+        "#/texts/201",
+        "#/texts/202",
+        "#/texts/208",
+        "#/texts/209",
+        "#/texts/210",
+        "#/texts/211",
+        "#/texts/212",
+        "#/texts/213",
+        "#/texts/214",
+        "#/texts/215",
+        "#/texts/216",
+        "#/texts/217",
+        "#/texts/218",
+        "#/texts/219",
+        "#/texts/220",
+        "#/texts/426",
+        "#/texts/221"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "What comes next?"
+      ],
+      "images": [
+        {
+          "caption": "Image from How close is AI to replacing product managers?",
+          "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000027",
+          "path": null,
+          "self_ref": "#/pictures/27",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/7f764777-4562-49ad-a7f5-70921537bcd8_1600x910.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000017",
+        "chunk_sha256": "97b046b7f93dcdd0e2b9af05e6ed8845500a9904f72d05f4878c828164092573",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "What comes next?"
+        ],
+        "images": [
+          {
+            "caption": "Image from How close is AI to replacing product managers?",
+            "image_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#image=000027",
+            "path": null,
+            "self_ref": "#/pictures/27",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/7f764777-4562-49ad-a7f5-70921537bcd8_1600x910.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 17,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/178",
+          "item_count": 29,
+          "last_self_ref": "#/texts/221"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/178",
+          "#/texts/179",
+          "#/texts/180",
+          "#/texts/181",
+          "#/texts/182",
+          "#/texts/183",
+          "#/texts/184",
+          "#/texts/185",
+          "#/texts/186",
+          "#/texts/187",
+          "#/texts/194",
+          "#/texts/195",
+          "#/texts/201",
+          "#/texts/202",
+          "#/texts/208",
+          "#/texts/209",
+          "#/texts/210",
+          "#/texts/211",
+          "#/texts/212",
+          "#/texts/213",
+          "#/texts/214",
+          "#/texts/215",
+          "#/texts/216",
+          "#/texts/217",
+          "#/texts/218",
+          "#/texts/219",
+          "#/texts/220",
+          "#/texts/426",
+          "#/texts/221"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 17,
+      "raw_text": "Testing head-to-head on three tasks isn’t a comprehensive evaluation, so we want to extend these benchmarks across more types of difficult PM tasks. This section describes our suggested approach to doing so. We’d love to hear from you in the comments here on Substack or on\n[social media](https://x.com/hammer_mt)\nabout which may be good ideas, and what we may have missed that would make the results more trustworthy and believable to you.\nLenny\n[once defined](https://www.lennysnewsletter.com/p/what-is-product-management#%C2%A7the-job-of-a-product-manager)\nthe job of a product manager as to “\n**deliver business impact by marshaling the resources of your team to identify and solve the most impactful customer problems**\n.” He also defined a comprehensive framework for categorizing PM skills (below). Aligning the hard PM task benchmarks with this framework will help us track what percentage of the overall PM role is currently automatable.\n1. **Shape the product**\n2. Developing a product strategy and vision 2. Setting goals 3. Creating specs 4. Discovery 5. Building a roadmap 6. Giving product/design feedback\n3. **Ship the product**\n4. Quality assurance 2. Fighting for budget/resources 3. Unblocking blockers 4. GTM 5. Adjusting resources/priorities when things come up\n5. **Sync the people**\n6. Running meetings 2. Communicating important information up and down the ladder 3. Aligning stakeholders 4. Aligning your team 5. Maintaining team morale\nTo go even deeper, we would explore multiple questions per category to get more diverse and robust results, and run the tests with more models (and potentially different prompting techniques). In particular, I would love to explore whether\n[Claude 3.5](https://www.anthropic.com/news/claude-3-5-sonnet)\nor\n[Google Gemini 1.5](https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/)\ncan beat GPT-4o, and how giving a model access to the internet, like\n[Perplexity](https://www.lennysnewsletter.com/p/how-to-use-perplexity-in-your-pm)\nhas, may change which tasks it can compete at.\nOne big problem is\n[data contamination](https://ehudreiter.com/2024/03/12/data-contamination-worries/)\n, where the LLMs learn which answers are “correct” when they are trained on fresh data from the internet, which includes posts like this one that document common LLM failures and reveal what the correct answers are. With an updated post, we would avoid data contamination of the evaluation benchmark by not revealing which solution was AI and just tallying the aggregated results. This would make the evaluation benchmark less accessible (people wouldn’t be able to run the evaluation themselves if we don’t reveal the correct answers), but hopefully there are researchers out there with good suggestions on this front.\nThe voting mechanism we used wasn’t ideal. Posting on X and LinkedIn and then tallying the votes manually was too open to interpretation, and took too long to be able to run tests more frequently. We would need to change the methodology to support an expanded list of tasks. For inspiration, we’re thinking about how\n[LMSYS](https://chat.lmsys.org/)\nhandles their chatbot arena, but we’re open to suggestions. The major difference is that we’d also need to collect real human answers to questions like Exponent does and compare them against the LLM responses.\nImage from How close is AI to replacing product managers?\nImage from How close is AI to replacing product managers?",
+      "token_count": 884
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000018",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nBonus: How I created the prompts for these tasks\nThere are plenty of prompt engineering techniques and tactics to employ to get better performance from AI, but for this exercise I wanted to develop something more formulaic. Here is the process I settled on:\n1. Find a real-world example of a human doing the task (for example, on [Exponent](https://www.tryexponent.com/questions/2930/pick-a-product-that-you-have-been-using-over-the-past-6-months-you-are-the-new-pm-for-it-the-cpo-ask) )\n2. Copy and paste the task into ChatGPT (it helps to convert to [markdown](https://word2md.com/) first)\n3. Prompting ChatGPT:\n4. *“Make up a version of this but for a fake product, using the exact same structure.”* 2. *“Make it sound more authentic,” to avoid AI speak.* 3. *“Write brief instructions for someone who hasn’t seen this example to replicate its structure and style. Do not number your instructions. Only return the instructions.”*\n5. Add the instructions and the example plus a role (“As a product manager…”) to create the prompt template\n6. Generate the results and match the formatting to the human answer (I save the markdown in VSCode and then copy and paste the preview)\nThe prompt template structure ends up as follows:\n```\nAs a {role} you are tasked with {task} for the provided product.\n```\n```\nStart by listing assumptions and planning out your answer in a separate bullet point section labeled \"Thinking\". Then follow the instructions.\n```\n```\n## Instructions\n```\n```\n{instructions}\n```\n```\nFollow the structure in the example exactly:\n```\n```\n## Example\n```\n```\n{example}\n```\n**Role**\nMany of these tasks are a kind of cultural and political game, where the type of answer that would seem “obvious” to a Silicon Valley executive might feel completely alien to the boss of a consumer packaged goods company. The important part of this prompt is asking the AI to role-play as “As a product manager for a major tech company…,” which helps it get the right cultural references and acronyms that a product manager would use. Without role-playing, you get an average response, which might not match your subjective tastes.\n**Instructions**\nOne of the mechanisms that makes this prompt work is the instruction to “Start by listing assumptions...” AI models (and humans) tend to give better answers when they spend some time planning the answer first, which OpenAI calls “\n[Giving the model time to think](https://platform.openai.com/docs/guides/prompt-engineering/give-the-model-time-to-think)\n,” also called “\n[chain of thought](https://arxiv.org/abs/2201.11903)\n” prompting. In the example I added to the prompt, I made sure to add that assumptions and clarifying questions section so that the model could follow my lead and arrive at a more robust answer. There were also smaller optimizations to the instructions for specific tasks, like in task #1 where I specifically asked it to make obscure references and make minor grammatical mistakes.\n**Example**\nThe most impactful thing in the prompt template is the example we provided. It’s hard to describe exactly how a task should be done, and providing an example allows the AI to pick up on nuances we might not be sufficiently able to describe. Adding at least one example massively improved the reliability of the results, and adding additional examples from a diverse range of scenarios helped further. Although too many examples ran the risk of constraining the AI’s output creativity, as it might follow the examples too strictly. In addition, collecting good examples comes with a cost of your time, so I would try to add a single example first to see if that does a good enough job.\nHere are the final prompts I used:",
+      "doc_item_refs": [
+        "#/texts/223",
+        "#/texts/224",
+        "#/texts/228",
+        "#/texts/232",
+        "#/texts/233",
+        "#/texts/239",
+        "#/texts/240",
+        "#/texts/241",
+        "#/texts/242",
+        "#/texts/243",
+        "#/texts/244",
+        "#/texts/245",
+        "#/texts/246",
+        "#/texts/247",
+        "#/texts/248",
+        "#/texts/249",
+        "#/texts/250",
+        "#/texts/251",
+        "#/texts/252",
+        "#/texts/253",
+        "#/texts/254",
+        "#/texts/255",
+        "#/texts/256",
+        "#/texts/257",
+        "#/texts/258",
+        "#/texts/259"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Bonus: How I created the prompts for these tasks"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000018",
+        "chunk_sha256": "e6fd18f7062651328cf5bdd41137af794e30677ae71ec956ea22ee6ec4a85bc5",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Bonus: How I created the prompts for these tasks"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 18,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/223",
+          "item_count": 26,
+          "last_self_ref": "#/texts/259"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/223",
+          "#/texts/224",
+          "#/texts/228",
+          "#/texts/232",
+          "#/texts/233",
+          "#/texts/239",
+          "#/texts/240",
+          "#/texts/241",
+          "#/texts/242",
+          "#/texts/243",
+          "#/texts/244",
+          "#/texts/245",
+          "#/texts/246",
+          "#/texts/247",
+          "#/texts/248",
+          "#/texts/249",
+          "#/texts/250",
+          "#/texts/251",
+          "#/texts/252",
+          "#/texts/253",
+          "#/texts/254",
+          "#/texts/255",
+          "#/texts/256",
+          "#/texts/257",
+          "#/texts/258",
+          "#/texts/259"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 18,
+      "raw_text": "There are plenty of prompt engineering techniques and tactics to employ to get better performance from AI, but for this exercise I wanted to develop something more formulaic. Here is the process I settled on:\n1. Find a real-world example of a human doing the task (for example, on [Exponent](https://www.tryexponent.com/questions/2930/pick-a-product-that-you-have-been-using-over-the-past-6-months-you-are-the-new-pm-for-it-the-cpo-ask) )\n2. Copy and paste the task into ChatGPT (it helps to convert to [markdown](https://word2md.com/) first)\n3. Prompting ChatGPT:\n4. *“Make up a version of this but for a fake product, using the exact same structure.”* 2. *“Make it sound more authentic,” to avoid AI speak.* 3. *“Write brief instructions for someone who hasn’t seen this example to replicate its structure and style. Do not number your instructions. Only return the instructions.”*\n5. Add the instructions and the example plus a role (“As a product manager…”) to create the prompt template\n6. Generate the results and match the formatting to the human answer (I save the markdown in VSCode and then copy and paste the preview)\nThe prompt template structure ends up as follows:\n```\nAs a {role} you are tasked with {task} for the provided product.\n```\n```\nStart by listing assumptions and planning out your answer in a separate bullet point section labeled \"Thinking\". Then follow the instructions.\n```\n```\n## Instructions\n```\n```\n{instructions}\n```\n```\nFollow the structure in the example exactly:\n```\n```\n## Example\n```\n```\n{example}\n```\n**Role**\nMany of these tasks are a kind of cultural and political game, where the type of answer that would seem “obvious” to a Silicon Valley executive might feel completely alien to the boss of a consumer packaged goods company. The important part of this prompt is asking the AI to role-play as “As a product manager for a major tech company…,” which helps it get the right cultural references and acronyms that a product manager would use. Without role-playing, you get an average response, which might not match your subjective tastes.\n**Instructions**\nOne of the mechanisms that makes this prompt work is the instruction to “Start by listing assumptions...” AI models (and humans) tend to give better answers when they spend some time planning the answer first, which OpenAI calls “\n[Giving the model time to think](https://platform.openai.com/docs/guides/prompt-engineering/give-the-model-time-to-think)\n,” also called “\n[chain of thought](https://arxiv.org/abs/2201.11903)\n” prompting. In the example I added to the prompt, I made sure to add that assumptions and clarifying questions section so that the model could follow my lead and arrive at a more robust answer. There were also smaller optimizations to the instructions for specific tasks, like in task #1 where I specifically asked it to make obscure references and make minor grammatical mistakes.\n**Example**\nThe most impactful thing in the prompt template is the example we provided. It’s hard to describe exactly how a task should be done, and providing an example allows the AI to pick up on nuances we might not be sufficiently able to describe. Adding at least one example massively improved the reliability of the results, and adding additional examples from a diverse range of scenarios helped further. Although too many examples ran the risk of constraining the AI’s output creativity, as it might follow the examples too strictly. In addition, collecting good examples comes with a cost of your time, so I would try to add a single example first to see if that does a good enough job.\nHere are the final prompts I used:",
+      "token_count": 928
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000019",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nBonus: How I created the prompts for these tasks\n\n[Task #1](https://platform.openai.com/playground/p/K00oiCDRAhNkL3c0HWwvHNCs)\n:\n```\nAs a product manager for a major tech company similar to Google, Amazon, Microsoft, or Facebook, you are tasked with developing a product strategy.\n```\n```\nStart by listing assumptions and planning out your answer in a separate bullet point section labeled \"Thinking\". Then follow the instructions:\n```\n```\n## Instructions\n```\n```\nDefine the overarching goal of the strategy or product in the first bullet point to set the context for the upcoming points.\n```\n```\nList each strategic initiative separately as bullet points, giving each a distinct heading that conveys the core action or goal, like \"Expanding into Exclusive Original Content.\"\n```\n```\nFor each initiative, provide a brief explanation of the current state and the rationale for the change or enhancement. Compare with industry benchmarks or competitors to justify the strategy's relevance.\n```\n```\nOutline the specific benefits or outcomes expected from each initiative, using bullet points for clarity. Make sure these benefits directly relate to the overarching goals mentioned initially.\n```\n```\nUse a tone that is professional yet engaging, focusing on concise language that clearly communicates the purpose and expected outcomes of each strategy.\n```\n```\nIncorporate industry-specific terminology to make the strategy sound knowledgeable and well-informed.\n```\n```\nConclude each bullet point section with a summary of how the initiative will impact the business or product, emphasizing improvements in user engagement, revenue, or market position.\n```\n```\nEnsure the entire list maintains a cohesive flow, with each section naturally leading into the next, reinforcing the strategic narrative you are building.\n```\n```\nUse arrows throughout -> to show how one assumption leads to another.\n```\n```\nBe brief and authentic.\n```\n```\nThink deeply about what would actually work for the strategy, based on historical precedents in the tech industry. Cite examples where possible.\n```\n```\nHave something resembling a real user flow, some explanations behind why.\n```\n```\nMake something that sounds actually tangible. Don't just provide a templated <words related to improvement> -> <words related to the domain somehow>. The words matter.\n```\n```\nDon't label each bullet point with \"Rationale\", \"Expected Benefits\" etc, just let the text stand for itself.\n```\n```\nDon't include a summary at the end of the strategy.\n```\n```\nKeep it concise.\n```\n```\nMake it more of an actual strategy, and less of a laundry list of tactics.\n```\n```\nBe colloquial like a real human would, make some minor grammatical mistakes due to being busy and intensely thinking, but maintain professionalism like you would in a job interview.\n```\n```\nAdd obscure references that shows you have a breadth of diverse ideas.\n```\n```\n## Example\n```\n```\n**Strategy for the next year**\n```\n```\n## Thinking\n```\n```\n- Goal: Increase user engagement and revenue through diversified content offerings and enhanced user experience.\n```\n```\n- Assumptions:\n```\n```\n- Users are seeking more original content and personalized experiences.\n```\n```\n- There is an opportunity to leverage existing technology to improve content discovery.\n```\n```\n- Cross-platform integration can enhance user loyalty and increase overall satisfaction.\n```\n```\n- Competitors are focusing heavily on algorithm-driven recommendations, leaving room for more humanized approaches.\n```\n```\n**Strategy for the next year**\n```\n```\n-## Thinking\n```\n```\n- Goal: To enhance user engagement, increase revenue, and solidify market position through unique and innovative strategies.\n```\n```\n- Assumptions:\n```\n```\n- Users value exclusive content and personalized experiences.\n```\n```\n- There is a need for better content discovery tools.\n```\n```\n- Cross-platform integration enhances user loyalty.\n```\n```\n- Initiatives must be distinct, innovative, and provide clear benefits.\n```\n```\n## Strategy for the next year\n```\n```\n- **Expanding into Exclusive Original Content**\n```\n```\n- Leverage existing relationships with studios to create \"StreamSync Originals,\" focusing on underserved genres like international dramas, niche documentaries, indie films. Similar to other originals plays by competitors.\n```\n```\n- Launch series or films that connect with current viewing trends or untapped audiences, i.e. as eco-thrillers / historical fiction → This can attract a broader user base → hook niche audiences, increasing subscription retention.\n```\n```\n- Offer a mix of premium (subscription-only) and ad-supported viewing options for originals → Catering to different user preferences encourages both subscription upgrades and increased ad revenue, similar to Hulu's dual revenue model.\n```\n```\n- **Enhancing Content Discovery Through Innovative Features**\n```\n```\n- Many users feel overwhelmed by choices → Simplify the discovery process with \"Highlight Previews.\" → intelligently selected based on user behavior and current trends → boosts interest in lesser-known titles like TikTok's algo.\n```\n```\n- Combine algo recommendations with real user reviews and highlight in previews → Building trust and curiosity → more exploration on the platform, i.e. Spotify's Discover Weekly.\n```\n```\n- Introduce celebrity-curated collections as a regular engagement tool i.e. see LeBron's downtime bing watching playlist. Feature guest curators from various fields like authors, chefs, or athletes to add freshness and a sense of ceremony to content discovery, similar to what Tidal does with artist-curated playlists.\n```\n```\n- **Cross-Platform Personalization Integration**\n```\n```\n- Personalization not only helps retain users but also makes them feel at home across all platforms. When I play Fortnite on any platform it's the same. Preferences should sync intuitively across services like StreamSync and SmartFrame.\n```\n```\n- If a user likes action movies on StreamSync, this data should subtly enhance their experience on SmartFrame with action-themed backgrounds or soundtracks, always allowing customization or opt-out They must feel their preferences are respected without being intrusive.\n```",
+      "doc_item_refs": [
+        "#/texts/261",
+        "#/texts/262",
+        "#/texts/263",
+        "#/texts/264",
+        "#/texts/265",
+        "#/texts/266",
+        "#/texts/267",
+        "#/texts/268",
+        "#/texts/269",
+        "#/texts/270",
+        "#/texts/271",
+        "#/texts/272",
+        "#/texts/273",
+        "#/texts/274",
+        "#/texts/275",
+        "#/texts/276",
+        "#/texts/277",
+        "#/texts/278",
+        "#/texts/279",
+        "#/texts/280",
+        "#/texts/281",
+        "#/texts/282",
+        "#/texts/283",
+        "#/texts/284",
+        "#/texts/285",
+        "#/texts/286",
+        "#/texts/287",
+        "#/texts/288",
+        "#/texts/289",
+        "#/texts/290",
+        "#/texts/291",
+        "#/texts/292",
+        "#/texts/293",
+        "#/texts/294",
+        "#/texts/295",
+        "#/texts/296",
+        "#/texts/297",
+        "#/texts/298",
+        "#/texts/299",
+        "#/texts/300",
+        "#/texts/301",
+        "#/texts/302",
+        "#/texts/303",
+        "#/texts/304",
+        "#/texts/305",
+        "#/texts/306",
+        "#/texts/307",
+        "#/texts/308",
+        "#/texts/309",
+        "#/texts/310",
+        "#/texts/311",
+        "#/texts/312",
+        "#/texts/313"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Bonus: How I created the prompts for these tasks",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000019",
+        "chunk_sha256": "dd381de73508e6604bb10a48f2e5e4eee5b3512014ff4022e2af12209eff64e5",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Bonus: How I created the prompts for these tasks",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 19,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/261",
+          "item_count": 53,
+          "last_self_ref": "#/texts/313"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/261",
+          "#/texts/262",
+          "#/texts/263",
+          "#/texts/264",
+          "#/texts/265",
+          "#/texts/266",
+          "#/texts/267",
+          "#/texts/268",
+          "#/texts/269",
+          "#/texts/270",
+          "#/texts/271",
+          "#/texts/272",
+          "#/texts/273",
+          "#/texts/274",
+          "#/texts/275",
+          "#/texts/276",
+          "#/texts/277",
+          "#/texts/278",
+          "#/texts/279",
+          "#/texts/280",
+          "#/texts/281",
+          "#/texts/282",
+          "#/texts/283",
+          "#/texts/284",
+          "#/texts/285",
+          "#/texts/286",
+          "#/texts/287",
+          "#/texts/288",
+          "#/texts/289",
+          "#/texts/290",
+          "#/texts/291",
+          "#/texts/292",
+          "#/texts/293",
+          "#/texts/294",
+          "#/texts/295",
+          "#/texts/296",
+          "#/texts/297",
+          "#/texts/298",
+          "#/texts/299",
+          "#/texts/300",
+          "#/texts/301",
+          "#/texts/302",
+          "#/texts/303",
+          "#/texts/304",
+          "#/texts/305",
+          "#/texts/306",
+          "#/texts/307",
+          "#/texts/308",
+          "#/texts/309",
+          "#/texts/310",
+          "#/texts/311",
+          "#/texts/312",
+          "#/texts/313"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 19,
+      "raw_text": "[Task #1](https://platform.openai.com/playground/p/K00oiCDRAhNkL3c0HWwvHNCs)\n:\n```\nAs a product manager for a major tech company similar to Google, Amazon, Microsoft, or Facebook, you are tasked with developing a product strategy.\n```\n```\nStart by listing assumptions and planning out your answer in a separate bullet point section labeled \"Thinking\". Then follow the instructions:\n```\n```\n## Instructions\n```\n```\nDefine the overarching goal of the strategy or product in the first bullet point to set the context for the upcoming points.\n```\n```\nList each strategic initiative separately as bullet points, giving each a distinct heading that conveys the core action or goal, like \"Expanding into Exclusive Original Content.\"\n```\n```\nFor each initiative, provide a brief explanation of the current state and the rationale for the change or enhancement. Compare with industry benchmarks or competitors to justify the strategy's relevance.\n```\n```\nOutline the specific benefits or outcomes expected from each initiative, using bullet points for clarity. Make sure these benefits directly relate to the overarching goals mentioned initially.\n```\n```\nUse a tone that is professional yet engaging, focusing on concise language that clearly communicates the purpose and expected outcomes of each strategy.\n```\n```\nIncorporate industry-specific terminology to make the strategy sound knowledgeable and well-informed.\n```\n```\nConclude each bullet point section with a summary of how the initiative will impact the business or product, emphasizing improvements in user engagement, revenue, or market position.\n```\n```\nEnsure the entire list maintains a cohesive flow, with each section naturally leading into the next, reinforcing the strategic narrative you are building.\n```\n```\nUse arrows throughout -> to show how one assumption leads to another.\n```\n```\nBe brief and authentic.\n```\n```\nThink deeply about what would actually work for the strategy, based on historical precedents in the tech industry. Cite examples where possible.\n```\n```\nHave something resembling a real user flow, some explanations behind why.\n```\n```\nMake something that sounds actually tangible. Don't just provide a templated <words related to improvement> -> <words related to the domain somehow>. The words matter.\n```\n```\nDon't label each bullet point with \"Rationale\", \"Expected Benefits\" etc, just let the text stand for itself.\n```\n```\nDon't include a summary at the end of the strategy.\n```\n```\nKeep it concise.\n```\n```\nMake it more of an actual strategy, and less of a laundry list of tactics.\n```\n```\nBe colloquial like a real human would, make some minor grammatical mistakes due to being busy and intensely thinking, but maintain professionalism like you would in a job interview.\n```\n```\nAdd obscure references that shows you have a breadth of diverse ideas.\n```\n```\n## Example\n```\n```\n**Strategy for the next year**\n```\n```\n## Thinking\n```\n```\n- Goal: Increase user engagement and revenue through diversified content offerings and enhanced user experience.\n```\n```\n- Assumptions:\n```\n```\n- Users are seeking more original content and personalized experiences.\n```\n```\n- There is an opportunity to leverage existing technology to improve content discovery.\n```\n```\n- Cross-platform integration can enhance user loyalty and increase overall satisfaction.\n```\n```\n- Competitors are focusing heavily on algorithm-driven recommendations, leaving room for more humanized approaches.\n```\n```\n**Strategy for the next year**\n```\n```\n-## Thinking\n```\n```\n- Goal: To enhance user engagement, increase revenue, and solidify market position through unique and innovative strategies.\n```\n```\n- Assumptions:\n```\n```\n- Users value exclusive content and personalized experiences.\n```\n```\n- There is a need for better content discovery tools.\n```\n```\n- Cross-platform integration enhances user loyalty.\n```\n```\n- Initiatives must be distinct, innovative, and provide clear benefits.\n```\n```\n## Strategy for the next year\n```\n```\n- **Expanding into Exclusive Original Content**\n```\n```\n- Leverage existing relationships with studios to create \"StreamSync Originals,\" focusing on underserved genres like international dramas, niche documentaries, indie films. Similar to other originals plays by competitors.\n```\n```\n- Launch series or films that connect with current viewing trends or untapped audiences, i.e. as eco-thrillers / historical fiction → This can attract a broader user base → hook niche audiences, increasing subscription retention.\n```\n```\n- Offer a mix of premium (subscription-only) and ad-supported viewing options for originals → Catering to different user preferences encourages both subscription upgrades and increased ad revenue, similar to Hulu's dual revenue model.\n```\n```\n- **Enhancing Content Discovery Through Innovative Features**\n```\n```\n- Many users feel overwhelmed by choices → Simplify the discovery process with \"Highlight Previews.\" → intelligently selected based on user behavior and current trends → boosts interest in lesser-known titles like TikTok's algo.\n```\n```\n- Combine algo recommendations with real user reviews and highlight in previews → Building trust and curiosity → more exploration on the platform, i.e. Spotify's Discover Weekly.\n```\n```\n- Introduce celebrity-curated collections as a regular engagement tool i.e. see LeBron's downtime bing watching playlist. Feature guest curators from various fields like authors, chefs, or athletes to add freshness and a sense of ceremony to content discovery, similar to what Tidal does with artist-curated playlists.\n```\n```\n- **Cross-Platform Personalization Integration**\n```\n```\n- Personalization not only helps retain users but also makes them feel at home across all platforms. When I play Fortnite on any platform it's the same. Preferences should sync intuitively across services like StreamSync and SmartFrame.\n```\n```\n- If a user likes action movies on StreamSync, this data should subtly enhance their experience on SmartFrame with action-themed backgrounds or soundtracks, always allowing customization or opt-out They must feel their preferences are respected without being intrusive.\n```",
+      "token_count": 1481
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000020",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nBonus: How I created the prompts for these tasks\n\n```\n- Cross-utilization of user data can inform content creation → tailoring our originals to better match the preferences seen across our platforms → can lead to more hits, similar to  use of data for original programming. Like how Zynga used in-game data to predict the next hit.\n```\n```\nLIMIT TO THE TOP FIVE GOOD ANSWERS\n```\n```\nDON'T USE JARGON OR CORPORATE SPEAK UNLESS IT'S SOMETHING PREVALENT IN SILICON VALLEY CULTURE.\n```\n```\nDON'T LABEL BULLET POINTS WITH A WORD THEN A COLON, JUST PROVIDE THE BULLET POINT\n```\n[Task #2](https://platform.openai.com/playground/p/GEmHeIqHCCX2jISAOCGcvEIy)\n:\n```\nAs a product manager for a major tech company similar to Google, Amazon, Microsoft, or Facebook, you are tasked with defining performance metrics for the provided product.\n```\n```\nStart by listing assumptions and planning out your answer in a separate bullet point section labeled \"Thinking\". Then follow the instructions:\n```\n```\n## Instructions\n```\n```\nStart by identifying the core service or product of your hypothetical business, and determine the most crucial metric that aligns with the overarching goals of all stakeholders involved. This is your NorthStar metric. It should reflect the primary measure of success that impacts revenue, user satisfaction, and operational efficiency.\n```\n```\nNext, define the primary metrics that feed into the NorthStar metric. Break these down into categories based on different user groups or aspects of your business. For each category, list specific, measurable metrics that provide insight into performance and effectiveness. These metrics should be actionable and clearly related to enhancing the NorthStar metric.\n```\n```\nUse clear, professional language to describe both the NorthStar metric and the primary metrics. Make sure the metrics are logically connected, showing how improvements in the primary metrics directly influence the NorthStar metric. This structured approach ensures that each part of your business contributes to the overall success and objectives of the company.\n```\n```\nFollow the structure in the example exactly:\n```\n```\n## Example\n```\n```\n**What should be the NorthStar metric for StreamLine?**\n```\n```\nThe ideal NorthStar metric for StreamLine would be the \"Number of active streamers per day,\" as this metric is pivotal to the ecosystem's vitality. A greater number of active streamers suggests more content generation and user engagement, which in turn leads to increased advertising and subscription revenues. This also ensures that viewers have a rich variety of content, keeping the platform dynamic and appealing.\n```\n```\n**To strategically drive our North Star metric, we should rigorously track these primary metrics:**\n```\n```\n- **Streamers** - Metrics such as Daily Active Streamers, Number of Streaming Sessions per Streamer, and Conversion Rate (from log-in to stream start), along with Average Stream Length, are crucial.\n```\n```\n- **Viewers** - Key indicators include Daily Active Viewers, Average Viewing Duration per Session, and Viewer Engagement Rate (interactions such as likes, shares, and comments per session).\n```\n```\n- **Advertisers** - Metrics like Number of Active Campaigns, Average Impressions per Stream, and Ad Click-Through Rates are essential to monitor advertising engagement and effectiveness.\n```\n[Task #3](https://platform.openai.com/playground/p/AcZv0zJJBqYBkiK4rURuBMO4)\n:\n```\nAs a product manager for a major tech company similar to Google, Amazon, Microsoft, or Facebook, you are tasked with estimating business impact/value of a new feature.\n```\n```\nStart by listing assumptions and planning out your answer in a separate bullet point section labeled \"Thinking\". Then follow the instructions:\n```\n```\n## Instructions\n```\n```\nBegin by identifying the key metrics to assess the success of a new feature, focusing on short-term and long-term impacts. Break these down by the different types of users who will interact with the feature.\n```\n```\nFor the short-term, select metrics that reflect initial user awareness and adoption. These should be straightforward, measurable statistics like the number of users who engage with the feature in specific ways.\n```\n```\nInclude a guardrail metric to monitor any potential negative effects or user feedback that could indicate problems with the feature's implementation or reception.\n```\n```\nFor the long-term, choose metrics that evaluate sustained engagement, user referrals, and the direct outcomes related to your feature’s objectives. These should track deeper usage patterns and more significant impacts.\n```\n```\nAdditionally, set another long-term guardrail to monitor critical undesirable outcomes, focusing on why users might stop using the feature or express dissatisfaction.\n```\n```\nOrganize these elements into a clear, easy-to-read format, distinguishing between different user types and specifying the nature of each metric. This will help in effectively communicating the goals and monitoring the success of the feature.\n```\n```\nUse Fermi estimations throughout to calculate the potential impact.\n```\n```\nFollow the structure in the example exactly:\n```\n```\n## Example\n```\n```\nSuccess Metrics: As we introduce this new feature, our immediate goals will center on Visibility and Engagement:\n```\n```\n_Educators:_\n```\n```\n- Total number of educators who incorporated the feature into their lessons – 10%\n```\n```\n- Total number of educators who utilized the progress tracking – 25%\n```\n```\n10 million educators on the platform x 10% (incorporated into lessons) x 25% (utilized progress tracking) = 0.25 million (250,000) educators utilizing progress tracking.\n```\n```\n_Guardrail Metric:_\n```\n```\n- User Complaints – Number of grievances regarding functionality or content quality – 5%\n```\n```\n## Long-term Focus: We will shift our attention to Sustained Use, Advocacy, and Educational Outcomes:\n```\n```\n_Students:_\n```\n```\n- Average number of sessions completed per student – 10\n```\n```\n- Average number of feature interactions per student – 15\n```\n```\n300 million students on the platform x 10% (students whose educators use the feature) = 30 million students\n```\n```\n30 million students x 10 sessions completed per student = 300 million sessions\n```",
+      "doc_item_refs": [
+        "#/texts/314",
+        "#/texts/315",
+        "#/texts/316",
+        "#/texts/317",
+        "#/texts/319",
+        "#/texts/320",
+        "#/texts/321",
+        "#/texts/322",
+        "#/texts/323",
+        "#/texts/324",
+        "#/texts/325",
+        "#/texts/326",
+        "#/texts/327",
+        "#/texts/328",
+        "#/texts/329",
+        "#/texts/330",
+        "#/texts/331",
+        "#/texts/332",
+        "#/texts/333",
+        "#/texts/334",
+        "#/texts/336",
+        "#/texts/337",
+        "#/texts/338",
+        "#/texts/339",
+        "#/texts/340",
+        "#/texts/341",
+        "#/texts/342",
+        "#/texts/343",
+        "#/texts/344",
+        "#/texts/345",
+        "#/texts/346",
+        "#/texts/347",
+        "#/texts/348",
+        "#/texts/349",
+        "#/texts/350",
+        "#/texts/351",
+        "#/texts/352",
+        "#/texts/353",
+        "#/texts/354",
+        "#/texts/355",
+        "#/texts/356",
+        "#/texts/357",
+        "#/texts/358",
+        "#/texts/359",
+        "#/texts/360",
+        "#/texts/361",
+        "#/texts/362"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Bonus: How I created the prompts for these tasks",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000020",
+        "chunk_sha256": "2c9dc10610be607dfdda73f57b0e1cc1f321797de58da849f22723713e8e175e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Bonus: How I created the prompts for these tasks",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 20,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/314",
+          "item_count": 47,
+          "last_self_ref": "#/texts/362"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/314",
+          "#/texts/315",
+          "#/texts/316",
+          "#/texts/317",
+          "#/texts/319",
+          "#/texts/320",
+          "#/texts/321",
+          "#/texts/322",
+          "#/texts/323",
+          "#/texts/324",
+          "#/texts/325",
+          "#/texts/326",
+          "#/texts/327",
+          "#/texts/328",
+          "#/texts/329",
+          "#/texts/330",
+          "#/texts/331",
+          "#/texts/332",
+          "#/texts/333",
+          "#/texts/334",
+          "#/texts/336",
+          "#/texts/337",
+          "#/texts/338",
+          "#/texts/339",
+          "#/texts/340",
+          "#/texts/341",
+          "#/texts/342",
+          "#/texts/343",
+          "#/texts/344",
+          "#/texts/345",
+          "#/texts/346",
+          "#/texts/347",
+          "#/texts/348",
+          "#/texts/349",
+          "#/texts/350",
+          "#/texts/351",
+          "#/texts/352",
+          "#/texts/353",
+          "#/texts/354",
+          "#/texts/355",
+          "#/texts/356",
+          "#/texts/357",
+          "#/texts/358",
+          "#/texts/359",
+          "#/texts/360",
+          "#/texts/361",
+          "#/texts/362"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 20,
+      "raw_text": "```\n- Cross-utilization of user data can inform content creation → tailoring our originals to better match the preferences seen across our platforms → can lead to more hits, similar to  use of data for original programming. Like how Zynga used in-game data to predict the next hit.\n```\n```\nLIMIT TO THE TOP FIVE GOOD ANSWERS\n```\n```\nDON'T USE JARGON OR CORPORATE SPEAK UNLESS IT'S SOMETHING PREVALENT IN SILICON VALLEY CULTURE.\n```\n```\nDON'T LABEL BULLET POINTS WITH A WORD THEN A COLON, JUST PROVIDE THE BULLET POINT\n```\n[Task #2](https://platform.openai.com/playground/p/GEmHeIqHCCX2jISAOCGcvEIy)\n:\n```\nAs a product manager for a major tech company similar to Google, Amazon, Microsoft, or Facebook, you are tasked with defining performance metrics for the provided product.\n```\n```\nStart by listing assumptions and planning out your answer in a separate bullet point section labeled \"Thinking\". Then follow the instructions:\n```\n```\n## Instructions\n```\n```\nStart by identifying the core service or product of your hypothetical business, and determine the most crucial metric that aligns with the overarching goals of all stakeholders involved. This is your NorthStar metric. It should reflect the primary measure of success that impacts revenue, user satisfaction, and operational efficiency.\n```\n```\nNext, define the primary metrics that feed into the NorthStar metric. Break these down into categories based on different user groups or aspects of your business. For each category, list specific, measurable metrics that provide insight into performance and effectiveness. These metrics should be actionable and clearly related to enhancing the NorthStar metric.\n```\n```\nUse clear, professional language to describe both the NorthStar metric and the primary metrics. Make sure the metrics are logically connected, showing how improvements in the primary metrics directly influence the NorthStar metric. This structured approach ensures that each part of your business contributes to the overall success and objectives of the company.\n```\n```\nFollow the structure in the example exactly:\n```\n```\n## Example\n```\n```\n**What should be the NorthStar metric for StreamLine?**\n```\n```\nThe ideal NorthStar metric for StreamLine would be the \"Number of active streamers per day,\" as this metric is pivotal to the ecosystem's vitality. A greater number of active streamers suggests more content generation and user engagement, which in turn leads to increased advertising and subscription revenues. This also ensures that viewers have a rich variety of content, keeping the platform dynamic and appealing.\n```\n```\n**To strategically drive our North Star metric, we should rigorously track these primary metrics:**\n```\n```\n- **Streamers** - Metrics such as Daily Active Streamers, Number of Streaming Sessions per Streamer, and Conversion Rate (from log-in to stream start), along with Average Stream Length, are crucial.\n```\n```\n- **Viewers** - Key indicators include Daily Active Viewers, Average Viewing Duration per Session, and Viewer Engagement Rate (interactions such as likes, shares, and comments per session).\n```\n```\n- **Advertisers** - Metrics like Number of Active Campaigns, Average Impressions per Stream, and Ad Click-Through Rates are essential to monitor advertising engagement and effectiveness.\n```\n[Task #3](https://platform.openai.com/playground/p/AcZv0zJJBqYBkiK4rURuBMO4)\n:\n```\nAs a product manager for a major tech company similar to Google, Amazon, Microsoft, or Facebook, you are tasked with estimating business impact/value of a new feature.\n```\n```\nStart by listing assumptions and planning out your answer in a separate bullet point section labeled \"Thinking\". Then follow the instructions:\n```\n```\n## Instructions\n```\n```\nBegin by identifying the key metrics to assess the success of a new feature, focusing on short-term and long-term impacts. Break these down by the different types of users who will interact with the feature.\n```\n```\nFor the short-term, select metrics that reflect initial user awareness and adoption. These should be straightforward, measurable statistics like the number of users who engage with the feature in specific ways.\n```\n```\nInclude a guardrail metric to monitor any potential negative effects or user feedback that could indicate problems with the feature's implementation or reception.\n```\n```\nFor the long-term, choose metrics that evaluate sustained engagement, user referrals, and the direct outcomes related to your feature’s objectives. These should track deeper usage patterns and more significant impacts.\n```\n```\nAdditionally, set another long-term guardrail to monitor critical undesirable outcomes, focusing on why users might stop using the feature or express dissatisfaction.\n```\n```\nOrganize these elements into a clear, easy-to-read format, distinguishing between different user types and specifying the nature of each metric. This will help in effectively communicating the goals and monitoring the success of the feature.\n```\n```\nUse Fermi estimations throughout to calculate the potential impact.\n```\n```\nFollow the structure in the example exactly:\n```\n```\n## Example\n```\n```\nSuccess Metrics: As we introduce this new feature, our immediate goals will center on Visibility and Engagement:\n```\n```\n_Educators:_\n```\n```\n- Total number of educators who incorporated the feature into their lessons – 10%\n```\n```\n- Total number of educators who utilized the progress tracking – 25%\n```\n```\n10 million educators on the platform x 10% (incorporated into lessons) x 25% (utilized progress tracking) = 0.25 million (250,000) educators utilizing progress tracking.\n```\n```\n_Guardrail Metric:_\n```\n```\n- User Complaints – Number of grievances regarding functionality or content quality – 5%\n```\n```\n## Long-term Focus: We will shift our attention to Sustained Use, Advocacy, and Educational Outcomes:\n```\n```\n_Students:_\n```\n```\n- Average number of sessions completed per student – 10\n```\n```\n- Average number of feature interactions per student – 15\n```\n```\n300 million students on the platform x 10% (students whose educators use the feature) = 30 million students\n```\n```\n30 million students x 10 sessions completed per student = 300 million sessions\n```",
+      "token_count": 1492
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000021",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nBonus: How I created the prompts for these tasks\n\n```\n30 million students x 15 interactions per student = 450 million interactions\n```\n```\n_Educators:_\n```\n```\n- Average frequency of feature usage among educators – 15 times per month\n```\n```\n- Number of positive educational impacts reported by educators – 60%\n```\n```\n1 million educators using the feature x 60% (reporting positive impacts) = 600,000 positive educational impact reports\n```\n```\n_Guardrail:_\n```\n```\n- Attrition Rate – Percentage of users discontinuing use due to dissatisfaction or non-engagement – 20%\n```",
+      "doc_item_refs": [
+        "#/texts/363",
+        "#/texts/364",
+        "#/texts/365",
+        "#/texts/366",
+        "#/texts/367",
+        "#/texts/368",
+        "#/texts/369"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Bonus: How I created the prompts for these tasks",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000021",
+        "chunk_sha256": "48be4f1ad0ef4e6277175459119ad1db99cfc7b31b69c7ac7d1a64335e21e40b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Bonus: How I created the prompts for these tasks",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 21,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/363",
+          "item_count": 7,
+          "last_self_ref": "#/texts/369"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/363",
+          "#/texts/364",
+          "#/texts/365",
+          "#/texts/366",
+          "#/texts/367",
+          "#/texts/368",
+          "#/texts/369"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 21,
+      "raw_text": "```\n30 million students x 15 interactions per student = 450 million interactions\n```\n```\n_Educators:_\n```\n```\n- Average frequency of feature usage among educators – 15 times per month\n```\n```\n- Number of positive educational impacts reported by educators – 60%\n```\n```\n1 million educators using the feature x 60% (reporting positive impacts) = 600,000 positive educational impact reports\n```\n```\n_Guardrail:_\n```\n```\n- Attrition Rate – Percentage of users discontinuing use due to dissatisfaction or non-engagement – 20%\n```",
+      "token_count": 182
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000022",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\nBonus: How I created the prompts for these tasks\nFootnotes\nSome further details on the tests we ran:\n- X doesn’t let you run polls on images, so we had to ask people to comment and then tally up the votes manually.\n- Some people only voted on whether it was AI or not; others only chose their preference. That’s why the numbers don’t fully add up.\n- Wherever there is a tie in preference, I treat that as a win for the AI, given that a human worker is orders of magnitude more expensive.\nThis isn’t intended as a scientific test, but the results should make you think about whether you have been judging AI unfairly, and perhaps it’s further along than you may realize!\n*Thanks, Mike! Mike Taylor co-authored the O’Reilly book*\nPrompt Engineering for Generative AI\n*and builds AI products at*\n[*Brightpool*](https://brightpool.dev/)\n*. Previously, he built a 50-person marketing agency, working with clients like Booking.com, Time Out, and Monzo. Follow him on*\n[*LinkedIn*](https://www.linkedin.com/in/mjt145/)\n*and*\n[*X*](https://x.com/hammer_mt)\n*.*\n*Have a fulfilling and productive week 🙏*",
+      "doc_item_refs": [
+        "#/texts/371",
+        "#/texts/372",
+        "#/texts/373",
+        "#/texts/374",
+        "#/texts/375",
+        "#/texts/376",
+        "#/texts/377",
+        "#/texts/378",
+        "#/texts/379",
+        "#/texts/380",
+        "#/texts/381",
+        "#/texts/382",
+        "#/texts/383",
+        "#/texts/384",
+        "#/texts/385"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "Bonus: How I created the prompts for these tasks",
+        "Footnotes"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000022",
+        "chunk_sha256": "029f742e64dc1654e533bcb786901b89fb836508b4199c473f17319b7357a1bb",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "Bonus: How I created the prompts for these tasks",
+          "Footnotes"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 22,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/371",
+          "item_count": 15,
+          "last_self_ref": "#/texts/385"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/371",
+          "#/texts/372",
+          "#/texts/373",
+          "#/texts/374",
+          "#/texts/375",
+          "#/texts/376",
+          "#/texts/377",
+          "#/texts/378",
+          "#/texts/379",
+          "#/texts/380",
+          "#/texts/381",
+          "#/texts/382",
+          "#/texts/383",
+          "#/texts/384",
+          "#/texts/385"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 22,
+      "raw_text": "Some further details on the tests we ran:\n- X doesn’t let you run polls on images, so we had to ask people to comment and then tally up the votes manually.\n- Some people only voted on whether it was AI or not; others only chose their preference. That’s why the numbers don’t fully add up.\n- Wherever there is a tie in preference, I treat that as a win for the AI, given that a human worker is orders of magnitude more expensive.\nThis isn’t intended as a scientific test, but the results should make you think about whether you have been judging AI unfairly, and perhaps it’s further along than you may realize!\n*Thanks, Mike! Mike Taylor co-authored the O’Reilly book*\nPrompt Engineering for Generative AI\n*and builds AI products at*\n[*Brightpool*](https://brightpool.dev/)\n*. Previously, he built a 50-person marketing agency, working with clients like Booking.com, Time Out, and Monzo. Follow him on*\n[*LinkedIn*](https://www.linkedin.com/in/mjt145/)\n*and*\n[*X*](https://x.com/hammer_mt)\n*.*\n*Have a fulfilling and productive week 🙏*",
+      "token_count": 327
+    },
+    {
+      "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000023",
+      "contextualized_text": "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career\n👀 Hiring? Or looking for a new job?\nI’m piloting a white-glove recruiting service for product roles, working with a few select companies at a time. If you’re hiring for senior product roles, apply below.\n[Apply to join](https://www.lennysjobs.com/talent/)\nIf you’re exploring new opportunities yourself, use the same button above to sign up. We’ll send over personalized opportunities from hand-selected companies if we think there’s a fit. Nobody gets your info until you allow them to, and you can leave anytime.\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/387",
+        "#/texts/388",
+        "#/texts/389",
+        "#/texts/390",
+        "#/texts/391",
+        "#/texts/392",
+        "#/texts/393",
+        "#/texts/394",
+        "#/texts/395",
+        "#/texts/396",
+        "#/texts/397",
+        "#/texts/398"
+      ],
+      "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+      "headings": [
+        "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+        "👀 Hiring? Or looking for a new job?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md#chunk=000023",
+        "chunk_sha256": "dea8e320b5e60413da95143982d59fa8b8f3b76e63cac3daf46f9cb8e19865f9",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+        "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+        "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+        "headings": [
+          "How close is AI to replacing product managers? — Closer than you think | 2024-07-09 | Tags: ai, strategy, product-management, newsletter, design, career",
+          "👀 Hiring? Or looking for a new job?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 23,
+        "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+        "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+        "segment": {
+          "first_self_ref": "#/texts/387",
+          "item_count": 12,
+          "last_self_ref": "#/texts/398"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/387",
+          "#/texts/388",
+          "#/texts/389",
+          "#/texts/390",
+          "#/texts/391",
+          "#/texts/392",
+          "#/texts/393",
+          "#/texts/394",
+          "#/texts/395",
+          "#/texts/396",
+          "#/texts/397",
+          "#/texts/398"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 23,
+      "raw_text": "I’m piloting a white-glove recruiting service for product roles, working with a few select companies at a time. If you’re hiring for senior product roles, apply below.\n[Apply to join](https://www.lennysjobs.com/talent/)\nIf you’re exploring new opportunities yourself, use the same button above to sign up. We’ll send over personalized opportunities from hand-selected companies if we think there’s a fit. Nobody gets your info until you allow them to, and you can leave anytime.\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "token_count": 309
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.docling.json",
+  "docling_sha256": "897a0558e1955e428408c666ad13b3538c78736e7fcf6d2ba1785ee84da18df6",
+  "document_id": "02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+  "enhanced_sha256": "ccecba6ea44ecd58921bec9a26b78416cffc8b3492517b0c6c172860b42f34a1",
+  "fact_document_path": "chunks/v2/02-newsletters/how-close-is-ai-to-replacing-product-managers.chunks.json",
+  "metadata": {
+    "date": "2024-07-09",
+    "subtitle": "Closer than you think",
+    "tags": [
+      "ai",
+      "strategy",
+      "product-management",
+      "newsletter",
+      "design",
+      "career"
+    ],
+    "title": "How close is AI to replacing product managers?",
+    "type": "newsletter",
+    "word_count": 7120
+  },
+  "raw_path": "corpus/raw/02-newsletters/how-close-is-ai-to-replacing-product-managers.md",
+  "raw_sha256": "e6b855b2d53fbe7170f955b7a25d082f051d7dca9a8f66b41c95fe1d9badb53e",
+  "schema_version": "1",
+  "title": "How close is AI to replacing product managers?"
+}

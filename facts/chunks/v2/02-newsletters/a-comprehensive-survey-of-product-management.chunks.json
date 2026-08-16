@@ -1,0 +1,951 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000000",
+      "contextualized_text": "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics\n*👋 Hello, I’m*\n[*Lenny*](https://twitter.com/lennysan)\n*and welcome to a ✨*\n***once-a-month-free-edition***\n*✨ of my newsletter. Each week I humbly tackle reader questions about product, growth, working with humans, and anything else that’s stressing you out at the office.*\n*If you’re not a paid subscriber, here’s what you missed this month:*\n1. [*Ten ways to generate buzz for your product*](https://www.lennyrachitsky.com/p/creating-buzz-at-launch-preview)\n2. [*How to run SEO experiments*](https://www.lennyrachitsky.com/p/seo-experimentation)\n3. [*When NOT to run an experiment*](https://www.lennyrachitsky.com/p/not-running-an-experiment)",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9"
+      ],
+      "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+      "headings": [
+        "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000000",
+        "chunk_sha256": "ab60ce21ba64e01f451b42fa47e848a8c139bcf7e777048cdaa07f11c13e2505",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-comprehensive-survey-of-product-management.docling.json",
+        "docling_sha256": "766cdb30b255aa5acdf453f74829830e2a6ddc78c29a3ee07eb2fd4a6b93afa9",
+        "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_sha256": "7d01a6ba5142ce40e7c75fe84b45d398d8005a38dd9c0d251bf2e3c93b38b3e9",
+        "fact_document_path": "chunks/v2/02-newsletters/a-comprehensive-survey-of-product-management.chunks.json",
+        "headings": [
+          "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "raw_sha256": "81a360a77fa6988045d88ec9c2c0b013af8d990f0a33884e1bbae01fbe5259b0",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 9,
+          "last_self_ref": "#/texts/9"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "*👋 Hello, I’m*\n[*Lenny*](https://twitter.com/lennysan)\n*and welcome to a ✨*\n***once-a-month-free-edition***\n*✨ of my newsletter. Each week I humbly tackle reader questions about product, growth, working with humans, and anything else that’s stressing you out at the office.*\n*If you’re not a paid subscriber, here’s what you missed this month:*\n1. [*Ten ways to generate buzz for your product*](https://www.lennyrachitsky.com/p/creating-buzz-at-launch-preview)\n2. [*How to run SEO experiments*](https://www.lennyrachitsky.com/p/seo-experimentation)\n3. [*When NOT to run an experiment*](https://www.lennyrachitsky.com/p/not-running-an-experiment)",
+      "token_count": 267
+    },
+    {
+      "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000001",
+      "contextualized_text": "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics\nQ: What is the product manager role like at different companies?\nWhat skills do companies look for in a PM? What do PMs need to get right to get promoted? How much influence do PMs have at different companies? There’s surprisingly little information out there about the differences in the PM role across the industry.\nToday, I’m sharing findings from a survey I’ve been running over the past month, with nearly 1,000 responses from over 600 companies. Below, you’ll find:\n1. Which skills matter most when hiring PMs\n2. What PMs have to get most right to get promoted\n3. How much influence PMs have\n4. Which companies prioritize Heart vs. Head vs. Hands\n5. Takeaways, and links to dig deeper\n*A big thank you to*\n[*PMHQ*](https://productmanagerhq.com/)\n*,*\n[*Sriram Krishnan*](https://twitter.com/sriramk)\n*,*\n[*Hiten Shah*](https://twitter.com/hnshah)\n*,*\n[*Josh Elman*](https://twitter.com/joshelman)\n*,*\n[*Ian McAllister*](https://twitter.com/ianmcall)\n*for helping amplify this survey to get more responses, and to*\n[*Tal Raviv*](https://www.linkedin.com/in/talsraviv/?originalSubdomain=il)\n*,*\n[*Manik Gupta*](https://www.linkedin.com/in/manikg)\n*,*\n[*Helen Sims*](https://www.linkedin.com/in/helensims)\n*,*\n[*AJ Frank*](https://www.linkedin.com/in/ajfrank/)\n*,*\n[*Matthias Wagner*](https://www.linkedin.com/in/matthias-wagner-5220b047/)\n*,*\n[*Kara Skrip*](https://www.linkedin.com/in/karaskrip/)\n*,*\n[*Sean Lynch*](https://www.linkedin.com/in/seanplynch/)\n*,*\n[*Peter Sauer*](https://www.linkedin.com/in/petesauer/)\n*, and*\n[*Kiyani Bamba*](https://www.linkedin.com/in/kiyanibamba/)\n*for feedback on the survey and post.*\n**A few quick disclaimers:**\n1. I’m no survey expert. I may have gotten something wrong. Please forgive me if so, and please give me feedback.\n2. 85% of the responders were product managers (as planned), so assume bias from that perspective.\n3. When I mention specific companies below, I made sure to have at least two data points from that company.\nLet’s dive in!",
+      "doc_item_refs": [
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/44",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/48",
+        "#/texts/49",
+        "#/texts/50",
+        "#/texts/51"
+      ],
+      "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+      "headings": [
+        "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+        "Q: What is the product manager role like at different companies?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000001",
+        "chunk_sha256": "2473ca9ef6dcf45d010b24ebb219eb1eb29746ff4deb8af945cc3838698e3912",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-comprehensive-survey-of-product-management.docling.json",
+        "docling_sha256": "766cdb30b255aa5acdf453f74829830e2a6ddc78c29a3ee07eb2fd4a6b93afa9",
+        "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_sha256": "7d01a6ba5142ce40e7c75fe84b45d398d8005a38dd9c0d251bf2e3c93b38b3e9",
+        "fact_document_path": "chunks/v2/02-newsletters/a-comprehensive-survey-of-product-management.chunks.json",
+        "headings": [
+          "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+          "Q: What is the product manager role like at different companies?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "raw_sha256": "81a360a77fa6988045d88ec9c2c0b013af8d990f0a33884e1bbae01fbe5259b0",
+        "segment": {
+          "first_self_ref": "#/texts/11",
+          "item_count": 41,
+          "last_self_ref": "#/texts/51"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32",
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/40",
+          "#/texts/41",
+          "#/texts/42",
+          "#/texts/43",
+          "#/texts/44",
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/48",
+          "#/texts/49",
+          "#/texts/50",
+          "#/texts/51"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "What skills do companies look for in a PM? What do PMs need to get right to get promoted? How much influence do PMs have at different companies? There’s surprisingly little information out there about the differences in the PM role across the industry.\nToday, I’m sharing findings from a survey I’ve been running over the past month, with nearly 1,000 responses from over 600 companies. Below, you’ll find:\n1. Which skills matter most when hiring PMs\n2. What PMs have to get most right to get promoted\n3. How much influence PMs have\n4. Which companies prioritize Heart vs. Head vs. Hands\n5. Takeaways, and links to dig deeper\n*A big thank you to*\n[*PMHQ*](https://productmanagerhq.com/)\n*,*\n[*Sriram Krishnan*](https://twitter.com/sriramk)\n*,*\n[*Hiten Shah*](https://twitter.com/hnshah)\n*,*\n[*Josh Elman*](https://twitter.com/joshelman)\n*,*\n[*Ian McAllister*](https://twitter.com/ianmcall)\n*for helping amplify this survey to get more responses, and to*\n[*Tal Raviv*](https://www.linkedin.com/in/talsraviv/?originalSubdomain=il)\n*,*\n[*Manik Gupta*](https://www.linkedin.com/in/manikg)\n*,*\n[*Helen Sims*](https://www.linkedin.com/in/helensims)\n*,*\n[*AJ Frank*](https://www.linkedin.com/in/ajfrank/)\n*,*\n[*Matthias Wagner*](https://www.linkedin.com/in/matthias-wagner-5220b047/)\n*,*\n[*Kara Skrip*](https://www.linkedin.com/in/karaskrip/)\n*,*\n[*Sean Lynch*](https://www.linkedin.com/in/seanplynch/)\n*,*\n[*Peter Sauer*](https://www.linkedin.com/in/petesauer/)\n*, and*\n[*Kiyani Bamba*](https://www.linkedin.com/in/kiyanibamba/)\n*for feedback on the survey and post.*\n**A few quick disclaimers:**\n1. I’m no survey expert. I may have gotten something wrong. Please forgive me if so, and please give me feedback.\n2. 85% of the responders were product managers (as planned), so assume bias from that perspective.\n3. When I mention specific companies below, I made sure to have at least two data points from that company.\nLet’s dive in!",
+      "token_count": 721
+    },
+    {
+      "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000002",
+      "contextualized_text": "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics\nWho took the survey\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management",
+      "doc_item_refs": [
+        "#/texts/276",
+        "#/texts/53",
+        "#/texts/277",
+        "#/texts/54",
+        "#/texts/278",
+        "#/texts/55"
+      ],
+      "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+      "headings": [
+        "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+        "Who took the survey"
+      ],
+      "images": [
+        {
+          "caption": "Image from A comprehensive survey of Product Management",
+          "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/248d2fc3-c0e9-4264-92d8-2e0520a6e447_2000x1266.png"
+        },
+        {
+          "caption": "Image from A comprehensive survey of Product Management",
+          "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/094b4bba-2f46-4c73-8adf-3e00675a1ece_2000x1749.png"
+        },
+        {
+          "caption": "Image from A comprehensive survey of Product Management",
+          "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/8fa457b9-db26-438d-a429-88b20e801f53_2000x1392.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000002",
+        "chunk_sha256": "96b0748d5edd363493d5f75c98b88c4506e7283f1560eec5d2b710d78c2a8f85",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-comprehensive-survey-of-product-management.docling.json",
+        "docling_sha256": "766cdb30b255aa5acdf453f74829830e2a6ddc78c29a3ee07eb2fd4a6b93afa9",
+        "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_sha256": "7d01a6ba5142ce40e7c75fe84b45d398d8005a38dd9c0d251bf2e3c93b38b3e9",
+        "fact_document_path": "chunks/v2/02-newsletters/a-comprehensive-survey-of-product-management.chunks.json",
+        "headings": [
+          "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+          "Who took the survey"
+        ],
+        "images": [
+          {
+            "caption": "Image from A comprehensive survey of Product Management",
+            "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/248d2fc3-c0e9-4264-92d8-2e0520a6e447_2000x1266.png"
+          },
+          {
+            "caption": "Image from A comprehensive survey of Product Management",
+            "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/094b4bba-2f46-4c73-8adf-3e00675a1ece_2000x1749.png"
+          },
+          {
+            "caption": "Image from A comprehensive survey of Product Management",
+            "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/8fa457b9-db26-438d-a429-88b20e801f53_2000x1392.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "raw_sha256": "81a360a77fa6988045d88ec9c2c0b013af8d990f0a33884e1bbae01fbe5259b0",
+        "segment": {
+          "first_self_ref": "#/texts/276",
+          "item_count": 6,
+          "last_self_ref": "#/texts/55"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/276",
+          "#/texts/53",
+          "#/texts/277",
+          "#/texts/54",
+          "#/texts/278",
+          "#/texts/55"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "Image from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management",
+      "token_count": 81
+    },
+    {
+      "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000003",
+      "contextualized_text": "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics\nBeing a Product Manager\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. **Most frequently valued** : Communication, execution, product sense\n2. **Least frequently valued** : Design/UX, empathy, raw intelligence\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. Companies who spike on Communication: **HubSpot, Salesforce**\n2. Companies who spike on Execution: **Salesforce, Tesla, VMware**\n3. Companies who spike on Product sense: **Asana, Flipkart, Intercom, Netflix, ServiceNow, WhatsApp**\n4. Companies who spike on Strategic thinking: **Coinbase, Stripe, Zillow**\n5. Companies who spike on Collaboration: **Atlassian, Box, ServiceNow, Spotify, Twitter**\n6. Companies who spike on Data acumen: **Quora, Reddit, Zynga**\n7. Companies who spike on Technical background: **Oracle, Stripe**\n8. Companies who spike on Raw intelligence: **Coinbase, Robinhood**\n9. Companies who spike on Empathy: **HubSpot, Intercom**\n10. Companies who spike on Design/UX: **WhatsApp**",
+      "doc_item_refs": [
+        "#/texts/279",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60",
+        "#/texts/63",
+        "#/texts/280",
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/72",
+        "#/texts/75",
+        "#/texts/78",
+        "#/texts/81",
+        "#/texts/84",
+        "#/texts/87",
+        "#/texts/90",
+        "#/texts/93",
+        "#/texts/96"
+      ],
+      "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+      "headings": [
+        "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+        "Being a Product Manager"
+      ],
+      "images": [
+        {
+          "caption": "Image from A comprehensive survey of Product Management",
+          "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/cf1e593c-cf7e-4ec4-9dc9-b0a4988e92a2_2000x1433.png"
+        },
+        {
+          "caption": "Image from A comprehensive survey of Product Management",
+          "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a540c078-53e6-4d0e-b893-b097c28256be_2000x2042.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000003",
+        "chunk_sha256": "888f5618298f0c2811aafd6e34fda98190d114ca18e18deb914ca36855348d0d",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-comprehensive-survey-of-product-management.docling.json",
+        "docling_sha256": "766cdb30b255aa5acdf453f74829830e2a6ddc78c29a3ee07eb2fd4a6b93afa9",
+        "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_sha256": "7d01a6ba5142ce40e7c75fe84b45d398d8005a38dd9c0d251bf2e3c93b38b3e9",
+        "fact_document_path": "chunks/v2/02-newsletters/a-comprehensive-survey-of-product-management.chunks.json",
+        "headings": [
+          "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+          "Being a Product Manager"
+        ],
+        "images": [
+          {
+            "caption": "Image from A comprehensive survey of Product Management",
+            "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/cf1e593c-cf7e-4ec4-9dc9-b0a4988e92a2_2000x1433.png"
+          },
+          {
+            "caption": "Image from A comprehensive survey of Product Management",
+            "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a540c078-53e6-4d0e-b893-b097c28256be_2000x2042.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "raw_sha256": "81a360a77fa6988045d88ec9c2c0b013af8d990f0a33884e1bbae01fbe5259b0",
+        "segment": {
+          "first_self_ref": "#/texts/279",
+          "item_count": 20,
+          "last_self_ref": "#/texts/96"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/279",
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/60",
+          "#/texts/63",
+          "#/texts/280",
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69",
+          "#/texts/72",
+          "#/texts/75",
+          "#/texts/78",
+          "#/texts/81",
+          "#/texts/84",
+          "#/texts/87",
+          "#/texts/90",
+          "#/texts/93",
+          "#/texts/96"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "Image from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. **Most frequently valued** : Communication, execution, product sense\n2. **Least frequently valued** : Design/UX, empathy, raw intelligence\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. Companies who spike on Communication: **HubSpot, Salesforce**\n2. Companies who spike on Execution: **Salesforce, Tesla, VMware**\n3. Companies who spike on Product sense: **Asana, Flipkart, Intercom, Netflix, ServiceNow, WhatsApp**\n4. Companies who spike on Strategic thinking: **Coinbase, Stripe, Zillow**\n5. Companies who spike on Collaboration: **Atlassian, Box, ServiceNow, Spotify, Twitter**\n6. Companies who spike on Data acumen: **Quora, Reddit, Zynga**\n7. Companies who spike on Technical background: **Oracle, Stripe**\n8. Companies who spike on Raw intelligence: **Coinbase, Robinhood**\n9. Companies who spike on Empathy: **HubSpot, Intercom**\n10. Companies who spike on Design/UX: **WhatsApp**",
+      "token_count": 347
+    },
+    {
+      "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000004",
+      "contextualized_text": "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics\nGetting promoted\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. Showing significant impact on the business — by far the most common thing to get right\n2. Unlike the mini-CEO label PMs often get, in reality they must keep their external stakeholders onboard to be successful\n3. Keeping their team and manager happy — less of a priority at most companies, but as you’ll see below, very important at some\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. Companies who prioritize Showing significant business impact: **Atlassian, Capital One, Coinbase, Expedia, HubSpot, Netflix, Square, Wayfair, Yelp, YouTube, Zillow**\n2. Companies who prioritize Keeping stakeholders onboard: **Atlassian, Booking, IBM, VMware, Wayfair, Zillow**\n3. Companies who prioritize Hitting goals: **Airbnb, Reddit, Yelp, Zynga**\n4. Companies who prioritize Shipping great product: **Adobe, Hubspot, Intercom, Robinhood, Stripe, WhatsApp**\n5. Companies who prioritize Making their manager happy: **Apple, IBM, Oracle**\n6. Companies who prioritize Keeping their team happy: **Intercom, Quora, Visa**",
+      "doc_item_refs": [
+        "#/texts/281",
+        "#/texts/100",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/103",
+        "#/texts/104",
+        "#/texts/105",
+        "#/texts/282",
+        "#/texts/106",
+        "#/texts/107",
+        "#/texts/108",
+        "#/texts/109",
+        "#/texts/112",
+        "#/texts/115",
+        "#/texts/118",
+        "#/texts/121",
+        "#/texts/124"
+      ],
+      "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+      "headings": [
+        "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+        "Getting promoted"
+      ],
+      "images": [
+        {
+          "caption": "Image from A comprehensive survey of Product Management",
+          "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/74ce70b3-5879-4081-93e0-3f210c1f8332_1996x1290.png"
+        },
+        {
+          "caption": "Image from A comprehensive survey of Product Management",
+          "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/80eb5c80-9e83-4195-bd3a-2376381d383d_2002x2682.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000004",
+        "chunk_sha256": "561ca5de8e97701b39471fba724ab12684f305111f8f3329f9c8c3bf62e17aa0",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-comprehensive-survey-of-product-management.docling.json",
+        "docling_sha256": "766cdb30b255aa5acdf453f74829830e2a6ddc78c29a3ee07eb2fd4a6b93afa9",
+        "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_sha256": "7d01a6ba5142ce40e7c75fe84b45d398d8005a38dd9c0d251bf2e3c93b38b3e9",
+        "fact_document_path": "chunks/v2/02-newsletters/a-comprehensive-survey-of-product-management.chunks.json",
+        "headings": [
+          "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+          "Getting promoted"
+        ],
+        "images": [
+          {
+            "caption": "Image from A comprehensive survey of Product Management",
+            "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/74ce70b3-5879-4081-93e0-3f210c1f8332_1996x1290.png"
+          },
+          {
+            "caption": "Image from A comprehensive survey of Product Management",
+            "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/80eb5c80-9e83-4195-bd3a-2376381d383d_2002x2682.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "raw_sha256": "81a360a77fa6988045d88ec9c2c0b013af8d990f0a33884e1bbae01fbe5259b0",
+        "segment": {
+          "first_self_ref": "#/texts/281",
+          "item_count": 17,
+          "last_self_ref": "#/texts/124"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/281",
+          "#/texts/100",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/103",
+          "#/texts/104",
+          "#/texts/105",
+          "#/texts/282",
+          "#/texts/106",
+          "#/texts/107",
+          "#/texts/108",
+          "#/texts/109",
+          "#/texts/112",
+          "#/texts/115",
+          "#/texts/118",
+          "#/texts/121",
+          "#/texts/124"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "Image from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. Showing significant impact on the business — by far the most common thing to get right\n2. Unlike the mini-CEO label PMs often get, in reality they must keep their external stakeholders onboard to be successful\n3. Keeping their team and manager happy — less of a priority at most companies, but as you’ll see below, very important at some\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. Companies who prioritize Showing significant business impact: **Atlassian, Capital One, Coinbase, Expedia, HubSpot, Netflix, Square, Wayfair, Yelp, YouTube, Zillow**\n2. Companies who prioritize Keeping stakeholders onboard: **Atlassian, Booking, IBM, VMware, Wayfair, Zillow**\n3. Companies who prioritize Hitting goals: **Airbnb, Reddit, Yelp, Zynga**\n4. Companies who prioritize Shipping great product: **Adobe, Hubspot, Intercom, Robinhood, Stripe, WhatsApp**\n5. Companies who prioritize Making their manager happy: **Apple, IBM, Oracle**\n6. Companies who prioritize Keeping their team happy: **Intercom, Quora, Visa**",
+      "token_count": 360
+    },
+    {
+      "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000005",
+      "contextualized_text": "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics\nInfluence\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. According to responders (mostly PMs), PMs have more influence than other functions at over 80% of companies\n2. Similarly, PMs have “a lot more” influence at ~50% of companies\n3. Almost no companies have PMs with a lot *less* influence than other functions\n*Looking at this same data but excluding responses from product managers (e.g. only looking at responses from engineers, designers, CEOs, etc.), the story shifts a bit:*\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. From this perspective, we find that PMs have more influence than other functions at only 70% of companies (vs. 80% above). Clearly, PMs believe they have more influence than their teammates think they do.\n2. However, most of the variance comes from the number of responders who believe PMs run the show — ~13% when looking at all responses, but only ~6% when PM responses are excluded.\n3. In both cases, roughly the same percentage of companies have PMs with slightly more, or a lot more, influence (~65%).\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. **The spectrum varies widely** : from Zynga where PMs run the show, to Apple where PMs have the least influence\n2. **Noteworthy companies where PMs have a lot more influence** : YouTube, LinkedIn, Twitter, Uber, Robinhood, Lyft, Coinbase, Asana, Airbnb\n3. **Noteworthy companies where PMs have relatively less influence** : Apple, Oracle, Stripe, Tesla",
+      "doc_item_refs": [
+        "#/texts/283",
+        "#/texts/128",
+        "#/texts/129",
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/137",
+        "#/texts/284",
+        "#/texts/138",
+        "#/texts/139",
+        "#/texts/140",
+        "#/texts/141",
+        "#/texts/142",
+        "#/texts/143",
+        "#/texts/285",
+        "#/texts/144",
+        "#/texts/145",
+        "#/texts/146",
+        "#/texts/147",
+        "#/texts/150",
+        "#/texts/153"
+      ],
+      "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+      "headings": [
+        "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+        "Influence"
+      ],
+      "images": [
+        {
+          "caption": "Image from A comprehensive survey of Product Management",
+          "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/f8c5c2b1-1bec-4c47-97d7-f5823ac25ca9_2000x1363.png"
+        },
+        {
+          "caption": "Image from A comprehensive survey of Product Management",
+          "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/4c3c9c1b-6f38-462f-bc79-484c05d3c76d_2000x1408.png"
+        },
+        {
+          "caption": "Image from A comprehensive survey of Product Management",
+          "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000009",
+          "path": null,
+          "self_ref": "#/pictures/9",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e4a2909a-426a-459c-8bc0-b9151cc9a25a_2002x1035.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000005",
+        "chunk_sha256": "a47ebbbae196043e08483b7750de4b47d337acfe4a990eacc40a892369097125",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-comprehensive-survey-of-product-management.docling.json",
+        "docling_sha256": "766cdb30b255aa5acdf453f74829830e2a6ddc78c29a3ee07eb2fd4a6b93afa9",
+        "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_sha256": "7d01a6ba5142ce40e7c75fe84b45d398d8005a38dd9c0d251bf2e3c93b38b3e9",
+        "fact_document_path": "chunks/v2/02-newsletters/a-comprehensive-survey-of-product-management.chunks.json",
+        "headings": [
+          "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+          "Influence"
+        ],
+        "images": [
+          {
+            "caption": "Image from A comprehensive survey of Product Management",
+            "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/f8c5c2b1-1bec-4c47-97d7-f5823ac25ca9_2000x1363.png"
+          },
+          {
+            "caption": "Image from A comprehensive survey of Product Management",
+            "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/4c3c9c1b-6f38-462f-bc79-484c05d3c76d_2000x1408.png"
+          },
+          {
+            "caption": "Image from A comprehensive survey of Product Management",
+            "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000009",
+            "path": null,
+            "self_ref": "#/pictures/9",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e4a2909a-426a-459c-8bc0-b9151cc9a25a_2002x1035.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "raw_sha256": "81a360a77fa6988045d88ec9c2c0b013af8d990f0a33884e1bbae01fbe5259b0",
+        "segment": {
+          "first_self_ref": "#/texts/283",
+          "item_count": 22,
+          "last_self_ref": "#/texts/153"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/283",
+          "#/texts/128",
+          "#/texts/129",
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/137",
+          "#/texts/284",
+          "#/texts/138",
+          "#/texts/139",
+          "#/texts/140",
+          "#/texts/141",
+          "#/texts/142",
+          "#/texts/143",
+          "#/texts/285",
+          "#/texts/144",
+          "#/texts/145",
+          "#/texts/146",
+          "#/texts/147",
+          "#/texts/150",
+          "#/texts/153"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "Image from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. According to responders (mostly PMs), PMs have more influence than other functions at over 80% of companies\n2. Similarly, PMs have “a lot more” influence at ~50% of companies\n3. Almost no companies have PMs with a lot *less* influence than other functions\n*Looking at this same data but excluding responses from product managers (e.g. only looking at responses from engineers, designers, CEOs, etc.), the story shifts a bit:*\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. From this perspective, we find that PMs have more influence than other functions at only 70% of companies (vs. 80% above). Clearly, PMs believe they have more influence than their teammates think they do.\n2. However, most of the variance comes from the number of responders who believe PMs run the show — ~13% when looking at all responses, but only ~6% when PM responses are excluded.\n3. In both cases, roughly the same percentage of companies have PMs with slightly more, or a lot more, influence (~65%).\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. **The spectrum varies widely** : from Zynga where PMs run the show, to Apple where PMs have the least influence\n2. **Noteworthy companies where PMs have a lot more influence** : YouTube, LinkedIn, Twitter, Uber, Robinhood, Lyft, Coinbase, Asana, Airbnb\n3. **Noteworthy companies where PMs have relatively less influence** : Apple, Oracle, Stripe, Tesla",
+      "token_count": 446
+    },
+    {
+      "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000006",
+      "contextualized_text": "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics\nHeart vs. Hands vs. Head\nIt's often said that companies are defined by how they index on Heart (e.g. empathy, culture) vs. Hands (e.g. execution) vs. Head (e.g. intelligence). When describing PMs at your company, how would you stack rank the importance of Heart, Hands, and Head?\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. Companies who spike on **Heart** : Asana, Spotify, WhatsApp\n2. Companies who spike on **Hands** : Flipkart, Okta, PayPal, Quora, Tesla, Wayfair, Yelp\n3. Companies who spike on **Head** : Coinbase, Uber, YouTube, Zynga",
+      "doc_item_refs": [
+        "#/texts/157",
+        "#/texts/286",
+        "#/texts/158",
+        "#/texts/159",
+        "#/texts/160",
+        "#/texts/161",
+        "#/texts/165",
+        "#/texts/169"
+      ],
+      "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+      "headings": [
+        "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+        "Heart vs. Hands vs. Head"
+      ],
+      "images": [
+        {
+          "caption": "Image from A comprehensive survey of Product Management",
+          "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000010",
+          "path": null,
+          "self_ref": "#/pictures/10",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5d347488-07b9-4504-95bb-43f2dcc8b720_2000x1103.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000006",
+        "chunk_sha256": "064e9fb5cd58bb684d10c0851fd79d2818edeaa99864d417b4f6ff98a3be36e6",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-comprehensive-survey-of-product-management.docling.json",
+        "docling_sha256": "766cdb30b255aa5acdf453f74829830e2a6ddc78c29a3ee07eb2fd4a6b93afa9",
+        "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_sha256": "7d01a6ba5142ce40e7c75fe84b45d398d8005a38dd9c0d251bf2e3c93b38b3e9",
+        "fact_document_path": "chunks/v2/02-newsletters/a-comprehensive-survey-of-product-management.chunks.json",
+        "headings": [
+          "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+          "Heart vs. Hands vs. Head"
+        ],
+        "images": [
+          {
+            "caption": "Image from A comprehensive survey of Product Management",
+            "image_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#image=000010",
+            "path": null,
+            "self_ref": "#/pictures/10",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5d347488-07b9-4504-95bb-43f2dcc8b720_2000x1103.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "raw_sha256": "81a360a77fa6988045d88ec9c2c0b013af8d990f0a33884e1bbae01fbe5259b0",
+        "segment": {
+          "first_self_ref": "#/texts/157",
+          "item_count": 8,
+          "last_self_ref": "#/texts/169"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/157",
+          "#/texts/286",
+          "#/texts/158",
+          "#/texts/159",
+          "#/texts/160",
+          "#/texts/161",
+          "#/texts/165",
+          "#/texts/169"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "It's often said that companies are defined by how they index on Heart (e.g. empathy, culture) vs. Hands (e.g. execution) vs. Head (e.g. intelligence). When describing PMs at your company, how would you stack rank the importance of Heart, Hands, and Head?\nImage from A comprehensive survey of Product Management\nImage from A comprehensive survey of Product Management\n**Takeaways**\n:\n1. Companies who spike on **Heart** : Asana, Spotify, WhatsApp\n2. Companies who spike on **Hands** : Flipkart, Okta, PayPal, Quora, Tesla, Wayfair, Yelp\n3. Companies who spike on **Head** : Coinbase, Uber, YouTube, Zynga",
+      "token_count": 228
+    },
+    {
+      "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000007",
+      "contextualized_text": "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics\nWhat’s next\nThis is the first time I’ve conducted a survey like this. Depending on how it’s received, I hope to run it again sometime in the future. If you have any feedback on the results, the analysis, or the way it was run, I’d love to hear it. Please leave your feedback here.\nAnd lastly, if you see any other interesting takeaways when looking at this data, please leave a comment 👇\n[Leave a comment](https://www.lennysnewsletter.com/p/product-management-survey/comments)\nSee you next week!",
+      "doc_item_refs": [
+        "#/texts/174",
+        "#/texts/175",
+        "#/texts/176",
+        "#/texts/177"
+      ],
+      "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+      "headings": [
+        "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+        "What’s next"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000007",
+        "chunk_sha256": "f27f6c560695d52743486faf5beeaa235eeaa8d084befb5d21dc8be7cb83329c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-comprehensive-survey-of-product-management.docling.json",
+        "docling_sha256": "766cdb30b255aa5acdf453f74829830e2a6ddc78c29a3ee07eb2fd4a6b93afa9",
+        "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_sha256": "7d01a6ba5142ce40e7c75fe84b45d398d8005a38dd9c0d251bf2e3c93b38b3e9",
+        "fact_document_path": "chunks/v2/02-newsletters/a-comprehensive-survey-of-product-management.chunks.json",
+        "headings": [
+          "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+          "What’s next"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "raw_sha256": "81a360a77fa6988045d88ec9c2c0b013af8d990f0a33884e1bbae01fbe5259b0",
+        "segment": {
+          "first_self_ref": "#/texts/174",
+          "item_count": 4,
+          "last_self_ref": "#/texts/177"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/174",
+          "#/texts/175",
+          "#/texts/176",
+          "#/texts/177"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "This is the first time I’ve conducted a survey like this. Depending on how it’s received, I hope to run it again sometime in the future. If you have any feedback on the results, the analysis, or the way it was run, I’d love to hear it. Please leave your feedback here.\nAnd lastly, if you see any other interesting takeaways when looking at this data, please leave a comment 👇\n[Leave a comment](https://www.lennysnewsletter.com/p/product-management-survey/comments)\nSee you next week!",
+      "token_count": 182
+    },
+    {
+      "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000008",
+      "contextualized_text": "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics\n🔥 Job opportunities\n**✨**\nSponsored job of the week:\n[**Product Manager at UserLeap**](https://boards.greenhouse.io/userleap/jobs/4279026003)\n**✨**\n1. **Product** : [Cerebral](https://boards.greenhouse.io/cerebral/jobs/4124465003) , [Descript](https://jobs.lever.co/descript-2/08f9b563-c3e6-49a4-be07-82fafc1868af) , [KUDO](https://angel.co/company/kudo-meeting/jobs/913705-product-manager) , [Hipcamp](https://jobs.lever.co/hipcamp/d04821c3-fb9a-4d3f-9a7a-1b75deacc09f) , [Prenda](https://apply.workable.com/prenda/j/63270A44BB/)\n2. **Growth** : [BasisOne](https://www.basisone.com/careers/growth-strategy-lead) , [Coda](https://boards.greenhouse.io/coda/jobs/4794809002) , [Levels](https://levels.link/growth) , [Prenda](https://apply.workable.com/prenda/j/AC98C5FDFB/)\n3. **Design** : [Ashby](https://jobs.ashbyhq.com/ashby/145ff46b-1441-4773-bcd3-c8c90baa598a) , [Cascade](https://www.cascade.io/jobs/analytical-product-designer) , [Office Hours](https://docs.google.com/document/d/1_aHEl08ahc6NjOhwmi9GQlNv8CvlOwf8hL-FyCrmAes/edit) , [Runway](https://www.notion.so/A-Product-Designer-baa24543701f472bb291d4429812064a) , [Stytch](https://jobs.lever.co/stytch/675e6a11-5a33-41bc-9315-5a3ca141d444) , [Watershed](https://www.notion.so/Designer-Watershed-7cb7bf8bd750432399d36e83e4e32391)\n4. **Engineering manager** : [Cerebral](https://boards.greenhouse.io/cerebral/jobs/4076598003)\n5. **Frontend engineer** : [Levels](https://www.notion.so/levelshealth/Join-Levels-Remote-Developer-58454f0db7e3466692f7b75db6237ddf) , [Practice](https://www.notion.so/Front-end-Developer-929e1933b9b4432a851043adbb7bff04) , [Tome](https://www.linkedin.com/jobs/view/2323962506/)\n6. **Backend engineer** : [Coda](https://boards.greenhouse.io/coda/jobs/4489268002) , [Sourcetable](https://sourcetable.com/jobs#backend-engineer) , [Transform](https://transformdata.io/careers/)\n7. **Fullstack engineer** : [Cascade](https://www.cascade.io/jobs/full-stack-product-engineer) , [Centered](https://www.notion.so/Software-Developer-e7cad269968e4d5aaeb1f6da9e282626) , [Cerebral](https://boards.greenhouse.io/cerebral/jobs/4188468003) , [Icebreaker](https://icebreaker.video/product-engineer) , [Iggy](https://www.notion.so/askiggy/Full-Stack-Engineer-IggyAPI-5a8c1825028e421b9587538718f370b4) , [Primer](https://www.notion.so/Senior-Software-Engineer-Full-stack-web-San-Francisco-CA-3a0af35008104def82836a5b9a5a88e1) , [Runway](https://www.notion.so/A-Product-first-Full-stack-Engineer-5e056689b68048aeb1ccfea6ac73eb9e) , [Snackpass](https://jobs.lever.co/snackpass/7c3bb72b-70d3-45ca-9dea-eea57ed5333d)\n8. **iOS engineer** : [Pairplay](https://www.notion.so/Lead-iOS-Developer-ba18577b6ba44ad68e45b8e7a957353c) , [Primer](https://www.notion.so/Senior-Software-Engineer-iOS-San-Francisco-CA-87f0fd3ee3dc4c3f8d0419c07fcdd434) , [Stytch](https://jobs.lever.co/stytch/d3bf3860-4aaa-4a23-8e28-dad20957be44) , [Vori](https://www.notion.so/Mobile-Engineer-Vori-c5ceccd966a04c8aa9e970f0355ca13c)",
+      "doc_item_refs": [
+        "#/texts/179",
+        "#/texts/180",
+        "#/texts/181",
+        "#/texts/182",
+        "#/texts/183",
+        "#/texts/195",
+        "#/texts/205",
+        "#/texts/219",
+        "#/texts/223",
+        "#/texts/231",
+        "#/texts/239",
+        "#/texts/257"
+      ],
+      "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+      "headings": [
+        "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+        "🔥 Job opportunities"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000008",
+        "chunk_sha256": "cc787a72da5c0100f6bdf4dad55667ce617774f315b29e53bcc921fa7db1e4d2",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-comprehensive-survey-of-product-management.docling.json",
+        "docling_sha256": "766cdb30b255aa5acdf453f74829830e2a6ddc78c29a3ee07eb2fd4a6b93afa9",
+        "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_sha256": "7d01a6ba5142ce40e7c75fe84b45d398d8005a38dd9c0d251bf2e3c93b38b3e9",
+        "fact_document_path": "chunks/v2/02-newsletters/a-comprehensive-survey-of-product-management.chunks.json",
+        "headings": [
+          "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+          "🔥 Job opportunities"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "raw_sha256": "81a360a77fa6988045d88ec9c2c0b013af8d990f0a33884e1bbae01fbe5259b0",
+        "segment": {
+          "first_self_ref": "#/texts/179",
+          "item_count": 12,
+          "last_self_ref": "#/texts/257"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/179",
+          "#/texts/180",
+          "#/texts/181",
+          "#/texts/182",
+          "#/texts/183",
+          "#/texts/195",
+          "#/texts/205",
+          "#/texts/219",
+          "#/texts/223",
+          "#/texts/231",
+          "#/texts/239",
+          "#/texts/257"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "**✨**\nSponsored job of the week:\n[**Product Manager at UserLeap**](https://boards.greenhouse.io/userleap/jobs/4279026003)\n**✨**\n1. **Product** : [Cerebral](https://boards.greenhouse.io/cerebral/jobs/4124465003) , [Descript](https://jobs.lever.co/descript-2/08f9b563-c3e6-49a4-be07-82fafc1868af) , [KUDO](https://angel.co/company/kudo-meeting/jobs/913705-product-manager) , [Hipcamp](https://jobs.lever.co/hipcamp/d04821c3-fb9a-4d3f-9a7a-1b75deacc09f) , [Prenda](https://apply.workable.com/prenda/j/63270A44BB/)\n2. **Growth** : [BasisOne](https://www.basisone.com/careers/growth-strategy-lead) , [Coda](https://boards.greenhouse.io/coda/jobs/4794809002) , [Levels](https://levels.link/growth) , [Prenda](https://apply.workable.com/prenda/j/AC98C5FDFB/)\n3. **Design** : [Ashby](https://jobs.ashbyhq.com/ashby/145ff46b-1441-4773-bcd3-c8c90baa598a) , [Cascade](https://www.cascade.io/jobs/analytical-product-designer) , [Office Hours](https://docs.google.com/document/d/1_aHEl08ahc6NjOhwmi9GQlNv8CvlOwf8hL-FyCrmAes/edit) , [Runway](https://www.notion.so/A-Product-Designer-baa24543701f472bb291d4429812064a) , [Stytch](https://jobs.lever.co/stytch/675e6a11-5a33-41bc-9315-5a3ca141d444) , [Watershed](https://www.notion.so/Designer-Watershed-7cb7bf8bd750432399d36e83e4e32391)\n4. **Engineering manager** : [Cerebral](https://boards.greenhouse.io/cerebral/jobs/4076598003)\n5. **Frontend engineer** : [Levels](https://www.notion.so/levelshealth/Join-Levels-Remote-Developer-58454f0db7e3466692f7b75db6237ddf) , [Practice](https://www.notion.so/Front-end-Developer-929e1933b9b4432a851043adbb7bff04) , [Tome](https://www.linkedin.com/jobs/view/2323962506/)\n6. **Backend engineer** : [Coda](https://boards.greenhouse.io/coda/jobs/4489268002) , [Sourcetable](https://sourcetable.com/jobs#backend-engineer) , [Transform](https://transformdata.io/careers/)\n7. **Fullstack engineer** : [Cascade](https://www.cascade.io/jobs/full-stack-product-engineer) , [Centered](https://www.notion.so/Software-Developer-e7cad269968e4d5aaeb1f6da9e282626) , [Cerebral](https://boards.greenhouse.io/cerebral/jobs/4188468003) , [Icebreaker](https://icebreaker.video/product-engineer) , [Iggy](https://www.notion.so/askiggy/Full-Stack-Engineer-IggyAPI-5a8c1825028e421b9587538718f370b4) , [Primer](https://www.notion.so/Senior-Software-Engineer-Full-stack-web-San-Francisco-CA-3a0af35008104def82836a5b9a5a88e1) , [Runway](https://www.notion.so/A-Product-first-Full-stack-Engineer-5e056689b68048aeb1ccfea6ac73eb9e) , [Snackpass](https://jobs.lever.co/snackpass/7c3bb72b-70d3-45ca-9dea-eea57ed5333d)\n8. **iOS engineer** : [Pairplay](https://www.notion.so/Lead-iOS-Developer-ba18577b6ba44ad68e45b8e7a957353c) , [Primer](https://www.notion.so/Senior-Software-Engineer-iOS-San-Francisco-CA-87f0fd3ee3dc4c3f8d0419c07fcdd434) , [Stytch](https://jobs.lever.co/stytch/d3bf3860-4aaa-4a23-8e28-dad20957be44) , [Vori](https://www.notion.so/Mobile-Engineer-Vori-c5ceccd966a04c8aa9e970f0355ca13c)",
+      "token_count": 1456
+    },
+    {
+      "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000009",
+      "contextualized_text": "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics\n🔥 Job opportunities\nHow would you rate this week's newsletter? 🤔\n[Great](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4Hp2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n•\n[Good](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4vX2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n•\n[Meh](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4kr2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\nIf you’d like to receive this newsletter weekly, consider subscribing 👇\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/268",
+        "#/texts/269",
+        "#/texts/270",
+        "#/texts/271",
+        "#/texts/272",
+        "#/texts/273",
+        "#/texts/274",
+        "#/texts/275"
+      ],
+      "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+      "headings": [
+        "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+        "🔥 Job opportunities",
+        "How would you rate this week's newsletter? 🤔"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-comprehensive-survey-of-product-management.md#chunk=000009",
+        "chunk_sha256": "92addac90d1699f29b55edaf8cbd24c55da81b9e8e3b2125d423afaf8a1c3898",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-comprehensive-survey-of-product-management.docling.json",
+        "docling_sha256": "766cdb30b255aa5acdf453f74829830e2a6ddc78c29a3ee07eb2fd4a6b93afa9",
+        "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "enhanced_sha256": "7d01a6ba5142ce40e7c75fe84b45d398d8005a38dd9c0d251bf2e3c93b38b3e9",
+        "fact_document_path": "chunks/v2/02-newsletters/a-comprehensive-survey-of-product-management.chunks.json",
+        "headings": [
+          "A comprehensive survey of Product Management — 👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter | 2020-12-22 | Tags: leadership, design, product-management, engineering, newsletter, analytics",
+          "🔥 Job opportunities",
+          "How would you rate this week's newsletter? 🤔"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/a-comprehensive-survey-of-product-management.md",
+        "raw_sha256": "81a360a77fa6988045d88ec9c2c0b013af8d990f0a33884e1bbae01fbe5259b0",
+        "segment": {
+          "first_self_ref": "#/texts/268",
+          "item_count": 8,
+          "last_self_ref": "#/texts/275"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/268",
+          "#/texts/269",
+          "#/texts/270",
+          "#/texts/271",
+          "#/texts/272",
+          "#/texts/273",
+          "#/texts/274",
+          "#/texts/275"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "[Great](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4Hp2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n•\n[Good](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4vX2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n•\n[Meh](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4kr2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\nIf you’d like to receive this newsletter weekly, consider subscribing 👇\nSincerely,\nLenny 👋",
+      "token_count": 767
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/a-comprehensive-survey-of-product-management.docling.json",
+  "docling_sha256": "766cdb30b255aa5acdf453f74829830e2a6ddc78c29a3ee07eb2fd4a6b93afa9",
+  "document_id": "02-newsletters/a-comprehensive-survey-of-product-management.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/a-comprehensive-survey-of-product-management.md",
+  "enhanced_sha256": "7d01a6ba5142ce40e7c75fe84b45d398d8005a38dd9c0d251bf2e3c93b38b3e9",
+  "fact_document_path": "chunks/v2/02-newsletters/a-comprehensive-survey-of-product-management.chunks.json",
+  "metadata": {
+    "date": "2020-12-22",
+    "subtitle": "👋 Hello, I’m Lenny and welcome to a ✨ once-a-month-free-edition✨ of my newsletter",
+    "tags": [
+      "leadership",
+      "design",
+      "product-management",
+      "engineering",
+      "newsletter",
+      "analytics"
+    ],
+    "title": "A comprehensive survey of Product Management",
+    "type": "newsletter",
+    "word_count": 1573
+  },
+  "raw_path": "corpus/raw/02-newsletters/a-comprehensive-survey-of-product-management.md",
+  "raw_sha256": "81a360a77fa6988045d88ec9c2c0b013af8d990f0a33884e1bbae01fbe5259b0",
+  "schema_version": "1",
+  "title": "A comprehensive survey of Product Management"
+}

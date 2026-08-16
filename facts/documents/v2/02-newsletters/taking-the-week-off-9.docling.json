@@ -1,0 +1,328 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/10"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/furniture"
+  },
+  "groups": [
+    {
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/0"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/1"
+    }
+  ],
+  "key_value_items": [],
+  "name": "taking-the-week-off-9",
+  "origin": {
+    "binary_hash": 7570550498972949150,
+    "filename": "taking-the-week-off-9.md",
+    "mimetype": "text/markdown",
+    "uri": null
+  },
+  "pages": {},
+  "pictures": [
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/11"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/jpeg",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/0353ba9b-fa61-4553-83d2-0a6caa6df917_4032x3024.jpeg"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/0"
+    }
+  ],
+  "schema_name": "DoclingDocument",
+  "tables": [],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "title",
+      "meta": null,
+      "orig": "Taking the week off — Back next week! | 2022-10-04 | Tags: newsletter, career, growth, leadership, product-management, strategy",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/0",
+      "text": "Taking the week off — Back next week! | 2022-10-04 | Tags: newsletter, career, growth, leadership, product-management, strategy"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I’m taking this week off to recharge (",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/1",
+      "text": "I’m taking this week off to recharge ("
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/pto-policy",
+      "label": "text",
+      "meta": null,
+      "orig": "per my PTO policy",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/2",
+      "text": "per my PTO policy"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "), traveling through Colorado and Wyoming. If you’re yearning for something to read, here are a few older posts you may have missed:",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/3",
+      "text": "), traveling through Colorado and Wyoming. If you’re yearning for something to read, here are a few older posts you may have missed:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/minto-pyramid-principle-scr",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "The Minto Pyramid Principle and the SCR Framework",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/4",
+      "text": "The Minto Pyramid Principle and the SCR Framework"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/product-management-career-ladders",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Product management career ladders",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/5",
+      "text": "Product management career ladders"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/increasing-velocity-issue-61",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Increasing team velocity",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/6",
+      "text": "Increasing team velocity"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/content-driven-growth-strategy",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Content-driven growth",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/7",
+      "text": "Content-driven growth"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/sabbatical-time-off",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "On taking time off",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/8",
+      "text": "On taking time off"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "See you next week!",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/9",
+      "text": "See you next week!"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Taking the week off",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/10",
+      "text": "Image from Taking the week off"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Taking the week off",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/11",
+      "text": "Image from Taking the week off"
+    }
+  ],
+  "version": "1.10.0"
+}

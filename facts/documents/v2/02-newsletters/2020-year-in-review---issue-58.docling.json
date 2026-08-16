@@ -1,0 +1,3541 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/texts/145"
+      },
+      {
+        "$ref": "#/groups/25"
+      },
+      {
+        "$ref": "#/texts/151"
+      },
+      {
+        "$ref": "#/texts/152"
+      },
+      {
+        "$ref": "#/texts/153"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/furniture"
+  },
+  "groups": [
+    {
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/0"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/8"
+      },
+      "self_ref": "#/groups/1"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/11"
+      },
+      "self_ref": "#/groups/2"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/14"
+      },
+      "self_ref": "#/groups/3"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/17"
+      },
+      "self_ref": "#/groups/4"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "self_ref": "#/groups/5"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/37"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/6"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/25"
+      },
+      "self_ref": "#/groups/7"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/28"
+      },
+      "self_ref": "#/groups/8"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/31"
+      },
+      "self_ref": "#/groups/9"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/34"
+      },
+      "self_ref": "#/groups/10"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/37"
+      },
+      "self_ref": "#/groups/11"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/12"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/13"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/14"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/15"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/107"
+        },
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/121"
+        },
+        {
+          "$ref": "#/texts/137"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/16"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/69"
+      },
+      "self_ref": "#/groups/17"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/81"
+      },
+      "self_ref": "#/groups/18"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/91"
+      },
+      "self_ref": "#/groups/19"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/103"
+      },
+      "self_ref": "#/groups/20"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/107"
+      },
+      "self_ref": "#/groups/21"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/116"
+        },
+        {
+          "$ref": "#/texts/117"
+        },
+        {
+          "$ref": "#/texts/118"
+        },
+        {
+          "$ref": "#/texts/119"
+        },
+        {
+          "$ref": "#/texts/120"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/115"
+      },
+      "self_ref": "#/groups/22"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/122"
+        },
+        {
+          "$ref": "#/texts/123"
+        },
+        {
+          "$ref": "#/texts/124"
+        },
+        {
+          "$ref": "#/texts/125"
+        },
+        {
+          "$ref": "#/texts/126"
+        },
+        {
+          "$ref": "#/texts/127"
+        },
+        {
+          "$ref": "#/texts/128"
+        },
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/130"
+        },
+        {
+          "$ref": "#/texts/131"
+        },
+        {
+          "$ref": "#/texts/132"
+        },
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        },
+        {
+          "$ref": "#/texts/135"
+        },
+        {
+          "$ref": "#/texts/136"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/121"
+      },
+      "self_ref": "#/groups/23"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/138"
+        },
+        {
+          "$ref": "#/texts/139"
+        },
+        {
+          "$ref": "#/texts/140"
+        },
+        {
+          "$ref": "#/texts/141"
+        },
+        {
+          "$ref": "#/texts/142"
+        },
+        {
+          "$ref": "#/texts/143"
+        },
+        {
+          "$ref": "#/texts/144"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/137"
+      },
+      "self_ref": "#/groups/24"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/146"
+        },
+        {
+          "$ref": "#/texts/147"
+        },
+        {
+          "$ref": "#/texts/148"
+        },
+        {
+          "$ref": "#/texts/149"
+        },
+        {
+          "$ref": "#/texts/150"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/25"
+    }
+  ],
+  "key_value_items": [],
+  "name": "2020-year-in-review---issue-58",
+  "origin": {
+    "binary_hash": 4435341427169604753,
+    "filename": "2020-year-in-review---issue-58.md",
+    "mimetype": "text/markdown",
+    "uri": null
+  },
+  "pages": {},
+  "pictures": [
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/154"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/154"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/572504b3-f0f4-4d01-b548-b1c29b4438f7_1186x692.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/0"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/155"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/155"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/cb0eb167-1e70-47f1-ad15-e7d799f0632e_1546x1038.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/1"
+    }
+  ],
+  "schema_name": "DoclingDocument",
+  "tables": [],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "title",
+      "meta": null,
+      "orig": "2020 Year in Review – Issue 58 — Most popular posts, tweets, and a reflection on the year | 2020-12-29 | Tags: growth, newsletter, strategy, b2c, b2b, design",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/0",
+      "text": "2020 Year in Review – Issue 58 — Most popular posts, tweets, and a reflection on the year | 2020-12-29 | Tags: growth, newsletter, strategy, b2c, b2b, design"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I started this newsletter a year and a half ago, as an experiment.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/1",
+      "text": "I started this newsletter a year and a half ago, as an experiment."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from 2020 Year in Review – Issue 58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/2",
+      "text": "Image from 2020 Year in Review – Issue 58"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "At the beginning of this year, six months into the experiment, I had 6,000 subscribers, a couple dozen posts, and no real plan for where all of this was going. I still thought I wanted to start a company, and this newsletter was still a distracting side-project. As the year progressed though, the picture became clearer.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/3",
+      "text": "At the beginning of this year, six months into the experiment, I had 6,000 subscribers, a couple dozen posts, and no real plan for where all of this was going. I still thought I wanted to start a company, and this newsletter was still a distracting side-project. As the year progressed though, the picture became clearer."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Today, with nearly 45,000 subscribers, over ~3,000 paid subscribers, a Slack community of over 2,500 helpful-smart-driven people, and ~100 posts, I’ve never been clearer on what I should be doing: this.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/4",
+      "text": "Today, with nearly 45,000 subscribers, over ~3,000 paid subscribers, a Slack community of over 2,500 helpful-smart-driven people, and ~100 posts, I’ve never been clearer on what I should be doing: this."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from 2020 Year in Review – Issue 58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/5",
+      "text": "Image from 2020 Year in Review – Issue 58"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "To all of you who subscribe, share, ask questions, and share words of encouragement: THANK YOU. I could not be more grateful to you for allowing me to do this work 💖",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/6",
+      "text": "To all of you who subscribe, share, ask questions, and share words of encouragement: THANK YOU. I could not be more grateful to you for allowing me to do this work 💖"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Here’s what we accomplished this year:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/7",
+      "text": "Here’s what we accomplished this year:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/1"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/8",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "At least one post every single week of the year",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/9",
+      "text": "At least one post every single week of the year"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(64 in total)",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/10",
+      "text": "(64 in total)"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/11",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "700% YoY growth",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/12",
+      "text": "700% YoY growth"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "in subscribers, sitting somewhere in the top 15 most popular Substack newsletters",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/13",
+      "text": "in subscribers, sitting somewhere in the top 15 most popular Substack newsletters"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/14",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Launched a paid plan",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/15",
+      "text": "Launched a paid plan"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", which went from zero to over 3,000 subscribers in ~6 months",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/16",
+      "text": ", which went from zero to over 3,000 subscribers in ~6 months"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/17",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Launched the private Slack community",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/18",
+      "text": "Launched the private Slack community"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", which continues to be one of my proudest achievements with this whole endeavor",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/19",
+      "text": ", which continues to be one of my proudest achievements with this whole endeavor"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/5"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/20",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Added a second weekly email",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/21",
+      "text": "Added a second weekly email"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", which highlights the best advice from the community itself, curated by",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/22",
+      "text": ", which highlights the best advice from the community itself, curated by"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.linkedin.com/in/kiyanibamba/",
+      "label": "text",
+      "meta": null,
+      "orig": "Kiyani",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/23",
+      "text": "Kiyani"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "What you can expect in the coming year**:**",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/24",
+      "text": "What you can expect in the coming year**:**"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/7"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/25",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "More in-depth deep dives",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/26",
+      "text": "More in-depth deep dives"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", including a “grand unified theory of growth”",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/27",
+      "text": ", including a “grand unified theory of growth”"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/8"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/28",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "A live online course",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/29",
+      "text": "A live online course"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "for new product managers",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/30",
+      "text": "for new product managers"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/9"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/31",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "A personally curated guide",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/32",
+      "text": "A personally curated guide"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "of the best resources for anything product, growth, startups, working with humans, or anything else that stresses you out at the office",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/33",
+      "text": "of the best resources for anything product, growth, startups, working with humans, or anything else that stresses you out at the office"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/10"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/34",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "More investment in the community",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/35",
+      "text": "More investment in the community"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", including a regular cadence of fireside chats with the most interesting people in growth, product, and startups",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/36",
+      "text": ", including a regular cadence of fireside chats with the most interesting people in growth, product, and startups"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/11"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/37",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "And generally, more of the same:",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/38",
+      "text": "And generally, more of the same:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "actionable and concrete advice delivered to you weekly",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/39",
+      "text": "actionable and concrete advice delivered to you weekly"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I can’t wait to get started.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/40",
+      "text": "I can’t wait to get started."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "To leave you with something concretely valuable this week, I’ve collected the most popular posts (and tweets) from this year, along with a fun bonus. Enjoy, and see you in 2021!",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/41",
+      "text": "To leave you with something concretely valuable this week, I’ve collected the most popular posts (and tweets) from this year, along with a fun bonus. Enjoy, and see you in 2021!"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "Most popular posts this year",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/42",
+      "text": "Most popular posts this year"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Growth",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/43",
+      "text": "Growth"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/how-the-biggest-consumer-apps-got",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "How the biggest consumer apps got their first 1,000 users",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/44",
+      "text": "How the biggest consumer apps got their first 1,000 users"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/how-todays-fastest-growing-b2b-businesses",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "How today's fastest-growing B2B businesses found their first 10 customers",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/45",
+      "text": "How today's fastest-growing B2B businesses found their first 10 customers"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/what-is-good-retention-issue-29",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "What is good retention",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/46",
+      "text": "What is good retention"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/this-week-21-strategy-and-tactics",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Strategy and tactics for increasing conversion",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/47",
+      "text": "Strategy and tactics for increasing conversion"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/magical-growth-loops",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Magical growth loops",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/48",
+      "text": "Magical growth loops"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Product Management",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/49",
+      "text": "Product Management"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/my-favorite-templates-issue-37",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "My favorite product management templates",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/50",
+      "text": "My favorite product management templates"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/product-management-survey",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "A comprehensive survey of Product Management",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/51",
+      "text": "A comprehensive survey of Product Management"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/getting-better-at-product-strategy",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Getting better at product strategy",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/52",
+      "text": "Getting better at product strategy"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/flywheels-flywheels-flywheels-issue",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Flywheels, flywheels, flywheels",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/53",
+      "text": "Flywheels, flywheels, flywheels"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/managing-up",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Managing up",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/54",
+      "text": "Managing up"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Building a company",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/55",
+      "text": "Building a company"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/saas-pricing-strategy",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "How to price your SaaS product",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/56",
+      "text": "How to price your SaaS product"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/a-playbook-for-fundraising",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "A playbook for fundraising",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/57",
+      "text": "A playbook for fundraising"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/what-it-feels-like-when-youve-found",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "What it feels like when you've found product-market fit",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/58",
+      "text": "What it feels like when you've found product-market fit"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/how-to-know-if-youve-got-productmarket",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "How to know if you've got product-market fit",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/59",
+      "text": "How to know if you've got product-market fit"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/sales-bottom-up",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "The Transition: Layering sales onto a bottom-up self-serve product",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/60",
+      "text": "The Transition: Layering sales onto a bottom-up self-serve product"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "Most popular tweets this year",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/61",
+      "text": "Most popular tweets this year"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "Bonus: My favorite mother-in-law’s takeaways",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/62",
+      "text": "Bonus: My favorite mother-in-law’s takeaways"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "For those of you who don't follow me on Twitter and have no idea what I’m talking about, I gave my mother-in-law a free subscription to my newsletter, and ever since she’s replied to every single issue with her insightful and heart-warming takeaways. Here are some of my favorites:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/63",
+      "text": "For those of you who don't follow me on Twitter and have no idea what I’m talking about, I gave my mother-in-law a free subscription to my newsletter, and ever since she’s replied to every single issue with her insightful and heart-warming takeaways. Here are some of my favorites:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Thank you again so much for your support, and see you next year ✨",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/64",
+      "text": "Thank you again so much for your support, and see you next year ✨"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "🔥 Job opportunities",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/65",
+      "text": "🔥 Job opportunities"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "**✨**Sponsored job of the week:",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/66",
+      "text": "**✨**Sponsored job of the week:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://boards.greenhouse.io/userleap/jobs/4279026003",
+      "label": "text",
+      "meta": null,
+      "orig": "Product Manager at UserLeap",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/67",
+      "text": "Product Manager at UserLeap"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "✨",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/68",
+      "text": "✨"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/17"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/69",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Product",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/70",
+      "text": "Product"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ":",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/71",
+      "text": ":"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://boards.greenhouse.io/cerebral/jobs/4124465003",
+      "label": "text",
+      "meta": null,
+      "orig": "Cerebral",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/72",
+      "text": "Cerebral"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/73",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://jobs.lever.co/descript-2/08f9b563-c3e6-49a4-be07-82fafc1868af",
+      "label": "text",
+      "meta": null,
+      "orig": "Descript",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/74",
+      "text": "Descript"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/75",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://angel.co/company/kudo-meeting/jobs/913705-product-manager",
+      "label": "text",
+      "meta": null,
+      "orig": "KUDO",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/76",
+      "text": "KUDO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/77",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://jobs.lever.co/hipcamp/d04821c3-fb9a-4d3f-9a7a-1b75deacc09f",
+      "label": "text",
+      "meta": null,
+      "orig": "Hipcamp",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/78",
+      "text": "Hipcamp"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/79",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://apply.workable.com/prenda/j/63270A44BB/",
+      "label": "text",
+      "meta": null,
+      "orig": "Prenda",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/80",
+      "text": "Prenda"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/18"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/81",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Growth",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/82",
+      "text": "Growth"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ":",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/83",
+      "text": ":"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.basisone.com/careers/growth-strategy-lead",
+      "label": "text",
+      "meta": null,
+      "orig": "BasisOne",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/84",
+      "text": "BasisOne"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/85",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://boards.greenhouse.io/coda/jobs/4794809002",
+      "label": "text",
+      "meta": null,
+      "orig": "Coda",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/86",
+      "text": "Coda"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/87",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://levels.link/growth",
+      "label": "text",
+      "meta": null,
+      "orig": "Levels",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/88",
+      "text": "Levels"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/89",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://apply.workable.com/prenda/j/AC98C5FDFB/",
+      "label": "text",
+      "meta": null,
+      "orig": "Prenda",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/90",
+      "text": "Prenda"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/19"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/91",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Design",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/92",
+      "text": "Design"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ":",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/93",
+      "text": ":"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://jobs.ashbyhq.com/ashby/145ff46b-1441-4773-bcd3-c8c90baa598a",
+      "label": "text",
+      "meta": null,
+      "orig": "Ashby",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/94",
+      "text": "Ashby"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/95",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://docs.google.com/document/d/1_aHEl08ahc6NjOhwmi9GQlNv8CvlOwf8hL-FyCrmAes/edit",
+      "label": "text",
+      "meta": null,
+      "orig": "Office Hours",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/96",
+      "text": "Office Hours"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/97",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/A-Product-Designer-baa24543701f472bb291d4429812064a",
+      "label": "text",
+      "meta": null,
+      "orig": "Runway",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/98",
+      "text": "Runway"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/99",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://jobs.lever.co/stytch/675e6a11-5a33-41bc-9315-5a3ca141d444",
+      "label": "text",
+      "meta": null,
+      "orig": "Stytch",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/100",
+      "text": "Stytch"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/101",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/Designer-Watershed-7cb7bf8bd750432399d36e83e4e32391",
+      "label": "text",
+      "meta": null,
+      "orig": "Watershed",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/102",
+      "text": "Watershed"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/20"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/103",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Engineering manager",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/104",
+      "text": "Engineering manager"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ":",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/105",
+      "text": ":"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://boards.greenhouse.io/cerebral/jobs/4076598003",
+      "label": "text",
+      "meta": null,
+      "orig": "Cerebral",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/106",
+      "text": "Cerebral"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/21"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/107",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Frontend engineer",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/108",
+      "text": "Frontend engineer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ":",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/109",
+      "text": ":"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/levelshealth/Join-Levels-Remote-Developer-58454f0db7e3466692f7b75db6237ddf",
+      "label": "text",
+      "meta": null,
+      "orig": "Levels",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/110",
+      "text": "Levels"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/111",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/Front-end-Developer-929e1933b9b4432a851043adbb7bff04",
+      "label": "text",
+      "meta": null,
+      "orig": "Practice",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/112",
+      "text": "Practice"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/113",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.linkedin.com/jobs/view/2323962506/",
+      "label": "text",
+      "meta": null,
+      "orig": "Tome",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/114",
+      "text": "Tome"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/22"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/115",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Backend engineer",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "prov": [],
+      "self_ref": "#/texts/116",
+      "text": "Backend engineer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ":",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "prov": [],
+      "self_ref": "#/texts/117",
+      "text": ":"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://boards.greenhouse.io/coda/jobs/4489268002",
+      "label": "text",
+      "meta": null,
+      "orig": "Coda",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "prov": [],
+      "self_ref": "#/texts/118",
+      "text": "Coda"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "prov": [],
+      "self_ref": "#/texts/119",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://transformdata.io/careers/",
+      "label": "text",
+      "meta": null,
+      "orig": "Transform",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "prov": [],
+      "self_ref": "#/texts/120",
+      "text": "Transform"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/23"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/121",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Fullstack engineer",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/122",
+      "text": "Fullstack engineer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ":",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/123",
+      "text": ":"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.cascade.io/jobs/full-stack-product-engineer",
+      "label": "text",
+      "meta": null,
+      "orig": "Cascade",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/124",
+      "text": "Cascade"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/125",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/Software-Developer-e7cad269968e4d5aaeb1f6da9e282626",
+      "label": "text",
+      "meta": null,
+      "orig": "Centered",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/126",
+      "text": "Centered"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/127",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://icebreaker.video/product-engineer",
+      "label": "text",
+      "meta": null,
+      "orig": "Icebreaker",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/128",
+      "text": "Icebreaker"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/129",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/askiggy/Full-Stack-Engineer-IggyAPI-5a8c1825028e421b9587538718f370b4",
+      "label": "text",
+      "meta": null,
+      "orig": "Iggy",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/130",
+      "text": "Iggy"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/131",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/Senior-Software-Engineer-Full-stack-web-San-Francisco-CA-3a0af35008104def82836a5b9a5a88e1",
+      "label": "text",
+      "meta": null,
+      "orig": "Primer",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/132",
+      "text": "Primer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/133",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/A-Product-first-Full-stack-Engineer-5e056689b68048aeb1ccfea6ac73eb9e",
+      "label": "text",
+      "meta": null,
+      "orig": "Runway",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/134",
+      "text": "Runway"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/135",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://jobs.lever.co/snackpass/7c3bb72b-70d3-45ca-9dea-eea57ed5333d",
+      "label": "text",
+      "meta": null,
+      "orig": "Snackpass",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/136",
+      "text": "Snackpass"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/24"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/137",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "iOS engineer",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/138",
+      "text": "iOS engineer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ":",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/139",
+      "text": ":"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/Lead-iOS-Developer-ba18577b6ba44ad68e45b8e7a957353c",
+      "label": "text",
+      "meta": null,
+      "orig": "Pairplay",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/140",
+      "text": "Pairplay"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/141",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/Senior-Software-Engineer-iOS-San-Francisco-CA-87f0fd3ee3dc4c3f8d0419c07fcdd434",
+      "label": "text",
+      "meta": null,
+      "orig": "Primer",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/142",
+      "text": "Primer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/143",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://jobs.lever.co/stytch/d3bf3860-4aaa-4a23-8e28-dad20957be44",
+      "label": "text",
+      "meta": null,
+      "orig": "Stytch",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/144",
+      "text": "Stytch"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "How would you rate this week's newsletter? 🤔",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/145",
+      "text": "How would you rate this week's newsletter? 🤔"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4Hp2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1",
+      "label": "text",
+      "meta": null,
+      "orig": "Great",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/146",
+      "text": "Great"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "•",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/147",
+      "text": "•"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4vX2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1",
+      "label": "text",
+      "meta": null,
+      "orig": "Good",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/148",
+      "text": "Good"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "•",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/149",
+      "text": "•"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4kr2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1",
+      "label": "text",
+      "meta": null,
+      "orig": "Meh",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/150",
+      "text": "Meh"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "For full access to the weekly posts, past archives, and private community, consider subscribing 👇",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/151",
+      "text": "For full access to the weekly posts, past archives, and private community, consider subscribing 👇"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Sincerely,",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/152",
+      "text": "Sincerely,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Lenny 👋",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/153",
+      "text": "Lenny 👋"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from 2020 Year in Review – Issue 58",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/154",
+      "text": "Image from 2020 Year in Review – Issue 58"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from 2020 Year in Review – Issue 58",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/155",
+      "text": "Image from 2020 Year in Review – Issue 58"
+    }
+  ],
+  "version": "1.10.0"
+}

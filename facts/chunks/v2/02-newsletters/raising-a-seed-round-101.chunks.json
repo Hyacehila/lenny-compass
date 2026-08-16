@@ -1,0 +1,1563 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000000",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nFundraising is arguably the most heartbreaking, confusing, and high-stakes part of a founder’s job. You have to learn how to do it from scratch, stay positive in spite of incessant rejection, and if you don’t get it right, your company dies. Then you have to do it over and over and over again. Don’t get it right once? That’s right, your company dies.\nConsidering how essential getting this right is for most founders, it surprised me that I’d never come across a great, in-depth, practical how-to guide on raising a seed round—especially one written by people who’ve been through it hundreds of times. So I pulled in two of my favorite co-investors to write one:\n[Terrence Rohan](https://x.com/tmrohan)\nand\n[Jack Altman](https://x.com/jaltma)\n. Terrence and Jack have been involved with over 1,000 seed rounds, and are my go-to people whenever I need fundraising advice.\nBelow, you’ll learn:\n1. **Should my company raise venture capital at all?**\n2. **What do I need to prove to investors before I raise?**\n3. **How much should I raise?**\n4. **What should I know about seed round sizes and compositions?**\n5. **How do I maximize the odds of raising a great seed round?**\n6. **How do I talk terms in a seed raise?**\n7. **How should I think about dilution?**\n8. **How do I know if a fundraise is going well?**\n9. **How do I choose the right investors?**\n10. **Should I make an announcement?**\nTo make this guide even more practical, they’ve integrated anecdotes and advice from the founders of some of today’s most iconic companies. If you’re planning to raise a seed round, this guide is for you.\n*Terrence is a seed investor building a new type of angel fund,*\n[*Otherwise*](https://otherwisefund.com/)\n*. Previously he managed the seed practice at Index Ventures. He has supported companies like Figma, Notion, Vanta, Hugging Face, and Robinhood from their earliest stages. You can find him on*\n[*X*](https://x.com/tmrohan)\n*,*\n[*LinkedIn*](https://www.linkedin.com/in/terrencerohan/)\n*and*\n[*trohan.com*](https://trohan.com/)\n*.*\n*Jack is the founder of*\n[*Alt Capital*](https://www.altcap.com/)\n*, a brand-new early-stage venture that raised its first $150 million fund in February. Before starting Alt, he was the founder and CEO of*\n[*Lattice*](https://lattice.com/)\n*, where he currently serves as chairman. For more from Jack,*\n[*follow him on X*](https://x.com/jaltma)\n*.*\nImage from Raising a seed round 101\nImage from Raising a seed round 101\nWe’ve watched this process play out from both the VC and founder sides. Collectively, we’ve seen over 1,000 seed fundraises—including tactics that work and tactics that are harmful.\nAlthough each situation is different, and there’s no one simple answer to these questions, our goal with this post is to help deepen founders’ understanding of the nuances of raising a seed round and help you take the right steps for your company.\nWe reached out to some of our favorite founders to ask them for candid advice to supplement our own experience on both sides of early-stage pitches. Thank you to\n[**Christina Cacioppo**](https://www.linkedin.com/in/ccacioppo)\n(Vanta),\n[**Dylan Field**](https://www.linkedin.com/in/dylanfield/)\n(Figma),\n[**Eric Glyman**](https://www.linkedin.com/in/eglyman/)\n(Ramp),\n[**Ivan Zhao**](https://www.linkedin.com/in/ivanhzhao/)\n(Notion),\n[**Jason Fried**](https://www.linkedin.com/in/jason-fried/)\n(37signals/Basecamp),\n[**Josh Miller**](https://www.linkedin.com/in/josh-miller-b31259106/)\n(The Browser Company),\n[**Karri Saarinen**](https://www.linkedin.com/in/karrisaarinen/)\n(Linear),\n[**Mathilde Collin**](https://www.linkedin.com/in/mathilde-collin-bb59492a/)\n(Front),\n[**Max Mullen**](https://www.linkedin.com/in/maxmullen/)\n(Instacart),\n[**Tomer London**](https://www.linkedin.com/in/tomerlondon/)\n(Gusto),\n[**Qasar Younis**](https://www.linkedin.com/in/qasar/)\n(Applied Intuition),\n[**Siqi Chen**](https://www.linkedin.com/in/siqic/)\n(Runway), and\n[**Zach Perret**](https://www.linkedin.com/in/zperret/)\n(Plaid), who collectively have raised nearly $9 billion in venture capital. You’ll see insights from all of them incorporated throughout this guide.",
+      "doc_item_refs": [
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/275",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/44",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/48",
+        "#/texts/49",
+        "#/texts/50",
+        "#/texts/51",
+        "#/texts/52",
+        "#/texts/53",
+        "#/texts/54",
+        "#/texts/55",
+        "#/texts/56",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60",
+        "#/texts/61",
+        "#/texts/62",
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?"
+      ],
+      "images": [
+        {
+          "caption": "Image from Raising a seed round 101",
+          "image_id": "02-newsletters/raising-a-seed-round-101.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/42e59033-f889-41bb-a667-96a83caac2b8_4000x2000.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000000",
+        "chunk_sha256": "9db0c7cdec1d2c9cd3bc66fa2db3269c8190783948cf91e60bbf34b232a6cd37",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?"
+        ],
+        "images": [
+          {
+            "caption": "Image from Raising a seed round 101",
+            "image_id": "02-newsletters/raising-a-seed-round-101.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/42e59033-f889-41bb-a667-96a83caac2b8_4000x2000.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/2",
+          "item_count": 65,
+          "last_self_ref": "#/texts/65"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32",
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/275",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/40",
+          "#/texts/41",
+          "#/texts/42",
+          "#/texts/43",
+          "#/texts/44",
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/48",
+          "#/texts/49",
+          "#/texts/50",
+          "#/texts/51",
+          "#/texts/52",
+          "#/texts/53",
+          "#/texts/54",
+          "#/texts/55",
+          "#/texts/56",
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/60",
+          "#/texts/61",
+          "#/texts/62",
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "Fundraising is arguably the most heartbreaking, confusing, and high-stakes part of a founder’s job. You have to learn how to do it from scratch, stay positive in spite of incessant rejection, and if you don’t get it right, your company dies. Then you have to do it over and over and over again. Don’t get it right once? That’s right, your company dies.\nConsidering how essential getting this right is for most founders, it surprised me that I’d never come across a great, in-depth, practical how-to guide on raising a seed round—especially one written by people who’ve been through it hundreds of times. So I pulled in two of my favorite co-investors to write one:\n[Terrence Rohan](https://x.com/tmrohan)\nand\n[Jack Altman](https://x.com/jaltma)\n. Terrence and Jack have been involved with over 1,000 seed rounds, and are my go-to people whenever I need fundraising advice.\nBelow, you’ll learn:\n1. **Should my company raise venture capital at all?**\n2. **What do I need to prove to investors before I raise?**\n3. **How much should I raise?**\n4. **What should I know about seed round sizes and compositions?**\n5. **How do I maximize the odds of raising a great seed round?**\n6. **How do I talk terms in a seed raise?**\n7. **How should I think about dilution?**\n8. **How do I know if a fundraise is going well?**\n9. **How do I choose the right investors?**\n10. **Should I make an announcement?**\nTo make this guide even more practical, they’ve integrated anecdotes and advice from the founders of some of today’s most iconic companies. If you’re planning to raise a seed round, this guide is for you.\n*Terrence is a seed investor building a new type of angel fund,*\n[*Otherwise*](https://otherwisefund.com/)\n*. Previously he managed the seed practice at Index Ventures. He has supported companies like Figma, Notion, Vanta, Hugging Face, and Robinhood from their earliest stages. You can find him on*\n[*X*](https://x.com/tmrohan)\n*,*\n[*LinkedIn*](https://www.linkedin.com/in/terrencerohan/)\n*and*\n[*trohan.com*](https://trohan.com/)\n*.*\n*Jack is the founder of*\n[*Alt Capital*](https://www.altcap.com/)\n*, a brand-new early-stage venture that raised its first $150 million fund in February. Before starting Alt, he was the founder and CEO of*\n[*Lattice*](https://lattice.com/)\n*, where he currently serves as chairman. For more from Jack,*\n[*follow him on X*](https://x.com/jaltma)\n*.*\nImage from Raising a seed round 101\nImage from Raising a seed round 101\nWe’ve watched this process play out from both the VC and founder sides. Collectively, we’ve seen over 1,000 seed fundraises—including tactics that work and tactics that are harmful.\nAlthough each situation is different, and there’s no one simple answer to these questions, our goal with this post is to help deepen founders’ understanding of the nuances of raising a seed round and help you take the right steps for your company.\nWe reached out to some of our favorite founders to ask them for candid advice to supplement our own experience on both sides of early-stage pitches. Thank you to\n[**Christina Cacioppo**](https://www.linkedin.com/in/ccacioppo)\n(Vanta),\n[**Dylan Field**](https://www.linkedin.com/in/dylanfield/)\n(Figma),\n[**Eric Glyman**](https://www.linkedin.com/in/eglyman/)\n(Ramp),\n[**Ivan Zhao**](https://www.linkedin.com/in/ivanhzhao/)\n(Notion),\n[**Jason Fried**](https://www.linkedin.com/in/jason-fried/)\n(37signals/Basecamp),\n[**Josh Miller**](https://www.linkedin.com/in/josh-miller-b31259106/)\n(The Browser Company),\n[**Karri Saarinen**](https://www.linkedin.com/in/karrisaarinen/)\n(Linear),\n[**Mathilde Collin**](https://www.linkedin.com/in/mathilde-collin-bb59492a/)\n(Front),\n[**Max Mullen**](https://www.linkedin.com/in/maxmullen/)\n(Instacart),\n[**Tomer London**](https://www.linkedin.com/in/tomerlondon/)\n(Gusto),\n[**Qasar Younis**](https://www.linkedin.com/in/qasar/)\n(Applied Intuition),\n[**Siqi Chen**](https://www.linkedin.com/in/siqic/)\n(Runway), and\n[**Zach Perret**](https://www.linkedin.com/in/zperret/)\n(Plaid), who collectively have raised nearly $9 billion in venture capital. You’ll see insights from all of them incorporated throughout this guide.",
+      "token_count": 1417
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000001",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nShould my company raise venture capital at all?\nVanta founder Christina Cacioppo looks at it this way: “If you think you can build a business that makes hundreds of millions of dollars a year, you don’t mind ceding some decision-making to someone who doesn’t work at your company day-to-day, and you want to grow an organization faster than it would naturally grow,” then taking some venture might be the right decision for you.\nSeed capital has historically been the first formal round of venture capital (i.e. why it’s called a “seed” round). Smaller rounds are sometimes branded “pre-seed” or “angel” rounds, and larger ones are sometimes called “mango seed”—but all these fall under the umbrella of a seed round.\nA seed round typically entails raising $1 million to $4 million from a variety of investors and most likely doesn’t involve the creation of an outside board (we’ll break this down in more detail later).\nYou should pursue raising a seed round if you have conviction on the following points:\n1. **Scale:** You (and your co-founders) want to build a massive company, public or private, and aim to grow it as big as possible.\n2. **Dilution (and control):** You are OK with selling off approximately 10% to 20% of your company to investors. (A VC board typically doesn’t happen at seed, but it could.)\n3. **Funding:** You believe raising outside capital will have concrete upsides you couldn’t get with bootstrapping. For example, building an expensive product, outpacing competition, etc.\nIf you answered no to any of these questions, seed capital might not be right for you, and that is OK. There are advantages to not raising (e.g. less dilution, more control, and fewer voices in the room).\nIf you can manage it, there can also be benefits to delaying your seed fundraise. Jason Fried of 37signals advises, “Raising money too early teaches you how to spend rather than earn. When flush with cash, you’re encouraged to spend and raise more, practicing skills that won’t sustain your business long-term. Building a self-sustaining business requires practicing making money—a skill that, like playing an instrument, takes considerable time to master. The sooner you start practicing, the better. And there’s no better practice than having to make more than you spend right from the start, especially when it’s yours that you’re spending.”\nIt’s worth noting that just because you raise a seed round doesn’t mean you need to raise tons more venture capital. VCs can commonly “over-prescribe” venture capital, both in terms of frequency and amount (if you are a hammer, everything is a nail). Just because you took a little doesn’t mean you’re obligated to take a lot.\nRelated, it’s helpful to remember that focusing on the business and not on venture capital might be one of the strongest approaches to both. Ivan Zhao at Notion puts it this way: “You can decide your energy allocation between selling/socializing vs. building. At least for Notion, I believe if you built something great, the network will come and the investors will say yes. So we spent most of ours on the latter, as opposed to the tactics for the former.”",
+      "doc_item_refs": [
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/70",
+        "#/texts/71",
+        "#/texts/74",
+        "#/texts/77",
+        "#/texts/80",
+        "#/texts/81",
+        "#/texts/82",
+        "#/texts/83"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "Should my company raise venture capital at all?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000001",
+        "chunk_sha256": "c3def32e32b8d66999b38b0bbde72b9c08f230a2d4467374984345926aaf3eac",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "Should my company raise venture capital at all?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/67",
+          "item_count": 11,
+          "last_self_ref": "#/texts/83"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69",
+          "#/texts/70",
+          "#/texts/71",
+          "#/texts/74",
+          "#/texts/77",
+          "#/texts/80",
+          "#/texts/81",
+          "#/texts/82",
+          "#/texts/83"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "Vanta founder Christina Cacioppo looks at it this way: “If you think you can build a business that makes hundreds of millions of dollars a year, you don’t mind ceding some decision-making to someone who doesn’t work at your company day-to-day, and you want to grow an organization faster than it would naturally grow,” then taking some venture might be the right decision for you.\nSeed capital has historically been the first formal round of venture capital (i.e. why it’s called a “seed” round). Smaller rounds are sometimes branded “pre-seed” or “angel” rounds, and larger ones are sometimes called “mango seed”—but all these fall under the umbrella of a seed round.\nA seed round typically entails raising $1 million to $4 million from a variety of investors and most likely doesn’t involve the creation of an outside board (we’ll break this down in more detail later).\nYou should pursue raising a seed round if you have conviction on the following points:\n1. **Scale:** You (and your co-founders) want to build a massive company, public or private, and aim to grow it as big as possible.\n2. **Dilution (and control):** You are OK with selling off approximately 10% to 20% of your company to investors. (A VC board typically doesn’t happen at seed, but it could.)\n3. **Funding:** You believe raising outside capital will have concrete upsides you couldn’t get with bootstrapping. For example, building an expensive product, outpacing competition, etc.\nIf you answered no to any of these questions, seed capital might not be right for you, and that is OK. There are advantages to not raising (e.g. less dilution, more control, and fewer voices in the room).\nIf you can manage it, there can also be benefits to delaying your seed fundraise. Jason Fried of 37signals advises, “Raising money too early teaches you how to spend rather than earn. When flush with cash, you’re encouraged to spend and raise more, practicing skills that won’t sustain your business long-term. Building a self-sustaining business requires practicing making money—a skill that, like playing an instrument, takes considerable time to master. The sooner you start practicing, the better. And there’s no better practice than having to make more than you spend right from the start, especially when it’s yours that you’re spending.”\nIt’s worth noting that just because you raise a seed round doesn’t mean you need to raise tons more venture capital. VCs can commonly “over-prescribe” venture capital, both in terms of frequency and amount (if you are a hammer, everything is a nail). Just because you took a little doesn’t mean you’re obligated to take a lot.\nRelated, it’s helpful to remember that focusing on the business and not on venture capital might be one of the strongest approaches to both. Ivan Zhao at Notion puts it this way: “You can decide your energy allocation between selling/socializing vs. building. At least for Notion, I believe if you built something great, the network will come and the investors will say yes. So we spent most of ours on the latter, as opposed to the tactics for the former.”",
+      "token_count": 821
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000002",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nWhat do I need to prove to investors before I raise?\nEvery round of venture capital requires you to build a case to investors. For them to want to invest, they need to believe you are positioned to build an important and enduring business. Unfortunately, there isn’t consensus in the market for what that proof looks like or how far along you need to be in order to raise, and each investor has a different approach to picking their investments. Some founders raise a seed with a built product and paying customers; others simply have a deck and an idea.\nGenerally speaking, before you raise, you should have taken the following steps:\n1. **Proof of commitment:** You have left your old job and are fully committed to being a founder. You can’t expect to raise capital if you aren’t yet fully committed yourself.\n2. **Proof of work:** You have done enough customer development and research on the problem to give yourself total conviction in the opportunity. Tomer London from Gusto puts it this way: “Validate the customer’s needs and your unique product insight. Speak with buyers (100+ in the consumer space, 30+ in SMB, 10+ in enterprise) to deeply understand their pain point, and offer them your solution in the most realistic way possible (a prototype is better than a pitch deck) and name a price. You’re looking for at least 40% of ‘wow!’ and ‘when can I get this?.’ Anything less is just people being nice to you.”\n3. **Proof of insight:** You have some expression of your thesis. At the most, you have built a simple product and have some paying customers. At the least, you have a clear written memo and/or deck that outlines what you plan to build (more on this below). According to Ivan at Notion, “Notion was like a better mousetrap but built differently. (We wanted to decompose SaaS into software Lego blocks—text editor, databases, charts—and allow end users to create their own tools with our Legos. The value prop is to reduce their tool fragmentations and give them new power.) We knew, or at least we had the conviction, that if we build it, people will come. That first-principle conviction turned out to be true. It is also why we started the company in the first place.”\nImportantly, your own conviction across all three of these points might be the single most predictive variable in raising capital. If you truly believe in the opportunity, you will likely be able to convince someone to give you money.",
+      "doc_item_refs": [
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/87",
+        "#/texts/90",
+        "#/texts/93",
+        "#/texts/96"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "What do I need to prove to investors before I raise?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000002",
+        "chunk_sha256": "f1a77f0b3929cfb0a2238c72db6dc761e72e40348d7d2d583e3dc0266547101e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "What do I need to prove to investors before I raise?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/85",
+          "item_count": 6,
+          "last_self_ref": "#/texts/96"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/87",
+          "#/texts/90",
+          "#/texts/93",
+          "#/texts/96"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "Every round of venture capital requires you to build a case to investors. For them to want to invest, they need to believe you are positioned to build an important and enduring business. Unfortunately, there isn’t consensus in the market for what that proof looks like or how far along you need to be in order to raise, and each investor has a different approach to picking their investments. Some founders raise a seed with a built product and paying customers; others simply have a deck and an idea.\nGenerally speaking, before you raise, you should have taken the following steps:\n1. **Proof of commitment:** You have left your old job and are fully committed to being a founder. You can’t expect to raise capital if you aren’t yet fully committed yourself.\n2. **Proof of work:** You have done enough customer development and research on the problem to give yourself total conviction in the opportunity. Tomer London from Gusto puts it this way: “Validate the customer’s needs and your unique product insight. Speak with buyers (100+ in the consumer space, 30+ in SMB, 10+ in enterprise) to deeply understand their pain point, and offer them your solution in the most realistic way possible (a prototype is better than a pitch deck) and name a price. You’re looking for at least 40% of ‘wow!’ and ‘when can I get this?.’ Anything less is just people being nice to you.”\n3. **Proof of insight:** You have some expression of your thesis. At the most, you have built a simple product and have some paying customers. At the least, you have a clear written memo and/or deck that outlines what you plan to build (more on this below). According to Ivan at Notion, “Notion was like a better mousetrap but built differently. (We wanted to decompose SaaS into software Lego blocks—text editor, databases, charts—and allow end users to create their own tools with our Legos. The value prop is to reduce their tool fragmentations and give them new power.) We knew, or at least we had the conviction, that if we build it, people will come. That first-principle conviction turned out to be true. It is also why we started the company in the first place.”\nImportantly, your own conviction across all three of these points might be the single most predictive variable in raising capital. If you truly believe in the opportunity, you will likely be able to convince someone to give you money.",
+      "token_count": 640
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000003",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nHow much should I raise?\nA simple formula is to aim for\n*a 24- to 36-month runway, building in a 25% buffer*\n.\nWhy 24 to 36 months? Generally, this is the right amount of time because it tends to be about how long it takes to hit product-market fit (and ideally become default alive) and/or raise a series A. As one data point, Carta has the median time from seed to Series A as 23 months.\nYou also probably want a 25% buffer because unexpected things always happen.\n[Here’s a simple spreadsheet](https://docs.google.com/spreadsheets/d/1LIU-gXocWcKD5pCNXzFhL5TmKkbt3eUsFD7nA21AIS4/edit?gid=0#gid=0)\nillustrating how to model this out.\nMost seed rounds now are around $2M to $4M. Some companies require much less or much more to get going, so think carefully and use your judgment. As of today, a typical post-money valuation will be around $20M (in the San Francisco Bay Area). It is typical to sell around 15% equity in a seed round.\nIf you want to raise $2M to 3M, it’s also better to say you are raising $2M than to say you are raising $3M. It’s always better to be oversubscribed than fail to reach your target.\nHere is a table outlining common dilution scenarios from a seed round.\nImage from Raising a seed round 101\nImage from Raising a seed round 101\nIt’s worth remembering that when you take the venture path, outcomes tend to be sufficiently binary so that if you are the founder of a successful startup, you will end up with life-changing money regardless of the dilution you took.\nTaking on too little funding can limit your company’s performance, but taking on too much can have its own downsides. Too much capital, especially too early, can reduce urgency and innovation, and contribute to unnecessarily high headcount and burn. There are exceptions to every rule, but generally, if you raised 2 to 3x or more than a typical seed round for your category, you probably raised too much.\nAccording to Linear founder Karri Saarinen, “With each round, you want to think simultaneously that it is the last round you’ll ever raise—ideally you get to profitability and don’t need to raise— and that you’re raising enough to hit the milestones that you need to get to the next valuation range.”\nCreating a product customers love and pay for and keeping profitability as a plan B is more likely to maximize your company’s odds of survival as well as the odds of your raising your next round. “First and foremost, build a great business,” says Plaid founder Zach Perret. “Fundraising is easy if you identify a great market and find a unique customer insight, so do that first.”",
+      "doc_item_refs": [
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/100",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/103",
+        "#/texts/104",
+        "#/texts/105",
+        "#/texts/106",
+        "#/texts/107",
+        "#/texts/276",
+        "#/texts/108",
+        "#/texts/109",
+        "#/texts/110",
+        "#/texts/111",
+        "#/texts/112"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "How much should I raise?"
+      ],
+      "images": [
+        {
+          "caption": "Image from Raising a seed round 101",
+          "image_id": "02-newsletters/raising-a-seed-round-101.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/6b0e961d-092c-47d7-bbc1-bd225a2d7775_1716x688.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000003",
+        "chunk_sha256": "43b2feb64dfb7996516586f57135c131185693bf9a82bb18c3af5018b0fc42e6",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "How much should I raise?"
+        ],
+        "images": [
+          {
+            "caption": "Image from Raising a seed round 101",
+            "image_id": "02-newsletters/raising-a-seed-round-101.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/6b0e961d-092c-47d7-bbc1-bd225a2d7775_1716x688.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/98",
+          "item_count": 16,
+          "last_self_ref": "#/texts/112"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/100",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/103",
+          "#/texts/104",
+          "#/texts/105",
+          "#/texts/106",
+          "#/texts/107",
+          "#/texts/276",
+          "#/texts/108",
+          "#/texts/109",
+          "#/texts/110",
+          "#/texts/111",
+          "#/texts/112"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "A simple formula is to aim for\n*a 24- to 36-month runway, building in a 25% buffer*\n.\nWhy 24 to 36 months? Generally, this is the right amount of time because it tends to be about how long it takes to hit product-market fit (and ideally become default alive) and/or raise a series A. As one data point, Carta has the median time from seed to Series A as 23 months.\nYou also probably want a 25% buffer because unexpected things always happen.\n[Here’s a simple spreadsheet](https://docs.google.com/spreadsheets/d/1LIU-gXocWcKD5pCNXzFhL5TmKkbt3eUsFD7nA21AIS4/edit?gid=0#gid=0)\nillustrating how to model this out.\nMost seed rounds now are around $2M to $4M. Some companies require much less or much more to get going, so think carefully and use your judgment. As of today, a typical post-money valuation will be around $20M (in the San Francisco Bay Area). It is typical to sell around 15% equity in a seed round.\nIf you want to raise $2M to 3M, it’s also better to say you are raising $2M than to say you are raising $3M. It’s always better to be oversubscribed than fail to reach your target.\nHere is a table outlining common dilution scenarios from a seed round.\nImage from Raising a seed round 101\nImage from Raising a seed round 101\nIt’s worth remembering that when you take the venture path, outcomes tend to be sufficiently binary so that if you are the founder of a successful startup, you will end up with life-changing money regardless of the dilution you took.\nTaking on too little funding can limit your company’s performance, but taking on too much can have its own downsides. Too much capital, especially too early, can reduce urgency and innovation, and contribute to unnecessarily high headcount and burn. There are exceptions to every rule, but generally, if you raised 2 to 3x or more than a typical seed round for your category, you probably raised too much.\nAccording to Linear founder Karri Saarinen, “With each round, you want to think simultaneously that it is the last round you’ll ever raise—ideally you get to profitability and don’t need to raise— and that you’re raising enough to hit the milestones that you need to get to the next valuation range.”\nCreating a product customers love and pay for and keeping profitability as a plan B is more likely to maximize your company’s odds of survival as well as the odds of your raising your next round. “First and foremost, build a great business,” says Plaid founder Zach Perret. “Fundraising is easy if you identify a great market and find a unique customer insight, so do that first.”",
+      "token_count": 733
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000004",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nWhat should I know about seed round sizes and compositions?\n[AngelList](https://stack.angellist.com/valuations)\nand Carta have good third-party data on the latest round sizes and valuations.\nMost rounds are put together with at least one big check (seed fund or multi-stage firm) and any number of angels and smaller funds. The big check is typically referred to as the “lead investor,” and the smaller checks traditionally provide an entry point for strategic investors who bring signal value (e.g. Elad Gil) or specific skills to the table (e.g. growth, distribution, hiring).\nThere is no universal “right” way to put together a seed round. You can do it with a single seed fund, a constellation of angels, with a multi-stage VC, and everything in between. Below are some examples:\nImage from Raising a seed round 101\nImage from Raising a seed round 101\nRising above the numbers, Dylan Field of Figma advises, “Treat this as the start of a very long-term relationship, not a one-off transaction or optimization puzzle. Find people you love spending time with and want to learn from over time.”\nSeed-stage venture capital comes primarily from three different types of investors: angels, seed funds, and multi-stage firms.\n- ***Angels*** typically move quickly and bring highly relevant startup expertise but usually can only invest small amounts of $10K to $250K. Although they typically have less time to commit than professional investors, they are often the highest help per dollar on your cap table. Notable angels can also carry high brand signals that bring crucial early validation to your company.\n- ***Seed funds*** are set up to bring more capital than angels, typically investing $1M to $3M. They offer stage-specific expertise and typically provide a lot of direct support to their investments. Many seed funds also provide access to valuable founder peer communities that unlock useful resources and networks. These firms are more resource-constrained than multi-stage firms, and can’t continue to provide meaningful capital over time.\n- ***Multi-stage firms*** can offer bigger checks, from $1M to $5M+, but usually aren’t structurally set up to support their seed investments as much as their venture or growth investments. These firms usually have massive pools of resources and can support your company with capital as you scale. The flip side is that if they don’t support a future round, that can send a negative signal about your company’s prospects.\nTo find investors, we believe the most comprehensive third-party resource is\n[Crunchbase](https://www.crunchbase.com/)\n.\nWe recommend one of two approaches:\n1. You can find companies analogous to your own and see which investors backed those companies at seed. For a B2B SaaS company, here is an example of [Lattice’s seed round](https://www.crunchbase.com/funding_round/lattice-2-seed--6c81b79e) .\n2. You can go to the “ [search investors](https://www.crunchbase.com/discover/principal.investors/8671ace8e1179c82a313d6d4c9aaa316) ” tab and run your own custom query. Here is a list of the [most active angels](https://www.crunchbase.com/discover/principal.investors/eedb05c2995f1ccb26233a5d711d34c6) in the U.S., for example.\n*As a sweet bonus, Crunchbase gave us an exclusive discount for readers of Lenny’s Newsletter: Get 20% off your first year of Crunchbase Pro with code LENNY20.*",
+      "doc_item_refs": [
+        "#/texts/114",
+        "#/texts/115",
+        "#/texts/116",
+        "#/texts/117",
+        "#/texts/277",
+        "#/texts/118",
+        "#/texts/119",
+        "#/texts/120",
+        "#/texts/121",
+        "#/texts/124",
+        "#/texts/127",
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/134",
+        "#/texts/138",
+        "#/texts/144"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "What should I know about seed round sizes and compositions?"
+      ],
+      "images": [
+        {
+          "caption": "Image from Raising a seed round 101",
+          "image_id": "02-newsletters/raising-a-seed-round-101.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/751d82eb-d7e5-44ba-8276-f7321a14bf22_1720x476.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000004",
+        "chunk_sha256": "3fa8d533044537638ada7d6dd4d0a3886c1956f33111df8f72292f1bc13a111f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "What should I know about seed round sizes and compositions?"
+        ],
+        "images": [
+          {
+            "caption": "Image from Raising a seed round 101",
+            "image_id": "02-newsletters/raising-a-seed-round-101.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/751d82eb-d7e5-44ba-8276-f7321a14bf22_1720x476.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/114",
+          "item_count": 18,
+          "last_self_ref": "#/texts/144"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/114",
+          "#/texts/115",
+          "#/texts/116",
+          "#/texts/117",
+          "#/texts/277",
+          "#/texts/118",
+          "#/texts/119",
+          "#/texts/120",
+          "#/texts/121",
+          "#/texts/124",
+          "#/texts/127",
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/134",
+          "#/texts/138",
+          "#/texts/144"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "[AngelList](https://stack.angellist.com/valuations)\nand Carta have good third-party data on the latest round sizes and valuations.\nMost rounds are put together with at least one big check (seed fund or multi-stage firm) and any number of angels and smaller funds. The big check is typically referred to as the “lead investor,” and the smaller checks traditionally provide an entry point for strategic investors who bring signal value (e.g. Elad Gil) or specific skills to the table (e.g. growth, distribution, hiring).\nThere is no universal “right” way to put together a seed round. You can do it with a single seed fund, a constellation of angels, with a multi-stage VC, and everything in between. Below are some examples:\nImage from Raising a seed round 101\nImage from Raising a seed round 101\nRising above the numbers, Dylan Field of Figma advises, “Treat this as the start of a very long-term relationship, not a one-off transaction or optimization puzzle. Find people you love spending time with and want to learn from over time.”\nSeed-stage venture capital comes primarily from three different types of investors: angels, seed funds, and multi-stage firms.\n- ***Angels*** typically move quickly and bring highly relevant startup expertise but usually can only invest small amounts of $10K to $250K. Although they typically have less time to commit than professional investors, they are often the highest help per dollar on your cap table. Notable angels can also carry high brand signals that bring crucial early validation to your company.\n- ***Seed funds*** are set up to bring more capital than angels, typically investing $1M to $3M. They offer stage-specific expertise and typically provide a lot of direct support to their investments. Many seed funds also provide access to valuable founder peer communities that unlock useful resources and networks. These firms are more resource-constrained than multi-stage firms, and can’t continue to provide meaningful capital over time.\n- ***Multi-stage firms*** can offer bigger checks, from $1M to $5M+, but usually aren’t structurally set up to support their seed investments as much as their venture or growth investments. These firms usually have massive pools of resources and can support your company with capital as you scale. The flip side is that if they don’t support a future round, that can send a negative signal about your company’s prospects.\nTo find investors, we believe the most comprehensive third-party resource is\n[Crunchbase](https://www.crunchbase.com/)\n.\nWe recommend one of two approaches:\n1. You can find companies analogous to your own and see which investors backed those companies at seed. For a B2B SaaS company, here is an example of [Lattice’s seed round](https://www.crunchbase.com/funding_round/lattice-2-seed--6c81b79e) .\n2. You can go to the “ [search investors](https://www.crunchbase.com/discover/principal.investors/8671ace8e1179c82a313d6d4c9aaa316) ” tab and run your own custom query. Here is a list of the [most active angels](https://www.crunchbase.com/discover/principal.investors/eedb05c2995f1ccb26233a5d711d34c6) in the U.S., for example.\n*As a sweet bonus, Crunchbase gave us an exclusive discount for readers of Lenny’s Newsletter: Get 20% off your first year of Crunchbase Pro with code LENNY20.*",
+      "token_count": 914
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000005",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nHow do I maximize the odds of raising a great seed round?\nTo maximize the odds of a successful raise, you need to choreograph your approach to maximize the number of potential options. Raising a seed round comes down to activating emotional triggers in prospective investors, including the fear of missing an incredible opportunity. The most surefire to get a yes from many investors is to get a yes from other investors.\nIn short,\n**you have to create FOMO among investors**\n. Here’s how to do that:",
+      "doc_item_refs": [
+        "#/texts/146",
+        "#/texts/147",
+        "#/texts/148",
+        "#/texts/149"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "How do I maximize the odds of raising a great seed round?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000005",
+        "chunk_sha256": "624a9af4ad03932df0cbb23e344464ac442889a851b2e8e885c50a0043fcfdcd",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "How do I maximize the odds of raising a great seed round?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/146",
+          "item_count": 4,
+          "last_self_ref": "#/texts/149"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/146",
+          "#/texts/147",
+          "#/texts/148",
+          "#/texts/149"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "To maximize the odds of a successful raise, you need to choreograph your approach to maximize the number of potential options. Raising a seed round comes down to activating emotional triggers in prospective investors, including the fear of missing an incredible opportunity. The most surefire to get a yes from many investors is to get a yes from other investors.\nIn short,\n**you have to create FOMO among investors**\n. Here’s how to do that:",
+      "token_count": 210
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000006",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nHow do I maximize the odds of raising a great seed round?\n1. Plan your raise\nYou probably double the odds of success if you spend some time planning your raise. Carve out a two- to three-week window on your calendar to run your fundraise and speak to investors. Ideally, you want to speak to as many investors as possible in the shortest period of time. This compression of time creates the conditions for desire and scarcity, which can help prompt an investor to a yes.\n[Here is a link to a sample timeline](https://docs.google.com/spreadsheets/d/1A2e-zsITHUn8uI6NNjrmIJJc3IwbenJZBznWZMdzVBM/edit?gid=0#gid=0)\nyou can use to plan your raise.\nRelated, there is a common question about whether to build relationships with investors when you are not raising. Relationship building with investors “off-cycle” is fine, but don’t let relationship building turn into a situation where the investors gain control of your fundraise. The main principle around planning is that\n*you*\ndrive and architect the process. As such, if investors are talking about a pre-emptive term sheet, be thankful and gracious, but then confidently tell them when you are going to be raising—and say that is the time when you are accepting term sheets (notice the power flip). This will not “turn them off.” In fact, it will likely have the opposite effect. The reason you want to slot even “pre-emptive” offers into a larger process is to weigh all potential options and potentially have more leverage on terms.",
+      "doc_item_refs": [
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/153",
+        "#/texts/154",
+        "#/texts/155",
+        "#/texts/156"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "How do I maximize the odds of raising a great seed round?",
+        "1. Plan your raise"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000006",
+        "chunk_sha256": "d8bd9bcfc1c0c54891aa35f97dec5970d2de4e5130f172b939735023a11b27c9",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "How do I maximize the odds of raising a great seed round?",
+          "1. Plan your raise"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/151",
+          "item_count": 6,
+          "last_self_ref": "#/texts/156"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/153",
+          "#/texts/154",
+          "#/texts/155",
+          "#/texts/156"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "You probably double the odds of success if you spend some time planning your raise. Carve out a two- to three-week window on your calendar to run your fundraise and speak to investors. Ideally, you want to speak to as many investors as possible in the shortest period of time. This compression of time creates the conditions for desire and scarcity, which can help prompt an investor to a yes.\n[Here is a link to a sample timeline](https://docs.google.com/spreadsheets/d/1A2e-zsITHUn8uI6NNjrmIJJc3IwbenJZBznWZMdzVBM/edit?gid=0#gid=0)\nyou can use to plan your raise.\nRelated, there is a common question about whether to build relationships with investors when you are not raising. Relationship building with investors “off-cycle” is fine, but don’t let relationship building turn into a situation where the investors gain control of your fundraise. The main principle around planning is that\n*you*\ndrive and architect the process. As such, if investors are talking about a pre-emptive term sheet, be thankful and gracious, but then confidently tell them when you are going to be raising—and say that is the time when you are accepting term sheets (notice the power flip). This will not “turn them off.” In fact, it will likely have the opposite effect. The reason you want to slot even “pre-emptive” offers into a larger process is to weigh all potential options and potentially have more leverage on terms.",
+      "token_count": 460
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000007",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nHow do I maximize the odds of raising a great seed round?\n2. Do your research on investors\nAssemble your target list and research each investor before your pitch window. Have they invested in similar companies? (Check Crunchbase and their LinkedIn.) What’s their check size and investment philosophy, and do they lead? (Check their fund and personal website.) What do other founders think of them? (Ask for references from other founders.)\n[Here is a spreadsheet](https://docs.google.com/spreadsheets/d/15yGGkdONWkN5FMNpx1YQnNykw_DocRxe4VocuOu8z4A/edit?gid=0#gid=0)\nto help organize your outreach.\nBut all seed investors are looking for large return multiples on any investment—typically over 100x—and evaluate based on the caliber of the team, the size of the market, and the strength of the early product.",
+      "doc_item_refs": [
+        "#/texts/158",
+        "#/texts/159",
+        "#/texts/160",
+        "#/texts/161"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "How do I maximize the odds of raising a great seed round?",
+        "2. Do your research on investors"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000007",
+        "chunk_sha256": "b5266dd46e9c111e8777f4fca2194b427750f739c2027b6b226ccdaadbc05970",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "How do I maximize the odds of raising a great seed round?",
+          "2. Do your research on investors"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/158",
+          "item_count": 4,
+          "last_self_ref": "#/texts/161"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/158",
+          "#/texts/159",
+          "#/texts/160",
+          "#/texts/161"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "Assemble your target list and research each investor before your pitch window. Have they invested in similar companies? (Check Crunchbase and their LinkedIn.) What’s their check size and investment philosophy, and do they lead? (Check their fund and personal website.) What do other founders think of them? (Ask for references from other founders.)\n[Here is a spreadsheet](https://docs.google.com/spreadsheets/d/15yGGkdONWkN5FMNpx1YQnNykw_DocRxe4VocuOu8z4A/edit?gid=0#gid=0)\nto help organize your outreach.\nBut all seed investors are looking for large return multiples on any investment—typically over 100x—and evaluate based on the caliber of the team, the size of the market, and the strength of the early product.",
+      "token_count": 313
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000008",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nHow do I maximize the odds of raising a great seed round?\n3. Prepare (well-crafted) materials\nA minimal deck and/or memo with a simple budget is all that you’ll need at this stage. You need to show there’s a real problem to solve, in a big enough market, and that you’re the one to solve it. That’s it.\nHowever, the\n*quality*\nof this content matters a lot. The better crafted the materials, the more persuasive they will be, and the more likely they will result in capital. You should have all your materials polished and ready to go before your pitch window, and you should be ready to tailor your pitch to each prospective investor. Sequoia has a great template\n[for a deck](https://www.slideshare.net/slideshow/sequoia-capital-pitchdecktemplate/46231251)\n, as does\n[YC](https://www.ycombinator.com/library/2u-how-to-build-your-seed-round-pitch-deck)\n. And Rippling wrote the gold standard for\n[a memo](https://www.rippling.com/blog/rippling-series-a-pitch-deck-and-memo)\n. (But craft doesn’t have to mean visual finesse. It’s more important for the deck to be substantive than beautiful. Airbnb’s\n[seed deck](https://www.slideshare.net/slideshow/airbnb-first-pitch-deck-editable/45768374)\nis a good example.)\nRemember to strive for honesty, not just optimism. Tomer at Gusto says, “Show your honest assessment of your scorecard,” while Dylan of Figma advises, “Be honest about what you know and don’t know.”",
+      "doc_item_refs": [
+        "#/texts/163",
+        "#/texts/164",
+        "#/texts/165",
+        "#/texts/166",
+        "#/texts/167",
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/170",
+        "#/texts/171",
+        "#/texts/172",
+        "#/texts/173",
+        "#/texts/174",
+        "#/texts/175"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "How do I maximize the odds of raising a great seed round?",
+        "3. Prepare (well-crafted) materials"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000008",
+        "chunk_sha256": "cff46215f4cd0e86fd1d46c82e13accad6d02bcb1d5a435dcc4179e2c00453d9",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "How do I maximize the odds of raising a great seed round?",
+          "3. Prepare (well-crafted) materials"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/163",
+          "item_count": 13,
+          "last_self_ref": "#/texts/175"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/163",
+          "#/texts/164",
+          "#/texts/165",
+          "#/texts/166",
+          "#/texts/167",
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/170",
+          "#/texts/171",
+          "#/texts/172",
+          "#/texts/173",
+          "#/texts/174",
+          "#/texts/175"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "A minimal deck and/or memo with a simple budget is all that you’ll need at this stage. You need to show there’s a real problem to solve, in a big enough market, and that you’re the one to solve it. That’s it.\nHowever, the\n*quality*\nof this content matters a lot. The better crafted the materials, the more persuasive they will be, and the more likely they will result in capital. You should have all your materials polished and ready to go before your pitch window, and you should be ready to tailor your pitch to each prospective investor. Sequoia has a great template\n[for a deck](https://www.slideshare.net/slideshow/sequoia-capital-pitchdecktemplate/46231251)\n, as does\n[YC](https://www.ycombinator.com/library/2u-how-to-build-your-seed-round-pitch-deck)\n. And Rippling wrote the gold standard for\n[a memo](https://www.rippling.com/blog/rippling-series-a-pitch-deck-and-memo)\n. (But craft doesn’t have to mean visual finesse. It’s more important for the deck to be substantive than beautiful. Airbnb’s\n[seed deck](https://www.slideshare.net/slideshow/airbnb-first-pitch-deck-editable/45768374)\nis a good example.)\nRemember to strive for honesty, not just optimism. Tomer at Gusto says, “Show your honest assessment of your scorecard,” while Dylan of Figma advises, “Be honest about what you know and don’t know.”",
+      "token_count": 506
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000009",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nHow do I maximize the odds of raising a great seed round?\n4. Get powerful, warm intros\n*Who*\nintroduces you to prospective investors matters a lot more than you might think. Take the time to consider your most powerful connection to each investor before you ask for introductions. High-influence intros for prospective investors include:\n- Successful founders in the investors’ portfolios (regardless of investment)\n- Other successful founders or influential operators\n- Investors (angels, seed, or multi-stage) who *are investing* in your startup\nNaturally, the stronger the relationship, the more powerful the intro will be.\nThere are also low-influence intros, such as investors who are\n*not investing*\nin your company (politely decline these, as they are a negative signal), and lawyers or other service providers (these are typically harmless but usually not very helpful).\nHere’s how Siqi Chen from Runway puts it: “The most important thing is to make sure your warm intro is from someone genuinely excited about you. When an investor knows someone they respect is putting their social capital on the line, you get to break through the noise.”\nIf you can’t find a warm intro, craft a good cold email. These don’t convert as well, but there is almost zero downside to sending one.",
+      "doc_item_refs": [
+        "#/texts/177",
+        "#/texts/178",
+        "#/texts/179",
+        "#/texts/180",
+        "#/texts/181",
+        "#/texts/185",
+        "#/texts/186",
+        "#/texts/187",
+        "#/texts/188",
+        "#/texts/189",
+        "#/texts/190"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "How do I maximize the odds of raising a great seed round?",
+        "4. Get powerful, warm intros"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000009",
+        "chunk_sha256": "a30c5694d35b5124030d009c0c8006d72b6282f7b08aaccaa513658ec33b16ba",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "How do I maximize the odds of raising a great seed round?",
+          "4. Get powerful, warm intros"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/177",
+          "item_count": 11,
+          "last_self_ref": "#/texts/190"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/177",
+          "#/texts/178",
+          "#/texts/179",
+          "#/texts/180",
+          "#/texts/181",
+          "#/texts/185",
+          "#/texts/186",
+          "#/texts/187",
+          "#/texts/188",
+          "#/texts/189",
+          "#/texts/190"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "*Who*\nintroduces you to prospective investors matters a lot more than you might think. Take the time to consider your most powerful connection to each investor before you ask for introductions. High-influence intros for prospective investors include:\n- Successful founders in the investors’ portfolios (regardless of investment)\n- Other successful founders or influential operators\n- Investors (angels, seed, or multi-stage) who *are investing* in your startup\nNaturally, the stronger the relationship, the more powerful the intro will be.\nThere are also low-influence intros, such as investors who are\n*not investing*\nin your company (politely decline these, as they are a negative signal), and lawyers or other service providers (these are typically harmless but usually not very helpful).\nHere’s how Siqi Chen from Runway puts it: “The most important thing is to make sure your warm intro is from someone genuinely excited about you. When an investor knows someone they respect is putting their social capital on the line, you get to break through the noise.”\nIf you can’t find a warm intro, craft a good cold email. These don’t convert as well, but there is almost zero downside to sending one.",
+      "token_count": 369
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000010",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nHow do I maximize the odds of raising a great seed round?\n5. Practice and prep your pitch\nYour presence in a meeting matters even more than your materials. Showing up as the best version of your authentic, relaxed, and confident self is key. And that’s not something you can wing. Here’s what to do and know before you start speaking to investors:\n- Prepare your pitch by writing a memo. Even if you don’t share it with investors, writing a memo is a great start to sharpening your ideas and communication.\n- Practice your pitch a bunch of times before actually getting in front of an investor. Start real pitches with less important investors so you can iterate.\n- Investors tend to overweight answers to their questions when evaluating your pitch, so answer their questions calmly and succinctly. If you don’t know, simply say, “I don’t know, but I’ll get that answer for you.” Preparing an FAQ can help.\n- Acknowledge competitors factually, including their strengths. Then promptly move on to your strengths and your vision. Avoid disparaging competitors or spending too much time on them.",
+      "doc_item_refs": [
+        "#/texts/192",
+        "#/texts/193",
+        "#/texts/194",
+        "#/texts/195",
+        "#/texts/196"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "How do I maximize the odds of raising a great seed round?",
+        "5. Practice and prep your pitch"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000010",
+        "chunk_sha256": "35232c5ec740cfa517cab9c32bbb393efee05d29d768caac4c7140b21c114063",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "How do I maximize the odds of raising a great seed round?",
+          "5. Practice and prep your pitch"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/192",
+          "item_count": 5,
+          "last_self_ref": "#/texts/196"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/192",
+          "#/texts/193",
+          "#/texts/194",
+          "#/texts/195",
+          "#/texts/196"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "Your presence in a meeting matters even more than your materials. Showing up as the best version of your authentic, relaxed, and confident self is key. And that’s not something you can wing. Here’s what to do and know before you start speaking to investors:\n- Prepare your pitch by writing a memo. Even if you don’t share it with investors, writing a memo is a great start to sharpening your ideas and communication.\n- Practice your pitch a bunch of times before actually getting in front of an investor. Start real pitches with less important investors so you can iterate.\n- Investors tend to overweight answers to their questions when evaluating your pitch, so answer their questions calmly and succinctly. If you don’t know, simply say, “I don’t know, but I’ll get that answer for you.” Preparing an FAQ can help.\n- Acknowledge competitors factually, including their strengths. Then promptly move on to your strengths and your vision. Avoid disparaging competitors or spending too much time on them.",
+      "token_count": 338
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000011",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nHow do I maximize the odds of raising a great seed round?\n6. Start small to build social proof\nYou don’t need a lead investor to start taking on capital in a seed round. In fact, it is often better to open a\n[SAFE](https://www.ycombinator.com/documents)\n(simple agreement for future equity) at reasonable valuation and start collecting the checks of smaller angels while you are having conversations with larger funds. Not only will you be taking on capital, but you’ll build social proof for the larger investors.",
+      "doc_item_refs": [
+        "#/texts/198",
+        "#/texts/199",
+        "#/texts/200"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "How do I maximize the odds of raising a great seed round?",
+        "6. Start small to build social proof"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000011",
+        "chunk_sha256": "4807b3ff10eb5b0852cf38a14bd9e1e33bcc708b6dd72711ab0aa2ba93431cd3",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "How do I maximize the odds of raising a great seed round?",
+          "6. Start small to build social proof"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/198",
+          "item_count": 3,
+          "last_self_ref": "#/texts/200"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/198",
+          "#/texts/199",
+          "#/texts/200"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "You don’t need a lead investor to start taking on capital in a seed round. In fact, it is often better to open a\n[SAFE](https://www.ycombinator.com/documents)\n(simple agreement for future equity) at reasonable valuation and start collecting the checks of smaller angels while you are having conversations with larger funds. Not only will you be taking on capital, but you’ll build social proof for the larger investors.",
+      "token_count": 218
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000012",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nHow do I maximize the odds of raising a great seed round?\n7. Follow up sparingly with investors, and never chase or “back-channel” them without strength\nInterested investors will typically drive the process (more on this below). If you do have to follow up over email, do it sparingly, and don’t chase investors in a needy way. In such follow-ups, always pepper in some positive development, whether in revenue, a new hire or feature release, or additional angels closed (see above). Related, having an angel or existing investor check in, chase, or pressure lead checks often backfires. Savvy VCs and lead investors will take this pressure as a sign of weakness. If there is any sort of “back channel” that works, it’s having angel or existing investors saying they “vouched” for the lead check, as a type of reference. With this, you flip the power dynamic.",
+      "doc_item_refs": [
+        "#/texts/202"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "How do I maximize the odds of raising a great seed round?",
+        "7. Follow up sparingly with investors, and never chase or “back-channel” them without strength"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000012",
+        "chunk_sha256": "2dde2a0738913f18cc92de9a17ccb1c1e4840e99e84d0c1d03ea87b8f6467fee",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "How do I maximize the odds of raising a great seed round?",
+          "7. Follow up sparingly with investors, and never chase or “back-channel” them without strength"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/202",
+          "item_count": 1,
+          "last_self_ref": "#/texts/202"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/202"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "Interested investors will typically drive the process (more on this below). If you do have to follow up over email, do it sparingly, and don’t chase investors in a needy way. In such follow-ups, always pepper in some positive development, whether in revenue, a new hire or feature release, or additional angels closed (see above). Related, having an angel or existing investor check in, chase, or pressure lead checks often backfires. Savvy VCs and lead investors will take this pressure as a sign of weakness. If there is any sort of “back channel” that works, it’s having angel or existing investors saying they “vouched” for the lead check, as a type of reference. With this, you flip the power dynamic.",
+      "token_count": 299
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000013",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nHow do I maximize the odds of raising a great seed round?\n8. For bigger checks, never reveal who else you are talking to\nMystery is always more seductive than the truth. Never reveal the actual names of who gave you a term sheet. Just accurately describe them in the abstract (and never lie).",
+      "doc_item_refs": [
+        "#/texts/204"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "How do I maximize the odds of raising a great seed round?",
+        "8. For bigger checks, never reveal who else you are talking to"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000013",
+        "chunk_sha256": "699e53296234a49a1205a28a4362f4d578030f0b756a4f92b328040e9ebed45e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "How do I maximize the odds of raising a great seed round?",
+          "8. For bigger checks, never reveal who else you are talking to"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/204",
+          "item_count": 1,
+          "last_self_ref": "#/texts/204"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/204"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "Mystery is always more seductive than the truth. Never reveal the actual names of who gave you a term sheet. Just accurately describe them in the abstract (and never lie).",
+      "token_count": 165
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000014",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nHow do I maximize the odds of raising a great seed round?\n\n**9. You don’t have a term sheet until you have an**\n***actual***\n**term sheet**\nVerbal commits are not term sheets. In seed, a term sheet is commonly a SAFE with a post-money cap. You don’t actually have a commitment from an investor until you have a term sheet or a SAFE. This carries through to every round you raise.\n**10. Your round is not closed until it’s**\n***closed***\nWhile less common at seed, rounds are actually not closed until the funds wire. Set reasonable but quick dates for closes (wires). Keep everyone moving toward those dates. This carries through to every round you raise.",
+      "doc_item_refs": [
+        "#/texts/206",
+        "#/texts/207",
+        "#/texts/208",
+        "#/texts/209",
+        "#/texts/211",
+        "#/texts/212",
+        "#/texts/213"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "How do I maximize the odds of raising a great seed round?",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000014",
+        "chunk_sha256": "0d70bff99d3f0a7ddaf9e5f0f9ac09b288130378ca8489d5e620ec12c16d5feb",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "How do I maximize the odds of raising a great seed round?",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/206",
+          "item_count": 7,
+          "last_self_ref": "#/texts/213"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/206",
+          "#/texts/207",
+          "#/texts/208",
+          "#/texts/209",
+          "#/texts/211",
+          "#/texts/212",
+          "#/texts/213"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "**9. You don’t have a term sheet until you have an**\n***actual***\n**term sheet**\nVerbal commits are not term sheets. In seed, a term sheet is commonly a SAFE with a post-money cap. You don’t actually have a commitment from an investor until you have a term sheet or a SAFE. This carries through to every round you raise.\n**10. Your round is not closed until it’s**\n***closed***\nWhile less common at seed, rounds are actually not closed until the funds wire. Set reasonable but quick dates for closes (wires). Keep everyone moving toward those dates. This carries through to every round you raise.",
+      "token_count": 266
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000015",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nHow do I talk terms in a seed raise?\nThe only terms that really matter at seed are the post-money valuation and whether there is a board.\nPost-money valuation is the value of the startup, including the capital raised. Third-party sources like\n[AngelList](https://www.angellist.com/blog/the-state-of-us-early-stage-venture-startups-3q23)\nor\n[Carta](https://carta.com/blog/seed-valuations-q2-2024/)\n, fellow founders, and advisors can help you triangulate a good range for your valuation. When negotiating the post-money, it’s helpful to remember that investors are primarily solving for ownership (i.e. free percentage of the company they’ll own), which is slightly different than price.\nMost seed rounds are done on SAFEs, which have the benefit of speed because you don’t need to negotiate terms other than the valuation, and there are typically no lawyers involved.\nA minority of seed rounds are “priced,” meaning investors buy preferred shares immediately. Priced rounds take a little longer to close and cost more, but they make the cap table and dilution more clear for founders because there’s no contingency on the next round of financing.\nCreating a board with an outside investor is less common at seed. It is usually preferable to avoid giving up a board director seat at seed unless someone truly remarkable wants to join your board. Instead, offer a board observer seat when an investor asks for a director seat. Directors have voting power; observers do not.",
+      "doc_item_refs": [
+        "#/texts/215",
+        "#/texts/216",
+        "#/texts/217",
+        "#/texts/218",
+        "#/texts/219",
+        "#/texts/220",
+        "#/texts/221",
+        "#/texts/222",
+        "#/texts/223"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "How do I talk terms in a seed raise?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000015",
+        "chunk_sha256": "216e597113791b77a9c727871bee43c41f280cca4bd908f600c20b075719cc1f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "How do I talk terms in a seed raise?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 15,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/215",
+          "item_count": 9,
+          "last_self_ref": "#/texts/223"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/215",
+          "#/texts/216",
+          "#/texts/217",
+          "#/texts/218",
+          "#/texts/219",
+          "#/texts/220",
+          "#/texts/221",
+          "#/texts/222",
+          "#/texts/223"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 15,
+      "raw_text": "The only terms that really matter at seed are the post-money valuation and whether there is a board.\nPost-money valuation is the value of the startup, including the capital raised. Third-party sources like\n[AngelList](https://www.angellist.com/blog/the-state-of-us-early-stage-venture-startups-3q23)\nor\n[Carta](https://carta.com/blog/seed-valuations-q2-2024/)\n, fellow founders, and advisors can help you triangulate a good range for your valuation. When negotiating the post-money, it’s helpful to remember that investors are primarily solving for ownership (i.e. free percentage of the company they’ll own), which is slightly different than price.\nMost seed rounds are done on SAFEs, which have the benefit of speed because you don’t need to negotiate terms other than the valuation, and there are typically no lawyers involved.\nA minority of seed rounds are “priced,” meaning investors buy preferred shares immediately. Priced rounds take a little longer to close and cost more, but they make the cap table and dilution more clear for founders because there’s no contingency on the next round of financing.\nCreating a board with an outside investor is less common at seed. It is usually preferable to avoid giving up a board director seat at seed unless someone truly remarkable wants to join your board. Instead, offer a board observer seat when an investor asks for a director seat. Directors have voting power; observers do not.",
+      "token_count": 442
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000016",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nHow do I talk terms in a seed raise?\nA note about dilution\nTo be sure, you don’t want to put yourself in a position where the cap table inhibits your ability to run the company. However, the most important thing is that you get the capital and partners you need to get the company to its next milestones.\n“My top advice to founders is to try to optimize their rounds to get the most helpful investors involved early, and to worry less about optimizing the price and other terms of the round,” says Instacart founder Max Mullen.\nYou can only raise a lot of money and take little dilution if you are in an unusual position of strength (i.e. multiple term sheets), which is rare.\nAs a rule of thumb in the early stage, it’s ideal if you can get through your series A with\n*less*\nthan 40% dilution from investors. You’ll also incur a typical 10% to 15% of additional dilution from your ESOP (employee stock ownership plan), bringing total dilution to 50% to 55%. Less dilution is obviously better, but the higher-order bit is that you get the capital you need from the partners you want. You can see more about the range of founder equity ownership at IPO\n[here](https://www.saastr.com/at-the-top-saas-companies-most-co-founders-are-not-equal-and-thats-ok/)\n.",
+      "doc_item_refs": [
+        "#/texts/225",
+        "#/texts/226",
+        "#/texts/227",
+        "#/texts/228",
+        "#/texts/229",
+        "#/texts/230",
+        "#/texts/231",
+        "#/texts/232"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "How do I talk terms in a seed raise?",
+        "A note about dilution"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000016",
+        "chunk_sha256": "9ad063b18c4464fbad4daf14c6063836bc67ddd7d8930ddbb5f18fdc244efd1c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "How do I talk terms in a seed raise?",
+          "A note about dilution"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 16,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/225",
+          "item_count": 8,
+          "last_self_ref": "#/texts/232"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/225",
+          "#/texts/226",
+          "#/texts/227",
+          "#/texts/228",
+          "#/texts/229",
+          "#/texts/230",
+          "#/texts/231",
+          "#/texts/232"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 16,
+      "raw_text": "To be sure, you don’t want to put yourself in a position where the cap table inhibits your ability to run the company. However, the most important thing is that you get the capital and partners you need to get the company to its next milestones.\n“My top advice to founders is to try to optimize their rounds to get the most helpful investors involved early, and to worry less about optimizing the price and other terms of the round,” says Instacart founder Max Mullen.\nYou can only raise a lot of money and take little dilution if you are in an unusual position of strength (i.e. multiple term sheets), which is rare.\nAs a rule of thumb in the early stage, it’s ideal if you can get through your series A with\n*less*\nthan 40% dilution from investors. You’ll also incur a typical 10% to 15% of additional dilution from your ESOP (employee stock ownership plan), bringing total dilution to 50% to 55%. Less dilution is obviously better, but the higher-order bit is that you get the capital you need from the partners you want. You can see more about the range of founder equity ownership at IPO\n[here](https://www.saastr.com/at-the-top-saas-companies-most-co-founders-are-not-equal-and-thats-ok/)\n.",
+      "token_count": 422
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000017",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nHow do I know if a fundraise is going well?\nIn a successful fundraise, you can typically feel a pull from investors who are ready to move. They follow up quickly, they pursue you, they introduce you to their broader team. They’re typically transparent about the process. These investors tell you they want to get the deal done and start talking in specific numbers. Things move forward clearly and quickly.\n“When things are happening logically, that’s good,” says Applied Intuition founder Qasar Younis. “When things are confusing, that’s bad.”\nWhen this pull isn’t present, things are usually slow and confounding. There are no clear next steps after a meeting, no specifics discussed. If this is the case, don’t be afraid to ask directly: “Are you interested in investing?” It’s much better to get to a no quickly than to kill time with a prospect who doesn’t intend to act.\nBut sometimes it takes a lot of pushing to get to that pull from investors. It’s OK to sell during this process. It’s OK to share genuine momentum with other prospects by factually describing them. For example, you could say, “We’re having a third meeting with a top multi-stage fund tomorrow” without revealing their names. But it’s not OK to overplay your hand. Don’t lie about having a term sheet you don’t have, or drop names of investors who haven’t actually committed. Besides being unethical, everyone talks, and it’s a fast way to kill a process.\nPrior to a fundraise, it’s also wise to plan some downside scenarios if things don’t go well. This could include the minimal viable capital needed, a path to profitability, or even downsizing plans. It’s best to map these out before raising—so you are not emotionally caught up in the disappointment of a less successful raise—and execute them with calm conviction.",
+      "doc_item_refs": [
+        "#/texts/234",
+        "#/texts/235",
+        "#/texts/236",
+        "#/texts/237",
+        "#/texts/238"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "How do I know if a fundraise is going well?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000017",
+        "chunk_sha256": "90678bc336d095f838c16f3ce18c2502ceee44e19bc9bf32ba57c317122d2a81",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "How do I know if a fundraise is going well?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 17,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/234",
+          "item_count": 5,
+          "last_self_ref": "#/texts/238"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/234",
+          "#/texts/235",
+          "#/texts/236",
+          "#/texts/237",
+          "#/texts/238"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 17,
+      "raw_text": "In a successful fundraise, you can typically feel a pull from investors who are ready to move. They follow up quickly, they pursue you, they introduce you to their broader team. They’re typically transparent about the process. These investors tell you they want to get the deal done and start talking in specific numbers. Things move forward clearly and quickly.\n“When things are happening logically, that’s good,” says Applied Intuition founder Qasar Younis. “When things are confusing, that’s bad.”\nWhen this pull isn’t present, things are usually slow and confounding. There are no clear next steps after a meeting, no specifics discussed. If this is the case, don’t be afraid to ask directly: “Are you interested in investing?” It’s much better to get to a no quickly than to kill time with a prospect who doesn’t intend to act.\nBut sometimes it takes a lot of pushing to get to that pull from investors. It’s OK to sell during this process. It’s OK to share genuine momentum with other prospects by factually describing them. For example, you could say, “We’re having a third meeting with a top multi-stage fund tomorrow” without revealing their names. But it’s not OK to overplay your hand. Don’t lie about having a term sheet you don’t have, or drop names of investors who haven’t actually committed. Besides being unethical, everyone talks, and it’s a fast way to kill a process.\nPrior to a fundraise, it’s also wise to plan some downside scenarios if things don’t go well. This could include the minimal viable capital needed, a path to profitability, or even downsizing plans. It’s best to map these out before raising—so you are not emotionally caught up in the disappointment of a less successful raise—and execute them with calm conviction.",
+      "token_count": 519
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000018",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nHow do I choose the right investors?\nThe right investors are the ones who can help you move your company forward the most. One thing that most founders we know agree on is that you should always vet your investors before taking a check.\nRamp founder Eric Glyman’s advice: “Talk to other founders and ask them who has been most helpful to their business. Founders will quite often tell you the blunt truth.”\nTalking to other founders can help you determine if a prospective investor will add value or friction, and if they can be trusted. “Trust is key,” says Front founder Mathilde Collin. “You trust them, they trust you.”\nWith seed, you aren’t just taking a check from these investors; you’re inviting them into your company for the long haul. Eric recommends trying out what it’s like to partner with an investor before signing the check: “Get a potential future investor’s perspective on your business and give them a feel of what it would be like to partner with you to solve actual business problems together.” This approach may seem indirect, but it has the advantage of giving you a real sense of what it’s like to work with an investor.\nA good approach is to think about choosing investors like you’d think about hiring an employee who you can never fire. Don’t just accept a check from anyone.",
+      "doc_item_refs": [
+        "#/texts/240",
+        "#/texts/241",
+        "#/texts/242",
+        "#/texts/243",
+        "#/texts/244"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "How do I choose the right investors?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000018",
+        "chunk_sha256": "c09ffd4a255e8d7c3343ba53df125ec0bd90c02e380b90d094ef0494cbd89865",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "How do I choose the right investors?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 18,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/240",
+          "item_count": 5,
+          "last_self_ref": "#/texts/244"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/240",
+          "#/texts/241",
+          "#/texts/242",
+          "#/texts/243",
+          "#/texts/244"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 18,
+      "raw_text": "The right investors are the ones who can help you move your company forward the most. One thing that most founders we know agree on is that you should always vet your investors before taking a check.\nRamp founder Eric Glyman’s advice: “Talk to other founders and ask them who has been most helpful to their business. Founders will quite often tell you the blunt truth.”\nTalking to other founders can help you determine if a prospective investor will add value or friction, and if they can be trusted. “Trust is key,” says Front founder Mathilde Collin. “You trust them, they trust you.”\nWith seed, you aren’t just taking a check from these investors; you’re inviting them into your company for the long haul. Eric recommends trying out what it’s like to partner with an investor before signing the check: “Get a potential future investor’s perspective on your business and give them a feel of what it would be like to partner with you to solve actual business problems together.” This approach may seem indirect, but it has the advantage of giving you a real sense of what it’s like to work with an investor.\nA good approach is to think about choosing investors like you’d think about hiring an employee who you can never fire. Don’t just accept a check from anyone.",
+      "token_count": 381
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000019",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nI closed a seed round. Should I make an announcement?\nRaising a round of funding is a significant inflection point for most early-stage companies. Announcing a seed round, particularly if there are notable investors, can help validate your company to potential customers and hires. It can also help boost your brand value and provide a positive signal that helps with later fundraising efforts.\nBut a potential downside is that you could alert the competition. “The con of announcing right away is simple. It inspires VCs to fund similar things and inspires your competitors to raise,” says Applied Intuition’s Qasar, who delayed announcing his first three rounds by a year each. “The pro of announcing immediately is it helps credibility with customers and recruiting.”\nJosh Miller from The Browser Company advises founders to ask themselves, “What are the three biggest challenges for the company right now? If announcing the fundraise and the way you do it can help address one of them, do it,” he says. “If not, it’s a distraction.”",
+      "doc_item_refs": [
+        "#/texts/246",
+        "#/texts/247",
+        "#/texts/248"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "I closed a seed round. Should I make an announcement?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000019",
+        "chunk_sha256": "7ad035384bc30eb5cc9063a0c644f827df39af159acd733877228c60fa57bc84",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "I closed a seed round. Should I make an announcement?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 19,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/246",
+          "item_count": 3,
+          "last_self_ref": "#/texts/248"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/246",
+          "#/texts/247",
+          "#/texts/248"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 19,
+      "raw_text": "Raising a round of funding is a significant inflection point for most early-stage companies. Announcing a seed round, particularly if there are notable investors, can help validate your company to potential customers and hires. It can also help boost your brand value and provide a positive signal that helps with later fundraising efforts.\nBut a potential downside is that you could alert the competition. “The con of announcing right away is simple. It inspires VCs to fund similar things and inspires your competitors to raise,” says Applied Intuition’s Qasar, who delayed announcing his first three rounds by a year each. “The pro of announcing immediately is it helps credibility with customers and recruiting.”\nJosh Miller from The Browser Company advises founders to ask themselves, “What are the three biggest challenges for the company right now? If announcing the fundraise and the way you do it can help address one of them, do it,” he says. “If not, it’s a distraction.”",
+      "token_count": 318
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000020",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\nQ: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?\nClosing thoughts\nAs you’ve gathered from this guide, there are things you can follow to increase your fundraising success, but your process and approach will ultimately be unique to your specific company and who you are as a founder.\nHaving the right mix of early-stage investors can be a wonderful advantage as you build your company. Getting your seed round right can give you much more control over when, how much, and whose capital you take going forward. Ideally, it can also make the overall experience of building a company a bit more enjoyable.\n*Thanks, Terrence and Jack! For more from Terrence, check him out on*\n[*X*](https://x.com/tmrohan)\n*,*\n[*LinkedIn*](https://www.linkedin.com/in/terrencerohan/)\n*and*\n[*trohan.com*](https://trohan.com/)\n*. For more from Jack,*\n[*follow him on X*](https://x.com/jaltma)\n*.*\n*Have a fulfilling and productive week 🙏*",
+      "doc_item_refs": [
+        "#/texts/250",
+        "#/texts/251",
+        "#/texts/252",
+        "#/texts/253",
+        "#/texts/254",
+        "#/texts/255",
+        "#/texts/256",
+        "#/texts/257",
+        "#/texts/258",
+        "#/texts/259",
+        "#/texts/260",
+        "#/texts/261"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+        "Closing thoughts"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000020",
+        "chunk_sha256": "3af7d621b2174c8116d41e8b56eebadda5ae96be0069779b15ad7d5db288cd22",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "Q: I’m a founder and I’m planning to raise a seed round. What do I need to understand to raise a great round?",
+          "Closing thoughts"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 20,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/250",
+          "item_count": 12,
+          "last_self_ref": "#/texts/261"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/250",
+          "#/texts/251",
+          "#/texts/252",
+          "#/texts/253",
+          "#/texts/254",
+          "#/texts/255",
+          "#/texts/256",
+          "#/texts/257",
+          "#/texts/258",
+          "#/texts/259",
+          "#/texts/260",
+          "#/texts/261"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 20,
+      "raw_text": "As you’ve gathered from this guide, there are things you can follow to increase your fundraising success, but your process and approach will ultimately be unique to your specific company and who you are as a founder.\nHaving the right mix of early-stage investors can be a wonderful advantage as you build your company. Getting your seed round right can give you much more control over when, how much, and whose capital you take going forward. Ideally, it can also make the overall experience of building a company a bit more enjoyable.\n*Thanks, Terrence and Jack! For more from Terrence, check him out on*\n[*X*](https://x.com/tmrohan)\n*,*\n[*LinkedIn*](https://www.linkedin.com/in/terrencerohan/)\n*and*\n[*trohan.com*](https://trohan.com/)\n*. For more from Jack,*\n[*follow him on X*](https://x.com/jaltma)\n*.*\n*Have a fulfilling and productive week 🙏*",
+      "token_count": 342
+    },
+    {
+      "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000021",
+      "contextualized_text": "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c\n👀 Hiring? Or looking for a new job?\nI’ve got a white-glove recruiting service for senior product roles, working with a few select companies at a time. If you’re hiring, apply below.\n[Apply to join](https://www.lennysjobs.com/talent/)\nIf you’re exploring new opportunities yourself, use the same button above to sign up. We’ll send over personalized opportunities from hand-selected companies if we think there’s a fit.\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/263",
+        "#/texts/264",
+        "#/texts/265",
+        "#/texts/266",
+        "#/texts/267",
+        "#/texts/268",
+        "#/texts/269",
+        "#/texts/270",
+        "#/texts/271",
+        "#/texts/272",
+        "#/texts/273",
+        "#/texts/274"
+      ],
+      "document_id": "02-newsletters/raising-a-seed-round-101.md",
+      "headings": [
+        "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+        "👀 Hiring? Or looking for a new job?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/raising-a-seed-round-101.md#chunk=000021",
+        "chunk_sha256": "2232868c8877c52e8b9a80dc1bb94a02026163136731dd0e407906ad6a56ce3b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+        "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+        "document_id": "02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+        "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+        "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+        "headings": [
+          "Raising a seed round 101 — The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more | 2024-09-17 | Tags: startups, design, newsletter, strategy, b2b, b2c",
+          "👀 Hiring? Or looking for a new job?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 21,
+        "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+        "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+        "segment": {
+          "first_self_ref": "#/texts/263",
+          "item_count": 12,
+          "last_self_ref": "#/texts/274"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/263",
+          "#/texts/264",
+          "#/texts/265",
+          "#/texts/266",
+          "#/texts/267",
+          "#/texts/268",
+          "#/texts/269",
+          "#/texts/270",
+          "#/texts/271",
+          "#/texts/272",
+          "#/texts/273",
+          "#/texts/274"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 21,
+      "raw_text": "I’ve got a white-glove recruiting service for senior product roles, working with a few select companies at a time. If you’re hiring, apply below.\n[Apply to join](https://www.lennysjobs.com/talent/)\nIf you’re exploring new opportunities yourself, use the same button above to sign up. We’ll send over personalized opportunities from hand-selected companies if we think there’s a fit.\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "token_count": 325
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/raising-a-seed-round-101.docling.json",
+  "docling_sha256": "84a86b1db81f67858bf6aabfe48d34abd11fcf2dc160e625d46a6050164c769a",
+  "document_id": "02-newsletters/raising-a-seed-round-101.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/raising-a-seed-round-101.md",
+  "enhanced_sha256": "5c7f4ddfdec0533f0bfc8fd57a97b7e917ec6f5755172edaa28232b521aecdab",
+  "fact_document_path": "chunks/v2/02-newsletters/raising-a-seed-round-101.chunks.json",
+  "metadata": {
+    "date": "2024-09-17",
+    "subtitle": "The whys, whats, and hows of seed funding, with advice from the founders of Notion, Linear, Figma, Ramp, Instacart, 37signals, and more",
+    "tags": [
+      "startups",
+      "design",
+      "newsletter",
+      "strategy",
+      "b2b",
+      "b2c"
+    ],
+    "title": "Raising a seed round 101",
+    "type": "newsletter",
+    "word_count": 5412
+  },
+  "raw_path": "corpus/raw/02-newsletters/raising-a-seed-round-101.md",
+  "raw_sha256": "8319a14666e19105df8179404e2b529086f4acbd82b3759bdc6ba1dab8127848",
+  "schema_version": "1",
+  "title": "Raising a seed round 101"
+}

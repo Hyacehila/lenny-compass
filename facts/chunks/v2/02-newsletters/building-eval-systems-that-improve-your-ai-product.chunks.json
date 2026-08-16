@@ -1,0 +1,1303 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000000",
+      "contextualized_text": "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering\n*👋 Each week, I tackle reader questions about building product, driving growth, and accelerating your career. Annual subscribers get a free year of 15+ premium products:*\n[***Lovable, Replit, Bolt, n8n, Wispr Flow, Descript, Linear, Gamma, Superhuman, Granola, Warp, Perplexity, Raycast, Magic Patterns, Mobbin, and ChatPRD***](https://www.lennysnewsletter.com/p/productpass)\n*(while supplies last).*\n*For more:*\n[***Lennybot***](https://www.lennybot.com/)\nLenny’s Podcast. How I AI. Lenny’s Reads\n[Hamel Husain](https://www.linkedin.com/in/hamelhusain/)\nand\n[Shreya Shankar](https://www.linkedin.com/in/shrshnk/)\n’s online course,\n[AI Evals for Engineers & PMs](https://bit.ly/4myp27m)\n, is the #1 highest-grossing course on Maven, and consistently brings in sizable student groups from all of the major AI labs. This is because they teach something crucial: how to build evaluations that actually\n*improve*\nyour product, not just generate vanity dashboards.\nOver the past two years, Hamel and Shreya have played a major role in shifting evals from being an obscure, confusing subject to one of the most necessary skills for AI product builders.\nAfter training more than 2,000 PMs and engineers, and leaders at over 500 companies, they’re now sharing their complete playbook—the same methodology taught at OpenAI, Anthropic, and other leading labs. You’ll learn how to leverage error analysis to understand where your AI product breaks, build robust evals you can trust, and create a continuous improvement flywheel that catches regressions before they ship.\nIn honor of this post, Hamel and Shreya are also offering an exclusive discount on their course: 35% off. This is the largest discount they’ve ever offered.\n[Use this link](https://bit.ly/4myp27m)\nto register (or use code LENNYSLIST when checking out). You’ve got three days left to enroll.\nThank you for sharing this gold with us, Hamel and Shreya 🙏\n*P.S. You can listen to this post in convenient podcast form:*\n[*Spotify*](https://open.spotify.com/show/0IIunA06qMtrcQLfypTooj)\n*/*\n[*Apple*](https://podcasts.apple.com/us/podcast/lennys-reads/id1810314693)\n*/*\n[*YouTube*](https://www.youtube.com/@lennysreads)\n*.*\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product\nAman Khan’s\n[post](https://www.lennysnewsletter.com/p/beyond-vibe-checks-a-pms-complete)\non evals perfectly captured why evaluation is becoming a core, make-or-break skill for product managers. This article provides the next step: a playbook for building an evaluation system to drive real product improvements. Many teams build eval dashboards that look useful but are ultimately ignored and don’t lead to better products, because the metrics these evals report are disconnected from real user problems.\nThis guide provides a process to bridge that trust gap. We will cover three phases: discovering what to measure through rigorous error analysis, building a reliable evaluation suite, and operationalizing that suite to create a flywheel of continuous improvement.",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/tables/0",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/251",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31"
+      ],
+      "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "headings": [
+        "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering"
+      ],
+      "images": [
+        {
+          "caption": "Image from Building eval systems that improve your AI product",
+          "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/9aada4fd-935d-4a7b-a704-241eaa5d3618_1457x1130.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000000",
+        "chunk_sha256": "447e076478e9dd256753934bac2e8e50cf9a9589e121feca987d0a9ac3425f55",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+        "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+        "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+        "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+        "headings": [
+          "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering"
+        ],
+        "images": [
+          {
+            "caption": "Image from Building eval systems that improve your AI product",
+            "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/9aada4fd-935d-4a7b-a704-241eaa5d3618_1457x1130.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 33,
+          "last_self_ref": "#/texts/31"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/tables/0",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/251",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "*👋 Each week, I tackle reader questions about building product, driving growth, and accelerating your career. Annual subscribers get a free year of 15+ premium products:*\n[***Lovable, Replit, Bolt, n8n, Wispr Flow, Descript, Linear, Gamma, Superhuman, Granola, Warp, Perplexity, Raycast, Magic Patterns, Mobbin, and ChatPRD***](https://www.lennysnewsletter.com/p/productpass)\n*(while supplies last).*\n*For more:*\n[***Lennybot***](https://www.lennybot.com/)\nLenny’s Podcast. How I AI. Lenny’s Reads\n[Hamel Husain](https://www.linkedin.com/in/hamelhusain/)\nand\n[Shreya Shankar](https://www.linkedin.com/in/shrshnk/)\n’s online course,\n[AI Evals for Engineers & PMs](https://bit.ly/4myp27m)\n, is the #1 highest-grossing course on Maven, and consistently brings in sizable student groups from all of the major AI labs. This is because they teach something crucial: how to build evaluations that actually\n*improve*\nyour product, not just generate vanity dashboards.\nOver the past two years, Hamel and Shreya have played a major role in shifting evals from being an obscure, confusing subject to one of the most necessary skills for AI product builders.\nAfter training more than 2,000 PMs and engineers, and leaders at over 500 companies, they’re now sharing their complete playbook—the same methodology taught at OpenAI, Anthropic, and other leading labs. You’ll learn how to leverage error analysis to understand where your AI product breaks, build robust evals you can trust, and create a continuous improvement flywheel that catches regressions before they ship.\nIn honor of this post, Hamel and Shreya are also offering an exclusive discount on their course: 35% off. This is the largest discount they’ve ever offered.\n[Use this link](https://bit.ly/4myp27m)\nto register (or use code LENNYSLIST when checking out). You’ve got three days left to enroll.\nThank you for sharing this gold with us, Hamel and Shreya 🙏\n*P.S. You can listen to this post in convenient podcast form:*\n[*Spotify*](https://open.spotify.com/show/0IIunA06qMtrcQLfypTooj)\n*/*\n[*Apple*](https://podcasts.apple.com/us/podcast/lennys-reads/id1810314693)\n*/*\n[*YouTube*](https://www.youtube.com/@lennysreads)\n*.*\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product\nAman Khan’s\n[post](https://www.lennysnewsletter.com/p/beyond-vibe-checks-a-pms-complete)\non evals perfectly captured why evaluation is becoming a core, make-or-break skill for product managers. This article provides the next step: a playbook for building an evaluation system to drive real product improvements. Many teams build eval dashboards that look useful but are ultimately ignored and don’t lead to better products, because the metrics these evals report are disconnected from real user problems.\nThis guide provides a process to bridge that trust gap. We will cover three phases: discovering what to measure through rigorous error analysis, building a reliable evaluation suite, and operationalizing that suite to create a flywheel of continuous improvement.",
+      "token_count": 873
+    },
+    {
+      "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000001",
+      "contextualized_text": "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering\nPhase 1: Ground your evals in reality, with error analysis\nBefore you can improve your AI product, you must understand how it fails. The surface area for what you\n*could*\nevaluate is infinite. The most common mistake is to start by measuring\n[ready-made](https://hamel.dev/blog/posts/evals-faq/should-i-use-ready-to-use-evaluation-metrics.html)\n, fashionable metrics like “hallucination” or “toxicity.” This approach often leads to tracking scores that don’t correlate with the actual problems your users face with your product. You cannot know what to measure until you systematically find out how your product fails in specific contexts. The process that tells you where to focus is referred to as “error analysis” and should result in a clean and prioritized list of your product’s most common failure modes.\nThe process begins not with metrics but with data and a single human expert. For most small to medium-size companies, the most effective approach is to designate a single principal domain expert as the arbiter of quality. This person—a psychologist for a mental health chatbot, a lawyer for legal document analysis—becomes the definitive voice on quality. Appointing a single expert, sometimes called a “benevolent dictator,” provides a consistent and deeply informed signal, which eliminates annotation conflicts and prevents the paralysis that can come from having too many cooks in the kitchen. In many situations, the product manager is the principal domain expert. Larger organizations, or products that span multiple complex domains with different cultural contexts, may require multiple annotators. In those cases, you must implement a more structured process to ensure that judgments are consistent, which involves measuring their agreement.\nYour next step is to arm this expert with a representative set of around 100 user interactions. As you get more sophisticated, you can sample interactions that are more likely to yield insights based on data analysis. Examples include traces that have negative user feedback, outliers in conversation length, number of tools, and high latency. However, start with random sampling to develop your intuition in the beginning.\nWith a dataset ready, the analysis begins with\n**open coding**\n. This is essentially like journaling, but with a bit of structuring. The domain expert reviews each user interaction and writes a free-form critique on anything that seems wrong or undesirable, as well as giving a pass/fail judgment on the AI performance.\n- For **passes** , we explain why the AI succeeded in meeting the user’s primary need, even if there were critical aspects that could be improved. We highlight these areas for enhancement while justifying the overall passing judgment.\n- For **fails** , we identify the critical elements that led to the failure, explaining why the AI did not meet the user’s main objective or compromised important factors, like user experience or security.\nHere is a screenshot of open coding in action in response to an apartment leasing assistant. In the interface, we can see that the AI has hallucinated a virtual tour when that isn’t something that is offered:\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product\n**As a heuristic, the critique should be detailed enough**\nfor a brand-new employee at your company to understand it. Or, if this is more helpful,\n**so that you can use it in a few-shot prompt for an LLM judge**\n.Being too terse is a common mistake. Here are some good examples of open coding in action:\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product\nNote that the example user interactions with the AI are simplified for brevity—but you might need to give the domain expert more context to make a judgment. More on that later.\nThis lightly constrained process is crucial for discovering problems you didn’t know you had. It’s also where teams often discover what they\n*truly*\nwant from their AI system.\n[Research shows](https://arxiv.org/abs/2404.12272)\nthat people are not very good at specifying their complete requirements for an AI up front. It is through the process of reviewing outputs and articulating what feels “wrong” that the true criteria for success emerge.\nAfter collecting notes on dozens of traces, the next step is\n**axial coding**\n, or pattern-finding. The expert reads through all the open-ended critiques and starts grouping them (examples below). This process transforms a chaotic list of observations into a clean, prioritized taxonomy of concrete failure modes. It is part art and part science: group errors in a way that is manageable and sensible for your domain. Here is how you might apply axial coding to the failures above:\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product\nThis grouping process often happens in a spreadsheet or a dedicated annotation tool where you can tag or label each critique. When I was working on this apartment leasing assistant in a\n[real-life scenario](https://hamel.dev/blog/posts/field-guide/)\n, here are the categories that emerged:\n- Conversation flow issues (missing context, awkward responses)\n- Handoff failures (not recognizing when to transfer to humans)\n- Rescheduling problems (struggling with date handling)\nYou can accelerate this process with an LLM. You can use an LLM to perform a first-pass categorization on the critiques. However, a common trap is to over-automate. Always have the human expert review and validate the LLM’s suggestions. An LLM might miss the nuance that distinguishes a conversation flow issue from a handoff failure. Another trap is creating too many categories; aim for a manageable set of under 10 primary failure modes that capture the most significant problems. The goal is to create a useful taxonomy that you can analyze, not an exhaustive list.\nThe final product of this phase is to simply count the categories so you can get a sense of how to invest your time. Here is how this count looks for the apartment leasing assistant, which I calculated with a pivot table in a spreadsheet:\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product\nAs you can see, the most frequently occurring errors were conversation flow, handoff (to a human), and rescheduling appointments. This data gives us concrete problems specific to our product to focus on as we build evals.",
+      "doc_item_refs": [
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/47",
+        "#/texts/51",
+        "#/texts/252",
+        "#/texts/52",
+        "#/texts/53",
+        "#/texts/54",
+        "#/texts/55",
+        "#/texts/56",
+        "#/texts/253",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60",
+        "#/texts/61",
+        "#/texts/62",
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65",
+        "#/texts/66",
+        "#/texts/254",
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/70",
+        "#/texts/71",
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/74",
+        "#/texts/75",
+        "#/texts/255",
+        "#/texts/76",
+        "#/texts/77"
+      ],
+      "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "headings": [
+        "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+        "Phase 1: Ground your evals in reality, with error analysis"
+      ],
+      "images": [
+        {
+          "caption": "Image from Building eval systems that improve your AI product",
+          "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/eff70365-e3fb-43be-9889-f51973469875_1600x1402.png"
+        },
+        {
+          "caption": "Image from Building eval systems that improve your AI product",
+          "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/58c0d68c-8896-40fa-b8d9-0888f9209c50_1456x1610.png"
+        },
+        {
+          "caption": "Image from Building eval systems that improve your AI product",
+          "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c9ec8f51-5d10-42be-9de3-8dfb117bd43e_1456x954.png"
+        },
+        {
+          "caption": "Image from Building eval systems that improve your AI product",
+          "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/d7a37d90-bcf5-406e-a484-86d4ad48d1c9_658x354.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000001",
+        "chunk_sha256": "9f808a9821c5153b6a7ef4ac64ed3b1ce4ca4e17d8eb69d238d4a97ac5054db1",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+        "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+        "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+        "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+        "headings": [
+          "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+          "Phase 1: Ground your evals in reality, with error analysis"
+        ],
+        "images": [
+          {
+            "caption": "Image from Building eval systems that improve your AI product",
+            "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/eff70365-e3fb-43be-9889-f51973469875_1600x1402.png"
+          },
+          {
+            "caption": "Image from Building eval systems that improve your AI product",
+            "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/58c0d68c-8896-40fa-b8d9-0888f9209c50_1456x1610.png"
+          },
+          {
+            "caption": "Image from Building eval systems that improve your AI product",
+            "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c9ec8f51-5d10-42be-9de3-8dfb117bd43e_1456x954.png"
+          },
+          {
+            "caption": "Image from Building eval systems that improve your AI product",
+            "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/d7a37d90-bcf5-406e-a484-86d4ad48d1c9_658x354.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+        "segment": {
+          "first_self_ref": "#/texts/33",
+          "item_count": 43,
+          "last_self_ref": "#/texts/77"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/40",
+          "#/texts/41",
+          "#/texts/42",
+          "#/texts/43",
+          "#/texts/47",
+          "#/texts/51",
+          "#/texts/252",
+          "#/texts/52",
+          "#/texts/53",
+          "#/texts/54",
+          "#/texts/55",
+          "#/texts/56",
+          "#/texts/253",
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/60",
+          "#/texts/61",
+          "#/texts/62",
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65",
+          "#/texts/66",
+          "#/texts/254",
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69",
+          "#/texts/70",
+          "#/texts/71",
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/74",
+          "#/texts/75",
+          "#/texts/255",
+          "#/texts/76",
+          "#/texts/77"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "Before you can improve your AI product, you must understand how it fails. The surface area for what you\n*could*\nevaluate is infinite. The most common mistake is to start by measuring\n[ready-made](https://hamel.dev/blog/posts/evals-faq/should-i-use-ready-to-use-evaluation-metrics.html)\n, fashionable metrics like “hallucination” or “toxicity.” This approach often leads to tracking scores that don’t correlate with the actual problems your users face with your product. You cannot know what to measure until you systematically find out how your product fails in specific contexts. The process that tells you where to focus is referred to as “error analysis” and should result in a clean and prioritized list of your product’s most common failure modes.\nThe process begins not with metrics but with data and a single human expert. For most small to medium-size companies, the most effective approach is to designate a single principal domain expert as the arbiter of quality. This person—a psychologist for a mental health chatbot, a lawyer for legal document analysis—becomes the definitive voice on quality. Appointing a single expert, sometimes called a “benevolent dictator,” provides a consistent and deeply informed signal, which eliminates annotation conflicts and prevents the paralysis that can come from having too many cooks in the kitchen. In many situations, the product manager is the principal domain expert. Larger organizations, or products that span multiple complex domains with different cultural contexts, may require multiple annotators. In those cases, you must implement a more structured process to ensure that judgments are consistent, which involves measuring their agreement.\nYour next step is to arm this expert with a representative set of around 100 user interactions. As you get more sophisticated, you can sample interactions that are more likely to yield insights based on data analysis. Examples include traces that have negative user feedback, outliers in conversation length, number of tools, and high latency. However, start with random sampling to develop your intuition in the beginning.\nWith a dataset ready, the analysis begins with\n**open coding**\n. This is essentially like journaling, but with a bit of structuring. The domain expert reviews each user interaction and writes a free-form critique on anything that seems wrong or undesirable, as well as giving a pass/fail judgment on the AI performance.\n- For **passes** , we explain why the AI succeeded in meeting the user’s primary need, even if there were critical aspects that could be improved. We highlight these areas for enhancement while justifying the overall passing judgment.\n- For **fails** , we identify the critical elements that led to the failure, explaining why the AI did not meet the user’s main objective or compromised important factors, like user experience or security.\nHere is a screenshot of open coding in action in response to an apartment leasing assistant. In the interface, we can see that the AI has hallucinated a virtual tour when that isn’t something that is offered:\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product\n**As a heuristic, the critique should be detailed enough**\nfor a brand-new employee at your company to understand it. Or, if this is more helpful,\n**so that you can use it in a few-shot prompt for an LLM judge**\n.Being too terse is a common mistake. Here are some good examples of open coding in action:\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product\nNote that the example user interactions with the AI are simplified for brevity—but you might need to give the domain expert more context to make a judgment. More on that later.\nThis lightly constrained process is crucial for discovering problems you didn’t know you had. It’s also where teams often discover what they\n*truly*\nwant from their AI system.\n[Research shows](https://arxiv.org/abs/2404.12272)\nthat people are not very good at specifying their complete requirements for an AI up front. It is through the process of reviewing outputs and articulating what feels “wrong” that the true criteria for success emerge.\nAfter collecting notes on dozens of traces, the next step is\n**axial coding**\n, or pattern-finding. The expert reads through all the open-ended critiques and starts grouping them (examples below). This process transforms a chaotic list of observations into a clean, prioritized taxonomy of concrete failure modes. It is part art and part science: group errors in a way that is manageable and sensible for your domain. Here is how you might apply axial coding to the failures above:\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product\nThis grouping process often happens in a spreadsheet or a dedicated annotation tool where you can tag or label each critique. When I was working on this apartment leasing assistant in a\n[real-life scenario](https://hamel.dev/blog/posts/field-guide/)\n, here are the categories that emerged:\n- Conversation flow issues (missing context, awkward responses)\n- Handoff failures (not recognizing when to transfer to humans)\n- Rescheduling problems (struggling with date handling)\nYou can accelerate this process with an LLM. You can use an LLM to perform a first-pass categorization on the critiques. However, a common trap is to over-automate. Always have the human expert review and validate the LLM’s suggestions. An LLM might miss the nuance that distinguishes a conversation flow issue from a handoff failure. Another trap is creating too many categories; aim for a manageable set of under 10 primary failure modes that capture the most significant problems. The goal is to create a useful taxonomy that you can analyze, not an exhaustive list.\nThe final product of this phase is to simply count the categories so you can get a sense of how to invest your time. Here is how this count looks for the apartment leasing assistant, which I calculated with a pivot table in a spreadsheet:\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product\nAs you can see, the most frequently occurring errors were conversation flow, handoff (to a human), and rescheduling appointments. This data gives us concrete problems specific to our product to focus on as we build evals.",
+      "token_count": 1431
+    },
+    {
+      "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000002",
+      "contextualized_text": "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering\nPhase 1: Ground your evals in reality, with error analysis\nA warning about off-the-shelf metrics\nWhile off-the-shelf metrics like hallucination and toxicity are not worth paying attention to directly, they can be used in creative ways. Instead of reporting a hallucination or toxicity score on a dashboard, calculate the scores on your traces and sort them by high/low score. Reviewing the highest\n*and*\nlowest scoring examples can reveal surprising failure modes or unexpected successes, which in turn helps you build custom evaluators for the patterns you discover. This is one of the only appropriate uses for off-the-shelf metrics. Note that this is an advanced technique and should be done only after you master the basic approach.",
+      "doc_item_refs": [
+        "#/texts/79",
+        "#/texts/80",
+        "#/texts/81"
+      ],
+      "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "headings": [
+        "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+        "Phase 1: Ground your evals in reality, with error analysis",
+        "A warning about off-the-shelf metrics"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000002",
+        "chunk_sha256": "1d889880333fa9728984d105a680ffd2acac9d13541b29272f4f8392ec1df42e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+        "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+        "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+        "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+        "headings": [
+          "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+          "Phase 1: Ground your evals in reality, with error analysis",
+          "A warning about off-the-shelf metrics"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+        "segment": {
+          "first_self_ref": "#/texts/79",
+          "item_count": 3,
+          "last_self_ref": "#/texts/81"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/79",
+          "#/texts/80",
+          "#/texts/81"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "While off-the-shelf metrics like hallucination and toxicity are not worth paying attention to directly, they can be used in creative ways. Instead of reporting a hallucination or toxicity score on a dashboard, calculate the scores on your traces and sort them by high/low score. Reviewing the highest\n*and*\nlowest scoring examples can reveal surprising failure modes or unexpected successes, which in turn helps you build custom evaluators for the patterns you discover. This is one of the only appropriate uses for off-the-shelf metrics. Note that this is an advanced technique and should be done only after you master the basic approach.",
+      "token_count": 195
+    },
+    {
+      "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000003",
+      "contextualized_text": "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering\nPhase 2: Build out your evaluation suite\nAfter error analysis, you will have a prioritized list of your product’s most common failures. The next step is to build a suite of automated evaluators to track them. The goal is to create a system that is reliable, cost-effective, and trusted by your team. This requires choosing the right tool for each failure mode.\nYour choice of tools comes down to one question for each prioritized failure mode on your list: Is this failure\n**objective and rule-based**\n(for example: “Does the output contain a user ID?”), or is it\n**subjective and requiring judgment**\n(example: “Was the tone appropriate for the persona?”)?\nFor objective failures, use\n**code-based evaluators**\n. These are simple checks written as code, like assertions in a unit test. They are fast, cheap, and deterministic, making them perfect for verifying things like whether an output is valid JSON, contains a required keyword, or executes without error. Use them whenever a clear rule can define success or failure.\nFor subjective failures, you’ll need to build an\n**LLM-as-a-judge**\nto reliably assess qualities that code cannot easily handle, like tone, relevance, or reasoning quality. This can be a rigorous process—as is training any LLM—but it is the only way to scale nuanced and subjective evaluations and ultimately improve your product. The good news is that there is a scientific approach to making sure the judge is sufficiently aligned with your product vision and success criteria.",
+      "doc_item_refs": [
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/87",
+        "#/texts/88",
+        "#/texts/89",
+        "#/texts/90",
+        "#/texts/91",
+        "#/texts/92",
+        "#/texts/93",
+        "#/texts/94"
+      ],
+      "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "headings": [
+        "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+        "Phase 2: Build out your evaluation suite"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000003",
+        "chunk_sha256": "ec9807827aa9b40376e98248a7b57327c13584d2991e7758dc9e0daf523bd7b5",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+        "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+        "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+        "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+        "headings": [
+          "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+          "Phase 2: Build out your evaluation suite"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+        "segment": {
+          "first_self_ref": "#/texts/83",
+          "item_count": 12,
+          "last_self_ref": "#/texts/94"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/83",
+          "#/texts/84",
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/87",
+          "#/texts/88",
+          "#/texts/89",
+          "#/texts/90",
+          "#/texts/91",
+          "#/texts/92",
+          "#/texts/93",
+          "#/texts/94"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "After error analysis, you will have a prioritized list of your product’s most common failures. The next step is to build a suite of automated evaluators to track them. The goal is to create a system that is reliable, cost-effective, and trusted by your team. This requires choosing the right tool for each failure mode.\nYour choice of tools comes down to one question for each prioritized failure mode on your list: Is this failure\n**objective and rule-based**\n(for example: “Does the output contain a user ID?”), or is it\n**subjective and requiring judgment**\n(example: “Was the tone appropriate for the persona?”)?\nFor objective failures, use\n**code-based evaluators**\n. These are simple checks written as code, like assertions in a unit test. They are fast, cheap, and deterministic, making them perfect for verifying things like whether an output is valid JSON, contains a required keyword, or executes without error. Use them whenever a clear rule can define success or failure.\nFor subjective failures, you’ll need to build an\n**LLM-as-a-judge**\nto reliably assess qualities that code cannot easily handle, like tone, relevance, or reasoning quality. This can be a rigorous process—as is training any LLM—but it is the only way to scale nuanced and subjective evaluations and ultimately improve your product. The good news is that there is a scientific approach to making sure the judge is sufficiently aligned with your product vision and success criteria.",
+      "token_count": 383
+    },
+    {
+      "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000004",
+      "contextualized_text": "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering\nPhase 2: Build out your evaluation suite\nThe LLM-as-a-judge playbook\nThis is not about writing a clever prompt. It is about a systematic process of grounding an LLM’s judgment in your specific quality bar. The output is an LLM that gives you a binary pass/fail metric for specific error(s). More importantly, you need to trust the metric. The way to establish trust is by measuring the judge against a human-labeled dataset you create. There are two steps involved. The first is to create a dataset that establishes ground truth:",
+      "doc_item_refs": [
+        "#/texts/96"
+      ],
+      "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "headings": [
+        "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+        "Phase 2: Build out your evaluation suite",
+        "The LLM-as-a-judge playbook"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000004",
+        "chunk_sha256": "05b2c6a3035f7ef9557cdb6611c5ddb183a1b460adc608a7163a27f32398569b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+        "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+        "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+        "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+        "headings": [
+          "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+          "Phase 2: Build out your evaluation suite",
+          "The LLM-as-a-judge playbook"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+        "segment": {
+          "first_self_ref": "#/texts/96",
+          "item_count": 1,
+          "last_self_ref": "#/texts/96"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/96"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "This is not about writing a clever prompt. It is about a systematic process of grounding an LLM’s judgment in your specific quality bar. The output is an LLM that gives you a binary pass/fail metric for specific error(s). More importantly, you need to trust the metric. The way to establish trust is by measuring the judge against a human-labeled dataset you create. There are two steps involved. The first is to create a dataset that establishes ground truth:",
+      "token_count": 163
+    },
+    {
+      "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000005",
+      "contextualized_text": "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering\nPhase 2: Build out your evaluation suite\nThe LLM-as-a-judge playbook\n1. Establish ground truth\nYour evaluation system is only as good as its source of truth. For most teams, the most effective approach is to leverage the\n**principal domain expert**\nwe mentioned earlier. While larger organizations operating across multiple domains may require multiple annotators and processes to measure inter-annotator agreement, starting with a single expert accelerates the process.\nThe expert’s task is to provide two things for every user interaction with your AI, grouped by session: a binary\n**pass/fail**\njudgment and a detailed\n**critique**\n. Many teams are tempted to use a 1-to-5 Likert scale, believing it captures more nuance. This is a trap. The distinction between a “3” and a “4” is subjective and inconsistent. Binary decisions force clarity. An output either meets the quality bar or it does not. The nuance is not lost; it is captured in the critique, which explains\n*why*\na judgment was made. These critiques are the secret ingredient for building a high-fidelity judge. For example, consider this example from earlier:\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product\nReasonable people may disagree on whether or not this is “good enough.” However, it is important that you strive toward making a judgment call on what is good and bad for your product. In this case, we decided that this interaction was a failure.",
+      "doc_item_refs": [
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/100",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/103",
+        "#/texts/104",
+        "#/texts/105",
+        "#/texts/106",
+        "#/texts/107",
+        "#/texts/256",
+        "#/texts/108",
+        "#/texts/109"
+      ],
+      "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "headings": [
+        "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+        "Phase 2: Build out your evaluation suite",
+        "The LLM-as-a-judge playbook",
+        "1. Establish ground truth"
+      ],
+      "images": [
+        {
+          "caption": "Image from Building eval systems that improve your AI product",
+          "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b8baec27-cfcb-4d1b-9358-b7c98c0cadf1_1456x556.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000005",
+        "chunk_sha256": "1cd874fdd2d0192c7538130219d855f109f864d8cce1910fe6899300523868a9",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+        "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+        "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+        "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+        "headings": [
+          "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+          "Phase 2: Build out your evaluation suite",
+          "The LLM-as-a-judge playbook",
+          "1. Establish ground truth"
+        ],
+        "images": [
+          {
+            "caption": "Image from Building eval systems that improve your AI product",
+            "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/b8baec27-cfcb-4d1b-9358-b7c98c0cadf1_1456x556.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+        "segment": {
+          "first_self_ref": "#/texts/98",
+          "item_count": 13,
+          "last_self_ref": "#/texts/109"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/100",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/103",
+          "#/texts/104",
+          "#/texts/105",
+          "#/texts/106",
+          "#/texts/107",
+          "#/texts/256",
+          "#/texts/108",
+          "#/texts/109"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "Your evaluation system is only as good as its source of truth. For most teams, the most effective approach is to leverage the\n**principal domain expert**\nwe mentioned earlier. While larger organizations operating across multiple domains may require multiple annotators and processes to measure inter-annotator agreement, starting with a single expert accelerates the process.\nThe expert’s task is to provide two things for every user interaction with your AI, grouped by session: a binary\n**pass/fail**\njudgment and a detailed\n**critique**\n. Many teams are tempted to use a 1-to-5 Likert scale, believing it captures more nuance. This is a trap. The distinction between a “3” and a “4” is subjective and inconsistent. Binary decisions force clarity. An output either meets the quality bar or it does not. The nuance is not lost; it is captured in the critique, which explains\n*why*\na judgment was made. These critiques are the secret ingredient for building a high-fidelity judge. For example, consider this example from earlier:\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product\nReasonable people may disagree on whether or not this is “good enough.” However, it is important that you strive toward making a judgment call on what is good and bad for your product. In this case, we decided that this interaction was a failure.",
+      "token_count": 361
+    },
+    {
+      "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000006",
+      "contextualized_text": "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering\nPhase 2: Build out your evaluation suite\nThe LLM-as-a-judge playbook\n2. Build and validate the judge\nAfter you have collected the ground-truth data labeled by your domain expert, you are ready to build and validate the judge. Do not use your entire dataset to build and test your judge. This leads to overfitting, where you iterate toward performing well on examples you observe but fail on new, unseen data.\nInstead, split the ground-truth data into three distinct sets:\n- **Train set (10%–20%):** A small set of clear examples, including the expert’s critiques, to use in the judge’s prompt\n- **Dev set (40%–45%):** A larger set used to iteratively test and refine the judge’s prompt\n- **Test set (40%–45%):** A held-out set, untouched during development, for a final, unbiased measurement of the judge’s performance\nThis process of refining your judge’s prompt on the dev set is a meta-evaluation task. You are evaluating your evaluator. It is also where you will discover the nuances of your own quality bar. As\n[research](https://arxiv.org/abs/2404.12272)\non “criteria drift” has shown, the process of reviewing LLM outputs and aligning a judge helps you articulate and refine your own standards.\nBelow is a visualization of this LLM-as-a-judge alignment process at a high level.\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product",
+      "doc_item_refs": [
+        "#/texts/111",
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/116",
+        "#/texts/119",
+        "#/texts/122",
+        "#/texts/123",
+        "#/texts/124",
+        "#/texts/125",
+        "#/texts/257",
+        "#/texts/126"
+      ],
+      "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "headings": [
+        "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+        "Phase 2: Build out your evaluation suite",
+        "The LLM-as-a-judge playbook",
+        "2. Build and validate the judge"
+      ],
+      "images": [
+        {
+          "caption": "Image from Building eval systems that improve your AI product",
+          "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/0aae88ca-fa18-437b-aaec-a4ea61f2ff28_1456x943.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000006",
+        "chunk_sha256": "2cbdebbfb81a2b9273af44efe2734a7d6fbda5e5cdf67c0a3220199f287ed13e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+        "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+        "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+        "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+        "headings": [
+          "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+          "Phase 2: Build out your evaluation suite",
+          "The LLM-as-a-judge playbook",
+          "2. Build and validate the judge"
+        ],
+        "images": [
+          {
+            "caption": "Image from Building eval systems that improve your AI product",
+            "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/0aae88ca-fa18-437b-aaec-a4ea61f2ff28_1456x943.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+        "segment": {
+          "first_self_ref": "#/texts/111",
+          "item_count": 11,
+          "last_self_ref": "#/texts/126"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/111",
+          "#/texts/112",
+          "#/texts/113",
+          "#/texts/116",
+          "#/texts/119",
+          "#/texts/122",
+          "#/texts/123",
+          "#/texts/124",
+          "#/texts/125",
+          "#/texts/257",
+          "#/texts/126"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "After you have collected the ground-truth data labeled by your domain expert, you are ready to build and validate the judge. Do not use your entire dataset to build and test your judge. This leads to overfitting, where you iterate toward performing well on examples you observe but fail on new, unseen data.\nInstead, split the ground-truth data into three distinct sets:\n- **Train set (10%–20%):** A small set of clear examples, including the expert’s critiques, to use in the judge’s prompt\n- **Dev set (40%–45%):** A larger set used to iteratively test and refine the judge’s prompt\n- **Test set (40%–45%):** A held-out set, untouched during development, for a final, unbiased measurement of the judge’s performance\nThis process of refining your judge’s prompt on the dev set is a meta-evaluation task. You are evaluating your evaluator. It is also where you will discover the nuances of your own quality bar. As\n[research](https://arxiv.org/abs/2404.12272)\non “criteria drift” has shown, the process of reviewing LLM outputs and aligning a judge helps you articulate and refine your own standards.\nBelow is a visualization of this LLM-as-a-judge alignment process at a high level.\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product",
+      "token_count": 401
+    },
+    {
+      "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000007",
+      "contextualized_text": "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering\nPhase 2: Build out your evaluation suite\nThe LLM-as-a-judge playbook\n3. Measure what matters: TPR/TNR over accuracy\nA common impulse is to measure a judge’s performance with a single accuracy score, but this can be dangerously misleading. Imagine an AI system that succeeds 99% of the time. A judge that always predicts “pass” will be 99% accurate, but it will never catch a single failure. This is a common issue with\n**imbalanced datasets**\n, where one outcome is far more frequent than the other.\nInstead of accuracy, the\n**true positive rate (TPR)**\nand\n**true negative rate (TNR)**\nmeasuredtogetherwill tell you precisely how your judge is likely to make mistakes. In plain language:\n- **TPR:** Of all the examples that *should* pass, what percentage did the judge correctly label as “pass”?\n- **TNR:** Of all the examples that *should* fail, what percentage did the judge correctly label as “fail”?\nA judge with a high TPR but low TNR is good at recognizing success but lets failures slip through. The acceptable tradeoff depends on your product. For an AI providing medical advice, a false negative (failing to catch a harmful suggestion) is far more costly than a false positive. For a creative writing assistant, a false positive (flagging a good response as bad) might be worse, as it could stifle creativity.\nOnce you know your judge’s TPR and TNR, you can even statistically correct its raw scores to get a more accurate estimate of your system’s true failure rate. For example, if your judge reports a 95% pass rate on 1,000 new examples but you know it has a 10% chance of mislabeling a failure as a pass, you can adjust that 95% score to reflect the judge’s known error rate. (The mathematical details for this correction will be in an appendix).\nThis rigorous, human-led validation process is the only way to build an evaluation system your team can rely on. When you present a dashboard showing a 5% failure rate for a critical feature, your stakeholders need to believe that number reflects reality. This process is how you build that trust.",
+      "doc_item_refs": [
+        "#/texts/128",
+        "#/texts/129",
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/134",
+        "#/texts/135",
+        "#/texts/136",
+        "#/texts/141",
+        "#/texts/146",
+        "#/texts/147",
+        "#/texts/148"
+      ],
+      "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "headings": [
+        "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+        "Phase 2: Build out your evaluation suite",
+        "The LLM-as-a-judge playbook",
+        "3. Measure what matters: TPR/TNR over accuracy"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000007",
+        "chunk_sha256": "728c88fe6c52025bd557cc557005b0151c98390f6fbe1b3e0d86323d3484b462",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+        "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+        "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+        "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+        "headings": [
+          "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+          "Phase 2: Build out your evaluation suite",
+          "The LLM-as-a-judge playbook",
+          "3. Measure what matters: TPR/TNR over accuracy"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+        "segment": {
+          "first_self_ref": "#/texts/128",
+          "item_count": 13,
+          "last_self_ref": "#/texts/148"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/128",
+          "#/texts/129",
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/134",
+          "#/texts/135",
+          "#/texts/136",
+          "#/texts/141",
+          "#/texts/146",
+          "#/texts/147",
+          "#/texts/148"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "A common impulse is to measure a judge’s performance with a single accuracy score, but this can be dangerously misleading. Imagine an AI system that succeeds 99% of the time. A judge that always predicts “pass” will be 99% accurate, but it will never catch a single failure. This is a common issue with\n**imbalanced datasets**\n, where one outcome is far more frequent than the other.\nInstead of accuracy, the\n**true positive rate (TPR)**\nand\n**true negative rate (TNR)**\nmeasuredtogetherwill tell you precisely how your judge is likely to make mistakes. In plain language:\n- **TPR:** Of all the examples that *should* pass, what percentage did the judge correctly label as “pass”?\n- **TNR:** Of all the examples that *should* fail, what percentage did the judge correctly label as “fail”?\nA judge with a high TPR but low TNR is good at recognizing success but lets failures slip through. The acceptable tradeoff depends on your product. For an AI providing medical advice, a false negative (failing to catch a harmful suggestion) is far more costly than a false positive. For a creative writing assistant, a false positive (flagging a good response as bad) might be worse, as it could stifle creativity.\nOnce you know your judge’s TPR and TNR, you can even statistically correct its raw scores to get a more accurate estimate of your system’s true failure rate. For example, if your judge reports a 95% pass rate on 1,000 new examples but you know it has a 10% chance of mislabeling a failure as a pass, you can adjust that 95% score to reflect the judge’s known error rate. (The mathematical details for this correction will be in an appendix).\nThis rigorous, human-led validation process is the only way to build an evaluation system your team can rely on. When you present a dashboard showing a 5% failure rate for a critical feature, your stakeholders need to believe that number reflects reality. This process is how you build that trust.",
+      "token_count": 525
+    },
+    {
+      "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000008",
+      "contextualized_text": "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering\nPhase 2: Build out your evaluation suite\nThe LLM-as-a-judge playbook\nConsiderations for specific architectures\nThere are special considerations and strategies to keep in mind when designing evals for multi-turn conversations, RAG pipelines, and agentic workflows. We address each of them below.\n**Multi-turn conversations**\nMany AI products are conversational, which introduces the challenge of maintaining context over time. When evaluating conversations, start at the highest level: Did the entire session achieve the user’s goal? This session-level pass/fail judgment is the most important measure of success.\nWhen a conversation fails, the next step is to isolate the root cause. A common mistake is to assume the failure is due to the complexities of dialogue. Before you dive into multi-turn analysis, try to reproduce the failure in a single turn. For example, if a shopping bot gives the wrong return policy on the fourth turn, first ask it directly: “What is the return policy for product X1000?” If it still fails, the problem is likely a simple knowledge or retrieval issue. If it succeeds, you have confirmed the failure is conversational—the bot is losing context or misinterpreting information from earlier in the dialogue. This diagnostic step saves significant time by distinguishing simple knowledge gaps from true conversational memory failures.\n**Retrieval-augmented generation (RAG)**\nA RAG system is a two-part machine: a retriever finds information, and a generator writes an answer using that information. These two parts can fail independently, and an end-to-end correctness score will not tell you which one is broken. You must evaluate them separately.\nFirst, evaluate the\n**retriever**\n. Treat it as a search problem. To do this, you need a dataset of queries paired with their known correct documents. The most critical metric for RAG is often\n**recall@k**\n. This measures what percentage of all the truly relevant documents are captured within the top\n*k*\nresults your system retrieves. Recall is paramount because if the correct information is not retrieved, the generator has no chance of producing a correct answer. Modern LLMs are surprisingly adept at ignoring irrelevant noise in their context, but they cannot invent facts from missing information.\nThe value of\n*k*\nis a critical tuning parameter that depends on your task. For a simple query requiring a single fact, like “What are the property taxes for 123 Main St.?,” a small\n*k*\n(e.g. 3 to 5) is often sufficient. The main goal is to ensure that the one correct document is retrieved. However, for a complex query that requires synthesizing information from multiple sources, such as “Summarize recent market trends for 3-bedroom houses in downtown,” you'll need a larger\n*k*\n(e.g. 10 to 20) to provide the generator with enough context to build a comprehensive answer. While recall is the priority for the initial retrieval stage,\n**precision@k**\n(the fraction of retrieved documents that are relevant) becomes important in systems with a second, re-ranking stage designed to select the best few documents to pass to the LLM.\nOnce your retriever is performing well on a diverse set of queries, you can evaluate the\n**generator**\n. Here you are primarily measuring two things. First is\n**faithfulness**\n: does the generated answer stick to the facts provided in the retrieved context, or is it hallucinating? Second is\n**answer relevance**\n: does the answer directly address the user’s original question? An answer can be perfectly faithful to the source documents but still fail to be relevant to the user’s intent.\nFix your retriever first. Only when you are confident that the right information is consistently being fed to your generator should you focus heavily on improving the generation step. It should be noted that RAG is a very nascent topic, and there is still much to be explored in terms of evaluating and optimizing it.\n[See this series](https://hamel.dev/notes/llm/rag/not_dead.html)\nfor an exploration of advanced RAG topics.\n**Agentic workflows**\nAgents—which can execute a sequence of actions, like tool calls, to accomplish a goal—are the most complex systems to evaluate. A single pass/fail judgment on the final outcome is a good start, but it is not diagnostic. When an agent fails, you need to know\n*which*\nstep in the chain of reasoning broke.\nFor this, a\n**transition failure matrix**\nis an invaluable tool. Think of an agent’s workflow as a series of states or steps, like an assembly line. The agent moves from one state (e.g.\n*generating*\n*_*\n*sql*\n) to the next (e.g.\n*executing*\n*_*\n*sql*\n). A transition failure matrix is a chart that shows you exactly where the assembly line breaks down most often.\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product\nThe rows of the matrix represent the last successful step, and the columns represent the step where the failure occurred. By analyzing traces of failed agent interactions and mapping them onto this matrix, you can quickly spot hotspots. Instead of guessing, you can see with data that, for example, your agent fails most often when trying to execute the SQL it just generated, or when it misinterprets the output from a tool call. This transforms the overwhelming task of debugging a complex agent into a focused, data-driven investigation.\nWith these targeted evaluation strategies for complex systems, you are now ready to operationalize your full evaluation suite.",
+      "doc_item_refs": [
+        "#/texts/150",
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/153",
+        "#/texts/154",
+        "#/texts/155",
+        "#/texts/156",
+        "#/texts/157",
+        "#/texts/158",
+        "#/texts/159",
+        "#/texts/160",
+        "#/texts/161",
+        "#/texts/162",
+        "#/texts/163",
+        "#/texts/164",
+        "#/texts/165",
+        "#/texts/166",
+        "#/texts/167",
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/170",
+        "#/texts/171",
+        "#/texts/172",
+        "#/texts/173",
+        "#/texts/174",
+        "#/texts/175",
+        "#/texts/176",
+        "#/texts/177",
+        "#/texts/178",
+        "#/texts/179",
+        "#/texts/180",
+        "#/texts/181",
+        "#/texts/182",
+        "#/texts/183",
+        "#/texts/184",
+        "#/texts/185",
+        "#/texts/186",
+        "#/texts/187",
+        "#/texts/188",
+        "#/texts/189",
+        "#/texts/190",
+        "#/texts/191",
+        "#/texts/192",
+        "#/texts/193",
+        "#/texts/194",
+        "#/texts/195",
+        "#/texts/196",
+        "#/texts/258",
+        "#/texts/197",
+        "#/texts/198",
+        "#/texts/199"
+      ],
+      "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "headings": [
+        "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+        "Phase 2: Build out your evaluation suite",
+        "The LLM-as-a-judge playbook",
+        "Considerations for specific architectures"
+      ],
+      "images": [
+        {
+          "caption": "Image from Building eval systems that improve your AI product",
+          "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/ce7b525b-3a4b-456d-b8ee-673e3995398e_1457x1003.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000008",
+        "chunk_sha256": "776f78e8bd7176671c11d806409af09fd29cbecab325ddc2138223c3b540cb57",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+        "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+        "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+        "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+        "headings": [
+          "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+          "Phase 2: Build out your evaluation suite",
+          "The LLM-as-a-judge playbook",
+          "Considerations for specific architectures"
+        ],
+        "images": [
+          {
+            "caption": "Image from Building eval systems that improve your AI product",
+            "image_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/ce7b525b-3a4b-456d-b8ee-673e3995398e_1457x1003.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+        "segment": {
+          "first_self_ref": "#/texts/150",
+          "item_count": 51,
+          "last_self_ref": "#/texts/199"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/150",
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/153",
+          "#/texts/154",
+          "#/texts/155",
+          "#/texts/156",
+          "#/texts/157",
+          "#/texts/158",
+          "#/texts/159",
+          "#/texts/160",
+          "#/texts/161",
+          "#/texts/162",
+          "#/texts/163",
+          "#/texts/164",
+          "#/texts/165",
+          "#/texts/166",
+          "#/texts/167",
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/170",
+          "#/texts/171",
+          "#/texts/172",
+          "#/texts/173",
+          "#/texts/174",
+          "#/texts/175",
+          "#/texts/176",
+          "#/texts/177",
+          "#/texts/178",
+          "#/texts/179",
+          "#/texts/180",
+          "#/texts/181",
+          "#/texts/182",
+          "#/texts/183",
+          "#/texts/184",
+          "#/texts/185",
+          "#/texts/186",
+          "#/texts/187",
+          "#/texts/188",
+          "#/texts/189",
+          "#/texts/190",
+          "#/texts/191",
+          "#/texts/192",
+          "#/texts/193",
+          "#/texts/194",
+          "#/texts/195",
+          "#/texts/196",
+          "#/texts/258",
+          "#/texts/197",
+          "#/texts/198",
+          "#/texts/199"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "There are special considerations and strategies to keep in mind when designing evals for multi-turn conversations, RAG pipelines, and agentic workflows. We address each of them below.\n**Multi-turn conversations**\nMany AI products are conversational, which introduces the challenge of maintaining context over time. When evaluating conversations, start at the highest level: Did the entire session achieve the user’s goal? This session-level pass/fail judgment is the most important measure of success.\nWhen a conversation fails, the next step is to isolate the root cause. A common mistake is to assume the failure is due to the complexities of dialogue. Before you dive into multi-turn analysis, try to reproduce the failure in a single turn. For example, if a shopping bot gives the wrong return policy on the fourth turn, first ask it directly: “What is the return policy for product X1000?” If it still fails, the problem is likely a simple knowledge or retrieval issue. If it succeeds, you have confirmed the failure is conversational—the bot is losing context or misinterpreting information from earlier in the dialogue. This diagnostic step saves significant time by distinguishing simple knowledge gaps from true conversational memory failures.\n**Retrieval-augmented generation (RAG)**\nA RAG system is a two-part machine: a retriever finds information, and a generator writes an answer using that information. These two parts can fail independently, and an end-to-end correctness score will not tell you which one is broken. You must evaluate them separately.\nFirst, evaluate the\n**retriever**\n. Treat it as a search problem. To do this, you need a dataset of queries paired with their known correct documents. The most critical metric for RAG is often\n**recall@k**\n. This measures what percentage of all the truly relevant documents are captured within the top\n*k*\nresults your system retrieves. Recall is paramount because if the correct information is not retrieved, the generator has no chance of producing a correct answer. Modern LLMs are surprisingly adept at ignoring irrelevant noise in their context, but they cannot invent facts from missing information.\nThe value of\n*k*\nis a critical tuning parameter that depends on your task. For a simple query requiring a single fact, like “What are the property taxes for 123 Main St.?,” a small\n*k*\n(e.g. 3 to 5) is often sufficient. The main goal is to ensure that the one correct document is retrieved. However, for a complex query that requires synthesizing information from multiple sources, such as “Summarize recent market trends for 3-bedroom houses in downtown,” you'll need a larger\n*k*\n(e.g. 10 to 20) to provide the generator with enough context to build a comprehensive answer. While recall is the priority for the initial retrieval stage,\n**precision@k**\n(the fraction of retrieved documents that are relevant) becomes important in systems with a second, re-ranking stage designed to select the best few documents to pass to the LLM.\nOnce your retriever is performing well on a diverse set of queries, you can evaluate the\n**generator**\n. Here you are primarily measuring two things. First is\n**faithfulness**\n: does the generated answer stick to the facts provided in the retrieved context, or is it hallucinating? Second is\n**answer relevance**\n: does the answer directly address the user’s original question? An answer can be perfectly faithful to the source documents but still fail to be relevant to the user’s intent.\nFix your retriever first. Only when you are confident that the right information is consistently being fed to your generator should you focus heavily on improving the generation step. It should be noted that RAG is a very nascent topic, and there is still much to be explored in terms of evaluating and optimizing it.\n[See this series](https://hamel.dev/notes/llm/rag/not_dead.html)\nfor an exploration of advanced RAG topics.\n**Agentic workflows**\nAgents—which can execute a sequence of actions, like tool calls, to accomplish a goal—are the most complex systems to evaluate. A single pass/fail judgment on the final outcome is a good start, but it is not diagnostic. When an agent fails, you need to know\n*which*\nstep in the chain of reasoning broke.\nFor this, a\n**transition failure matrix**\nis an invaluable tool. Think of an agent’s workflow as a series of states or steps, like an assembly line. The agent moves from one state (e.g.\n*generating*\n*_*\n*sql*\n) to the next (e.g.\n*executing*\n*_*\n*sql*\n). A transition failure matrix is a chart that shows you exactly where the assembly line breaks down most often.\nImage from Building eval systems that improve your AI product\nImage from Building eval systems that improve your AI product\nThe rows of the matrix represent the last successful step, and the columns represent the step where the failure occurred. By analyzing traces of failed agent interactions and mapping them onto this matrix, you can quickly spot hotspots. Instead of guessing, you can see with data that, for example, your agent fails most often when trying to execute the SQL it just generated, or when it misinterprets the output from a tool call. This transforms the overwhelming task of debugging a complex agent into a focused, data-driven investigation.\nWith these targeted evaluation strategies for complex systems, you are now ready to operationalize your full evaluation suite.",
+      "token_count": 1238
+    },
+    {
+      "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000009",
+      "contextualized_text": "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering\nPhase 3: Operationalizing evals for continuous improvement\nHaving a suite of trusted evaluators is a major milestone, but it is not the end goal. An evaluator is a tool; a system of evaluation is a process. The final phase is to build a process that creates a flywheel, using your evals to drive continuous product improvement. This system has two distinct components: a safety net to prevent backsliding and a discovery engine to find new problems.",
+      "doc_item_refs": [
+        "#/texts/201"
+      ],
+      "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "headings": [
+        "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+        "Phase 3: Operationalizing evals for continuous improvement"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000009",
+        "chunk_sha256": "82aaaed17344cc7ec7f7cce1f6b5d4ca8672c33995490a8d331e603b582c1ea0",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+        "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+        "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+        "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+        "headings": [
+          "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+          "Phase 3: Operationalizing evals for continuous improvement"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+        "segment": {
+          "first_self_ref": "#/texts/201",
+          "item_count": 1,
+          "last_self_ref": "#/texts/201"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/201"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "Having a suite of trusted evaluators is a major milestone, but it is not the end goal. An evaluator is a tool; a system of evaluation is a process. The final phase is to build a process that creates a flywheel, using your evals to drive continuous product improvement. This system has two distinct components: a safety net to prevent backsliding and a discovery engine to find new problems.",
+      "token_count": 138
+    },
+    {
+      "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000010",
+      "contextualized_text": "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering\nPhase 3: Operationalizing evals for continuous improvement\nThe safety net: Code-based evals in continuous integration (CI)\nYour first goal is to prevent old bugs from reappearing. The best way to do this is by integrating your evaluators into a CI pipeline. The foundation of CI for AI is a\n**golden dataset**\n, a curated collection of examples that represent the most important scenarios for your product. This is not a random sample of production data; it is a purpose-built stress test. It should include examples covering your core features, challenging edge cases you discovered during error analysis, and, most importantly, a regression test for every significant bug you have fixed.\nOn every code or prompt change, your CI pipeline runs the system against this golden dataset and checks the outputs with your fast, deterministic, code-based evaluators. If any check fails, the build breaks, and the regressive change is blocked from going to production.\nIt is crucial to understand what this safety net does and does not guarantee. A passing CI build means you have not reintroduced known failures. It is a signal of\n*stability*\n, not overall production quality.",
+      "doc_item_refs": [
+        "#/texts/203",
+        "#/texts/204",
+        "#/texts/205",
+        "#/texts/206",
+        "#/texts/207",
+        "#/texts/208",
+        "#/texts/209"
+      ],
+      "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "headings": [
+        "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+        "Phase 3: Operationalizing evals for continuous improvement",
+        "The safety net: Code-based evals in continuous integration (CI)"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000010",
+        "chunk_sha256": "73e637e282bbd95e058012c272f556c2ad6c33f1cf1462dae7adb96c96e87636",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+        "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+        "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+        "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+        "headings": [
+          "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+          "Phase 3: Operationalizing evals for continuous improvement",
+          "The safety net: Code-based evals in continuous integration (CI)"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+        "segment": {
+          "first_self_ref": "#/texts/203",
+          "item_count": 7,
+          "last_self_ref": "#/texts/209"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/203",
+          "#/texts/204",
+          "#/texts/205",
+          "#/texts/206",
+          "#/texts/207",
+          "#/texts/208",
+          "#/texts/209"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "Your first goal is to prevent old bugs from reappearing. The best way to do this is by integrating your evaluators into a CI pipeline. The foundation of CI for AI is a\n**golden dataset**\n, a curated collection of examples that represent the most important scenarios for your product. This is not a random sample of production data; it is a purpose-built stress test. It should include examples covering your core features, challenging edge cases you discovered during error analysis, and, most importantly, a regression test for every significant bug you have fixed.\nOn every code or prompt change, your CI pipeline runs the system against this golden dataset and checks the outputs with your fast, deterministic, code-based evaluators. If any check fails, the build breaks, and the regressive change is blocked from going to production.\nIt is crucial to understand what this safety net does and does not guarantee. A passing CI build means you have not reintroduced known failures. It is a signal of\n*stability*\n, not overall production quality.",
+      "token_count": 283
+    },
+    {
+      "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000011",
+      "contextualized_text": "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering\nPhase 3: Operationalizing evals for continuous improvement\nThe discovery engine: LLM-as-a-judge and guardrail evals in production\nWhile CI protects you from “known unknowns,” production is where you find the “unknown unknowns.” Your production monitoring system is a discovery engine for new failure modes. The process begins with comprehensive logging. You should log the entire trace of the interaction: the user input, all intermediate steps and tool calls, and the final output.\nYou then run your validated evaluators on a sample of these traces. Since many of your most important evaluators—especially the LLM judges—may be too slow or expensive to run in real time, this is typically done\n**asynchronously**\n. The results feed into a monitoring dashboard, where you track your key quality metrics over time. By using the TPR and TNR you calculated for your judges, you can even statistically correct their raw outputs to get a more accurate estimate of your system’s true success rate.\nFor critical, high-impact failures, you can use a special type of synchronous evaluator called a\n**guardrail**\n. These run in the request path and can block, redact, or regenerate a response before the user ever sees it. Most guardrails are fast, deterministic checks—like regexes, keyword blocklists, or schema validators—because they must add minimal latency. Crucially, they must have a very low false-positive rate; blocking a valid response is a production bug. While less common, an LLM-as-a-judge\n*can*\nbe used as a guardrail, but only if the application’s latency budget allows for it. The decision involves a direct tradeoff: in high-stakes domains like medical advice, the cost of a false negative (letting harmful advice through) may justify using a slower, more powerful judge inline; in creative applications, the cost of a false positive (blocking a valid response) might be too high.",
+      "doc_item_refs": [
+        "#/texts/211",
+        "#/texts/212",
+        "#/texts/213",
+        "#/texts/214",
+        "#/texts/215",
+        "#/texts/216",
+        "#/texts/217",
+        "#/texts/218",
+        "#/texts/219"
+      ],
+      "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "headings": [
+        "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+        "Phase 3: Operationalizing evals for continuous improvement",
+        "The discovery engine: LLM-as-a-judge and guardrail evals in production"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000011",
+        "chunk_sha256": "b47914e07a54cd8142bab0f271006c553c839ca5e6adce7bddb222036a9fca82",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+        "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+        "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+        "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+        "headings": [
+          "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+          "Phase 3: Operationalizing evals for continuous improvement",
+          "The discovery engine: LLM-as-a-judge and guardrail evals in production"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+        "segment": {
+          "first_self_ref": "#/texts/211",
+          "item_count": 9,
+          "last_self_ref": "#/texts/219"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/211",
+          "#/texts/212",
+          "#/texts/213",
+          "#/texts/214",
+          "#/texts/215",
+          "#/texts/216",
+          "#/texts/217",
+          "#/texts/218",
+          "#/texts/219"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "While CI protects you from “known unknowns,” production is where you find the “unknown unknowns.” Your production monitoring system is a discovery engine for new failure modes. The process begins with comprehensive logging. You should log the entire trace of the interaction: the user input, all intermediate steps and tool calls, and the final output.\nYou then run your validated evaluators on a sample of these traces. Since many of your most important evaluators—especially the LLM judges—may be too slow or expensive to run in real time, this is typically done\n**asynchronously**\n. The results feed into a monitoring dashboard, where you track your key quality metrics over time. By using the TPR and TNR you calculated for your judges, you can even statistically correct their raw outputs to get a more accurate estimate of your system’s true success rate.\nFor critical, high-impact failures, you can use a special type of synchronous evaluator called a\n**guardrail**\n. These run in the request path and can block, redact, or regenerate a response before the user ever sees it. Most guardrails are fast, deterministic checks—like regexes, keyword blocklists, or schema validators—because they must add minimal latency. Crucially, they must have a very low false-positive rate; blocking a valid response is a production bug. While less common, an LLM-as-a-judge\n*can*\nbe used as a guardrail, but only if the application’s latency budget allows for it. The decision involves a direct tradeoff: in high-stakes domains like medical advice, the cost of a false negative (letting harmful advice through) may justify using a slower, more powerful judge inline; in creative applications, the cost of a false positive (blocking a valid response) might be too high.",
+      "token_count": 470
+    },
+    {
+      "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000012",
+      "contextualized_text": "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering\nPhase 3: Operationalizing evals for continuous improvement\nClosing the loop: The improvement flywheel\nYour CI safety net and your production discovery engine work together to create a powerful improvement loop. When your production monitoring flags a new or drifting failure mode, it triggers a new round of error analysis. For example, you might notice a spike in location ambiguity failures after launching a new feature. A manual review of the flagged traces reveals the model is confusing “West Berkeley” with the (non-existent) “Berkeley West.”\nThis discovery feeds back into the development process in two ways. First, you improve the product itself, perhaps by refining a prompt to better handle directional qualifiers. Second, and just as important, you improve your evaluation artifacts. You add the West Berkeley example to your CI golden dataset. Now any future change that reintroduces this specific confusion will be automatically caught.\nThis flywheel—monitor, analyze, improve, deploy—is the engine of AI product quality. It ensures that every failure, once discovered, makes your system permanently smarter and more robust.",
+      "doc_item_refs": [
+        "#/texts/221",
+        "#/texts/222",
+        "#/texts/223"
+      ],
+      "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "headings": [
+        "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+        "Phase 3: Operationalizing evals for continuous improvement",
+        "Closing the loop: The improvement flywheel"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000012",
+        "chunk_sha256": "2d2bc11d7ebde7834296b98265f805c97386ce1170602e51bfab0753200a2dc2",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+        "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+        "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+        "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+        "headings": [
+          "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+          "Phase 3: Operationalizing evals for continuous improvement",
+          "Closing the loop: The improvement flywheel"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+        "segment": {
+          "first_self_ref": "#/texts/221",
+          "item_count": 3,
+          "last_self_ref": "#/texts/223"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/221",
+          "#/texts/222",
+          "#/texts/223"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "Your CI safety net and your production discovery engine work together to create a powerful improvement loop. When your production monitoring flags a new or drifting failure mode, it triggers a new round of error analysis. For example, you might notice a spike in location ambiguity failures after launching a new feature. A manual review of the flagged traces reveals the model is confusing “West Berkeley” with the (non-existent) “Berkeley West.”\nThis discovery feeds back into the development process in two ways. First, you improve the product itself, perhaps by refining a prompt to better handle directional qualifiers. Second, and just as important, you improve your evaluation artifacts. You add the West Berkeley example to your CI golden dataset. Now any future change that reintroduces this specific confusion will be automatically caught.\nThis flywheel—monitor, analyze, improve, deploy—is the engine of AI product quality. It ensures that every failure, once discovered, makes your system permanently smarter and more robust.",
+      "token_count": 259
+    },
+    {
+      "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000013",
+      "contextualized_text": "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering\nEffective evaluation systems are a process, not a dashboard\nBuilding an evaluation system that actually improves your AI product requires a shift in mindset: away from a focus on tools and generic scores, and toward a rigorous, human-centered process that identifies and addresses issues that actually matter.\nThis process begins with error analysis to find the real problems in your product, not by adopting generic metrics. It relies on a single domain expert and clear, binary labels to establish a consistent quality bar. The process demands the right tool for each job—a cheap, fast code-based check for objective rules and a carefully validated LLM-as-a-judge for subjective nuance. Finally, it operationalizes these evaluators within a CI/CD flywheel, creating a system that can help you spot bugs faster.\nPrompting is just one small part of building a great AI product. The real competitive advantage comes from building a deep understanding of your system’s failures through a robust evaluation lifecycle. This is what gives your team the confidence to iterate quickly and ship an AI product that consistently delivers value.",
+      "doc_item_refs": [
+        "#/texts/225",
+        "#/texts/226",
+        "#/texts/227"
+      ],
+      "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "headings": [
+        "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+        "Effective evaluation systems are a process, not a dashboard"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000013",
+        "chunk_sha256": "6425ca7e2ff5b244cddea5a2397cd56a2d66d9185435cbe8f1e24ff0c2f233df",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+        "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+        "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+        "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+        "headings": [
+          "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+          "Effective evaluation systems are a process, not a dashboard"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+        "segment": {
+          "first_self_ref": "#/texts/225",
+          "item_count": 3,
+          "last_self_ref": "#/texts/227"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/225",
+          "#/texts/226",
+          "#/texts/227"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "Building an evaluation system that actually improves your AI product requires a shift in mindset: away from a focus on tools and generic scores, and toward a rigorous, human-centered process that identifies and addresses issues that actually matter.\nThis process begins with error analysis to find the real problems in your product, not by adopting generic metrics. It relies on a single domain expert and clear, binary labels to establish a consistent quality bar. The process demands the right tool for each job—a cheap, fast code-based check for objective rules and a carefully validated LLM-as-a-judge for subjective nuance. Finally, it operationalizes these evaluators within a CI/CD flywheel, creating a system that can help you spot bugs faster.\nPrompting is just one small part of building a great AI product. The real competitive advantage comes from building a deep understanding of your system’s failures through a robust evaluation lifecycle. This is what gives your team the confidence to iterate quickly and ship an AI product that consistently delivers value.",
+      "token_count": 264
+    },
+    {
+      "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000014",
+      "contextualized_text": "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering\nQuestions\nIt is impossible to explain everything about evals in a single post. Hamel and Shreya have documented the most frequent questions that people have about evals\n[here](https://hamel.dev/blog/posts/evals-faq/)\n(\n[PDF version here](https://hamel.dev/blog/posts/evals-faq/evals-faq.pdf)\n).\n*Thanks,*\n[*Hamel*](https://www.linkedin.com/in/hamelhusain/)\n*and*\n[*Shreya*](https://www.linkedin.com/in/shrshnk/)\n*! For more, check out*\n[*their course*](https://bit.ly/4myp27m)\n*—and get 35% off using code LENNYSLIST (the largest discount they’ve ever offered).*\n*Have a fulfilling and productive week 🙏*\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/229",
+        "#/texts/230",
+        "#/texts/231",
+        "#/texts/232",
+        "#/texts/233",
+        "#/texts/234",
+        "#/texts/235",
+        "#/texts/236",
+        "#/texts/237",
+        "#/texts/238",
+        "#/texts/239",
+        "#/texts/240",
+        "#/texts/241",
+        "#/texts/242",
+        "#/texts/243",
+        "#/texts/244",
+        "#/texts/245",
+        "#/texts/246",
+        "#/texts/247",
+        "#/texts/248",
+        "#/texts/249",
+        "#/texts/250"
+      ],
+      "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+      "headings": [
+        "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+        "Questions"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md#chunk=000014",
+        "chunk_sha256": "2b64bed92b8d5a7e0e9e4e061a6ce02097df78cc3d475e2591996287161b69c6",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+        "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+        "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+        "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+        "headings": [
+          "Building eval systems that improve your AI product — A practical guide to moving beyond generic scores and measuring what matters | 2025-09-09 | Tags: design, ai, analytics, leadership, newsletter, engineering",
+          "Questions"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+        "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+        "segment": {
+          "first_self_ref": "#/texts/229",
+          "item_count": 22,
+          "last_self_ref": "#/texts/250"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/229",
+          "#/texts/230",
+          "#/texts/231",
+          "#/texts/232",
+          "#/texts/233",
+          "#/texts/234",
+          "#/texts/235",
+          "#/texts/236",
+          "#/texts/237",
+          "#/texts/238",
+          "#/texts/239",
+          "#/texts/240",
+          "#/texts/241",
+          "#/texts/242",
+          "#/texts/243",
+          "#/texts/244",
+          "#/texts/245",
+          "#/texts/246",
+          "#/texts/247",
+          "#/texts/248",
+          "#/texts/249",
+          "#/texts/250"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "It is impossible to explain everything about evals in a single post. Hamel and Shreya have documented the most frequent questions that people have about evals\n[here](https://hamel.dev/blog/posts/evals-faq/)\n(\n[PDF version here](https://hamel.dev/blog/posts/evals-faq/evals-faq.pdf)\n).\n*Thanks,*\n[*Hamel*](https://www.linkedin.com/in/hamelhusain/)\n*and*\n[*Shreya*](https://www.linkedin.com/in/shrshnk/)\n*! For more, check out*\n[*their course*](https://bit.ly/4myp27m)\n*—and get 35% off using code LENNYSLIST (the largest discount they’ve ever offered).*\n*Have a fulfilling and productive week 🙏*\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "token_count": 405
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.docling.json",
+  "docling_sha256": "025ad801ec527c84292ed2f88ecce698c617ec46ccbed809251867a4cae31c96",
+  "document_id": "02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+  "enhanced_sha256": "9d7e0582ba72e7dae41c661da84dcd97e7aa6f53eae354f1c57c81d2241d28c8",
+  "fact_document_path": "chunks/v2/02-newsletters/building-eval-systems-that-improve-your-ai-product.chunks.json",
+  "metadata": {
+    "date": "2025-09-09",
+    "subtitle": "A practical guide to moving beyond generic scores and measuring what matters",
+    "tags": [
+      "design",
+      "ai",
+      "analytics",
+      "leadership",
+      "newsletter",
+      "engineering"
+    ],
+    "title": "Building eval systems that improve your AI product",
+    "type": "newsletter",
+    "word_count": 4662
+  },
+  "raw_path": "corpus/raw/02-newsletters/building-eval-systems-that-improve-your-ai-product.md",
+  "raw_sha256": "da86917de6ccecda2d3ca2c19fc54a14bb9b2b95e468bc5690a22b1f034995c3",
+  "schema_version": "1",
+  "title": "Building eval systems that improve your AI product"
+}

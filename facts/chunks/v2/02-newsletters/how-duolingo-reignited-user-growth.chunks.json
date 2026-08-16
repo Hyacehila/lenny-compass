@@ -1,0 +1,1163 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000000",
+      "contextualized_text": "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics\n*👋 Hey,*\n[*Lenny*](https://twitter.com/lennysan)\n*here! Welcome to this month’s ✨*\n***free edition***\n*✨ of Lenny’s Newsletter. Each week I humbly tackle reader questions about product, growth, working with humans, and anything else that’s stressing you out about work.*\n*If you’re not a subscriber, here’s what you missed this month:*\n1. [*Growth inflections*](https://www.lennysnewsletter.com/p/growth-inflections)\n2. [*How to be prepared for layoffs*](https://www.lennysnewsletter.com/p/how-to-be-better-prepared-for-layoffs)\n3. [*How Coda builds product*](https://www.lennysnewsletter.com/p/how-coda-builds-product)\n*Subscribe to get access to these posts, and every post.*\nI was at a small event a few months back where\n[Jorge Mazal](https://www.linkedin.com/in/jorgemazal/)\n(former CPO of Duolingo) shared the story behind Duolingo’s growth reaccelerating. I was captivated. I’ve never seen a growth story like this before—4.5x growth for a mature product, driven by a small handful of product changes, rooted in an innovative growth model, and explained in such actionable detail. I asked Jorge if he’d be willing to share (and expand on) the story with a broader audience, and I’m so happy he agreed. Many products already look to Duolingo for inspiration, and I suspect this story will only increase that trend. Enjoy!\n*Follow Jorge for more on*\n[*LinkedIn*](https://www.linkedin.com/in/jorgemazal/)\n*and*\n[*Twitter*](https://twitter.com/jorgemazal)\n*.*\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nI joined Duolingo as the Head of Product in late 2017. Duolingo was already the most downloaded education app in the world, with hundreds of millions of users, fulfilling its mission to “develop the best education in the world and make it universally available.” However, user growth was slowing down. By mid-2018, daily active users (DAU) were growing at a single-digit rate year-over-year, which was troubling, given the explosive growth the company had seen in the past. This was a problem for a startup with investors anxious to see fast monetization growth.\nIn this post I’ll cover some of our early failures and then our first big wins that helped us turn around growth, including launching leaderboards, refocusing on push notifications, and optimizing the “streak” feature. These, together with several other efforts across Product and Marketing, helped us grow DAU by 4.5x over four years. Robust organic user growth supercharged Duolingo toward its 2021 IPO.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nThis article is an in-depth look into that journey. It is my hope that sharing this work will help others find their own growth breakthroughs faster.",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/165",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/166",
+        "#/texts/22",
+        "#/texts/23"
+      ],
+      "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+      "headings": [
+        "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics"
+      ],
+      "images": [
+        {
+          "caption": "Image from How Duolingo reignited user growth",
+          "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/01d58ab8-30d0-4dab-bf99-772047443e44_8000x4000.png"
+        },
+        {
+          "caption": "Image from How Duolingo reignited user growth",
+          "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/9cf69f9c-ebae-4578-8383-d3bc752b40a2_1410x556.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000000",
+        "chunk_sha256": "0811d5d6bcb385c2901911afff9e7d54954adc72a2d2b8cef76b86118718e1de",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-duolingo-reignited-user-growth.docling.json",
+        "docling_sha256": "a6c9b0493efe898c30dabcb5937faa03a92f13d6ccc74ad23779b4e740bf146a",
+        "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_sha256": "c4bac188a507e4dba2639944b519a8e0c052d34a9a150de2a2ed231e616d0fcd",
+        "fact_document_path": "chunks/v2/02-newsletters/how-duolingo-reignited-user-growth.chunks.json",
+        "headings": [
+          "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics"
+        ],
+        "images": [
+          {
+            "caption": "Image from How Duolingo reignited user growth",
+            "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/01d58ab8-30d0-4dab-bf99-772047443e44_8000x4000.png"
+          },
+          {
+            "caption": "Image from How Duolingo reignited user growth",
+            "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/9cf69f9c-ebae-4578-8383-d3bc752b40a2_1410x556.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "raw_sha256": "75e15614245dcf3b4670222f8c765e876d4e2bef41fa001f0ed0a184d5d4e821",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 25,
+          "last_self_ref": "#/texts/23"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/165",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/166",
+          "#/texts/22",
+          "#/texts/23"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "*👋 Hey,*\n[*Lenny*](https://twitter.com/lennysan)\n*here! Welcome to this month’s ✨*\n***free edition***\n*✨ of Lenny’s Newsletter. Each week I humbly tackle reader questions about product, growth, working with humans, and anything else that’s stressing you out about work.*\n*If you’re not a subscriber, here’s what you missed this month:*\n1. [*Growth inflections*](https://www.lennysnewsletter.com/p/growth-inflections)\n2. [*How to be prepared for layoffs*](https://www.lennysnewsletter.com/p/how-to-be-better-prepared-for-layoffs)\n3. [*How Coda builds product*](https://www.lennysnewsletter.com/p/how-coda-builds-product)\n*Subscribe to get access to these posts, and every post.*\nI was at a small event a few months back where\n[Jorge Mazal](https://www.linkedin.com/in/jorgemazal/)\n(former CPO of Duolingo) shared the story behind Duolingo’s growth reaccelerating. I was captivated. I’ve never seen a growth story like this before—4.5x growth for a mature product, driven by a small handful of product changes, rooted in an innovative growth model, and explained in such actionable detail. I asked Jorge if he’d be willing to share (and expand on) the story with a broader audience, and I’m so happy he agreed. Many products already look to Duolingo for inspiration, and I suspect this story will only increase that trend. Enjoy!\n*Follow Jorge for more on*\n[*LinkedIn*](https://www.linkedin.com/in/jorgemazal/)\n*and*\n[*Twitter*](https://twitter.com/jorgemazal)\n*.*\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nI joined Duolingo as the Head of Product in late 2017. Duolingo was already the most downloaded education app in the world, with hundreds of millions of users, fulfilling its mission to “develop the best education in the world and make it universally available.” However, user growth was slowing down. By mid-2018, daily active users (DAU) were growing at a single-digit rate year-over-year, which was troubling, given the explosive growth the company had seen in the past. This was a problem for a startup with investors anxious to see fast monetization growth.\nIn this post I’ll cover some of our early failures and then our first big wins that helped us turn around growth, including launching leaderboards, refocusing on push notifications, and optimizing the “streak” feature. These, together with several other efforts across Product and Marketing, helped us grow DAU by 4.5x over four years. Robust organic user growth supercharged Duolingo toward its 2021 IPO.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nThis article is an in-depth look into that journey. It is my hope that sharing this work will help others find their own growth breakthroughs faster.",
+      "token_count": 796
+    },
+    {
+      "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000001",
+      "contextualized_text": "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics\nPhase 1: Increasing gamification\nOur first attempt at reigniting growth was focused on improving retention, i.e. fixing our “leaky bucket” problem. We prioritized working on retention over new-user acquisition because all of our new-user acquisition was organic, and, at the time, we didn’t have an obvious lever to pull to supercharge that. Also, some of us had a suspicion that we could improve retention through gamification. There were two main reasons why this felt like the right approach to me. First, Duolingo had already implemented several gamification mechanics successfully, such as the progression system on the home screen, streaks, and an achievements system. And second, top digital games at the time had much higher retention rates than our product, which I took as evidence that we hadn’t yet reached the ceiling for gamification’s impact.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nArmed with a short presentation I co-created with our chief designer, we were able to get just enough buy-in from the rest of the executive team to create a new team, the Gamification Team. The team consisted of an engineering manager, an engineer, a designer, an APM, and me.\nBut there was one small issue: we had no idea which incremental gamification mechanics would work for Duolingo.\nOur team at the time was hooked onagame calledGardenscapes*,* a mobile, match-3 puzzle game similar to Candy Crush*.* This mobile game became our first inspiration.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nAs we looked at the different game mechanics in Gardenscapes, we didn’t really know what we were looking for—we just knew that Gardenscapes seemed stickier than Duolingo, and we saw several parallels. A three-minute Duolingo lesson felt similar to a Gardenscapes match-3 level, and Duolingo and Gardenscapes both used progress bars to provide visual feedback on how close the user was to completing the session. Gardenscapes, however, paired its progress bar with a moves counter, which Duolingo didn’t do. The moves counter allowed users only a finite number of moves to complete a level, which added a sense of scarcity and urgency to the gameplay. We decided to incorporate the counter mechanic into our product. We gave our users a finite number of chances to answer questions correctly before they had to start the lesson over.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nIt took our team a couple of months of work to add the counter. With the release of the update, I expectantly waited for an unmitigated success. Depressingly, the result of all that effort was completely neutral. No change to our retention. No increase in DAU. We hardly got any user feedback at all. I was deflated. The greatest effect the initiative had was on our team. After the results came out, we quickly fell into dissension. Some wanted to continue iterating on the idea, while others wanted to pivot. The team almost immediately (and dramatically) disbanded, and the idea was abandoned. It was pretty awful. The one silver lining of this failure was that I learned a lot about the company culture and about how to improve my personal leadership style—though that’s for a different article.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth",
+      "doc_item_refs": [
+        "#/texts/25",
+        "#/texts/167",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/168",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/169",
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/170",
+        "#/texts/34"
+      ],
+      "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+      "headings": [
+        "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+        "Phase 1: Increasing gamification"
+      ],
+      "images": [
+        {
+          "caption": "Image from How Duolingo reignited user growth",
+          "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/d8463cc2-78d0-4d66-a3f9-fab80364f8e0_994x778.png"
+        },
+        {
+          "caption": "Image from How Duolingo reignited user growth",
+          "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/9030159b-ede9-4d3c-9f99-d22f4c7df4f3_1280x720.png"
+        },
+        {
+          "caption": "Image from How Duolingo reignited user growth",
+          "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/ee942fef-feab-4796-bda7-b01b16adb8da_1600x951.png"
+        },
+        {
+          "caption": "Image from How Duolingo reignited user growth",
+          "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/be863857-c1ed-4e63-99e1-93358e33cf2a_400x300.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000001",
+        "chunk_sha256": "17b76889803f3dedcb07d3c8ca323638049c180aa5ca146077d2e5a0576f2f58",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-duolingo-reignited-user-growth.docling.json",
+        "docling_sha256": "a6c9b0493efe898c30dabcb5937faa03a92f13d6ccc74ad23779b4e740bf146a",
+        "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_sha256": "c4bac188a507e4dba2639944b519a8e0c052d34a9a150de2a2ed231e616d0fcd",
+        "fact_document_path": "chunks/v2/02-newsletters/how-duolingo-reignited-user-growth.chunks.json",
+        "headings": [
+          "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+          "Phase 1: Increasing gamification"
+        ],
+        "images": [
+          {
+            "caption": "Image from How Duolingo reignited user growth",
+            "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/d8463cc2-78d0-4d66-a3f9-fab80364f8e0_994x778.png"
+          },
+          {
+            "caption": "Image from How Duolingo reignited user growth",
+            "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/9030159b-ede9-4d3c-9f99-d22f4c7df4f3_1280x720.png"
+          },
+          {
+            "caption": "Image from How Duolingo reignited user growth",
+            "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/ee942fef-feab-4796-bda7-b01b16adb8da_1600x951.png"
+          },
+          {
+            "caption": "Image from How Duolingo reignited user growth",
+            "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/be863857-c1ed-4e63-99e1-93358e33cf2a_400x300.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "raw_sha256": "75e15614245dcf3b4670222f8c765e876d4e2bef41fa001f0ed0a184d5d4e821",
+        "segment": {
+          "first_self_ref": "#/texts/25",
+          "item_count": 14,
+          "last_self_ref": "#/texts/34"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/25",
+          "#/texts/167",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/168",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/169",
+          "#/texts/32",
+          "#/texts/33",
+          "#/texts/170",
+          "#/texts/34"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "Our first attempt at reigniting growth was focused on improving retention, i.e. fixing our “leaky bucket” problem. We prioritized working on retention over new-user acquisition because all of our new-user acquisition was organic, and, at the time, we didn’t have an obvious lever to pull to supercharge that. Also, some of us had a suspicion that we could improve retention through gamification. There were two main reasons why this felt like the right approach to me. First, Duolingo had already implemented several gamification mechanics successfully, such as the progression system on the home screen, streaks, and an achievements system. And second, top digital games at the time had much higher retention rates than our product, which I took as evidence that we hadn’t yet reached the ceiling for gamification’s impact.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nArmed with a short presentation I co-created with our chief designer, we were able to get just enough buy-in from the rest of the executive team to create a new team, the Gamification Team. The team consisted of an engineering manager, an engineer, a designer, an APM, and me.\nBut there was one small issue: we had no idea which incremental gamification mechanics would work for Duolingo.\nOur team at the time was hooked onagame calledGardenscapes*,* a mobile, match-3 puzzle game similar to Candy Crush*.* This mobile game became our first inspiration.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nAs we looked at the different game mechanics in Gardenscapes, we didn’t really know what we were looking for—we just knew that Gardenscapes seemed stickier than Duolingo, and we saw several parallels. A three-minute Duolingo lesson felt similar to a Gardenscapes match-3 level, and Duolingo and Gardenscapes both used progress bars to provide visual feedback on how close the user was to completing the session. Gardenscapes, however, paired its progress bar with a moves counter, which Duolingo didn’t do. The moves counter allowed users only a finite number of moves to complete a level, which added a sense of scarcity and urgency to the gameplay. We decided to incorporate the counter mechanic into our product. We gave our users a finite number of chances to answer questions correctly before they had to start the lesson over.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nIt took our team a couple of months of work to add the counter. With the release of the update, I expectantly waited for an unmitigated success. Depressingly, the result of all that effort was completely neutral. No change to our retention. No increase in DAU. We hardly got any user feedback at all. I was deflated. The greatest effect the initiative had was on our team. After the results came out, we quickly fell into dissension. Some wanted to continue iterating on the idea, while others wanted to pivot. The team almost immediately (and dramatically) disbanded, and the idea was abandoned. It was pretty awful. The one silver lining of this failure was that I learned a lot about the company culture and about how to improve my personal leadership style—though that’s for a different article.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth",
+      "token_count": 802
+    },
+    {
+      "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000002",
+      "contextualized_text": "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics\nPhase 2: Referrals\nFeeling burned after our gamification effort, we completely pivoted away from improving retention and put together a new product team focused on acquiring new users, called the Acquisition Team. At the time, Uber was doing well with user acquisition and had reputedly grown largely because of its referral program. Inspired by this, we created a referral program similar to Uber’s. The reward was a free month of our premium subscription, Super Duolingo (at the time, it was called Duolingo Plus). Seemed like a pretty good offer to us!\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nWe implemented the feature and hoped our second attempt would be more successful. Instead, new users increased by only 3%. It was positive, but not the type of breakthrough we needed. Still, the team doubled down and pushed through, shipping iterations to the referral program and making some other bets, but no avail.\nWhile the team continued to iterate, it became clear to me that we had to find a different approach to tackle our growth problem.",
+      "doc_item_refs": [
+        "#/texts/36",
+        "#/texts/171",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39"
+      ],
+      "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+      "headings": [
+        "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+        "Phase 2: Referrals"
+      ],
+      "images": [
+        {
+          "caption": "Image from How Duolingo reignited user growth",
+          "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c685d30e-1e4b-4ed1-b572-ae980beeaa7f_1600x536.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000002",
+        "chunk_sha256": "7f741af13204c31bf1692ead7d9093788043b97f4a073b5b421cf06e36a995d1",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-duolingo-reignited-user-growth.docling.json",
+        "docling_sha256": "a6c9b0493efe898c30dabcb5937faa03a92f13d6ccc74ad23779b4e740bf146a",
+        "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_sha256": "c4bac188a507e4dba2639944b519a8e0c052d34a9a150de2a2ed231e616d0fcd",
+        "fact_document_path": "chunks/v2/02-newsletters/how-duolingo-reignited-user-growth.chunks.json",
+        "headings": [
+          "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+          "Phase 2: Referrals"
+        ],
+        "images": [
+          {
+            "caption": "Image from How Duolingo reignited user growth",
+            "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c685d30e-1e4b-4ed1-b572-ae980beeaa7f_1600x536.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "raw_sha256": "75e15614245dcf3b4670222f8c765e876d4e2bef41fa001f0ed0a184d5d4e821",
+        "segment": {
+          "first_self_ref": "#/texts/36",
+          "item_count": 5,
+          "last_self_ref": "#/texts/39"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/36",
+          "#/texts/171",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "Feeling burned after our gamification effort, we completely pivoted away from improving retention and put together a new product team focused on acquiring new users, called the Acquisition Team. At the time, Uber was doing well with user acquisition and had reputedly grown largely because of its referral program. Inspired by this, we created a referral program similar to Uber’s. The reward was a free month of our premium subscription, Super Duolingo (at the time, it was called Duolingo Plus). Seemed like a pretty good offer to us!\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nWe implemented the feature and hoped our second attempt would be more successful. Instead, new users increased by only 3%. It was positive, but not the type of breakthrough we needed. Still, the team doubled down and pushed through, shipping iterations to the referral program and making some other bets, but no avail.\nWhile the team continued to iterate, it became clear to me that we had to find a different approach to tackle our growth problem.",
+      "token_count": 287
+    },
+    {
+      "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000003",
+      "contextualized_text": "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics\nTime to regroup\nThe aftermath of these back-to-back failures in only a few months was a period of reflection for me about making better product bets.\nIn hindsight, it became clear why the Gardenscapes moves counter was not a good fit for our product. When you are playing Gardenscapes, each move feels like a strategic decision, because you have to outmaneuver dynamic obstacles to find a path to victory. But strategic decision-making isn’t required to complete a Duolingo lesson—you mostly either know the answer to a question or you don’t. Because there wasn’t any strategy to it, the Duolingo moves counter was simply a boring, tacked-on nuisance. It was the wrong gamification mechanic to adopt into Duolingo. I realized that I had been so focused on the similarities between Gardenscapes and Duolingo that I had failed to account for the importance of the underlying differences.\nIt also did not take long to understand why our referral program did not produce Uber-like success. Referrals work for Uber because riders are paying for rides on a never-ending pay-as-you-go system. A free ride is a constant incentive. For Duolingo, we were trying to incentivize users by offering a free month of Super Duolingo. However, our best and most active users already had Super Duolingo, and we couldn’t give them a free month when they were already in a plan. This meant that our strategy, which needed to rely on our best users, actually excluded them.\nIn both of these situations, we had borrowed successful features from other products, but the wrong way. We had failed to account for how a change in context can impact the success of a feature. I came away from these attempts realizing that I needed a better understanding of how to borrow ideas from other products intelligently. Now when looking to adopt a feature, I ask myself:\n- Why is this feature working in that product?\n- Why might this feature succeed or fail in our context, i.e. will it translate well?\n- What adaptations are necessary to make this feature succeed in our context?\nIn other words, we needed to use better judgment in adapting when adopting. Being more systematic in just this area would have made a big difference in what gamification mechanics we chose to pursue. And we would have probably been dissuaded from focusing on referrals altogether. I was committed to making sure our next attempts would be more methodical. We needed to be better at basing our decisions on data, insights, and foundational principles.",
+      "doc_item_refs": [
+        "#/texts/41",
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/44",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/48"
+      ],
+      "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+      "headings": [
+        "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+        "Time to regroup"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000003",
+        "chunk_sha256": "258122905b4335f4e4ac8fcdf2b03f8ba638a6b37db93c3a8e2f34dfad03c4c1",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-duolingo-reignited-user-growth.docling.json",
+        "docling_sha256": "a6c9b0493efe898c30dabcb5937faa03a92f13d6ccc74ad23779b4e740bf146a",
+        "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_sha256": "c4bac188a507e4dba2639944b519a8e0c052d34a9a150de2a2ed231e616d0fcd",
+        "fact_document_path": "chunks/v2/02-newsletters/how-duolingo-reignited-user-growth.chunks.json",
+        "headings": [
+          "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+          "Time to regroup"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "raw_sha256": "75e15614245dcf3b4670222f8c765e876d4e2bef41fa001f0ed0a184d5d4e821",
+        "segment": {
+          "first_self_ref": "#/texts/41",
+          "item_count": 8,
+          "last_self_ref": "#/texts/48"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/41",
+          "#/texts/42",
+          "#/texts/43",
+          "#/texts/44",
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/48"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "The aftermath of these back-to-back failures in only a few months was a period of reflection for me about making better product bets.\nIn hindsight, it became clear why the Gardenscapes moves counter was not a good fit for our product. When you are playing Gardenscapes, each move feels like a strategic decision, because you have to outmaneuver dynamic obstacles to find a path to victory. But strategic decision-making isn’t required to complete a Duolingo lesson—you mostly either know the answer to a question or you don’t. Because there wasn’t any strategy to it, the Duolingo moves counter was simply a boring, tacked-on nuisance. It was the wrong gamification mechanic to adopt into Duolingo. I realized that I had been so focused on the similarities between Gardenscapes and Duolingo that I had failed to account for the importance of the underlying differences.\nIt also did not take long to understand why our referral program did not produce Uber-like success. Referrals work for Uber because riders are paying for rides on a never-ending pay-as-you-go system. A free ride is a constant incentive. For Duolingo, we were trying to incentivize users by offering a free month of Super Duolingo. However, our best and most active users already had Super Duolingo, and we couldn’t give them a free month when they were already in a plan. This meant that our strategy, which needed to rely on our best users, actually excluded them.\nIn both of these situations, we had borrowed successful features from other products, but the wrong way. We had failed to account for how a change in context can impact the success of a feature. I came away from these attempts realizing that I needed a better understanding of how to borrow ideas from other products intelligently. Now when looking to adopt a feature, I ask myself:\n- Why is this feature working in that product?\n- Why might this feature succeed or fail in our context, i.e. will it translate well?\n- What adaptations are necessary to make this feature succeed in our context?\nIn other words, we needed to use better judgment in adapting when adopting. Being more systematic in just this area would have made a big difference in what gamification mechanics we chose to pursue. And we would have probably been dissuaded from focusing on referrals altogether. I was committed to making sure our next attempts would be more methodical. We needed to be better at basing our decisions on data, insights, and foundational principles.",
+      "token_count": 595
+    },
+    {
+      "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000004",
+      "contextualized_text": "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics\nPhase 3: Using data and models\nDuolingo has always excelled at collecting data, especially in support of A/B testing. But there hadn’t been much effort put into using the data for insights generation. Having seen from the inside how Zynga and MyFitnessPal used data, I felt we could use Duolingo’s data to find a North Star metric and get the breakthrough we needed.\nMy time at Zynga and MyFitnessPal gave us inspiration on how to segment and model our users by engagement level. Zynga separated their users and measured retention based on the following weekly retention metrics:\n- **Current users retention rate (CURR):** The chance a user comes back this week if they came to the product each of the past two weeks\n- **New users retention rate (NURR):** The chance a user comes back this week if they were new to the product last week\n- **Reactivated user retention rates (RURR):** The chance a user comes back this week if they reactivated last week\nLater, when I worked at MyFitnessPal, I found that they had adopted and expanded Zynga’s retention work. They not only used CURR, NURR, and RURR to measure growth but also to model future scenarios. They also added SURR:\n- **Resurrected user retention rate (SURR):** The chance a user comes back this week if they resurrected (from a longer absence) last week\nI hypothesized that we could use these metrics at Duolingo as a starting point to create a more sophisticated model, and use that model to identify a North Star metric. Working with the data scientist and the engineer manager in the Acquisition Team, we came up with the model below. We used the same retention rates as Zynga and MyFitnessPal, but we tweaked from a weekly view to a daily view and we added several more metrics.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nThe blocks, or\n*buckets*\n, represent different user segments with different levels of engagement. And every single user who has ever used the product is in one, and only one, bucket on any given day. That means the buckets in the model are MECE (mutually exclusive, collectively exhaustive) in representing the entire base of users who have ever used Duolingo. The\n*arrows*\nmeasure the movement of users between the buckets (these include CURR, NURR, RURR, and SURR, but evolved into daily retention rates rather than weekly). Combining the buckets and the arrows, the model creates an almost closed-circuit system, with new users being the only break.\nConveniently, the top four buckets of the model add up to DAU. Those buckets are defined as:\n- **New users:** first day of engagement ever in the app\n- **Current users:** engaged today and at least one other time in the prior 6 days\n- **Reactivated users:** first day of engagement after being away for 7-29 days\n- **Resurrected users:** first day of engagement after being away for 30 days or longer\nThe remaining three buckets represent users who were not active today and have different degrees of inactivity.\n- **At-risk WAU:** inactive today, but active in at least one of the prior 6 days\n- At-risk WAU + DAU = WAU\n- **At-risk MAU:** inactive in the past seven days, but active in at least one of the prior 23 days\n- At-risk MAU + WAU = MAU\n- **Dormant users:** inactive in the past 31 days or longer\n- MAU + dormant users =  Total user base\nThe fact that DAU, WAU, and MAU can easily be calculated from these buckets made it easy to model them over time. This is a key feature of the model. Additionally, by manipulating the rates represented by the arrows, we can model the compounding and cumulative impact of moving these rates over time; in other words, the rates are the levers product teams can pull to grow DAU.\nWith the model created, we started taking daily snapshots of data to create a history of how all of these user buckets and retention rates had evolved on a day-by-day basis over the past several years. With this data, we could create a forward-looking model and then perform a sensitivity analysis to predict which levers would have the biggest impact on DAU growth. We ran a simulation for each rate, where we moved a single rate 2% every quarter for three years, holding all the other rates constant.\nBelow are the results of our first simulation. It shows how those small 2% movements on each lever impacted forecasted MAU and DAU.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nWe immediately saw that CURR had a gigantic impact on DAU—5 times the impact of the second-best metric. In hindsight, the CURR finding made sense, because the Current User bucket has an interesting characteristic: current users who stay active return to the same bucket.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nThis produces a compounding effect, which means that CURR is much harder to move, but when it does, it will have a greater impact. Based on this analysis, we knew that CURR was the metric we had to move in order to get that strategic breakthrough we wanted. We decided to create a new team, the Retention Team, with CURR as its North Star metric.\nOne of the biggest benefits of focusing on CURR was deciding not to work on things that seemed paramount before, especially new-user retention. This was a huge mindset shift for a company that had tremendous success spending years running the bulk of its growth experiments on new users first.\nAnother big lesson was seeing the massive gap between how a metric could impact DAU vs. MAU; for example, CURR’s impact on DAU was 6 times its impact on MAU. iWAURR (inactive WAU reactivation rate) was the second-best lever for moving DAU but a distant fourth for moving MAU, behind increasing new and resurrected users. This meant that, at some point, we would still need to figure out new growth vectors for new-user acquisition if we wanted to see substantial MAU improvements. But for the time being, our focus was only on moving DAU, so we prioritized CURR over all other growth levers. And it turned out to be the right choice.",
+      "doc_item_refs": [
+        "#/texts/50",
+        "#/texts/51",
+        "#/texts/52",
+        "#/texts/55",
+        "#/texts/58",
+        "#/texts/61",
+        "#/texts/62",
+        "#/texts/65",
+        "#/texts/172",
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/70",
+        "#/texts/71",
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/76",
+        "#/texts/79",
+        "#/texts/82",
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/89",
+        "#/texts/90",
+        "#/texts/93",
+        "#/texts/94",
+        "#/texts/97",
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/100",
+        "#/texts/173",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/174",
+        "#/texts/103",
+        "#/texts/104",
+        "#/texts/105",
+        "#/texts/106"
+      ],
+      "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+      "headings": [
+        "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+        "Phase 3: Using data and models"
+      ],
+      "images": [
+        {
+          "caption": "Image from How Duolingo reignited user growth",
+          "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c2785b10-a1e1-4f7c-b796-30fce95e2c7d_1600x902.png"
+        },
+        {
+          "caption": "Image from How Duolingo reignited user growth",
+          "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/cc3963cd-00fd-4020-83fa-4567be6b3223_1600x775.png"
+        },
+        {
+          "caption": "Image from How Duolingo reignited user growth",
+          "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000009",
+          "path": null,
+          "self_ref": "#/pictures/9",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/45204e46-e5f0-44ed-a801-b5a56c34954b_1600x678.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000004",
+        "chunk_sha256": "4a46cdc39cf008232c1dc6e3c73f53c386429c5a84a1b2327e7a42624c63ad0c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-duolingo-reignited-user-growth.docling.json",
+        "docling_sha256": "a6c9b0493efe898c30dabcb5937faa03a92f13d6ccc74ad23779b4e740bf146a",
+        "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_sha256": "c4bac188a507e4dba2639944b519a8e0c052d34a9a150de2a2ed231e616d0fcd",
+        "fact_document_path": "chunks/v2/02-newsletters/how-duolingo-reignited-user-growth.chunks.json",
+        "headings": [
+          "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+          "Phase 3: Using data and models"
+        ],
+        "images": [
+          {
+            "caption": "Image from How Duolingo reignited user growth",
+            "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c2785b10-a1e1-4f7c-b796-30fce95e2c7d_1600x902.png"
+          },
+          {
+            "caption": "Image from How Duolingo reignited user growth",
+            "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/cc3963cd-00fd-4020-83fa-4567be6b3223_1600x775.png"
+          },
+          {
+            "caption": "Image from How Duolingo reignited user growth",
+            "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000009",
+            "path": null,
+            "self_ref": "#/pictures/9",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/45204e46-e5f0-44ed-a801-b5a56c34954b_1600x678.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "raw_sha256": "75e15614245dcf3b4670222f8c765e876d4e2bef41fa001f0ed0a184d5d4e821",
+        "segment": {
+          "first_self_ref": "#/texts/50",
+          "item_count": 38,
+          "last_self_ref": "#/texts/106"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/50",
+          "#/texts/51",
+          "#/texts/52",
+          "#/texts/55",
+          "#/texts/58",
+          "#/texts/61",
+          "#/texts/62",
+          "#/texts/65",
+          "#/texts/172",
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69",
+          "#/texts/70",
+          "#/texts/71",
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/76",
+          "#/texts/79",
+          "#/texts/82",
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/89",
+          "#/texts/90",
+          "#/texts/93",
+          "#/texts/94",
+          "#/texts/97",
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/100",
+          "#/texts/173",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/174",
+          "#/texts/103",
+          "#/texts/104",
+          "#/texts/105",
+          "#/texts/106"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "Duolingo has always excelled at collecting data, especially in support of A/B testing. But there hadn’t been much effort put into using the data for insights generation. Having seen from the inside how Zynga and MyFitnessPal used data, I felt we could use Duolingo’s data to find a North Star metric and get the breakthrough we needed.\nMy time at Zynga and MyFitnessPal gave us inspiration on how to segment and model our users by engagement level. Zynga separated their users and measured retention based on the following weekly retention metrics:\n- **Current users retention rate (CURR):** The chance a user comes back this week if they came to the product each of the past two weeks\n- **New users retention rate (NURR):** The chance a user comes back this week if they were new to the product last week\n- **Reactivated user retention rates (RURR):** The chance a user comes back this week if they reactivated last week\nLater, when I worked at MyFitnessPal, I found that they had adopted and expanded Zynga’s retention work. They not only used CURR, NURR, and RURR to measure growth but also to model future scenarios. They also added SURR:\n- **Resurrected user retention rate (SURR):** The chance a user comes back this week if they resurrected (from a longer absence) last week\nI hypothesized that we could use these metrics at Duolingo as a starting point to create a more sophisticated model, and use that model to identify a North Star metric. Working with the data scientist and the engineer manager in the Acquisition Team, we came up with the model below. We used the same retention rates as Zynga and MyFitnessPal, but we tweaked from a weekly view to a daily view and we added several more metrics.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nThe blocks, or\n*buckets*\n, represent different user segments with different levels of engagement. And every single user who has ever used the product is in one, and only one, bucket on any given day. That means the buckets in the model are MECE (mutually exclusive, collectively exhaustive) in representing the entire base of users who have ever used Duolingo. The\n*arrows*\nmeasure the movement of users between the buckets (these include CURR, NURR, RURR, and SURR, but evolved into daily retention rates rather than weekly). Combining the buckets and the arrows, the model creates an almost closed-circuit system, with new users being the only break.\nConveniently, the top four buckets of the model add up to DAU. Those buckets are defined as:\n- **New users:** first day of engagement ever in the app\n- **Current users:** engaged today and at least one other time in the prior 6 days\n- **Reactivated users:** first day of engagement after being away for 7-29 days\n- **Resurrected users:** first day of engagement after being away for 30 days or longer\nThe remaining three buckets represent users who were not active today and have different degrees of inactivity.\n- **At-risk WAU:** inactive today, but active in at least one of the prior 6 days\n- At-risk WAU + DAU = WAU\n- **At-risk MAU:** inactive in the past seven days, but active in at least one of the prior 23 days\n- At-risk MAU + WAU = MAU\n- **Dormant users:** inactive in the past 31 days or longer\n- MAU + dormant users =  Total user base\nThe fact that DAU, WAU, and MAU can easily be calculated from these buckets made it easy to model them over time. This is a key feature of the model. Additionally, by manipulating the rates represented by the arrows, we can model the compounding and cumulative impact of moving these rates over time; in other words, the rates are the levers product teams can pull to grow DAU.\nWith the model created, we started taking daily snapshots of data to create a history of how all of these user buckets and retention rates had evolved on a day-by-day basis over the past several years. With this data, we could create a forward-looking model and then perform a sensitivity analysis to predict which levers would have the biggest impact on DAU growth. We ran a simulation for each rate, where we moved a single rate 2% every quarter for three years, holding all the other rates constant.\nBelow are the results of our first simulation. It shows how those small 2% movements on each lever impacted forecasted MAU and DAU.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nWe immediately saw that CURR had a gigantic impact on DAU—5 times the impact of the second-best metric. In hindsight, the CURR finding made sense, because the Current User bucket has an interesting characteristic: current users who stay active return to the same bucket.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nThis produces a compounding effect, which means that CURR is much harder to move, but when it does, it will have a greater impact. Based on this analysis, we knew that CURR was the metric we had to move in order to get that strategic breakthrough we wanted. We decided to create a new team, the Retention Team, with CURR as its North Star metric.\nOne of the biggest benefits of focusing on CURR was deciding not to work on things that seemed paramount before, especially new-user retention. This was a huge mindset shift for a company that had tremendous success spending years running the bulk of its growth experiments on new users first.\nAnother big lesson was seeing the massive gap between how a metric could impact DAU vs. MAU; for example, CURR’s impact on DAU was 6 times its impact on MAU. iWAURR (inactive WAU reactivation rate) was the second-best lever for moving DAU but a distant fourth for moving MAU, behind increasing new and resurrected users. This meant that, at some point, we would still need to figure out new growth vectors for new-user acquisition if we wanted to see substantial MAU improvements. But for the time being, our focus was only on moving DAU, so we prioritized CURR over all other growth levers. And it turned out to be the right choice.",
+      "token_count": 1454
+    },
+    {
+      "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000005",
+      "contextualized_text": "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics\nLeaderboards vector\nWith this clear directive, we looked at our historical model data and at our A/B tests going back a few years to see if we had inadvertently done anything that had moved CURR in the past. Surprisingly, we hadn’t. In fact, CURR had not moved in years. We had to figure out our first steps to move CURR based on first principles.\nI still thought gamification was a good place to start when trying to improve retention. Our failure with the Gardenscapes-style moves counter hadn’t actually disproved any of the original reasons why we believed gamification still had upside for Duolingo—we had only learned that the moves counter was a clumsy attempt at it. This time, we would be more methodical and intelligent about features we added or borrowed. We made sure to apply the lessons from our prior efforts with gamification.\nAfter some consideration, we decided to bet on leaderboards. Here’s why and how. Duolingo already had a leaderboard for users to compete with their friends and family, but it wasn’t particularly effective. Based on my experience at Zynga, I felt that there was a better way. When I started working on Zynga’s FarmVille 2 game, it included a leaderboard similar to Duolingo’s existing leaderboard, where users competed with their friends. I had hypothesized based on my personal experience as a player that the closeness of the competitor’s engagement would be more important than the closeness of personal relationships. I thought this would be especially true in a mature product where many users’ friends weren’t active anymore. From our testing at Zynga, that idea turned out to be true. Based on this, I felt a leaderboard system, similar to what I had helped design at Zynga, would succeed in the context of our product.\nFarmVille 2’s leaderboard also included a “league” system. Beyond getting to the top of a weekly leaderboard, users had the opportunity to move through a series of league levels (e.g. from the Bronze league to the Silver league to the Gold league). Leagues provided users with a greater sense of progress and reward, an integral element in game design. They also increased engagement over time, since engaged users move up to more competitive leagues week after week. We felt this feature would translate well to Duolingo’s existing product because it tapped directly into the common human motivators of competitiveness and progression.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nNot all aspects of the FarmVille 2 leaderboards would translate well to Duolingo, though. We had to use our judgment to adapt this gaming mechanic to Duolingo’s context. In FarmVille 2, competing in the leaderboard required completing additional kinds of tasks on top of the core gameplay. That was something that we purposefully left out. In the Duolingo context, more tasks would only add unnecessary complexity to language learning. We deliberately made our leaderboard as casual and frictionless as possible; users were automatically opted in and could progress to the top of the first league by merely engaging consistently in their regular language study. By keeping the game mechanic exciting, but making it simpler than in FarmVille 2, we felt like we had struck the right balance of adopting and adapting.\nThe leaderboards feature had a huge and almost immediate impact on our metrics. Overall learning time increased by 17%, and the number of highly engaged learners (users who spend at least 1 hour a day for 5 days a week) tripled. At this time, we hadn’t yet figured out how to calculate statistical significance for CURR, but we saw that our traditional retention metrics (D1, D7, etc.) improved materially and with statistical significance. Going forward, the leaderboards feature became a vector for improving metrics, and teams continue to optimize the feature to this day. Also importantly, the leaderboard was the Retention Team’s first breakthrough!",
+      "doc_item_refs": [
+        "#/texts/108",
+        "#/texts/109",
+        "#/texts/110",
+        "#/texts/111",
+        "#/texts/175",
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/114"
+      ],
+      "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+      "headings": [
+        "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+        "Leaderboards vector"
+      ],
+      "images": [
+        {
+          "caption": "Image from How Duolingo reignited user growth",
+          "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000010",
+          "path": null,
+          "self_ref": "#/pictures/10",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c30bdb3b-bf15-4b2d-8bb4-72827c136cdd_516x514.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000005",
+        "chunk_sha256": "f44bad9edf399d44577cdd08d7abfe9cc35bdb81e1b25b1aef8b3b94df85b037",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-duolingo-reignited-user-growth.docling.json",
+        "docling_sha256": "a6c9b0493efe898c30dabcb5937faa03a92f13d6ccc74ad23779b4e740bf146a",
+        "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_sha256": "c4bac188a507e4dba2639944b519a8e0c052d34a9a150de2a2ed231e616d0fcd",
+        "fact_document_path": "chunks/v2/02-newsletters/how-duolingo-reignited-user-growth.chunks.json",
+        "headings": [
+          "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+          "Leaderboards vector"
+        ],
+        "images": [
+          {
+            "caption": "Image from How Duolingo reignited user growth",
+            "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000010",
+            "path": null,
+            "self_ref": "#/pictures/10",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c30bdb3b-bf15-4b2d-8bb4-72827c136cdd_516x514.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "raw_sha256": "75e15614245dcf3b4670222f8c765e876d4e2bef41fa001f0ed0a184d5d4e821",
+        "segment": {
+          "first_self_ref": "#/texts/108",
+          "item_count": 8,
+          "last_self_ref": "#/texts/114"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/108",
+          "#/texts/109",
+          "#/texts/110",
+          "#/texts/111",
+          "#/texts/175",
+          "#/texts/112",
+          "#/texts/113",
+          "#/texts/114"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "With this clear directive, we looked at our historical model data and at our A/B tests going back a few years to see if we had inadvertently done anything that had moved CURR in the past. Surprisingly, we hadn’t. In fact, CURR had not moved in years. We had to figure out our first steps to move CURR based on first principles.\nI still thought gamification was a good place to start when trying to improve retention. Our failure with the Gardenscapes-style moves counter hadn’t actually disproved any of the original reasons why we believed gamification still had upside for Duolingo—we had only learned that the moves counter was a clumsy attempt at it. This time, we would be more methodical and intelligent about features we added or borrowed. We made sure to apply the lessons from our prior efforts with gamification.\nAfter some consideration, we decided to bet on leaderboards. Here’s why and how. Duolingo already had a leaderboard for users to compete with their friends and family, but it wasn’t particularly effective. Based on my experience at Zynga, I felt that there was a better way. When I started working on Zynga’s FarmVille 2 game, it included a leaderboard similar to Duolingo’s existing leaderboard, where users competed with their friends. I had hypothesized based on my personal experience as a player that the closeness of the competitor’s engagement would be more important than the closeness of personal relationships. I thought this would be especially true in a mature product where many users’ friends weren’t active anymore. From our testing at Zynga, that idea turned out to be true. Based on this, I felt a leaderboard system, similar to what I had helped design at Zynga, would succeed in the context of our product.\nFarmVille 2’s leaderboard also included a “league” system. Beyond getting to the top of a weekly leaderboard, users had the opportunity to move through a series of league levels (e.g. from the Bronze league to the Silver league to the Gold league). Leagues provided users with a greater sense of progress and reward, an integral element in game design. They also increased engagement over time, since engaged users move up to more competitive leagues week after week. We felt this feature would translate well to Duolingo’s existing product because it tapped directly into the common human motivators of competitiveness and progression.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nNot all aspects of the FarmVille 2 leaderboards would translate well to Duolingo, though. We had to use our judgment to adapt this gaming mechanic to Duolingo’s context. In FarmVille 2, competing in the leaderboard required completing additional kinds of tasks on top of the core gameplay. That was something that we purposefully left out. In the Duolingo context, more tasks would only add unnecessary complexity to language learning. We deliberately made our leaderboard as casual and frictionless as possible; users were automatically opted in and could progress to the top of the first league by merely engaging consistently in their regular language study. By keeping the game mechanic exciting, but making it simpler than in FarmVille 2, we felt like we had struck the right balance of adopting and adapting.\nThe leaderboards feature had a huge and almost immediate impact on our metrics. Overall learning time increased by 17%, and the number of highly engaged learners (users who spend at least 1 hour a day for 5 days a week) tripled. At this time, we hadn’t yet figured out how to calculate statistical significance for CURR, but we saw that our traditional retention metrics (D1, D7, etc.) improved materially and with statistical significance. Going forward, the leaderboards feature became a vector for improving metrics, and teams continue to optimize the feature to this day. Also importantly, the leaderboard was the Retention Team’s first breakthrough!",
+      "token_count": 892
+    },
+    {
+      "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000006",
+      "contextualized_text": "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics\nPush notifications vector\nThe Retention Team was completely energized to find more mechanics to keep current users engaged and motivated to practice every day. One area they started to look into was push notifications. Based on substantial A/B testing in prior years, Duolingo had established that notifications can be a big vector for growth, but that impact had plateaued for us over the years. With a re-energized team full of new ideas, we felt it was the right time to revisit this vector.\nAs we started diving into this, there was one principle that became paramount. It came from a cautionary tale from Groupon’s CEO. He explained to Luis von Ahn, our CEO, that for a long time, Groupon stuck to one email notification per day. But their team started wondering whether sending more emails would improve metrics. The CEO eventually gave in and allowed his team to test sending one more email to each user each day. This test resulted in a big increase to their target metrics. Encouraged, Groupon kept experimenting, sending more emails, even as many as five a day. Then, in what felt like a change from one day to the next, their email channel lost most of its effectiveness. Over time, the accumulation of Groupon’s aggressive email tests had basically destroyed their channel. One often underappreciated risk with aggressively A/B testing emails and push notifications is that it results in users opting out of the channel; and even if you kill the test, those users remain opted out forever. Do this many times, and you’ve destroyed your channel. This was the outcome to avoid. For our push notifications, we established one foundational rule: protect the channel.\nWith this constraint in mind, we decided to give the team a lot of freedom to optimize on dimensions like timing, templates, images, copy, localization, etc., but they could not increase the quantity of notifications without strong justification and CEO approval. Over time, through countless iterations, A/B testing, and a bandit algorithm, the team was able to generate dozens of small- and medium-size wins that have amounted to substantial gains in DAU year after year.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth",
+      "doc_item_refs": [
+        "#/texts/116",
+        "#/texts/117",
+        "#/texts/118",
+        "#/texts/176",
+        "#/texts/119"
+      ],
+      "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+      "headings": [
+        "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+        "Push notifications vector"
+      ],
+      "images": [
+        {
+          "caption": "Image from How Duolingo reignited user growth",
+          "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000011",
+          "path": null,
+          "self_ref": "#/pictures/11",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/48a366a3-a3cc-4286-bd9c-5e7c24155d09_464x242.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000006",
+        "chunk_sha256": "7efbe91b7447c5859d9310cfad5c6074f8b2c2212d0293c8c2d16d688dab4ccc",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-duolingo-reignited-user-growth.docling.json",
+        "docling_sha256": "a6c9b0493efe898c30dabcb5937faa03a92f13d6ccc74ad23779b4e740bf146a",
+        "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_sha256": "c4bac188a507e4dba2639944b519a8e0c052d34a9a150de2a2ed231e616d0fcd",
+        "fact_document_path": "chunks/v2/02-newsletters/how-duolingo-reignited-user-growth.chunks.json",
+        "headings": [
+          "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+          "Push notifications vector"
+        ],
+        "images": [
+          {
+            "caption": "Image from How Duolingo reignited user growth",
+            "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000011",
+            "path": null,
+            "self_ref": "#/pictures/11",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/48a366a3-a3cc-4286-bd9c-5e7c24155d09_464x242.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "raw_sha256": "75e15614245dcf3b4670222f8c765e876d4e2bef41fa001f0ed0a184d5d4e821",
+        "segment": {
+          "first_self_ref": "#/texts/116",
+          "item_count": 5,
+          "last_self_ref": "#/texts/119"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/116",
+          "#/texts/117",
+          "#/texts/118",
+          "#/texts/176",
+          "#/texts/119"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "The Retention Team was completely energized to find more mechanics to keep current users engaged and motivated to practice every day. One area they started to look into was push notifications. Based on substantial A/B testing in prior years, Duolingo had established that notifications can be a big vector for growth, but that impact had plateaued for us over the years. With a re-energized team full of new ideas, we felt it was the right time to revisit this vector.\nAs we started diving into this, there was one principle that became paramount. It came from a cautionary tale from Groupon’s CEO. He explained to Luis von Ahn, our CEO, that for a long time, Groupon stuck to one email notification per day. But their team started wondering whether sending more emails would improve metrics. The CEO eventually gave in and allowed his team to test sending one more email to each user each day. This test resulted in a big increase to their target metrics. Encouraged, Groupon kept experimenting, sending more emails, even as many as five a day. Then, in what felt like a change from one day to the next, their email channel lost most of its effectiveness. Over time, the accumulation of Groupon’s aggressive email tests had basically destroyed their channel. One often underappreciated risk with aggressively A/B testing emails and push notifications is that it results in users opting out of the channel; and even if you kill the test, those users remain opted out forever. Do this many times, and you’ve destroyed your channel. This was the outcome to avoid. For our push notifications, we established one foundational rule: protect the channel.\nWith this constraint in mind, we decided to give the team a lot of freedom to optimize on dimensions like timing, templates, images, copy, localization, etc., but they could not increase the quantity of notifications without strong justification and CEO approval. Over time, through countless iterations, A/B testing, and a bandit algorithm, the team was able to generate dozens of small- and medium-size wins that have amounted to substantial gains in DAU year after year.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth",
+      "token_count": 534
+    },
+    {
+      "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000007",
+      "contextualized_text": "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics\nThe streak vector\nIn the search for even more growth vectors, the APM on the Retention Team started exploring whether there was a strong correlation between retention and usage of particular Duolingo features. He discovered that if a user reached a 10-day streak, their chances of dropping off were reduced substantially. Clearly, a lot of this was simply correlation and selection bias, but we felt the insight was interesting enough to start investing in improving this feature again.\nThe concept of a streak is really quite simple: show users the number of consecutive days they’ve done any activity on the app. But it turns out that there is a surprisingly large number of optimization opportunities around streaks.\nWe got our first big win with the streak-saver notification—a notification that alerts users with streaks if they are about to lose their streak. This late-night notification proved that indeed there was considerable upside to doubling down on streak optimizations. After this, several improvements followed: calendar views, animations, changes to streak freezes, and streak rewards, among others. Each helped improve upon the original streak idea and generated substantial improvements to retention.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nTo date, the streak feature is one of Duolingo’s most powerful engagement mechanics. When people talk about their Duolingo experience, they often bring up their streak. I recently met one user who told me, “I have a 1,435-day streak!” and added, “with no streak freezes!” His bragging rights were well-earned, as he had been studying his chosen language daily for almost four years.\nStreaks work for a number of reasons. One of those is that a streak increases user motivation over time; the longer the streak is, the greater the impetus to keep the streak going. When it comes to user retention, this is the exact behavior we want in our users. Each day that a learner comes to Duolingo, they care a bit more about coming back the next day than they did the day before, hence increasing retention and DAU. As a meta-lesson, our success with the streak mechanic further showed us that we could squeeze major wins from existing features. We could see the value in both big breakthroughs and in fast optimizations. And an A+ team often has a mix of both.",
+      "doc_item_refs": [
+        "#/texts/121",
+        "#/texts/122",
+        "#/texts/123",
+        "#/texts/177",
+        "#/texts/124",
+        "#/texts/125",
+        "#/texts/126"
+      ],
+      "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+      "headings": [
+        "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+        "The streak vector"
+      ],
+      "images": [
+        {
+          "caption": "Image from How Duolingo reignited user growth",
+          "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000012",
+          "path": null,
+          "self_ref": "#/pictures/12",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/6e7d9190-a4af-4e67-9f9b-2d1fae8a36be_242x417.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000007",
+        "chunk_sha256": "6b0b841f25e35986047b4971b39a50c496abdc0d8f8fe21d599f911119b3f828",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-duolingo-reignited-user-growth.docling.json",
+        "docling_sha256": "a6c9b0493efe898c30dabcb5937faa03a92f13d6ccc74ad23779b4e740bf146a",
+        "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_sha256": "c4bac188a507e4dba2639944b519a8e0c052d34a9a150de2a2ed231e616d0fcd",
+        "fact_document_path": "chunks/v2/02-newsletters/how-duolingo-reignited-user-growth.chunks.json",
+        "headings": [
+          "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+          "The streak vector"
+        ],
+        "images": [
+          {
+            "caption": "Image from How Duolingo reignited user growth",
+            "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000012",
+            "path": null,
+            "self_ref": "#/pictures/12",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/6e7d9190-a4af-4e67-9f9b-2d1fae8a36be_242x417.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "raw_sha256": "75e15614245dcf3b4670222f8c765e876d4e2bef41fa001f0ed0a184d5d4e821",
+        "segment": {
+          "first_self_ref": "#/texts/121",
+          "item_count": 7,
+          "last_self_ref": "#/texts/126"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/121",
+          "#/texts/122",
+          "#/texts/123",
+          "#/texts/177",
+          "#/texts/124",
+          "#/texts/125",
+          "#/texts/126"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "In the search for even more growth vectors, the APM on the Retention Team started exploring whether there was a strong correlation between retention and usage of particular Duolingo features. He discovered that if a user reached a 10-day streak, their chances of dropping off were reduced substantially. Clearly, a lot of this was simply correlation and selection bias, but we felt the insight was interesting enough to start investing in improving this feature again.\nThe concept of a streak is really quite simple: show users the number of consecutive days they’ve done any activity on the app. But it turns out that there is a surprisingly large number of optimization opportunities around streaks.\nWe got our first big win with the streak-saver notification—a notification that alerts users with streaks if they are about to lose their streak. This late-night notification proved that indeed there was considerable upside to doubling down on streak optimizations. After this, several improvements followed: calendar views, animations, changes to streak freezes, and streak rewards, among others. Each helped improve upon the original streak idea and generated substantial improvements to retention.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nTo date, the streak feature is one of Duolingo’s most powerful engagement mechanics. When people talk about their Duolingo experience, they often bring up their streak. I recently met one user who told me, “I have a 1,435-day streak!” and added, “with no streak freezes!” His bragging rights were well-earned, as he had been studying his chosen language daily for almost four years.\nStreaks work for a number of reasons. One of those is that a streak increases user motivation over time; the longer the streak is, the greater the impetus to keep the streak going. When it comes to user retention, this is the exact behavior we want in our users. Each day that a learner comes to Duolingo, they care a bit more about coming back the next day than they did the day before, hence increasing retention and DAU. As a meta-lesson, our success with the streak mechanic further showed us that we could squeeze major wins from existing features. We could see the value in both big breakthroughs and in fast optimizations. And an A+ team often has a mix of both.",
+      "token_count": 537
+    },
+    {
+      "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000008",
+      "contextualized_text": "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics\nGrowth beyond CURR\nWe didn’t stop at CURR; there was a very healthy paranoia that at some point CURR would hit a ceiling, so sooner or later we would have to figure out growth vectors for new user acquisition. The Retention Team stayed focused on increasing CURR, but as a company, we consistently increased our investment in growth by creating more and more Product and Marketing teams to find new vectors (for both retention and acquisition). Luckily, several of these bets worked, including expanding internationally, building social features (this is what the Acquisition eventually team pivoted to, with great success), accelerating course content creation, working with influencers, increasing our presence in schools, investing (a little bit) in paid UA, and going crazy viral on TikTok. Each of these merits its own case study.",
+      "doc_item_refs": [
+        "#/texts/128"
+      ],
+      "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+      "headings": [
+        "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+        "Growth beyond CURR"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000008",
+        "chunk_sha256": "69c60fefa8b2662216f1c12ca8e6904bf3d353d1c34d318a7f2ded5b3e57c91b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-duolingo-reignited-user-growth.docling.json",
+        "docling_sha256": "a6c9b0493efe898c30dabcb5937faa03a92f13d6ccc74ad23779b4e740bf146a",
+        "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_sha256": "c4bac188a507e4dba2639944b519a8e0c052d34a9a150de2a2ed231e616d0fcd",
+        "fact_document_path": "chunks/v2/02-newsletters/how-duolingo-reignited-user-growth.chunks.json",
+        "headings": [
+          "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+          "Growth beyond CURR"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "raw_sha256": "75e15614245dcf3b4670222f8c765e876d4e2bef41fa001f0ed0a184d5d4e821",
+        "segment": {
+          "first_self_ref": "#/texts/128",
+          "item_count": 1,
+          "last_self_ref": "#/texts/128"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/128"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "We didn’t stop at CURR; there was a very healthy paranoia that at some point CURR would hit a ceiling, so sooner or later we would have to figure out growth vectors for new user acquisition. The Retention Team stayed focused on increasing CURR, but as a company, we consistently increased our investment in growth by creating more and more Product and Marketing teams to find new vectors (for both retention and acquisition). Luckily, several of these bets worked, including expanding internationally, building social features (this is what the Acquisition eventually team pivoted to, with great success), accelerating course content creation, working with influencers, increasing our presence in schools, investing (a little bit) in paid UA, and going crazy viral on TikTok. Each of these merits its own case study.",
+      "token_count": 222
+    },
+    {
+      "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000009",
+      "contextualized_text": "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics\nOverall results\nThrough our efforts over four years, we were able to increase CURR by 21%, which represents a reduction in the daily churn of our best users by over 40% and, together with our other successful bets, led to an increase in our DAU of 4.5x. Last year was one of the fastest growth rates in Duolingo’s history. The quality of the user base also improved; the share of our DAU with a streak of 7 days or longer increased almost 3 times to more than half of our DAU. This means that not only does Duolingo have a much higher number of active users now, but also that those users are much more likely to keep coming back, refer their friends, and subscribe to Super Duolingo. This growth was key to Duolingo’s successful IPO.",
+      "doc_item_refs": [
+        "#/texts/130"
+      ],
+      "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+      "headings": [
+        "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+        "Overall results"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000009",
+        "chunk_sha256": "8e13f71354618c02a6da9b901c0df8a8e80482b61b3208503e285b06e73ec60e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-duolingo-reignited-user-growth.docling.json",
+        "docling_sha256": "a6c9b0493efe898c30dabcb5937faa03a92f13d6ccc74ad23779b4e740bf146a",
+        "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_sha256": "c4bac188a507e4dba2639944b519a8e0c052d34a9a150de2a2ed231e616d0fcd",
+        "fact_document_path": "chunks/v2/02-newsletters/how-duolingo-reignited-user-growth.chunks.json",
+        "headings": [
+          "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+          "Overall results"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "raw_sha256": "75e15614245dcf3b4670222f8c765e876d4e2bef41fa001f0ed0a184d5d4e821",
+        "segment": {
+          "first_self_ref": "#/texts/130",
+          "item_count": 1,
+          "last_self_ref": "#/texts/130"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/130"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "Through our efforts over four years, we were able to increase CURR by 21%, which represents a reduction in the daily churn of our best users by over 40% and, together with our other successful bets, led to an increase in our DAU of 4.5x. Last year was one of the fastest growth rates in Duolingo’s history. The quality of the user base also improved; the share of our DAU with a streak of 7 days or longer increased almost 3 times to more than half of our DAU. This means that not only does Duolingo have a much higher number of active users now, but also that those users are much more likely to keep coming back, refer their friends, and subscribe to Super Duolingo. This growth was key to Duolingo’s successful IPO.",
+      "token_count": 228
+    },
+    {
+      "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000010",
+      "contextualized_text": "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics\nParting thoughts\nI hope that this article gives you the inspiration you need to find new vectors of growth for your product. If you adopt anything from my experience at Duolingo, I hope you adapt it to your own context using your best judgment. Don’t blindly trust what Duolingo or any other company did. Certainly that didn’t work for me. Happy experimenting!",
+      "doc_item_refs": [
+        "#/texts/132"
+      ],
+      "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+      "headings": [
+        "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+        "Parting thoughts"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000010",
+        "chunk_sha256": "f566cdeec1f0fbbc0d7a3893c484396ab5488d2a1e700c62945f04a17cea3521",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-duolingo-reignited-user-growth.docling.json",
+        "docling_sha256": "a6c9b0493efe898c30dabcb5937faa03a92f13d6ccc74ad23779b4e740bf146a",
+        "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_sha256": "c4bac188a507e4dba2639944b519a8e0c052d34a9a150de2a2ed231e616d0fcd",
+        "fact_document_path": "chunks/v2/02-newsletters/how-duolingo-reignited-user-growth.chunks.json",
+        "headings": [
+          "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+          "Parting thoughts"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "raw_sha256": "75e15614245dcf3b4670222f8c765e876d4e2bef41fa001f0ed0a184d5d4e821",
+        "segment": {
+          "first_self_ref": "#/texts/132",
+          "item_count": 1,
+          "last_self_ref": "#/texts/132"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/132"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "I hope that this article gives you the inspiration you need to find new vectors of growth for your product. If you adopt anything from my experience at Duolingo, I hope you adapt it to your own context using your best judgment. Don’t blindly trust what Duolingo or any other company did. Certainly that didn’t work for me. Happy experimenting!",
+      "token_count": 131
+    },
+    {
+      "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000011",
+      "contextualized_text": "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics\nAcknowledgements\n*Gamification Team: You know who you are. Thank you for teaching me so much!*\n*Acquisition Team: Vanessa Jameson (Engineer Director), Cem Kansu and Liz Nagler (PMs on the team, now VP of Product and Product Area Lead for Growth, respectively), and the rest of the team, who worked super-hard and eventually made a smart and successful pivot to work on social features. Shoutout to Nico Sacheri (Principal PM) and Hideki Shima (Eng Director), who have been crushing it leading the Connections team for the past couple of years.*\n*Growth Model: Erin Gustafson (Staff Data Scientist) and Vanessa Jameson, who collaborated with me in the creation of the growth model. Learn more about how Erin is working to evolve the way Duolingo thinks about growth in her recent post:*\n*https://blog.duolingo.com/growth-model-duolingo/*\n*Retention Team: Sean Colombo (OG Engineer Manager for the team, and now Eng Area Lead for Growth), Daniel Falabella (OG PM for the team, now GM for Duolingo ABC), John Trivelli (Designer on leaderboards), Anton Yu (PM who “re-discovered” streaks and so much more), Jackson Shuttleworth and Osman Mansur (Sr. PM and PM on the team today, still crushing it), Antonia Scheidel (Engineering Manager, also crushing it), and all the wonderful engineers and designers who have worked and continue to work on this team.*\n*Gina Gotthilf, who was a total growth rock star in Duolingo’s early years.*\n*Luis von Ahn (CEO) and Tyler Murphy (Chief Designer), with whom I reviewed every single product change for almost five years.*\nThank you, Jorge! You can follow Jorge for more on\n[LinkedIn](https://www.linkedin.com/in/jorgemazal/)\nand\n[Twitter](https://twitter.com/jorgemazal)\n.\nHave a fulfilling and productive week 🙏",
+      "doc_item_refs": [
+        "#/texts/134",
+        "#/texts/135",
+        "#/texts/136",
+        "#/texts/137",
+        "#/texts/138",
+        "#/texts/139",
+        "#/texts/140",
+        "#/texts/141",
+        "#/texts/142",
+        "#/texts/143",
+        "#/texts/144",
+        "#/texts/145",
+        "#/texts/146"
+      ],
+      "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+      "headings": [
+        "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+        "Acknowledgements"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000011",
+        "chunk_sha256": "b727df5a1fb955204659ca5ae7536f125acfe661d30c6a5e66963b1c3d02c60a",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-duolingo-reignited-user-growth.docling.json",
+        "docling_sha256": "a6c9b0493efe898c30dabcb5937faa03a92f13d6ccc74ad23779b4e740bf146a",
+        "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_sha256": "c4bac188a507e4dba2639944b519a8e0c052d34a9a150de2a2ed231e616d0fcd",
+        "fact_document_path": "chunks/v2/02-newsletters/how-duolingo-reignited-user-growth.chunks.json",
+        "headings": [
+          "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+          "Acknowledgements"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "raw_sha256": "75e15614245dcf3b4670222f8c765e876d4e2bef41fa001f0ed0a184d5d4e821",
+        "segment": {
+          "first_self_ref": "#/texts/134",
+          "item_count": 13,
+          "last_self_ref": "#/texts/146"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/134",
+          "#/texts/135",
+          "#/texts/136",
+          "#/texts/137",
+          "#/texts/138",
+          "#/texts/139",
+          "#/texts/140",
+          "#/texts/141",
+          "#/texts/142",
+          "#/texts/143",
+          "#/texts/144",
+          "#/texts/145",
+          "#/texts/146"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "*Gamification Team: You know who you are. Thank you for teaching me so much!*\n*Acquisition Team: Vanessa Jameson (Engineer Director), Cem Kansu and Liz Nagler (PMs on the team, now VP of Product and Product Area Lead for Growth, respectively), and the rest of the team, who worked super-hard and eventually made a smart and successful pivot to work on social features. Shoutout to Nico Sacheri (Principal PM) and Hideki Shima (Eng Director), who have been crushing it leading the Connections team for the past couple of years.*\n*Growth Model: Erin Gustafson (Staff Data Scientist) and Vanessa Jameson, who collaborated with me in the creation of the growth model. Learn more about how Erin is working to evolve the way Duolingo thinks about growth in her recent post:*\n*https://blog.duolingo.com/growth-model-duolingo/*\n*Retention Team: Sean Colombo (OG Engineer Manager for the team, and now Eng Area Lead for Growth), Daniel Falabella (OG PM for the team, now GM for Duolingo ABC), John Trivelli (Designer on leaderboards), Anton Yu (PM who “re-discovered” streaks and so much more), Jackson Shuttleworth and Osman Mansur (Sr. PM and PM on the team today, still crushing it), Antonia Scheidel (Engineering Manager, also crushing it), and all the wonderful engineers and designers who have worked and continue to work on this team.*\n*Gina Gotthilf, who was a total growth rock star in Duolingo’s early years.*\n*Luis von Ahn (CEO) and Tyler Murphy (Chief Designer), with whom I reviewed every single product change for almost five years.*\nThank you, Jorge! You can follow Jorge for more on\n[LinkedIn](https://www.linkedin.com/in/jorgemazal/)\nand\n[Twitter](https://twitter.com/jorgemazal)\n.\nHave a fulfilling and productive week 🙏",
+      "token_count": 496
+    },
+    {
+      "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000012",
+      "contextualized_text": "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics\n📣 Join Lenny’s Talent Collective 📣\nIf you’re hiring,\n[join Lenny’s Talent Collective](https://www.lennysjobs.com/talent/welcome)\nto start getting bi-monthly drops of world-class hand-curated product and growth people who are open to new opportunities.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nIf you’re looking for a new gig, join the collective to get personalized opportunities from hand-selected companies. You can join publicly or anonymously, and leave anytime.\n[Apply to join](https://www.lennysjobs.com/talent)",
+      "doc_item_refs": [
+        "#/texts/148",
+        "#/texts/149",
+        "#/texts/150",
+        "#/texts/178",
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/153"
+      ],
+      "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+      "headings": [
+        "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+        "📣 Join Lenny’s Talent Collective 📣"
+      ],
+      "images": [
+        {
+          "caption": "Image from How Duolingo reignited user growth",
+          "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000013",
+          "path": null,
+          "self_ref": "#/pictures/13",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/f8eb7d1d-965c-4b8a-813d-b233fc74197b_1526x1240.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000012",
+        "chunk_sha256": "6ecfb87e4be9185cd6c8f3ad0fcf45879f65389b1524662bfb747af1b87ec624",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-duolingo-reignited-user-growth.docling.json",
+        "docling_sha256": "a6c9b0493efe898c30dabcb5937faa03a92f13d6ccc74ad23779b4e740bf146a",
+        "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_sha256": "c4bac188a507e4dba2639944b519a8e0c052d34a9a150de2a2ed231e616d0fcd",
+        "fact_document_path": "chunks/v2/02-newsletters/how-duolingo-reignited-user-growth.chunks.json",
+        "headings": [
+          "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+          "📣 Join Lenny’s Talent Collective 📣"
+        ],
+        "images": [
+          {
+            "caption": "Image from How Duolingo reignited user growth",
+            "image_id": "02-newsletters/how-duolingo-reignited-user-growth.md#image=000013",
+            "path": null,
+            "self_ref": "#/pictures/13",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/f8eb7d1d-965c-4b8a-813d-b233fc74197b_1526x1240.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "raw_sha256": "75e15614245dcf3b4670222f8c765e876d4e2bef41fa001f0ed0a184d5d4e821",
+        "segment": {
+          "first_self_ref": "#/texts/148",
+          "item_count": 7,
+          "last_self_ref": "#/texts/153"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/148",
+          "#/texts/149",
+          "#/texts/150",
+          "#/texts/178",
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/153"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "If you’re hiring,\n[join Lenny’s Talent Collective](https://www.lennysjobs.com/talent/welcome)\nto start getting bi-monthly drops of world-class hand-curated product and growth people who are open to new opportunities.\nImage from How Duolingo reignited user growth\nImage from How Duolingo reignited user growth\nIf you’re looking for a new gig, join the collective to get personalized opportunities from hand-selected companies. You can join publicly or anonymously, and leave anytime.\n[Apply to join](https://www.lennysjobs.com/talent)",
+      "token_count": 197
+    },
+    {
+      "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000013",
+      "contextualized_text": "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics\n📣 Join Lenny’s Talent Collective 📣\n❤️‍🔥 Featured job opportunities\n1. **Athena:** Head of Growth (Remote)\n2. **MetaMap:** [VP, Product](https://www.lennysjobs.com/jobs/74ca739b-4b51-4d55-8727-6606327fae58) (SF, Miami, Mexico City)\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/155",
+        "#/texts/158",
+        "#/texts/162",
+        "#/texts/163",
+        "#/texts/164"
+      ],
+      "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+      "headings": [
+        "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+        "📣 Join Lenny’s Talent Collective 📣",
+        "❤️‍🔥 Featured job opportunities"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-duolingo-reignited-user-growth.md#chunk=000013",
+        "chunk_sha256": "fe914bf3c645bdf9de5169812a61988fa4ccbb961e579a51a48fca2a8c96ef4b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-duolingo-reignited-user-growth.docling.json",
+        "docling_sha256": "a6c9b0493efe898c30dabcb5937faa03a92f13d6ccc74ad23779b4e740bf146a",
+        "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "enhanced_sha256": "c4bac188a507e4dba2639944b519a8e0c052d34a9a150de2a2ed231e616d0fcd",
+        "fact_document_path": "chunks/v2/02-newsletters/how-duolingo-reignited-user-growth.chunks.json",
+        "headings": [
+          "How Duolingo reignited user growth — The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model | 2023-02-28 | Tags: growth, leadership, design, newsletter, strategy, analytics",
+          "📣 Join Lenny’s Talent Collective 📣",
+          "❤️‍🔥 Featured job opportunities"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/how-duolingo-reignited-user-growth.md",
+        "raw_sha256": "75e15614245dcf3b4670222f8c765e876d4e2bef41fa001f0ed0a184d5d4e821",
+        "segment": {
+          "first_self_ref": "#/texts/155",
+          "item_count": 5,
+          "last_self_ref": "#/texts/164"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/155",
+          "#/texts/158",
+          "#/texts/162",
+          "#/texts/163",
+          "#/texts/164"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "1. **Athena:** Head of Growth (Remote)\n2. **MetaMap:** [VP, Product](https://www.lennysjobs.com/jobs/74ca739b-4b51-4d55-8727-6606327fae58) (SF, Miami, Mexico City)\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "token_count": 181
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/how-duolingo-reignited-user-growth.docling.json",
+  "docling_sha256": "a6c9b0493efe898c30dabcb5937faa03a92f13d6ccc74ad23779b4e740bf146a",
+  "document_id": "02-newsletters/how-duolingo-reignited-user-growth.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/how-duolingo-reignited-user-growth.md",
+  "enhanced_sha256": "c4bac188a507e4dba2639944b519a8e0c052d34a9a150de2a2ed231e616d0fcd",
+  "fact_document_path": "chunks/v2/02-newsletters/how-duolingo-reignited-user-growth.chunks.json",
+  "metadata": {
+    "date": "2023-02-28",
+    "subtitle": "The story behind Duolingo's 350% growth acceleration, leaderboards, streaks, notifications, and innovative growth model",
+    "tags": [
+      "growth",
+      "leadership",
+      "design",
+      "newsletter",
+      "strategy",
+      "analytics"
+    ],
+    "title": "How Duolingo reignited user growth",
+    "type": "newsletter",
+    "word_count": 4812
+  },
+  "raw_path": "corpus/raw/02-newsletters/how-duolingo-reignited-user-growth.md",
+  "raw_sha256": "75e15614245dcf3b4670222f8c765e876d4e2bef41fa001f0ed0a184d5d4e821",
+  "schema_version": "1",
+  "title": "How Duolingo reignited user growth"
+}

@@ -1,0 +1,1861 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000000",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\n*P.S. Don’t miss my*\n[***PM recruiting service***](https://www.lennysjobs.com/)\n*(to hire your next Sr. PM or VP),*\n[***Lennybot***](https://www.lennybot.com/)\n*(an AI chatbot trained on my newsletter posts, podcast interviews, and more), and my ***\n[*swag store*](https://lennyswag.com/)\n**\n*(great gifts for your favorite PM, or yourself!)*",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000000",
+        "chunk_sha256": "4a8c493d1385e6bbb05a56978853fde127b619154181cef713f014a717cc9942",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 8,
+          "last_self_ref": "#/texts/8"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "*P.S. Don’t miss my*\n[***PM recruiting service***](https://www.lennysjobs.com/)\n*(to hire your next Sr. PM or VP),*\n[***Lennybot***](https://www.lennybot.com/)\n*(an AI chatbot trained on my newsletter posts, podcast interviews, and more), and my ***\n[*swag store*](https://lennyswag.com/)\n**\n*(great gifts for your favorite PM, or yourself!)*",
+      "token_count": 168
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000001",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nQ: How do I become more technical?\nA technical background is a superpower for product managers,\n[as I’ve said](https://www.lennysnewsletter.com/p/getting-more-technical)\nbefore. You’ll make better decisions, understand trade-offs, make more accurate estimates, and communicate with engineers with more confidence, while also creating more career opportunities for yourself. And now that AI is increasingly infused into products, it’s even more important that product managers understand the basics.\nTo help you level up, I teamed up with\n[Colin Matthews](https://www.linkedin.com/in/colinmatthews-pm/?originalSubdomain=ca)\n, instructor of the very popular Maven course\n[Technical Foundations for Product Managers](https://maven.com/tech-for-product/tech-fundamentals?promoCode=LENNY25)\n. Below, Colin breaks down in the simplest way possible—and with hands-on practice—APIs, code deployments, system architectures, branches, databases, unit tests, and much more. If you’ve been embarrassed, or too busy, to ask your engineers how all this works—this post is for you.\n*For more from Colin,*\n[*check out Colin’s Maven course*](https://maven.com/tech-for-product/tech-fundamentals?promoCode=LENNY25)\n*—the next cohort kicks off on May 6!*\n[*Use this link to get 25% off*](https://maven.com/tech-for-product/tech-fundamentals?promoCode=LENNY25)\n*.*\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nBuilding a strong foundation of technical skills improves your ability to bridge technical and business domains, uncover implementation issues before they’re in production, and improve your working relationships with your technical counterparts. This quick guide will help get you up to speed and start building your skills with hands-on practice.",
+      "doc_item_refs": [
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/299",
+        "#/texts/23",
+        "#/texts/24"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Q: How do I become more technical?"
+      ],
+      "images": [
+        {
+          "caption": "Image from Become a more technical product manager",
+          "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/0942a45c-a8af-4249-8eb6-7d4334f2ef47_4000x2000.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000001",
+        "chunk_sha256": "65c3500047670db94eb035f85199fba7877067e01c1df76187e61871bc82b493",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Q: How do I become more technical?"
+        ],
+        "images": [
+          {
+            "caption": "Image from Become a more technical product manager",
+            "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/0942a45c-a8af-4249-8eb6-7d4334f2ef47_4000x2000.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/10",
+          "item_count": 16,
+          "last_self_ref": "#/texts/24"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/299",
+          "#/texts/23",
+          "#/texts/24"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "A technical background is a superpower for product managers,\n[as I’ve said](https://www.lennysnewsletter.com/p/getting-more-technical)\nbefore. You’ll make better decisions, understand trade-offs, make more accurate estimates, and communicate with engineers with more confidence, while also creating more career opportunities for yourself. And now that AI is increasingly infused into products, it’s even more important that product managers understand the basics.\nTo help you level up, I teamed up with\n[Colin Matthews](https://www.linkedin.com/in/colinmatthews-pm/?originalSubdomain=ca)\n, instructor of the very popular Maven course\n[Technical Foundations for Product Managers](https://maven.com/tech-for-product/tech-fundamentals?promoCode=LENNY25)\n. Below, Colin breaks down in the simplest way possible—and with hands-on practice—APIs, code deployments, system architectures, branches, databases, unit tests, and much more. If you’ve been embarrassed, or too busy, to ask your engineers how all this works—this post is for you.\n*For more from Colin,*\n[*check out Colin’s Maven course*](https://maven.com/tech-for-product/tech-fundamentals?promoCode=LENNY25)\n*—the next cohort kicks off on May 6!*\n[*Use this link to get 25% off*](https://maven.com/tech-for-product/tech-fundamentals?promoCode=LENNY25)\n*.*\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nBuilding a strong foundation of technical skills improves your ability to bridge technical and business domains, uncover implementation issues before they’re in production, and improve your working relationships with your technical counterparts. This quick guide will help get you up to speed and start building your skills with hands-on practice.",
+      "token_count": 473
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000002",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nApplication architecture and APIs\nAlmost every software product is built with the same three parts: a client, a server, and a database. Things can get a lot more complicated as you grow, but these fundamental ideas stay the same.\nThe client is your website or app that’s used by the end user.\nThe server processes requests from the client.\nThe database is your permanent storage of data.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nYour client communicates with your server through an application programming interface, or API.",
+      "doc_item_refs": [
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/300",
+        "#/texts/30",
+        "#/texts/31"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Application architecture and APIs"
+      ],
+      "images": [
+        {
+          "caption": "Image from Become a more technical product manager",
+          "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/da847544-73b7-4327-907e-6c7c8b2e879e_1600x1020.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000002",
+        "chunk_sha256": "ff40414560d2e81458fa9dc979596890f7f873d679c06af98dd9e03dfcb34f55",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Application architecture and APIs"
+        ],
+        "images": [
+          {
+            "caption": "Image from Become a more technical product manager",
+            "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/da847544-73b7-4327-907e-6c7c8b2e879e_1600x1020.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/26",
+          "item_count": 7,
+          "last_self_ref": "#/texts/31"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/300",
+          "#/texts/30",
+          "#/texts/31"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "Almost every software product is built with the same three parts: a client, a server, and a database. Things can get a lot more complicated as you grow, but these fundamental ideas stay the same.\nThe client is your website or app that’s used by the end user.\nThe server processes requests from the client.\nThe database is your permanent storage of data.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nYour client communicates with your server through an application programming interface, or API.",
+      "token_count": 146
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000003",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nApplication architecture and APIs\nWhat is an API?\nFor most software product managers, we’re talking about web APIs. This is the front door to your server that allows other applications to access data or trigger events.\nAPIs are everywhere—\n[Meta](https://developers.facebook.com/docs/#)\n,\n[Etsy](https://www.etsy.com/developers/documentation/getting_started/api_basics)\n,\n[OpenAI](https://openai.com/product)\n,\n[your bank](https://developer.citi.com/)\n,\n[your doctor](https://open.epic.com/)\n,\n[the weather](https://openweathermap.org/api)\n. These kinds of public APIs are meant to be used by developers outside of the company that built them. Anyone who has permission can start making API calls to get data, submit new information, or even interact with AI.\nAPIs can also be private. These are intended to be used only within that application or product (versus by third parties).\nAs a quick example, let’s look at how Airbnb might fetch listings to show you when you search for Toronto.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nBreaking this down, we can see that:\n1. The client sends a request to ***listings*** at the URL ***api.airbnb.com*** and specifies the location as ***Toronto***\n2. The server gets the listings in Toronto from the database\n3. The database returns listings to the server\n4. The server returns listings to the client",
+      "doc_item_refs": [
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/44",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/48",
+        "#/texts/301",
+        "#/texts/49",
+        "#/texts/50",
+        "#/texts/51",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Application architecture and APIs",
+        "What is an API?"
+      ],
+      "images": [
+        {
+          "caption": "Image from Become a more technical product manager",
+          "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/e1faa688-ea6a-428b-bab1-26f483f079fa_1600x573.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000003",
+        "chunk_sha256": "7b9fb57e23584e3041471c78703b8462b6d5a3167bca2ea88e6368e7548689d5",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Application architecture and APIs",
+          "What is an API?"
+        ],
+        "images": [
+          {
+            "caption": "Image from Become a more technical product manager",
+            "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/e1faa688-ea6a-428b-bab1-26f483f079fa_1600x573.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/33",
+          "item_count": 23,
+          "last_self_ref": "#/texts/60"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/40",
+          "#/texts/41",
+          "#/texts/42",
+          "#/texts/43",
+          "#/texts/44",
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/48",
+          "#/texts/301",
+          "#/texts/49",
+          "#/texts/50",
+          "#/texts/51",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/60"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "For most software product managers, we’re talking about web APIs. This is the front door to your server that allows other applications to access data or trigger events.\nAPIs are everywhere—\n[Meta](https://developers.facebook.com/docs/#)\n,\n[Etsy](https://www.etsy.com/developers/documentation/getting_started/api_basics)\n,\n[OpenAI](https://openai.com/product)\n,\n[your bank](https://developer.citi.com/)\n,\n[your doctor](https://open.epic.com/)\n,\n[the weather](https://openweathermap.org/api)\n. These kinds of public APIs are meant to be used by developers outside of the company that built them. Anyone who has permission can start making API calls to get data, submit new information, or even interact with AI.\nAPIs can also be private. These are intended to be used only within that application or product (versus by third parties).\nAs a quick example, let’s look at how Airbnb might fetch listings to show you when you search for Toronto.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nBreaking this down, we can see that:\n1. The client sends a request to ***listings*** at the URL ***api.airbnb.com*** and specifies the location as ***Toronto***\n2. The server gets the listings in Toronto from the database\n3. The database returns listings to the server\n4. The server returns listings to the client",
+      "token_count": 399
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000004",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nApplication architecture and APIs\nWait, so what exactly is the API?\nIs the API the server? Kind of. As we said above, the API is the server’s front door—it’s the set of actions that are available to clients. The API (hosted on a server) will either process the request itself or pass it downstream to be processed.\nGoing back to our Airbnb example, in addition to fetching Listings, you could imagine the API also allows a client to access Users, Bookings, Prices, and more. We commonly call these\n**endpoints**\nor\n**resources**\n.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nLet’s take a look at another example: OpenAI. OpenAI supports a wide range of actions via their API. You can create images, transcribe audio, and get chat responses. Here’s what their API endpoints look like:\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nOpenAI has organized their API into a few groups—images, chat, and audio. Within each, there are a few endpoints that allow you to take different actions. For example, you could send a request to\n***/audio/speech***\nto create an ​​MP3 file of text-to-speech with the AI voice of your preference.\nHere’s an example:",
+      "doc_item_refs": [
+        "#/texts/62",
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65",
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/302",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/303",
+        "#/texts/70",
+        "#/texts/71",
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/74"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Application architecture and APIs",
+        "Wait, so what exactly is the API?"
+      ],
+      "images": [
+        {
+          "caption": "Image from Become a more technical product manager",
+          "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/3bf479fb-04ff-4431-85b7-7acbc4446257_1600x859.png"
+        },
+        {
+          "caption": "Image from Become a more technical product manager",
+          "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a5163957-c391-49c0-932c-6e0033d55cf8_1600x780.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000004",
+        "chunk_sha256": "60b3cee7d4678975d33ca597fcb197a2851480a0b68321d9ed685673edcf5e00",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Application architecture and APIs",
+          "Wait, so what exactly is the API?"
+        ],
+        "images": [
+          {
+            "caption": "Image from Become a more technical product manager",
+            "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/3bf479fb-04ff-4431-85b7-7acbc4446257_1600x859.png"
+          },
+          {
+            "caption": "Image from Become a more technical product manager",
+            "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a5163957-c391-49c0-932c-6e0033d55cf8_1600x780.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/62",
+          "item_count": 15,
+          "last_self_ref": "#/texts/74"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/62",
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65",
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/302",
+          "#/texts/68",
+          "#/texts/69",
+          "#/texts/303",
+          "#/texts/70",
+          "#/texts/71",
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/74"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "Is the API the server? Kind of. As we said above, the API is the server’s front door—it’s the set of actions that are available to clients. The API (hosted on a server) will either process the request itself or pass it downstream to be processed.\nGoing back to our Airbnb example, in addition to fetching Listings, you could imagine the API also allows a client to access Users, Bookings, Prices, and more. We commonly call these\n**endpoints**\nor\n**resources**\n.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nLet’s take a look at another example: OpenAI. OpenAI supports a wide range of actions via their API. You can create images, transcribe audio, and get chat responses. Here’s what their API endpoints look like:\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nOpenAI has organized their API into a few groups—images, chat, and audio. Within each, there are a few endpoints that allow you to take different actions. For example, you could send a request to\n***/audio/speech***\nto create an ​​MP3 file of text-to-speech with the AI voice of your preference.\nHere’s an example:",
+      "token_count": 324
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000005",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nApplication architecture and APIs\nWhat are some common patterns with APIs?\nOnce you understand a few basic patterns with APIs, you’ll be able to breeze through technical documentation in no time.\nFirst, there are three main types of APIs:\n- **SOAP:** This is a legacy design, still used mostly in health care and financial services.\n- **REST:** This is the most popular design pattern; we’ll get into more details below.\n- **GraphQL:** This is a newer design created at Meta, most commonly used in private APIs within your own application. It uses the same request types but in different ways.\nAs mentioned, REST is by far the most popular design for APIs. It supports many different request types, but there are two we’ll focus on today—GET and POST.",
+      "doc_item_refs": [
+        "#/texts/76",
+        "#/texts/77",
+        "#/texts/78",
+        "#/texts/81",
+        "#/texts/84",
+        "#/texts/87"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Application architecture and APIs",
+        "What are some common patterns with APIs?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000005",
+        "chunk_sha256": "8379baa913ef1edfee603bc7384090ca5448e39283f64feebd12084c32b20d17",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Application architecture and APIs",
+          "What are some common patterns with APIs?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/76",
+          "item_count": 6,
+          "last_self_ref": "#/texts/87"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/76",
+          "#/texts/77",
+          "#/texts/78",
+          "#/texts/81",
+          "#/texts/84",
+          "#/texts/87"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "Once you understand a few basic patterns with APIs, you’ll be able to breeze through technical documentation in no time.\nFirst, there are three main types of APIs:\n- **SOAP:** This is a legacy design, still used mostly in health care and financial services.\n- **REST:** This is the most popular design pattern; we’ll get into more details below.\n- **GraphQL:** This is a newer design created at Meta, most commonly used in private APIs within your own application. It uses the same request types but in different ways.\nAs mentioned, REST is by far the most popular design for APIs. It supports many different request types, but there are two we’ll focus on today—GET and POST.",
+      "token_count": 210
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000006",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nApplication architecture and APIs\nWhat are some common patterns with APIs?\nGET requests\nGET requests do what you think they would: get stuff. Every time you open a web page, your browser sends a GET request to the server at the URL you’ve entered and the server returns some content to be rendered.\nIn its simplest form, this content can be an HTML file that your browser displays, or it can be a more complex format that needs to be interpreted, like JSON.\nLet’s update our Airbnb example above to specify the request type.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nNow we can see that we’re sending a\n***GET***\nrequest to the\n***/listings***\nendpoint. We also specified that we only want listings in\n***Toronto***\n.\nLet’s break the request down into its components:\nImage from Become a more technical product manager\nImage from Become a more technical product manager\n1. **Base URL:** The “home” for all API endpoints\n2. **Endpoint:** The specific resource we want to access\n3. **Query parameter:** Additional data passed in with our requests",
+      "doc_item_refs": [
+        "#/texts/89",
+        "#/texts/90",
+        "#/texts/91",
+        "#/texts/304",
+        "#/texts/92",
+        "#/texts/93",
+        "#/texts/94",
+        "#/texts/95",
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/100",
+        "#/texts/305",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/105",
+        "#/texts/108"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Application architecture and APIs",
+        "What are some common patterns with APIs?",
+        "GET requests"
+      ],
+      "images": [
+        {
+          "caption": "Image from Become a more technical product manager",
+          "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/1daedca6-1581-4578-884c-af1abe5ec32b_1600x572.png"
+        },
+        {
+          "caption": "Image from Become a more technical product manager",
+          "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4f39c658-bd8b-42f7-b7b5-3192103f6a68_999x256.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000006",
+        "chunk_sha256": "a3425b3b8078e2a1e937b4e83e4c4bd234673fa9030afb3557d58daad229316c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Application architecture and APIs",
+          "What are some common patterns with APIs?",
+          "GET requests"
+        ],
+        "images": [
+          {
+            "caption": "Image from Become a more technical product manager",
+            "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/1daedca6-1581-4578-884c-af1abe5ec32b_1600x572.png"
+          },
+          {
+            "caption": "Image from Become a more technical product manager",
+            "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/4f39c658-bd8b-42f7-b7b5-3192103f6a68_999x256.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/89",
+          "item_count": 18,
+          "last_self_ref": "#/texts/108"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/89",
+          "#/texts/90",
+          "#/texts/91",
+          "#/texts/304",
+          "#/texts/92",
+          "#/texts/93",
+          "#/texts/94",
+          "#/texts/95",
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/100",
+          "#/texts/305",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/105",
+          "#/texts/108"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "GET requests do what you think they would: get stuff. Every time you open a web page, your browser sends a GET request to the server at the URL you’ve entered and the server returns some content to be rendered.\nIn its simplest form, this content can be an HTML file that your browser displays, or it can be a more complex format that needs to be interpreted, like JSON.\nLet’s update our Airbnb example above to specify the request type.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nNow we can see that we’re sending a\n***GET***\nrequest to the\n***/listings***\nendpoint. We also specified that we only want listings in\n***Toronto***\n.\nLet’s break the request down into its components:\nImage from Become a more technical product manager\nImage from Become a more technical product manager\n1. **Base URL:** The “home” for all API endpoints\n2. **Endpoint:** The specific resource we want to access\n3. **Query parameter:** Additional data passed in with our requests",
+      "token_count": 291
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000007",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nApplication architecture and APIs\nWhat are some common patterns with APIs?\nPOST requests\nPOST requests are used to submit new data to the server. For example, we would use a POST request on Open AI’s\n***/images/generations***\nendpoint to create a new image.\nWe would also include a\n***body***\nwith the request, which contains data to be processed by the server. Here’s what that might look like:\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nAs long as we have access, OpenAI will respond to this request with the cutest baby sea otter you’ve ever seen.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nRemember that text-to-speech example with an AI-generated voice that we got from OpenAI’s API? Well, that was a POST request.\nTo generate this, we sent a POST request to\n***https://api.openai.com/v1/audio/speech***\nwith the following body:\n```\n{\n```\n```\n\"model\": \"tts-1\",\n```\n```\n\"input\": \"Did you know subscribers to Lenny's Newsletter get exclusive discounts with partners? Pretty cool! And there's a Slack channel!\",\n```\n```\n\"voice\": \"alloy\"\n```\n```\n}\n```\nIn response to this request, the API sends back an MP3 file with the text-to-speech phrase.",
+      "doc_item_refs": [
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/114",
+        "#/texts/115",
+        "#/texts/116",
+        "#/texts/117",
+        "#/texts/306",
+        "#/texts/118",
+        "#/texts/119",
+        "#/texts/307",
+        "#/texts/120",
+        "#/texts/121",
+        "#/texts/122",
+        "#/texts/123",
+        "#/texts/124",
+        "#/texts/125",
+        "#/texts/126",
+        "#/texts/127",
+        "#/texts/128",
+        "#/texts/129",
+        "#/texts/130"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Application architecture and APIs",
+        "What are some common patterns with APIs?",
+        "POST requests"
+      ],
+      "images": [
+        {
+          "caption": "Image from Become a more technical product manager",
+          "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/5ba36e38-cad7-494f-b632-662441ffa51d_1600x555.png"
+        },
+        {
+          "caption": "Image from Become a more technical product manager",
+          "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/5e990493-6ff3-4645-8b6b-bc8b363dc15f_1024x1024.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000007",
+        "chunk_sha256": "8b68739a63300c810c810806d44303f4342ce8396a5ec7b2d9e0b912f2a92e9c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Application architecture and APIs",
+          "What are some common patterns with APIs?",
+          "POST requests"
+        ],
+        "images": [
+          {
+            "caption": "Image from Become a more technical product manager",
+            "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/5ba36e38-cad7-494f-b632-662441ffa51d_1600x555.png"
+          },
+          {
+            "caption": "Image from Become a more technical product manager",
+            "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/5e990493-6ff3-4645-8b6b-bc8b363dc15f_1024x1024.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/112",
+          "item_count": 21,
+          "last_self_ref": "#/texts/130"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/112",
+          "#/texts/113",
+          "#/texts/114",
+          "#/texts/115",
+          "#/texts/116",
+          "#/texts/117",
+          "#/texts/306",
+          "#/texts/118",
+          "#/texts/119",
+          "#/texts/307",
+          "#/texts/120",
+          "#/texts/121",
+          "#/texts/122",
+          "#/texts/123",
+          "#/texts/124",
+          "#/texts/125",
+          "#/texts/126",
+          "#/texts/127",
+          "#/texts/128",
+          "#/texts/129",
+          "#/texts/130"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "POST requests are used to submit new data to the server. For example, we would use a POST request on Open AI’s\n***/images/generations***\nendpoint to create a new image.\nWe would also include a\n***body***\nwith the request, which contains data to be processed by the server. Here’s what that might look like:\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nAs long as we have access, OpenAI will respond to this request with the cutest baby sea otter you’ve ever seen.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nRemember that text-to-speech example with an AI-generated voice that we got from OpenAI’s API? Well, that was a POST request.\nTo generate this, we sent a POST request to\n***https://api.openai.com/v1/audio/speech***\nwith the following body:\n```\n{\n```\n```\n\"model\": \"tts-1\",\n```\n```\n\"input\": \"Did you know subscribers to Lenny's Newsletter get exclusive discounts with partners? Pretty cool! And there's a Slack channel!\",\n```\n```\n\"voice\": \"alloy\"\n```\n```\n}\n```\nIn response to this request, the API sends back an MP3 file with the text-to-speech phrase.",
+      "token_count": 365
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000008",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nApplication architecture and APIs\nHow can I practice?\nWant to try a request for yourself? Follow along to generate your own images using DALL-E and OpenAI’s API.\n1. Sign up for an API account at https://platform.openai.com/signup\n2. Navigate to API Keys. Verify your account and create your first API key. Make sure you copy it!\nImage from Become a more technical product manager\nImage from Become a more technical product manager\n1. Using [Postman](https://www.postman.com/) or a web-based API request tool ( [here’s a free one](https://stackblitz.com/edit/github-18edst?embed=1&file=README.md&hideExplorer=1&view=preview) ), make a POST request to **https://api.openai.com/v1/images/generations**\n2. Add the following Headers\n3. Authorization: Bearer [your-api-key] 2. Content-Type: application/json\n4. Add the following body in JSON\n```\n{\n```\n```\n\"model\": \"dall-e-3\",\n```\n```\n\"prompt\": \"A cute baby sea otter\",\n```\n```\n\"n\": 1,\n```\n```\n\"size\": \"1024x1024\"\n```\n```\n}\n```\n1. Send your request!\nImage from Become a more technical product manager\nImage from Become a more technical product manager",
+      "doc_item_refs": [
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/136",
+        "#/texts/308",
+        "#/texts/137",
+        "#/texts/138",
+        "#/texts/145",
+        "#/texts/146",
+        "#/texts/149",
+        "#/texts/150",
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/153",
+        "#/texts/154",
+        "#/texts/155",
+        "#/texts/156",
+        "#/texts/309",
+        "#/texts/157"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Application architecture and APIs",
+        "How can I practice?"
+      ],
+      "images": [
+        {
+          "caption": "Image from Become a more technical product manager",
+          "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000009",
+          "path": null,
+          "self_ref": "#/pictures/9",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/89ebaba6-e0e5-492c-aef6-eeaa97734661_1600x666.png"
+        },
+        {
+          "caption": "Image from Become a more technical product manager",
+          "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000010",
+          "path": null,
+          "self_ref": "#/pictures/10",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/d22ebc1d-3c16-401e-afd9-c9c74df8efa5_1600x866.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000008",
+        "chunk_sha256": "fe14d2df24fb44c2d8e7d714312471220823d2c64a3e67699aa7ff1d4211a232",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Application architecture and APIs",
+          "How can I practice?"
+        ],
+        "images": [
+          {
+            "caption": "Image from Become a more technical product manager",
+            "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000009",
+            "path": null,
+            "self_ref": "#/pictures/9",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/89ebaba6-e0e5-492c-aef6-eeaa97734661_1600x666.png"
+          },
+          {
+            "caption": "Image from Become a more technical product manager",
+            "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000010",
+            "path": null,
+            "self_ref": "#/pictures/10",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/d22ebc1d-3c16-401e-afd9-c9c74df8efa5_1600x866.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/132",
+          "item_count": 18,
+          "last_self_ref": "#/texts/157"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/136",
+          "#/texts/308",
+          "#/texts/137",
+          "#/texts/138",
+          "#/texts/145",
+          "#/texts/146",
+          "#/texts/149",
+          "#/texts/150",
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/153",
+          "#/texts/154",
+          "#/texts/155",
+          "#/texts/156",
+          "#/texts/309",
+          "#/texts/157"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "Want to try a request for yourself? Follow along to generate your own images using DALL-E and OpenAI’s API.\n1. Sign up for an API account at https://platform.openai.com/signup\n2. Navigate to API Keys. Verify your account and create your first API key. Make sure you copy it!\nImage from Become a more technical product manager\nImage from Become a more technical product manager\n1. Using [Postman](https://www.postman.com/) or a web-based API request tool ( [here’s a free one](https://stackblitz.com/edit/github-18edst?embed=1&file=README.md&hideExplorer=1&view=preview) ), make a POST request to **https://api.openai.com/v1/images/generations**\n2. Add the following Headers\n3. Authorization: Bearer [your-api-key] 2. Content-Type: application/json\n4. Add the following body in JSON\n```\n{\n```\n```\n\"model\": \"dall-e-3\",\n```\n```\n\"prompt\": \"A cute baby sea otter\",\n```\n```\n\"n\": 1,\n```\n```\n\"size\": \"1024x1024\"\n```\n```\n}\n```\n1. Send your request!\nImage from Become a more technical product manager\nImage from Become a more technical product manager",
+      "token_count": 383
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000009",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nSoftware development lifecycle\nNow that we understand the basics of application architecture and APIs, we can talk about how engineers actually build software. Chances are you’re following some version of the software development lifecycle, or SDLC. This follows a familiar process:\n1. Plan\n- What outcome are you trying to achieve?\n- What solution(s) will get you there?\n- What customer problems align to business goals?\n- How will customers know you offer the solution?\n1. Design\n- What will you build?\n- How will it work?\n1. **Implement**\n- **Engineers write the code**\n1. **Test**\n- **Does the code match the specifications?**\n- **Do our systems work together as intended?**\n- **Can customers use our feature to accomplish their goal?**\n1. **Deploy**\n- **Move code from local through dev, staging, and production**\n1. Maintain\n- Resolve bugs\n- Handle customer support\nYou’re likely familiar with Planning and Design, but how well do you understand the processes of\n**Implementation**\n,\n**Testing**\n, and\n**Deployment**\nthat engineers go through?",
+      "doc_item_refs": [
+        "#/texts/159",
+        "#/texts/160",
+        "#/texts/161",
+        "#/texts/162",
+        "#/texts/163",
+        "#/texts/164",
+        "#/texts/165",
+        "#/texts/166",
+        "#/texts/167",
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/170",
+        "#/texts/171",
+        "#/texts/172",
+        "#/texts/173",
+        "#/texts/174",
+        "#/texts/175",
+        "#/texts/176",
+        "#/texts/177",
+        "#/texts/178",
+        "#/texts/179",
+        "#/texts/180",
+        "#/texts/181",
+        "#/texts/182",
+        "#/texts/183",
+        "#/texts/184",
+        "#/texts/185"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Software development lifecycle"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000009",
+        "chunk_sha256": "79c015080df9b4d093daad41541b5c7f8f4d6eea342d4eaf9dd8ec12d381bfde",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Software development lifecycle"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/159",
+          "item_count": 27,
+          "last_self_ref": "#/texts/185"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/159",
+          "#/texts/160",
+          "#/texts/161",
+          "#/texts/162",
+          "#/texts/163",
+          "#/texts/164",
+          "#/texts/165",
+          "#/texts/166",
+          "#/texts/167",
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/170",
+          "#/texts/171",
+          "#/texts/172",
+          "#/texts/173",
+          "#/texts/174",
+          "#/texts/175",
+          "#/texts/176",
+          "#/texts/177",
+          "#/texts/178",
+          "#/texts/179",
+          "#/texts/180",
+          "#/texts/181",
+          "#/texts/182",
+          "#/texts/183",
+          "#/texts/184",
+          "#/texts/185"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "Now that we understand the basics of application architecture and APIs, we can talk about how engineers actually build software. Chances are you’re following some version of the software development lifecycle, or SDLC. This follows a familiar process:\n1. Plan\n- What outcome are you trying to achieve?\n- What solution(s) will get you there?\n- What customer problems align to business goals?\n- How will customers know you offer the solution?\n1. Design\n- What will you build?\n- How will it work?\n1. **Implement**\n- **Engineers write the code**\n1. **Test**\n- **Does the code match the specifications?**\n- **Do our systems work together as intended?**\n- **Can customers use our feature to accomplish their goal?**\n1. **Deploy**\n- **Move code from local through dev, staging, and production**\n1. Maintain\n- Resolve bugs\n- Handle customer support\nYou’re likely familiar with Planning and Design, but how well do you understand the processes of\n**Implementation**\n,\n**Testing**\n, and\n**Deployment**\nthat engineers go through?",
+      "token_count": 282
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000010",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nSoftware development lifecycle\nImplementation\nWe all use tools like Google Docs to collaborate. We can comment on others’ work, track changes over time, and share work publicly once it’s ready. Engineers have a similar tool for code: Git.\nGit is a version-control system that tracks changes as they are made to code. Products like GitHub allow engineers to move those changes from their local machine to online storage, where others can view and edit as well. This is similar to the idea of moving your local text file over to Google Docs so others can collaborate with you.\nThe home for all their code is a\n**repository**\n, or\n**repo**\n. This is like a Google Drive folder that tracks changes to files.\nWhen an engineer wants to make a change, they\n**commit**\nit from their local copy to the copy in GitHub.\nBut having a bunch of disorganized commits would be like everyone changing a Google Doc at the same time—an absolute mess. To solve for this, engineers create\n**branches**\n. A branch is a copy of the code. Engineers use these to make their changes in isolation from each other.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nOnce they’re done, they submit a\n**pull request**\nfrom their branch back into the\n**main branch**\n. This request will be reviewed by other engineers, who can suggest improvements before it is accepted.\nOnce the pull request is approved, the independent branch will be\n**merged**\nback into the main branch.\nAnother style of version control typically found in legacy workflows is called Gitflow. This has many more layers of branches, such as Develop and Release. It usually requires specific approvals to move code up from a lower branch to a higher branch, until it eventually reaches the main branch after a scheduled release.\nImage from Become a more technical product manager\nImage from Become a more technical product manager",
+      "doc_item_refs": [
+        "#/texts/187",
+        "#/texts/188",
+        "#/texts/189",
+        "#/texts/190",
+        "#/texts/191",
+        "#/texts/192",
+        "#/texts/193",
+        "#/texts/194",
+        "#/texts/195",
+        "#/texts/196",
+        "#/texts/197",
+        "#/texts/198",
+        "#/texts/199",
+        "#/texts/310",
+        "#/texts/200",
+        "#/texts/201",
+        "#/texts/202",
+        "#/texts/203",
+        "#/texts/204",
+        "#/texts/205",
+        "#/texts/206",
+        "#/texts/207",
+        "#/texts/208",
+        "#/texts/209",
+        "#/texts/311",
+        "#/texts/210"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Software development lifecycle",
+        "Implementation"
+      ],
+      "images": [
+        {
+          "caption": "Image from Become a more technical product manager",
+          "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000011",
+          "path": null,
+          "self_ref": "#/pictures/11",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/7d712ca1-75cf-48d9-b091-219490455626_1036x422.gif"
+        },
+        {
+          "caption": "Image from Become a more technical product manager",
+          "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000012",
+          "path": null,
+          "self_ref": "#/pictures/12",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/71b31e4e-5545-49b0-87c3-9b5b100dabfb_1600x555.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000010",
+        "chunk_sha256": "77ec9de11bb4e80fc458acfa86dc1022df15da11762c52f151e2530146e0b148",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Software development lifecycle",
+          "Implementation"
+        ],
+        "images": [
+          {
+            "caption": "Image from Become a more technical product manager",
+            "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000011",
+            "path": null,
+            "self_ref": "#/pictures/11",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/7d712ca1-75cf-48d9-b091-219490455626_1036x422.gif"
+          },
+          {
+            "caption": "Image from Become a more technical product manager",
+            "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000012",
+            "path": null,
+            "self_ref": "#/pictures/12",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/71b31e4e-5545-49b0-87c3-9b5b100dabfb_1600x555.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/187",
+          "item_count": 26,
+          "last_self_ref": "#/texts/210"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/187",
+          "#/texts/188",
+          "#/texts/189",
+          "#/texts/190",
+          "#/texts/191",
+          "#/texts/192",
+          "#/texts/193",
+          "#/texts/194",
+          "#/texts/195",
+          "#/texts/196",
+          "#/texts/197",
+          "#/texts/198",
+          "#/texts/199",
+          "#/texts/310",
+          "#/texts/200",
+          "#/texts/201",
+          "#/texts/202",
+          "#/texts/203",
+          "#/texts/204",
+          "#/texts/205",
+          "#/texts/206",
+          "#/texts/207",
+          "#/texts/208",
+          "#/texts/209",
+          "#/texts/311",
+          "#/texts/210"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "We all use tools like Google Docs to collaborate. We can comment on others’ work, track changes over time, and share work publicly once it’s ready. Engineers have a similar tool for code: Git.\nGit is a version-control system that tracks changes as they are made to code. Products like GitHub allow engineers to move those changes from their local machine to online storage, where others can view and edit as well. This is similar to the idea of moving your local text file over to Google Docs so others can collaborate with you.\nThe home for all their code is a\n**repository**\n, or\n**repo**\n. This is like a Google Drive folder that tracks changes to files.\nWhen an engineer wants to make a change, they\n**commit**\nit from their local copy to the copy in GitHub.\nBut having a bunch of disorganized commits would be like everyone changing a Google Doc at the same time—an absolute mess. To solve for this, engineers create\n**branches**\n. A branch is a copy of the code. Engineers use these to make their changes in isolation from each other.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nOnce they’re done, they submit a\n**pull request**\nfrom their branch back into the\n**main branch**\n. This request will be reviewed by other engineers, who can suggest improvements before it is accepted.\nOnce the pull request is approved, the independent branch will be\n**merged**\nback into the main branch.\nAnother style of version control typically found in legacy workflows is called Gitflow. This has many more layers of branches, such as Develop and Release. It usually requires specific approvals to move code up from a lower branch to a higher branch, until it eventually reaches the main branch after a scheduled release.\nImage from Become a more technical product manager\nImage from Become a more technical product manager",
+      "token_count": 444
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000011",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nSoftware development lifecycle\nTesting\nYou might be surprised to learn that any one engineer doesn’t actually know how the whole codebase works at any given time. Each engineer has a high-level view of the product and a more detailed understanding of the last few components they worked on. Because many engineers work on the same codebase, they often have to learn (or re-learn) how specific sections work before implementing new changes. On top of that, they may not have context beyond what you’ve provided to gut-check if what they’re building makes sense. This makes testing essential to successfully shipping new features the first time.\nThere are many types of testing, but we’ll focus on the following:\n- Unit tests\n- Integration tests\n- End-to-end tests\n- User acceptance tests\nTesting is a high-leverage area for PMs to quickly improve your product quality. A quick round of end-to-end testing with your engineering team before a major release will help them build context on the workflow and catch issues before you ship to production.",
+      "doc_item_refs": [
+        "#/texts/212",
+        "#/texts/213",
+        "#/texts/214",
+        "#/texts/215",
+        "#/texts/216",
+        "#/texts/217",
+        "#/texts/218"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Software development lifecycle",
+        "Testing"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000011",
+        "chunk_sha256": "d27900192e70a3294c91114aba3e34c3cf0cc978d511f00d85f1fcf8a87f4ad1",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Software development lifecycle",
+          "Testing"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/212",
+          "item_count": 7,
+          "last_self_ref": "#/texts/218"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/212",
+          "#/texts/213",
+          "#/texts/214",
+          "#/texts/215",
+          "#/texts/216",
+          "#/texts/217",
+          "#/texts/218"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "You might be surprised to learn that any one engineer doesn’t actually know how the whole codebase works at any given time. Each engineer has a high-level view of the product and a more detailed understanding of the last few components they worked on. Because many engineers work on the same codebase, they often have to learn (or re-learn) how specific sections work before implementing new changes. On top of that, they may not have context beyond what you’ve provided to gut-check if what they’re building makes sense. This makes testing essential to successfully shipping new features the first time.\nThere are many types of testing, but we’ll focus on the following:\n- Unit tests\n- Integration tests\n- End-to-end tests\n- User acceptance tests\nTesting is a high-leverage area for PMs to quickly improve your product quality. A quick round of end-to-end testing with your engineering team before a major release will help them build context on the workflow and catch issues before you ship to production.",
+      "token_count": 249
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000012",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nSoftware development lifecycle\nTesting\nUnit tests\nUnit tests are code written in combination with new functions, to test a variety of functionality. For example, we might have a function called Double, which doubles any number we send it. A unit test would provide\n*4*\nand check that the result is\n*8*\n.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nThis is the lowest level of testing. The percentage of the code base that has associated unit tests is called\n**coverage**\n.",
+      "doc_item_refs": [
+        "#/texts/220",
+        "#/texts/221",
+        "#/texts/222",
+        "#/texts/223",
+        "#/texts/224",
+        "#/texts/312",
+        "#/texts/225",
+        "#/texts/226",
+        "#/texts/227",
+        "#/texts/228"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Software development lifecycle",
+        "Testing",
+        "Unit tests"
+      ],
+      "images": [
+        {
+          "caption": "Image from Become a more technical product manager",
+          "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000013",
+          "path": null,
+          "self_ref": "#/pictures/13",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/7b6a245d-935e-426b-95f6-70ad1b299301_1060x684.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000012",
+        "chunk_sha256": "857452c3eb7268d714683f9c28412a549ca6739538e038d9eeda793c2d03372c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Software development lifecycle",
+          "Testing",
+          "Unit tests"
+        ],
+        "images": [
+          {
+            "caption": "Image from Become a more technical product manager",
+            "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000013",
+            "path": null,
+            "self_ref": "#/pictures/13",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/7b6a245d-935e-426b-95f6-70ad1b299301_1060x684.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/220",
+          "item_count": 10,
+          "last_self_ref": "#/texts/228"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/220",
+          "#/texts/221",
+          "#/texts/222",
+          "#/texts/223",
+          "#/texts/224",
+          "#/texts/312",
+          "#/texts/225",
+          "#/texts/226",
+          "#/texts/227",
+          "#/texts/228"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "Unit tests are code written in combination with new functions, to test a variety of functionality. For example, we might have a function called Double, which doubles any number we send it. A unit test would provide\n*4*\nand check that the result is\n*8*\n.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\nThis is the lowest level of testing. The percentage of the code base that has associated unit tests is called\n**coverage**\n.",
+      "token_count": 140
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000013",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nSoftware development lifecycle\nTesting\nIntegration tests\nIntegration tests are tests between different components of the software. For example, we might test that the new feature we added to upsell customers at checkout properly works with our tax calculation service. This is targeted testing between components that are independent but closely related.",
+      "doc_item_refs": [
+        "#/texts/230"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Software development lifecycle",
+        "Testing",
+        "Integration tests"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000013",
+        "chunk_sha256": "ff833eb99d18e7daf175fed82908c8e226444bd6673dd8f460caa97aa134a725",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Software development lifecycle",
+          "Testing",
+          "Integration tests"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/230",
+          "item_count": 1,
+          "last_self_ref": "#/texts/230"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/230"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "Integration tests are tests between different components of the software. For example, we might test that the new feature we added to upsell customers at checkout properly works with our tax calculation service. This is targeted testing between components that are independent but closely related.",
+      "token_count": 93
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000014",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nSoftware development lifecycle\nTesting\nEnd-to-end tests\nEnd-to-end (E2E) tests are a full walkthrough of the desired workflow and interact with all relevant systems. E2E testing is more time-intensive but often reveals issues you otherwise might not find. This is especially true if the workflow is dependent on many services working together correctly.",
+      "doc_item_refs": [
+        "#/texts/232"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Software development lifecycle",
+        "Testing",
+        "End-to-end tests"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000014",
+        "chunk_sha256": "b63567a25a9c8ae2fc574218826a712f9a79a8e95c820cc40d84e647a6cffc62",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Software development lifecycle",
+          "Testing",
+          "End-to-end tests"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/232",
+          "item_count": 1,
+          "last_self_ref": "#/texts/232"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/232"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "End-to-end (E2E) tests are a full walkthrough of the desired workflow and interact with all relevant systems. E2E testing is more time-intensive but often reveals issues you otherwise might not find. This is especially true if the workflow is dependent on many services working together correctly.",
+      "token_count": 112
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000015",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nSoftware development lifecycle\nTesting\nUser acceptance tests\nUser acceptance tests are typically in the domain of product or design. These tests require users to use the current version of your feature from beginning to end with minimal intervention. From this, you’ll learn if the interaction design is intuitive or if more work is needed before making the feature available.",
+      "doc_item_refs": [
+        "#/texts/234"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Software development lifecycle",
+        "Testing",
+        "User acceptance tests"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000015",
+        "chunk_sha256": "55593408423d97e8b352f68100d6d07de8c38eb0ee128d2254002503760ca3db",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Software development lifecycle",
+          "Testing",
+          "User acceptance tests"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 15,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/234",
+          "item_count": 1,
+          "last_self_ref": "#/texts/234"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/234"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 15,
+      "raw_text": "User acceptance tests are typically in the domain of product or design. These tests require users to use the current version of your feature from beginning to end with minimal intervention. From this, you’ll learn if the interaction design is intuitive or if more work is needed before making the feature available.",
+      "token_count": 101
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000016",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nSoftware development lifecycle\nDeployment\nOnce our feature is ready, we need to make it available to customers. Usually you would move your current version of the code to at least two of these environments:\n- **Dev:** Servers dedicated for developers to use\n- **Staging:** A close replica of production for testing and internal use\n- **Production:** The main environment used by customers every day\nDeployment practices follow one of two patterns: scheduled or continuous. Scheduled deployments happen on a recurring cadence, like once a week, once a month, or once a quarter.\n**Continuous deployment**\n**(CD)**\nallows developers to automatically deploy their code to one or more environments when it is merged into a branch. For example, any approved pull requests to the main branch would automatically deploy to the production environment.\nContinuous deployment is usually paired with\n**continuous integration (CI)**\n, which refers to running tests\n*automatically*\nevery time new code is added to a branch. This can include unit tests, integration tests, vulnerability assessments, and more. CI helps developers ensure that their changes work without manual testing.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\n[Popularized by Eric Ries](https://www.lennyspodcast.com/reflections-on-a-movement-eric-ries-creator-of-the-lean-startup-methodology/)\n, CI/CD helps teams move quickly and keep the pace of shipping code to production high. For example,\n[Stripe’s annual letter](https://twitter.com/dps/status/1767936528729477344)\nhighlights their robust deployment and testing methodologies, with more than 400 deployments per day and 1.4 million automated tests!",
+      "doc_item_refs": [
+        "#/texts/236",
+        "#/texts/237",
+        "#/texts/240",
+        "#/texts/243",
+        "#/texts/246",
+        "#/texts/247",
+        "#/texts/248",
+        "#/texts/249",
+        "#/texts/250",
+        "#/texts/251",
+        "#/texts/252",
+        "#/texts/253",
+        "#/texts/254",
+        "#/texts/313",
+        "#/texts/255",
+        "#/texts/256",
+        "#/texts/257",
+        "#/texts/258",
+        "#/texts/259"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Software development lifecycle",
+        "Deployment"
+      ],
+      "images": [
+        {
+          "caption": "Image from Become a more technical product manager",
+          "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000014",
+          "path": null,
+          "self_ref": "#/pictures/14",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/217106ec-1ef8-40be-863c-ab996c4ad9ea_1600x980.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000016",
+        "chunk_sha256": "33229b8cbdb5452c9288676e9f7bb2352690b1da3677084254411c787d218e4e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Software development lifecycle",
+          "Deployment"
+        ],
+        "images": [
+          {
+            "caption": "Image from Become a more technical product manager",
+            "image_id": "02-newsletters/become-a-more-technical-product-manager.md#image=000014",
+            "path": null,
+            "self_ref": "#/pictures/14",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/217106ec-1ef8-40be-863c-ab996c4ad9ea_1600x980.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 16,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/236",
+          "item_count": 19,
+          "last_self_ref": "#/texts/259"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/236",
+          "#/texts/237",
+          "#/texts/240",
+          "#/texts/243",
+          "#/texts/246",
+          "#/texts/247",
+          "#/texts/248",
+          "#/texts/249",
+          "#/texts/250",
+          "#/texts/251",
+          "#/texts/252",
+          "#/texts/253",
+          "#/texts/254",
+          "#/texts/313",
+          "#/texts/255",
+          "#/texts/256",
+          "#/texts/257",
+          "#/texts/258",
+          "#/texts/259"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 16,
+      "raw_text": "Once our feature is ready, we need to make it available to customers. Usually you would move your current version of the code to at least two of these environments:\n- **Dev:** Servers dedicated for developers to use\n- **Staging:** A close replica of production for testing and internal use\n- **Production:** The main environment used by customers every day\nDeployment practices follow one of two patterns: scheduled or continuous. Scheduled deployments happen on a recurring cadence, like once a week, once a month, or once a quarter.\n**Continuous deployment**\n**(CD)**\nallows developers to automatically deploy their code to one or more environments when it is merged into a branch. For example, any approved pull requests to the main branch would automatically deploy to the production environment.\nContinuous deployment is usually paired with\n**continuous integration (CI)**\n, which refers to running tests\n*automatically*\nevery time new code is added to a branch. This can include unit tests, integration tests, vulnerability assessments, and more. CI helps developers ensure that their changes work without manual testing.\nImage from Become a more technical product manager\nImage from Become a more technical product manager\n[Popularized by Eric Ries](https://www.lennyspodcast.com/reflections-on-a-movement-eric-ries-creator-of-the-lean-startup-methodology/)\n, CI/CD helps teams move quickly and keep the pace of shipping code to production high. For example,\n[Stripe’s annual letter](https://twitter.com/dps/status/1767936528729477344)\nhighlights their robust deployment and testing methodologies, with more than 400 deployments per day and 1.4 million automated tests!",
+      "token_count": 409
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000017",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nSoftware development lifecycle\nHow can I practice?\nWant to learn how to create a new pull request yourself? Check out this\n[free practice exercise](https://docs.google.com/document/d/11_WFRYVy_UZUrlEfApB5SSea5T4Jj11ov4zCeDvio4g/edit?usp=sharing)\n, where I’ll walk you through each step of creating your own branch, creating commits, and ultimately submitting a pull request. It includes five videos covering every step along the way.\nAll you’ll need is a GitHub account and about 15 minutes!",
+      "doc_item_refs": [
+        "#/texts/261",
+        "#/texts/262",
+        "#/texts/263",
+        "#/texts/264"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Software development lifecycle",
+        "How can I practice?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000017",
+        "chunk_sha256": "ca55f4990817b356d696b4d5b41f16952ed9aecb1c4a362895f970bf36ca9476",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Software development lifecycle",
+          "How can I practice?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 17,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/261",
+          "item_count": 4,
+          "last_self_ref": "#/texts/264"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/261",
+          "#/texts/262",
+          "#/texts/263",
+          "#/texts/264"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 17,
+      "raw_text": "Want to learn how to create a new pull request yourself? Check out this\n[free practice exercise](https://docs.google.com/document/d/11_WFRYVy_UZUrlEfApB5SSea5T4Jj11ov4zCeDvio4g/edit?usp=sharing)\n, where I’ll walk you through each step of creating your own branch, creating commits, and ultimately submitting a pull request. It includes five videos covering every step along the way.\nAll you’ll need is a GitHub account and about 15 minutes!",
+      "token_count": 171
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000018",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nPutting it all together\nHere are a few questions to consider the next time you write a PRD or work on a feature:",
+      "doc_item_refs": [
+        "#/texts/266"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Putting it all together"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000018",
+        "chunk_sha256": "06538be891813123fb65180df69883b6cae5b9df6e607c78131db1a4da5efd1d",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Putting it all together"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 18,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/266",
+          "item_count": 1,
+          "last_self_ref": "#/texts/266"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/266"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 18,
+      "raw_text": "Here are a few questions to consider the next time you write a PRD or work on a feature:",
+      "token_count": 60
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000019",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nPutting it all together\nApplication architecture\n- What changes need to be made to each tier for your new feature?\n- Ask the engineer to walk you through implementation at a high level. Does it align with what you were expecting?",
+      "doc_item_refs": [
+        "#/texts/268",
+        "#/texts/269"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Putting it all together",
+        "Application architecture"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000019",
+        "chunk_sha256": "914802d09d7ca558a9aa2da6513e69209c2eac7b71351a55cb0bccfed9e1f5ad",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Putting it all together",
+          "Application architecture"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 19,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/268",
+          "item_count": 2,
+          "last_self_ref": "#/texts/269"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/268",
+          "#/texts/269"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 19,
+      "raw_text": "- What changes need to be made to each tier for your new feature?\n- Ask the engineer to walk you through implementation at a high level. Does it align with what you were expecting?",
+      "token_count": 79
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000020",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nPutting it all together\nAPIs\n- Have you tested your API from the perspective of your customer?\n- How well does your API support customer workflows?\n- Test internal and external APIs yourself. Do they perform the way you expect? What bottlenecks are there (if any)?",
+      "doc_item_refs": [
+        "#/texts/271",
+        "#/texts/272",
+        "#/texts/273"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Putting it all together",
+        "APIs"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000020",
+        "chunk_sha256": "97ae9b19938c3cb73a296d6be8dc82bf406e13c51ff722e9a2bf60f2d516e7b7",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Putting it all together",
+          "APIs"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 20,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/271",
+          "item_count": 3,
+          "last_self_ref": "#/texts/273"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/271",
+          "#/texts/272",
+          "#/texts/273"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 20,
+      "raw_text": "- Have you tested your API from the perspective of your customer?\n- How well does your API support customer workflows?\n- Test internal and external APIs yourself. Do they perform the way you expect? What bottlenecks are there (if any)?",
+      "token_count": 94
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000021",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\nPutting it all together\nSDLC\n- How can you reduce implementation risk through closer collaboration with technical stakeholders?\n- How much testing, and what types of testing, are appropriate for the change you’re pushing to production?\nThe purpose of this isn’t to micromanage engineers or take responsibility for\n[feasibility](https://www.svpg.com/four-big-risks/)\n. It’s to help you be a better collaborator with your technical team by reducing communication overhead between you and them.\n*Thank you, Colin! For more from Colin,*\n[*check out his Maven course*](https://maven.com/tech-for-product/tech-fundamentals?promoCode=LENNY25)\n*—the next cohort kicks off on May 6.*\n[*Use this link to get 25% off*](https://maven.com/tech-for-product/tech-fundamentals?promoCode=LENNY25)\n*.*\n*Have a fulfilling and productive week 🙏*",
+      "doc_item_refs": [
+        "#/texts/275",
+        "#/texts/276",
+        "#/texts/277",
+        "#/texts/278",
+        "#/texts/279",
+        "#/texts/280",
+        "#/texts/281",
+        "#/texts/282",
+        "#/texts/283",
+        "#/texts/284",
+        "#/texts/285"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "Putting it all together",
+        "SDLC"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000021",
+        "chunk_sha256": "c4eb3bfec93f35022679423ed721661eb58c780aade9f4c01f7d07d86c01f526",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "Putting it all together",
+          "SDLC"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 21,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/275",
+          "item_count": 11,
+          "last_self_ref": "#/texts/285"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/275",
+          "#/texts/276",
+          "#/texts/277",
+          "#/texts/278",
+          "#/texts/279",
+          "#/texts/280",
+          "#/texts/281",
+          "#/texts/282",
+          "#/texts/283",
+          "#/texts/284",
+          "#/texts/285"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 21,
+      "raw_text": "- How can you reduce implementation risk through closer collaboration with technical stakeholders?\n- How much testing, and what types of testing, are appropriate for the change you’re pushing to production?\nThe purpose of this isn’t to micromanage engineers or take responsibility for\n[feasibility](https://www.svpg.com/four-big-risks/)\n. It’s to help you be a better collaborator with your technical team by reducing communication overhead between you and them.\n*Thank you, Colin! For more from Colin,*\n[*check out his Maven course*](https://maven.com/tech-for-product/tech-fundamentals?promoCode=LENNY25)\n*—the next cohort kicks off on May 6.*\n[*Use this link to get 25% off*](https://maven.com/tech-for-product/tech-fundamentals?promoCode=LENNY25)\n*.*\n*Have a fulfilling and productive week 🙏*",
+      "token_count": 253
+    },
+    {
+      "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000022",
+      "contextualized_text": "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai\n👀 Hiring? Or looking for a new job?\nI’m piloting a white-glove recruiting service for product roles, working with a few select companies at a time. If you’re hiring for senior product roles, apply below.\n[Apply to join](https://www.lennysjobs.com/talent/)\nIf you’re exploring new opportunities yourself, use the same button above to sign up. We’ll send over personalized opportunities from hand-selected companies if we think there’s a fit. Nobody gets your info until you allow them to, and you can leave anytime.\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/287",
+        "#/texts/288",
+        "#/texts/289",
+        "#/texts/290",
+        "#/texts/291",
+        "#/texts/292",
+        "#/texts/293",
+        "#/texts/294",
+        "#/texts/295",
+        "#/texts/296",
+        "#/texts/297",
+        "#/texts/298"
+      ],
+      "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+      "headings": [
+        "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+        "👀 Hiring? Or looking for a new job?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/become-a-more-technical-product-manager.md#chunk=000022",
+        "chunk_sha256": "a73ab545a018d58447f86b548855161017d81b8d61ced5edf8691aae37be2817",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+        "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+        "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+        "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+        "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+        "headings": [
+          "Become a more technical product manager — Technical foundations for product managers | 2024-03-26 | Tags: engineering, design, leadership, newsletter, product-management, ai",
+          "👀 Hiring? Or looking for a new job?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 22,
+        "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+        "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+        "segment": {
+          "first_self_ref": "#/texts/287",
+          "item_count": 12,
+          "last_self_ref": "#/texts/298"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/287",
+          "#/texts/288",
+          "#/texts/289",
+          "#/texts/290",
+          "#/texts/291",
+          "#/texts/292",
+          "#/texts/293",
+          "#/texts/294",
+          "#/texts/295",
+          "#/texts/296",
+          "#/texts/297",
+          "#/texts/298"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 22,
+      "raw_text": "I’m piloting a white-glove recruiting service for product roles, working with a few select companies at a time. If you’re hiring for senior product roles, apply below.\n[Apply to join](https://www.lennysjobs.com/talent/)\nIf you’re exploring new opportunities yourself, use the same button above to sign up. We’ll send over personalized opportunities from hand-selected companies if we think there’s a fit. Nobody gets your info until you allow them to, and you can leave anytime.\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "token_count": 307
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/become-a-more-technical-product-manager.docling.json",
+  "docling_sha256": "a711a2bd177fe2d9b2427fa03f1e9231da2fa765e579d6101e6647f8854a9215",
+  "document_id": "02-newsletters/become-a-more-technical-product-manager.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/become-a-more-technical-product-manager.md",
+  "enhanced_sha256": "048f379780ff0238b61b2bfaebfc22ad9cf710c53ca8d188a625881346c6a873",
+  "fact_document_path": "chunks/v2/02-newsletters/become-a-more-technical-product-manager.chunks.json",
+  "metadata": {
+    "date": "2024-03-26",
+    "subtitle": "Technical foundations for product managers",
+    "tags": [
+      "engineering",
+      "design",
+      "leadership",
+      "newsletter",
+      "product-management",
+      "ai"
+    ],
+    "title": "Become a more technical product manager",
+    "type": "newsletter",
+    "word_count": 3038
+  },
+  "raw_path": "corpus/raw/02-newsletters/become-a-more-technical-product-manager.md",
+  "raw_sha256": "15ba2be169713054690af02e2c5af562544fe83603f42c0149d20d8b35512dad",
+  "schema_version": "1",
+  "title": "Become a more technical product manager"
+}

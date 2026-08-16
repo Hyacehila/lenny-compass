@@ -1,0 +1,2483 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/texts/83"
+      },
+      {
+        "$ref": "#/texts/84"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/groups/17"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/groups/18"
+      },
+      {
+        "$ref": "#/texts/93"
+      },
+      {
+        "$ref": "#/texts/94"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/groups/19"
+      },
+      {
+        "$ref": "#/texts/103"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/furniture"
+  },
+  "groups": [
+    {
+      "children": [
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/0"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/1"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/10"
+      },
+      "self_ref": "#/groups/2"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/13"
+      },
+      "self_ref": "#/groups/3"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/16"
+      },
+      "self_ref": "#/groups/4"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/19"
+      },
+      "self_ref": "#/groups/5"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/22"
+      },
+      "self_ref": "#/groups/6"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/48"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/7"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/28"
+      },
+      "self_ref": "#/groups/8"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/35"
+      },
+      "self_ref": "#/groups/9"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/48"
+      },
+      "self_ref": "#/groups/10"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/80"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/11"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/66"
+      },
+      "self_ref": "#/groups/12"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/69"
+      },
+      "self_ref": "#/groups/13"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/72"
+      },
+      "self_ref": "#/groups/14"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/77"
+      },
+      "self_ref": "#/groups/15"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/80"
+      },
+      "self_ref": "#/groups/16"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/17"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/18"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/100"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/19"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/97"
+      },
+      "self_ref": "#/groups/20"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/100"
+      },
+      "self_ref": "#/groups/21"
+    }
+  ],
+  "key_value_items": [],
+  "name": "this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr",
+  "origin": {
+    "binary_hash": 3347919698902174990,
+    "filename": "this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+    "mimetype": "text/markdown",
+    "uri": null
+  },
+  "pages": {},
+  "pictures": [],
+  "schema_name": "DoclingDocument",
+  "tables": [],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "title",
+      "meta": null,
+      "orig": "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔 — Thank you for all of the feedback and kind words so far | 2019-09-24 | Tags: leadership, growth, design, strategy, newsletter, product-management",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/0",
+      "text": "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔 — Thank you for all of the feedback and kind words so far | 2019-09-24 | Tags: leadership, growth, design, strategy, newsletter, product-management"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Welcome to the third edition of the Q&A series! Thank you for all of the feedback and kind words so far. It means a lot. 💛",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/1",
+      "text": "Welcome to the third edition of the Q&A series! Thank you for all of the feedback and kind words so far. It means a lot. 💛"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Keep the questions coming! Anything you’re struggling with at work around business growth, personal growth, building product, people issues, management, org design, or communication is game. If I don’t have anything insightful to say on a topic, I’ll find someone amazing to help answer your question.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/2",
+      "text": "Keep the questions coming! Anything you’re struggling with at work around business growth, personal growth, building product, people issues, management, org design, or communication is game. If I don’t have anything insightful to say on a topic, I’ll find someone amazing to help answer your question."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "New addition this week:",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/3",
+      "text": "New addition this week:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "A bit of inspiration for your week ahead at the end of each newsletter.",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/4",
+      "text": "A bit of inspiration for your week ahead at the end of each newsletter."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’re finding value in this newsletter, please share it with a friend and click the little gray heart above. The bigger this community gets, the more we all learn.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/5",
+      "text": "If you’re finding value in this newsletter, please share it with a friend and click the little gray heart above. The bigger this community gets, the more we all learn."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "On to this week’s questions…",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/6",
+      "text": "On to this week’s questions…"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "Q: When creating a new product, what are some strategies and tactics for minimizing the cold start problem — making the product useful with zero users and data?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/7",
+      "text": "Q: When creating a new product, what are some strategies and tactics for minimizing the cold start problem — making the product useful with zero users and data?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I’ll assume your product involves a marketplace, since that’s where “cold start” (a.k.a. chicken-and-egg) problems are most common.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/8",
+      "text": "I’ll assume your product involves a marketplace, since that’s where “cold start” (a.k.a. chicken-and-egg) problems are most common."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Based on many conversations with folks at about a dozen marketplace companies, these five tactics seem to be the most common solutions to the chicken-and-egg problem:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/9",
+      "text": "Based on many conversations with folks at about a dozen marketplace companies, these five tactics seem to be the most common solutions to the chicken-and-egg problem:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/10",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Single-player mode",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/11",
+      "text": "Single-player mode"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ": Make your product immediately useful to one side of the marketplace, which seeds that side and then draws in the other side. Examples: OpenTable handling reservations for restaurants before getting into guest discovery — bootstrapping supply, GrubHub scanning restaurant menus and putting them online — bootstrapping demand.",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/12",
+      "text": ": Make your product immediately useful to one side of the marketplace, which seeds that side and then draws in the other side. Examples: OpenTable handling reservations for restaurants before getting into guest discovery — bootstrapping supply, GrubHub scanning restaurant menus and putting them online — bootstrapping demand."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/13",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Pay one (or both) sides:",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/14",
+      "text": "Pay one (or both) sides:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Instead of relying on the marketplace to support both sides immediately, pay the supply or demand to stay in your marketplace. Examples: Lyft and Uber paying early drivers a salary, and also giving early users free credits.",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/15",
+      "text": "Instead of relying on the marketplace to support both sides immediately, pay the supply or demand to stay in your marketplace. Examples: Lyft and Uber paying early drivers a salary, and also giving early users free credits."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/16",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Employees are early supply:",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/17",
+      "text": "Employees are early supply:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Have your employees offer the service early on. Examples: Airbnb founders hosting their apartment, Rover employees doing dog-sitting.",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/18",
+      "text": "Have your employees offer the service early on. Examples: Airbnb founders hosting their apartment, Rover employees doing dog-sitting."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/5"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/19",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Focus on one market:",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/20",
+      "text": "Focus on one market:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If your service is location-specific, you’ll need to solve the chicken-and-egg problem in every market. To make your life easier, start with getting critical mass in just one market. Examples: Rover in Seattle, Airbnb in NY.",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/21",
+      "text": "If your service is location-specific, you’ll need to solve the chicken-and-egg problem in every market. To make your life easier, start with getting critical mass in just one market. Examples: Rover in Seattle, Airbnb in NY."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/6"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/22",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Focus on one niche:",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/23",
+      "text": "Focus on one niche:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Similar to the above, for companies that aren’t location-specific, pick a niche and build critical-mass around it — then expand out. Examples: eBay and Beanie Babies, Eventbrite and tech events.",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/24",
+      "text": "Similar to the above, for companies that aren’t location-specific, pick a niche and build critical-mass around it — then expand out. Examples: eBay and Beanie Babies, Eventbrite and tech events."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "In most cases you’ll be supply constrained from the start (you need something to sell after all), thus most of the solutions focus on growing supply.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/25",
+      "text": "In most cases you’ll be supply constrained from the start (you need something to sell after all), thus most of the solutions focus on growing supply."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "Q: I recently started a new product manager role and some of my work overlaps with a technical program manager that's been with the company much longer. There's been some tension because of that overlap — I'm wondering how to manage that relationship and make it effective so we work together productively.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/26",
+      "text": "Q: I recently started a new product manager role and some of my work overlaps with a technical program manager that's been with the company much longer. There's been some tension because of that overlap — I'm wondering how to manage that relationship and make it effective so we work together productively."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Tricky spot. Not only do you have to deal with the traditional fuzziness of a product manager’s role, you’re also dealing with the power of tenure and history within an org. Labels like product manager, program manager, and project manager can mean substantially different things at different companies, and there’s no hard rule that says you get to do X if your title is Y. However, in the abstract, a program manager has a meaningfully different skillset from a product manager, and thus there should be a distinction between these roles and the people you hire to fill them. At the risk of not getting these totally right and upsetting people, here’s how I think about these three roles:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/27",
+      "text": "Tricky spot. Not only do you have to deal with the traditional fuzziness of a product manager’s role, you’re also dealing with the power of tenure and history within an org. Labels like product manager, program manager, and project manager can mean substantially different things at different companies, and there’s no hard rule that says you get to do X if your title is Y. However, in the abstract, a program manager has a meaningfully different skillset from a product manager, and thus there should be a distinction between these roles and the people you hire to fill them. At the risk of not getting these totally right and upsetting people, here’s how I think about these three roles:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/8"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/28",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Project Manager: Responsible for",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/29",
+      "text": "Project Manager: Responsible for"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "project",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/30",
+      "text": "project"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "success",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/31",
+      "text": "success"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". This includes making sure everyone is aligned around the same deadlines, that the right people are talking when they need to be, and that the project launches on time. Success generally means these projects launch on time and under budget.",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/32",
+      "text": ". This includes making sure everyone is aligned around the same deadlines, that the right people are talking when they need to be, and that the project launches on time. Success generally means these projects launch on time and under budget."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Projects",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/33",
+      "text": "Projects"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", unlike products and programs, are one-off and come to an end.",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/34",
+      "text": ", unlike products and programs, are one-off and come to an end."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/9"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/35",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Product Manager: Responsible for",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/36",
+      "text": "Product Manager: Responsible for"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "product",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/37",
+      "text": "product"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "success",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/38",
+      "text": "success"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". Examples of products include the",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/39",
+      "text": ". Examples of products include the"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.substack.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "Substack",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/40",
+      "text": "Substack"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "website, the",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/41",
+      "text": "website, the"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.google.com/maps",
+      "label": "text",
+      "meta": null,
+      "orig": "Google Maps",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/42",
+      "text": "Google Maps"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "mobile app, and the",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/43",
+      "text": "mobile app, and the"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://slack.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "Slack",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/44",
+      "text": "Slack"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "onboarding flow. Success means these products drive business impact. This role often encompasses the",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/45",
+      "text": "onboarding flow. Success means these products drive business impact. This role often encompasses the"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "project",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/46",
+      "text": "project"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "management responsibilities and includes a direct relationship with the people building product — engineers, designers, researchers.",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/47",
+      "text": "management responsibilities and includes a direct relationship with the people building product — engineers, designers, researchers."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/10"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/48",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Program Manager: Responsible for",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/49",
+      "text": "Program Manager: Responsible for"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "program",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/50",
+      "text": "program"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "success",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/51",
+      "text": "success"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". Examples of programs include running the Bird scooter charging program, the Airbnb Superhost program, and the Lyft ambassador program. What’s the difference between a",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/52",
+      "text": ". Examples of programs include running the Bird scooter charging program, the Airbnb Superhost program, and the Lyft ambassador program. What’s the difference between a"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "product",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/53",
+      "text": "product"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "and a",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/54",
+      "text": "and a"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "program",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/55",
+      "text": "program"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "? In my view, it’s whether the core of the work is building a product (i.e. working with engineers, designers, researchers), or using existing products (i.e. working with ops, sales, marketing), respectively. What’s the difference between a",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/56",
+      "text": "? In my view, it’s whether the core of the work is building a product (i.e. working with engineers, designers, researchers), or using existing products (i.e. working with ops, sales, marketing), respectively. What’s the difference between a"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "program",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/57",
+      "text": "program"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "and a",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/58",
+      "text": "and a"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "project",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/59",
+      "text": "project"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "? This is even fuzzier, but generally, a",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/60",
+      "text": "? This is even fuzzier, but generally, a"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "program",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/61",
+      "text": "program"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "is made up of multiple",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/62",
+      "text": "is made up of multiple"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "projects",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/63",
+      "text": "projects"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "and requires longer-term thinking.",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/64",
+      "text": "and requires longer-term thinking."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "With that out of the way, here’s my advice for how to find clarity in your specific situation:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/65",
+      "text": "With that out of the way, here’s my advice for how to find clarity in your specific situation:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/12"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/66",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "First, try to work it out the person directly",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/67",
+      "text": "First, try to work it out the person directly"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "— If at all possible, talk to the person about this one-on-one first. I bet you they are feeling the same frustration. Point out that you want what’s best for the team (and company), you’re feeling hampered and frustrated with a lack of clarity around your roles, and that you’d like to resolve this to make both of your lives better. If you can get to a place you are both happy, then codify it and share this with your manager(s) — it’s important that they’re also aligned with your worldviews.",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/68",
+      "text": "— If at all possible, talk to the person about this one-on-one first. I bet you they are feeling the same frustration. Point out that you want what’s best for the team (and company), you’re feeling hampered and frustrated with a lack of clarity around your roles, and that you’d like to resolve this to make both of your lives better. If you can get to a place you are both happy, then codify it and share this with your manager(s) — it’s important that they’re also aligned with your worldviews."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/13"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/69",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If that doesn’t work, go to your manager(s) —",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/70",
+      "text": "If that doesn’t work, go to your manager(s) —"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you don’t think the first option will work, or you’ve tried and it failed, then talk to your manager (and possibly their manager). Share concrete examples of where you see overlap, the negative impact this has been having, and your perspective on how to address it. Lean on them to clarify roles with you and the other person (and their manager). Don’t be afraid to bring this to their attention early — in my experience, these things rarely get worked out without a manager being involved.",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/71",
+      "text": "If you don’t think the first option will work, or you’ve tried and it failed, then talk to your manager (and possibly their manager). Share concrete examples of where you see overlap, the negative impact this has been having, and your perspective on how to address it. Lean on them to clarify roles with you and the other person (and their manager). Don’t be afraid to bring this to their attention early — in my experience, these things rarely get worked out without a manager being involved."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/14"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/72",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Differentiate between historical roles vs. ideal roles",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/73",
+      "text": "Differentiate between historical roles vs. ideal roles"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "— Encourage everyone to take a step back from what the world is today and to think about what the ideal roles and responsibilities for each role",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/74",
+      "text": "— Encourage everyone to take a step back from what the world is today and to think about what the ideal roles and responsibilities for each role"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "should",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/75",
+      "text": "should"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "be. As you scale your org, what should program managers be responsible for, and what should product managers be responsible for? What kind of skillsets should you hire for in each? What is the career progression for each role? Work backward from that ideal.",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/76",
+      "text": "be. As you scale your org, what should program managers be responsible for, and what should product managers be responsible for? What kind of skillsets should you hire for in each? What is the career progression for each role? Work backward from that ideal."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/15"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/77",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Avoid waiting for the perfect answer",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/78",
+      "text": "Avoid waiting for the perfect answer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "— As a corollary to the above, don’t wait for all of the details to be worked out before you make changes. This can often take months (or years.) Instead, figure out the biggest issues, align on a few improvements, and act on them.",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/79",
+      "text": "— As a corollary to the above, don’t wait for all of the details to be worked out before you make changes. This can often take months (or years.) Instead, figure out the biggest issues, align on a few improvements, and act on them."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/16"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/80",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Consider changing titles or teams",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/81",
+      "text": "Consider changing titles or teams"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "— Maybe this program manager should be a product manager? Maybe you two should be on different teams? Think about the best long-term change, not just short-term solves.",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/82",
+      "text": "— Maybe this program manager should be a product manager? Maybe you two should be on different teams? Think about the best long-term change, not just short-term solves."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "The worst thing you can do is nothing — these kinds of things rarely get fixed organically. So I’m glad you are recognizing that this issue, and working to resolve it. Keep at it!",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/83",
+      "text": "The worst thing you can do is nothing — these kinds of things rarely get fixed organically. So I’m glad you are recognizing that this issue, and working to resolve it. Keep at it!"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "Q: How do you build a growth team from scratch?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/84",
+      "text": "Q: How do you build a growth team from scratch?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Read these three essays and you’ll be on your way:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/85",
+      "text": "Read these three essays and you’ll be on your way:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://brianbalfour.com/essays/building-a-growth-team-from-zero-to-fifty",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Building a Growth Team from Zero to Fifty",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/86",
+      "text": "Building a Growth Team from Zero to Fifty"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://andrewchen.co/how-to-build-a-growth-team/",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "How to build a growth team – lessons from Uber, Hubspot, and others",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/87",
+      "text": "How to build a growth team – lessons from Uber, Hubspot, and others"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://medium.com/swlh/how-do-you-choose-the-best-growth-team-model-632ad5a85be9#.7bkat2fn5",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "How Do You Choose the Best Growth Team Model?",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/88",
+      "text": "How Do You Choose the Best Growth Team Model?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "A few additional thoughts:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/89",
+      "text": "A few additional thoughts:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Everyone in a company should feel responsible for helping it grow — from the CX team to the IT team to the product team. Though it’s extremely valuable to have a dedicated growth team (you should have one), don’t ever think you can delegate growth to just that one group.",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/90",
+      "text": "Everyone in a company should feel responsible for helping it grow — from the CX team to the IT team to the product team. Though it’s extremely valuable to have a dedicated growth team (you should have one), don’t ever think you can delegate growth to just that one group."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Early on, focus on the things that can give you 2x - 10x growth. Unless your product is designed to grow through viral loops, a % increase in conversion in the early days isn’t going to have the best ROI.",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/91",
+      "text": "Early on, focus on the things that can give you 2x - 10x growth. Unless your product is designed to grow through viral loops, a % increase in conversion in the early days isn’t going to have the best ROI."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "In most cases, once you’re retention is healthy, your biggest growth wins will come from the top of the funnel. You should put a significant portion of your budget and resources there. This includes things like referrals, performance marketing, SEO, and landing page optimization.",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/92",
+      "text": "In most cases, once you’re retention is healthy, your biggest growth wins will come from the top of the funnel. You should put a significant portion of your budget and resources there. This includes things like referrals, performance marketing, SEO, and landing page optimization."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Sincerely,",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/93",
+      "text": "Sincerely,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Lenny 👋",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/94",
+      "text": "Lenny 👋"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "A bit of inspiration for the week ahead:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/95",
+      "text": "A bit of inspiration for the week ahead:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": "https://kottke.org/19/08/the-entire-plane-of-the-milky-way-captured-in-a-single-photo",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "The Entire Plane of the Milky Way Captured in a Single Photo",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/96",
+      "text": "The Entire Plane of the Milky Way Captured in a Single Photo"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/20"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/97",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.youtube.com/watch?v=PHe0bXAIuk0&app=desktop",
+      "label": "text",
+      "meta": null,
+      "orig": "How the economy works by Ray Dalio",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/98",
+      "text": "How the economy works by Ray Dalio"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "- Learned more about the economy in 30 minutes than I have in 30 years",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/99",
+      "text": "- Learned more about the economy in 30 minutes than I have in 30 years"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/21"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/100",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://soundcloud.com/tycho/inversion-burning-man-sunrise-set-2019",
+      "label": "text",
+      "meta": null,
+      "orig": "Tycho's sunrise set at Burning Man",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/101",
+      "text": "Tycho's sunrise set at Burning Man"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "- Live from the Dusty Rhino in Black Rock City",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/102",
+      "text": "- Live from the Dusty Rhino in Black Rock City"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/subscribe?",
+      "label": "text",
+      "meta": null,
+      "orig": "Sign up now",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/103",
+      "text": "Sign up now"
+    }
+  ],
+  "version": "1.10.0"
+}

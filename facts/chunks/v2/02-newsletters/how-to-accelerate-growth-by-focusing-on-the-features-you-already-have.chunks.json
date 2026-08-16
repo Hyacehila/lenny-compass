@@ -1,0 +1,2107 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000000",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\n*P.S. Check out my*\n[***PM recruiting service***](https://www.lennysjobs.com/)\n*(helping you hire Sr. PMs and VPs),*\n[***Lennybot***](https://www.lennybot.com/)\n*(an AI chatbot trained on my newsletter posts, podcast interviews, and more), and my ***\n[*swag store*](https://lennyswag.com/)\n**\n*(great gifts for your favorite PM, or yourself!).*\nEveryone gets excited about launching new features, but in my experience, most of a company’s growth comes from the less glamorous stuff: incremental and consistent optimization of the core product. Of course, you need to add new features and business lines over time, but there’s a lot of hate for micro-optimization product work, and I’m here to tell you that this work is important—maybe the most important.\nEvery major tech company, including\n[Facebook](https://www.youtube.com/watch?v=URiIsrdplbo)\n,\n[Amazon](https://arc.net/l/quote/exmunezx)\n,\n[Netflix](https://netflixtechblog.com/its-all-a-bout-testing-the-netflix-experimentation-platform-4e1ca458c15)\n,\n[Airbnb](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7)\n,\n[LinkedIn](https://www.linkedin.com/blog/engineering/ab-testing-experimentation/fine-tuning-premium-products-through-a-b-testing)\n,\n[Uber](https://www.uber.com/blog/supercharging-a-b-testing-at-uber/)\n,\n[TikTok](https://www.theguardian.com/technology/2022/oct/23/tiktok-rise-algorithm-popularity)\n, and—as we’ve seen in recent newsletter issues—\n[Duolingo,](https://www.lennysnewsletter.com/p/the-secret-to-duolingos-growth)\nhas long prioritized optimizing every square inch of their product. But surprisingly, I’ve never seen a great framework for how to think about this work. Until now.\nBelow, guest author\n[Ken Rudin](https://www.linkedin.com/in/kenrudin/)\nshares his home-grown\n**ARIA framework**\n. Ken’s background is bonkers: He was the first SVP of Products and Engineering at\n**Salesforce**\n, led the Growth and Analytics team at\n**Zynga**\n, was one of the earliest senior execs on the legendary growth team at\n**Facebook**\n, and went on to lead growth at\n**Google**\n(including leading growth for Google search, ads, cloud, and even their behavioral science work). Most recently, at\n**ThoughtSpot**\n(an AI-enabled analytics vendor) he helped transition their growth motion from a traditional sales-led B2B SaaS model to product-led growth. For more from Ken, make sure to follow him on\n[LinkedIn](https://www.linkedin.com/in/kenrudin/)\n.\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nAsk most product teams how they plan to drive more growth, and you’ll frequently hear the same answer: we need more features. More features will make the product more useful, which will lead to more engagement and retention, which will lead to more revenue. Or so the thinking goes.\nBut in my experience,\n**you can drive significantly more growth by focusing on getting users to engage more with your**\n***existing***\n**key features and user flows**\n. I realized just how effective it can be to focus on improving the engagement of existing key features when I joined Google in 2015 to lead their growth team. At that time, the average Google Search user in the U.S. did only 12 searches per month (which shocked me—I probably do 12 searches before getting out of bed every morning! 🤓). We wanted to encourage users to search more, because more searches = more opportunities to show ads = more revenue.\nOur analysis showed that searches whose results changed frequently (e.g. sports scores, weather, or movie times) were the stickiest searches—users who did those searches would repeat them often. But only about 15% of users were aware of these types of searches. So rather than building new features, we focused on building ways to raise awareness and engagement with the searches we already had. We used several approaches (discussed in the sections below), which together nearly doubled the number of users who did these types of searches—and translated into millions of dollars of incremental ad revenue. 💰\nOf course, you need new features to address changing user needs and compete in the market, but most product teams significantly over-index on building new features. Thus, my goal for this post is to provide a framework for (1) identifying key features to double down on and (2) increasing engagement with those features, which will drive overall product growth.",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/225",
+        "#/texts/44",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/48",
+        "#/texts/49",
+        "#/texts/50",
+        "#/texts/51",
+        "#/texts/52"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/369636fb-7e54-4f19-bb93-82edd11170b6_4000x2000.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000000",
+        "chunk_sha256": "ac9287dd34a46fb9362a13bcc5fa38db4b23c94ef4f4c7c3af3a0d3c15da4ce4",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/369636fb-7e54-4f19-bb93-82edd11170b6_4000x2000.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 53,
+          "last_self_ref": "#/texts/52"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32",
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/40",
+          "#/texts/41",
+          "#/texts/42",
+          "#/texts/43",
+          "#/texts/225",
+          "#/texts/44",
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/48",
+          "#/texts/49",
+          "#/texts/50",
+          "#/texts/51",
+          "#/texts/52"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "*P.S. Check out my*\n[***PM recruiting service***](https://www.lennysjobs.com/)\n*(helping you hire Sr. PMs and VPs),*\n[***Lennybot***](https://www.lennybot.com/)\n*(an AI chatbot trained on my newsletter posts, podcast interviews, and more), and my ***\n[*swag store*](https://lennyswag.com/)\n**\n*(great gifts for your favorite PM, or yourself!).*\nEveryone gets excited about launching new features, but in my experience, most of a company’s growth comes from the less glamorous stuff: incremental and consistent optimization of the core product. Of course, you need to add new features and business lines over time, but there’s a lot of hate for micro-optimization product work, and I’m here to tell you that this work is important—maybe the most important.\nEvery major tech company, including\n[Facebook](https://www.youtube.com/watch?v=URiIsrdplbo)\n,\n[Amazon](https://arc.net/l/quote/exmunezx)\n,\n[Netflix](https://netflixtechblog.com/its-all-a-bout-testing-the-netflix-experimentation-platform-4e1ca458c15)\n,\n[Airbnb](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7)\n,\n[LinkedIn](https://www.linkedin.com/blog/engineering/ab-testing-experimentation/fine-tuning-premium-products-through-a-b-testing)\n,\n[Uber](https://www.uber.com/blog/supercharging-a-b-testing-at-uber/)\n,\n[TikTok](https://www.theguardian.com/technology/2022/oct/23/tiktok-rise-algorithm-popularity)\n, and—as we’ve seen in recent newsletter issues—\n[Duolingo,](https://www.lennysnewsletter.com/p/the-secret-to-duolingos-growth)\nhas long prioritized optimizing every square inch of their product. But surprisingly, I’ve never seen a great framework for how to think about this work. Until now.\nBelow, guest author\n[Ken Rudin](https://www.linkedin.com/in/kenrudin/)\nshares his home-grown\n**ARIA framework**\n. Ken’s background is bonkers: He was the first SVP of Products and Engineering at\n**Salesforce**\n, led the Growth and Analytics team at\n**Zynga**\n, was one of the earliest senior execs on the legendary growth team at\n**Facebook**\n, and went on to lead growth at\n**Google**\n(including leading growth for Google search, ads, cloud, and even their behavioral science work). Most recently, at\n**ThoughtSpot**\n(an AI-enabled analytics vendor) he helped transition their growth motion from a traditional sales-led B2B SaaS model to product-led growth. For more from Ken, make sure to follow him on\n[LinkedIn](https://www.linkedin.com/in/kenrudin/)\n.\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nAsk most product teams how they plan to drive more growth, and you’ll frequently hear the same answer: we need more features. More features will make the product more useful, which will lead to more engagement and retention, which will lead to more revenue. Or so the thinking goes.\nBut in my experience,\n**you can drive significantly more growth by focusing on getting users to engage more with your**\n***existing***\n**key features and user flows**\n. I realized just how effective it can be to focus on improving the engagement of existing key features when I joined Google in 2015 to lead their growth team. At that time, the average Google Search user in the U.S. did only 12 searches per month (which shocked me—I probably do 12 searches before getting out of bed every morning! 🤓). We wanted to encourage users to search more, because more searches = more opportunities to show ads = more revenue.\nOur analysis showed that searches whose results changed frequently (e.g. sports scores, weather, or movie times) were the stickiest searches—users who did those searches would repeat them often. But only about 15% of users were aware of these types of searches. So rather than building new features, we focused on building ways to raise awareness and engagement with the searches we already had. We used several approaches (discussed in the sections below), which together nearly doubled the number of users who did these types of searches—and translated into millions of dollars of incremental ad revenue. 💰\nOf course, you need new features to address changing user needs and compete in the market, but most product teams significantly over-index on building new features. Thus, my goal for this post is to provide a framework for (1) identifying key features to double down on and (2) increasing engagement with those features, which will drive overall product growth.",
+      "token_count": 1220
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000001",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nWhy increasing engagement with existing key features is more impactful than launching new features\nThe most important features for a product are usually the ones that were built first. Once you get past a certain level of functionality, a lot of the new functionality on the roadmap often targets just a subset of users (e.g. power users) or supports use cases that are adjacent to the core use cases. So it’s a safer bet that you’ll drive more business impact by increasing engagement with a feature that has already been launched than one that’s still on the roadmap because it wasn’t critical enough to be prioritized.\nAnother reason to focus on existing features is that you probably have not squeezed the most utility for users, and therefore engagement, out of them yet. When you first release a feature, you’ll usually find that about 80% of the feature’s design works well but the other 20% doesn’t. Some users may get stuck on a step that they find confusing or takes significant effort, and don’t complete the flow, which means they actually get 0% of the feature’s value. For others, it means they use the feature less than they otherwise would, and therefore get less value. By focusing on improving that last 20%, you unlock the full 100% of the value for users.\nI’ve applied the approach of focusing on increasing engagement with existing key features many, many times—with several Google products (including Search, YouTube, Google Cloud, and Google Ads), at\n[ThoughtSpot](https://www.thoughtspot.com/)\n(an analytics vendor I worked at, whose product allows you to analyze data using natural language and AI), and with several other venture-backed companies that I have the honor to advise. I can confidently say that product teams frequently, or even usually, drive more growth by optimizing engagement with existing key features than by launching new ones. And in an economic environment where engineering budgets and projects are being cut, getting more impact from work that’s already been done is even more critical.\nIf increasing engagement with existing key features frequently has more impact than adding new features, the next question is: How do we increase engagement in a structured, repeatable way?",
+      "doc_item_refs": [
+        "#/texts/54",
+        "#/texts/55",
+        "#/texts/56",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Why increasing engagement with existing key features is more impactful than launching new features"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000001",
+        "chunk_sha256": "b7e35ad85442b5727ff5aaa8b592b7de4b4017aa2b3f26ef2ab8161a80b22741",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Why increasing engagement with existing key features is more impactful than launching new features"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/54",
+          "item_count": 6,
+          "last_self_ref": "#/texts/59"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/54",
+          "#/texts/55",
+          "#/texts/56",
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "The most important features for a product are usually the ones that were built first. Once you get past a certain level of functionality, a lot of the new functionality on the roadmap often targets just a subset of users (e.g. power users) or supports use cases that are adjacent to the core use cases. So it’s a safer bet that you’ll drive more business impact by increasing engagement with a feature that has already been launched than one that’s still on the roadmap because it wasn’t critical enough to be prioritized.\nAnother reason to focus on existing features is that you probably have not squeezed the most utility for users, and therefore engagement, out of them yet. When you first release a feature, you’ll usually find that about 80% of the feature’s design works well but the other 20% doesn’t. Some users may get stuck on a step that they find confusing or takes significant effort, and don’t complete the flow, which means they actually get 0% of the feature’s value. For others, it means they use the feature less than they otherwise would, and therefore get less value. By focusing on improving that last 20%, you unlock the full 100% of the value for users.\nI’ve applied the approach of focusing on increasing engagement with existing key features many, many times—with several Google products (including Search, YouTube, Google Cloud, and Google Ads), at\n[ThoughtSpot](https://www.thoughtspot.com/)\n(an analytics vendor I worked at, whose product allows you to analyze data using natural language and AI), and with several other venture-backed companies that I have the honor to advise. I can confidently say that product teams frequently, or even usually, drive more growth by optimizing engagement with existing key features than by launching new ones. And in an economic environment where engineering budgets and projects are being cut, getting more impact from work that’s already been done is even more critical.\nIf increasing engagement with existing key features frequently has more impact than adding new features, the next question is: How do we increase engagement in a structured, repeatable way?",
+      "token_count": 502
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000002",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nThe ARIA framework\nProduct teams have lots of frameworks leading up to launching new features, including identifying user needs, defining solutions, and prioritizing them on a roadmap. But what about a framework for increasing the adoption of features\n*after*\nthey’ve launched? It’s one thing to know that you should focus on optimizing existing features but another to know which features to focus on, and what to do to make them more successful.\nWhen I’ve looked for a framework for increasing engagement with existing features, I’ve always come up empty-handed. That’s what led me to create the ARIA framework.\nARIA has four key principles:\n**Analyze**\n,\n**Reduce**\n,\n**Introduce**\n, and\n**Assist**\n:\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nThis isn’t a one-and-done process, however. The intent is not to choose a feature, go through the four principles once, and then move on to the next feature. Instead, it’s meant to be an ongoing process—sort of like having an implicit Repeat principle as the last step of the framework (though changing the name to ARIAR just doesn’t sound as good. 😁)\nARIA is certainly not a complete list of everything you can do to increase feature adoption, and it would be a waste of time to create such a list anyway, because people are always innovating new ways to make features more engaging. Instead, use the framework as a cheat sheet to help guide you.",
+      "doc_item_refs": [
+        "#/texts/61",
+        "#/texts/62",
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65",
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/70",
+        "#/texts/71",
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/226",
+        "#/texts/74",
+        "#/texts/75",
+        "#/texts/76"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "The ARIA framework"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c9e605e5-738d-477c-abba-e19c16af824f_2274x1196.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000002",
+        "chunk_sha256": "b2eb07bc68b2829280e588d69a6f09b80b453c4d2b9cad35afed3e9141428eb6",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "The ARIA framework"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c9e605e5-738d-477c-abba-e19c16af824f_2274x1196.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/61",
+          "item_count": 17,
+          "last_self_ref": "#/texts/76"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/61",
+          "#/texts/62",
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65",
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69",
+          "#/texts/70",
+          "#/texts/71",
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/226",
+          "#/texts/74",
+          "#/texts/75",
+          "#/texts/76"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "Product teams have lots of frameworks leading up to launching new features, including identifying user needs, defining solutions, and prioritizing them on a roadmap. But what about a framework for increasing the adoption of features\n*after*\nthey’ve launched? It’s one thing to know that you should focus on optimizing existing features but another to know which features to focus on, and what to do to make them more successful.\nWhen I’ve looked for a framework for increasing engagement with existing features, I’ve always come up empty-handed. That’s what led me to create the ARIA framework.\nARIA has four key principles:\n**Analyze**\n,\n**Reduce**\n,\n**Introduce**\n, and\n**Assist**\n:\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nThis isn’t a one-and-done process, however. The intent is not to choose a feature, go through the four principles once, and then move on to the next feature. Instead, it’s meant to be an ongoing process—sort of like having an implicit Repeat principle as the last step of the framework (though changing the name to ARIAR just doesn’t sound as good. 😁)\nARIA is certainly not a complete list of everything you can do to increase feature adoption, and it would be a waste of time to create such a list anyway, because people are always innovating new ways to make features more engaging. Instead, use the framework as a cheat sheet to help guide you.",
+      "token_count": 373
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000003",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #1: Analyze\nFirst, you need to figure out which features to focus on. That means you need to analyze your data to identify which of your features are\n*most correlated with growth*\n, and then analyze the engagement levels of those features to highlight which features aren’t getting the user love they deserve.",
+      "doc_item_refs": [
+        "#/texts/78",
+        "#/texts/79",
+        "#/texts/80"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #1: Analyze"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000003",
+        "chunk_sha256": "82b32335e8fe3879ccabf12112c151482648e5ad2213833b3cb4c7e882c60012",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #1: Analyze"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/78",
+          "item_count": 3,
+          "last_self_ref": "#/texts/80"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/78",
+          "#/texts/79",
+          "#/texts/80"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "First, you need to figure out which features to focus on. That means you need to analyze your data to identify which of your features are\n*most correlated with growth*\n, and then analyze the engagement levels of those features to highlight which features aren’t getting the user love they deserve.",
+      "token_count": 103
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000004",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #1: Analyze\n1.1 Identify key features correlated with growth\nAs product people, our features are our creations. We’re proud of all of them, and we’d like to see them all thrive. (OK, I admit that I have a few that I’d like to forget about. 😬) But given that you always have limited resources, you need to\n**identify your “key features”—that is, those features that have the highest correlation with acquisition, monetization, retention, or expansion**\n. Increasing adoption of those features will have the biggest impact on growing your business. (You might be thinking, “But\n[correlation doesn’t imply causation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation)\n!” That’s true, but it’s still the best way to identify features with the highest likelihood of driving growth.)\nA\n*correlation analysis*\nwill tell you how strongly the use of a feature is related to the movement of your various growth metrics. There are many popular, easy-to-use tools (including some free ones) for quickly doing a correlation analysis, or you can even do it pretty easily in a spreadsheet. For a great primer on how to do correlation analysis, see this post in Lenny’s Newsletter by Olga Berezovsky: “\n[How to do linear regression and correlation analysis](https://www.lennysnewsletter.com/p/linear-regression-and-correlation-analysis)\n.”\n*Examples of key features:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "doc_item_refs": [
+        "#/texts/82",
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/87",
+        "#/texts/88",
+        "#/texts/89",
+        "#/texts/90",
+        "#/texts/91",
+        "#/texts/92",
+        "#/texts/227",
+        "#/texts/93",
+        "#/texts/228",
+        "#/texts/94"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #1: Analyze",
+        "1.1 Identify key features correlated with growth"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/3d416cd8-6704-4ce7-bca1-5e4e021cc78d_1744x482.png"
+        },
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/0022a9f8-118f-43c0-9f27-dbe8175dc822_1744x1446.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000004",
+        "chunk_sha256": "894033748685c72cafa71d37cb9af4f5f1aeddb65e26007ad7052b1ea9a82c8f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #1: Analyze",
+          "1.1 Identify key features correlated with growth"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/3d416cd8-6704-4ce7-bca1-5e4e021cc78d_1744x482.png"
+          },
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/0022a9f8-118f-43c0-9f27-dbe8175dc822_1744x1446.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/82",
+          "item_count": 15,
+          "last_self_ref": "#/texts/94"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/82",
+          "#/texts/83",
+          "#/texts/84",
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/87",
+          "#/texts/88",
+          "#/texts/89",
+          "#/texts/90",
+          "#/texts/91",
+          "#/texts/92",
+          "#/texts/227",
+          "#/texts/93",
+          "#/texts/228",
+          "#/texts/94"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "As product people, our features are our creations. We’re proud of all of them, and we’d like to see them all thrive. (OK, I admit that I have a few that I’d like to forget about. 😬) But given that you always have limited resources, you need to\n**identify your “key features”—that is, those features that have the highest correlation with acquisition, monetization, retention, or expansion**\n. Increasing adoption of those features will have the biggest impact on growing your business. (You might be thinking, “But\n[correlation doesn’t imply causation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation)\n!” That’s true, but it’s still the best way to identify features with the highest likelihood of driving growth.)\nA\n*correlation analysis*\nwill tell you how strongly the use of a feature is related to the movement of your various growth metrics. There are many popular, easy-to-use tools (including some free ones) for quickly doing a correlation analysis, or you can even do it pretty easily in a spreadsheet. For a great primer on how to do correlation analysis, see this post in Lenny’s Newsletter by Olga Berezovsky: “\n[How to do linear regression and correlation analysis](https://www.lennysnewsletter.com/p/linear-regression-and-correlation-analysis)\n.”\n*Examples of key features:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "token_count": 404
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000005",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #1: Analyze\n1.2 Calculate usage metrics for key features\nOnce you’ve identified your set of key features, the next step is to gather data about their existing level of user adoption and engagement. For example, what percentage of YouTube users have subscribed to a channel, or what percentage of Loom users use the Auto Message Composer?\nWhen analyzing usage, it’s helpful to look at the different stages of feature adoption:\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nIf using the feature requires multiple steps (which is true for most features), then you also want to measure completion rates. For example, of the Gmail users who start the process of adding another email account (like a Microsoft Outlook account) to their current Gmail account, what percentage complete that process?\nOne final important metric to measure is success rate. This doesn’t apply to every feature, but many features have a concept of a successful outcome for the user. For instance, what percentage of resumes submitted for a job opening on Indeed receive a call back from the employer? Or what percentage of apartment searches on Apartments.com return at least one result that meets the user’s search criteria?\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nWhen I was an advisor to Roblox in their early days, many of our growth wins came from focusing on success rates. For example, our analysis showed that making frequent changes to your avatar was strongly correlated with user retention, particularly for new users. But we saw that about 20% of visits to the Avatar Shop were “unsuccessful”—users would leave the shop without changing their avatar. By adding the ability to sort clothing and accessories to show newest or best-selling items first, and adding simple search capabilities, we were able to increase the success rate of these Avatar Shop visits significantly, increasing the frequency of avatar changes, and ultimately increasing new-user retention by a couple percent. 🎯\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nFinal tip: When analyzing these metrics, segment your users by how long they’ve been using your product (such as 0-30 days, 31-90 days, and 91+ days). This helps you see which features are adopted early in a user’s journey and which take more time.",
+      "doc_item_refs": [
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/229",
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/100",
+        "#/texts/230",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/231",
+        "#/texts/103",
+        "#/texts/104"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #1: Analyze",
+        "1.2 Calculate usage metrics for key features"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/d3b3a628-b52b-448b-8283-bcf7927e449c_1570x578.png"
+        },
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/473cabdb-e45c-4b90-aea5-841f09890062_1576x382.png"
+        },
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a71ed6e4-7ffc-407e-b21a-6e7170fae01e_3048x1406.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000005",
+        "chunk_sha256": "745f097cbe6e28680722306a933c898f304511f3491947d7e460f86868bb7bfc",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #1: Analyze",
+          "1.2 Calculate usage metrics for key features"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/d3b3a628-b52b-448b-8283-bcf7927e449c_1570x578.png"
+          },
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/473cabdb-e45c-4b90-aea5-841f09890062_1576x382.png"
+          },
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a71ed6e4-7ffc-407e-b21a-6e7170fae01e_3048x1406.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/96",
+          "item_count": 12,
+          "last_self_ref": "#/texts/104"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/229",
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/100",
+          "#/texts/230",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/231",
+          "#/texts/103",
+          "#/texts/104"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "Once you’ve identified your set of key features, the next step is to gather data about their existing level of user adoption and engagement. For example, what percentage of YouTube users have subscribed to a channel, or what percentage of Loom users use the Auto Message Composer?\nWhen analyzing usage, it’s helpful to look at the different stages of feature adoption:\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nIf using the feature requires multiple steps (which is true for most features), then you also want to measure completion rates. For example, of the Gmail users who start the process of adding another email account (like a Microsoft Outlook account) to their current Gmail account, what percentage complete that process?\nOne final important metric to measure is success rate. This doesn’t apply to every feature, but many features have a concept of a successful outcome for the user. For instance, what percentage of resumes submitted for a job opening on Indeed receive a call back from the employer? Or what percentage of apartment searches on Apartments.com return at least one result that meets the user’s search criteria?\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nWhen I was an advisor to Roblox in their early days, many of our growth wins came from focusing on success rates. For example, our analysis showed that making frequent changes to your avatar was strongly correlated with user retention, particularly for new users. But we saw that about 20% of visits to the Avatar Shop were “unsuccessful”—users would leave the shop without changing their avatar. By adding the ability to sort clothing and accessories to show newest or best-selling items first, and adding simple search capabilities, we were able to increase the success rate of these Avatar Shop visits significantly, increasing the frequency of avatar changes, and ultimately increasing new-user retention by a couple percent. 🎯\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nFinal tip: When analyzing these metrics, segment your users by how long they’ve been using your product (such as 0-30 days, 31-90 days, and 91+ days). This helps you see which features are adopted early in a user’s journey and which take more time.",
+      "token_count": 557
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000006",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #1: Analyze\n1.3 Focus on features that drive growth and have low usage metrics\nThe final step in Analysis is simple: identify key features (i.e. features correlated with growth) that have low adoption, completion, or success rates. If something is already successfully used by a large percentage of users, then there’s not much room for improvement. Once you’ve identified which features to focus on, you then need to increase their engagement. Below, I cover the three most consistently effective ways that I’ve found for doing this.",
+      "doc_item_refs": [
+        "#/texts/106"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #1: Analyze",
+        "1.3 Focus on features that drive growth and have low usage metrics"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000006",
+        "chunk_sha256": "3fb03d08c8d0a120cf7e9d2305ec1e5c75cfe5e0c5d428ea46a017a944cda052",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #1: Analyze",
+          "1.3 Focus on features that drive growth and have low usage metrics"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/106",
+          "item_count": 1,
+          "last_self_ref": "#/texts/106"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/106"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "The final step in Analysis is simple: identify key features (i.e. features correlated with growth) that have low adoption, completion, or success rates. If something is already successfully used by a large percentage of users, then there’s not much room for improvement. Once you’ve identified which features to focus on, you then need to increase their engagement. Below, I cover the three most consistently effective ways that I’ve found for doing this.",
+      "token_count": 153
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000007",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #2: Reduce\nThe first consistently effective way to increase engagement with a feature is by\n*reducing the friction*\nassociated with using it. This includes reducing the number of steps, reducing the effort to complete each step, and reducing how much we need to learn before we can really use it (i.e. reducing the “cognitive load”).",
+      "doc_item_refs": [
+        "#/texts/108",
+        "#/texts/109",
+        "#/texts/110"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #2: Reduce"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000007",
+        "chunk_sha256": "951d27d8a0c7fada6b893f7b78e6277c8dee9f99c9e2b427ec1c356aba2f9a54",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #2: Reduce"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/108",
+          "item_count": 3,
+          "last_self_ref": "#/texts/110"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/108",
+          "#/texts/109",
+          "#/texts/110"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "The first consistently effective way to increase engagement with a feature is by\n*reducing the friction*\nassociated with using it. This includes reducing the number of steps, reducing the effort to complete each step, and reducing how much we need to learn before we can really use it (i.e. reducing the “cognitive load”).",
+      "token_count": 111
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000008",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #2: Reduce\n2.1 Reduce steps in the process\nMost features have multiple steps. Every time you ask a user to click, tap, or type, even if it all happens in one screen, that’s a step. And when you start counting all these steps, you’ll realize that you’re asking your users to do a lot more than you realize. You need to look at whether some of the steps can be removed.\n*Examples of reducing steps in the process:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "doc_item_refs": [
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/232",
+        "#/texts/114",
+        "#/texts/233",
+        "#/texts/115"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #2: Reduce",
+        "2.1 Reduce steps in the process"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/d788fb59-f865-4e67-a0ce-c64c63ded165_1742x1600.png"
+        },
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/577f902c-263d-4c25-8068-f017d3667e7b_1744x1602.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000008",
+        "chunk_sha256": "3f43b6b10a3526dba216acd91325a0ad18c0e330428582225ac00e79aa72cfed",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #2: Reduce",
+          "2.1 Reduce steps in the process"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/d788fb59-f865-4e67-a0ce-c64c63ded165_1742x1600.png"
+          },
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/577f902c-263d-4c25-8068-f017d3667e7b_1744x1602.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/112",
+          "item_count": 6,
+          "last_self_ref": "#/texts/115"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/112",
+          "#/texts/113",
+          "#/texts/232",
+          "#/texts/114",
+          "#/texts/233",
+          "#/texts/115"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "Most features have multiple steps. Every time you ask a user to click, tap, or type, even if it all happens in one screen, that’s a step. And when you start counting all these steps, you’ll realize that you’re asking your users to do a lot more than you realize. You need to look at whether some of the steps can be removed.\n*Examples of reducing steps in the process:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "token_count": 169
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000009",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #2: Reduce\n2.2 Reduce effort per step\nOnce you’ve minimized the steps needed to use a feature, look at the remaining steps and see if you can reduce the effort required for each step, i.e. make each step simpler. Product teams know they need to do this, but in my experience they rely on a limited number of approaches, such as optimizing the UI flow, mimicking how similar flows are built in other popular apps so the flow feels more familiar to users, and clarifying the verbiage in the app. But there are many other approaches. Below are three additional methods that I’ve found to be very effective and should be used much more often than they currently are.",
+      "doc_item_refs": [
+        "#/texts/117"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #2: Reduce",
+        "2.2 Reduce effort per step"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000009",
+        "chunk_sha256": "d3c541534372538f2e2c434774709a5b9464cdaf9c61efa5c148f928f02c315f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #2: Reduce",
+          "2.2 Reduce effort per step"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/117",
+          "item_count": 1,
+          "last_self_ref": "#/texts/117"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/117"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "Once you’ve minimized the steps needed to use a feature, look at the remaining steps and see if you can reduce the effort required for each step, i.e. make each step simpler. Product teams know they need to do this, but in my experience they rely on a limited number of approaches, such as optimizing the UI flow, mimicking how similar flows are built in other popular apps so the flow feels more familiar to users, and clarifying the verbiage in the app. But there are many other approaches. Below are three additional methods that I’ve found to be very effective and should be used much more often than they currently are.",
+      "token_count": 188
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000010",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #2: Reduce\n2.2 Reduce effort per step\na. Have users edit rather than create from scratch\nYou know how it’s usually easier to start with content that’s close to what you want and edit it than it is to create new content from scratch? That’s true for your users as well, which means that where possible, providing users with a good starting point for any kind of content creation can reduce friction and increase engagement. This “edit vs. create” idea applies to not just traditional text or image-based content but to anything the user needs to create or define.\n*Examples of editing vs. creating from scratch:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "doc_item_refs": [
+        "#/texts/119",
+        "#/texts/120",
+        "#/texts/234",
+        "#/texts/121",
+        "#/texts/235",
+        "#/texts/122",
+        "#/texts/236",
+        "#/texts/123"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #2: Reduce",
+        "2.2 Reduce effort per step",
+        "a. Have users edit rather than create from scratch"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000009",
+          "path": null,
+          "self_ref": "#/pictures/9",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/08f6a83a-fda3-48e8-bc41-9f24f589ed9b_1742x1100.png"
+        },
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000010",
+          "path": null,
+          "self_ref": "#/pictures/10",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/83d99db4-2157-42f8-9643-80fdf024ac54_1742x1156.png"
+        },
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000011",
+          "path": null,
+          "self_ref": "#/pictures/11",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/e9eb399d-3759-4dcb-853b-e98b6c3c73b8_1744x384.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000010",
+        "chunk_sha256": "651238e40fb52db39d0b0f36c04226cdfde0c2a520ff422aae5c213e38618d5c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #2: Reduce",
+          "2.2 Reduce effort per step",
+          "a. Have users edit rather than create from scratch"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000009",
+            "path": null,
+            "self_ref": "#/pictures/9",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/08f6a83a-fda3-48e8-bc41-9f24f589ed9b_1742x1100.png"
+          },
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000010",
+            "path": null,
+            "self_ref": "#/pictures/10",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/83d99db4-2157-42f8-9643-80fdf024ac54_1742x1156.png"
+          },
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000011",
+            "path": null,
+            "self_ref": "#/pictures/11",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/e9eb399d-3759-4dcb-853b-e98b6c3c73b8_1744x384.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/119",
+          "item_count": 8,
+          "last_self_ref": "#/texts/123"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/119",
+          "#/texts/120",
+          "#/texts/234",
+          "#/texts/121",
+          "#/texts/235",
+          "#/texts/122",
+          "#/texts/236",
+          "#/texts/123"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "You know how it’s usually easier to start with content that’s close to what you want and edit it than it is to create new content from scratch? That’s true for your users as well, which means that where possible, providing users with a good starting point for any kind of content creation can reduce friction and increase engagement. This “edit vs. create” idea applies to not just traditional text or image-based content but to anything the user needs to create or define.\n*Examples of editing vs. creating from scratch:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "token_count": 214
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000011",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #2: Reduce\n2.2 Reduce effort per step\nb. Use smart defaults\nAnother way to reduce effort is to intelligently prefill default values.\n*Examples of using smart defaults:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "doc_item_refs": [
+        "#/texts/125",
+        "#/texts/126",
+        "#/texts/237",
+        "#/texts/127",
+        "#/texts/238",
+        "#/texts/128"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #2: Reduce",
+        "2.2 Reduce effort per step",
+        "b. Use smart defaults"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000012",
+          "path": null,
+          "self_ref": "#/pictures/12",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c0471355-b25f-4af3-b495-e64cc4aa0e80_1742x912.png"
+        },
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000013",
+          "path": null,
+          "self_ref": "#/pictures/13",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4578aaf7-f9c2-47d3-b391-0de5b212d712_1742x1050.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000011",
+        "chunk_sha256": "73a128c553fe224075d552eee09010c1162006cfdc477892ca80602d66360ad8",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #2: Reduce",
+          "2.2 Reduce effort per step",
+          "b. Use smart defaults"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000012",
+            "path": null,
+            "self_ref": "#/pictures/12",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c0471355-b25f-4af3-b495-e64cc4aa0e80_1742x912.png"
+          },
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000013",
+            "path": null,
+            "self_ref": "#/pictures/13",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/4578aaf7-f9c2-47d3-b391-0de5b212d712_1742x1050.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/125",
+          "item_count": 6,
+          "last_self_ref": "#/texts/128"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/125",
+          "#/texts/126",
+          "#/texts/237",
+          "#/texts/127",
+          "#/texts/238",
+          "#/texts/128"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "Another way to reduce effort is to intelligently prefill default values.\n*Examples of using smart defaults:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "token_count": 110
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000012",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #2: Reduce\n2.2 Reduce effort per step\nc. Enable users to click or tap rather than type\nAsking the user to enter information by typing is an overlooked but very real source of friction. You need to know exactly what to type (for example, if you want to share a Figma file with someone, you need to know the correct email address to type), and you have to deal with typos. Also, this friction is magnified if the typing needs to be done on a small mobile screen. Instead, explore where you can have users select something from a list with a click/tap.\n*Examples of clicking or tapping vs. typing:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "doc_item_refs": [
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/239",
+        "#/texts/132",
+        "#/texts/240",
+        "#/texts/133"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #2: Reduce",
+        "2.2 Reduce effort per step",
+        "c. Enable users to click or tap rather than type"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000014",
+          "path": null,
+          "self_ref": "#/pictures/14",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/1daf12f3-339e-4d4b-8c73-ec30c6561444_1742x712.png"
+        },
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000015",
+          "path": null,
+          "self_ref": "#/pictures/15",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/8b1bb4a3-be9d-4d5c-886d-7a2a11d40599_1744x1320.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000012",
+        "chunk_sha256": "5f30b358290fb3ad675989559bf857b5d708a671df5eb5338b8abd3ac07276e9",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #2: Reduce",
+          "2.2 Reduce effort per step",
+          "c. Enable users to click or tap rather than type"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000014",
+            "path": null,
+            "self_ref": "#/pictures/14",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/1daf12f3-339e-4d4b-8c73-ec30c6561444_1742x712.png"
+          },
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000015",
+            "path": null,
+            "self_ref": "#/pictures/15",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/8b1bb4a3-be9d-4d5c-886d-7a2a11d40599_1744x1320.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/130",
+          "item_count": 6,
+          "last_self_ref": "#/texts/133"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/239",
+          "#/texts/132",
+          "#/texts/240",
+          "#/texts/133"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "Asking the user to enter information by typing is an overlooked but very real source of friction. You need to know exactly what to type (for example, if you want to share a Figma file with someone, you need to know the correct email address to type), and you have to deal with typos. Also, this friction is magnified if the typing needs to be done on a small mobile screen. Instead, explore where you can have users select something from a list with a click/tap.\n*Examples of clicking or tapping vs. typing:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "token_count": 205
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000013",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #2: Reduce\n2.3 Reduce cognitive load\nWe can’t have a discussion about removing friction in your product without at least mentioning reducing\n*cognitive*\nfriction, also known as cognitive load—that is, reducing the mental effort required to understand and use a feature. To find out which of your features users struggle with, you need to grab a few new users and watch them try those features for the first time. These sessions are often painful to watch, but you’ll learn a ton.\nYou’ll uncover which concepts in your product are unfamiliar to your users. For example, I love Notion as an all-purpose note-taking and productivity tool, but I know several people who tried to switch from Evernote to Notion and had trouble getting their head around Notion’s central concepts of “blocks” and “databases.” A big part of Notion’s success (and that of other companies like Figma and Airtable) is due to their heavy investment in building templates that introduce users to core concepts by showing them in action, making them less conceptual and more tangible. (I discuss templates more in the Assist section below.) Notion created over 150 templates for different use cases, and users can also create and publicly share their own—see screenshot below. If it’s absolutely necessary to introduce your users to unfamiliar concepts, be prepared to spend a fair bit of time and resources finding ways to help people easily understand them.\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "doc_item_refs": [
+        "#/texts/135",
+        "#/texts/136",
+        "#/texts/137",
+        "#/texts/138",
+        "#/texts/241",
+        "#/texts/139"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #2: Reduce",
+        "2.3 Reduce cognitive load"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000016",
+          "path": null,
+          "self_ref": "#/pictures/16",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/37bf9900-2129-4097-a6a0-6680a4912c83_1600x1009.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000013",
+        "chunk_sha256": "faf72a69151f41879c8154309163fde30d60691f9fc43bcd96f420f81c9dbeb3",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #2: Reduce",
+          "2.3 Reduce cognitive load"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000016",
+            "path": null,
+            "self_ref": "#/pictures/16",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/37bf9900-2129-4097-a6a0-6680a4912c83_1600x1009.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/135",
+          "item_count": 6,
+          "last_self_ref": "#/texts/139"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/135",
+          "#/texts/136",
+          "#/texts/137",
+          "#/texts/138",
+          "#/texts/241",
+          "#/texts/139"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "We can’t have a discussion about removing friction in your product without at least mentioning reducing\n*cognitive*\nfriction, also known as cognitive load—that is, reducing the mental effort required to understand and use a feature. To find out which of your features users struggle with, you need to grab a few new users and watch them try those features for the first time. These sessions are often painful to watch, but you’ll learn a ton.\nYou’ll uncover which concepts in your product are unfamiliar to your users. For example, I love Notion as an all-purpose note-taking and productivity tool, but I know several people who tried to switch from Evernote to Notion and had trouble getting their head around Notion’s central concepts of “blocks” and “databases.” A big part of Notion’s success (and that of other companies like Figma and Airtable) is due to their heavy investment in building templates that introduce users to core concepts by showing them in action, making them less conceptual and more tangible. (I discuss templates more in the Assist section below.) Notion created over 150 templates for different use cases, and users can also create and publicly share their own—see screenshot below. If it’s absolutely necessary to introduce your users to unfamiliar concepts, be prepared to spend a fair bit of time and resources finding ways to help people easily understand them.\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "token_count": 362
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000014",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #3: Introduce\nReducing the friction associated with features is critical, but it only solves part of the problem. It doesn’t matter much that you’ve been able to reduce the number of steps required, the effort per step, or the cognitive load\n*if no one knows about the feature*\n.\nIn this section, we’ll talk about how to increase users’ awareness of a feature and motivate them to use it. A key point here is that I’m not just talking about introducing newly launched features. I’m referring to all your key features. Many of your existing users don’t know about all of them, and for your new users, every feature is new to them.",
+      "doc_item_refs": [
+        "#/texts/141",
+        "#/texts/142",
+        "#/texts/143",
+        "#/texts/144"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #3: Introduce"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000014",
+        "chunk_sha256": "6e3a7c9227bc2e5c55efa1fdfaa1b43d776cfe10b24e5b638841e851de3aafc6",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #3: Introduce"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/141",
+          "item_count": 4,
+          "last_self_ref": "#/texts/144"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/141",
+          "#/texts/142",
+          "#/texts/143",
+          "#/texts/144"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "Reducing the friction associated with features is critical, but it only solves part of the problem. It doesn’t matter much that you’ve been able to reduce the number of steps required, the effort per step, or the cognitive load\n*if no one knows about the feature*\n.\nIn this section, we’ll talk about how to increase users’ awareness of a feature and motivate them to use it. A key point here is that I’m not just talking about introducing newly launched features. I’m referring to all your key features. Many of your existing users don’t know about all of them, and for your new users, every feature is new to them.",
+      "token_count": 185
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000015",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #3: Introduce\n\n3.1 Increase feature awareness,\n*in context*\nThe first step to introducing a feature is to simply increase users’ awareness of the feature. We’ve all seen the common UI elements used for this: pop-up modals, tooltips, banners, pulsing hotspots, walk-throughs, checklists, etc. But the key question we should ask isn’t\n*how*\nwe should raise awareness but\n*when*\n.\nProduct teams often rely on the new-user onboarding flow to introduce key features, but there’s a limit to how much functionality you can show a new user before you overwhelm them. Or they rely on What’s New pop-ups, but their effectiveness is questionable. (I’m sure I’m not the only one who reflexively closes these pop-ups without reading them. Particularly when they take over my entire screen, blocking me from my games! 🎮 )\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nFortunately, there’s a better way. The right time to introduce a feature is to introduce it\n*in context*\n, which means at a point when the user is most likely to want to use it. Compared with a user who is simply told about a feature, a user who is told about a feature\n*when they need it*\nis much more likely to use that feature and remember it.\n*Examples of increasing feature awareness in context:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "doc_item_refs": [
+        "#/texts/146",
+        "#/texts/147",
+        "#/texts/148",
+        "#/texts/149",
+        "#/texts/150",
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/153",
+        "#/texts/242",
+        "#/texts/154",
+        "#/texts/155",
+        "#/texts/156",
+        "#/texts/157",
+        "#/texts/158",
+        "#/texts/159",
+        "#/texts/160",
+        "#/texts/243",
+        "#/texts/161",
+        "#/texts/244",
+        "#/texts/162"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #3: Introduce",
+        ""
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000017",
+          "path": null,
+          "self_ref": "#/pictures/17",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/73f7fd3a-a488-4203-a305-a94aaf01de1f_462x968.png"
+        },
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000018",
+          "path": null,
+          "self_ref": "#/pictures/18",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/543e21e6-4346-4988-8a14-ee993bf8f5e8_1398x1680.png"
+        },
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000019",
+          "path": null,
+          "self_ref": "#/pictures/19",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/719cab8f-87bf-4efb-9c0e-684912a933ac_1744x468.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000015",
+        "chunk_sha256": "6b6dffd432fcec492867fd9ef69eb03d87e2d3261115302b7d636c660726c4f1",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #3: Introduce",
+          ""
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000017",
+            "path": null,
+            "self_ref": "#/pictures/17",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/73f7fd3a-a488-4203-a305-a94aaf01de1f_462x968.png"
+          },
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000018",
+            "path": null,
+            "self_ref": "#/pictures/18",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/543e21e6-4346-4988-8a14-ee993bf8f5e8_1398x1680.png"
+          },
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000019",
+            "path": null,
+            "self_ref": "#/pictures/19",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/719cab8f-87bf-4efb-9c0e-684912a933ac_1744x468.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 15,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/146",
+          "item_count": 20,
+          "last_self_ref": "#/texts/162"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/146",
+          "#/texts/147",
+          "#/texts/148",
+          "#/texts/149",
+          "#/texts/150",
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/153",
+          "#/texts/242",
+          "#/texts/154",
+          "#/texts/155",
+          "#/texts/156",
+          "#/texts/157",
+          "#/texts/158",
+          "#/texts/159",
+          "#/texts/160",
+          "#/texts/243",
+          "#/texts/161",
+          "#/texts/244",
+          "#/texts/162"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 15,
+      "raw_text": "3.1 Increase feature awareness,\n*in context*\nThe first step to introducing a feature is to simply increase users’ awareness of the feature. We’ve all seen the common UI elements used for this: pop-up modals, tooltips, banners, pulsing hotspots, walk-throughs, checklists, etc. But the key question we should ask isn’t\n*how*\nwe should raise awareness but\n*when*\n.\nProduct teams often rely on the new-user onboarding flow to introduce key features, but there’s a limit to how much functionality you can show a new user before you overwhelm them. Or they rely on What’s New pop-ups, but their effectiveness is questionable. (I’m sure I’m not the only one who reflexively closes these pop-ups without reading them. Particularly when they take over my entire screen, blocking me from my games! 🎮 )\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nFortunately, there’s a better way. The right time to introduce a feature is to introduce it\n*in context*\n, which means at a point when the user is most likely to want to use it. Compared with a user who is simply told about a feature, a user who is told about a feature\n*when they need it*\nis much more likely to use that feature and remember it.\n*Examples of increasing feature awareness in context:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "token_count": 381
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000016",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #3: Introduce\n3.2 Motivate the user to use the feature\nOnce you’ve raised awareness of a key feature, your next step is to motivate users to use it by explaining\n*why*\nthey should use it.",
+      "doc_item_refs": [
+        "#/texts/164",
+        "#/texts/165",
+        "#/texts/166"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #3: Introduce",
+        "3.2 Motivate the user to use the feature"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000016",
+        "chunk_sha256": "eb55f4ae5eb09ee3b6b8d26a41a14f8e54263364dd1612cf560ad4cebd33d81f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #3: Introduce",
+          "3.2 Motivate the user to use the feature"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 16,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/164",
+          "item_count": 3,
+          "last_self_ref": "#/texts/166"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/164",
+          "#/texts/165",
+          "#/texts/166"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 16,
+      "raw_text": "Once you’ve raised awareness of a key feature, your next step is to motivate users to use it by explaining\n*why*\nthey should use it.",
+      "token_count": 90
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000017",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #3: Introduce\n3.2 Motivate the user to use the feature\na. Describe the benefits of using the feature\nDon’t assume users understand the value of a feature. Instead, spell out what goals the feature can help them with.\n*Example of describing benefits:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "doc_item_refs": [
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/245",
+        "#/texts/170"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #3: Introduce",
+        "3.2 Motivate the user to use the feature",
+        "a. Describe the benefits of using the feature"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000020",
+          "path": null,
+          "self_ref": "#/pictures/20",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/eb7c09e2-c682-4c7a-8713-cc8a3696fc20_1746x1094.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000017",
+        "chunk_sha256": "1b1fc294673b136a1061064df469d6ff400d164ede5e7d64445581cd7d7e00da",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #3: Introduce",
+          "3.2 Motivate the user to use the feature",
+          "a. Describe the benefits of using the feature"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000020",
+            "path": null,
+            "self_ref": "#/pictures/20",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/eb7c09e2-c682-4c7a-8713-cc8a3696fc20_1746x1094.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 17,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/168",
+          "item_count": 4,
+          "last_self_ref": "#/texts/170"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/245",
+          "#/texts/170"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 17,
+      "raw_text": "Don’t assume users understand the value of a feature. Instead, spell out what goals the feature can help them with.\n*Example of describing benefits:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "token_count": 126
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000018",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #3: Introduce\n3.2 Motivate the user to use the feature\nb. Highlight different use cases\nAnother way to motivate users to engage more with a feature is to introduce them to different use cases for that feature.\n*Examples of highlighting different use cases:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "doc_item_refs": [
+        "#/texts/172",
+        "#/texts/173",
+        "#/texts/246",
+        "#/texts/174",
+        "#/texts/247",
+        "#/texts/175"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #3: Introduce",
+        "3.2 Motivate the user to use the feature",
+        "b. Highlight different use cases"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000021",
+          "path": null,
+          "self_ref": "#/pictures/21",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4ce05acf-67e3-4be8-9e75-3c246fe2c21c_1746x1346.png"
+        },
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000022",
+          "path": null,
+          "self_ref": "#/pictures/22",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/17c2a335-1f59-4a28-849c-72b308d4057a_1748x1062.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000018",
+        "chunk_sha256": "8807792fbf6ffffa68cf7d3cd017004cd7b9043973d45b7844d4ded357e7020f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #3: Introduce",
+          "3.2 Motivate the user to use the feature",
+          "b. Highlight different use cases"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000021",
+            "path": null,
+            "self_ref": "#/pictures/21",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/4ce05acf-67e3-4be8-9e75-3c246fe2c21c_1746x1346.png"
+          },
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000022",
+            "path": null,
+            "self_ref": "#/pictures/22",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/17c2a335-1f59-4a28-849c-72b308d4057a_1748x1062.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 18,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/172",
+          "item_count": 6,
+          "last_self_ref": "#/texts/175"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/172",
+          "#/texts/173",
+          "#/texts/246",
+          "#/texts/174",
+          "#/texts/247",
+          "#/texts/175"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 18,
+      "raw_text": "Another way to motivate users to engage more with a feature is to introduce them to different use cases for that feature.\n*Examples of highlighting different use cases:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "token_count": 125
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000019",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #4: Assist\nA designer friend of mine likes to say that if you need to explain how to use a feature, you’re in a “failure state,” i.e. it’s a sign of product design failure. I agree that the goal should be to design features that are completely intuitive, but sometimes we aren’t able to find a way to do that. So in those cases, users need a little assistance in order to understand the value of a feature and how to use it. Some examples of how to do this are below.",
+      "doc_item_refs": [
+        "#/texts/177"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #4: Assist"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000019",
+        "chunk_sha256": "d1b8d8b8054d763735dcef22827b5a77390b1403acae5f96f594e0dfeb901809",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #4: Assist"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 19,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/177",
+          "item_count": 1,
+          "last_self_ref": "#/texts/177"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/177"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 19,
+      "raw_text": "A designer friend of mine likes to say that if you need to explain how to use a feature, you’re in a “failure state,” i.e. it’s a sign of product design failure. I agree that the goal should be to design features that are completely intuitive, but sometimes we aren’t able to find a way to do that. So in those cases, users need a little assistance in order to understand the value of a feature and how to use it. Some examples of how to do this are below.",
+      "token_count": 154
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000020",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #4: Assist\n4.1 Provide “empty state” guidance\nWe’ve all had the experience of navigating to a tab for the first time, only to be greeted by a mostly empty page because there’s nothing to show yet. This is the “empty state” for that page, and leaving it empty is a huge missed opportunity. All that space can be used to explain what the feature is, the benefits of using it, provide a clear call to action so users know where to start, and provide resources or links for them to learn more.\n*Example of empty-state guidance:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "doc_item_refs": [
+        "#/texts/179",
+        "#/texts/180",
+        "#/texts/248",
+        "#/texts/181"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #4: Assist",
+        "4.1 Provide “empty state” guidance"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000023",
+          "path": null,
+          "self_ref": "#/pictures/23",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/e0f70198-092c-4535-930e-7500bbf765fa_1748x1244.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000020",
+        "chunk_sha256": "4cc5eb02056c72a5a592b0fc68b0a8c73ba19f7f27bf86047f2927600508d61b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #4: Assist",
+          "4.1 Provide “empty state” guidance"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000023",
+            "path": null,
+            "self_ref": "#/pictures/23",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/e0f70198-092c-4535-930e-7500bbf765fa_1748x1244.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 20,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/179",
+          "item_count": 4,
+          "last_self_ref": "#/texts/181"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/179",
+          "#/texts/180",
+          "#/texts/248",
+          "#/texts/181"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 20,
+      "raw_text": "We’ve all had the experience of navigating to a tab for the first time, only to be greeted by a mostly empty page because there’s nothing to show yet. This is the “empty state” for that page, and leaving it empty is a huge missed opportunity. All that space can be used to explain what the feature is, the benefits of using it, provide a clear call to action so users know where to start, and provide resources or links for them to learn more.\n*Example of empty-state guidance:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "token_count": 192
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000021",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #4: Assist\n4.2 Offer templates\nTemplates assist users in successfully accomplishing their goals by incorporating a level of expertise that many users, particularly new users, don’t have.\n*Examples of using templates:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "doc_item_refs": [
+        "#/texts/183",
+        "#/texts/184",
+        "#/texts/249",
+        "#/texts/185",
+        "#/texts/250",
+        "#/texts/186"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #4: Assist",
+        "4.2 Offer templates"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000024",
+          "path": null,
+          "self_ref": "#/pictures/24",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/446e7dc9-371c-46d1-8947-48a32d3ee4f5_1746x1032.png"
+        },
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000025",
+          "path": null,
+          "self_ref": "#/pictures/25",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/006f6744-8630-40c0-87d5-2ee7ec4436f8_1742x1086.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000021",
+        "chunk_sha256": "cbe877551d9394aa21f4a380c42fc057c9ffdf3e9570e5a6c1faa2c6d9c2cf3e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #4: Assist",
+          "4.2 Offer templates"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000024",
+            "path": null,
+            "self_ref": "#/pictures/24",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/446e7dc9-371c-46d1-8947-48a32d3ee4f5_1746x1032.png"
+          },
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000025",
+            "path": null,
+            "self_ref": "#/pictures/25",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/006f6744-8630-40c0-87d5-2ee7ec4436f8_1742x1086.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 21,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/183",
+          "item_count": 6,
+          "last_self_ref": "#/texts/186"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/183",
+          "#/texts/184",
+          "#/texts/249",
+          "#/texts/185",
+          "#/texts/250",
+          "#/texts/186"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 21,
+      "raw_text": "Templates assist users in successfully accomplishing their goals by incorporating a level of expertise that many users, particularly new users, don’t have.\n*Examples of using templates:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "token_count": 116
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000022",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nPrinciple #4: Assist\n4.3 Create error messages that are actually helpful\nWhen a user makes a mistake and sees an error message, use that as an opportunity to guide them to a successful outcome. In your error message, focus on what caused the error (without blaming the user) and, most importantly, tell them how to correct it.\n*Example of a helpful error message:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "doc_item_refs": [
+        "#/texts/188",
+        "#/texts/189",
+        "#/texts/251",
+        "#/texts/190"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Principle #4: Assist",
+        "4.3 Create error messages that are actually helpful"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000026",
+          "path": null,
+          "self_ref": "#/pictures/26",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/6613b43a-b605-4846-a3f5-a9ce0bc44c1b_1744x1092.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000022",
+        "chunk_sha256": "c344c3ff5b784a5ce9505a0ae8a088905808ea7f10b15eeafb6b155457ab0060",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Principle #4: Assist",
+          "4.3 Create error messages that are actually helpful"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000026",
+            "path": null,
+            "self_ref": "#/pictures/26",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/6613b43a-b605-4846-a3f5-a9ce0bc44c1b_1744x1092.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 22,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/188",
+          "item_count": 4,
+          "last_self_ref": "#/texts/190"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/188",
+          "#/texts/189",
+          "#/texts/251",
+          "#/texts/190"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 22,
+      "raw_text": "When a user makes a mistake and sees an error message, use that as an opportunity to guide them to a successful outcome. In your error message, focus on what caused the error (without blaming the user) and, most importantly, tell them how to correct it.\n*Example of a helpful error message:*\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have",
+      "token_count": 146
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000023",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\nConclusion\nFrequently, the best way to accelerate product growth is to increase engagement with existing features known to be correlated with moving growth metrics that aren’t performing to their potential—rather than over-indexing on building new features. I hope you’ll be able to use this framework as a simple, structured, and repeatable guide to increase the adoption of the features that really drive your product’s growth. I’ve included a handy checklist below to help you get started.\nBy\n**analyzing**\ndata to identify the key features to focus on,\n**reducing**\nthe friction of using those features,\n**introducing**\nthose features to users at the right time, and\n**assisting**\nusers in using those features successfully, you’ll be covering the main ways that I’ve seen product teams successfully increase overall product engagement and retention. Good luck!\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nP.S. I love hearing about and sharing examples of the ARIA principles in action in successful products. If you have examples that you’d like to share, I’d be grateful if you’d give a quick summary in the comments below (and doubly grateful if you include a link to screenshots). It’s a great way to help others by sharing ideas of approaches they might be able to use in their own products.\n*Thank you, Ken! For more from Ken, make sure to follow him on*\n[*LinkedIn*](https://www.linkedin.com/in/kenrudin/)\n*.*\n*Have a fulfilling and productive week 🙏*",
+      "doc_item_refs": [
+        "#/texts/192",
+        "#/texts/193",
+        "#/texts/194",
+        "#/texts/195",
+        "#/texts/196",
+        "#/texts/197",
+        "#/texts/198",
+        "#/texts/199",
+        "#/texts/200",
+        "#/texts/201",
+        "#/texts/252",
+        "#/texts/202",
+        "#/texts/203",
+        "#/texts/204",
+        "#/texts/205",
+        "#/texts/206",
+        "#/texts/207"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "Conclusion"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to accelerate growth by focusing on the features you already have",
+          "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000027",
+          "path": null,
+          "self_ref": "#/pictures/27",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/2f20c60d-7c0e-435b-acee-5172c363cb2c_647x628.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000023",
+        "chunk_sha256": "e173ca857b5c75201cdf53b1beb8ce69933493cf138199e7ab5c35705823af84",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "Conclusion"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to accelerate growth by focusing on the features you already have",
+            "image_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#image=000027",
+            "path": null,
+            "self_ref": "#/pictures/27",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/2f20c60d-7c0e-435b-acee-5172c363cb2c_647x628.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 23,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/192",
+          "item_count": 17,
+          "last_self_ref": "#/texts/207"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/192",
+          "#/texts/193",
+          "#/texts/194",
+          "#/texts/195",
+          "#/texts/196",
+          "#/texts/197",
+          "#/texts/198",
+          "#/texts/199",
+          "#/texts/200",
+          "#/texts/201",
+          "#/texts/252",
+          "#/texts/202",
+          "#/texts/203",
+          "#/texts/204",
+          "#/texts/205",
+          "#/texts/206",
+          "#/texts/207"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 23,
+      "raw_text": "Frequently, the best way to accelerate product growth is to increase engagement with existing features known to be correlated with moving growth metrics that aren’t performing to their potential—rather than over-indexing on building new features. I hope you’ll be able to use this framework as a simple, structured, and repeatable guide to increase the adoption of the features that really drive your product’s growth. I’ve included a handy checklist below to help you get started.\nBy\n**analyzing**\ndata to identify the key features to focus on,\n**reducing**\nthe friction of using those features,\n**introducing**\nthose features to users at the right time, and\n**assisting**\nusers in using those features successfully, you’ll be covering the main ways that I’ve seen product teams successfully increase overall product engagement and retention. Good luck!\nImage from How to accelerate growth by focusing on the features you already have\nImage from How to accelerate growth by focusing on the features you already have\nP.S. I love hearing about and sharing examples of the ARIA principles in action in successful products. If you have examples that you’d like to share, I’d be grateful if you’d give a quick summary in the comments below (and doubly grateful if you include a link to screenshots). It’s a great way to help others by sharing ideas of approaches they might be able to use in their own products.\n*Thank you, Ken! For more from Ken, make sure to follow him on*\n[*LinkedIn*](https://www.linkedin.com/in/kenrudin/)\n*.*\n*Have a fulfilling and productive week 🙏*",
+      "token_count": 394
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000024",
+      "contextualized_text": "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter\n🔥 Featured open role: Product Manager of Collaboration @ Notion\nWe recently partnered with Notion to help them scale their PM team.\n[One role that’s particularly interesting to me](https://boards.greenhouse.io/notion/jobs/5926606003)\nis an opportunity to own the asynchronous collaboration experience within Notion. If you’d like to get referred directly for this role, follow this button:\n[Apply to Notion](https://lennys-jobs.pallet.com/onboard/v3/0153c44c-b8c4-44b6-ba42-78fbcf220033/get-referred)\n*If you’re hiring and want to work with us,*\n[*apply here*](https://airtable.com/apprGaxWWPYU0068E/shr2WFo5UqJjA5dQ8)\n*. Our team will reach out if we think it’s a good fit. Note, we primarily work with fast-growing U.S.-based startups.*\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/209",
+        "#/texts/210",
+        "#/texts/211",
+        "#/texts/212",
+        "#/texts/213",
+        "#/texts/214",
+        "#/texts/215",
+        "#/texts/216",
+        "#/texts/217",
+        "#/texts/218",
+        "#/texts/219",
+        "#/texts/220",
+        "#/texts/221",
+        "#/texts/222",
+        "#/texts/223",
+        "#/texts/224"
+      ],
+      "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+      "headings": [
+        "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+        "🔥 Featured open role: Product Manager of Collaboration @ Notion"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md#chunk=000024",
+        "chunk_sha256": "a1fddd9e9bd5b10ac7814dc18e748e5da4c692caeb5402ebe701a1ae0ab02b6d",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+        "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+        "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+        "headings": [
+          "How to accelerate growth by focusing on the features you already have — Introducing the ARIA framework | 2024-04-16 | Tags: growth, design, analytics, leadership, b2b, newsletter",
+          "🔥 Featured open role: Product Manager of Collaboration @ Notion"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 24,
+        "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+        "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+        "segment": {
+          "first_self_ref": "#/texts/209",
+          "item_count": 16,
+          "last_self_ref": "#/texts/224"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/209",
+          "#/texts/210",
+          "#/texts/211",
+          "#/texts/212",
+          "#/texts/213",
+          "#/texts/214",
+          "#/texts/215",
+          "#/texts/216",
+          "#/texts/217",
+          "#/texts/218",
+          "#/texts/219",
+          "#/texts/220",
+          "#/texts/221",
+          "#/texts/222",
+          "#/texts/223",
+          "#/texts/224"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 24,
+      "raw_text": "We recently partnered with Notion to help them scale their PM team.\n[One role that’s particularly interesting to me](https://boards.greenhouse.io/notion/jobs/5926606003)\nis an opportunity to own the asynchronous collaboration experience within Notion. If you’d like to get referred directly for this role, follow this button:\n[Apply to Notion](https://lennys-jobs.pallet.com/onboard/v3/0153c44c-b8c4-44b6-ba42-78fbcf220033/get-referred)\n*If you’re hiring and want to work with us,*\n[*apply here*](https://airtable.com/apprGaxWWPYU0068E/shr2WFo5UqJjA5dQ8)\n*. Our team will reach out if we think it’s a good fit. Note, we primarily work with fast-growing U.S.-based startups.*\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "token_count": 424
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.docling.json",
+  "docling_sha256": "b61d573f1cc2ef36d717d833d9cf8470025cb8506a25b2fd658024a18191c5cc",
+  "document_id": "02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+  "enhanced_sha256": "241be34da4f2f5e65efad490e8e3717b87ce9da5e1f5a46fef828fd5121329cf",
+  "fact_document_path": "chunks/v2/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.chunks.json",
+  "metadata": {
+    "date": "2024-04-16",
+    "subtitle": "Introducing the ARIA framework",
+    "tags": [
+      "growth",
+      "design",
+      "analytics",
+      "leadership",
+      "b2b",
+      "newsletter"
+    ],
+    "title": "How to accelerate growth by focusing on the features you already have",
+    "type": "newsletter",
+    "word_count": 4370
+  },
+  "raw_path": "corpus/raw/02-newsletters/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have.md",
+  "raw_sha256": "45f35c2fb4e576894dacf7faeeefdc439ba3e8d723374869964d2e38ff8481a2",
+  "schema_version": "1",
+  "title": "How to accelerate growth by focusing on the features you already have"
+}

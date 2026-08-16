@@ -1,0 +1,1345 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000000",
+      "contextualized_text": "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics\nYou’re either building AI into your product now or you will be soon. And you’re probably already swimming in advice on the subject. But most of the advice out there is full of big, lofty ideas and light on tactics rooted in actual experience that you can implement today. So I teamed up with frequent collaborator\n[Kyle Poyar](https://www.linkedin.com/in/kyle-poyar/)\nto interview more than 20 successful builders and founders—people who have learned about building AI products the hard way—to share their biggest surprises and counterintuitive lessons. Many of these insights surprised me and got me thinking in a different way. I hope they will for you too.\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products\nLet me guess: You have a high-priority project on your roadmap right now to add (more) AI features to your product.\nYou’re in good company. A recent\n[survey](https://docsend.com/view/pi629vaxy57u9qvb)\nby Emergence Capital found that 60% of companies have already integrated generative AI into their products, and another 24% have it on their roadmap. AI is quickly eating the world.\nUnfortunately, many of these efforts will end in failure. Most early AI apps have a\n[“tourist”](https://twitter.com/omooretweets/status/1770470084601114837)\nproblem: they get a lot of traction quickly but have\n[shockingly low retention and engagement](https://www.bvp.com/atlas/seven-product-strategies-to-prevent-churn-for-b2b-ai-app-leaders)\n. And according to that Emergence survey,\n[two in five](https://docsend.com/view/pi629vaxy57u9qvb)\ngen AI products still haven’t made a single dollar despite companies spending millions (or even\n[billions](https://www.nytimes.com/2024/04/24/technology/meta-profit-stock-ai.html)\n) to build and support them. The goal of this post is to help you avoid wasting your precious time and resources by pointing your team in the wrong direction.\nI polled more than 20 of the sharpest AI product builders asking them for the most counterintuitive and surprising things they’ve learned about building AI into their products. These leaders have built many of today’s most loved and successful AI products, including products at Adobe, GitHub, Intercom, Perplexity, Canva, Runway, HeyGen, and Superhuman. Here’s what I learned:\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/256",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/257",
+        "#/texts/19"
+      ],
+      "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "headings": [
+        "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics"
+      ],
+      "images": [
+        {
+          "caption": "Image from Counterintuitive advice for building AI products",
+          "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/f9f3fede-958e-4db1-959e-87180174e353_4000x2000.png"
+        },
+        {
+          "caption": "Image from Counterintuitive advice for building AI products",
+          "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a18d9636-1132-4b94-bba9-91968a13e0e1_6958x7088.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000000",
+        "chunk_sha256": "b11332eba77b19c1031d9fd782a3d9b09e156440e0ef64dc1a64fd6fed0fe1d2",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+        "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+        "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+        "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+        "headings": [
+          "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics"
+        ],
+        "images": [
+          {
+            "caption": "Image from Counterintuitive advice for building AI products",
+            "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/f9f3fede-958e-4db1-959e-87180174e353_4000x2000.png"
+          },
+          {
+            "caption": "Image from Counterintuitive advice for building AI products",
+            "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a18d9636-1132-4b94-bba9-91968a13e0e1_6958x7088.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 21,
+          "last_self_ref": "#/texts/19"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/256",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/257",
+          "#/texts/19"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "You’re either building AI into your product now or you will be soon. And you’re probably already swimming in advice on the subject. But most of the advice out there is full of big, lofty ideas and light on tactics rooted in actual experience that you can implement today. So I teamed up with frequent collaborator\n[Kyle Poyar](https://www.linkedin.com/in/kyle-poyar/)\nto interview more than 20 successful builders and founders—people who have learned about building AI products the hard way—to share their biggest surprises and counterintuitive lessons. Many of these insights surprised me and got me thinking in a different way. I hope they will for you too.\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products\nLet me guess: You have a high-priority project on your roadmap right now to add (more) AI features to your product.\nYou’re in good company. A recent\n[survey](https://docsend.com/view/pi629vaxy57u9qvb)\nby Emergence Capital found that 60% of companies have already integrated generative AI into their products, and another 24% have it on their roadmap. AI is quickly eating the world.\nUnfortunately, many of these efforts will end in failure. Most early AI apps have a\n[“tourist”](https://twitter.com/omooretweets/status/1770470084601114837)\nproblem: they get a lot of traction quickly but have\n[shockingly low retention and engagement](https://www.bvp.com/atlas/seven-product-strategies-to-prevent-churn-for-b2b-ai-app-leaders)\n. And according to that Emergence survey,\n[two in five](https://docsend.com/view/pi629vaxy57u9qvb)\ngen AI products still haven’t made a single dollar despite companies spending millions (or even\n[billions](https://www.nytimes.com/2024/04/24/technology/meta-profit-stock-ai.html)\n) to build and support them. The goal of this post is to help you avoid wasting your precious time and resources by pointing your team in the wrong direction.\nI polled more than 20 of the sharpest AI product builders asking them for the most counterintuitive and surprising things they’ve learned about building AI into their products. These leaders have built many of today’s most loved and successful AI products, including products at Adobe, GitHub, Intercom, Perplexity, Canva, Runway, HeyGen, and Superhuman. Here’s what I learned:\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products",
+      "token_count": 666
+    },
+    {
+      "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000001",
+      "contextualized_text": "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics\n1. You first need to learn to think differently\n*“It takes time to think AI-native. The first-pass product is often a bolt-on or simple chat experience.*\n***The high-value experience is a deeper rethink***\n*once you have played with the technology, understood what it really provides more deeply, and then integrated it into a key part of your product experience.”*\n—\n[Elad Gil](https://www.linkedin.com/in/eladgil/)\n, technology entrepreneur and investor\n[Watch on YouTube](https://www.youtube.com/watch?v=xcvIGJ3_H_k)\n*“*\n***It’s actually easier and safer for startups to work on hard problems, problems that cannot quite be solved with today’s foundation models.***\n*We’re excited about riding the capability curve of improving models, instead of fighting that progress.”*\n—\n[Sarah Guo](https://twitter.com/saranormous)\n, startup investor and founder at Conviction\n*“Over the past 10 years, for most companies (with the exception of some hard-infra projects), it is assumed that what you want to build can be fairly easily built. You start by deeply understanding the customer problem and opportunity, design what you believe to be a great solution, and build it.*\n***AI is different.***\n*With AI, it is wholly unclear if something is possible to build. And when it is built, it is wholly unclear if it is any good, even if it appears to be good. Often the best place to start projects is by asking,*\n***‘What is technologically possible?’ and prototyping.***\n*This is a big mindset shift for anyone who has built software for the past decade and followed standard best practice.”*\n—\n[Paul Adams](https://www.linkedin.com/in/pauladams/)\n, chief product officer at Intercom\n[Watch on YouTube](https://www.youtube.com/watch?v=4fJ3rYVlfYE)",
+      "doc_item_refs": [
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/42"
+      ],
+      "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "headings": [
+        "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+        "1. You first need to learn to think differently"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000001",
+        "chunk_sha256": "e525556fe900301dcf374458a2c099517cb17cbe40bca6f254cca9f3e9740843",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+        "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+        "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+        "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+        "headings": [
+          "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+          "1. You first need to learn to think differently"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+        "segment": {
+          "first_self_ref": "#/texts/21",
+          "item_count": 22,
+          "last_self_ref": "#/texts/42"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32",
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/40",
+          "#/texts/41",
+          "#/texts/42"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "*“It takes time to think AI-native. The first-pass product is often a bolt-on or simple chat experience.*\n***The high-value experience is a deeper rethink***\n*once you have played with the technology, understood what it really provides more deeply, and then integrated it into a key part of your product experience.”*\n—\n[Elad Gil](https://www.linkedin.com/in/eladgil/)\n, technology entrepreneur and investor\n[Watch on YouTube](https://www.youtube.com/watch?v=xcvIGJ3_H_k)\n*“*\n***It’s actually easier and safer for startups to work on hard problems, problems that cannot quite be solved with today’s foundation models.***\n*We’re excited about riding the capability curve of improving models, instead of fighting that progress.”*\n—\n[Sarah Guo](https://twitter.com/saranormous)\n, startup investor and founder at Conviction\n*“Over the past 10 years, for most companies (with the exception of some hard-infra projects), it is assumed that what you want to build can be fairly easily built. You start by deeply understanding the customer problem and opportunity, design what you believe to be a great solution, and build it.*\n***AI is different.***\n*With AI, it is wholly unclear if something is possible to build. And when it is built, it is wholly unclear if it is any good, even if it appears to be good. Often the best place to start projects is by asking,*\n***‘What is technologically possible?’ and prototyping.***\n*This is a big mindset shift for anyone who has built software for the past decade and followed standard best practice.”*\n—\n[Paul Adams](https://www.linkedin.com/in/pauladams/)\n, chief product officer at Intercom\n[Watch on YouTube](https://www.youtube.com/watch?v=4fJ3rYVlfYE)",
+      "token_count": 521
+    },
+    {
+      "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000002",
+      "contextualized_text": "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics\n2. Though it still comes down to who can solve real problems for people best\n*“*\n***Demo value isn’t user value.***\n*Building a cool AI demo doesn’t mean we have a product that customers love and is useful.”*\n—\n[Joshua Xu](https://www.linkedin.com/in/buffxz/)\n, co-founder and CEO at HeyGen\n[Watch on YouTube](https://www.youtube.com/watch?v=SEE875kutbk)\n*“I spend a lot of time thinking about adoption curve segmentation—identifying who adopts a new product quickly and who does not, and what distinguishes these groups. Historically, I’d focus on understanding the value a new product provides to people with different functional needs.*\n***AI changes this dynamic because the most meaningful segmentation often depends on attitudes toward the technology itself: AI embracers versus AI skeptics.***\n*Many have discussed the AI ‘phantom PMF’ phenomenon, where novelty-driven acquisition leads to a steep churn cliff, but the reverse is also true. I frequently speak with customers who reject AI products that meet their needs simply because they don’t trust or want to embrace AI. With the right messaging and onboarding, these skeptics can become superusers! But they behave very differently from AI embracers. I sketched this out in the chart below.*\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products\n*As a result, I’ve had to rethink our user testing approach from the ground up. When testing AI products, I focus on the following:*\n1. *Longitudinal validation: Are we testing for a long enough period to understand how engagement changes once the novelty wears off?*\n2. *High-touch testing: Are we staying close enough to users to understand how their attitudes, which drive engagement patterns, change daily? We’re experimenting with user Slack groups instead of traditional surveys and one-on-one qualitative interviews.*\n3. *Attitudinal segmentation: Are we including both AI embracers and AI skeptics in our early testing groups? Crucially, are we segmenting them carefully to avoid averaging out their engagement and creating*\n[*‘tepid tea’*](https://theaccidentalmarketer.com/blog/why-your-b2b-company-should-focus-on-needs-based-segmentation/)\n*—a product that satisfies no one?”*\n—\n[Hilary Gridley](https://www.linkedin.com/in/hilarygridley/)\n, head of core app product at WHOOP\n[Watch on YouTube](https://www.youtube.com/watch?v=zIaNjKYImFA)\n*“Building fantastic product experiences hasn’t gotten easier with AI. Sci-fi capabilities of the models are inspiring, but that’s not what makes AI products great. Good old-fashioned product engineering does.*\n***This means homing in on real user pain points, iterating closely with customers, and holding a high bar for a delightful user experience.***\n*”*\n—\n[Caitlin Colgrove](https://www.linkedin.com/in/colgrove/)\n, co-founder and chief technology officer at Hex\n[Watch on YouTube](https://www.youtube.com/watch?v=Gvq7M0Cd9HQ)\n*“Most people think about AI-assisted services in terms of the model quality, but model quality is just a tiny piece of the total product. It turns out that post-processing filters, contractual guarantees, data privacy, feedback loops, observable human impact, etc. are all far more important.*\n***In other words, building AI products looks a lot like building products.***\n*”*\n—\n[Ryan J. Salva](https://www.linkedin.com/in/ryanjsalva/)\n, vice president of product at GitHub",
+      "doc_item_refs": [
+        "#/texts/44",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/48",
+        "#/texts/49",
+        "#/texts/50",
+        "#/texts/51",
+        "#/texts/52",
+        "#/texts/53",
+        "#/texts/258",
+        "#/texts/54",
+        "#/texts/55",
+        "#/texts/56",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60",
+        "#/texts/61",
+        "#/texts/62",
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65",
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/70",
+        "#/texts/71",
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/74",
+        "#/texts/75",
+        "#/texts/76",
+        "#/texts/77"
+      ],
+      "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "headings": [
+        "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+        "2. Though it still comes down to who can solve real problems for people best"
+      ],
+      "images": [
+        {
+          "caption": "Image from Counterintuitive advice for building AI products",
+          "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/65afde2c-12b4-480e-a0dd-99080ecd7c4b_1600x955.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000002",
+        "chunk_sha256": "3c7a159eee7bc93c1678f49e447b840b443beccaad2942330c1cc0fa3f311134",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+        "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+        "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+        "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+        "headings": [
+          "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+          "2. Though it still comes down to who can solve real problems for people best"
+        ],
+        "images": [
+          {
+            "caption": "Image from Counterintuitive advice for building AI products",
+            "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/65afde2c-12b4-480e-a0dd-99080ecd7c4b_1600x955.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+        "segment": {
+          "first_self_ref": "#/texts/44",
+          "item_count": 35,
+          "last_self_ref": "#/texts/77"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/44",
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/48",
+          "#/texts/49",
+          "#/texts/50",
+          "#/texts/51",
+          "#/texts/52",
+          "#/texts/53",
+          "#/texts/258",
+          "#/texts/54",
+          "#/texts/55",
+          "#/texts/56",
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/60",
+          "#/texts/61",
+          "#/texts/62",
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65",
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69",
+          "#/texts/70",
+          "#/texts/71",
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/74",
+          "#/texts/75",
+          "#/texts/76",
+          "#/texts/77"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "*“*\n***Demo value isn’t user value.***\n*Building a cool AI demo doesn’t mean we have a product that customers love and is useful.”*\n—\n[Joshua Xu](https://www.linkedin.com/in/buffxz/)\n, co-founder and CEO at HeyGen\n[Watch on YouTube](https://www.youtube.com/watch?v=SEE875kutbk)\n*“I spend a lot of time thinking about adoption curve segmentation—identifying who adopts a new product quickly and who does not, and what distinguishes these groups. Historically, I’d focus on understanding the value a new product provides to people with different functional needs.*\n***AI changes this dynamic because the most meaningful segmentation often depends on attitudes toward the technology itself: AI embracers versus AI skeptics.***\n*Many have discussed the AI ‘phantom PMF’ phenomenon, where novelty-driven acquisition leads to a steep churn cliff, but the reverse is also true. I frequently speak with customers who reject AI products that meet their needs simply because they don’t trust or want to embrace AI. With the right messaging and onboarding, these skeptics can become superusers! But they behave very differently from AI embracers. I sketched this out in the chart below.*\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products\n*As a result, I’ve had to rethink our user testing approach from the ground up. When testing AI products, I focus on the following:*\n1. *Longitudinal validation: Are we testing for a long enough period to understand how engagement changes once the novelty wears off?*\n2. *High-touch testing: Are we staying close enough to users to understand how their attitudes, which drive engagement patterns, change daily? We’re experimenting with user Slack groups instead of traditional surveys and one-on-one qualitative interviews.*\n3. *Attitudinal segmentation: Are we including both AI embracers and AI skeptics in our early testing groups? Crucially, are we segmenting them carefully to avoid averaging out their engagement and creating*\n[*‘tepid tea’*](https://theaccidentalmarketer.com/blog/why-your-b2b-company-should-focus-on-needs-based-segmentation/)\n*—a product that satisfies no one?”*\n—\n[Hilary Gridley](https://www.linkedin.com/in/hilarygridley/)\n, head of core app product at WHOOP\n[Watch on YouTube](https://www.youtube.com/watch?v=zIaNjKYImFA)\n*“Building fantastic product experiences hasn’t gotten easier with AI. Sci-fi capabilities of the models are inspiring, but that’s not what makes AI products great. Good old-fashioned product engineering does.*\n***This means homing in on real user pain points, iterating closely with customers, and holding a high bar for a delightful user experience.***\n*”*\n—\n[Caitlin Colgrove](https://www.linkedin.com/in/colgrove/)\n, co-founder and chief technology officer at Hex\n[Watch on YouTube](https://www.youtube.com/watch?v=Gvq7M0Cd9HQ)\n*“Most people think about AI-assisted services in terms of the model quality, but model quality is just a tiny piece of the total product. It turns out that post-processing filters, contractual guarantees, data privacy, feedback loops, observable human impact, etc. are all far more important.*\n***In other words, building AI products looks a lot like building products.***\n*”*\n—\n[Ryan J. Salva](https://www.linkedin.com/in/ryanjsalva/)\n, vice president of product at GitHub",
+      "token_count": 939
+    },
+    {
+      "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000003",
+      "contextualized_text": "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics\n3. Paired with the right product design and UX to teach people how to use it\n*“The promise of AI (LLMs in particular) is to create anything for you with just a few words. But as we have seen over the past decade with Canva, when you give people the power to do anything, it can be pretty daunting and they don’t know where to start. So—just as with the very first version of our design tool—giving people the right starting points and confidence to utilize AI is a crucial part of delivering a great AI product.*\n*The evolution of our Magic Media feature is a great example of this. Text-to-image is a magical piece of technology when you know what image you want and how to describe it. But most people don’t have the right vocabulary to properly explain what they’re looking for; or even worse, they don’t know what they’re looking for!*\n*Our iterations on Magic Media have lessened that fear-inducing empty prompt box and introduced more visual options to guide you to a great image, as well as help to get people prompting in the right way. We’re also focusing on what happens after that generation—how you tweak and adjust what an AI has given to be exactly what you want.*\n***All of this underscored to us that AI tools require a combination of intuitive product design and broader, ongoing education to support these behavior shifts.***\n*You can't ‘flip the switch’ with AI—society is in the midst of change at a cultural level, but well-built products can support this shift.”*\n—\n[Cameron Adams](https://www.linkedin.com/in/themaninblue/?originalSubdomain=au)\n, co-founder and chief product officer at Canva\n*“Experimenting to find the right UI/UX for an AI feature can have an equally big impact on conversion metrics as research updates to the AI model itself. The right UX doesn’t just make new model capabilities more discoverable—it actually improves the conversion for users who use that capability, even if they were already using the capability anyway in the original UI.”*\n—\n[Joel Kwartler](https://www.linkedin.com/in/joelkwartler/)\n, head of product at Runway\n[Watch on YouTube](https://www.youtube.com/watch?v=nByslCkykj8)",
+      "doc_item_refs": [
+        "#/texts/79",
+        "#/texts/80",
+        "#/texts/81",
+        "#/texts/82",
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/87",
+        "#/texts/88",
+        "#/texts/89",
+        "#/texts/90",
+        "#/texts/91"
+      ],
+      "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "headings": [
+        "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+        "3. Paired with the right product design and UX to teach people how to use it"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000003",
+        "chunk_sha256": "1f821bb93d55658fa429a479d4f566fe9aa0a7021cabb02fe6080a4086327ca0",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+        "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+        "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+        "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+        "headings": [
+          "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+          "3. Paired with the right product design and UX to teach people how to use it"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+        "segment": {
+          "first_self_ref": "#/texts/79",
+          "item_count": 13,
+          "last_self_ref": "#/texts/91"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/79",
+          "#/texts/80",
+          "#/texts/81",
+          "#/texts/82",
+          "#/texts/83",
+          "#/texts/84",
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/87",
+          "#/texts/88",
+          "#/texts/89",
+          "#/texts/90",
+          "#/texts/91"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "*“The promise of AI (LLMs in particular) is to create anything for you with just a few words. But as we have seen over the past decade with Canva, when you give people the power to do anything, it can be pretty daunting and they don’t know where to start. So—just as with the very first version of our design tool—giving people the right starting points and confidence to utilize AI is a crucial part of delivering a great AI product.*\n*The evolution of our Magic Media feature is a great example of this. Text-to-image is a magical piece of technology when you know what image you want and how to describe it. But most people don’t have the right vocabulary to properly explain what they’re looking for; or even worse, they don’t know what they’re looking for!*\n*Our iterations on Magic Media have lessened that fear-inducing empty prompt box and introduced more visual options to guide you to a great image, as well as help to get people prompting in the right way. We’re also focusing on what happens after that generation—how you tweak and adjust what an AI has given to be exactly what you want.*\n***All of this underscored to us that AI tools require a combination of intuitive product design and broader, ongoing education to support these behavior shifts.***\n*You can't ‘flip the switch’ with AI—society is in the midst of change at a cultural level, but well-built products can support this shift.”*\n—\n[Cameron Adams](https://www.linkedin.com/in/themaninblue/?originalSubdomain=au)\n, co-founder and chief product officer at Canva\n*“Experimenting to find the right UI/UX for an AI feature can have an equally big impact on conversion metrics as research updates to the AI model itself. The right UX doesn’t just make new model capabilities more discoverable—it actually improves the conversion for users who use that capability, even if they were already using the capability anyway in the original UI.”*\n—\n[Joel Kwartler](https://www.linkedin.com/in/joelkwartler/)\n, head of product at Runway\n[Watch on YouTube](https://www.youtube.com/watch?v=nByslCkykj8)",
+      "token_count": 582
+    },
+    {
+      "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000004",
+      "contextualized_text": "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics\n4. And the (proprietary) data you have access to (and a license for) is becoming increasingly important\n*“The data and the interfaces may become more important than the models themselves, which are becoming increasingly commoditized, available via open source, and pushed to the edge (we’ll be running many models locally on devices within a few years). The AI products I am most excited about leverage a proprietary or uniquely structured set of data—for which they have a license to use rather than scrape it—and a superior interface that transforms an antiquated workflow.*\n*What are the implications of this?*\n***Companies that have or really understand data in a deep vertical will have an advantage.***\n***And designers will be more important than ever before***\n*, imagining entirely new ways to transform the interfaces of our everyday work and life with the superpowers of AI.”*\n—\n[Scott Belsky](https://www.linkedin.com/in/scottbelsky/)\n, chief strategy officer and executive vice president (EVP) of design and emerging products at Adobe; founder of Behance\n[Watch on YouTube](https://www.youtube.com/watch?v=vpiALnqE-VQ)",
+      "doc_item_refs": [
+        "#/texts/93",
+        "#/texts/94",
+        "#/texts/95",
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/100",
+        "#/texts/101"
+      ],
+      "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "headings": [
+        "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+        "4. And the (proprietary) data you have access to (and a license for) is becoming increasingly important"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000004",
+        "chunk_sha256": "d0a365a80552e8b0c52396177c655228037860ffe5498ef9bdd2b99ca6594b36",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+        "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+        "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+        "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+        "headings": [
+          "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+          "4. And the (proprietary) data you have access to (and a license for) is becoming increasingly important"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+        "segment": {
+          "first_self_ref": "#/texts/93",
+          "item_count": 9,
+          "last_self_ref": "#/texts/101"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/93",
+          "#/texts/94",
+          "#/texts/95",
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/100",
+          "#/texts/101"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "*“The data and the interfaces may become more important than the models themselves, which are becoming increasingly commoditized, available via open source, and pushed to the edge (we’ll be running many models locally on devices within a few years). The AI products I am most excited about leverage a proprietary or uniquely structured set of data—for which they have a license to use rather than scrape it—and a superior interface that transforms an antiquated workflow.*\n*What are the implications of this?*\n***Companies that have or really understand data in a deep vertical will have an advantage.***\n***And designers will be more important than ever before***\n*, imagining entirely new ways to transform the interfaces of our everyday work and life with the superpowers of AI.”*\n—\n[Scott Belsky](https://www.linkedin.com/in/scottbelsky/)\n, chief strategy officer and executive vice president (EVP) of design and emerging products at Adobe; founder of Behance\n[Watch on YouTube](https://www.youtube.com/watch?v=vpiALnqE-VQ)",
+      "token_count": 327
+    },
+    {
+      "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000005",
+      "contextualized_text": "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics\n5. Be intentional about your initial wedge workflow\n*“*\n***Start with a core workflow that feels like a chore where the promise-to-payoff is high if you get it right.***\n*You want to select a place where the upfront user effort (like taking the leap to try it out or customizing it) yields a big reward (like substantial time savings) and invites repeat use.”*\n—\n[Paige Costello](https://www.linkedin.com/in/paigecostello/)\n, head of AI at Asana\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products",
+      "doc_item_refs": [
+        "#/texts/103",
+        "#/texts/104",
+        "#/texts/105",
+        "#/texts/106",
+        "#/texts/107",
+        "#/texts/108",
+        "#/texts/259",
+        "#/texts/109"
+      ],
+      "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "headings": [
+        "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+        "5. Be intentional about your initial wedge workflow"
+      ],
+      "images": [
+        {
+          "caption": "Image from Counterintuitive advice for building AI products",
+          "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/7421589a-0cf8-4995-9a38-67f174653e9e_1036x820.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000005",
+        "chunk_sha256": "9499cb46fc6a0de6888f2c5837c330a944692de6eefda5d05cb1f0f82730a819",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+        "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+        "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+        "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+        "headings": [
+          "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+          "5. Be intentional about your initial wedge workflow"
+        ],
+        "images": [
+          {
+            "caption": "Image from Counterintuitive advice for building AI products",
+            "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/7421589a-0cf8-4995-9a38-67f174653e9e_1036x820.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+        "segment": {
+          "first_self_ref": "#/texts/103",
+          "item_count": 8,
+          "last_self_ref": "#/texts/109"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/103",
+          "#/texts/104",
+          "#/texts/105",
+          "#/texts/106",
+          "#/texts/107",
+          "#/texts/108",
+          "#/texts/259",
+          "#/texts/109"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "*“*\n***Start with a core workflow that feels like a chore where the promise-to-payoff is high if you get it right.***\n*You want to select a place where the upfront user effort (like taking the leap to try it out or customizing it) yields a big reward (like substantial time savings) and invites repeat use.”*\n—\n[Paige Costello](https://www.linkedin.com/in/paigecostello/)\n, head of AI at Asana\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products",
+      "token_count": 202
+    },
+    {
+      "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000006",
+      "contextualized_text": "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics\n6. Just calling your product “AI” could give you a boost\n*“We talk so much in software about how users don’t care about how something is built; they care about the job software does for them.*\n***But we’ve found that branding AI-powered products as ‘AI-powered’ (as cringe as that can be) does more than increase initial engagement—it also helps users understand what the feature is capable of and how they should interact with it.***\n*We sell a chatbot product and typically encourage our customers to brand their chatbot as AI-powered in some way. When they do this, more users use it, and they also use it better.”*\n—\n[James Evans](https://www.linkedin.com/in/james-evans-7086b3126/)\n, co-founder and CEO at CommandBar\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products\n***“ ‘AI mandates’ at larger companies create a window for startups to gain customers faster than they could pre-AI***\n*,simply because the board and CEO of larger companies are pushing for something in AI to happen in their org.”*\n—\n[Elad Gil](https://www.linkedin.com/in/eladgil/)\n, technology entrepreneur and investor",
+      "doc_item_refs": [
+        "#/texts/111",
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/114",
+        "#/texts/115",
+        "#/texts/116",
+        "#/texts/260",
+        "#/texts/117",
+        "#/texts/118",
+        "#/texts/119",
+        "#/texts/120",
+        "#/texts/121",
+        "#/texts/122"
+      ],
+      "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "headings": [
+        "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+        "6. Just calling your product “AI” could give you a boost"
+      ],
+      "images": [
+        {
+          "caption": "Image from Counterintuitive advice for building AI products",
+          "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/6238a90d-59ab-4495-8f59-813d6aabbaf6_1600x923.jpeg"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000006",
+        "chunk_sha256": "d4e70d610ed09ba0173a635ec952571a7879dc252067dc42c8ad4031125b68ad",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+        "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+        "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+        "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+        "headings": [
+          "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+          "6. Just calling your product “AI” could give you a boost"
+        ],
+        "images": [
+          {
+            "caption": "Image from Counterintuitive advice for building AI products",
+            "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/6238a90d-59ab-4495-8f59-813d6aabbaf6_1600x923.jpeg"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+        "segment": {
+          "first_self_ref": "#/texts/111",
+          "item_count": 13,
+          "last_self_ref": "#/texts/122"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/111",
+          "#/texts/112",
+          "#/texts/113",
+          "#/texts/114",
+          "#/texts/115",
+          "#/texts/116",
+          "#/texts/260",
+          "#/texts/117",
+          "#/texts/118",
+          "#/texts/119",
+          "#/texts/120",
+          "#/texts/121",
+          "#/texts/122"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "*“We talk so much in software about how users don’t care about how something is built; they care about the job software does for them.*\n***But we’ve found that branding AI-powered products as ‘AI-powered’ (as cringe as that can be) does more than increase initial engagement—it also helps users understand what the feature is capable of and how they should interact with it.***\n*We sell a chatbot product and typically encourage our customers to brand their chatbot as AI-powered in some way. When they do this, more users use it, and they also use it better.”*\n—\n[James Evans](https://www.linkedin.com/in/james-evans-7086b3126/)\n, co-founder and CEO at CommandBar\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products\n***“ ‘AI mandates’ at larger companies create a window for startups to gain customers faster than they could pre-AI***\n*,simply because the board and CEO of larger companies are pushing for something in AI to happen in their org.”*\n—\n[Elad Gil](https://www.linkedin.com/in/eladgil/)\n, technology entrepreneur and investor",
+      "token_count": 351
+    },
+    {
+      "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000007",
+      "contextualized_text": "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics\n7. And even small AI-driven improvements can go a long way\n*“*\n***The smallest (and almost invisible) features are usually the fan favorites.***\n*Things like pre-filling names, tiny bits of UI magic, simple data transformations often have a bigger impact and more customer adoption than the Big AI Features™ like chatbots or complex agents. You don’t need a big idea to ship useful AI features into your app.”*\n—\n[Claire Vo](https://www.linkedin.com/in/clairevo/)\n, chief product officer at LaunchDarkly and founder at ChatPRD\n*“*\n***Look less at ‘what cool new things could AI do’ but more at ‘what’s the thing our users do 100 times a day that AI could make better.’***\n*An example for us is writing a summary for an incident. It turns out that users vastly, vastly prefer automatically generated summaries to writing these themselves; 75% of incident summaries are now AI-generated.”*\n—\n[Stephen Whitworth](https://www.linkedin.com/in/stephenwhitworth/)\n, co-founder and CEO at Incident.io\n[Watch on YouTube](https://www.youtube.com/watch?v=NHUhC5vHDZk)",
+      "doc_item_refs": [
+        "#/texts/124",
+        "#/texts/125",
+        "#/texts/126",
+        "#/texts/127",
+        "#/texts/128",
+        "#/texts/129",
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/134",
+        "#/texts/135",
+        "#/texts/136"
+      ],
+      "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "headings": [
+        "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+        "7. And even small AI-driven improvements can go a long way"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000007",
+        "chunk_sha256": "3468c939aae0c9c662ed0c88bdef6341dec701982b57950679662eb311f26445",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+        "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+        "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+        "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+        "headings": [
+          "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+          "7. And even small AI-driven improvements can go a long way"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+        "segment": {
+          "first_self_ref": "#/texts/124",
+          "item_count": 13,
+          "last_self_ref": "#/texts/136"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/124",
+          "#/texts/125",
+          "#/texts/126",
+          "#/texts/127",
+          "#/texts/128",
+          "#/texts/129",
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/134",
+          "#/texts/135",
+          "#/texts/136"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "*“*\n***The smallest (and almost invisible) features are usually the fan favorites.***\n*Things like pre-filling names, tiny bits of UI magic, simple data transformations often have a bigger impact and more customer adoption than the Big AI Features™ like chatbots or complex agents. You don’t need a big idea to ship useful AI features into your app.”*\n—\n[Claire Vo](https://www.linkedin.com/in/clairevo/)\n, chief product officer at LaunchDarkly and founder at ChatPRD\n*“*\n***Look less at ‘what cool new things could AI do’ but more at ‘what’s the thing our users do 100 times a day that AI could make better.’***\n*An example for us is writing a summary for an incident. It turns out that users vastly, vastly prefer automatically generated summaries to writing these themselves; 75% of incident summaries are now AI-generated.”*\n—\n[Stephen Whitworth](https://www.linkedin.com/in/stephenwhitworth/)\n, co-founder and CEO at Incident.io\n[Watch on YouTube](https://www.youtube.com/watch?v=NHUhC5vHDZk)",
+      "token_count": 347
+    },
+    {
+      "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000008",
+      "contextualized_text": "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics\n8. Anticipate the AI won’t be perfect, so give users options, and keep fine-tuning the prompts\n*“People need and want a lot of customization to make AI products work for their use case. They are willing to put in a lot of effort curating prompts, experimenting with models, and building on APIs that were never even imaginable a year ago.”*\n—\n[Johnny Ho](https://www.linkedin.com/in/hjohnny/)\n, co-founder and chief strategy officer at Perplexity\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products\n*“It may seem obvious, but traditional software is deterministic—it either does a thing or doesn’t. Services built using LLMs, on the other hand, are probabilistic. They may occasionally produce a helpful response, and other times not.*\n***The trick is achieving consistency in the model responses so that users can generally expect a good result.***\n*GitHub Copilot has an acceptance rate of 35%. That is to say, developers commit 35% of Copilot suggestions into their code editor. A ‘good enough’ acceptance rate will differ based on the use case and customer cohort. The best way to find out what’s right for you is to ask your customers, ‘Is this making your job easier?’ ”*\n—\n[Ryan J. Salva](https://www.linkedin.com/in/ryanjsalva/)\n, vice president of product at GitHub\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products\n*“A significant amount of AI innovation is in the prompt. Time and time again, I’ve seen teams reach this aha moment of realizing*\n***they don’t necessarily need to build new features, but they need to spend time on making their prompts better***\n*—prompts to improve quality, improve the results, or prompts which solve a problem for a customer in a unique way. A meaningful prompt can solve meaningful problems for customers.”*\n—\n[Sherif Mansour](https://www.linkedin.com/in/sherifmansour/?originalSubdomain=au)\n, distinguished product manager at Atlassian",
+      "doc_item_refs": [
+        "#/texts/138",
+        "#/texts/139",
+        "#/texts/140",
+        "#/texts/141",
+        "#/texts/261",
+        "#/texts/142",
+        "#/texts/143",
+        "#/texts/144",
+        "#/texts/145",
+        "#/texts/146",
+        "#/texts/147",
+        "#/texts/148",
+        "#/texts/262",
+        "#/texts/149",
+        "#/texts/150",
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/153",
+        "#/texts/154",
+        "#/texts/155"
+      ],
+      "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "headings": [
+        "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+        "8. Anticipate the AI won’t be perfect, so give users options, and keep fine-tuning the prompts"
+      ],
+      "images": [
+        {
+          "caption": "Image from Counterintuitive advice for building AI products",
+          "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/1b54cc52-858e-4063-b90f-af426cc2f22f_1600x1036.png"
+        },
+        {
+          "caption": "Image from Counterintuitive advice for building AI products",
+          "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4b5cb073-5fcf-4bf3-9034-5b7ed4905f40_1600x714.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000008",
+        "chunk_sha256": "c1caad69f8f745109350683e6a4dbaccad91f2e1939d749ce3a478a70b32b074",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+        "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+        "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+        "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+        "headings": [
+          "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+          "8. Anticipate the AI won’t be perfect, so give users options, and keep fine-tuning the prompts"
+        ],
+        "images": [
+          {
+            "caption": "Image from Counterintuitive advice for building AI products",
+            "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/1b54cc52-858e-4063-b90f-af426cc2f22f_1600x1036.png"
+          },
+          {
+            "caption": "Image from Counterintuitive advice for building AI products",
+            "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/4b5cb073-5fcf-4bf3-9034-5b7ed4905f40_1600x714.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+        "segment": {
+          "first_self_ref": "#/texts/138",
+          "item_count": 20,
+          "last_self_ref": "#/texts/155"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/138",
+          "#/texts/139",
+          "#/texts/140",
+          "#/texts/141",
+          "#/texts/261",
+          "#/texts/142",
+          "#/texts/143",
+          "#/texts/144",
+          "#/texts/145",
+          "#/texts/146",
+          "#/texts/147",
+          "#/texts/148",
+          "#/texts/262",
+          "#/texts/149",
+          "#/texts/150",
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/153",
+          "#/texts/154",
+          "#/texts/155"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "*“People need and want a lot of customization to make AI products work for their use case. They are willing to put in a lot of effort curating prompts, experimenting with models, and building on APIs that were never even imaginable a year ago.”*\n—\n[Johnny Ho](https://www.linkedin.com/in/hjohnny/)\n, co-founder and chief strategy officer at Perplexity\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products\n*“It may seem obvious, but traditional software is deterministic—it either does a thing or doesn’t. Services built using LLMs, on the other hand, are probabilistic. They may occasionally produce a helpful response, and other times not.*\n***The trick is achieving consistency in the model responses so that users can generally expect a good result.***\n*GitHub Copilot has an acceptance rate of 35%. That is to say, developers commit 35% of Copilot suggestions into their code editor. A ‘good enough’ acceptance rate will differ based on the use case and customer cohort. The best way to find out what’s right for you is to ask your customers, ‘Is this making your job easier?’ ”*\n—\n[Ryan J. Salva](https://www.linkedin.com/in/ryanjsalva/)\n, vice president of product at GitHub\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products\n*“A significant amount of AI innovation is in the prompt. Time and time again, I’ve seen teams reach this aha moment of realizing*\n***they don’t necessarily need to build new features, but they need to spend time on making their prompts better***\n*—prompts to improve quality, improve the results, or prompts which solve a problem for a customer in a unique way. A meaningful prompt can solve meaningful problems for customers.”*\n—\n[Sherif Mansour](https://www.linkedin.com/in/sherifmansour/?originalSubdomain=au)\n, distinguished product manager at Atlassian",
+      "token_count": 564
+    },
+    {
+      "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000009",
+      "contextualized_text": "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics\n9. Also anticipate the base model constantly improving\n*“*\n[*RAG*](https://aws.amazon.com/what-is/retrieval-augmented-generation/)\n*works surprisingly well if you give it the right context and ask the model to include links to the sources. If built the right way, AI-infused products automatically get better on their own when the underlying model improves. For example, Limitless will get better overnight when we move from GPT-4 to GPT-5. So build products in a way that leverages the strengths of the underlying foundation models and doesn’t compete with those strengths. Assume the models will keep getting stronger.*\n—\n[Dan Siroker](https://www.linkedin.com/in/dsiroker/)\n, co-founder and CEO at Limitless\n[Watch on YouTube](https://www.youtube.com/watch?v=lt_WnR_GZqs)",
+      "doc_item_refs": [
+        "#/texts/157",
+        "#/texts/158",
+        "#/texts/159",
+        "#/texts/160",
+        "#/texts/161",
+        "#/texts/162",
+        "#/texts/163"
+      ],
+      "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "headings": [
+        "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+        "9. Also anticipate the base model constantly improving"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000009",
+        "chunk_sha256": "fdcc5b28bbc6c1dc35e517836ffa295c82b5a200231a2227ccc4a2096eea72ef",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+        "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+        "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+        "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+        "headings": [
+          "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+          "9. Also anticipate the base model constantly improving"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+        "segment": {
+          "first_self_ref": "#/texts/157",
+          "item_count": 7,
+          "last_self_ref": "#/texts/163"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/157",
+          "#/texts/158",
+          "#/texts/159",
+          "#/texts/160",
+          "#/texts/161",
+          "#/texts/162",
+          "#/texts/163"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "*“*\n[*RAG*](https://aws.amazon.com/what-is/retrieval-augmented-generation/)\n*works surprisingly well if you give it the right context and ask the model to include links to the sources. If built the right way, AI-infused products automatically get better on their own when the underlying model improves. For example, Limitless will get better overnight when we move from GPT-4 to GPT-5. So build products in a way that leverages the strengths of the underlying foundation models and doesn’t compete with those strengths. Assume the models will keep getting stronger.*\n—\n[Dan Siroker](https://www.linkedin.com/in/dsiroker/)\n, co-founder and CEO at Limitless\n[Watch on YouTube](https://www.youtube.com/watch?v=lt_WnR_GZqs)",
+      "token_count": 265
+    },
+    {
+      "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000010",
+      "contextualized_text": "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics\n10. Watch out for scalability bottlenecks\n*“Initially an AI model might perform well with a limited set of tasks or data.*\n***However, not planning for the scalability of both the AI system and its infrastructure can lead to performance bottlenecks as user demands increase***\n*.This oversight can result in slow response times, decreased accuracy, and an inability to integrate new data or features efficiently. Scalability planning from the outset is crucial to support growth and changing requirements.”*\n—\n[Chris Lu](https://www.linkedin.com/in/chris-lu11/)\n, co-founder at Copy.ai\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products\n*“It’s easy to build too much ‘scaffolding’ logic on top of base models in the pursuit of optimizing quality. Fine-tuning and few-shot example training the models directly have been far more effective at improving quality for us. Beyond those, the product needs to be designed to use the raw model output as directly as possible to maximize quality, not to mention support a wide range of inputs and work reliably.”*\n—\n[Henri Liriani](https://www.linkedin.com/in/hliriani/)\n, co-founder and chief product officer of Tome\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products",
+      "doc_item_refs": [
+        "#/texts/165",
+        "#/texts/166",
+        "#/texts/167",
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/170",
+        "#/texts/263",
+        "#/texts/171",
+        "#/texts/172",
+        "#/texts/173",
+        "#/texts/174",
+        "#/texts/175",
+        "#/texts/264",
+        "#/texts/176"
+      ],
+      "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "headings": [
+        "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+        "10. Watch out for scalability bottlenecks"
+      ],
+      "images": [
+        {
+          "caption": "Image from Counterintuitive advice for building AI products",
+          "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/3ceddcd3-c661-47ce-87e4-3c953ce39d1d_960x727.gif"
+        },
+        {
+          "caption": "Image from Counterintuitive advice for building AI products",
+          "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/22fa3c07-168c-4e91-a74c-883b69aee0a2_800x450.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000010",
+        "chunk_sha256": "4afba3ca96ae0eedc8d68a4919417421fa6ee83ae9389dc71051921a478fadbe",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+        "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+        "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+        "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+        "headings": [
+          "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+          "10. Watch out for scalability bottlenecks"
+        ],
+        "images": [
+          {
+            "caption": "Image from Counterintuitive advice for building AI products",
+            "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/3ceddcd3-c661-47ce-87e4-3c953ce39d1d_960x727.gif"
+          },
+          {
+            "caption": "Image from Counterintuitive advice for building AI products",
+            "image_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/22fa3c07-168c-4e91-a74c-883b69aee0a2_800x450.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+        "segment": {
+          "first_self_ref": "#/texts/165",
+          "item_count": 14,
+          "last_self_ref": "#/texts/176"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/165",
+          "#/texts/166",
+          "#/texts/167",
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/170",
+          "#/texts/263",
+          "#/texts/171",
+          "#/texts/172",
+          "#/texts/173",
+          "#/texts/174",
+          "#/texts/175",
+          "#/texts/264",
+          "#/texts/176"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "*“Initially an AI model might perform well with a limited set of tasks or data.*\n***However, not planning for the scalability of both the AI system and its infrastructure can lead to performance bottlenecks as user demands increase***\n*.This oversight can result in slow response times, decreased accuracy, and an inability to integrate new data or features efficiently. Scalability planning from the outset is crucial to support growth and changing requirements.”*\n—\n[Chris Lu](https://www.linkedin.com/in/chris-lu11/)\n, co-founder at Copy.ai\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products\n*“It’s easy to build too much ‘scaffolding’ logic on top of base models in the pursuit of optimizing quality. Fine-tuning and few-shot example training the models directly have been far more effective at improving quality for us. Beyond those, the product needs to be designed to use the raw model output as directly as possible to maximize quality, not to mention support a wide range of inputs and work reliably.”*\n—\n[Henri Liriani](https://www.linkedin.com/in/hliriani/)\n, co-founder and chief product officer of Tome\nImage from Counterintuitive advice for building AI products\nImage from Counterintuitive advice for building AI products",
+      "token_count": 368
+    },
+    {
+      "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000011",
+      "contextualized_text": "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics\n11. Keep an eye out for time spent in-app going down\n*“While the previous generation of AI/ML breakthroughs like recommendation or ranking systems were finding the best product-market fit with products that took time away from people (social media, etc.), this new wave of generative AI seems to find the best PMF with products that increase productivity and give time back to people.*\n***So don’t be surprised if the best AI features reduce metrics like time spent in-app.***\n*”*\n—\n[Gaurav Misra](https://www.linkedin.com/in/gamisra1/)\n, co-founder and CEO at Captions\n[Watch on YouTube](https://www.youtube.com/watch?v=X9yNocxacHs)",
+      "doc_item_refs": [
+        "#/texts/178",
+        "#/texts/179",
+        "#/texts/180",
+        "#/texts/181",
+        "#/texts/182",
+        "#/texts/183",
+        "#/texts/184"
+      ],
+      "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "headings": [
+        "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+        "11. Keep an eye out for time spent in-app going down"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000011",
+        "chunk_sha256": "fab35f8091c2bc76c6b5152dbbe5c3ece9fb387ea7c6817383dae550eee261b3",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+        "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+        "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+        "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+        "headings": [
+          "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+          "11. Keep an eye out for time spent in-app going down"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+        "segment": {
+          "first_self_ref": "#/texts/178",
+          "item_count": 7,
+          "last_self_ref": "#/texts/184"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/178",
+          "#/texts/179",
+          "#/texts/180",
+          "#/texts/181",
+          "#/texts/182",
+          "#/texts/183",
+          "#/texts/184"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "*“While the previous generation of AI/ML breakthroughs like recommendation or ranking systems were finding the best product-market fit with products that took time away from people (social media, etc.), this new wave of generative AI seems to find the best PMF with products that increase productivity and give time back to people.*\n***So don’t be surprised if the best AI features reduce metrics like time spent in-app.***\n*”*\n—\n[Gaurav Misra](https://www.linkedin.com/in/gamisra1/)\n, co-founder and CEO at Captions\n[Watch on YouTube](https://www.youtube.com/watch?v=X9yNocxacHs)",
+      "token_count": 233
+    },
+    {
+      "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000012",
+      "contextualized_text": "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics\n12. Oftentimes, speed alone will help you win\n*“*\n***The thing we’ve learned: speed wins.***\n*Take, for example, Instant Reply or Auto Summarize. Gmail and Outlook have similar features, but you have to generate the replies and summaries on demand—and then wait for them to finish generating. In Superhuman, we pre-compute them so they are always instantaneous. That simple difference is a massive lever on the user experience.”*\n—\n[Rahul Vohra](https://www.linkedin.com/in/rahulvohra/)\n, founder and CEO at Superhuman\n[Watch on YouTube](https://www.youtube.com/watch?v=OiNWdByBU98)",
+      "doc_item_refs": [
+        "#/texts/186",
+        "#/texts/187",
+        "#/texts/188",
+        "#/texts/189",
+        "#/texts/190",
+        "#/texts/191",
+        "#/texts/192"
+      ],
+      "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "headings": [
+        "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+        "12. Oftentimes, speed alone will help you win"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000012",
+        "chunk_sha256": "79bb7a58e47b723eb0f1c293c10935ca6a72f373f8a608be6aeacac8fff94f87",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+        "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+        "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+        "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+        "headings": [
+          "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+          "12. Oftentimes, speed alone will help you win"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+        "segment": {
+          "first_self_ref": "#/texts/186",
+          "item_count": 7,
+          "last_self_ref": "#/texts/192"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/186",
+          "#/texts/187",
+          "#/texts/188",
+          "#/texts/189",
+          "#/texts/190",
+          "#/texts/191",
+          "#/texts/192"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "*“*\n***The thing we’ve learned: speed wins.***\n*Take, for example, Instant Reply or Auto Summarize. Gmail and Outlook have similar features, but you have to generate the replies and summaries on demand—and then wait for them to finish generating. In Superhuman, we pre-compute them so they are always instantaneous. That simple difference is a massive lever on the user experience.”*\n—\n[Rahul Vohra](https://www.linkedin.com/in/rahulvohra/)\n, founder and CEO at Superhuman\n[Watch on YouTube](https://www.youtube.com/watch?v=OiNWdByBU98)",
+      "token_count": 223
+    },
+    {
+      "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000013",
+      "contextualized_text": "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics\nClosing thoughts\nEmbracing AI opportunities calls for a new approach to building products. The companies that succeed will bring different mindsets and frameworks to unlock 10x outcomes.\nWhile the tech gets the attention, the winners will still be the products that solve real problems for people the best and provide the best design and UX to train people how to use it. Be intentional about your initial wedge, and look for a workflow with a big reward and potential for repeat use.\nThe last mile of building AI products can make all the difference. How long do people have to wait for the AI to generate? How consistently helpful are the outputs? Can people customize the prompt for their use case?\nAnd remember that we’re still in the early days of AI. Models will make step-function improvements. People will get more familiar with the technology. Keep up with changing expectations to build winning AI products that last. Your first-pass product may be a miss, but keep going and don’t shy away from hard problems.\n**—**\n*A huge thank-you to*\n[*Caitlin Colgrove*](https://www.linkedin.com/in/colgrove/)\n*,*\n[*Cameron Adams*](https://www.linkedin.com/in/themaninblue/)\n*,*\n[*Chris Lu*](https://www.linkedin.com/in/chris-lu11/)\n*,*\n[*Claire Vo*](https://www.linkedin.com/in/clairevo/)\n*,*\n[*Dan Siroker*](https://www.linkedin.com/in/dsiroker/)\n*,*\n[*Elad Gil*](https://www.linkedin.com/in/eladgil/)\n*,*\n[*Gaurav Misra*](https://www.linkedin.com/in/gamisra1/)\n*,*\n[*Henri Liriani*](https://www.linkedin.com/in/hliriani/)\n*,*\n[*Hilary Gridley*](https://www.linkedin.com/in/hilarygridley/)\n*,*\n[*James Evans*](https://www.linkedin.com/in/james-evans-7086b3126/)\n*,*\n[*Joel Kwartler*](https://www.linkedin.com/in/joelkwartler/)\n*,*\n[*Johnny Ho*](https://www.linkedin.com/in/hjohnny/)\n*,*\n[*Joshua Xu*](https://www.linkedin.com/in/buffxz/)\n*,*\n[*Paige Costello*](https://www.linkedin.com/in/paigecostello/)\n*,*\n[*Paul Adams*](https://www.linkedin.com/in/pauladams/)\n*,*\n[*Rahul Vohra*](https://www.linkedin.com/in/rahulvohra/)\n*,*\n[*Ryan J. Salva*](https://www.linkedin.com/in/ryanjsalva/)\n*,*\n[*Sarah Guo*](https://twitter.com/saranormous)\n*,*\n[*Scott Belsky*](https://www.linkedin.com/in/scottbelsky/)\n*,*\n[*Sherif Mansour*](https://www.linkedin.com/in/sherifmansour/?originalSubdomain=au)\n*, and*\n[*Stephen Whitworth*](https://www.linkedin.com/in/stephenwhitworth/)\n*for contributing their insights.*\n*Have a fulfilling and productive week 🙏*",
+      "doc_item_refs": [
+        "#/texts/194",
+        "#/texts/195",
+        "#/texts/196",
+        "#/texts/197",
+        "#/texts/198",
+        "#/texts/199",
+        "#/texts/200",
+        "#/texts/201",
+        "#/texts/202",
+        "#/texts/203",
+        "#/texts/204",
+        "#/texts/205",
+        "#/texts/206",
+        "#/texts/207",
+        "#/texts/208",
+        "#/texts/209",
+        "#/texts/210",
+        "#/texts/211",
+        "#/texts/212",
+        "#/texts/213",
+        "#/texts/214",
+        "#/texts/215",
+        "#/texts/216",
+        "#/texts/217",
+        "#/texts/218",
+        "#/texts/219",
+        "#/texts/220",
+        "#/texts/221",
+        "#/texts/222",
+        "#/texts/223",
+        "#/texts/224",
+        "#/texts/225",
+        "#/texts/226",
+        "#/texts/227",
+        "#/texts/228",
+        "#/texts/229",
+        "#/texts/230",
+        "#/texts/231",
+        "#/texts/232",
+        "#/texts/233",
+        "#/texts/234",
+        "#/texts/235",
+        "#/texts/236",
+        "#/texts/237",
+        "#/texts/238",
+        "#/texts/239",
+        "#/texts/240",
+        "#/texts/241",
+        "#/texts/242"
+      ],
+      "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "headings": [
+        "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+        "Closing thoughts"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000013",
+        "chunk_sha256": "037a82d96ca67196c9f941201ee111c5fcad0eac2fd12c28e63649e123dc16da",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+        "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+        "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+        "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+        "headings": [
+          "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+          "Closing thoughts"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+        "segment": {
+          "first_self_ref": "#/texts/194",
+          "item_count": 49,
+          "last_self_ref": "#/texts/242"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/194",
+          "#/texts/195",
+          "#/texts/196",
+          "#/texts/197",
+          "#/texts/198",
+          "#/texts/199",
+          "#/texts/200",
+          "#/texts/201",
+          "#/texts/202",
+          "#/texts/203",
+          "#/texts/204",
+          "#/texts/205",
+          "#/texts/206",
+          "#/texts/207",
+          "#/texts/208",
+          "#/texts/209",
+          "#/texts/210",
+          "#/texts/211",
+          "#/texts/212",
+          "#/texts/213",
+          "#/texts/214",
+          "#/texts/215",
+          "#/texts/216",
+          "#/texts/217",
+          "#/texts/218",
+          "#/texts/219",
+          "#/texts/220",
+          "#/texts/221",
+          "#/texts/222",
+          "#/texts/223",
+          "#/texts/224",
+          "#/texts/225",
+          "#/texts/226",
+          "#/texts/227",
+          "#/texts/228",
+          "#/texts/229",
+          "#/texts/230",
+          "#/texts/231",
+          "#/texts/232",
+          "#/texts/233",
+          "#/texts/234",
+          "#/texts/235",
+          "#/texts/236",
+          "#/texts/237",
+          "#/texts/238",
+          "#/texts/239",
+          "#/texts/240",
+          "#/texts/241",
+          "#/texts/242"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "Embracing AI opportunities calls for a new approach to building products. The companies that succeed will bring different mindsets and frameworks to unlock 10x outcomes.\nWhile the tech gets the attention, the winners will still be the products that solve real problems for people the best and provide the best design and UX to train people how to use it. Be intentional about your initial wedge, and look for a workflow with a big reward and potential for repeat use.\nThe last mile of building AI products can make all the difference. How long do people have to wait for the AI to generate? How consistently helpful are the outputs? Can people customize the prompt for their use case?\nAnd remember that we’re still in the early days of AI. Models will make step-function improvements. People will get more familiar with the technology. Keep up with changing expectations to build winning AI products that last. Your first-pass product may be a miss, but keep going and don’t shy away from hard problems.\n**—**\n*A huge thank-you to*\n[*Caitlin Colgrove*](https://www.linkedin.com/in/colgrove/)\n*,*\n[*Cameron Adams*](https://www.linkedin.com/in/themaninblue/)\n*,*\n[*Chris Lu*](https://www.linkedin.com/in/chris-lu11/)\n*,*\n[*Claire Vo*](https://www.linkedin.com/in/clairevo/)\n*,*\n[*Dan Siroker*](https://www.linkedin.com/in/dsiroker/)\n*,*\n[*Elad Gil*](https://www.linkedin.com/in/eladgil/)\n*,*\n[*Gaurav Misra*](https://www.linkedin.com/in/gamisra1/)\n*,*\n[*Henri Liriani*](https://www.linkedin.com/in/hliriani/)\n*,*\n[*Hilary Gridley*](https://www.linkedin.com/in/hilarygridley/)\n*,*\n[*James Evans*](https://www.linkedin.com/in/james-evans-7086b3126/)\n*,*\n[*Joel Kwartler*](https://www.linkedin.com/in/joelkwartler/)\n*,*\n[*Johnny Ho*](https://www.linkedin.com/in/hjohnny/)\n*,*\n[*Joshua Xu*](https://www.linkedin.com/in/buffxz/)\n*,*\n[*Paige Costello*](https://www.linkedin.com/in/paigecostello/)\n*,*\n[*Paul Adams*](https://www.linkedin.com/in/pauladams/)\n*,*\n[*Rahul Vohra*](https://www.linkedin.com/in/rahulvohra/)\n*,*\n[*Ryan J. Salva*](https://www.linkedin.com/in/ryanjsalva/)\n*,*\n[*Sarah Guo*](https://twitter.com/saranormous)\n*,*\n[*Scott Belsky*](https://www.linkedin.com/in/scottbelsky/)\n*,*\n[*Sherif Mansour*](https://www.linkedin.com/in/sherifmansour/?originalSubdomain=au)\n*, and*\n[*Stephen Whitworth*](https://www.linkedin.com/in/stephenwhitworth/)\n*for contributing their insights.*\n*Have a fulfilling and productive week 🙏*",
+      "token_count": 918
+    },
+    {
+      "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000014",
+      "contextualized_text": "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics\n👀 Hiring? Or looking for a new job?\nI’m piloting a white-glove recruiting service for product roles, working with a few select companies at a time. If you’re hiring for senior product roles, apply below.\n[Apply to join](https://www.lennysjobs.com/talent/)\nIf you’re exploring new opportunities yourself, use the same button above to sign up. We’ll send over personalized opportunities from hand-selected companies if we think there’s a fit. Nobody gets your info until you allow them to, and you can leave anytime.\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/244",
+        "#/texts/245",
+        "#/texts/246",
+        "#/texts/247",
+        "#/texts/248",
+        "#/texts/249",
+        "#/texts/250",
+        "#/texts/251",
+        "#/texts/252",
+        "#/texts/253",
+        "#/texts/254",
+        "#/texts/255"
+      ],
+      "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+      "headings": [
+        "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+        "👀 Hiring? Or looking for a new job?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md#chunk=000014",
+        "chunk_sha256": "474ddd59012197dd3a78e5d2d5276ad187a0b509ce9a7f4a72cea864de26eda9",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+        "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+        "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+        "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+        "headings": [
+          "Counterintuitive advice for building AI products — Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo | 2024-07-02 | Tags: design, ai, startups, growth, newsletter, analytics",
+          "👀 Hiring? Or looking for a new job?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+        "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+        "segment": {
+          "first_self_ref": "#/texts/244",
+          "item_count": 12,
+          "last_self_ref": "#/texts/255"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/244",
+          "#/texts/245",
+          "#/texts/246",
+          "#/texts/247",
+          "#/texts/248",
+          "#/texts/249",
+          "#/texts/250",
+          "#/texts/251",
+          "#/texts/252",
+          "#/texts/253",
+          "#/texts/254",
+          "#/texts/255"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "I’m piloting a white-glove recruiting service for product roles, working with a few select companies at a time. If you’re hiring for senior product roles, apply below.\n[Apply to join](https://www.lennysjobs.com/talent/)\nIf you’re exploring new opportunities yourself, use the same button above to sign up. We’ll send over personalized opportunities from hand-selected companies if we think there’s a fit. Nobody gets your info until you allow them to, and you can leave anytime.\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "token_count": 329
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.docling.json",
+  "docling_sha256": "9aa33a9586d6b0f7b2b8f604e98a70a8d1be982871c6a10087fbff26040baea2",
+  "document_id": "02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+  "enhanced_sha256": "e12edf025ae45efaa683350bd65aaa4c7211b797fc76e2fdd579b0997607fc64",
+  "fact_document_path": "chunks/v2/02-newsletters/counterintuitive-advice-for-building-ai-products.chunks.json",
+  "metadata": {
+    "date": "2024-07-02",
+    "subtitle": "Lessons from 20+ top product builders, including Scott Belsky, Elad Gil, Rahul Vohra, and Sarah Guo",
+    "tags": [
+      "design",
+      "ai",
+      "startups",
+      "growth",
+      "newsletter",
+      "analytics"
+    ],
+    "title": "Counterintuitive advice for building AI products",
+    "type": "newsletter",
+    "word_count": 3501
+  },
+  "raw_path": "corpus/raw/02-newsletters/counterintuitive-advice-for-building-ai-products.md",
+  "raw_sha256": "4ef5eb77095f90b872ba580c3d34f1bd9e71794ddd234ea4cf7d1e922208622c",
+  "schema_version": "1",
+  "title": "Counterintuitive advice for building AI products"
+}

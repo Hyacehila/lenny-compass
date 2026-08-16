@@ -1,0 +1,3888 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/groups/23"
+      },
+      {
+        "$ref": "#/groups/24"
+      },
+      {
+        "$ref": "#/groups/25"
+      },
+      {
+        "$ref": "#/texts/136"
+      },
+      {
+        "$ref": "#/groups/34"
+      },
+      {
+        "$ref": "#/texts/140"
+      },
+      {
+        "$ref": "#/texts/141"
+      },
+      {
+        "$ref": "#/groups/35"
+      },
+      {
+        "$ref": "#/texts/154"
+      },
+      {
+        "$ref": "#/texts/155"
+      },
+      {
+        "$ref": "#/texts/156"
+      },
+      {
+        "$ref": "#/texts/157"
+      },
+      {
+        "$ref": "#/texts/158"
+      },
+      {
+        "$ref": "#/texts/159"
+      },
+      {
+        "$ref": "#/texts/160"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/furniture"
+  },
+  "groups": [
+    {
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/0"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/1"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/10"
+      },
+      "self_ref": "#/groups/2"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/13"
+      },
+      "self_ref": "#/groups/3"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/17"
+      },
+      "self_ref": "#/groups/4"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/45"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/5"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "self_ref": "#/groups/6"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/26"
+      },
+      "self_ref": "#/groups/7"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/29"
+      },
+      "self_ref": "#/groups/8"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/32"
+      },
+      "self_ref": "#/groups/9"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/35"
+      },
+      "self_ref": "#/groups/10"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/40"
+      },
+      "self_ref": "#/groups/11"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/45"
+      },
+      "self_ref": "#/groups/12"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/13"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/75"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/14"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/55"
+      },
+      "self_ref": "#/groups/15"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/60"
+      },
+      "self_ref": "#/groups/16"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/63"
+      },
+      "self_ref": "#/groups/17"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/66"
+      },
+      "self_ref": "#/groups/18"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/69"
+      },
+      "self_ref": "#/groups/19"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/72"
+      },
+      "self_ref": "#/groups/20"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/75"
+      },
+      "self_ref": "#/groups/21"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/78"
+      },
+      "self_ref": "#/groups/22"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/23"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/24"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/106"
+        },
+        {
+          "$ref": "#/texts/107"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/116"
+        },
+        {
+          "$ref": "#/texts/117"
+        },
+        {
+          "$ref": "#/texts/121"
+        },
+        {
+          "$ref": "#/texts/122"
+        },
+        {
+          "$ref": "#/texts/126"
+        },
+        {
+          "$ref": "#/texts/127"
+        },
+        {
+          "$ref": "#/texts/131"
+        },
+        {
+          "$ref": "#/texts/132"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/25"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/97"
+      },
+      "self_ref": "#/groups/26"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/105"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/102"
+      },
+      "self_ref": "#/groups/27"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/107"
+      },
+      "self_ref": "#/groups/28"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        },
+        {
+          "$ref": "#/texts/115"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/112"
+      },
+      "self_ref": "#/groups/29"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/118"
+        },
+        {
+          "$ref": "#/texts/119"
+        },
+        {
+          "$ref": "#/texts/120"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/117"
+      },
+      "self_ref": "#/groups/30"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/123"
+        },
+        {
+          "$ref": "#/texts/124"
+        },
+        {
+          "$ref": "#/texts/125"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/122"
+      },
+      "self_ref": "#/groups/31"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/128"
+        },
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/130"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/127"
+      },
+      "self_ref": "#/groups/32"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        },
+        {
+          "$ref": "#/texts/135"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/132"
+      },
+      "self_ref": "#/groups/33"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/137"
+        },
+        {
+          "$ref": "#/texts/138"
+        },
+        {
+          "$ref": "#/texts/139"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/34"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/142"
+        },
+        {
+          "$ref": "#/texts/146"
+        },
+        {
+          "$ref": "#/texts/150"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/35"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/143"
+        },
+        {
+          "$ref": "#/texts/144"
+        },
+        {
+          "$ref": "#/texts/145"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/142"
+      },
+      "self_ref": "#/groups/36"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/147"
+        },
+        {
+          "$ref": "#/texts/148"
+        },
+        {
+          "$ref": "#/texts/149"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/146"
+      },
+      "self_ref": "#/groups/37"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/151"
+        },
+        {
+          "$ref": "#/texts/152"
+        },
+        {
+          "$ref": "#/texts/153"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/150"
+      },
+      "self_ref": "#/groups/38"
+    }
+  ],
+  "key_value_items": [],
+  "name": "this-week-7-effectively-communicating-about-a-failure-to-execs-managing-founder",
+  "origin": {
+    "binary_hash": 4068576329441516330,
+    "filename": "this-week-7-effectively-communicating-about-a-failure-to-execs-managing-founder.md",
+    "mimetype": "text/markdown",
+    "uri": null
+  },
+  "pages": {},
+  "pictures": [
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/161"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/161"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/gif",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/6253a3db-f579-46f5-8820-2f6430f63697_220x118.gif"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/0"
+    }
+  ],
+  "schema_name": "DoclingDocument",
+  "tables": [],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "title",
+      "meta": null,
+      "orig": "This Week #7: Effectively communicating about a failure to execs, managing founder expectations, and hiring a Director of PM — ### Q: What are your thoughts on communicating failure, like missing our team’s set goals? | 2019-10-29 | Tags: leadership, career, startups, strategy, design, newsletter",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/0",
+      "text": "This Week #7: Effectively communicating about a failure to execs, managing founder expectations, and hiring a Director of PM — ### Q: What are your thoughts on communicating failure, like missing our team’s set goals? | 2019-10-29 | Tags: leadership, career, startups, strategy, design, newsletter"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Hello and welcome to my humble newsletter, where I attempt to answer your questions and offer candid advice about building product, driving growth, working with other humans, and anything else that’s stressing you out at the office. 🤝",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/1",
+      "text": "Hello and welcome to my humble newsletter, where I attempt to answer your questions and offer candid advice about building product, driving growth, working with other humans, and anything else that’s stressing you out at the office. 🤝"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’re returning from last week, thank you! If you’re new, nice to have you! Help spread the word by telling your friends to",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/2",
+      "text": "If you’re returning from last week, thank you! If you’re new, nice to have you! Help spread the word by telling your friends to"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "sign up here",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/3",
+      "text": "sign up here"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". 🙏",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/4",
+      "text": ". 🙏"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "**New this week:**A friendly reminder to click the little grey heart up near the headline, if you find this newsletter valuable. <3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/5",
+      "text": "**New this week:**A friendly reminder to click the little grey heart up near the headline, if you find this newsletter valuable. <3"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "On to this week’s questions…",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/6",
+      "text": "On to this week’s questions…"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://substackcdn.com/image/fetch/$s_!EgGv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6253a3db-f579-46f5-8820-2f6430f63697_220x118.gif",
+      "label": "text",
+      "meta": null,
+      "orig": "Image from This Week #7: Effectively communicating about a failure to execs, managing",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/7",
+      "text": "Image from This Week #7: Effectively communicating about a failure to execs, managing"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "Q: What are your thoughts on communicating failure, like missing our team’s set goals? I’m new to my job and the first idea I pitched got buy-in very quickly. However, even through the initial user tests went great — the actual MVP we launched is doing horribly. I am struggling on how to communicate this, and which actions to take. Unfortunately I am in a quite “old-fashioned” environment where sharing failure is not common.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/8",
+      "text": "Q: What are your thoughts on communicating failure, like missing our team’s set goals? I’m new to my job and the first idea I pitched got buy-in very quickly. However, even through the initial user tests went great — the actual MVP we launched is doing horribly. I am struggling on how to communicate this, and which actions to take. Unfortunately I am in a quite “old-fashioned” environment where sharing failure is not common."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Before getting into how to deliver bad news, a few suggestions to get your mind in the right place:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/9",
+      "text": "Before getting into how to deliver bad news, a few suggestions to get your mind in the right place:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/10",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Failure is super normal:",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/11",
+      "text": "Failure is super normal:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "A large percentage of technology projects fail. I would venture to say MOST projects fail, in one way another. Why? Because you’re doing something that has never been done before. That’s what makes them worth doing.",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/12",
+      "text": "A large percentage of technology projects fail. I would venture to say MOST projects fail, in one way another. Why? Because you’re doing something that has never been done before. That’s what makes them worth doing."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/13",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "You",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/14",
+      "text": "You"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "aren’t the project:",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/15",
+      "text": "aren’t the project:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Don’t equate a project’s success with your personal success. You are doing a job, to the best of your abilities. You’ve had successful projects in the past, and you will again. You’ve also had failures in the past, and you will again. And some of the best work happens when taking a big risky bet.",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/16",
+      "text": "Don’t equate a project’s success with your personal success. You are doing a job, to the best of your abilities. You’ve had successful projects in the past, and you will again. You’ve also had failures in the past, and you will again. And some of the best work happens when taking a big risky bet."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/17",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "It’s not",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/18",
+      "text": "It’s not"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "that",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/19",
+      "text": "that"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "big of a deal:",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/20",
+      "text": "big of a deal:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I’m going to assume no one died, no one got hurt, and that you didn’t blow a bunch of money and resources. If true, all that was really lost was some negligible amount of resources and time. To a large company, that is not a big deal. It happens all the time. This is part of the game in business. It will likely be forgotten within the year.",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/21",
+      "text": "I’m going to assume no one died, no one got hurt, and that you didn’t blow a bunch of money and resources. If true, all that was really lost was some negligible amount of resources and time. To a large company, that is not a big deal. It happens all the time. This is part of the game in business. It will likely be forgotten within the year."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Now, a few suggestions for how to frame bad news to leadership:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/22",
+      "text": "Now, a few suggestions for how to frame bad news to leadership:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/6"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/23",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Be up front",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/24",
+      "text": "Be up front"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ": The truth will come out. Don’t try to hide it. More than that, I’d encourage you to lean into it: “This project failed. Let me tell you what happened, what we’ve learned, and what we’re recommending as next steps.” Leaders respect people who are clear-headed, up-front, and take responsibility.",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/25",
+      "text": ": The truth will come out. Don’t try to hide it. More than that, I’d encourage you to lean into it: “This project failed. Let me tell you what happened, what we’ve learned, and what we’re recommending as next steps.” Leaders respect people who are clear-headed, up-front, and take responsibility."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/7"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/26",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Stay positive:",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/27",
+      "text": "Stay positive:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Avoid coming into the discussion looking down and depressed. Your energy and body language will influence how folks feel. Smile, be friendly, and convey optimism for the future.",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/28",
+      "text": "Avoid coming into the discussion looking down and depressed. Your energy and body language will influence how folks feel. Smile, be friendly, and convey optimism for the future."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/8"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/29",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Separate the idea from the execution:",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/30",
+      "text": "Separate the idea from the execution:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "When a project fails, sometimes it’s because the idea was bad, but sometimes it’s because it was executed badly. It’s easy to assume that it was a bad idea, especially if you were the one executing it, but I’d encourage you to take a hard look at the project and decide if it’s worth taking another shot at it with a different approach.",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/31",
+      "text": "When a project fails, sometimes it’s because the idea was bad, but sometimes it’s because it was executed badly. It’s easy to assume that it was a bad idea, especially if you were the one executing it, but I’d encourage you to take a hard look at the project and decide if it’s worth taking another shot at it with a different approach."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/9"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/32",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Describe the journey the project has been on:",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/33",
+      "text": "Describe the journey the project has been on:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Before diving into the results, paint a (succinct) picture of the sequence of events the led you to launch this MVP. It sounds like there was a lot of excitement for this idea — remind people why they were so bullish on it. Include early successes, user quotes, and learnings along the way. A visual timeline is often a good way to present this.",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/34",
+      "text": "Before diving into the results, paint a (succinct) picture of the sequence of events the led you to launch this MVP. It sounds like there was a lot of excitement for this idea — remind people why they were so bullish on it. Include early successes, user quotes, and learnings along the way. A visual timeline is often a good way to present this."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/10"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/35",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Share what worked:",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/36",
+      "text": "Share what worked:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "What did you learn through this experience? What theories did you disprove? What surprised you and your team most? As",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/37",
+      "text": "What did you learn through this experience? What theories did you disprove? What surprised you and your team most? As"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://theleanstartup.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "Eric Ries",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/38",
+      "text": "Eric Ries"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "taught us, the best way to measure the progress of new endeavors by how much you’ve learned.",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/39",
+      "text": "taught us, the best way to measure the progress of new endeavors by how much you’ve learned."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/11"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/40",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Have a clear plan for next steps:",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/41",
+      "text": "Have a clear plan for next steps:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Building on the previous point, it’s",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/42",
+      "text": "Building on the previous point, it’s"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "extremely",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/43",
+      "text": "extremely"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "important that you have a clear recommendation for what to do next. This is how you turn a failure into an opportunity. Looking at the learnings from this experience, what should the company do next? Folks will be looking to you to guide them. This could be simply killing the project quickly and moving on. Or pivoting to something that showed signs of success. Or taking a whole new approach to the same problem. I’d spend most of your time thinking through this part.",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/44",
+      "text": "important that you have a clear recommendation for what to do next. This is how you turn a failure into an opportunity. Looking at the learnings from this experience, what should the company do next? Folks will be looking to you to guide them. This could be simply killing the project quickly and moving on. Or pivoting to something that showed signs of success. Or taking a whole new approach to the same problem. I’d spend most of your time thinking through this part."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/12"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/45",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Show you care:",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/46",
+      "text": "Show you care:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Your company leaders will want to feel that you are committed and excited about the work, and to moving forward on whatever path ends up being chosen. If you do still care — make that clear.",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/47",
+      "text": "Your company leaders will want to feel that you are committed and excited about the work, and to moving forward on whatever path ends up being chosen. If you do still care — make that clear."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Bonus: Watch this",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/48",
+      "text": "Bonus: Watch this"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.generalmagicthemovie.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "documentary about General Magic",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/49",
+      "text": "documentary about General Magic"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "to see how beneficial failure can sometimes be.",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/50",
+      "text": "to see how beneficial failure can sometimes be."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/subscribe?",
+      "label": "text",
+      "meta": null,
+      "orig": "Sign up now",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/51",
+      "text": "Sign up now"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "Q: How do you, as a product managers, manage expectations with founders when their idea has to change? We’re well funded, and have been trying to scale a product — but it’s not working. We’re also feeling a lot of pressure from the board.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/52",
+      "text": "Q: How do you, as a product managers, manage expectations with founders when their idea has to change? We’re well funded, and have been trying to scale a product — but it’s not working. We’re also feeling a lot of pressure from the board."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I’ve included this question because there’s a lot of overlap between it and the previous question, but with two important difference: (1) the attachment to the idea will be much stronger, and (2) the impact of changing it will be much larger. Basically, it’s a much harder version of the above question. Sorry 😭",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/53",
+      "text": "I’ve included this question because there’s a lot of overlap between it and the previous question, but with two important difference: (1) the attachment to the idea will be much stronger, and (2) the impact of changing it will be much larger. Basically, it’s a much harder version of the above question. Sorry 😭"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "When looking to change someone’s mind about something they firmly believe in, here are some tactics that have worked for me:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/54",
+      "text": "When looking to change someone’s mind about something they firmly believe in, here are some tactics that have worked for me:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/15"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/55",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Bring them on the journey with you:",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/56",
+      "text": "Bring them on the journey with you:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "It takes time to change someone’s mind. Particularly something as big as a founder’s core idea. How might you bring them along the same journey you went on that convinced you that this was the wrong direction? What were the key data points, experiences, and learnings for you? Share them as you experience them, with your takeaways, and always with a “here’s what we’re doing next to continue learning how to make it work.” I share a story of this kind of experience in",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/57",
+      "text": "It takes time to change someone’s mind. Particularly something as big as a founder’s core idea. How might you bring them along the same journey you went on that convinced you that this was the wrong direction? What were the key data points, experiences, and learnings for you? Share them as you experience them, with your takeaways, and always with a “here’s what we’re doing next to continue learning how to make it work.” I share a story of this kind of experience in"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://uxdesign.cc/how-to-solve-problems-6bf14222e424",
+      "label": "text",
+      "meta": null,
+      "orig": "the introduction to this essay",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/58",
+      "text": "the introduction to this essay"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/59",
+      "text": "."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/16"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/60",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Align on the key hypothesis and test them one by one:",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/61",
+      "text": "Align on the key hypothesis and test them one by one:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Something is keeping your founder convinced this is a great idea. Listen to these insights, and the assumptions behind them. Then, together, come up with a set of tests that you can cheaply run to vet these assumptions. Ask what would convince them that maybe this isn’t right. At some point, you’ll either run out of things to test, or you’ll be able to show that maybe it’s working.",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/62",
+      "text": "Something is keeping your founder convinced this is a great idea. Listen to these insights, and the assumptions behind them. Then, together, come up with a set of tests that you can cheaply run to vet these assumptions. Ask what would convince them that maybe this isn’t right. At some point, you’ll either run out of things to test, or you’ll be able to show that maybe it’s working."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/17"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/63",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Stay optimistic:",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/64",
+      "text": "Stay optimistic:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "It’s important that you come across as being on the same side as the founder — you are there to help uncover how to make this work. Be the person that comes up with the hypothesis to test, with next steps after each test, and a running set of conclusions.",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/65",
+      "text": "It’s important that you come across as being on the same side as the founder — you are there to help uncover how to make this work. Be the person that comes up with the hypothesis to test, with next steps after each test, and a running set of conclusions."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/18"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/66",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Show them irrefutable data:",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/67",
+      "text": "Show them irrefutable data:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Even though data isn’t everything at this stage, there often is compelling data (either quantitative or qualitative) that can paint a pretty clear picture of what’s not working. An approach here is to work backward from what a compelling case for pivoting would be (e.g. what data points would this need, what kinds of quotes would you need from users), and then go get those.",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/68",
+      "text": "Even though data isn’t everything at this stage, there often is compelling data (either quantitative or qualitative) that can paint a pretty clear picture of what’s not working. An approach here is to work backward from what a compelling case for pivoting would be (e.g. what data points would this need, what kinds of quotes would you need from users), and then go get those."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/19"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/69",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Have someone they trust convince them:",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/70",
+      "text": "Have someone they trust convince them:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "It’s often tough and IC on the team to convince the founder of anything they don’t want to believe. Does the founder have a trusted advisor that you can pitch on your perspective, and then work together to influence the founder?",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/71",
+      "text": "It’s often tough and IC on the team to convince the founder of anything they don’t want to believe. Does the founder have a trusted advisor that you can pitch on your perspective, and then work together to influence the founder?"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/20"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/72",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Give the founder a chance to save face:",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/73",
+      "text": "Give the founder a chance to save face:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "It’s difficult for anyone to admit they are wrong. Especially a company leader. Knowing this, find a way to make it feel like less of a failure and more of an evolution based on new learnings. “You made a decision based on prior information, and it was the right one given what you knew, but now that we know more, it makes sense to change direction.”",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/74",
+      "text": "It’s difficult for anyone to admit they are wrong. Especially a company leader. Knowing this, find a way to make it feel like less of a failure and more of an evolution based on new learnings. “You made a decision based on prior information, and it was the right one given what you knew, but now that we know more, it makes sense to change direction.”"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/21"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/75",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Accept they may never change their mind:",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/76",
+      "text": "Accept they may never change their mind:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I have many friends who have worked for founders are CEOs who are extremely stubborn and essentially are impossible to convince they are wrong. If you begin to feel that’s the case in your company, step one is to recognize that, and step two is to decide if you want to continue working in that environment.",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/77",
+      "text": "I have many friends who have worked for founders are CEOs who are extremely stubborn and essentially are impossible to convince they are wrong. If you begin to feel that’s the case in your company, step one is to recognize that, and step two is to decide if you want to continue working in that environment."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/22"
+        }
+      ],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/78",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Q: Could you flip the \"interviewing for a Director PM role\" question",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "prov": [],
+      "self_ref": "#/texts/79",
+      "text": "Q: Could you flip the \"interviewing for a Director PM role\" question"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/weekly-q-and-a-finding-productmarket",
+      "label": "text",
+      "meta": null,
+      "orig": "from a few weeks back",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "prov": [],
+      "self_ref": "#/texts/80",
+      "text": "from a few weeks back"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "and share your thoughts on what interviewers should look for when",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "prov": [],
+      "self_ref": "#/texts/81",
+      "text": "and share your thoughts on what interviewers should look for when"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "hiring",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "prov": [],
+      "self_ref": "#/texts/82",
+      "text": "hiring"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "a Director of PM?",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "prov": [],
+      "self_ref": "#/texts/83",
+      "text": "a Director of PM?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I’ve recently come across the writings of",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/84",
+      "text": "I’ve recently come across the writings of"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://twitter.com/jackiebo",
+      "label": "text",
+      "meta": null,
+      "orig": "Jackie Bavaro",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/85",
+      "text": "Jackie Bavaro"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", who has some stellar content on hiring Product Managers. So first of all, go",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/86",
+      "text": ", who has some stellar content on hiring Product Managers. So first of all, go"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://medium.com/@jackiebo/how-to-hire-great-product-managers-f07a3c9337ea",
+      "label": "text",
+      "meta": null,
+      "orig": "read this",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/87",
+      "text": "read this"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "and then",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/88",
+      "text": "and then"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://medium.com/@jackiebo/how-to-hire-great-product-managers-part-3-writing-interview-questions-5b8bd221beff",
+      "label": "text",
+      "meta": null,
+      "orig": "this",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/89",
+      "text": "this"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". In addition First Round has a great",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/90",
+      "text": ". In addition First Round has a great"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://firstround.com/review/our-6-must-reads-if-youre-hiring-a-product-manager/",
+      "label": "text",
+      "meta": null,
+      "orig": "roundup of PM hiring advice",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/91",
+      "text": "roundup of PM hiring advice"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/92",
+      "text": "."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Now, what is different between hiring a Director of PM vs. an IC PM? I’d say the top three differences are that they will be (1) managing PMs, (2) taking on large scope, and (3) working closely with senior leaders. Here are some of my favorite interview questions for the seven key skills to focus on for interviewing PM Director candidates (same as the",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/93",
+      "text": "Now, what is different between hiring a Director of PM vs. an IC PM? I’d say the top three differences are that they will be (1) managing PMs, (2) taking on large scope, and (3) working closely with senior leaders. Here are some of my favorite interview questions for the seven key skills to focus on for interviewing PM Director candidates (same as the"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/p/weekly-q-and-a-finding-productmarket",
+      "label": "text",
+      "meta": null,
+      "orig": "previous answer",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/94",
+      "text": "previous answer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", plus two new ones to keep things interesting):",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/95",
+      "text": ", plus two new ones to keep things interesting):"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Long-term strategic thinking",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/96",
+      "text": "Long-term strategic thinking"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/26"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/97",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Have them pick a 3+ month-long project they’ve led and are proud of, and to walk you through it from inception to completion. I jump in along the way to explore how they thought strategically about each step of the process.",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "prov": [],
+      "self_ref": "#/texts/98",
+      "text": "Have them pick a 3+ month-long project they’ve led and are proud of, and to walk you through it from inception to completion. I jump in along the way to explore how they thought strategically about each step of the process."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. Present them with a sample challenge that you’re facing at our company and have them talk through how they wouldd tackle this problem, from vision to strategy to through the execution.",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "prov": [],
+      "self_ref": "#/texts/99",
+      "text": "2. Present them with a sample challenge that you’re facing at our company and have them talk through how they wouldd tackle this problem, from vision to strategy to through the execution."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. Taking the above concept further, I’ve found great signal in giving a candidate 2 hours to tackle a challenge, on their own at a desk in the office, and then to present their proposal to the interview panel.",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "prov": [],
+      "self_ref": "#/texts/100",
+      "text": "3. Taking the above concept further, I’ve found great signal in giving a candidate 2 hours to tackle a challenge, on their own at a desk in the office, and then to present their proposal to the interview panel."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "People leadership",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/101",
+      "text": "People leadership"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/27"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/102",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "“When I ask them, what would people you’ve managed in the past say about you? What about people your peers?”",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "prov": [],
+      "self_ref": "#/texts/103",
+      "text": "“When I ask them, what would people you’ve managed in the past say about you? What about people your peers?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. ‘Tell me about a time you’ve had to deal with a low-performer. How did you communicate something was wrong? And what did you do to help them improve?”",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "prov": [],
+      "self_ref": "#/texts/104",
+      "text": "2. ‘Tell me about a time you’ve had to deal with a low-performer. How did you communicate something was wrong? And what did you do to help them improve?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. “Tell me about a time when a team you were leading didn’t gel. Why do you think that happened, and what have you learned?”",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "prov": [],
+      "self_ref": "#/texts/105",
+      "text": "3. “Tell me about a time when a team you were leading didn’t gel. Why do you think that happened, and what have you learned?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Stakeholder management",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/106",
+      "text": "Stakeholder management"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/28"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/107",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "“Tell me about a time you took the initiative and make something happen that needed to happen.”",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "prov": [],
+      "self_ref": "#/texts/108",
+      "text": "“Tell me about a time you took the initiative and make something happen that needed to happen.”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. “Tell me about a time you strongly disagreed with your manager. What did you do to convince them that you were right, and what happened?”",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "prov": [],
+      "self_ref": "#/texts/109",
+      "text": "2. “Tell me about a time you strongly disagreed with your manager. What did you do to convince them that you were right, and what happened?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. “Tell me about a time you were behind schedule on a high-visibility project — how did you communicate the news to stakeholders? How’d it go?”",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "prov": [],
+      "self_ref": "#/texts/110",
+      "text": "3. “Tell me about a time you were behind schedule on a high-visibility project — how did you communicate the news to stakeholders? How’d it go?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Impact",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/111",
+      "text": "Impact"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/29"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/112",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "“What measurable impact have you had at your previous companies?”",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "prov": [],
+      "self_ref": "#/texts/113",
+      "text": "“What measurable impact have you had at your previous companies?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. “How do you measure the impact of someone in your role?”",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "prov": [],
+      "self_ref": "#/texts/114",
+      "text": "2. “How do you measure the impact of someone in your role?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. “Say we look back a year from now, what kind of impact would you like to have made?”",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "prov": [],
+      "self_ref": "#/texts/115",
+      "text": "3. “Say we look back a year from now, what kind of impact would you like to have made?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Communication",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/116",
+      "text": "Communication"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/30"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/117",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "“How do you keep your team updated on what’s happening higher up in the org?”",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "prov": [],
+      "self_ref": "#/texts/118",
+      "text": "“How do you keep your team updated on what’s happening higher up in the org?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. “How do you keep your stakeholders updated on what’s happening within your team?”",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "prov": [],
+      "self_ref": "#/texts/119",
+      "text": "2. “How do you keep your stakeholders updated on what’s happening within your team?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. “Tell me about a time you messed up communicating something important to either your team or to execs — and what did you learn from that?”",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "prov": [],
+      "self_ref": "#/texts/120",
+      "text": "3. “Tell me about a time you messed up communicating something important to either your team or to execs — and what did you learn from that?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Decision making",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/121",
+      "text": "Decision making"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/31"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/122",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "“Tell me about a time you had to make a decision that was counter to what your team wanted. How did you work through that?”",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "prov": [],
+      "self_ref": "#/texts/123",
+      "text": "“Tell me about a time you had to make a decision that was counter to what your team wanted. How did you work through that?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. “When do you wait for consensus vs. making a call yourself?”",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "prov": [],
+      "self_ref": "#/texts/124",
+      "text": "2. “When do you wait for consensus vs. making a call yourself?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. “Tell me about a time when you went against what the data was telling you?”",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "prov": [],
+      "self_ref": "#/texts/125",
+      "text": "3. “Tell me about a time when you went against what the data was telling you?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Vision",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/126",
+      "text": "Vision"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/32"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/127",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "“Tell me about a time you had to develop a vision for a product or team.”",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "prov": [],
+      "self_ref": "#/texts/128",
+      "text": "“Tell me about a time you had to develop a vision for a product or team.”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. “How important is it to have a vision for your product or team?”",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "prov": [],
+      "self_ref": "#/texts/129",
+      "text": "2. “How important is it to have a vision for your product or team?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. “What was the vision for your previous product or team?”",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "prov": [],
+      "self_ref": "#/texts/130",
+      "text": "3. “What was the vision for your previous product or team?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Hiring",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/131",
+      "text": "Hiring"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/33"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/132",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "“Tell me about one of your favorite (or hardest) hiring experiences in the past — how’d you find them, how’d you close them?”",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "prov": [],
+      "self_ref": "#/texts/133",
+      "text": "“Tell me about one of your favorite (or hardest) hiring experiences in the past — how’d you find them, how’d you close them?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. “How much of your time do you expect to spend hiring?”",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "prov": [],
+      "self_ref": "#/texts/134",
+      "text": "2. “How much of your time do you expect to spend hiring?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "3. “What’s your standard interview loop process?”",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "prov": [],
+      "self_ref": "#/texts/135",
+      "text": "3. “What’s your standard interview loop process?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Bonus: Other questions I love",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/136",
+      "text": "Bonus: Other questions I love"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "“What’s something you’re better at than most other people? What’s your superpower?”",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "prov": [],
+      "self_ref": "#/texts/137",
+      "text": "“What’s something you’re better at than most other people? What’s your superpower?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "“What’s something you’re working to improve?”",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "prov": [],
+      "self_ref": "#/texts/138",
+      "text": "“What’s something you’re working to improve?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "“What was your biggest product mistake? What did you learn from it?”",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "prov": [],
+      "self_ref": "#/texts/139",
+      "text": "“What was your biggest product mistake? What did you learn from it?”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "That’s it for this week!",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/140",
+      "text": "That’s it for this week!"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "Inspirations for the week ahead",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/141",
+      "text": "Inspirations for the week ahead"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/36"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "prov": [],
+      "self_ref": "#/texts/142",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Watch:",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "prov": [],
+      "self_ref": "#/texts/143",
+      "text": "Watch:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://petapixel.com/2019/09/11/camera-drone-follows-rollercoaster-to-capture-dizzying-cinematic-footage/?fbclid=IwAR2jzExjYhUplr5LZPr6EpE_qbTRc_XQczovUbBDDHojtW4WzslaYCiAH3Ehttps%3A%2F%2Fpetapixel.com%2F2019%2F09%2F11%2Fcamera-drone-follows-rollercoaster-to-capture-dizzying-cinematic-footage%2F%3Ffbclid%3DIwAR2jzExjYhUplr5LZPr6EpE_qbTRc_XQczovUbBDDHojtW4WzslaYCiAH3E",
+      "label": "text",
+      "meta": null,
+      "orig": "Camera Drone Follows Rollercoaster to Capture Dizzying Cinematic Footage",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "prov": [],
+      "self_ref": "#/texts/144",
+      "text": "Camera Drone Follows Rollercoaster to Capture Dizzying Cinematic Footage"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "— 👌",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "prov": [],
+      "self_ref": "#/texts/145",
+      "text": "— 👌"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/37"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "prov": [],
+      "self_ref": "#/texts/146",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Listen:",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "prov": [],
+      "self_ref": "#/texts/147",
+      "text": "Listen:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://podcasts.apple.com/us/podcast/29-nir-eyal-indistractable/id1457400066?i=1000450819118",
+      "label": "text",
+      "meta": null,
+      "orig": "Nir Eyal on Below the Line podcast",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "prov": [],
+      "self_ref": "#/texts/148",
+      "text": "Nir Eyal on Below the Line podcast"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "— Practical tips to become less distractable 🤫",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "prov": [],
+      "self_ref": "#/texts/149",
+      "text": "— Practical tips to become less distractable 🤫"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/38"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "prov": [],
+      "self_ref": "#/texts/150",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Behold:",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "prov": [],
+      "self_ref": "#/texts/151",
+      "text": "Behold:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://kottke.org/19/10/behold-our-dazzling-night-sky-when-the-milky-way-collides-with-andromeda-in-4-billion-years",
+      "label": "text",
+      "meta": null,
+      "orig": "Our Dazzling Night Sky When the Milky Way Collides with Andromeda in 4 Billion Years",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "prov": [],
+      "self_ref": "#/texts/152",
+      "text": "Our Dazzling Night Sky When the Milky Way Collides with Andromeda in 4 Billion Years"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "🤯",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "prov": [],
+      "self_ref": "#/texts/153",
+      "text": "🤯"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’re finding it valuable, please",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/154",
+      "text": "If you’re finding it valuable, please"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.lennyrachitsky.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "share this newsletter with your friends",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/155",
+      "text": "share this newsletter with your friends"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/156",
+      "text": "."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennyrachitsky.com/?action=share",
+      "label": "text",
+      "meta": null,
+      "orig": "Share Lenny's Newsletter",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/157",
+      "text": "Share Lenny's Newsletter"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "And if you’d like some advice yourself, or just want to say hi, just reply to this email. I’ll tackle three reader questions each week (keeping your name and company anonymous) until you quit sending me questions. I definitely won’t have all of the answers, but hey, it’s free 🤷‍♂️",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/158",
+      "text": "And if you’d like some advice yourself, or just want to say hi, just reply to this email. I’ll tackle three reader questions each week (keeping your name and company anonymous) until you quit sending me questions. I definitely won’t have all of the answers, but hey, it’s free 🤷‍♂️"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Sincerely,",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/159",
+      "text": "Sincerely,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Lenny 👋",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/160",
+      "text": "Lenny 👋"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from This Week #7: Effectively communicating about a failure to execs, managing",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/161",
+      "text": "Image from This Week #7: Effectively communicating about a failure to execs, managing"
+    }
+  ],
+  "version": "1.10.0"
+}

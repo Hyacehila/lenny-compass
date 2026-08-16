@@ -1,0 +1,805 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000000",
+      "contextualized_text": "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy\n[Linear](https://linear.app/)\nis a story I’ve been wanting to tell for a long time. Not only are they\n[the #1 most requested startup for me to include in this series](https://x.com/lennysan/status/1705298041555780033?s=20)\n, they’re also building the product that a growing number of teams are using to build their own product. And they are doing so in incredibly unique ways:\n1. **No product managers, just a head of product.** PM duties are distributed across engineering and design.\n2. **No durable cross-functional teams.** Teams assemble around a project and disperse once the project is done.\n3. **No metrics-based goals.** Just a North Star company-level metric goal.\n4. **No A/B tests.** Decisions are based on taste and opinions.\n5. **Job candidates go through a paid work trial.** Theyjoin the team for 1-5 days and work on a real project with the team.\n6. **The team is completely remote.** And always has been.\nLinear also has more cash in the bank than they’ve ever raised in VC funding, they’ve been profitable for 2+ years (before it was cool), and have spent a grand total of $35K on paid marketing in the history of the company. Only two people have ever left the company, and their CEO, Karri Saarinen, is a designer (who rarely gives interviews). For all of these reasons, I’m thrilled to share an in-depth look at how Linear builds product. If you’d like to learn more, check out\n[Linear.app](https://linear.app/)\n, find\n[Karri on X](https://twitter.com/karrisaarinen)\n, and\n[they’re hiring](https://linear.app/careers)\n!",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/8",
+        "#/texts/11",
+        "#/texts/14",
+        "#/texts/17",
+        "#/texts/20",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29"
+      ],
+      "document_id": "02-newsletters/how-linear-builds-product.md",
+      "headings": [
+        "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000000",
+        "chunk_sha256": "c8d8bcf73335cb32c79001c90d853d564a7deb8fb39027e65242015a85174177",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-linear-builds-product.docling.json",
+        "docling_sha256": "4ac6f601380910f3bd444859fd43d97249a128bf4abb6dfec7f2e87e60732ce5",
+        "document_id": "02-newsletters/how-linear-builds-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-linear-builds-product.md",
+        "enhanced_sha256": "2c65486ccdb582651bddc215341ce1d774f07f2f4f64fe8c5a0b48cece5dbbe1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-linear-builds-product.chunks.json",
+        "headings": [
+          "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/how-linear-builds-product.md",
+        "raw_sha256": "cd3e60479be8029aac042e87cff13d604f340c9f2efe0e28fa66dda9544a6524",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 17,
+          "last_self_ref": "#/texts/29"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/8",
+          "#/texts/11",
+          "#/texts/14",
+          "#/texts/17",
+          "#/texts/20",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "[Linear](https://linear.app/)\nis a story I’ve been wanting to tell for a long time. Not only are they\n[the #1 most requested startup for me to include in this series](https://x.com/lennysan/status/1705298041555780033?s=20)\n, they’re also building the product that a growing number of teams are using to build their own product. And they are doing so in incredibly unique ways:\n1. **No product managers, just a head of product.** PM duties are distributed across engineering and design.\n2. **No durable cross-functional teams.** Teams assemble around a project and disperse once the project is done.\n3. **No metrics-based goals.** Just a North Star company-level metric goal.\n4. **No A/B tests.** Decisions are based on taste and opinions.\n5. **Job candidates go through a paid work trial.** Theyjoin the team for 1-5 days and work on a real project with the team.\n6. **The team is completely remote.** And always has been.\nLinear also has more cash in the bank than they’ve ever raised in VC funding, they’ve been profitable for 2+ years (before it was cool), and have spent a grand total of $35K on paid marketing in the history of the company. Only two people have ever left the company, and their CEO, Karri Saarinen, is a designer (who rarely gives interviews). For all of these reasons, I’m thrilled to share an in-depth look at how Linear builds product. If you’d like to learn more, check out\n[Linear.app](https://linear.app/)\n, find\n[Karri on X](https://twitter.com/karrisaarinen)\n, and\n[they’re hiring](https://linear.app/careers)\n!",
+      "token_count": 497
+    },
+    {
+      "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000001",
+      "contextualized_text": "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy\nHow Linear builds product\n1. How far out do you plan in detail, and how has that evolved over the years?\nIn the very beginning, when it was just us three founders, we planned by the week. We would think about the most important things to resolve and then go work on that. If you go back to the beginning of our\n[changelog](https://linear.app/changelog/page/16)\n, you can see what shipped each week. Our goal was usually to figure out what was blocking us the most from getting more users on the product, and fixing things we heard from our beta users.\nToday, we have about 50 people at Linear. We only have a single product team, which means that we can keep the planning process quite centralized, and there is only one roadmap for the whole product. This makes it very clear to everyone what we are working on. Additionally, everyone feels responsible for the whole product and how it all works together.\nFor the planning process itself, it’s a two-way approach, where we start with the founders and small leadership group to plan the direction we want to go as a company for the following 12 months. In parallel, we ask everyone on the team to share their thoughts and ideas in FigJam sessions (here’s a link to\n[our template](https://www.figma.com/community/file/1285828596884760720/product-planning-brainstorm-template)\n) or surveys to get more thoughts on areas we could improve or tackle.\nOnce we have the strategy in mind, we then define a high-level roadmap for the next half of the year based on that. The strategy, for example, might be “focusing on large company needs.” We don’t have complicated ways to rank or vote on projects. Instead, we believe that if the leadership team and the whole company spend time with customers and use the product regularly, the needs and opportunities become more apparent. Then it’s just a matter of sequencing and scoping.\nWe’ve included a high-level product roadmap for Q2 and Q3 of this year below. We had two strategic workstreams: planning and roadmapping, and issue discovery. Our other two workstreams are dedicated to high-priority user asks, so we can respond quickly to needs we hear from customers, and keep-the-lights-on projects (in the “other” workstream below). We’ll include new features and functionality alongside improvements to existing features within these workstreams. We try to plan out in detail for two quarters, then sketch out the next half, and leave a pretty extensive backlog to pull from. The roadmap (more on that below) for a given workstream will get more detailed as we break this work into projects.\nWe sequence the projects based on what we think is the optimal path to tackle them. “Optimal path” means we see a reason to do X before Y, because they would support each other, or we have specific people from the team in mind who should tackle some specific project but cannot do them in parallel. We like to pair projects with individual strengths when possible. For example, when we know the project feature will need a more advanced front end, we staff with our strongest front-end people.\nProject plans start as documents or lists where we just draft ideas. We then ask the project team to write the spec for the project. Here’s an example spec for our\n[Triage](https://linear.app/docs/triage)\nfeature:\nAfter the spec is written, we’ll add the project to the\n[Roadmap](https://linear.app/features/plan#roadmaps)\nin Linear. This is our internal working view of the “Planning & Roadmapping” workstream and how the team manages their workflow as they build.",
+      "doc_item_refs": [
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/44",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47"
+      ],
+      "document_id": "02-newsletters/how-linear-builds-product.md",
+      "headings": [
+        "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+        "How Linear builds product",
+        "1. How far out do you plan in detail, and how has that evolved over the years?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000001",
+        "chunk_sha256": "1981854067c757093b1e021b67a3f0204e9e329af351fee3976be3210c978eb8",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-linear-builds-product.docling.json",
+        "docling_sha256": "4ac6f601380910f3bd444859fd43d97249a128bf4abb6dfec7f2e87e60732ce5",
+        "document_id": "02-newsletters/how-linear-builds-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-linear-builds-product.md",
+        "enhanced_sha256": "2c65486ccdb582651bddc215341ce1d774f07f2f4f64fe8c5a0b48cece5dbbe1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-linear-builds-product.chunks.json",
+        "headings": [
+          "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+          "How Linear builds product",
+          "1. How far out do you plan in detail, and how has that evolved over the years?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/how-linear-builds-product.md",
+        "raw_sha256": "cd3e60479be8029aac042e87cff13d604f340c9f2efe0e28fa66dda9544a6524",
+        "segment": {
+          "first_self_ref": "#/texts/32",
+          "item_count": 16,
+          "last_self_ref": "#/texts/47"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/32",
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/40",
+          "#/texts/41",
+          "#/texts/42",
+          "#/texts/43",
+          "#/texts/44",
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "In the very beginning, when it was just us three founders, we planned by the week. We would think about the most important things to resolve and then go work on that. If you go back to the beginning of our\n[changelog](https://linear.app/changelog/page/16)\n, you can see what shipped each week. Our goal was usually to figure out what was blocking us the most from getting more users on the product, and fixing things we heard from our beta users.\nToday, we have about 50 people at Linear. We only have a single product team, which means that we can keep the planning process quite centralized, and there is only one roadmap for the whole product. This makes it very clear to everyone what we are working on. Additionally, everyone feels responsible for the whole product and how it all works together.\nFor the planning process itself, it’s a two-way approach, where we start with the founders and small leadership group to plan the direction we want to go as a company for the following 12 months. In parallel, we ask everyone on the team to share their thoughts and ideas in FigJam sessions (here’s a link to\n[our template](https://www.figma.com/community/file/1285828596884760720/product-planning-brainstorm-template)\n) or surveys to get more thoughts on areas we could improve or tackle.\nOnce we have the strategy in mind, we then define a high-level roadmap for the next half of the year based on that. The strategy, for example, might be “focusing on large company needs.” We don’t have complicated ways to rank or vote on projects. Instead, we believe that if the leadership team and the whole company spend time with customers and use the product regularly, the needs and opportunities become more apparent. Then it’s just a matter of sequencing and scoping.\nWe’ve included a high-level product roadmap for Q2 and Q3 of this year below. We had two strategic workstreams: planning and roadmapping, and issue discovery. Our other two workstreams are dedicated to high-priority user asks, so we can respond quickly to needs we hear from customers, and keep-the-lights-on projects (in the “other” workstream below). We’ll include new features and functionality alongside improvements to existing features within these workstreams. We try to plan out in detail for two quarters, then sketch out the next half, and leave a pretty extensive backlog to pull from. The roadmap (more on that below) for a given workstream will get more detailed as we break this work into projects.\nWe sequence the projects based on what we think is the optimal path to tackle them. “Optimal path” means we see a reason to do X before Y, because they would support each other, or we have specific people from the team in mind who should tackle some specific project but cannot do them in parallel. We like to pair projects with individual strengths when possible. For example, when we know the project feature will need a more advanced front end, we staff with our strongest front-end people.\nProject plans start as documents or lists where we just draft ideas. We then ask the project team to write the spec for the project. Here’s an example spec for our\n[Triage](https://linear.app/docs/triage)\nfeature:\nAfter the spec is written, we’ll add the project to the\n[Roadmap](https://linear.app/features/plan#roadmaps)\nin Linear. This is our internal working view of the “Planning & Roadmapping” workstream and how the team manages their workflow as they build.",
+      "token_count": 885
+    },
+    {
+      "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000002",
+      "contextualized_text": "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy\nHow Linear builds product\n2. How many PMs do you have?\nOne. We hired Nan Yu a little over a year ago when we were about 25 people. He is Head of Product and currently the only one carrying a “PM” title. The reason I phrase it this way is that we have other roles that also contribute to what is traditionally considered part of the PM role.\nOur plan is not to hire PMs for every project or team. We hired Nan because we saw the need for someone to shepherd the product overall and the activities around building products. Instead of having a PM for every team or area of the product, we like to see that the broader team collectively thinks about the product and how features are delivered, not just the PMs.",
+      "doc_item_refs": [
+        "#/texts/49",
+        "#/texts/50"
+      ],
+      "document_id": "02-newsletters/how-linear-builds-product.md",
+      "headings": [
+        "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+        "How Linear builds product",
+        "2. How many PMs do you have?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000002",
+        "chunk_sha256": "183789e8719f36583c0087b70d0377784b089286f1412941f278651f1e9c16d3",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-linear-builds-product.docling.json",
+        "docling_sha256": "4ac6f601380910f3bd444859fd43d97249a128bf4abb6dfec7f2e87e60732ce5",
+        "document_id": "02-newsletters/how-linear-builds-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-linear-builds-product.md",
+        "enhanced_sha256": "2c65486ccdb582651bddc215341ce1d774f07f2f4f64fe8c5a0b48cece5dbbe1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-linear-builds-product.chunks.json",
+        "headings": [
+          "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+          "How Linear builds product",
+          "2. How many PMs do you have?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/how-linear-builds-product.md",
+        "raw_sha256": "cd3e60479be8029aac042e87cff13d604f340c9f2efe0e28fa66dda9544a6524",
+        "segment": {
+          "first_self_ref": "#/texts/49",
+          "item_count": 2,
+          "last_self_ref": "#/texts/50"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/49",
+          "#/texts/50"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "One. We hired Nan Yu a little over a year ago when we were about 25 people. He is Head of Product and currently the only one carrying a “PM” title. The reason I phrase it this way is that we have other roles that also contribute to what is traditionally considered part of the PM role.\nOur plan is not to hire PMs for every project or team. We hired Nan because we saw the need for someone to shepherd the product overall and the activities around building products. Instead of having a PM for every team or area of the product, we like to see that the broader team collectively thinks about the product and how features are delivered, not just the PMs.",
+      "token_count": 221
+    },
+    {
+      "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000003",
+      "contextualized_text": "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy\nHow Linear builds product\n3. Do you use OKRs in some form?\nWe haven’t used OKRs. For goals, we like to keep it simple and sometimes have more strategic goals, like “Be the default tool for startups” or “Get xxx number of companies,” which we then use as the theme for figuring out the roadmap. I find these types of goals useful to align our team to what we are after without being too specific about how we get there. It’s also much more empowering for them.\nWe also don’t have metrics goals for the product or any projects, but we do have a North Star company-level metric goal. For a B2B tool like ours that takes some time for a company to adopt the tool or any new feature, setting specific metrics goals and measuring progress doesn’t seem that useful and more often can lead you astray. To me, product goals should be about how we add value for our existing customers or expand to a new customer base; in other words, how we solve our customers’ problems better.\nWith certain projects, we might pull up specific data or metrics to see if the data gives us any more insights, but it’s not the way we make decisions. We don’t do A/B tests. We validate ideas and assumptions that are driven by taste and opinions, rather than the other way around where tests drive decisions. There is no specific engagement or other number we look at. We beta test, see the feedback, iterate, and eventually we have the conviction that the change or feature is as good as it can be at this point and we should release it to see how it works at scale.",
+      "doc_item_refs": [
+        "#/texts/52",
+        "#/texts/53",
+        "#/texts/54"
+      ],
+      "document_id": "02-newsletters/how-linear-builds-product.md",
+      "headings": [
+        "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+        "How Linear builds product",
+        "3. Do you use OKRs in some form?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000003",
+        "chunk_sha256": "09cdd200a9eed3e8340bcd0a3233653687ecc915f831d321b67b774597054acf",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-linear-builds-product.docling.json",
+        "docling_sha256": "4ac6f601380910f3bd444859fd43d97249a128bf4abb6dfec7f2e87e60732ce5",
+        "document_id": "02-newsletters/how-linear-builds-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-linear-builds-product.md",
+        "enhanced_sha256": "2c65486ccdb582651bddc215341ce1d774f07f2f4f64fe8c5a0b48cece5dbbe1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-linear-builds-product.chunks.json",
+        "headings": [
+          "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+          "How Linear builds product",
+          "3. Do you use OKRs in some form?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/how-linear-builds-product.md",
+        "raw_sha256": "cd3e60479be8029aac042e87cff13d604f340c9f2efe0e28fa66dda9544a6524",
+        "segment": {
+          "first_self_ref": "#/texts/52",
+          "item_count": 3,
+          "last_self_ref": "#/texts/54"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/52",
+          "#/texts/53",
+          "#/texts/54"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "We haven’t used OKRs. For goals, we like to keep it simple and sometimes have more strategic goals, like “Be the default tool for startups” or “Get xxx number of companies,” which we then use as the theme for figuring out the roadmap. I find these types of goals useful to align our team to what we are after without being too specific about how we get there. It’s also much more empowering for them.\nWe also don’t have metrics goals for the product or any projects, but we do have a North Star company-level metric goal. For a B2B tool like ours that takes some time for a company to adopt the tool or any new feature, setting specific metrics goals and measuring progress doesn’t seem that useful and more often can lead you astray. To me, product goals should be about how we add value for our existing customers or expand to a new customer base; in other words, how we solve our customers’ problems better.\nWith certain projects, we might pull up specific data or metrics to see if the data gives us any more insights, but it’s not the way we make decisions. We don’t do A/B tests. We validate ideas and assumptions that are driven by taste and opinions, rather than the other way around where tests drive decisions. There is no specific engagement or other number we look at. We beta test, see the feedback, iterate, and eventually we have the conviction that the change or feature is as good as it can be at this point and we should release it to see how it works at scale.",
+      "token_count": 420
+    },
+    {
+      "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000004",
+      "contextualized_text": "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy\nHow Linear builds product\n4. Do you structure your teams around products, user types, user journeys, outcomes, or something in between? Has this changed over the years?\nWe only have mobile and infrastructure as specialized teams, as they require specialized skills and focus. The rest of the product team works on the projects that come out of the planning process, which could address any area of the product. We have purposely avoided product-area-specific teams (e.g. the roadmaps product team, the cycles product team, etc.), as I see it can be a way for people to get too trapped in their specific product area and potentially lose the broader context and/or start working on more minor details with diminishing returns. Naturally, some people become more knowledgeable about some parts or types of problems, and the same people might address the same area again, but it’s not a formal position.\nOur product team is divided by region (U.S. and Europe). We realized early on that it’s challenging to work over many different time zones with a distributed team, so we now have Europe- and U.S.-based people run as their own distinct groups. In addition, we have people in marketing, data, sales, customer success, support, and talent/people who work closely with our product teams.\nWhen we do our roadmap planning, we divide the work between the U.S.- and Europe-based teams. Then within those teams, the projects get staffed with a project lead and the rest of the team. The project lead can be an engineer or designer or whoever else is part of the project. Since we don’t have any PMs other than our Head of Product, the project lead is never a PM. The role of the lead is to get the project started and communicate how it’s going. Typically, for almost any feature we build, we have small teams of one designer and two engineers. At our current size, we have about six project teams running in parallel. Once the team finishes their project, they disperse and move to another project.\nWhen it comes to planning, we might set up themes around a certain type of customer, area, or type of features that we would like to develop, but we just don’t set the org chart based on that.",
+      "doc_item_refs": [
+        "#/texts/56",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59"
+      ],
+      "document_id": "02-newsletters/how-linear-builds-product.md",
+      "headings": [
+        "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+        "How Linear builds product",
+        "4. Do you structure your teams around products, user types, user journeys, outcomes, or something in between? Has this changed over the years?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000004",
+        "chunk_sha256": "e0c89153ad56bc2eab7a366279c8a39959fd7f90eea7f6a629c1dccd278ea411",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-linear-builds-product.docling.json",
+        "docling_sha256": "4ac6f601380910f3bd444859fd43d97249a128bf4abb6dfec7f2e87e60732ce5",
+        "document_id": "02-newsletters/how-linear-builds-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-linear-builds-product.md",
+        "enhanced_sha256": "2c65486ccdb582651bddc215341ce1d774f07f2f4f64fe8c5a0b48cece5dbbe1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-linear-builds-product.chunks.json",
+        "headings": [
+          "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+          "How Linear builds product",
+          "4. Do you structure your teams around products, user types, user journeys, outcomes, or something in between? Has this changed over the years?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/how-linear-builds-product.md",
+        "raw_sha256": "cd3e60479be8029aac042e87cff13d604f340c9f2efe0e28fa66dda9544a6524",
+        "segment": {
+          "first_self_ref": "#/texts/56",
+          "item_count": 4,
+          "last_self_ref": "#/texts/59"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/56",
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "We only have mobile and infrastructure as specialized teams, as they require specialized skills and focus. The rest of the product team works on the projects that come out of the planning process, which could address any area of the product. We have purposely avoided product-area-specific teams (e.g. the roadmaps product team, the cycles product team, etc.), as I see it can be a way for people to get too trapped in their specific product area and potentially lose the broader context and/or start working on more minor details with diminishing returns. Naturally, some people become more knowledgeable about some parts or types of problems, and the same people might address the same area again, but it’s not a formal position.\nOur product team is divided by region (U.S. and Europe). We realized early on that it’s challenging to work over many different time zones with a distributed team, so we now have Europe- and U.S.-based people run as their own distinct groups. In addition, we have people in marketing, data, sales, customer success, support, and talent/people who work closely with our product teams.\nWhen we do our roadmap planning, we divide the work between the U.S.- and Europe-based teams. Then within those teams, the projects get staffed with a project lead and the rest of the team. The project lead can be an engineer or designer or whoever else is part of the project. Since we don’t have any PMs other than our Head of Product, the project lead is never a PM. The role of the lead is to get the project started and communicate how it’s going. Typically, for almost any feature we build, we have small teams of one designer and two engineers. At our current size, we have about six project teams running in parallel. Once the team finishes their project, they disperse and move to another project.\nWhen it comes to planning, we might set up themes around a certain type of customer, area, or type of features that we would like to develop, but we just don’t set the org chart based on that.",
+      "token_count": 545
+    },
+    {
+      "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000005",
+      "contextualized_text": "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy\nHow Linear builds product\n5. How do your product/design review meetings work?\nWe aim to give individual project teams ownership of projects, because we believe that when a team has ownership over their work, they can create far better solutions for our users.\nI, along with my co-founders Jori Lallo and Tuomas Artman and our Head of Product, each lead or sit in each project meeting acting as a sponsor to give feedback and direction as needed. One of us is ultimately responsible for the outcome. For example, we have a project team focused on new-user onboarding experience, and Jori will lead that project and the project team meetings, while also providing feedback on updates shared asynchronously from the project team in Slack.\nWe don’t have formal product or design reviews. It’s more ad hoc and iterative, which enables us to move faster. For example, our designers share an early design in a project-related Slack group and get informal asynchronous feedback from many different people that way.\nWe’ve had a robust feature-flag system from the beginning, so we push new features to internal testing as fast as possible, sometimes in days or weeks from starting the project. At that point, everyone can try out the feature and see if something feels wrong or if they have ideas for how things could be improved. Because of these feature flags, there is no excuse to wait to ship.\nWe run a beta customer testing program called Linear Origins where our customers get earlier access to new features and we can get product feedback early. Sometimes this happens a month or two before we aim to launch a feature, and sometimes it happens days before. For example, we’re working on a more significant new feature release and we’re setting up calls with some of our customers to walk them through the product. If they’re interested in trying it out, we’ll enable the new feature, ask them for their feedback, and do our best to address it. While we do this with some products, we don’t view pushing features to beta as a required step to launching. We still value shipping quickly, which means not everything needs to go through the beta program, but we use it when we find it useful to get more feedback.",
+      "doc_item_refs": [
+        "#/texts/61",
+        "#/texts/62",
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65"
+      ],
+      "document_id": "02-newsletters/how-linear-builds-product.md",
+      "headings": [
+        "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+        "How Linear builds product",
+        "5. How do your product/design review meetings work?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000005",
+        "chunk_sha256": "6a880aa0b729c3b69cad90b12dee7cbe25cbf247aaac1cdd2de35104526f4dca",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-linear-builds-product.docling.json",
+        "docling_sha256": "4ac6f601380910f3bd444859fd43d97249a128bf4abb6dfec7f2e87e60732ce5",
+        "document_id": "02-newsletters/how-linear-builds-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-linear-builds-product.md",
+        "enhanced_sha256": "2c65486ccdb582651bddc215341ce1d774f07f2f4f64fe8c5a0b48cece5dbbe1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-linear-builds-product.chunks.json",
+        "headings": [
+          "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+          "How Linear builds product",
+          "5. How do your product/design review meetings work?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/how-linear-builds-product.md",
+        "raw_sha256": "cd3e60479be8029aac042e87cff13d604f340c9f2efe0e28fa66dda9544a6524",
+        "segment": {
+          "first_self_ref": "#/texts/61",
+          "item_count": 5,
+          "last_self_ref": "#/texts/65"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/61",
+          "#/texts/62",
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "We aim to give individual project teams ownership of projects, because we believe that when a team has ownership over their work, they can create far better solutions for our users.\nI, along with my co-founders Jori Lallo and Tuomas Artman and our Head of Product, each lead or sit in each project meeting acting as a sponsor to give feedback and direction as needed. One of us is ultimately responsible for the outcome. For example, we have a project team focused on new-user onboarding experience, and Jori will lead that project and the project team meetings, while also providing feedback on updates shared asynchronously from the project team in Slack.\nWe don’t have formal product or design reviews. It’s more ad hoc and iterative, which enables us to move faster. For example, our designers share an early design in a project-related Slack group and get informal asynchronous feedback from many different people that way.\nWe’ve had a robust feature-flag system from the beginning, so we push new features to internal testing as fast as possible, sometimes in days or weeks from starting the project. At that point, everyone can try out the feature and see if something feels wrong or if they have ideas for how things could be improved. Because of these feature flags, there is no excuse to wait to ship.\nWe run a beta customer testing program called Linear Origins where our customers get earlier access to new features and we can get product feedback early. Sometimes this happens a month or two before we aim to launch a feature, and sometimes it happens days before. For example, we’re working on a more significant new feature release and we’re setting up calls with some of our customers to walk them through the product. If they’re interested in trying it out, we’ll enable the new feature, ask them for their feedback, and do our best to address it. While we do this with some products, we don’t view pushing features to beta as a required step to launching. We still value shipping quickly, which means not everything needs to go through the beta program, but we use it when we find it useful to get more feedback.",
+      "token_count": 532
+    },
+    {
+      "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000006",
+      "contextualized_text": "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy\nHow Linear builds product\n6. Are product and design part of the same org? And who do PMs ultimately report to? Has this changed over the years?\nYes, product, engineering, and design are all part of the product team. Product and design report to me (CEO). We have engineering managers, but engineering ultimately reports up to my co-founders: Tuomas for infrastructure and Europe engineering, and Jori for U.S. engineering. While engineering and design have their own meetings for their functions, for the most part, we talk about “Product” holistically and not engineering, design, and product separately. The org has stayed the same from the beginning.",
+      "doc_item_refs": [
+        "#/texts/67"
+      ],
+      "document_id": "02-newsletters/how-linear-builds-product.md",
+      "headings": [
+        "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+        "How Linear builds product",
+        "6. Are product and design part of the same org? And who do PMs ultimately report to? Has this changed over the years?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000006",
+        "chunk_sha256": "634a02f8e4d6c9df3b229ad8af91c03be2d006a056bb7c42993c793415a41b73",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-linear-builds-product.docling.json",
+        "docling_sha256": "4ac6f601380910f3bd444859fd43d97249a128bf4abb6dfec7f2e87e60732ce5",
+        "document_id": "02-newsletters/how-linear-builds-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-linear-builds-product.md",
+        "enhanced_sha256": "2c65486ccdb582651bddc215341ce1d774f07f2f4f64fe8c5a0b48cece5dbbe1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-linear-builds-product.chunks.json",
+        "headings": [
+          "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+          "How Linear builds product",
+          "6. Are product and design part of the same org? And who do PMs ultimately report to? Has this changed over the years?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/how-linear-builds-product.md",
+        "raw_sha256": "cd3e60479be8029aac042e87cff13d604f340c9f2efe0e28fa66dda9544a6524",
+        "segment": {
+          "first_self_ref": "#/texts/67",
+          "item_count": 1,
+          "last_self_ref": "#/texts/67"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/67"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "Yes, product, engineering, and design are all part of the product team. Product and design report to me (CEO). We have engineering managers, but engineering ultimately reports up to my co-founders: Tuomas for infrastructure and Europe engineering, and Jori for U.S. engineering. While engineering and design have their own meetings for their functions, for the most part, we talk about “Product” holistically and not engineering, design, and product separately. The org has stayed the same from the beginning.",
+      "token_count": 208
+    },
+    {
+      "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000007",
+      "contextualized_text": "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy\nHow Linear builds product\n7. What’s your primary tool for task management, and bug tracking?\nWell, Linear, of course. We recently shared a\n[blog post](https://linear.app/blog/how-we-think-about-customer-experience-at-linear)\nabout how we use Linear to manage incoming bug reports and feature requests directly from customers.\nAs a quick overview, for bug tracking we heavily use our Triage feature, which is like an inbox for your team. Our support team, sales team, and even I often file issues into Triage, and one of our “goalie” engineers routes the request to the appropriate person or fixes it at the time. “Goalie” is a weekly rotation where an engineer helps the support team with issues, fixes bugs, and triages incoming requests.\nMost of the other tasks are part of projects. The engineers and designers are creating the tasks for themselves and resolving them as they go about the project. Project teams do weekly updates on the project progress using our Project Updates features. These updates also get posted to Slack to our #product-updates channel so anyone can follow them.",
+      "doc_item_refs": [
+        "#/texts/69",
+        "#/texts/70",
+        "#/texts/71",
+        "#/texts/72",
+        "#/texts/73"
+      ],
+      "document_id": "02-newsletters/how-linear-builds-product.md",
+      "headings": [
+        "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+        "How Linear builds product",
+        "7. What’s your primary tool for task management, and bug tracking?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000007",
+        "chunk_sha256": "6a332b0aaff40ee28dc07a9a13e14559489df06d8b70a99bf017ea5d79224173",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-linear-builds-product.docling.json",
+        "docling_sha256": "4ac6f601380910f3bd444859fd43d97249a128bf4abb6dfec7f2e87e60732ce5",
+        "document_id": "02-newsletters/how-linear-builds-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-linear-builds-product.md",
+        "enhanced_sha256": "2c65486ccdb582651bddc215341ce1d774f07f2f4f64fe8c5a0b48cece5dbbe1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-linear-builds-product.chunks.json",
+        "headings": [
+          "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+          "How Linear builds product",
+          "7. What’s your primary tool for task management, and bug tracking?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/how-linear-builds-product.md",
+        "raw_sha256": "cd3e60479be8029aac042e87cff13d604f340c9f2efe0e28fa66dda9544a6524",
+        "segment": {
+          "first_self_ref": "#/texts/69",
+          "item_count": 5,
+          "last_self_ref": "#/texts/73"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/69",
+          "#/texts/70",
+          "#/texts/71",
+          "#/texts/72",
+          "#/texts/73"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "Well, Linear, of course. We recently shared a\n[blog post](https://linear.app/blog/how-we-think-about-customer-experience-at-linear)\nabout how we use Linear to manage incoming bug reports and feature requests directly from customers.\nAs a quick overview, for bug tracking we heavily use our Triage feature, which is like an inbox for your team. Our support team, sales team, and even I often file issues into Triage, and one of our “goalie” engineers routes the request to the appropriate person or fixes it at the time. “Goalie” is a weekly rotation where an engineer helps the support team with issues, fixes bugs, and triages incoming requests.\nMost of the other tasks are part of projects. The engineers and designers are creating the tasks for themselves and resolving them as they go about the project. Project teams do weekly updates on the project progress using our Project Updates features. These updates also get posted to Slack to our #product-updates channel so anyone can follow them.",
+      "token_count": 308
+    },
+    {
+      "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000008",
+      "contextualized_text": "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy\nHow Linear builds product\n8. You built one of the most beloved and successful products out there today. What would you say is unique or central to your approach to product that leads to such a successful product?\nOne of the unique aspects to Linear is that we expect the project team to be the PM.\nIn other companies, I’d often see that the PM is or becomes the de facto decision-maker for the team. When that’s the case, it’s almost like you outsource all the thinking to the PM, and the rest of the team—engineers and designers—just execute based on that thinking. I think it’s a waste of opportunity and talent.\nI think it can work for some teams, but what I think works better is to build a team where the project team both thinks and executes. I like to compare how Apple combines CPU, GPU, RAM, and other functions on the same M1 chip to make it more efficient.\nI don’t think it would be possible to maintain the quality we have, or build some of the things we have, without this setup. Anyone who has built things knows that a lot of ideas and opportunities emerge when you actually start building something. A good example of this is when an engineer on our team, Andreas,\n[built the context menus](https://linear.app/blog/invisible-details)\n. We didn’t ask or spec it for him to figure out how we can make sure the context menu doesn’t close if the user hovers their mouse a few pixels off. He just felt it was needed. These kinds of details are almost impossible to spec or plan for if you’re not there building it or if the people building it don’t have ownership.\nMy take is that this is one of the reasons why so much of the software we have today seems fine on paper but doesn’t actually work well in practice. We as an industry optimized the process too much and created a Henry Ford–style feature factory where each role is very specific and production speed is more important than craft. (The other reason is A/B testing.)\nIt’s worth noting that there are downsides to this approach. It means that engineers and designers do have to play the role of the PM, which includes communicating, talking to users and stakeholders. This means that engineers and designers are not purely coding or designing, which can sometimes feel like it slows things down. Personally, I believe often it’s better to go slow to go fast, meaning we generally get projects done right the first time, with minimal fixes later. The second downside is that it’s harder to hire for these roles, as many people don’t have experience working this way.",
+      "doc_item_refs": [
+        "#/texts/75",
+        "#/texts/76",
+        "#/texts/77",
+        "#/texts/78",
+        "#/texts/79",
+        "#/texts/80",
+        "#/texts/81",
+        "#/texts/82"
+      ],
+      "document_id": "02-newsletters/how-linear-builds-product.md",
+      "headings": [
+        "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+        "How Linear builds product",
+        "8. You built one of the most beloved and successful products out there today. What would you say is unique or central to your approach to product that leads to such a successful product?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000008",
+        "chunk_sha256": "a35593d8bafbf8143cf82c35b19185f042c2d9b9a5f3d306270925c56257a5e2",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-linear-builds-product.docling.json",
+        "docling_sha256": "4ac6f601380910f3bd444859fd43d97249a128bf4abb6dfec7f2e87e60732ce5",
+        "document_id": "02-newsletters/how-linear-builds-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-linear-builds-product.md",
+        "enhanced_sha256": "2c65486ccdb582651bddc215341ce1d774f07f2f4f64fe8c5a0b48cece5dbbe1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-linear-builds-product.chunks.json",
+        "headings": [
+          "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+          "How Linear builds product",
+          "8. You built one of the most beloved and successful products out there today. What would you say is unique or central to your approach to product that leads to such a successful product?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/how-linear-builds-product.md",
+        "raw_sha256": "cd3e60479be8029aac042e87cff13d604f340c9f2efe0e28fa66dda9544a6524",
+        "segment": {
+          "first_self_ref": "#/texts/75",
+          "item_count": 8,
+          "last_self_ref": "#/texts/82"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/75",
+          "#/texts/76",
+          "#/texts/77",
+          "#/texts/78",
+          "#/texts/79",
+          "#/texts/80",
+          "#/texts/81",
+          "#/texts/82"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "One of the unique aspects to Linear is that we expect the project team to be the PM.\nIn other companies, I’d often see that the PM is or becomes the de facto decision-maker for the team. When that’s the case, it’s almost like you outsource all the thinking to the PM, and the rest of the team—engineers and designers—just execute based on that thinking. I think it’s a waste of opportunity and talent.\nI think it can work for some teams, but what I think works better is to build a team where the project team both thinks and executes. I like to compare how Apple combines CPU, GPU, RAM, and other functions on the same M1 chip to make it more efficient.\nI don’t think it would be possible to maintain the quality we have, or build some of the things we have, without this setup. Anyone who has built things knows that a lot of ideas and opportunities emerge when you actually start building something. A good example of this is when an engineer on our team, Andreas,\n[built the context menus](https://linear.app/blog/invisible-details)\n. We didn’t ask or spec it for him to figure out how we can make sure the context menu doesn’t close if the user hovers their mouse a few pixels off. He just felt it was needed. These kinds of details are almost impossible to spec or plan for if you’re not there building it or if the people building it don’t have ownership.\nMy take is that this is one of the reasons why so much of the software we have today seems fine on paper but doesn’t actually work well in practice. We as an industry optimized the process too much and created a Henry Ford–style feature factory where each role is very specific and production speed is more important than craft. (The other reason is A/B testing.)\nIt’s worth noting that there are downsides to this approach. It means that engineers and designers do have to play the role of the PM, which includes communicating, talking to users and stakeholders. This means that engineers and designers are not purely coding or designing, which can sometimes feel like it slows things down. Personally, I believe often it’s better to go slow to go fast, meaning we generally get projects done right the first time, with minimal fixes later. The second downside is that it’s harder to hire for these roles, as many people don’t have experience working this way.",
+      "token_count": 633
+    },
+    {
+      "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000009",
+      "contextualized_text": "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy\nHow Linear builds product\n9. I assume much of your success has been thanks to hiring well. In your product hires, what do you most look for (that maybe others don’t), and broadly, what does your interview process look like?\nWe always look for product sense, taste, and judgment for all product roles, like engineering and design. For non-product roles, we similarly look for something beyond the specific skills the role requires. For example, in marketing we look for storytelling ability; for operations roles we like to see more understanding and comprehension of user needs.\nOverall, we aim to build a company where each person looks and cares beyond their immediate role and can take more scope than what is commonly expected in their role.\nThe hiring process is different for each role, but generally, there are the common interviews: recruiter, hiring manager, skills assessment, cross-functional or “beyond” interviews. For many engineers, I interview them for product thinking.\nProduct thinking or taste for us means that the person is interested in and can form opinions on products or specific features. For example, if the person worked at Airbnb in the past, I’d ask them if they disagreed with something they built there and why. Opinion also doesn’t mean that you just personally like something; you need to be able to articulate why and what the rationale is.\nThe last step of the process is a work trial. These are paid working sessions where the candidate joins us for one to five days and works with us on a project related to their function and presents the work at the end. They have access to our docs, codebase, designs, and Slack, get invited to relevant company and team meetings, and have one-on-one chats with other people. For example, an engineer would get a spec for a feature they need to build. Leadership candidates would have a prompt of a challenge or an area they would need to develop.\nThe work trial works for us and the candidate as a way to understand how we might work together, and we can see how they approach problems, handle uncertainty, and communicate. The candidate also gets a much better sense of the company and the team they would be joining than from a traditional interview loop.",
+      "doc_item_refs": [
+        "#/texts/84",
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/87",
+        "#/texts/88",
+        "#/texts/89"
+      ],
+      "document_id": "02-newsletters/how-linear-builds-product.md",
+      "headings": [
+        "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+        "How Linear builds product",
+        "9. I assume much of your success has been thanks to hiring well. In your product hires, what do you most look for (that maybe others don’t), and broadly, what does your interview process look like?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000009",
+        "chunk_sha256": "29b2e4b71ef86b2526a447f3e77941759d8e84c7af8903887b022a0ecd09bbbc",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-linear-builds-product.docling.json",
+        "docling_sha256": "4ac6f601380910f3bd444859fd43d97249a128bf4abb6dfec7f2e87e60732ce5",
+        "document_id": "02-newsletters/how-linear-builds-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-linear-builds-product.md",
+        "enhanced_sha256": "2c65486ccdb582651bddc215341ce1d774f07f2f4f64fe8c5a0b48cece5dbbe1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-linear-builds-product.chunks.json",
+        "headings": [
+          "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+          "How Linear builds product",
+          "9. I assume much of your success has been thanks to hiring well. In your product hires, what do you most look for (that maybe others don’t), and broadly, what does your interview process look like?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/how-linear-builds-product.md",
+        "raw_sha256": "cd3e60479be8029aac042e87cff13d604f340c9f2efe0e28fa66dda9544a6524",
+        "segment": {
+          "first_self_ref": "#/texts/84",
+          "item_count": 6,
+          "last_self_ref": "#/texts/89"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/84",
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/87",
+          "#/texts/88",
+          "#/texts/89"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "We always look for product sense, taste, and judgment for all product roles, like engineering and design. For non-product roles, we similarly look for something beyond the specific skills the role requires. For example, in marketing we look for storytelling ability; for operations roles we like to see more understanding and comprehension of user needs.\nOverall, we aim to build a company where each person looks and cares beyond their immediate role and can take more scope than what is commonly expected in their role.\nThe hiring process is different for each role, but generally, there are the common interviews: recruiter, hiring manager, skills assessment, cross-functional or “beyond” interviews. For many engineers, I interview them for product thinking.\nProduct thinking or taste for us means that the person is interested in and can form opinions on products or specific features. For example, if the person worked at Airbnb in the past, I’d ask them if they disagreed with something they built there and why. Opinion also doesn’t mean that you just personally like something; you need to be able to articulate why and what the rationale is.\nThe last step of the process is a work trial. These are paid working sessions where the candidate joins us for one to five days and works with us on a project related to their function and presents the work at the end. They have access to our docs, codebase, designs, and Slack, get invited to relevant company and team meetings, and have one-on-one chats with other people. For example, an engineer would get a spec for a feature they need to build. Leadership candidates would have a prompt of a challenge or an area they would need to develop.\nThe work trial works for us and the candidate as a way to understand how we might work together, and we can see how they approach problems, handle uncertainty, and communicate. The candidate also gets a much better sense of the company and the team they would be joining than from a traditional interview loop.",
+      "token_count": 525
+    },
+    {
+      "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000010",
+      "contextualized_text": "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy\nHow Linear builds product\n10. What are some fun/unique rituals or traditions you have on the product team, or at the company broadly?\nEvery product has bugs and little paper cuts that affect quality. At Linear, we fix these every week, but we also dedicate concentrated time at the end of the year to these efforts through\n[Polishing Season](https://linear.app/changelog/polishing/2022)\n. We have users tell us what we should fix or improve, or would make their lives easier. As we fix bugs and make product improvements, we notify the user who made the request that we shipped their fix and make live updates to the public page. Here’s\n[Polishing Season 2022](https://linear.app/changelog/polishing/2022)\n:\n*Thank you, Karri! For more from Karri, check him out on*\n[*LinkedIn*](https://www.linkedin.com/in/karrisaarinen)\n*and*\n[*X*](https://twitter.com/karrisaarinen/)\n*, and learn more about Linear at*\n[*Linear.app*](https://linear.app/)\n*. Also,*\n[*they’re hiring*](https://linear.app/careers)\n*!*\n*For more stories of how the best product teams operate, don’t miss my interviews with*\n[*Figma*](https://www.lennysnewsletter.com/p/how-figma-builds-product)\n*,*\n[*Notion*](https://www.lennysnewsletter.com/p/how-notion-builds-product)\n*,*\n[*Shopify*](https://www.lennysnewsletter.com/p/how-shopify-builds-product)\n*,*\n[*Ramp*](https://www.lennysnewsletter.com/p/how-ramp-builds-product)\n*,*\n[*Coda*](https://www.lennysnewsletter.com/p/how-coda-builds-product)\n*,*\n[*Duolingo*](https://www.lennysnewsletter.com/p/how-duolingo-builds-product)\n*,*\n[*Miro*](https://www.lennysnewsletter.com/p/how-miro-builds-product)\n*, and*\n[*Snowflake*](https://www.lennysnewsletter.com/p/how-snowflake-builds-product)\n*.*\n*Have a fulfilling and productive week 🙏*",
+      "doc_item_refs": [
+        "#/texts/91",
+        "#/texts/92",
+        "#/texts/93",
+        "#/texts/94",
+        "#/texts/95",
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/100",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/103",
+        "#/texts/104",
+        "#/texts/105",
+        "#/texts/106",
+        "#/texts/107",
+        "#/texts/108",
+        "#/texts/109",
+        "#/texts/110",
+        "#/texts/111",
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/114",
+        "#/texts/115",
+        "#/texts/116",
+        "#/texts/117",
+        "#/texts/118",
+        "#/texts/119",
+        "#/texts/120",
+        "#/texts/121",
+        "#/texts/122"
+      ],
+      "document_id": "02-newsletters/how-linear-builds-product.md",
+      "headings": [
+        "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+        "How Linear builds product",
+        "10. What are some fun/unique rituals or traditions you have on the product team, or at the company broadly?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000010",
+        "chunk_sha256": "4c4ac9c6c96948d3a5991eecde5007da2ab32629fa05cbe9065e5e187596a492",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-linear-builds-product.docling.json",
+        "docling_sha256": "4ac6f601380910f3bd444859fd43d97249a128bf4abb6dfec7f2e87e60732ce5",
+        "document_id": "02-newsletters/how-linear-builds-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-linear-builds-product.md",
+        "enhanced_sha256": "2c65486ccdb582651bddc215341ce1d774f07f2f4f64fe8c5a0b48cece5dbbe1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-linear-builds-product.chunks.json",
+        "headings": [
+          "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+          "How Linear builds product",
+          "10. What are some fun/unique rituals or traditions you have on the product team, or at the company broadly?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/how-linear-builds-product.md",
+        "raw_sha256": "cd3e60479be8029aac042e87cff13d604f340c9f2efe0e28fa66dda9544a6524",
+        "segment": {
+          "first_self_ref": "#/texts/91",
+          "item_count": 32,
+          "last_self_ref": "#/texts/122"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/91",
+          "#/texts/92",
+          "#/texts/93",
+          "#/texts/94",
+          "#/texts/95",
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/100",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/103",
+          "#/texts/104",
+          "#/texts/105",
+          "#/texts/106",
+          "#/texts/107",
+          "#/texts/108",
+          "#/texts/109",
+          "#/texts/110",
+          "#/texts/111",
+          "#/texts/112",
+          "#/texts/113",
+          "#/texts/114",
+          "#/texts/115",
+          "#/texts/116",
+          "#/texts/117",
+          "#/texts/118",
+          "#/texts/119",
+          "#/texts/120",
+          "#/texts/121",
+          "#/texts/122"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "Every product has bugs and little paper cuts that affect quality. At Linear, we fix these every week, but we also dedicate concentrated time at the end of the year to these efforts through\n[Polishing Season](https://linear.app/changelog/polishing/2022)\n. We have users tell us what we should fix or improve, or would make their lives easier. As we fix bugs and make product improvements, we notify the user who made the request that we shipped their fix and make live updates to the public page. Here’s\n[Polishing Season 2022](https://linear.app/changelog/polishing/2022)\n:\n*Thank you, Karri! For more from Karri, check him out on*\n[*LinkedIn*](https://www.linkedin.com/in/karrisaarinen)\n*and*\n[*X*](https://twitter.com/karrisaarinen/)\n*, and learn more about Linear at*\n[*Linear.app*](https://linear.app/)\n*. Also,*\n[*they’re hiring*](https://linear.app/careers)\n*!*\n*For more stories of how the best product teams operate, don’t miss my interviews with*\n[*Figma*](https://www.lennysnewsletter.com/p/how-figma-builds-product)\n*,*\n[*Notion*](https://www.lennysnewsletter.com/p/how-notion-builds-product)\n*,*\n[*Shopify*](https://www.lennysnewsletter.com/p/how-shopify-builds-product)\n*,*\n[*Ramp*](https://www.lennysnewsletter.com/p/how-ramp-builds-product)\n*,*\n[*Coda*](https://www.lennysnewsletter.com/p/how-coda-builds-product)\n*,*\n[*Duolingo*](https://www.lennysnewsletter.com/p/how-duolingo-builds-product)\n*,*\n[*Miro*](https://www.lennysnewsletter.com/p/how-miro-builds-product)\n*, and*\n[*Snowflake*](https://www.lennysnewsletter.com/p/how-snowflake-builds-product)\n*.*\n*Have a fulfilling and productive week 🙏*",
+      "token_count": 678
+    },
+    {
+      "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000011",
+      "contextualized_text": "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy\nHow Linear builds product\n📣 Join Lenny’s Talent Collective 📣\nIf you’re hiring,\n[join Lenny’s Talent Collective](https://www.lennysjobs.com/talent/welcome)\nto start getting weekly drops of world-class product and growth people who are passively open to new opportunities. I hand-review every application, and accept less than 10% of candidates who apply.\nIf you’re looking for a new gig, apply to join! You’ll get personalized opportunities from hand-selected companies. You can join anonymously, hide yourself from companies, and leave anytime.\n[Apply to join](https://www.lennysjobs.com/talent)\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/124",
+        "#/texts/125",
+        "#/texts/126",
+        "#/texts/127",
+        "#/texts/128",
+        "#/texts/129",
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/134",
+        "#/texts/135",
+        "#/texts/136",
+        "#/texts/137"
+      ],
+      "document_id": "02-newsletters/how-linear-builds-product.md",
+      "headings": [
+        "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+        "How Linear builds product",
+        "📣 Join Lenny’s Talent Collective 📣"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-linear-builds-product.md#chunk=000011",
+        "chunk_sha256": "962b44c465b7429f6b82aed5f7336762118136278cf98051ae114223a60275b4",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-linear-builds-product.docling.json",
+        "docling_sha256": "4ac6f601380910f3bd444859fd43d97249a128bf4abb6dfec7f2e87e60732ce5",
+        "document_id": "02-newsletters/how-linear-builds-product.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-linear-builds-product.md",
+        "enhanced_sha256": "2c65486ccdb582651bddc215341ce1d774f07f2f4f64fe8c5a0b48cece5dbbe1",
+        "fact_document_path": "chunks/v2/02-newsletters/how-linear-builds-product.chunks.json",
+        "headings": [
+          "How Linear builds product — Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment | 2023-09-26 | Tags: leadership, design, product-management, engineering, organization, strategy",
+          "How Linear builds product",
+          "📣 Join Lenny’s Talent Collective 📣"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/how-linear-builds-product.md",
+        "raw_sha256": "cd3e60479be8029aac042e87cff13d604f340c9f2efe0e28fa66dda9544a6524",
+        "segment": {
+          "first_self_ref": "#/texts/124",
+          "item_count": 14,
+          "last_self_ref": "#/texts/137"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/124",
+          "#/texts/125",
+          "#/texts/126",
+          "#/texts/127",
+          "#/texts/128",
+          "#/texts/129",
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/134",
+          "#/texts/135",
+          "#/texts/136",
+          "#/texts/137"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "If you’re hiring,\n[join Lenny’s Talent Collective](https://www.lennysjobs.com/talent/welcome)\nto start getting weekly drops of world-class product and growth people who are passively open to new opportunities. I hand-review every application, and accept less than 10% of candidates who apply.\nIf you’re looking for a new gig, apply to join! You’ll get personalized opportunities from hand-selected companies. You can join anonymously, hide yourself from companies, and leave anytime.\n[Apply to join](https://www.lennysjobs.com/talent)\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "token_count": 362
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/how-linear-builds-product.docling.json",
+  "docling_sha256": "4ac6f601380910f3bd444859fd43d97249a128bf4abb6dfec7f2e87e60732ce5",
+  "document_id": "02-newsletters/how-linear-builds-product.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/how-linear-builds-product.md",
+  "enhanced_sha256": "2c65486ccdb582651bddc215341ce1d774f07f2f4f64fe8c5a0b48cece5dbbe1",
+  "fact_document_path": "chunks/v2/02-newsletters/how-linear-builds-product.chunks.json",
+  "metadata": {
+    "date": "2023-09-26",
+    "subtitle": "Karri Saarinen, co-founder and CEO, on taste over metrics, product teams over product managers, strategy over OKRs—and the importance of craft, profitability, and good judgment",
+    "tags": [
+      "leadership",
+      "design",
+      "product-management",
+      "engineering",
+      "organization",
+      "strategy"
+    ],
+    "title": "How Linear builds product",
+    "type": "newsletter",
+    "word_count": 3533
+  },
+  "raw_path": "corpus/raw/02-newsletters/how-linear-builds-product.md",
+  "raw_sha256": "cd3e60479be8029aac042e87cff13d604f340c9f2efe0e28fa66dda9544a6524",
+  "schema_version": "1",
+  "title": "How Linear builds product"
+}

@@ -1,0 +1,1881 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000000",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\n*Annual subscription includes a free year of*\n[*Perplexity, Notion, Superhuman, Linear, and Granola*](https://www.lennysnewsletter.com/p/announcing-the-greatest-product-bundle)\n*, along with access to the entire 5-year back catalog and a thriving members-only Slack community.*\n[*Subscribe now*](https://www.lennysnewsletter.com/subscribe)\n*.*\nTo honor the final day you can apply to\n[Y Combinator](https://www.ycombinator.com/)\n’s first-ever Spring batch (i.e. X25), I teamed up with past collaborator\n[Palle Broe](https://www.linkedin.com/in/pallebroe/)\non the most in-depth and intriguing analysis you’ll find anywhere of the world’s most successful startup incubator. Palle spent over 100 hours digging through all available public data to answer questions like:\n1. How has YC performed over the past 20 years?\n2. What are YC’s biggest winners?\n3. What impact does joining YC have on your startup?\n4. What does YC look for in startups?\n5. What is YC betting on most going forward?\nIf this post inspires you, it’s not too late to start your application and apply to YC.\n[Apply here](https://www.ycombinator.com/apply)\nby 8 p.m. PT tonight!\n*For more from Palle, make sure to subscribe to his newsletter,*\n[*Rule of Thumb*](https://palle.substack.com/)\n*, and follow him on*\n[*LinkedIn*](https://www.linkedin.com/in/pallebroe/)\n*.*\n[*Learn more about Y Combinator here*](https://www.ycombinator.com/about)\n*.*\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator\nY Combinator (YC) is widely regarded as the most successful startup accelerator and the top choice for world-class entrepreneurs. For those new to the startup world, Y Combinator is like a boot camp for startups. Selected founders receive $500,000 in seed funding in exchange for\n[roughly 7% equity](https://www.ycombinator.com/deal)\n. Four times a year, founders are immersed in a three-month cohort, or “batch,” with about 125 other startups, which are sorted into groups and mentored by successful founders. It’s an exclusive program—with an approximately 1% acceptance rate—offering founders a powerful network, future funding opportunities, and instant credibility.\nThe evidence is clear. Roughly 4.5% of YC companies become unicorns (in contrast to the 2.5% outcome for other venture-backed seed-stage startups),and around 45% of companies go on to raise a Series A(higher than the 33% average).So far, YC has funded more than 90 billion-dollar companies. Top YC companies include Stripe, Airbnb, Coinbase, and Reddit.\nBut what does the data say about the impact of YC and the success of their bets? We tried to demystify the giant by reviewing the 4,939 YC companies so that startup founders, investors, and others can see what’s really going on—and maybe learn from the successes or trends.\nThere was a lot that was surprising in the data. But one theme throughout was that the magic of the incubator appears to be in picking the best founders, understanding trends, and the process within YC, not about repeating the successes of one particular startup profile. Read on to learn more about what we uncovered.",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/172",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/abe9cb24-962a-4044-8d15-d2aebb5dba0a_2912x2375.jpeg"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000000",
+        "chunk_sha256": "75763dcde0c5a2fc72e7bd72984331775ecace3e9f2e21b0e61757f7ea66a8a7",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/abe9cb24-962a-4044-8d15-d2aebb5dba0a_2912x2375.jpeg"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 33,
+          "last_self_ref": "#/texts/32"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/172",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "*Annual subscription includes a free year of*\n[*Perplexity, Notion, Superhuman, Linear, and Granola*](https://www.lennysnewsletter.com/p/announcing-the-greatest-product-bundle)\n*, along with access to the entire 5-year back catalog and a thriving members-only Slack community.*\n[*Subscribe now*](https://www.lennysnewsletter.com/subscribe)\n*.*\nTo honor the final day you can apply to\n[Y Combinator](https://www.ycombinator.com/)\n’s first-ever Spring batch (i.e. X25), I teamed up with past collaborator\n[Palle Broe](https://www.linkedin.com/in/pallebroe/)\non the most in-depth and intriguing analysis you’ll find anywhere of the world’s most successful startup incubator. Palle spent over 100 hours digging through all available public data to answer questions like:\n1. How has YC performed over the past 20 years?\n2. What are YC’s biggest winners?\n3. What impact does joining YC have on your startup?\n4. What does YC look for in startups?\n5. What is YC betting on most going forward?\nIf this post inspires you, it’s not too late to start your application and apply to YC.\n[Apply here](https://www.ycombinator.com/apply)\nby 8 p.m. PT tonight!\n*For more from Palle, make sure to subscribe to his newsletter,*\n[*Rule of Thumb*](https://palle.substack.com/)\n*, and follow him on*\n[*LinkedIn*](https://www.linkedin.com/in/pallebroe/)\n*.*\n[*Learn more about Y Combinator here*](https://www.ycombinator.com/about)\n*.*\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator\nY Combinator (YC) is widely regarded as the most successful startup accelerator and the top choice for world-class entrepreneurs. For those new to the startup world, Y Combinator is like a boot camp for startups. Selected founders receive $500,000 in seed funding in exchange for\n[roughly 7% equity](https://www.ycombinator.com/deal)\n. Four times a year, founders are immersed in a three-month cohort, or “batch,” with about 125 other startups, which are sorted into groups and mentored by successful founders. It’s an exclusive program—with an approximately 1% acceptance rate—offering founders a powerful network, future funding opportunities, and instant credibility.\nThe evidence is clear. Roughly 4.5% of YC companies become unicorns (in contrast to the 2.5% outcome for other venture-backed seed-stage startups),and around 45% of companies go on to raise a Series A(higher than the 33% average).So far, YC has funded more than 90 billion-dollar companies. Top YC companies include Stripe, Airbnb, Coinbase, and Reddit.\nBut what does the data say about the impact of YC and the success of their bets? We tried to demystify the giant by reviewing the 4,939 YC companies so that startup founders, investors, and others can see what’s really going on—and maybe learn from the successes or trends.\nThere was a lot that was surprising in the data. But one theme throughout was that the magic of the incubator appears to be in picking the best founders, understanding trends, and the process within YC, not about repeating the successes of one particular startup profile. Read on to learn more about what we uncovered.",
+      "token_count": 906
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000001",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nKey takeaways\n1. **YC has gone from being a Consumer investor to primarily a B2B investor.** Consumer companies have resulted in over $200 billion of market cap, while B2B companies are currently privately valued at some $170 billion and are on the rise.\n2. **Based on batch profiles, founders are betting on AI (specifically, B2B AI) to be the next big thing.** The most promising subcategories include “Engineering, Product, and Design,” Infrastructure, and Sales.\n3. **Solo founders are at a disadvantage.** Although solo founders are encouraged, the data does show a steep decline in the number of them accepted to YC.\n4. **Success has so far been driven by U.S.-founded companies.** More than 70% of the startups have been founded in the U.S., and to date, 99% of returns have come from the U.S.\n5. **The durability of YC companies is significantly higher than that of the average startup.** More than 50% of companies are still alive after 10 years (vs. 30% average).\n6. **The chances of startup success are higher with YC.** 45% secure Series A (vs. 33% average), 4% to 5% become a unicorn (vs. 2.5% average), and 10% achieve an exit.\n7. **The investors in YC companies are the “crème de la crème.”** Tier 1 VCs frequently invest in YC companies, and some have made several hundreds of investments.",
+      "doc_item_refs": [
+        "#/texts/34",
+        "#/texts/37",
+        "#/texts/40",
+        "#/texts/43",
+        "#/texts/46",
+        "#/texts/49",
+        "#/texts/52"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "Key takeaways"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000001",
+        "chunk_sha256": "d5a07d4802c01970db828b1f674c0ccef7e5a5d1d4787f90e958861f7681fc34",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "Key takeaways"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/34",
+          "item_count": 7,
+          "last_self_ref": "#/texts/52"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/34",
+          "#/texts/37",
+          "#/texts/40",
+          "#/texts/43",
+          "#/texts/46",
+          "#/texts/49",
+          "#/texts/52"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "1. **YC has gone from being a Consumer investor to primarily a B2B investor.** Consumer companies have resulted in over $200 billion of market cap, while B2B companies are currently privately valued at some $170 billion and are on the rise.\n2. **Based on batch profiles, founders are betting on AI (specifically, B2B AI) to be the next big thing.** The most promising subcategories include “Engineering, Product, and Design,” Infrastructure, and Sales.\n3. **Solo founders are at a disadvantage.** Although solo founders are encouraged, the data does show a steep decline in the number of them accepted to YC.\n4. **Success has so far been driven by U.S.-founded companies.** More than 70% of the startups have been founded in the U.S., and to date, 99% of returns have come from the U.S.\n5. **The durability of YC companies is significantly higher than that of the average startup.** More than 50% of companies are still alive after 10 years (vs. 30% average).\n6. **The chances of startup success are higher with YC.** 45% secure Series A (vs. 33% average), 4% to 5% become a unicorn (vs. 2.5% average), and 10% achieve an exit.\n7. **The investors in YC companies are the “crème de la crème.”** Tier 1 VCs frequently invest in YC companies, and some have made several hundreds of investments.",
+      "token_count": 413
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000002",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nKey takeaways\nMethodology\n- *Sources: Y Combinator, Harmonic, and Crunchbase.*\n- *Included 4,939 YC startups from the first batch in 2005 (S05) to the fall batch of 2024 (F24). The one-off education-focused batch (IK12) not included.*\n- *Not considering YC continuity investments.*\n- *Data is as of December 10, 2024 (or otherwise, as stated on the graphs).*\n- *Some companies do not disclose valuation or acquisition price, so sometimes the data will not contain all companies. Treat the numbers below as directional, not as exact figures.*",
+      "doc_item_refs": [
+        "#/texts/56",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "Key takeaways",
+        "Methodology"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000002",
+        "chunk_sha256": "6cf1bf39538031a8415168c425f07098ff77500fe497a6c8e7b1977263f06872",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "Key takeaways",
+          "Methodology"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/56",
+          "item_count": 5,
+          "last_self_ref": "#/texts/60"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/56",
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/60"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "- *Sources: Y Combinator, Harmonic, and Crunchbase.*\n- *Included 4,939 YC startups from the first batch in 2005 (S05) to the fall batch of 2024 (F24). The one-off education-focused batch (IK12) not included.*\n- *Not considering YC continuity investments.*\n- *Data is as of December 10, 2024 (or otherwise, as stated on the graphs).*\n- *Some companies do not disclose valuation or acquisition price, so sometimes the data will not contain all companies. Treat the numbers below as directional, not as exact figures.*",
+      "token_count": 205
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000003",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat does YC success look like?\nAround 10% of YC companies achieve an exit\nAs of today, 17 companies have been backed by YC and gone public. Another 76% are still actively pursuing an exit. But one impressive fact is that only 13% of companies have gone out of business.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/63",
+        "#/texts/173",
+        "#/texts/64"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What does YC success look like?",
+        "Around 10% of YC companies achieve an exit"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c8112c55-55cc-45f7-80bc-40b2e1fe3a21_1583x1123.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000003",
+        "chunk_sha256": "f26ea9485ee47c3ba4154c0eb5be060af3be32be243a42e53189ead14528da20",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What does YC success look like?",
+          "Around 10% of YC companies achieve an exit"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c8112c55-55cc-45f7-80bc-40b2e1fe3a21_1583x1123.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/63",
+          "item_count": 3,
+          "last_self_ref": "#/texts/64"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/63",
+          "#/texts/173",
+          "#/texts/64"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "As of today, 17 companies have been backed by YC and gone public. Another 76% are still actively pursuing an exit. But one impressive fact is that only 13% of companies have gone out of business.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 154
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000004",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat does YC success look like?\nMore than 50% of companies are still active after 10 years\nYC companies are more durable than other startups, which have an average lifetime of around five years. Batch W15, which is now 10 years old, still has more than 50% of its companies actively operating. All other batches since then have more than 50% of companies still operating.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/66",
+        "#/texts/174",
+        "#/texts/67"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What does YC success look like?",
+        "More than 50% of companies are still active after 10 years"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/6907957f-3dac-4c57-a09f-01a41f3b31af_1600x1028.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000004",
+        "chunk_sha256": "f6ce88fc035a93641218f61f78a49df1becfd8bba8f8a0ca34a2f5b54c10b935",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What does YC success look like?",
+          "More than 50% of companies are still active after 10 years"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/6907957f-3dac-4c57-a09f-01a41f3b31af_1600x1028.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/66",
+          "item_count": 3,
+          "last_self_ref": "#/texts/67"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/66",
+          "#/texts/174",
+          "#/texts/67"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "YC companies are more durable than other startups, which have an average lifetime of around five years. Batch W15, which is now 10 years old, still has more than 50% of its companies actively operating. All other batches since then have more than 50% of companies still operating.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 173
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000005",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat does YC success look like?\nBetween 25% and 50% of companies get acquired after 10 years\nA measure of success for any incubator or investor is the number of companies that achieve a liquidity event, either via an IPO or an acquisition. And no one does that better than YC. When you look at the mature batches, we are seeing between 25% and 50% of companies getting acquired. This speaks volumes about the quality of companies in YC. This is in contrast to the 15% of global companies that get acquired if they have raised at least one round of funding.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/69",
+        "#/texts/175",
+        "#/texts/70"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What does YC success look like?",
+        "Between 25% and 50% of companies get acquired after 10 years"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/fe4484e3-3486-4d82-87d5-5a0dd1e550d8_2500x1266.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000005",
+        "chunk_sha256": "46c5b1a32ea7521deca8475d877da1c7efc9f618e3a4a361ed42873254918196",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What does YC success look like?",
+          "Between 25% and 50% of companies get acquired after 10 years"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/fe4484e3-3486-4d82-87d5-5a0dd1e550d8_2500x1266.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/69",
+          "item_count": 3,
+          "last_self_ref": "#/texts/70"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/69",
+          "#/texts/175",
+          "#/texts/70"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "A measure of success for any incubator or investor is the number of companies that achieve a liquidity event, either via an IPO or an acquisition. And no one does that better than YC. When you look at the mature batches, we are seeing between 25% and 50% of companies getting acquired. This speaks volumes about the quality of companies in YC. This is in contrast to the 15% of global companies that get acquired if they have raised at least one round of funding.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 216
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000006",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat are the biggest YC winners?\nConsumer companies have driven the majority of YC returns\nBy far the largest wins for YC have come through some of their early consumer-focused companies. As a matter of fact, the four companies with the highest market capitalization are consumer companies: Airbnb, Coinbase, DoorDash, and Instacart. It’s no secret that technology startup outcomes follow a power law distribution, and that is also very much the case for YC, where the top four companies—Airbnb, DoorDash, Coinbase, and Instacart—account for more than 84% of the market value created.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/73",
+        "#/texts/176",
+        "#/texts/74"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What are the biggest YC winners?",
+        "Consumer companies have driven the majority of YC returns"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/f9c4a0e4-6321-4a98-b92d-5718b3d73a7e_1728x2304.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000006",
+        "chunk_sha256": "982f5e2f1e75f04e0cd900c9d2c822459210b9bd58ae9ef8134cdf0b37ee9ac5",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What are the biggest YC winners?",
+          "Consumer companies have driven the majority of YC returns"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/f9c4a0e4-6321-4a98-b92d-5718b3d73a7e_1728x2304.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/73",
+          "item_count": 3,
+          "last_self_ref": "#/texts/74"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/73",
+          "#/texts/176",
+          "#/texts/74"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "By far the largest wins for YC have come through some of their early consumer-focused companies. As a matter of fact, the four companies with the highest market capitalization are consumer companies: Airbnb, Coinbase, DoorDash, and Instacart. It’s no secret that technology startup outcomes follow a power law distribution, and that is also very much the case for YC, where the top four companies—Airbnb, DoorDash, Coinbase, and Instacart—account for more than 84% of the market value created.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 229
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000007",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat are the biggest YC winners?\nMore than $600 billion has been created in market value\nYC companies attract a lot of funding. In total, more than $145 billion has flowed into the startups that were part of YC. This investment has led to the creation of more than $300 billion in market value, and with the existing private companies, this amount could double to more than $600 billion in the future (once private companies exit). Although acquisitions are the most common path for YC startups, they have “only” brought in $15 billion.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/76",
+        "#/texts/177",
+        "#/texts/77"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What are the biggest YC winners?",
+        "More than $600 billion has been created in market value"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b02a02db-b4dc-485a-9655-dfe6348b754b_1583x1123.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000007",
+        "chunk_sha256": "5f12d1e02a959779e9e9b96f716e94ca34a0fdfc3e039b690835dc182cd825f5",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What are the biggest YC winners?",
+          "More than $600 billion has been created in market value"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/b02a02db-b4dc-485a-9655-dfe6348b754b_1583x1123.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/76",
+          "item_count": 3,
+          "last_self_ref": "#/texts/77"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/76",
+          "#/texts/177",
+          "#/texts/77"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "YC companies attract a lot of funding. In total, more than $145 billion has flowed into the startups that were part of YC. This investment has led to the creation of more than $300 billion in market value, and with the existing private companies, this amount could double to more than $600 billion in the future (once private companies exit). Although acquisitions are the most common path for YC startups, they have “only” brought in $15 billion.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 210
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000008",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat are the biggest YC winners?\nConsumer companies top the funding charts as well\nCruise and Stripe are the two most well-funded YC companies ever. Cruise requires large amounts of capital due to the expenditures required in the autonomous vehicle industry, and Stripe has been focused on blitzscaling their product globally—also requiring a lot of funding. Two-sided marketplaces such as Airbnb, Instacart, DoorDash, and Rappi are notoriously expensive to get started and require subsidizing one side of the marketplace.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/79",
+        "#/texts/178",
+        "#/texts/80"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What are the biggest YC winners?",
+        "Consumer companies top the funding charts as well"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/59efe5de-455d-4078-9f8c-84200167e528_1583x1123.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000008",
+        "chunk_sha256": "777dd0bb7a0c530fbd330023b7387ebf24ed290697592750001294c8847c9f38",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What are the biggest YC winners?",
+          "Consumer companies top the funding charts as well"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/59efe5de-455d-4078-9f8c-84200167e528_1583x1123.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/79",
+          "item_count": 3,
+          "last_self_ref": "#/texts/80"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/79",
+          "#/texts/178",
+          "#/texts/80"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "Cruise and Stripe are the two most well-funded YC companies ever. Cruise requires large amounts of capital due to the expenditures required in the autonomous vehicle industry, and Stripe has been focused on blitzscaling their product globally—also requiring a lot of funding. Two-sided marketplaces such as Airbnb, Instacart, DoorDash, and Rappi are notoriously expensive to get started and require subsidizing one side of the marketplace.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 203
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000009",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat are the biggest YC winners?\nStripe is the next big win for YC\nCurrently sitting at $70 billion in valuation and estimated to go public in the next few years, Stripe is gearing up to have one of the largest-ever outcomes for YC. Companies riding the AI wave such as Scale AI have seen a rapid increase in valuation and are likely to further benefit from the tailwinds, which could result in even higher valuations in the coming years.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator\nBelow you can see the capital efficiency of each of these private companies. That is the amount of funding relative to their valuation. Deel, Benchling, and Gusto are showing particularly strong capital efficiency ratios.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/82",
+        "#/texts/179",
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/180",
+        "#/texts/85"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What are the biggest YC winners?",
+        "Stripe is the next big win for YC"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c80b5bf2-bcbc-4b7c-984c-918db918a2f6_1583x1123.png"
+        },
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b285590b-ac0d-43cf-8d89-2306d06521d3_1583x1123.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000009",
+        "chunk_sha256": "d04c02fa6f9aef0582fcc9cb379eb76a779a3e6dbe44b6a6b803879c79fba5dd",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What are the biggest YC winners?",
+          "Stripe is the next big win for YC"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c80b5bf2-bcbc-4b7c-984c-918db918a2f6_1583x1123.png"
+          },
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/b285590b-ac0d-43cf-8d89-2306d06521d3_1583x1123.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/82",
+          "item_count": 6,
+          "last_self_ref": "#/texts/85"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/82",
+          "#/texts/179",
+          "#/texts/83",
+          "#/texts/84",
+          "#/texts/180",
+          "#/texts/85"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "Currently sitting at $70 billion in valuation and estimated to go public in the next few years, Stripe is gearing up to have one of the largest-ever outcomes for YC. Companies riding the AI wave such as Scale AI have seen a rapid increase in valuation and are likely to further benefit from the tailwinds, which could result in even higher valuations in the coming years.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator\nBelow you can see the capital efficiency of each of these private companies. That is the amount of funding relative to their valuation. Deel, Benchling, and Gusto are showing particularly strong capital efficiency ratios.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 256
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000010",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat are the biggest YC winners?\nW09, S12, and S13 remain the best YC batches based on IPOs and acquisitions\nDuring Paul Graham’s leadership, YC was fortunate enough to invest in some of the most industry-defining consumer companies. Airbnb, DoorDash, and Instacart were riding the shift to mobile, and Coinbase became the leader in the crypto revolution. Today these are the top companies YC has ever backed based on market cap value.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/87",
+        "#/texts/181",
+        "#/texts/88"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What are the biggest YC winners?",
+        "W09, S12, and S13 remain the best YC batches based on IPOs and acquisitions"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000009",
+          "path": null,
+          "self_ref": "#/pictures/9",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/88e7f364-5e47-4bde-94dd-3209d7065198_1583x1123.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000010",
+        "chunk_sha256": "b450e3f9934afb91258f04df48eeb2aeb7e607cf70815ff7bc14142ac5c36a57",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What are the biggest YC winners?",
+          "W09, S12, and S13 remain the best YC batches based on IPOs and acquisitions"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000009",
+            "path": null,
+            "self_ref": "#/pictures/9",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/88e7f364-5e47-4bde-94dd-3209d7065198_1583x1123.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/87",
+          "item_count": 3,
+          "last_self_ref": "#/texts/88"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/87",
+          "#/texts/181",
+          "#/texts/88"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "During Paul Graham’s leadership, YC was fortunate enough to invest in some of the most industry-defining consumer companies. Airbnb, DoorDash, and Instacart were riding the shift to mobile, and Coinbase became the leader in the crypto revolution. Today these are the top companies YC has ever backed based on market cap value.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 198
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000011",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat are the biggest YC winners?\nThe most promising batches are S09, W17, and W16\nWhen we look ahead, there are some very interesting batches that may soon materialize on the public markets. S09, with Stripe, might overtake Airbnb as the most valuable YC company ever. W17, with Rippling, Faire, and Brex, is also looking exciting. Personally, I believe there is a lot of upside in S16, which is the vintage with Scale AI, one of the hottest AI companies out there now.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/90",
+        "#/texts/182",
+        "#/texts/91"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What are the biggest YC winners?",
+        "The most promising batches are S09, W17, and W16"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000010",
+          "path": null,
+          "self_ref": "#/pictures/10",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/363b635e-9fcd-4d03-a83e-a4ca9289e17b_1583x1123.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000011",
+        "chunk_sha256": "f0265b4eae5050bbee19a08664083106d79814809c0eb3010e3679924152a01a",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What are the biggest YC winners?",
+          "The most promising batches are S09, W17, and W16"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000010",
+            "path": null,
+            "self_ref": "#/pictures/10",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/363b635e-9fcd-4d03-a83e-a4ca9289e17b_1583x1123.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/90",
+          "item_count": 3,
+          "last_self_ref": "#/texts/91"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/90",
+          "#/texts/182",
+          "#/texts/91"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "When we look ahead, there are some very interesting batches that may soon materialize on the public markets. S09, with Stripe, might overtake Airbnb as the most valuable YC company ever. W17, with Rippling, Faire, and Brex, is also looking exciting. Personally, I believe there is a lot of upside in S16, which is the vintage with Scale AI, one of the hottest AI companies out there now.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 212
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000012",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat are the most successful conditions for YC startups?\nYC has gone from being a Consumer investor to primarily a B2B investor\nAlthough YC are famous for their Consumer investments (e.g. Airbnb, DoorDash, Reddit, Coinbase), the majority of their funding has actually gone into B2B companies. This is particularly true for their most recent batches, where more than 75% of the companies are defined as B2B companies. The shift away from Consumer is likely driven by the fact that most of the large consumer apps have already been invented.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/94",
+        "#/texts/183",
+        "#/texts/95"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What are the most successful conditions for YC startups?",
+        "YC has gone from being a Consumer investor to primarily a B2B investor"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000011",
+          "path": null,
+          "self_ref": "#/pictures/11",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/ad0d7a06-7904-4bc0-9c36-6b2f3653886c_2500x1607.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000012",
+        "chunk_sha256": "ac399684a049c219a231ff823b0cf105ecf824028445fccfe11d5663046de10e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What are the most successful conditions for YC startups?",
+          "YC has gone from being a Consumer investor to primarily a B2B investor"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000011",
+            "path": null,
+            "self_ref": "#/pictures/11",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/ad0d7a06-7904-4bc0-9c36-6b2f3653886c_2500x1607.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/94",
+          "item_count": 3,
+          "last_self_ref": "#/texts/95"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/94",
+          "#/texts/183",
+          "#/texts/95"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "Although YC are famous for their Consumer investments (e.g. Airbnb, DoorDash, Reddit, Coinbase), the majority of their funding has actually gone into B2B companies. This is particularly true for their most recent batches, where more than 75% of the companies are defined as B2B companies. The shift away from Consumer is likely driven by the fact that most of the large consumer apps have already been invented.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 214
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000013",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat are the most successful conditions for YC startups?\nFuture returns will be driven by B2B and fintech\nThe best past investments from a returns point of view have been great consumer startups like Instacart, Airbnb, DoorDash, Coinbase, and others. However, looking forward, the large exits for YC will come from B2B and fintech companies with combined valuations north of $270 billion. So far, YC has not had financial success with their investments in Healthcare, Bio and Industrials, or Real Estate and Construction.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/97",
+        "#/texts/184",
+        "#/texts/98"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What are the most successful conditions for YC startups?",
+        "Future returns will be driven by B2B and fintech"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000012",
+          "path": null,
+          "self_ref": "#/pictures/12",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/46a3282a-c9ba-49f6-9021-ecff7aae465a_1583x1123.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000013",
+        "chunk_sha256": "b39a5ae1017db334bd2f53d1ace6497f6c3a9294bbe42c215ba7eae1fcc5adab",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What are the most successful conditions for YC startups?",
+          "Future returns will be driven by B2B and fintech"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000012",
+            "path": null,
+            "self_ref": "#/pictures/12",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/46a3282a-c9ba-49f6-9021-ecff7aae465a_1583x1123.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/97",
+          "item_count": 3,
+          "last_self_ref": "#/texts/98"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/97",
+          "#/texts/184",
+          "#/texts/98"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "The best past investments from a returns point of view have been great consumer startups like Instacart, Airbnb, DoorDash, Coinbase, and others. However, looking forward, the large exits for YC will come from B2B and fintech companies with combined valuations north of $270 billion. So far, YC has not had financial success with their investments in Healthcare, Bio and Industrials, or Real Estate and Construction.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 211
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000014",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat are the most successful conditions for YC startups?\nBy far the majority of investments go to U.S.-based companies\nIt is probably no shock that the largest number of YC-backed companies are based in the U.S. More than 70% of companies are from the U.S., followed by countries such as India, the U.K., Canada, Mexico, and France.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/100",
+        "#/texts/185",
+        "#/texts/101"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What are the most successful conditions for YC startups?",
+        "By far the majority of investments go to U.S.-based companies"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000013",
+          "path": null,
+          "self_ref": "#/pictures/13",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/cf9c1f03-c66d-4446-80ee-6c62ef6e105e_1728x2304.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000014",
+        "chunk_sha256": "83facb576b6058eb00b852631605a03499fc50e40b6b2626709b3393149459ad",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What are the most successful conditions for YC startups?",
+          "By far the majority of investments go to U.S.-based companies"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000013",
+            "path": null,
+            "self_ref": "#/pictures/13",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/cf9c1f03-c66d-4446-80ee-6c62ef6e105e_1728x2304.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/100",
+          "item_count": 3,
+          "last_self_ref": "#/texts/101"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/100",
+          "#/texts/185",
+          "#/texts/101"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "It is probably no shock that the largest number of YC-backed companies are based in the U.S. More than 70% of companies are from the U.S., followed by countries such as India, the U.K., Canada, Mexico, and France.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 177
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000015",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat are the most successful conditions for YC startups?\nSo far, 99% of the returns are coming from the U.S.\nThe only meaningful returns have so far come from U.S. investments. There are some promising bets from overseas, such as Razorpay at $7.5 billion (India), Rappi at $5 billion (Colombia), Zepto at $5 billion (India), Meesho at $4 billion (India), and Flutterwave at $3 billion (Nigeria). Slightly surprising is that European-based companies are still lagging behind when it comes to valuations and market cap value. The most valuable European YC company is GoCardless at $2.1 billion.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/103",
+        "#/texts/186",
+        "#/texts/104"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What are the most successful conditions for YC startups?",
+        "So far, 99% of the returns are coming from the U.S."
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000014",
+          "path": null,
+          "self_ref": "#/pictures/14",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/1002b93c-9a19-409b-a327-7eb4f1088bf0_1583x1123.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000015",
+        "chunk_sha256": "249d0c79b16a726fc8473bb267661f88c97d0d87daf618fdaadcbe5847ae5722",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What are the most successful conditions for YC startups?",
+          "So far, 99% of the returns are coming from the U.S."
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000014",
+            "path": null,
+            "self_ref": "#/pictures/14",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/1002b93c-9a19-409b-a327-7eb4f1088bf0_1583x1123.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 15,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/103",
+          "item_count": 3,
+          "last_self_ref": "#/texts/104"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/103",
+          "#/texts/186",
+          "#/texts/104"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 15,
+      "raw_text": "The only meaningful returns have so far come from U.S. investments. There are some promising bets from overseas, such as Razorpay at $7.5 billion (India), Rappi at $5 billion (Colombia), Zepto at $5 billion (India), Meesho at $4 billion (India), and Flutterwave at $3 billion (Nigeria). Slightly surprising is that European-based companies are still lagging behind when it comes to valuations and market cap value. The most valuable European YC company is GoCardless at $2.1 billion.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 244
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000016",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat are the most successful conditions for YC startups?\nSolo founders are at a disadvantage\nThere’s a lot of discussion of whether being a solo founder makes it statistically harder to succeed (or get into YC). When Sam Altman was the president of YC, he wrote, “We really prefer at least two founders, but it’s not a deal-breaker.”And the data speaks quite clearly. Over the past few batches, the proportion of solo founders in the batch has gotten smaller and smaller, to around 10% in the latest batches.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/106",
+        "#/texts/187",
+        "#/texts/107"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What are the most successful conditions for YC startups?",
+        "Solo founders are at a disadvantage"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000015",
+          "path": null,
+          "self_ref": "#/pictures/15",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/07b1aa44-f086-49f0-b391-e1bb7328d5d8_2500x1607.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000016",
+        "chunk_sha256": "cdeb261fb1c8d9a533f6b528e765022d8b39697b5aa9e419de24171ebe56430d",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What are the most successful conditions for YC startups?",
+          "Solo founders are at a disadvantage"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000015",
+            "path": null,
+            "self_ref": "#/pictures/15",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/07b1aa44-f086-49f0-b391-e1bb7328d5d8_2500x1607.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 16,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/106",
+          "item_count": 3,
+          "last_self_ref": "#/texts/107"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/106",
+          "#/texts/187",
+          "#/texts/107"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 16,
+      "raw_text": "There’s a lot of discussion of whether being a solo founder makes it statistically harder to succeed (or get into YC). When Sam Altman was the president of YC, he wrote, “We really prefer at least two founders, but it’s not a deal-breaker.”And the data speaks quite clearly. Over the past few batches, the proportion of solo founders in the batch has gotten smaller and smaller, to around 10% in the latest batches.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 211
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000017",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat is the likelihood of success for YC startups?\n40% to 45% of companies that go through YC raise a Series A round\nGetting to Series A is no small feat for startups. According to Carta, on average only 30% to 35% of companies that raise a seed round can expect to also raise a Series A funding round. While batches differ, the vast majority (80% to 90%) of YC startups manage to close a seed round with investors outside the initial YC investment. Following that, around 40% to 45% of matured batches reach at least a Series A—significantly better than the industry average.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/110",
+        "#/texts/188",
+        "#/texts/111"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What is the likelihood of success for YC startups?",
+        "40% to 45% of companies that go through YC raise a Series A round"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000016",
+          "path": null,
+          "self_ref": "#/pictures/16",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/896aeb28-6733-464c-b83a-b499517e64b5_1583x1123.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000017",
+        "chunk_sha256": "6c39aaa6751e65343cc04bf5b4810adc81cb4059bda5043736517709697e1cb5",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What is the likelihood of success for YC startups?",
+          "40% to 45% of companies that go through YC raise a Series A round"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000016",
+            "path": null,
+            "self_ref": "#/pictures/16",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/896aeb28-6733-464c-b83a-b499517e64b5_1583x1123.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 17,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/110",
+          "item_count": 3,
+          "last_self_ref": "#/texts/111"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/110",
+          "#/texts/188",
+          "#/texts/111"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 17,
+      "raw_text": "Getting to Series A is no small feat for startups. According to Carta, on average only 30% to 35% of companies that raise a seed round can expect to also raise a Series A funding round. While batches differ, the vast majority (80% to 90%) of YC startups manage to close a seed round with investors outside the initial YC investment. Following that, around 40% to 45% of matured batches reach at least a Series A—significantly better than the industry average.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 228
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000018",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat is the likelihood of success for YC startups?\n4% to 5% of companies become unicorns, about twice the industry average\nIt takes a bit of time for companies to mature. But if we look at vintages seven or more years after launch, roughly 4% to 5% of companies become unicorns. This is really impressive, particularly vs. the industry average of 2.5%.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/113",
+        "#/texts/189",
+        "#/texts/114"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What is the likelihood of success for YC startups?",
+        "4% to 5% of companies become unicorns, about twice the industry average"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000017",
+          "path": null,
+          "self_ref": "#/pictures/17",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/11cef644-897e-4f1e-b195-894168e5720b_2500x1607.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000018",
+        "chunk_sha256": "35fbd9da2cbf49ee15f03241f294d9c18f6dc9a691d26db17fb76f4380505843",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What is the likelihood of success for YC startups?",
+          "4% to 5% of companies become unicorns, about twice the industry average"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000017",
+            "path": null,
+            "self_ref": "#/pictures/17",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/11cef644-897e-4f1e-b195-894168e5720b_2500x1607.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 18,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/113",
+          "item_count": 3,
+          "last_self_ref": "#/texts/114"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/113",
+          "#/texts/189",
+          "#/texts/114"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 18,
+      "raw_text": "It takes a bit of time for companies to mature. But if we look at vintages seven or more years after launch, roughly 4% to 5% of companies become unicorns. This is really impressive, particularly vs. the industry average of 2.5%.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 175
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000019",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat is the likelihood of success for YC startups?\nFunding rounds for YC companies are significantly higher than the global average\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/190",
+        "#/texts/116"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What is the likelihood of success for YC startups?",
+        "Funding rounds for YC companies are significantly higher than the global average"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000018",
+          "path": null,
+          "self_ref": "#/pictures/18",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a118366e-0580-49b3-8841-2faf4a3ef8ba_1583x1123.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000019",
+        "chunk_sha256": "090421526586906e81ca1b3ae6bc13b1236e62cc3ef73f875e139121384a0536",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What is the likelihood of success for YC startups?",
+          "Funding rounds for YC companies are significantly higher than the global average"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000018",
+            "path": null,
+            "self_ref": "#/pictures/18",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a118366e-0580-49b3-8841-2faf4a3ef8ba_1583x1123.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 19,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/190",
+          "item_count": 2,
+          "last_self_ref": "#/texts/116"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/190",
+          "#/texts/116"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 19,
+      "raw_text": "Image from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 118
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000020",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWho are the most successful YC investors?\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator\nReaching unicorn status is one of the core milestones for any private startup or investor. Below are the number of times investors have invested in a YC unicorn.\n*One very important note here: This shows the number of investments they made in unicorn companies; however, not necessarily before they were unicorns, i.e. for some of these, they invested when the company was already a unicorn company. This data is from Crunchbase and Harmonic, which is sourced from public announcements and thus isn’t complete but is directionally correct.*\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/191",
+        "#/texts/118",
+        "#/texts/119",
+        "#/texts/120",
+        "#/texts/192",
+        "#/texts/121"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "Who are the most successful YC investors?"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000019",
+          "path": null,
+          "self_ref": "#/pictures/19",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/ab38cd3f-f1d1-4aa4-890b-8fa3d642ebda_1728x2304.png"
+        },
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000020",
+          "path": null,
+          "self_ref": "#/pictures/20",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/05f13584-0465-4a5d-b71f-3b13efed28cc_1728x2304.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000020",
+        "chunk_sha256": "4703677ffd7d17bbbf1b190a650f92af9ff259fa19d9a2f8bf7be386fccf02ea",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "Who are the most successful YC investors?"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000019",
+            "path": null,
+            "self_ref": "#/pictures/19",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/ab38cd3f-f1d1-4aa4-890b-8fa3d642ebda_1728x2304.png"
+          },
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000020",
+            "path": null,
+            "self_ref": "#/pictures/20",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/05f13584-0465-4a5d-b71f-3b13efed28cc_1728x2304.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 20,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/191",
+          "item_count": 6,
+          "last_self_ref": "#/texts/121"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/191",
+          "#/texts/118",
+          "#/texts/119",
+          "#/texts/120",
+          "#/texts/192",
+          "#/texts/121"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 20,
+      "raw_text": "Image from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator\nReaching unicorn status is one of the core milestones for any private startup or investor. Below are the number of times investors have invested in a YC unicorn.\n*One very important note here: This shows the number of investments they made in unicorn companies; however, not necessarily before they were unicorns, i.e. for some of these, they invested when the company was already a unicorn company. This data is from Crunchbase and Harmonic, which is sourced from public announcements and thus isn’t complete but is directionally correct.*\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 237
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000021",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat are YC founders betting on for the future?\nIn the new batches, it’s all about AI\nA pretty natural question to ask is: What kinds of companies have YC founders been working on in the past few years? While YC’s ethos is all about picking the right founders/teams, it is useful information to know if you’re planning on applying to YC or even just interested in getting a feel for the latest trends in technology. The answer: AI.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/124",
+        "#/texts/193",
+        "#/texts/125"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What are YC founders betting on for the future?",
+        "In the new batches, it’s all about AI"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000021",
+          "path": null,
+          "self_ref": "#/pictures/21",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/24a3e086-f399-45b0-8009-ddba75d7b902_1583x1123.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000021",
+        "chunk_sha256": "d07fc22f3243a60bdd9f077be05d31b327f03c42e0f2ac0f5fa57d00fc3d8611",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What are YC founders betting on for the future?",
+          "In the new batches, it’s all about AI"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000021",
+            "path": null,
+            "self_ref": "#/pictures/21",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/24a3e086-f399-45b0-8009-ddba75d7b902_1583x1123.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 21,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/124",
+          "item_count": 3,
+          "last_self_ref": "#/texts/125"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/124",
+          "#/texts/193",
+          "#/texts/125"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 21,
+      "raw_text": "A pretty natural question to ask is: What kinds of companies have YC founders been working on in the past few years? While YC’s ethos is all about picking the right founders/teams, it is useful information to know if you’re planning on applying to YC or even just interested in getting a feel for the latest trends in technology. The answer: AI.\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 194
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000022",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nWhat are YC founders betting on for the future?\nAlong with AI, founders are betting on B2B\nFirst of all, YC has stopped specifically labeling companies as AI, Gen AI, AI Assistant, etc. I assume this is because all companies are essentially AI companies now—as in, they are leveraging AI technology in some capacity. But make no mistake, YC founders are betting big on AI in all forms.\nThere is still a preference for starting B2B software companies, with over 63% being B2B-focused startups. Interestingly, the second biggest category is within Healthcare (10%), which has historically not been the case. As seen in the above, both from a funding and returns POV, that has not been a category that has done particularly well. This seems to be changing now with the myriad companies trying to revolutionize Healthcare with AI. It also seems like Fintech/Crypto is taking a little bit of a backseat right now, with only 6% of investments, despite some of the biggest winners coming from this category (Stripe, Coinbase).\nWhen analyzing the tags added by YC for the various companies, it’s pretty spread out, but three categories seem to have gotten the attention of founders:\n1. Engineering, Product, and Design (25%)\n2. Infrastructure (12%)\n3. Sales (8%)\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "doc_item_refs": [
+        "#/texts/127",
+        "#/texts/128",
+        "#/texts/129",
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/132",
+        "#/texts/194",
+        "#/texts/133"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "What are YC founders betting on for the future?",
+        "Along with AI, founders are betting on B2B"
+      ],
+      "images": [
+        {
+          "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+          "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000022",
+          "path": null,
+          "self_ref": "#/pictures/22",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/108debad-1222-46c3-a7ec-fb530ce3a1c1_1583x1123.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000022",
+        "chunk_sha256": "be6e7781619922cb37617d2142a5854b27cd46fff69b2cbd2ed2695c78d7d88a",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "What are YC founders betting on for the future?",
+          "Along with AI, founders are betting on B2B"
+        ],
+        "images": [
+          {
+            "caption": "Image from Pulling back the curtain on the magic of Y Combinator",
+            "image_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#image=000022",
+            "path": null,
+            "self_ref": "#/pictures/22",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/108debad-1222-46c3-a7ec-fb530ce3a1c1_1583x1123.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 22,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/127",
+          "item_count": 8,
+          "last_self_ref": "#/texts/133"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/127",
+          "#/texts/128",
+          "#/texts/129",
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/132",
+          "#/texts/194",
+          "#/texts/133"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 22,
+      "raw_text": "First of all, YC has stopped specifically labeling companies as AI, Gen AI, AI Assistant, etc. I assume this is because all companies are essentially AI companies now—as in, they are leveraging AI technology in some capacity. But make no mistake, YC founders are betting big on AI in all forms.\nThere is still a preference for starting B2B software companies, with over 63% being B2B-focused startups. Interestingly, the second biggest category is within Healthcare (10%), which has historically not been the case. As seen in the above, both from a funding and returns POV, that has not been a category that has done particularly well. This seems to be changing now with the myriad companies trying to revolutionize Healthcare with AI. It also seems like Fintech/Crypto is taking a little bit of a backseat right now, with only 6% of investments, despite some of the biggest winners coming from this category (Stripe, Coinbase).\nWhen analyzing the tags added by YC for the various companies, it’s pretty spread out, but three categories seem to have gotten the attention of founders:\n1. Engineering, Product, and Design (25%)\n2. Infrastructure (12%)\n3. Sales (8%)\nImage from Pulling back the curtain on the magic of Y Combinator\nImage from Pulling back the curtain on the magic of Y Combinator",
+      "token_count": 376
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000023",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\nTo wrap it up…\nThe YC magic is about picking the world’s greatest founders and following the internal YC process, not repeating the same startup profile.\nThroughout the past 20 years of YC, different technological and societal trends have emerged that have shaped the big startup winners. What has stayed consistent is the ability to pick the best founders who are tackling the biggest opportunities. Today there are inflection points shifting founders away from Consumer and toward B2B, and all systems are go on everything AI. The most successful YC companies of the past (Airbnb, Coinbase, DoorDash, Instacart, etc.) don’t look like the most successful YC companies of the present (Stripe, Rippling, Brex, etc.), and they won’t look like the most successful YC companies of the future either (Scale AI and the new generation of AI companies).\n*Thank you, Palle! For more from Palle, make sure to subscribe to his newsletter,*\n[*Rule of Thumb*](https://palle.substack.com/)\n*, and follow him on*\n[*LinkedIn*](https://www.linkedin.com/in/pallebroe/)\n*. Also, thank you,*\n[*Rebecca,*](https://www.rebeccaackermann.com/)\n*for editing.*\n*Have a fulfilling and productive week 🙏*",
+      "doc_item_refs": [
+        "#/texts/135",
+        "#/texts/136",
+        "#/texts/137",
+        "#/texts/138",
+        "#/texts/139",
+        "#/texts/140",
+        "#/texts/141",
+        "#/texts/142",
+        "#/texts/143",
+        "#/texts/144"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "To wrap it up…"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000023",
+        "chunk_sha256": "9c0947b5656d0614c4275bc7d439ea74bdee4bf0facf13327ce45bcef1499f01",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "To wrap it up…"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 23,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/135",
+          "item_count": 10,
+          "last_self_ref": "#/texts/144"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/135",
+          "#/texts/136",
+          "#/texts/137",
+          "#/texts/138",
+          "#/texts/139",
+          "#/texts/140",
+          "#/texts/141",
+          "#/texts/142",
+          "#/texts/143",
+          "#/texts/144"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 23,
+      "raw_text": "The YC magic is about picking the world’s greatest founders and following the internal YC process, not repeating the same startup profile.\nThroughout the past 20 years of YC, different technological and societal trends have emerged that have shaped the big startup winners. What has stayed consistent is the ability to pick the best founders who are tackling the biggest opportunities. Today there are inflection points shifting founders away from Consumer and toward B2B, and all systems are go on everything AI. The most successful YC companies of the past (Airbnb, Coinbase, DoorDash, Instacart, etc.) don’t look like the most successful YC companies of the present (Stripe, Rippling, Brex, etc.), and they won’t look like the most successful YC companies of the future either (Scale AI and the new generation of AI companies).\n*Thank you, Palle! For more from Palle, make sure to subscribe to his newsletter,*\n[*Rule of Thumb*](https://palle.substack.com/)\n*, and follow him on*\n[*LinkedIn*](https://www.linkedin.com/in/pallebroe/)\n*. Also, thank you,*\n[*Rebecca,*](https://www.rebeccaackermann.com/)\n*for editing.*\n*Have a fulfilling and productive week 🙏*",
+      "token_count": 376
+    },
+    {
+      "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000024",
+      "contextualized_text": "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth\n🏅 Featured role of the week\n[**Bounce**](https://bounce.com/)\nis hiring for a Head of Growth based out of San Francisco. As their Head of Growth, you'll be expected to:\n1. Lead strategy and execution across multiple channels, including product-led growth, SEO, and paid acquisition\n2. Mix high-level thinking with hands-on execution as you build out Bounce’s growth team\n**Why I think the company is interesting:**\n- Bounce is one of the fastest-growing European startups ever.\n- They’re now in hypergrowth with a lean and scrappy team. This is an opportunity to join before they really mature.\n- They are backed by a16z and a host of tier-one investors. They just raised a Series B and are quickly expanding into a global presence.\n- This is not a 0-to-1 role; it’s a 1-to-10 role. Bounce’s growth is already epic, but they need a leader to take it to the next level.\nIf you’d like to get your profile sent directly to their team, just fill out\n[this quick form](https://airtable.com/appTNAXC72V74HqPS/pagCczxszIZPdd00t/form)\n. All submissions from my readers get priority (but no guarantees beyond that).\n*If you’d like to get your role featured here,*\n[*apply here*](https://airtable.com/apphKJD0wLIHfPcZu/pag09IdQYrMpolMa5/form)\n*. If you’re interested in working with my white-glove recruiting service specializing in senior product roles (e.g. Directors, VPs, and Heads of Product), apply to work with us*\n[*here*](https://www.lennysjobs.com/)\n*.*\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/146",
+        "#/texts/147",
+        "#/texts/148",
+        "#/texts/149",
+        "#/texts/150",
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/153",
+        "#/texts/154",
+        "#/texts/155",
+        "#/texts/156",
+        "#/texts/157",
+        "#/texts/158",
+        "#/texts/159",
+        "#/texts/160",
+        "#/texts/161",
+        "#/texts/162",
+        "#/texts/163",
+        "#/texts/164",
+        "#/texts/165",
+        "#/texts/166",
+        "#/texts/167",
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/170",
+        "#/texts/171"
+      ],
+      "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+      "headings": [
+        "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+        "🏅 Featured role of the week"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md#chunk=000024",
+        "chunk_sha256": "3bc5d5ea8a7b1867f462e0fb04d6a8ed316c24afef9a0191ef452bf8212e070d",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+        "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+        "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+        "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+        "headings": [
+          "Pulling back the curtain on the magic of Y Combinator — A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator | 2025-02-11 | Tags: startups, design, b2c, b2b, strategy, growth",
+          "🏅 Featured role of the week"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 24,
+        "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+        "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+        "segment": {
+          "first_self_ref": "#/texts/146",
+          "item_count": 26,
+          "last_self_ref": "#/texts/171"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/146",
+          "#/texts/147",
+          "#/texts/148",
+          "#/texts/149",
+          "#/texts/150",
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/153",
+          "#/texts/154",
+          "#/texts/155",
+          "#/texts/156",
+          "#/texts/157",
+          "#/texts/158",
+          "#/texts/159",
+          "#/texts/160",
+          "#/texts/161",
+          "#/texts/162",
+          "#/texts/163",
+          "#/texts/164",
+          "#/texts/165",
+          "#/texts/166",
+          "#/texts/167",
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/170",
+          "#/texts/171"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 24,
+      "raw_text": "[**Bounce**](https://bounce.com/)\nis hiring for a Head of Growth based out of San Francisco. As their Head of Growth, you'll be expected to:\n1. Lead strategy and execution across multiple channels, including product-led growth, SEO, and paid acquisition\n2. Mix high-level thinking with hands-on execution as you build out Bounce’s growth team\n**Why I think the company is interesting:**\n- Bounce is one of the fastest-growing European startups ever.\n- They’re now in hypergrowth with a lean and scrappy team. This is an opportunity to join before they really mature.\n- They are backed by a16z and a host of tier-one investors. They just raised a Series B and are quickly expanding into a global presence.\n- This is not a 0-to-1 role; it’s a 1-to-10 role. Bounce’s growth is already epic, but they need a leader to take it to the next level.\nIf you’d like to get your profile sent directly to their team, just fill out\n[this quick form](https://airtable.com/appTNAXC72V74HqPS/pagCczxszIZPdd00t/form)\n. All submissions from my readers get priority (but no guarantees beyond that).\n*If you’d like to get your role featured here,*\n[*apply here*](https://airtable.com/apphKJD0wLIHfPcZu/pag09IdQYrMpolMa5/form)\n*. If you’re interested in working with my white-glove recruiting service specializing in senior product roles (e.g. Directors, VPs, and Heads of Product), apply to work with us*\n[*here*](https://www.lennysjobs.com/)\n*.*\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "token_count": 631
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.docling.json",
+  "docling_sha256": "d032657083d9b177d9f58abf4208fe46a8f4311f37d9c13d6eb73c0f02506ce4",
+  "document_id": "02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+  "enhanced_sha256": "6d07b61a8e65fdd4f643d25328f41e112c82d327bc0e9837d26d27b69f6137c8",
+  "fact_document_path": "chunks/v2/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.chunks.json",
+  "metadata": {
+    "date": "2025-02-11",
+    "subtitle": "A first-of-its-kind deep dive into the data to see what’s really working for the industry’s biggest incubator",
+    "tags": [
+      "startups",
+      "design",
+      "b2c",
+      "b2b",
+      "strategy",
+      "growth"
+    ],
+    "title": "Pulling back the curtain on the magic of Y Combinator",
+    "type": "newsletter",
+    "word_count": 3397
+  },
+  "raw_path": "corpus/raw/02-newsletters/pulling-back-the-curtain-on-the-magic-of-y-combinator.md",
+  "raw_sha256": "f8572c86a1fe76543a466695c574e7b8d6f61f7d7aa58d717f486b7410e97e01",
+  "schema_version": "1",
+  "title": "Pulling back the curtain on the magic of Y Combinator"
+}

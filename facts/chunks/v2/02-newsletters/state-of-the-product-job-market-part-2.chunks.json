@@ -1,0 +1,1279 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000000",
+      "contextualized_text": "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy\nLots of questions came up after publishing\n[my last product jobs report](https://www.lennysnewsletter.com/p/new-data-on-the-product-job-market)\n, so I’m back with a follow-up.\nThis analysis is based on exclusive data from two companies that I’m partnering with:\n1. [**TrueUp**](https://www.trueup.io/) , which tracks *new* *job* *openings* across all tech companies globally\n2. [**Live Data Technologies**](https://www.livedatatechnologies.com/) , which tracks job changes (hires, departures, and promotions*)* across all companies in the U.S.\nCombining these two data sources reveals a whole new perspective on what’s really happening in the job market.",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/12",
+        "#/texts/15"
+      ],
+      "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+      "headings": [
+        "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000000",
+        "chunk_sha256": "63d25455a52c47adf7ded199b62f174ac76b68e950870d26043d633a9096f70e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/state-of-the-product-job-market-part-2.docling.json",
+        "docling_sha256": "edd4c8c564be03826a4a06b35258f9955e8be0073552b9f8539b04be48a2e088",
+        "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_sha256": "52a8e75012c024dcf1377b91608f00b746c8ca0eb8e1c7e48f69df19939745f4",
+        "fact_document_path": "chunks/v2/02-newsletters/state-of-the-product-job-market-part-2.chunks.json",
+        "headings": [
+          "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "raw_sha256": "d6a614cedbb17c3270ba9569dced95caf0ba49cadfc4cbdaae5b2628fab9199b",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 7,
+          "last_self_ref": "#/texts/15"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/12",
+          "#/texts/15"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "Lots of questions came up after publishing\n[my last product jobs report](https://www.lennysnewsletter.com/p/new-data-on-the-product-job-market)\n, so I’m back with a follow-up.\nThis analysis is based on exclusive data from two companies that I’m partnering with:\n1. [**TrueUp**](https://www.trueup.io/) , which tracks *new* *job* *openings* across all tech companies globally\n2. [**Live Data Technologies**](https://www.livedatatechnologies.com/) , which tracks job changes (hires, departures, and promotions*)* across all companies in the U.S.\nCombining these two data sources reveals a whole new perspective on what’s really happening in the job market.",
+      "token_count": 264
+    },
+    {
+      "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000001",
+      "contextualized_text": "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy\nSome of my biggest takeaways from this data:\n1. There’s indeed a shift to hiring more senior PMs\n2. Remote PM jobs are shrinking fast (down 35% from peak, and still shrinking)\n3. More than one in five open PM roles is based in the San Francisco Bay Area (and still growing)\n4. Bengaluru, India, is now the most popular location outside the U.S. for PM roles\n5. The three most common hard skills that hiring managers are looking for from PMs are SQL, Jira, and experience with LLMs\n6. The fastest-shrinking roles right now are diversity and scrum masters\n7. Machine-learning engineers and data engineers are the most in-demand tech functions right now\nLoads more surprises and insights in the data below.\nI’m going to continue working with these companies to track job market data and share regular updates on what’s changing in the product hiring market every few months or so. If there’s any data or questions you want us to dig into, please let me know in the comments.\n*Big thank-you to*\n[*Amit Taylor*](https://www.linkedin.com/in/amittaylor/)\n*from*\n[*TrueUp*](https://www.trueup.io/)\n*and*\n[*Jason Saltzman*](https://www.linkedin.com/in/jason-salt/)\n*from*\n[*Live Data Technologies*](https://www.linkedin.com/in/jason-salt/)\n*. To learn more about TrueUp, check out*\n[*this custom one-stop page*](https://trueup.io/lenny)\n*they made for me that includes every product and growth job at every top tech startup and big tech company (16,500 open roles). They scan every open job at every top tech company in real time and then use AI to categorize and tag each role. To learn more about Live Data Technologies,*\n[*check them out here*](https://www.livedatatechnologies.com/)\n*. To collect their data, they use prompt engineering in major search engines (Google, Bing, Baidu, Yandex, etc.) to capture near-real-time data on employment changes in the U.S. Leveraging this publicly available information, they use a proprietary process to monitor the most up-to-date employment status for white-collar workers and millions of job changes monthly.*",
+      "doc_item_refs": [
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38"
+      ],
+      "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+      "headings": [
+        "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+        "Some of my biggest takeaways from this data:"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000001",
+        "chunk_sha256": "03cf7b59c7205a3117dc9ba9f44f95df475bafb9cee21ddcf190e4cde9739340",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/state-of-the-product-job-market-part-2.docling.json",
+        "docling_sha256": "edd4c8c564be03826a4a06b35258f9955e8be0073552b9f8539b04be48a2e088",
+        "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_sha256": "52a8e75012c024dcf1377b91608f00b746c8ca0eb8e1c7e48f69df19939745f4",
+        "fact_document_path": "chunks/v2/02-newsletters/state-of-the-product-job-market-part-2.chunks.json",
+        "headings": [
+          "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+          "Some of my biggest takeaways from this data:"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "raw_sha256": "d6a614cedbb17c3270ba9569dced95caf0ba49cadfc4cbdaae5b2628fab9199b",
+        "segment": {
+          "first_self_ref": "#/texts/17",
+          "item_count": 22,
+          "last_self_ref": "#/texts/38"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32",
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "1. There’s indeed a shift to hiring more senior PMs\n2. Remote PM jobs are shrinking fast (down 35% from peak, and still shrinking)\n3. More than one in five open PM roles is based in the San Francisco Bay Area (and still growing)\n4. Bengaluru, India, is now the most popular location outside the U.S. for PM roles\n5. The three most common hard skills that hiring managers are looking for from PMs are SQL, Jira, and experience with LLMs\n6. The fastest-shrinking roles right now are diversity and scrum masters\n7. Machine-learning engineers and data engineers are the most in-demand tech functions right now\nLoads more surprises and insights in the data below.\nI’m going to continue working with these companies to track job market data and share regular updates on what’s changing in the product hiring market every few months or so. If there’s any data or questions you want us to dig into, please let me know in the comments.\n*Big thank-you to*\n[*Amit Taylor*](https://www.linkedin.com/in/amittaylor/)\n*from*\n[*TrueUp*](https://www.trueup.io/)\n*and*\n[*Jason Saltzman*](https://www.linkedin.com/in/jason-salt/)\n*from*\n[*Live Data Technologies*](https://www.linkedin.com/in/jason-salt/)\n*. To learn more about TrueUp, check out*\n[*this custom one-stop page*](https://trueup.io/lenny)\n*they made for me that includes every product and growth job at every top tech startup and big tech company (16,500 open roles). They scan every open job at every top tech company in real time and then use AI to categorize and tag each role. To learn more about Live Data Technologies,*\n[*check them out here*](https://www.livedatatechnologies.com/)\n*. To collect their data, they use prompt engineering in major search engines (Google, Bing, Baidu, Yandex, etc.) to capture near-real-time data on employment changes in the U.S. Leveraging this publicly available information, they use a proprietary process to monitor the most up-to-date employment status for white-collar workers and millions of job changes monthly.*",
+      "token_count": 614
+    },
+    {
+      "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000002",
+      "contextualized_text": "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy\nHow’s the PM job market looking overall?\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nWe are in the middle of a slow recovery that started in Q1 of this year, and the recovery is holding steady.\nAfter a peak in early 2022 (with over 10,000 open roles) and a significant slowdown through 2023 (to about 4,000 open roles), there are currently 5,752 open product manager roles at tech companies globally.",
+      "doc_item_refs": [
+        "#/texts/167",
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/42"
+      ],
+      "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+      "headings": [
+        "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+        "How’s the PM job market looking overall?"
+      ],
+      "images": [
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/0657f3ee-8017-4452-88b7-8237fce3ad0d_1760x1712.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000002",
+        "chunk_sha256": "2ed138647ad2bc92cf1241509fc117de6fca5a87fa2c6e43af45da8c19a26d35",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/state-of-the-product-job-market-part-2.docling.json",
+        "docling_sha256": "edd4c8c564be03826a4a06b35258f9955e8be0073552b9f8539b04be48a2e088",
+        "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_sha256": "52a8e75012c024dcf1377b91608f00b746c8ca0eb8e1c7e48f69df19939745f4",
+        "fact_document_path": "chunks/v2/02-newsletters/state-of-the-product-job-market-part-2.chunks.json",
+        "headings": [
+          "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+          "How’s the PM job market looking overall?"
+        ],
+        "images": [
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/0657f3ee-8017-4452-88b7-8237fce3ad0d_1760x1712.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "raw_sha256": "d6a614cedbb17c3270ba9569dced95caf0ba49cadfc4cbdaae5b2628fab9199b",
+        "segment": {
+          "first_self_ref": "#/texts/167",
+          "item_count": 4,
+          "last_self_ref": "#/texts/42"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/167",
+          "#/texts/40",
+          "#/texts/41",
+          "#/texts/42"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "Image from State of the product job market, part 2\nImage from State of the product job market, part 2\nWe are in the middle of a slow recovery that started in Q1 of this year, and the recovery is holding steady.\nAfter a peak in early 2022 (with over 10,000 open roles) and a significant slowdown through 2023 (to about 4,000 open roles), there are currently 5,752 open product manager roles at tech companies globally.",
+      "token_count": 183
+    },
+    {
+      "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000003",
+      "contextualized_text": "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy\nHas there been a shift to hiring more senior product roles?\nIndeed there has. But, the shift isn’t huge.\nBelow are two charts showing roles by PM level at tech companies globally. The first chart shows the proportion of open jobs by level over time, and the second chart shows the absolute number of open jobs by level.\nThe data shows that, yes, new Senior and above PM roles do appear to be growing at a faster rate than other levels. If you look at the light blue and dark blue segments below (i.e.\n**Senior**\nand\n**Lead/Senior++**\nroles), you can see they have definitely grown from early 2023 in the percentage of PMs being hired. In particular,\n**Lead/Senior++**\nroles are growing their percentage of open roles the fastest. And the share of\n**Entry/Mid-level roles**\n(the pink segment) has decreased the most since early 2023.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nThat being said,\n**Entry/Mid-level**\nmake up over a third of open PM roles and are recovering at a rate similar to Senior roles. So there are still plenty of opportunities for early-career PMs.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nDrilling into the down-leveling question, here’s an amazing chart from Live Data Technologies showing\n**the number of hires who went down a level in their new job**\n. This down-leveling spiked in early 2022 and is now at nearly the lowest levels since 2019. That’s great news.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2",
+      "doc_item_refs": [
+        "#/texts/44",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/48",
+        "#/texts/49",
+        "#/texts/50",
+        "#/texts/51",
+        "#/texts/52",
+        "#/texts/53",
+        "#/texts/54",
+        "#/texts/168",
+        "#/texts/55",
+        "#/texts/56",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/169",
+        "#/texts/59",
+        "#/texts/60",
+        "#/texts/61",
+        "#/texts/62",
+        "#/texts/170",
+        "#/texts/63"
+      ],
+      "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+      "headings": [
+        "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+        "Has there been a shift to hiring more senior product roles?"
+      ],
+      "images": [
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/3f6f7720-24cf-4dec-a65c-bc3b0635f914_1486x804.png"
+        },
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/e45a1b59-d487-4ca4-b11d-d698a06e4724_1488x836.png"
+        },
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/545a19b2-bcbd-41c2-8ad3-60705b27d400_1588x1150.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000003",
+        "chunk_sha256": "43513448f5402e9ab8f845d040a73c87d65b59c5a3bb36ab74c98fe99795c843",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/state-of-the-product-job-market-part-2.docling.json",
+        "docling_sha256": "edd4c8c564be03826a4a06b35258f9955e8be0073552b9f8539b04be48a2e088",
+        "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_sha256": "52a8e75012c024dcf1377b91608f00b746c8ca0eb8e1c7e48f69df19939745f4",
+        "fact_document_path": "chunks/v2/02-newsletters/state-of-the-product-job-market-part-2.chunks.json",
+        "headings": [
+          "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+          "Has there been a shift to hiring more senior product roles?"
+        ],
+        "images": [
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/3f6f7720-24cf-4dec-a65c-bc3b0635f914_1486x804.png"
+          },
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/e45a1b59-d487-4ca4-b11d-d698a06e4724_1488x836.png"
+          },
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/545a19b2-bcbd-41c2-8ad3-60705b27d400_1588x1150.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "raw_sha256": "d6a614cedbb17c3270ba9569dced95caf0ba49cadfc4cbdaae5b2628fab9199b",
+        "segment": {
+          "first_self_ref": "#/texts/44",
+          "item_count": 23,
+          "last_self_ref": "#/texts/63"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/44",
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/48",
+          "#/texts/49",
+          "#/texts/50",
+          "#/texts/51",
+          "#/texts/52",
+          "#/texts/53",
+          "#/texts/54",
+          "#/texts/168",
+          "#/texts/55",
+          "#/texts/56",
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/169",
+          "#/texts/59",
+          "#/texts/60",
+          "#/texts/61",
+          "#/texts/62",
+          "#/texts/170",
+          "#/texts/63"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "Indeed there has. But, the shift isn’t huge.\nBelow are two charts showing roles by PM level at tech companies globally. The first chart shows the proportion of open jobs by level over time, and the second chart shows the absolute number of open jobs by level.\nThe data shows that, yes, new Senior and above PM roles do appear to be growing at a faster rate than other levels. If you look at the light blue and dark blue segments below (i.e.\n**Senior**\nand\n**Lead/Senior++**\nroles), you can see they have definitely grown from early 2023 in the percentage of PMs being hired. In particular,\n**Lead/Senior++**\nroles are growing their percentage of open roles the fastest. And the share of\n**Entry/Mid-level roles**\n(the pink segment) has decreased the most since early 2023.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nThat being said,\n**Entry/Mid-level**\nmake up over a third of open PM roles and are recovering at a rate similar to Senior roles. So there are still plenty of opportunities for early-career PMs.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nDrilling into the down-leveling question, here’s an amazing chart from Live Data Technologies showing\n**the number of hires who went down a level in their new job**\n. This down-leveling spiked in early 2022 and is now at nearly the lowest levels since 2019. That’s great news.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2",
+      "token_count": 453
+    },
+    {
+      "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000004",
+      "contextualized_text": "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy\nWhich companies are hiring PMs most?\nIf you’re currently looking for a job, here’s the latest data on which tech companies have the most open PM roles:\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nHere’s a bonus chart that will blow your mind: the top places candidates are coming\n*from*\nwhen they are hired at one of the top companies hiring PMs. The left side of the chart includes the top five places people come from, meaning that many companies hire from business schools, but for Amazon, it’s their number one source of new hires.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2",
+      "doc_item_refs": [
+        "#/texts/65",
+        "#/texts/171",
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/172",
+        "#/texts/70"
+      ],
+      "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+      "headings": [
+        "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+        "Which companies are hiring PMs most?"
+      ],
+      "images": [
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a5e5310a-0819-49c1-a16d-8181a93f8eaa_1760x3104.png"
+        },
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a883c707-3b9d-4393-ae40-eba6e52989e1_1184x1600.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000004",
+        "chunk_sha256": "abf4fd284ca4a55090adedf8702290366f721b3d5283f0abf58bd2857194870b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/state-of-the-product-job-market-part-2.docling.json",
+        "docling_sha256": "edd4c8c564be03826a4a06b35258f9955e8be0073552b9f8539b04be48a2e088",
+        "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_sha256": "52a8e75012c024dcf1377b91608f00b746c8ca0eb8e1c7e48f69df19939745f4",
+        "fact_document_path": "chunks/v2/02-newsletters/state-of-the-product-job-market-part-2.chunks.json",
+        "headings": [
+          "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+          "Which companies are hiring PMs most?"
+        ],
+        "images": [
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a5e5310a-0819-49c1-a16d-8181a93f8eaa_1760x3104.png"
+          },
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a883c707-3b9d-4393-ae40-eba6e52989e1_1184x1600.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "raw_sha256": "d6a614cedbb17c3270ba9569dced95caf0ba49cadfc4cbdaae5b2628fab9199b",
+        "segment": {
+          "first_self_ref": "#/texts/65",
+          "item_count": 8,
+          "last_self_ref": "#/texts/70"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/65",
+          "#/texts/171",
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69",
+          "#/texts/172",
+          "#/texts/70"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "If you’re currently looking for a job, here’s the latest data on which tech companies have the most open PM roles:\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nHere’s a bonus chart that will blow your mind: the top places candidates are coming\n*from*\nwhen they are hired at one of the top companies hiring PMs. The left side of the chart includes the top five places people come from, meaning that many companies hire from business schools, but for Amazon, it’s their number one source of new hires.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2",
+      "token_count": 229
+    },
+    {
+      "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000005",
+      "contextualized_text": "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy\nWhich cities have the most open PM roles?\nThe San Francisco Bay Area continues to be the leading location for open product jobs at tech companies (see below). Seattle (mostly Amazon and Microsoft roles) is at #2 and New York is #4.\nInterestingly, Bengaluru, India, is now the most popular location for PM jobs outside the U.S., and the fourth most popular location globally (not counting “remote”).\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nThe San Francisco Bay Area is ascendant. In just the past two years, the share of open PM roles in the Bay Area went from 15.4% to over 20%—up 25% year over year! Over a fifth of all open PM roles at tech companies are in the Bay Area, and that share seems to be growing.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2",
+      "doc_item_refs": [
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/173",
+        "#/texts/74",
+        "#/texts/75",
+        "#/texts/174",
+        "#/texts/76"
+      ],
+      "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+      "headings": [
+        "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+        "Which cities have the most open PM roles?"
+      ],
+      "images": [
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/2f673843-2543-4f4a-a84b-eb8d4b02f75f_1760x1836.png"
+        },
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/1be75ef8-3ae1-4381-96f8-0527f397a1c7_1760x1724.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000005",
+        "chunk_sha256": "664ce21c2195b16bc424f93a6760ab8d365e109ca226712e5ece0b17e965a870",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/state-of-the-product-job-market-part-2.docling.json",
+        "docling_sha256": "edd4c8c564be03826a4a06b35258f9955e8be0073552b9f8539b04be48a2e088",
+        "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_sha256": "52a8e75012c024dcf1377b91608f00b746c8ca0eb8e1c7e48f69df19939745f4",
+        "fact_document_path": "chunks/v2/02-newsletters/state-of-the-product-job-market-part-2.chunks.json",
+        "headings": [
+          "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+          "Which cities have the most open PM roles?"
+        ],
+        "images": [
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/2f673843-2543-4f4a-a84b-eb8d4b02f75f_1760x1836.png"
+          },
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/1be75ef8-3ae1-4381-96f8-0527f397a1c7_1760x1724.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "raw_sha256": "d6a614cedbb17c3270ba9569dced95caf0ba49cadfc4cbdaae5b2628fab9199b",
+        "segment": {
+          "first_self_ref": "#/texts/72",
+          "item_count": 7,
+          "last_self_ref": "#/texts/76"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/173",
+          "#/texts/74",
+          "#/texts/75",
+          "#/texts/174",
+          "#/texts/76"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "The San Francisco Bay Area continues to be the leading location for open product jobs at tech companies (see below). Seattle (mostly Amazon and Microsoft roles) is at #2 and New York is #4.\nInterestingly, Bengaluru, India, is now the most popular location for PM jobs outside the U.S., and the fourth most popular location globally (not counting “remote”).\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nThe San Francisco Bay Area is ascendant. In just the past two years, the share of open PM roles in the Bay Area went from 15.4% to over 20%—up 25% year over year! Over a fifth of all open PM roles at tech companies are in the Bay Area, and that share seems to be growing.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2",
+      "token_count": 280
+    },
+    {
+      "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000006",
+      "contextualized_text": "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy\nWhat about remote product jobs?\nOver a fifth of open PM roles globally are OK with remote, but this number is quickly declining—from over 35% of open PM roles two years ago to 22.5% today—nearly a 35% drop. This will be an interesting metric to track.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2",
+      "doc_item_refs": [
+        "#/texts/78",
+        "#/texts/175",
+        "#/texts/79"
+      ],
+      "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+      "headings": [
+        "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+        "What about remote product jobs?"
+      ],
+      "images": [
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/50cb2c6e-8494-48b6-acd9-3b9a4b6e2af6_1760x1724.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000006",
+        "chunk_sha256": "0c4aa8d070728756b0f90ca48bb183b5d5dab8d0cb008e93871ccb5e26d94b3f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/state-of-the-product-job-market-part-2.docling.json",
+        "docling_sha256": "edd4c8c564be03826a4a06b35258f9955e8be0073552b9f8539b04be48a2e088",
+        "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_sha256": "52a8e75012c024dcf1377b91608f00b746c8ca0eb8e1c7e48f69df19939745f4",
+        "fact_document_path": "chunks/v2/02-newsletters/state-of-the-product-job-market-part-2.chunks.json",
+        "headings": [
+          "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+          "What about remote product jobs?"
+        ],
+        "images": [
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/50cb2c6e-8494-48b6-acd9-3b9a4b6e2af6_1760x1724.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "raw_sha256": "d6a614cedbb17c3270ba9569dced95caf0ba49cadfc4cbdaae5b2628fab9199b",
+        "segment": {
+          "first_self_ref": "#/texts/78",
+          "item_count": 3,
+          "last_self_ref": "#/texts/79"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/78",
+          "#/texts/175",
+          "#/texts/79"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "Over a fifth of open PM roles globally are OK with remote, but this number is quickly declining—from over 35% of open PM roles two years ago to 22.5% today—nearly a 35% drop. This will be an interesting metric to track.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2",
+      "token_count": 157
+    },
+    {
+      "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000007",
+      "contextualized_text": "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy\nWhat hard skills are most in demand for PMs?\nHere are the most mentioned skills, technologies, and products in PM job descriptions:\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nSQL is (and continues to be) the most mentioned hard skill in PM job descriptions. Although it’s declining over time, it’s still far above any other term.\n[Here’s some advice on getting more technical](https://www.lennysnewsletter.com/i/41371152/learn-the-basics)\n, including recommended SQL courses.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nThe fastest-growing term in PM job descriptions is, unsurprisingly, LLMs.\n[Here’s advice for getting better with LLM tools](https://www.lennysnewsletter.com/i/146639061/how-to-set-yourself-up-to-thrive-in-a-world-of-ai)\n.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nJira is staying strong throughout the turbulence of the job market, but there does appear to be a decline recently. . .\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nBlockchain was an extremely common term in PM job descriptions in 2022 and is now fading—though not as quickly as you’d expect. The TrueUp team’s theory here is that 100% of web3/crypto companies mention this term, which increases the absolute number of mentions of the term in the data. However, the number of roles at web3/crypto companies is down 40% year over year.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nOther common technologies that companies are looking for PMs to have experience with:\n- AWS/Azure/Google Cloud\n- Python\n- Tableau\n- Salesforce",
+      "doc_item_refs": [
+        "#/texts/81",
+        "#/texts/176",
+        "#/texts/82",
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/85",
+        "#/texts/177",
+        "#/texts/86",
+        "#/texts/87",
+        "#/texts/88",
+        "#/texts/89",
+        "#/texts/178",
+        "#/texts/90",
+        "#/texts/91",
+        "#/texts/179",
+        "#/texts/92",
+        "#/texts/93",
+        "#/texts/180",
+        "#/texts/94",
+        "#/texts/95",
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/98",
+        "#/texts/99"
+      ],
+      "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+      "headings": [
+        "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+        "What hard skills are most in demand for PMs?"
+      ],
+      "images": [
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000009",
+          "path": null,
+          "self_ref": "#/pictures/9",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a738634b-a85e-453a-9009-d0442e0a3350_1120x858.png"
+        },
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000010",
+          "path": null,
+          "self_ref": "#/pictures/10",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/914c2e9e-71df-4fb5-81ce-f3ffe2112a76_552x420.png"
+        },
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000011",
+          "path": null,
+          "self_ref": "#/pictures/11",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/6efbb1cc-6464-4673-bae4-8eeb238d0bac_552x420.png"
+        },
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000012",
+          "path": null,
+          "self_ref": "#/pictures/12",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/3d53f046-451f-4485-b733-aa75b8fd2b27_552x420.png"
+        },
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000013",
+          "path": null,
+          "self_ref": "#/pictures/13",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/f7412f74-aca7-42bb-9e8a-4d8a22e43427_552x420.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000007",
+        "chunk_sha256": "e6ad0744791e8562303c83b0ccd6c492670efe4fb10da8e9a7b36581b7648002",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/state-of-the-product-job-market-part-2.docling.json",
+        "docling_sha256": "edd4c8c564be03826a4a06b35258f9955e8be0073552b9f8539b04be48a2e088",
+        "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_sha256": "52a8e75012c024dcf1377b91608f00b746c8ca0eb8e1c7e48f69df19939745f4",
+        "fact_document_path": "chunks/v2/02-newsletters/state-of-the-product-job-market-part-2.chunks.json",
+        "headings": [
+          "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+          "What hard skills are most in demand for PMs?"
+        ],
+        "images": [
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000009",
+            "path": null,
+            "self_ref": "#/pictures/9",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a738634b-a85e-453a-9009-d0442e0a3350_1120x858.png"
+          },
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000010",
+            "path": null,
+            "self_ref": "#/pictures/10",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/914c2e9e-71df-4fb5-81ce-f3ffe2112a76_552x420.png"
+          },
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000011",
+            "path": null,
+            "self_ref": "#/pictures/11",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/6efbb1cc-6464-4673-bae4-8eeb238d0bac_552x420.png"
+          },
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000012",
+            "path": null,
+            "self_ref": "#/pictures/12",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/3d53f046-451f-4485-b733-aa75b8fd2b27_552x420.png"
+          },
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000013",
+            "path": null,
+            "self_ref": "#/pictures/13",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/f7412f74-aca7-42bb-9e8a-4d8a22e43427_552x420.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "raw_sha256": "d6a614cedbb17c3270ba9569dced95caf0ba49cadfc4cbdaae5b2628fab9199b",
+        "segment": {
+          "first_self_ref": "#/texts/81",
+          "item_count": 24,
+          "last_self_ref": "#/texts/99"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/81",
+          "#/texts/176",
+          "#/texts/82",
+          "#/texts/83",
+          "#/texts/84",
+          "#/texts/85",
+          "#/texts/177",
+          "#/texts/86",
+          "#/texts/87",
+          "#/texts/88",
+          "#/texts/89",
+          "#/texts/178",
+          "#/texts/90",
+          "#/texts/91",
+          "#/texts/179",
+          "#/texts/92",
+          "#/texts/93",
+          "#/texts/180",
+          "#/texts/94",
+          "#/texts/95",
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/98",
+          "#/texts/99"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "Here are the most mentioned skills, technologies, and products in PM job descriptions:\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nSQL is (and continues to be) the most mentioned hard skill in PM job descriptions. Although it’s declining over time, it’s still far above any other term.\n[Here’s some advice on getting more technical](https://www.lennysnewsletter.com/i/41371152/learn-the-basics)\n, including recommended SQL courses.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nThe fastest-growing term in PM job descriptions is, unsurprisingly, LLMs.\n[Here’s advice for getting better with LLM tools](https://www.lennysnewsletter.com/i/146639061/how-to-set-yourself-up-to-thrive-in-a-world-of-ai)\n.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nJira is staying strong throughout the turbulence of the job market, but there does appear to be a decline recently. . .\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nBlockchain was an extremely common term in PM job descriptions in 2022 and is now fading—though not as quickly as you’d expect. The TrueUp team’s theory here is that 100% of web3/crypto companies mention this term, which increases the absolute number of mentions of the term in the data. However, the number of roles at web3/crypto companies is down 40% year over year.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nOther common technologies that companies are looking for PMs to have experience with:\n- AWS/Azure/Google Cloud\n- Python\n- Tableau\n- Salesforce",
+      "token_count": 522
+    },
+    {
+      "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000008",
+      "contextualized_text": "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy\nZooming out, which tech roles are growing fastest, and which slowest?\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nIt won’t surprise anyone that machine learning and data engineering roles are the fastest-growing in tech right now, growing 79% and 55% year over year, respectively. This is building on the growth of last year, when companies were already getting excited about AI, so there’s only increasing demand for these roles.\nThe next-fastest-growing role right now is, interestingly, recruiters. This because the role essentially fell off a cliff in 2022 (-73%), and it’s nice to see it rebounding. However, it’s still down more than 48% from its peak.\nTwo roles that are shrinking the fastest are diversity and scrum masters. There are only 70 open “diversity” roles in tech right now, and 74 scrum master jobs (not a single one at a FAANG).\nOther functions that are growing slowest at tech companies currently:\n- Design\n- User research\n- Security (surprisingly!)\nHere’s a fascinating look at how various HR roles have fared over the past five years. DEI is 📉, while planning and analytics is 📈.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nIf you read\n[my previous post on the job market](https://www.lennysnewsletter.com/p/new-data-on-the-product-job-market)\n, you may be wondering why in that post I showed growth, user research, and product owners as the fastest-growing roles, while here we’re not seeing that. The explanation is that in my previous post, we looked at roles across\n*all*\ncompanies hiring in the U.S. The findings I’m sharing here are narrowly focused on just tech companies. So what this tells us is that there is indeed an acceleration in these roles—just not at tech companies. Instead, companies like banks, telecoms, and packaged-goods companies are hiring for these roles. More on this below.",
+      "doc_item_refs": [
+        "#/texts/181",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/103",
+        "#/texts/104",
+        "#/texts/105",
+        "#/texts/106",
+        "#/texts/107",
+        "#/texts/108",
+        "#/texts/109",
+        "#/texts/182",
+        "#/texts/110",
+        "#/texts/111",
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/114",
+        "#/texts/115"
+      ],
+      "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+      "headings": [
+        "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+        "Zooming out, which tech roles are growing fastest, and which slowest?"
+      ],
+      "images": [
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000014",
+          "path": null,
+          "self_ref": "#/pictures/14",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/34d74a79-7589-4ba6-9845-00d3ed048d24_978x1147.png"
+        },
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000015",
+          "path": null,
+          "self_ref": "#/pictures/15",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/65317ca2-64c6-4cb9-8fe0-78312edaff5b_1588x1150.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000008",
+        "chunk_sha256": "8c73248b82929be02e7a61a15569133758e7667efb2f42fe77fa8fa434c9686a",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/state-of-the-product-job-market-part-2.docling.json",
+        "docling_sha256": "edd4c8c564be03826a4a06b35258f9955e8be0073552b9f8539b04be48a2e088",
+        "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_sha256": "52a8e75012c024dcf1377b91608f00b746c8ca0eb8e1c7e48f69df19939745f4",
+        "fact_document_path": "chunks/v2/02-newsletters/state-of-the-product-job-market-part-2.chunks.json",
+        "headings": [
+          "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+          "Zooming out, which tech roles are growing fastest, and which slowest?"
+        ],
+        "images": [
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000014",
+            "path": null,
+            "self_ref": "#/pictures/14",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/34d74a79-7589-4ba6-9845-00d3ed048d24_978x1147.png"
+          },
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000015",
+            "path": null,
+            "self_ref": "#/pictures/15",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/65317ca2-64c6-4cb9-8fe0-78312edaff5b_1588x1150.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "raw_sha256": "d6a614cedbb17c3270ba9569dced95caf0ba49cadfc4cbdaae5b2628fab9199b",
+        "segment": {
+          "first_self_ref": "#/texts/181",
+          "item_count": 17,
+          "last_self_ref": "#/texts/115"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/181",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/103",
+          "#/texts/104",
+          "#/texts/105",
+          "#/texts/106",
+          "#/texts/107",
+          "#/texts/108",
+          "#/texts/109",
+          "#/texts/182",
+          "#/texts/110",
+          "#/texts/111",
+          "#/texts/112",
+          "#/texts/113",
+          "#/texts/114",
+          "#/texts/115"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "Image from State of the product job market, part 2\nImage from State of the product job market, part 2\nIt won’t surprise anyone that machine learning and data engineering roles are the fastest-growing in tech right now, growing 79% and 55% year over year, respectively. This is building on the growth of last year, when companies were already getting excited about AI, so there’s only increasing demand for these roles.\nThe next-fastest-growing role right now is, interestingly, recruiters. This because the role essentially fell off a cliff in 2022 (-73%), and it’s nice to see it rebounding. However, it’s still down more than 48% from its peak.\nTwo roles that are shrinking the fastest are diversity and scrum masters. There are only 70 open “diversity” roles in tech right now, and 74 scrum master jobs (not a single one at a FAANG).\nOther functions that are growing slowest at tech companies currently:\n- Design\n- User research\n- Security (surprisingly!)\nHere’s a fascinating look at how various HR roles have fared over the past five years. DEI is 📉, while planning and analytics is 📈.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nIf you read\n[my previous post on the job market](https://www.lennysnewsletter.com/p/new-data-on-the-product-job-market)\n, you may be wondering why in that post I showed growth, user research, and product owners as the fastest-growing roles, while here we’re not seeing that. The explanation is that in my previous post, we looked at roles across\n*all*\ncompanies hiring in the U.S. The findings I’m sharing here are narrowly focused on just tech companies. So what this tells us is that there is indeed an acceleration in these roles—just not at tech companies. Instead, companies like banks, telecoms, and packaged-goods companies are hiring for these roles. More on this below.",
+      "token_count": 527
+    },
+    {
+      "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000009",
+      "contextualized_text": "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy\nWhat have layoffs looked like over the past year?\nThe good news is that we are on pace to have 30%\n*fewer*\npeople affected by layoffs in tech this year. So far in 2024, there have been 859 layoff events at tech companies, with 213,879 people impacted. Still not great, but a positive trend.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2",
+      "doc_item_refs": [
+        "#/texts/117",
+        "#/texts/118",
+        "#/texts/119",
+        "#/texts/183",
+        "#/texts/120"
+      ],
+      "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+      "headings": [
+        "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+        "What have layoffs looked like over the past year?"
+      ],
+      "images": [
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000016",
+          "path": null,
+          "self_ref": "#/pictures/16",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/9b3cb108-ed25-4e7c-be6e-13ba9c163929_1486x956.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000009",
+        "chunk_sha256": "7a9403915cc5d25b66c49b51b15e85ee76d4c6e013ff388a107add38fc0015fe",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/state-of-the-product-job-market-part-2.docling.json",
+        "docling_sha256": "edd4c8c564be03826a4a06b35258f9955e8be0073552b9f8539b04be48a2e088",
+        "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_sha256": "52a8e75012c024dcf1377b91608f00b746c8ca0eb8e1c7e48f69df19939745f4",
+        "fact_document_path": "chunks/v2/02-newsletters/state-of-the-product-job-market-part-2.chunks.json",
+        "headings": [
+          "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+          "What have layoffs looked like over the past year?"
+        ],
+        "images": [
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000016",
+            "path": null,
+            "self_ref": "#/pictures/16",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/9b3cb108-ed25-4e7c-be6e-13ba9c163929_1486x956.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "raw_sha256": "d6a614cedbb17c3270ba9569dced95caf0ba49cadfc4cbdaae5b2628fab9199b",
+        "segment": {
+          "first_self_ref": "#/texts/117",
+          "item_count": 5,
+          "last_self_ref": "#/texts/120"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/117",
+          "#/texts/118",
+          "#/texts/119",
+          "#/texts/183",
+          "#/texts/120"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "The good news is that we are on pace to have 30%\n*fewer*\npeople affected by layoffs in tech this year. So far in 2024, there have been 859 layoff events at tech companies, with 213,879 people impacted. Still not great, but a positive trend.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2",
+      "token_count": 170
+    },
+    {
+      "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000010",
+      "contextualized_text": "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy\nI want to work in AI—what roles are AI companies hiring for?\nAI companies are hiring like mad:\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nHowever, they are almost exclusively hiring engineers and data scientists. Of the\n[16,935 job openings](https://trueup.io/ai)\nat the top AI companies (including AI teams at non-AI-first companies), most of the open roles are engineering and data science, followed by business ops and then sales. However, there are\n[456 AI PM openings](https://trueup.io/ai/product)\n, so if you’re a PM, there’s a chance.",
+      "doc_item_refs": [
+        "#/texts/122",
+        "#/texts/184",
+        "#/texts/123",
+        "#/texts/124",
+        "#/texts/125",
+        "#/texts/126",
+        "#/texts/127",
+        "#/texts/128"
+      ],
+      "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+      "headings": [
+        "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+        "I want to work in AI—what roles are AI companies hiring for?"
+      ],
+      "images": [
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000017",
+          "path": null,
+          "self_ref": "#/pictures/17",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/9c6d4840-d3eb-4be8-9528-3e7aefcb8850_1588x1150.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000010",
+        "chunk_sha256": "e0a007c7d0cda781908c51d0861a67cc665c0ddf447b018ea6abd0d0901b4b91",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/state-of-the-product-job-market-part-2.docling.json",
+        "docling_sha256": "edd4c8c564be03826a4a06b35258f9955e8be0073552b9f8539b04be48a2e088",
+        "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_sha256": "52a8e75012c024dcf1377b91608f00b746c8ca0eb8e1c7e48f69df19939745f4",
+        "fact_document_path": "chunks/v2/02-newsletters/state-of-the-product-job-market-part-2.chunks.json",
+        "headings": [
+          "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+          "I want to work in AI—what roles are AI companies hiring for?"
+        ],
+        "images": [
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000017",
+            "path": null,
+            "self_ref": "#/pictures/17",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/9c6d4840-d3eb-4be8-9528-3e7aefcb8850_1588x1150.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "raw_sha256": "d6a614cedbb17c3270ba9569dced95caf0ba49cadfc4cbdaae5b2628fab9199b",
+        "segment": {
+          "first_self_ref": "#/texts/122",
+          "item_count": 8,
+          "last_self_ref": "#/texts/128"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/122",
+          "#/texts/184",
+          "#/texts/123",
+          "#/texts/124",
+          "#/texts/125",
+          "#/texts/126",
+          "#/texts/127",
+          "#/texts/128"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "AI companies are hiring like mad:\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nHowever, they are almost exclusively hiring engineers and data scientists. Of the\n[16,935 job openings](https://trueup.io/ai)\nat the top AI companies (including AI teams at non-AI-first companies), most of the open roles are engineering and data science, followed by business ops and then sales. However, there are\n[456 AI PM openings](https://trueup.io/ai/product)\n, so if you’re a PM, there’s a chance.",
+      "token_count": 231
+    },
+    {
+      "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000011",
+      "contextualized_text": "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy\nAre there any emerging job types I should consider exploring?\nTwo that I want to follow:\n1. **AI product managers:** Of the 456 open AI PM roles mentioned above, 178 are at AI-first companies, and the remaining 278 roles are at tech companies that are not primarily AI-focused but have PM roles dedicated to AI projects. It’ll be interesting to see how quickly these PM roles grow.\n2. **Prompt engineer:** This is still a relatively rare role, but I want to see if this becomes a thing or stays tiny. For now, here are a few open roles for prompt engineers:\n3. [Amazon—Sr. Prompt Engineer](https://www.amazon.jobs/en/jobs/2724134/sr-prompt-engineer-selling-partner-protection-operations-sepo-product-team) 2. [TikTok—Product Operation Manager, AI Ops (Prompt Engineering Specialization)](https://careers.tiktok.com/position/7353507805650127154/detail) 3. [Klarity—GenAI Automation–Prompt Engineer](https://jobs.ashbyhq.com/klarity/9b1a72b6-285a-4e07-91bd-c5300d2e684f)",
+      "doc_item_refs": [
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/134",
+        "#/texts/137"
+      ],
+      "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+      "headings": [
+        "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+        "Are there any emerging job types I should consider exploring?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000011",
+        "chunk_sha256": "200def6d941a2c87b7455bf2fd34f40a84438fc70fa649318a6d51d8aa2a660e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/state-of-the-product-job-market-part-2.docling.json",
+        "docling_sha256": "edd4c8c564be03826a4a06b35258f9955e8be0073552b9f8539b04be48a2e088",
+        "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_sha256": "52a8e75012c024dcf1377b91608f00b746c8ca0eb8e1c7e48f69df19939745f4",
+        "fact_document_path": "chunks/v2/02-newsletters/state-of-the-product-job-market-part-2.chunks.json",
+        "headings": [
+          "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+          "Are there any emerging job types I should consider exploring?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "raw_sha256": "d6a614cedbb17c3270ba9569dced95caf0ba49cadfc4cbdaae5b2628fab9199b",
+        "segment": {
+          "first_self_ref": "#/texts/130",
+          "item_count": 4,
+          "last_self_ref": "#/texts/137"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/134",
+          "#/texts/137"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "Two that I want to follow:\n1. **AI product managers:** Of the 456 open AI PM roles mentioned above, 178 are at AI-first companies, and the remaining 278 roles are at tech companies that are not primarily AI-focused but have PM roles dedicated to AI projects. It’ll be interesting to see how quickly these PM roles grow.\n2. **Prompt engineer:** This is still a relatively rare role, but I want to see if this becomes a thing or stays tiny. For now, here are a few open roles for prompt engineers:\n3. [Amazon—Sr. Prompt Engineer](https://www.amazon.jobs/en/jobs/2724134/sr-prompt-engineer-selling-partner-protection-operations-sepo-product-team) 2. [TikTok—Product Operation Manager, AI Ops (Prompt Engineering Specialization)](https://careers.tiktok.com/position/7353507805650127154/detail) 3. [Klarity—GenAI Automation–Prompt Engineer](https://jobs.ashbyhq.com/klarity/9b1a72b6-285a-4e07-91bd-c5300d2e684f)",
+      "token_count": 367
+    },
+    {
+      "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000012",
+      "contextualized_text": "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy\nWhat’s going on with the product owner role?\nFinally, in the last report, I shared that\n[product owners are the third-fastest-growing role in tech](https://www.lennysnewsletter.com/i/146638817/product-owners-are-owning-it)\n. Digging further with this new data, there are two parts to the story:\n1. POs are indeed growing quickly at non-tech companies (e.g. banks, telecoms)\n2. POs are essentially irrelevant at tech companies. There are only 230 open product owner roles at tech companies, and not a single one at a FAANG company\nOut of curiosity, we dug into what roles POs come from, and most of them were previously business analysts, project managers, and . . . product managers.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nI’m super-excited to be bringing you this data, and I’m going to continue doing it. If there’s anything you’d love to see more of or less of, or to dig into further, please let me know in the comments 🙏\n[Leave a comment](https://www.lennysnewsletter.com/p/state-of-the-product-job-market-part/comments)\n*Have a fulfilling and productive week 🙏*",
+      "doc_item_refs": [
+        "#/texts/144",
+        "#/texts/145",
+        "#/texts/146",
+        "#/texts/147",
+        "#/texts/148",
+        "#/texts/149",
+        "#/texts/185",
+        "#/texts/150",
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/153"
+      ],
+      "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+      "headings": [
+        "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+        "What’s going on with the product owner role?"
+      ],
+      "images": [
+        {
+          "caption": "Image from State of the product job market, part 2",
+          "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000018",
+          "path": null,
+          "self_ref": "#/pictures/18",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/7ac02bee-3208-4ce0-968b-af87a3a33cb8_1588x1150.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000012",
+        "chunk_sha256": "1d3bbbf0606e6c8fcc67a1030341eb7d56e37d6ba71cd088e6d6cb4cdeef81d2",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/state-of-the-product-job-market-part-2.docling.json",
+        "docling_sha256": "edd4c8c564be03826a4a06b35258f9955e8be0073552b9f8539b04be48a2e088",
+        "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_sha256": "52a8e75012c024dcf1377b91608f00b746c8ca0eb8e1c7e48f69df19939745f4",
+        "fact_document_path": "chunks/v2/02-newsletters/state-of-the-product-job-market-part-2.chunks.json",
+        "headings": [
+          "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+          "What’s going on with the product owner role?"
+        ],
+        "images": [
+          {
+            "caption": "Image from State of the product job market, part 2",
+            "image_id": "02-newsletters/state-of-the-product-job-market-part-2.md#image=000018",
+            "path": null,
+            "self_ref": "#/pictures/18",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/7ac02bee-3208-4ce0-968b-af87a3a33cb8_1588x1150.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "raw_sha256": "d6a614cedbb17c3270ba9569dced95caf0ba49cadfc4cbdaae5b2628fab9199b",
+        "segment": {
+          "first_self_ref": "#/texts/144",
+          "item_count": 11,
+          "last_self_ref": "#/texts/153"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/144",
+          "#/texts/145",
+          "#/texts/146",
+          "#/texts/147",
+          "#/texts/148",
+          "#/texts/149",
+          "#/texts/185",
+          "#/texts/150",
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/153"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "Finally, in the last report, I shared that\n[product owners are the third-fastest-growing role in tech](https://www.lennysnewsletter.com/i/146638817/product-owners-are-owning-it)\n. Digging further with this new data, there are two parts to the story:\n1. POs are indeed growing quickly at non-tech companies (e.g. banks, telecoms)\n2. POs are essentially irrelevant at tech companies. There are only 230 open product owner roles at tech companies, and not a single one at a FAANG company\nOut of curiosity, we dug into what roles POs come from, and most of them were previously business analysts, project managers, and . . . product managers.\nImage from State of the product job market, part 2\nImage from State of the product job market, part 2\nI’m super-excited to be bringing you this data, and I’m going to continue doing it. If there’s anything you’d love to see more of or less of, or to dig into further, please let me know in the comments 🙏\n[Leave a comment](https://www.lennysnewsletter.com/p/state-of-the-product-job-market-part/comments)\n*Have a fulfilling and productive week 🙏*",
+      "token_count": 374
+    },
+    {
+      "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000013",
+      "contextualized_text": "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy\n👀 Hiring? Or looking for a new job?\nI’ve got a white-glove recruiting service for senior product roles, working with a few select companies at a time. If you’re hiring, apply below.\n[Apply to join](https://www.lennysjobs.com/)\nIf you’re exploring new opportunities yourself, use the same button above to sign up. We’ll send over personalized opportunities from hand-selected companies if we think there’s a fit.\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/155",
+        "#/texts/156",
+        "#/texts/157",
+        "#/texts/158",
+        "#/texts/159",
+        "#/texts/160",
+        "#/texts/161",
+        "#/texts/162",
+        "#/texts/163",
+        "#/texts/164",
+        "#/texts/165",
+        "#/texts/166"
+      ],
+      "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+      "headings": [
+        "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+        "👀 Hiring? Or looking for a new job?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/state-of-the-product-job-market-part-2.md#chunk=000013",
+        "chunk_sha256": "a868806cc4d6d453c97f6bada8987ac397960ccc4ea39b9847cd8a0d2edfe323",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/state-of-the-product-job-market-part-2.docling.json",
+        "docling_sha256": "edd4c8c564be03826a4a06b35258f9955e8be0073552b9f8539b04be48a2e088",
+        "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "enhanced_sha256": "52a8e75012c024dcf1377b91608f00b746c8ca0eb8e1c7e48f69df19939745f4",
+        "fact_document_path": "chunks/v2/02-newsletters/state-of-the-product-job-market-part-2.chunks.json",
+        "headings": [
+          "State of the product job market, part 2 — Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more | 2024-09-24 | Tags: product-management, career, leadership, ai, newsletter, strategy",
+          "👀 Hiring? Or looking for a new job?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/state-of-the-product-job-market-part-2.md",
+        "raw_sha256": "d6a614cedbb17c3270ba9569dced95caf0ba49cadfc4cbdaae5b2628fab9199b",
+        "segment": {
+          "first_self_ref": "#/texts/155",
+          "item_count": 12,
+          "last_self_ref": "#/texts/166"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/155",
+          "#/texts/156",
+          "#/texts/157",
+          "#/texts/158",
+          "#/texts/159",
+          "#/texts/160",
+          "#/texts/161",
+          "#/texts/162",
+          "#/texts/163",
+          "#/texts/164",
+          "#/texts/165",
+          "#/texts/166"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "I’ve got a white-glove recruiting service for senior product roles, working with a few select companies at a time. If you’re hiring, apply below.\n[Apply to join](https://www.lennysjobs.com/)\nIf you’re exploring new opportunities yourself, use the same button above to sign up. We’ll send over personalized opportunities from hand-selected companies if we think there’s a fit.\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "token_count": 326
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/state-of-the-product-job-market-part-2.docling.json",
+  "docling_sha256": "edd4c8c564be03826a4a06b35258f9955e8be0073552b9f8539b04be48a2e088",
+  "document_id": "02-newsletters/state-of-the-product-job-market-part-2.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/state-of-the-product-job-market-part-2.md",
+  "enhanced_sha256": "52a8e75012c024dcf1377b91608f00b746c8ca0eb8e1c7e48f69df19939745f4",
+  "fact_document_path": "chunks/v2/02-newsletters/state-of-the-product-job-market-part-2.chunks.json",
+  "metadata": {
+    "date": "2024-09-24",
+    "subtitle": "Which companies are hiring PMs, what hard skills are most in demand, trends in remote work, whether there’s been a shift to senior hires, what roles AI companies are hiring for, and so much more",
+    "tags": [
+      "product-management",
+      "career",
+      "leadership",
+      "ai",
+      "newsletter",
+      "strategy"
+    ],
+    "title": "State of the product job market, part 2",
+    "type": "newsletter",
+    "word_count": 2398
+  },
+  "raw_path": "corpus/raw/02-newsletters/state-of-the-product-job-market-part-2.md",
+  "raw_sha256": "d6a614cedbb17c3270ba9569dced95caf0ba49cadfc4cbdaae5b2628fab9199b",
+  "schema_version": "1",
+  "title": "State of the product job market, part 2"
+}

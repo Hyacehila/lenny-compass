@@ -1,0 +1,1813 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000000",
+      "contextualized_text": "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization\n[Colin Matthews](https://www.linkedin.com/in/colinmatthews-pm/)\nholds the distinct honor of having not one but\n*two*\nposts in my top 10\n[most popular posts of all time](https://www.lennysnewsletter.com/?sort=top)\n. Today he’s back with a post that I suspect will make it three.\nI love Colin’s stuff because it’s always rooted in the real-life problems that product builders actually run into with AI tools—and he articulates the solutions so simply and practically. I’m excited to keep collaborating with him to help us all learn how to go from hype to reality. Let’s get into it.\n*For more from Colin, check out his*\n[*free 45-minute live online class*](https://maven.com/p/becb6f/product-development-lifecycle-with-ai-prototyping)\n*coming up on July 8th, and his course*\n[*AI Prototyping for Product Managers*](https://maven.com/tech-for-product/ai-prototyping-for-product-managers?promoCode=LENNYSLIST)\n*(which kicks off on June 30th; use code LENNYSLIST to get $100 off). You can also*\n[*book Colin for one-day team workshops*](https://teams.techforproduct.com/)\n*with your team.*\n*P.S. If you prefer, you can listen to this post in convenient podcast form:*\n[*Spotify*](https://open.spotify.com/show/0IIunA06qMtrcQLfypTooj)\n*/*\n[*Apple*](https://podcasts.apple.com/us/podcast/lennys-reads/id1810314693)\n*/*\n[*YouTube*](https://www.youtube.com/@lennysreads)\n*.*\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nSince I first shared a\n[guide to AI prototyping for product managers](https://www.lennysnewsletter.com/p/a-guide-to-ai-prototyping-for-product)\nin January, AI prototyping tools have become immensely popular. It’s now more common than not for product teams to use v0, Bolt, Replit, or Lovable to build a quick prototype to share their ideas and get feedback.\nAfter having taught more than 500 PMs over the past five months how to get the best out of these tools (along with another 10,000 in numerous free online lightning lessons), I’ve seen two questions come up most often when people try to use these tools in real life:\n1. How do you make your prototypes look good enough to show customers or senior stakeholders?\n2. How do you successfully adopt these tools as a team, instead of a lot of individuals working in silos?\nThese common questions are the reasons product, design, and engineering teams are struggling to figure out team workflows for AI tools. Without handoff guidance or high-quality prototypes, AI prototyping is left to explorations and experiments, which are hard to operationalize and scale.\nIn this post, I’ll walk you through three ways to create component libraries that consistently create great mocks; team workflows to reduce rework; and a step-by-step guide on how prototypes should be used. I’ll also give you plenty of time-, token-, and headache-saving tricks for most popular AI prototyping tools. I’ll be including\n[v0](https://v0.dev/)\n,\n[Bolt](https://bolt.new/)\n,\n[Cursor](https://www.cursor.com/)\n, and\n[Magic Patterns](https://www.magicpatterns.com/?via=tfpl1)\nin this post, but these techniques work with any AI prototyping tool.\nTo give you a quick example of what’s possible, here’s an Airbnb prototype I built with a single prompt: “\n*Build a homepage and a listing details page.”*\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nLet’s get started!",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/317",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/318",
+        "#/texts/41",
+        "#/texts/42"
+      ],
+      "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "headings": [
+        "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/2e8ff549-677d-4cce-b38c-8176c8c461dc_1456x1098.png"
+        },
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/83eb4332-a6d7-430c-a570-c8b023ac0681_810x453.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000000",
+        "chunk_sha256": "1a9496d6cf1110408eba837e9e849ef89505f58b961f22e8270e84bbd269f808",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+        "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+        "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+        "headings": [
+          "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/2e8ff549-677d-4cce-b38c-8176c8c461dc_1456x1098.png"
+          },
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/83eb4332-a6d7-430c-a570-c8b023ac0681_810x453.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 44,
+          "last_self_ref": "#/texts/42"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/317",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32",
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/40",
+          "#/texts/318",
+          "#/texts/41",
+          "#/texts/42"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "[Colin Matthews](https://www.linkedin.com/in/colinmatthews-pm/)\nholds the distinct honor of having not one but\n*two*\nposts in my top 10\n[most popular posts of all time](https://www.lennysnewsletter.com/?sort=top)\n. Today he’s back with a post that I suspect will make it three.\nI love Colin’s stuff because it’s always rooted in the real-life problems that product builders actually run into with AI tools—and he articulates the solutions so simply and practically. I’m excited to keep collaborating with him to help us all learn how to go from hype to reality. Let’s get into it.\n*For more from Colin, check out his*\n[*free 45-minute live online class*](https://maven.com/p/becb6f/product-development-lifecycle-with-ai-prototyping)\n*coming up on July 8th, and his course*\n[*AI Prototyping for Product Managers*](https://maven.com/tech-for-product/ai-prototyping-for-product-managers?promoCode=LENNYSLIST)\n*(which kicks off on June 30th; use code LENNYSLIST to get $100 off). You can also*\n[*book Colin for one-day team workshops*](https://teams.techforproduct.com/)\n*with your team.*\n*P.S. If you prefer, you can listen to this post in convenient podcast form:*\n[*Spotify*](https://open.spotify.com/show/0IIunA06qMtrcQLfypTooj)\n*/*\n[*Apple*](https://podcasts.apple.com/us/podcast/lennys-reads/id1810314693)\n*/*\n[*YouTube*](https://www.youtube.com/@lennysreads)\n*.*\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nSince I first shared a\n[guide to AI prototyping for product managers](https://www.lennysnewsletter.com/p/a-guide-to-ai-prototyping-for-product)\nin January, AI prototyping tools have become immensely popular. It’s now more common than not for product teams to use v0, Bolt, Replit, or Lovable to build a quick prototype to share their ideas and get feedback.\nAfter having taught more than 500 PMs over the past five months how to get the best out of these tools (along with another 10,000 in numerous free online lightning lessons), I’ve seen two questions come up most often when people try to use these tools in real life:\n1. How do you make your prototypes look good enough to show customers or senior stakeholders?\n2. How do you successfully adopt these tools as a team, instead of a lot of individuals working in silos?\nThese common questions are the reasons product, design, and engineering teams are struggling to figure out team workflows for AI tools. Without handoff guidance or high-quality prototypes, AI prototyping is left to explorations and experiments, which are hard to operationalize and scale.\nIn this post, I’ll walk you through three ways to create component libraries that consistently create great mocks; team workflows to reduce rework; and a step-by-step guide on how prototypes should be used. I’ll also give you plenty of time-, token-, and headache-saving tricks for most popular AI prototyping tools. I’ll be including\n[v0](https://v0.dev/)\n,\n[Bolt](https://bolt.new/)\n,\n[Cursor](https://www.cursor.com/)\n, and\n[Magic Patterns](https://www.magicpatterns.com/?via=tfpl1)\nin this post, but these techniques work with any AI prototyping tool.\nTo give you a quick example of what’s possible, here’s an Airbnb prototype I built with a single prompt: “\n*Build a homepage and a listing details page.”*\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nLet’s get started!",
+      "token_count": 1031
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000001",
+      "contextualized_text": "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization\nComponent libraries\nComponent libraries are the first big improvement you can bring to your team. They allow you to maintain branding and consistent styling without having to manually clean up each prototype to look like your product. Building a component library will take some up-front effort, but you’re also building reusable assets that will greatly improve the quality of your prototypes going forward and save you time after the initial investment.\nThere are three different approaches to building component libraries with AI prototyping tools, with different advantages and tradeoffs in effort and output:\n1. Screenshots\n2. Chrome extensions\n3. Code\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nLet’s go through each and discuss their tradeoffs.",
+      "doc_item_refs": [
+        "#/texts/44",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/48",
+        "#/texts/319",
+        "#/texts/49",
+        "#/texts/50"
+      ],
+      "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "headings": [
+        "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+        "Component libraries"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/34d32270-55dc-4a08-8b81-9fbf7c058613_2912x2140.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000001",
+        "chunk_sha256": "7d102d6a9ed582293b071310bedd58d9e8fb394760402dc4cb387c07a8be756c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+        "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+        "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+        "headings": [
+          "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+          "Component libraries"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/34d32270-55dc-4a08-8b81-9fbf7c058613_2912x2140.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+        "segment": {
+          "first_self_ref": "#/texts/44",
+          "item_count": 8,
+          "last_self_ref": "#/texts/50"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/44",
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/48",
+          "#/texts/319",
+          "#/texts/49",
+          "#/texts/50"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "Component libraries are the first big improvement you can bring to your team. They allow you to maintain branding and consistent styling without having to manually clean up each prototype to look like your product. Building a component library will take some up-front effort, but you’re also building reusable assets that will greatly improve the quality of your prototypes going forward and save you time after the initial investment.\nThere are three different approaches to building component libraries with AI prototyping tools, with different advantages and tradeoffs in effort and output:\n1. Screenshots\n2. Chrome extensions\n3. Code\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nLet’s go through each and discuss their tradeoffs.",
+      "token_count": 212
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000002",
+      "contextualized_text": "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization\nComponent libraries\nMethod 1: Screenshots\nScreenshots are the easiest way to start building a component library. You don’t need any technical expertise, and this approach works with any tool.\nStart by prompting your favorite AI prototyping tool with the following:\n```\nYou are tasked with creating a component library based on a screenshot using React, and Tailwind CSS.\n```\n```\nAll components should be custom-made to match the screenshot as closely as possible.\n```\n```\nFollow these instructions carefully:\n```\n```\n1. Analyze the provided screenshot.\n```\n```\n2. Identify distinct UI components in the screenshot. These may include, but are not limited to, ◦ Buttons ◦ Input fields ◦ Navigation bars ◦ Cards ◦ Modals ◦ Typography elements\n```\n```\n3. For each identified component:\n```\n```\na. Create a React functional component.\n```\n```\nb. Use Tailwind CSS classes to style the component, matching the visual design in the screenshot.\n```\n```\nc. Ensure the component is responsive and accessible.\n```\n```\nd. Add any necessary props for customization.\n```\n```\ne. Include a brief comment describing the component’s purpose.\n```\n```\n4. After creating all individual components, create an index page that imports and displays each component with example usage.\n```\n```\nRemember to use only custom-made components and Tailwind CSS classes. Do not use any external libraries or pre-built components.\n```\n```\nStrive to match the visual design in the screenshot as closely as possible while maintaining good coding practices and component reusability.\n```\nLet’s give this a try with v0, re-creating a Google Calendar UI. Remember to include a screenshot!\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nHere’s our initial result:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nOne quick note: You may end up with a reproduction of the screenshot instead of a list of components. These AI tools are very tuned to reproduce screenshots, so you may need to push it with one more prompt, like\n*“Instead of showing me a page that re-creates the UI, the index page should be a list of components in the component library.”*\nFrom here, you can continue adding more components by pasting in additional screenshots with the prompt\n*“Add these components as well.”*\nIf you want to refine the components, I recommend starting with this prompt:\n```\n“List the differences between the screenshot and your implementation. How can you match the design more exactly? Don’t code.”\n```\nThis technique (called reflection) makes it easy to leverage the AI to quickly make UX improvements.\nOnce you have your component library complete, pause! You’ll want to create a fork of the project and start to use your components in a new project. Your forked project will automatically reuse your components to assemble your design like Legos. Again, this technique works in any of your favorite AI prototyping tools. (Here’s how to create a fork in each AI prototyping tool:\n[Bolt](https://support.bolt.new/building/using-bolt/projects-files#duplicate-projects)\n,\n[v0](https://www.perplexity.ai/search/how-to-create-a-fork-in-v0-m6V2aWHwQZqx8UCQZWzEgg)\n,\n[Lovable](https://docs.lovable.dev/user-guides/quickstart#remix-an-existing-project)\n,\n[Replit](https://docs.replit.com/getting-started/quickstarts/remix-an-app)\n,\n[Magic Patterns](https://www.perplexity.ai/search/how-to-create-a-fork-in-magic-tGrNnh7RRWOZvNSDMrNeyg)\n.)\nFor example, we can prototype an AI agent in Google Calendar that blocks deep-work slots with a simple prompt like\n*“Create a Google Calendar main page view that has an AI scheduling assistant to recommend deep-work blocks.”*\nHere’s the result:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nSpending time to improve your components is worth it. Every prototype made using them has better visual quality, is less distracting to stakeholders, and allows conversations to focus on the specific elements that are being tested.",
+      "doc_item_refs": [
+        "#/texts/52",
+        "#/texts/53",
+        "#/texts/54",
+        "#/texts/55",
+        "#/texts/56",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60",
+        "#/texts/61",
+        "#/texts/62",
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65",
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/320",
+        "#/texts/69",
+        "#/texts/70",
+        "#/texts/321",
+        "#/texts/71",
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/74",
+        "#/texts/75",
+        "#/texts/76",
+        "#/texts/77",
+        "#/texts/78",
+        "#/texts/79",
+        "#/texts/80",
+        "#/texts/81",
+        "#/texts/82",
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/87",
+        "#/texts/88",
+        "#/texts/89",
+        "#/texts/90",
+        "#/texts/91",
+        "#/texts/92",
+        "#/texts/322",
+        "#/texts/93",
+        "#/texts/94"
+      ],
+      "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "headings": [
+        "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+        "Component libraries",
+        "Method 1: Screenshots"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/f6b3e2f9-7e1c-4d0f-868c-8a78df59e155_796x613.jpeg"
+        },
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/883135d3-0c4a-4dda-9fc0-de2d932f25d9_1334x748.gif"
+        },
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/2e5aab6f-96f0-4f41-8056-5b3d6e9404ae_1456x695.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000002",
+        "chunk_sha256": "485da8cce2f4a6f6c8ce58e25d8732784561765a505b88ea3d9b2fd752e59c70",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+        "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+        "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+        "headings": [
+          "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+          "Component libraries",
+          "Method 1: Screenshots"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/f6b3e2f9-7e1c-4d0f-868c-8a78df59e155_796x613.jpeg"
+          },
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/883135d3-0c4a-4dda-9fc0-de2d932f25d9_1334x748.gif"
+          },
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/2e5aab6f-96f0-4f41-8056-5b3d6e9404ae_1456x695.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+        "segment": {
+          "first_self_ref": "#/texts/52",
+          "item_count": 46,
+          "last_self_ref": "#/texts/94"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/52",
+          "#/texts/53",
+          "#/texts/54",
+          "#/texts/55",
+          "#/texts/56",
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/60",
+          "#/texts/61",
+          "#/texts/62",
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65",
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/320",
+          "#/texts/69",
+          "#/texts/70",
+          "#/texts/321",
+          "#/texts/71",
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/74",
+          "#/texts/75",
+          "#/texts/76",
+          "#/texts/77",
+          "#/texts/78",
+          "#/texts/79",
+          "#/texts/80",
+          "#/texts/81",
+          "#/texts/82",
+          "#/texts/83",
+          "#/texts/84",
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/87",
+          "#/texts/88",
+          "#/texts/89",
+          "#/texts/90",
+          "#/texts/91",
+          "#/texts/92",
+          "#/texts/322",
+          "#/texts/93",
+          "#/texts/94"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "Screenshots are the easiest way to start building a component library. You don’t need any technical expertise, and this approach works with any tool.\nStart by prompting your favorite AI prototyping tool with the following:\n```\nYou are tasked with creating a component library based on a screenshot using React, and Tailwind CSS.\n```\n```\nAll components should be custom-made to match the screenshot as closely as possible.\n```\n```\nFollow these instructions carefully:\n```\n```\n1. Analyze the provided screenshot.\n```\n```\n2. Identify distinct UI components in the screenshot. These may include, but are not limited to, ◦ Buttons ◦ Input fields ◦ Navigation bars ◦ Cards ◦ Modals ◦ Typography elements\n```\n```\n3. For each identified component:\n```\n```\na. Create a React functional component.\n```\n```\nb. Use Tailwind CSS classes to style the component, matching the visual design in the screenshot.\n```\n```\nc. Ensure the component is responsive and accessible.\n```\n```\nd. Add any necessary props for customization.\n```\n```\ne. Include a brief comment describing the component’s purpose.\n```\n```\n4. After creating all individual components, create an index page that imports and displays each component with example usage.\n```\n```\nRemember to use only custom-made components and Tailwind CSS classes. Do not use any external libraries or pre-built components.\n```\n```\nStrive to match the visual design in the screenshot as closely as possible while maintaining good coding practices and component reusability.\n```\nLet’s give this a try with v0, re-creating a Google Calendar UI. Remember to include a screenshot!\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nHere’s our initial result:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nOne quick note: You may end up with a reproduction of the screenshot instead of a list of components. These AI tools are very tuned to reproduce screenshots, so you may need to push it with one more prompt, like\n*“Instead of showing me a page that re-creates the UI, the index page should be a list of components in the component library.”*\nFrom here, you can continue adding more components by pasting in additional screenshots with the prompt\n*“Add these components as well.”*\nIf you want to refine the components, I recommend starting with this prompt:\n```\n“List the differences between the screenshot and your implementation. How can you match the design more exactly? Don’t code.”\n```\nThis technique (called reflection) makes it easy to leverage the AI to quickly make UX improvements.\nOnce you have your component library complete, pause! You’ll want to create a fork of the project and start to use your components in a new project. Your forked project will automatically reuse your components to assemble your design like Legos. Again, this technique works in any of your favorite AI prototyping tools. (Here’s how to create a fork in each AI prototyping tool:\n[Bolt](https://support.bolt.new/building/using-bolt/projects-files#duplicate-projects)\n,\n[v0](https://www.perplexity.ai/search/how-to-create-a-fork-in-v0-m6V2aWHwQZqx8UCQZWzEgg)\n,\n[Lovable](https://docs.lovable.dev/user-guides/quickstart#remix-an-existing-project)\n,\n[Replit](https://docs.replit.com/getting-started/quickstarts/remix-an-app)\n,\n[Magic Patterns](https://www.perplexity.ai/search/how-to-create-a-fork-in-magic-tGrNnh7RRWOZvNSDMrNeyg)\n.)\nFor example, we can prototype an AI agent in Google Calendar that blocks deep-work slots with a simple prompt like\n*“Create a Google Calendar main page view that has an AI scheduling assistant to recommend deep-work blocks.”*\nHere’s the result:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nSpending time to improve your components is worth it. Every prototype made using them has better visual quality, is less distracting to stakeholders, and allows conversations to focus on the specific elements that are being tested.",
+      "token_count": 1088
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000003",
+      "contextualized_text": "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization\nComponent libraries\nMethod 2: Chrome extensions\nThe next option for creating component libraries is to use Chrome extensions. As of today,\n[Magic Patterns](https://www.magicpatterns.com/)\nis the only tool that supports extracting components from a webpage directly.\nUsing the extension is simple: Select a UI element, extract its styling, and turn it into a reusable component.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nI like to fire off multiple of these extracts at the same time to create as many components as I can in a short period of time. Once they land in Magic Patterns, you can continue to prompt your way through refinements.\nThe real magic comes in using these components. Let’s try the prompt\n*“Build me a channel view of YouTube.*\n”\nHere’s the result from a single prompt:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI",
+      "doc_item_refs": [
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/323",
+        "#/texts/100",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/103",
+        "#/texts/104",
+        "#/texts/105",
+        "#/texts/324",
+        "#/texts/106"
+      ],
+      "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "headings": [
+        "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+        "Component libraries",
+        "Method 2: Chrome extensions"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b9eb6753-fee8-49a7-8701-43708be6b3a0_810x444.gif"
+        },
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b4479d89-0d28-4082-aeb6-8bc7c6233495_810x405.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000003",
+        "chunk_sha256": "64933b4441b68169de0305fa65984792f6f7118a26ca9d18218ae291607619be",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+        "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+        "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+        "headings": [
+          "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+          "Component libraries",
+          "Method 2: Chrome extensions"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/b9eb6753-fee8-49a7-8701-43708be6b3a0_810x444.gif"
+          },
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/b4479d89-0d28-4082-aeb6-8bc7c6233495_810x405.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+        "segment": {
+          "first_self_ref": "#/texts/96",
+          "item_count": 13,
+          "last_self_ref": "#/texts/106"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/323",
+          "#/texts/100",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/103",
+          "#/texts/104",
+          "#/texts/105",
+          "#/texts/324",
+          "#/texts/106"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "The next option for creating component libraries is to use Chrome extensions. As of today,\n[Magic Patterns](https://www.magicpatterns.com/)\nis the only tool that supports extracting components from a webpage directly.\nUsing the extension is simple: Select a UI element, extract its styling, and turn it into a reusable component.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nI like to fire off multiple of these extracts at the same time to create as many components as I can in a short period of time. Once they land in Magic Patterns, you can continue to prompt your way through refinements.\nThe real magic comes in using these components. Let’s try the prompt\n*“Build me a channel view of YouTube.*\n”\nHere’s the result from a single prompt:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI",
+      "token_count": 273
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000004",
+      "contextualized_text": "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization\nComponent libraries\nMethod 3: Code\nThe last way to build a component library is with code, using your real components. This approach requires the most effort but will provide you with prototypes that are indistinguishable from your real product. You’ll need assistance from engineering, and the overall effort and complexity will depend on your codebase and company size. This option is most realistic in smaller companies or those with more technical designers and PMs.\nTo start, your engineering team will need to set up the repository so you can run the front-end application locally without having to connect to any back-end services or databases. This can be accomplished by creating a new entry point for the client-side app that mocks up the API responses. Once you have your local environment running, you can use an AI code editor like Cursor or Windsurf to prototype.\nHere’s an example of an app I’m working on. All of the information you see is mocked up client-side, with no servers or databases connected.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nThis approach works best if you’re comfortable with GitHub, branches, and running basic terminal commands.\nAnother way to leverage code to get more accurate components is with the new\n[Figma MCP server](https://www.figma.com/blog/introducing-figmas-dev-mode-mcp-server/)\n(which just launched last week!). In case you’re unfamiliar, MCP is a protocol that allows AI agents to retrieve information or take actions in another application. In this case, we can use the Cursor agent to make calls to Figma’s MCP server to retrieve detailed styling information, and then transform that into components.\nFigma currently supports four MCP actions:\n1. Get Code\n2. Get Variable Definitions\n3. Get Image\n4. Get Code Connect\nThis effectively gives Cursor the ability to autonomously take screenshots, extract design tokens, and get CSS from Figma’s Dev Mode.\nHere’s a quick side-by-side of a Figma\n[design library](https://www.figma.com/community/file/1267195373409722424/design-system)\nand the same components reproduced in code.\nFigma:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nCode:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nHere are the steps to build your components using Figma MCP:\n1. Enable the Figma MCP server for the design you want to work with (Preferences, then Enable Dev Mode Server). This will provide you with a URL to connect to.\n2. In Cursor, go to Settings, MCP Tools, and “Add a new MCP server.” Paste in the URL provided by Figma.\n3. Copy a component URL from Figma by right-clicking and selecting “Copy as URL.”\n4. Ask Cursor to generate this as a component, and to make your index page a list of components.\nSo far, I’ve found this works best if you have\n*existing*\ncomponents Cursor can mimic, or provide clear instructions for how the code should be formatted.\nThis option is very new but also very exciting for design teams who want to leverage their existing component libraries with AI prototyping tools.\nTo summarize, component libraries give your team a set of shared artifacts that make it easy for anyone to create realistic prototypes with AI. Your component library can be shared across your entire team, making it easy to onboard new team members and maintain high-quality visuals for testing directly with customers or in meetings with senior stakeholders.",
+      "doc_item_refs": [
+        "#/texts/108",
+        "#/texts/109",
+        "#/texts/110",
+        "#/texts/325",
+        "#/texts/111",
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/114",
+        "#/texts/115",
+        "#/texts/116",
+        "#/texts/117",
+        "#/texts/118",
+        "#/texts/119",
+        "#/texts/120",
+        "#/texts/121",
+        "#/texts/122",
+        "#/texts/123",
+        "#/texts/124",
+        "#/texts/125",
+        "#/texts/326",
+        "#/texts/126",
+        "#/texts/127",
+        "#/texts/327",
+        "#/texts/128",
+        "#/texts/129",
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/134",
+        "#/texts/135",
+        "#/texts/136",
+        "#/texts/137",
+        "#/texts/138"
+      ],
+      "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "headings": [
+        "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+        "Component libraries",
+        "Method 3: Code"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4f3d0de7-2dac-4017-a94f-3074ae6f16ec_1600x876.gif"
+        },
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000009",
+          "path": null,
+          "self_ref": "#/pictures/9",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/69d956a0-c7af-400f-bd7f-250504bb946f_1128x922.png"
+        },
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000010",
+          "path": null,
+          "self_ref": "#/pictures/10",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/e59bc1bb-ef87-42d9-8064-532dcc3c6d21_810x468.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000004",
+        "chunk_sha256": "46839be3e10cd42fb502ea1d3905dcd6f0f1f90d671b6bcd06243a3f2e058b5f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+        "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+        "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+        "headings": [
+          "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+          "Component libraries",
+          "Method 3: Code"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/4f3d0de7-2dac-4017-a94f-3074ae6f16ec_1600x876.gif"
+          },
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000009",
+            "path": null,
+            "self_ref": "#/pictures/9",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/69d956a0-c7af-400f-bd7f-250504bb946f_1128x922.png"
+          },
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000010",
+            "path": null,
+            "self_ref": "#/pictures/10",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/e59bc1bb-ef87-42d9-8064-532dcc3c6d21_810x468.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+        "segment": {
+          "first_self_ref": "#/texts/108",
+          "item_count": 34,
+          "last_self_ref": "#/texts/138"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/108",
+          "#/texts/109",
+          "#/texts/110",
+          "#/texts/325",
+          "#/texts/111",
+          "#/texts/112",
+          "#/texts/113",
+          "#/texts/114",
+          "#/texts/115",
+          "#/texts/116",
+          "#/texts/117",
+          "#/texts/118",
+          "#/texts/119",
+          "#/texts/120",
+          "#/texts/121",
+          "#/texts/122",
+          "#/texts/123",
+          "#/texts/124",
+          "#/texts/125",
+          "#/texts/326",
+          "#/texts/126",
+          "#/texts/127",
+          "#/texts/327",
+          "#/texts/128",
+          "#/texts/129",
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/134",
+          "#/texts/135",
+          "#/texts/136",
+          "#/texts/137",
+          "#/texts/138"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "The last way to build a component library is with code, using your real components. This approach requires the most effort but will provide you with prototypes that are indistinguishable from your real product. You’ll need assistance from engineering, and the overall effort and complexity will depend on your codebase and company size. This option is most realistic in smaller companies or those with more technical designers and PMs.\nTo start, your engineering team will need to set up the repository so you can run the front-end application locally without having to connect to any back-end services or databases. This can be accomplished by creating a new entry point for the client-side app that mocks up the API responses. Once you have your local environment running, you can use an AI code editor like Cursor or Windsurf to prototype.\nHere’s an example of an app I’m working on. All of the information you see is mocked up client-side, with no servers or databases connected.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nThis approach works best if you’re comfortable with GitHub, branches, and running basic terminal commands.\nAnother way to leverage code to get more accurate components is with the new\n[Figma MCP server](https://www.figma.com/blog/introducing-figmas-dev-mode-mcp-server/)\n(which just launched last week!). In case you’re unfamiliar, MCP is a protocol that allows AI agents to retrieve information or take actions in another application. In this case, we can use the Cursor agent to make calls to Figma’s MCP server to retrieve detailed styling information, and then transform that into components.\nFigma currently supports four MCP actions:\n1. Get Code\n2. Get Variable Definitions\n3. Get Image\n4. Get Code Connect\nThis effectively gives Cursor the ability to autonomously take screenshots, extract design tokens, and get CSS from Figma’s Dev Mode.\nHere’s a quick side-by-side of a Figma\n[design library](https://www.figma.com/community/file/1267195373409722424/design-system)\nand the same components reproduced in code.\nFigma:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nCode:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nHere are the steps to build your components using Figma MCP:\n1. Enable the Figma MCP server for the design you want to work with (Preferences, then Enable Dev Mode Server). This will provide you with a URL to connect to.\n2. In Cursor, go to Settings, MCP Tools, and “Add a new MCP server.” Paste in the URL provided by Figma.\n3. Copy a component URL from Figma by right-clicking and selecting “Copy as URL.”\n4. Ask Cursor to generate this as a component, and to make your index page a list of components.\nSo far, I’ve found this works best if you have\n*existing*\ncomponents Cursor can mimic, or provide clear instructions for how the code should be formatted.\nThis option is very new but also very exciting for design teams who want to leverage their existing component libraries with AI prototyping tools.\nTo summarize, component libraries give your team a set of shared artifacts that make it easy for anyone to create realistic prototypes with AI. Your component library can be shared across your entire team, making it easy to onboard new team members and maintain high-quality visuals for testing directly with customers or in meetings with senior stakeholders.",
+      "token_count": 872
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000005",
+      "contextualized_text": "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization\nTeam workflows\nNow that you have components to help you create realistic prototypes in a flash, let’s talk about team workflows. There are two workflows I want to cover:\n1. Baselines and forks\n2. Product development lifecycle",
+      "doc_item_refs": [
+        "#/texts/140",
+        "#/texts/141",
+        "#/texts/142"
+      ],
+      "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "headings": [
+        "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+        "Team workflows"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000005",
+        "chunk_sha256": "e610bb471821da84a881e7740d77e01e937de553d3eb7cce36722844dd603818",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+        "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+        "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+        "headings": [
+          "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+          "Team workflows"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+        "segment": {
+          "first_self_ref": "#/texts/140",
+          "item_count": 3,
+          "last_self_ref": "#/texts/142"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/140",
+          "#/texts/141",
+          "#/texts/142"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "Now that you have components to help you create realistic prototypes in a flash, let’s talk about team workflows. There are two workflows I want to cover:\n1. Baselines and forks\n2. Product development lifecycle",
+      "token_count": 106
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000006",
+      "contextualized_text": "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization\nTeam workflows\nWorkflow 1: Baselines and forks\nBaselines and forks are an extension of the component libraries strategy. With components, you’re giving team members a head start by providing building blocks they can easily assemble into good-looking prototypes. “Baselines” go one step further, giving you a high-quality reproduction of your current product experience, allowing your team members to more easily experiment with new ideas using simple prompts. Forks build on this further, allowing you to duplicate a project and all of its contents without using any tokens, and keep you from screwing up your baseline.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nThis is best explained with an example.\nLet’s say I’m the PM at Airbnb working on the new Experiences product. This is a product that features the most unique and interesting experiences around the world. Using baselines and forks, I’ll start by reproducing the current page and then explore a few new ideas.\nCreating the initial page with my component library took me about 20 minutes, mostly ironing out all the little details to make the prototype really look like Airbnb (see my\n[previous guide](https://www.lennysnewsletter.com/p/a-guide-to-ai-prototyping-for-product)\nfor advice on fine-tuning your prototypes). Here’s how it looks:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nBy the way, here’s the real site:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nNow that I have this page, I’ll treat it as my “baseline.” I won’t make any more changes and instead create a fork.\nOn the fork, I’ll enter a single prompt: “\n*Modify this page so that it runs through a questionnaire to determine experiences that I would like before showing me experiences. Maintain the Airbnb branding.*\n”\nHere’s the result:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nNow let’s test another idea: using the customer’s past travel history to suggest relevant experiences.\nAgain, I create a fork from the baseline. On the new copy, I prompt,\n*“Modify this page so it shows me experiences I would like based on my past travel history with Airbnb. For each recommendation, add a UI element that says ‘based on your trip to. . .”*\nHere’s the result:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nBaselines and forks are best used when you want to explore multiple different ideas without having to rebuild the starting page each time. They provide your team with another leg up in getting high-quality results quickly when using AI prototyping tools.",
+      "doc_item_refs": [
+        "#/texts/144",
+        "#/texts/328",
+        "#/texts/145",
+        "#/texts/146",
+        "#/texts/147",
+        "#/texts/148",
+        "#/texts/149",
+        "#/texts/150",
+        "#/texts/329",
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/330",
+        "#/texts/153",
+        "#/texts/154",
+        "#/texts/155",
+        "#/texts/156",
+        "#/texts/157",
+        "#/texts/158",
+        "#/texts/331",
+        "#/texts/159",
+        "#/texts/160",
+        "#/texts/161",
+        "#/texts/162",
+        "#/texts/163",
+        "#/texts/332",
+        "#/texts/164",
+        "#/texts/165"
+      ],
+      "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "headings": [
+        "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+        "Team workflows",
+        "Workflow 1: Baselines and forks"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000011",
+          "path": null,
+          "self_ref": "#/pictures/11",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/353ed3d8-4f36-492d-92fa-24131b3855ad_2912x2140.png"
+        },
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000012",
+          "path": null,
+          "self_ref": "#/pictures/12",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/e57b11d4-19a4-4279-9f3b-597c3abe7583_1456x722.jpeg"
+        },
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000013",
+          "path": null,
+          "self_ref": "#/pictures/13",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/036f085e-5a93-4a30-bf79-b3b85de845cb_1456x742.jpeg"
+        },
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000014",
+          "path": null,
+          "self_ref": "#/pictures/14",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/3c86b02d-4bcd-49c4-a5bc-0098e3a5721f_1456x725.gif"
+        },
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000015",
+          "path": null,
+          "self_ref": "#/pictures/15",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/05a81208-a8fd-4be6-bdf0-6046efb2afdc_1456x797.jpeg"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000006",
+        "chunk_sha256": "2c1e45dab3e9a2c95ece0dfb99e558fbfcb46b73ff9e6094f3bcb991a3af36a2",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+        "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+        "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+        "headings": [
+          "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+          "Team workflows",
+          "Workflow 1: Baselines and forks"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000011",
+            "path": null,
+            "self_ref": "#/pictures/11",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/353ed3d8-4f36-492d-92fa-24131b3855ad_2912x2140.png"
+          },
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000012",
+            "path": null,
+            "self_ref": "#/pictures/12",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/e57b11d4-19a4-4279-9f3b-597c3abe7583_1456x722.jpeg"
+          },
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000013",
+            "path": null,
+            "self_ref": "#/pictures/13",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/036f085e-5a93-4a30-bf79-b3b85de845cb_1456x742.jpeg"
+          },
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000014",
+            "path": null,
+            "self_ref": "#/pictures/14",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/3c86b02d-4bcd-49c4-a5bc-0098e3a5721f_1456x725.gif"
+          },
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000015",
+            "path": null,
+            "self_ref": "#/pictures/15",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/05a81208-a8fd-4be6-bdf0-6046efb2afdc_1456x797.jpeg"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+        "segment": {
+          "first_self_ref": "#/texts/144",
+          "item_count": 27,
+          "last_self_ref": "#/texts/165"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/144",
+          "#/texts/328",
+          "#/texts/145",
+          "#/texts/146",
+          "#/texts/147",
+          "#/texts/148",
+          "#/texts/149",
+          "#/texts/150",
+          "#/texts/329",
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/330",
+          "#/texts/153",
+          "#/texts/154",
+          "#/texts/155",
+          "#/texts/156",
+          "#/texts/157",
+          "#/texts/158",
+          "#/texts/331",
+          "#/texts/159",
+          "#/texts/160",
+          "#/texts/161",
+          "#/texts/162",
+          "#/texts/163",
+          "#/texts/332",
+          "#/texts/164",
+          "#/texts/165"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "Baselines and forks are an extension of the component libraries strategy. With components, you’re giving team members a head start by providing building blocks they can easily assemble into good-looking prototypes. “Baselines” go one step further, giving you a high-quality reproduction of your current product experience, allowing your team members to more easily experiment with new ideas using simple prompts. Forks build on this further, allowing you to duplicate a project and all of its contents without using any tokens, and keep you from screwing up your baseline.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nThis is best explained with an example.\nLet’s say I’m the PM at Airbnb working on the new Experiences product. This is a product that features the most unique and interesting experiences around the world. Using baselines and forks, I’ll start by reproducing the current page and then explore a few new ideas.\nCreating the initial page with my component library took me about 20 minutes, mostly ironing out all the little details to make the prototype really look like Airbnb (see my\n[previous guide](https://www.lennysnewsletter.com/p/a-guide-to-ai-prototyping-for-product)\nfor advice on fine-tuning your prototypes). Here’s how it looks:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nBy the way, here’s the real site:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nNow that I have this page, I’ll treat it as my “baseline.” I won’t make any more changes and instead create a fork.\nOn the fork, I’ll enter a single prompt: “\n*Modify this page so that it runs through a questionnaire to determine experiences that I would like before showing me experiences. Maintain the Airbnb branding.*\n”\nHere’s the result:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nNow let’s test another idea: using the customer’s past travel history to suggest relevant experiences.\nAgain, I create a fork from the baseline. On the new copy, I prompt,\n*“Modify this page so it shows me experiences I would like based on my past travel history with Airbnb. For each recommendation, add a UI element that says ‘based on your trip to. . .”*\nHere’s the result:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nBaselines and forks are best used when you want to explore multiple different ideas without having to rebuild the starting page each time. They provide your team with another leg up in getting high-quality results quickly when using AI prototyping tools.",
+      "token_count": 698
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000007",
+      "contextualized_text": "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization\nTeam workflows\nWorkflow 2: Product development lifecycle\nIf you implement everything we’ve covered so far, you’ll be dramatically ahead of the average AI prototyping noob. But it’s very possible that your PMs or designers will still prototype in isolation. Creating a shared understanding for your team for when to use AI prototypes is just as important as knowing how to get good results.\nBefore we get into the product development lifecycle, I want to briefly touch on fidelity. For a long time, we’ve had low-fidelity scratch-pad versions of UIs, and high-fidelity mocks for the polished finished product. AI prototyping introduces medium fidelity—better than a napkin drawing but still not as good as your finalized Figma mocks.\nHere’s an example of a mid-fi mock of Reddit. At first glance, it seems correct, but you’ll notice lots of imperfections, like two buttons for upvoting, too much padding on the left navigation, and the top right navigation items being pushed in too far from the right edge.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nYou can also definitely create high-fi mocks with AI prototyping tools—the key is how much time and effort you put into them.\nIt’s critically important to choose the appropriate fidelity for your prototype based on the context, and then set clear expectations with team members around that level of fidelity. For example, if you’re explaining an interaction to an engineer, mid-fi is totally fine, and it’s a waste of time to push past that. Whereas if you’re pitching your CEO on funding a new team that will require millions in new investment, a functional high-fi mock is probably worth the time.\nBelow, I’ve outlined the six main steps in the product development lifecycle and how prototypes can be leveraged, as well as what fidelity they should be and who is responsible for the prototype. I encourage you to take this as general guidance and apply what makes sense in your own company.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nLet’s walk through an example of the full development lifecycle for a new feature at Reddit called Reddit Answers. This will be a gen AI feature that allows users to ask questions and get quick answers based on past Reddit posts and comments.",
+      "doc_item_refs": [
+        "#/texts/167",
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/333",
+        "#/texts/170",
+        "#/texts/171",
+        "#/texts/172",
+        "#/texts/173",
+        "#/texts/334",
+        "#/texts/174",
+        "#/texts/175"
+      ],
+      "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "headings": [
+        "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+        "Team workflows",
+        "Workflow 2: Product development lifecycle"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000016",
+          "path": null,
+          "self_ref": "#/pictures/16",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/2d3b5e7c-0dfe-4bd4-8143-9965e00dce24_1338x834.png"
+        },
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000017",
+          "path": null,
+          "self_ref": "#/pictures/17",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/afb538be-9085-4b2e-a14c-0466b0ffc881_2912x1654.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000007",
+        "chunk_sha256": "a29e51a43c6aa1e9263783f89cf788116f78e5dcfd267c5b52f34f4fe28cac96",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+        "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+        "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+        "headings": [
+          "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+          "Team workflows",
+          "Workflow 2: Product development lifecycle"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000016",
+            "path": null,
+            "self_ref": "#/pictures/16",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/2d3b5e7c-0dfe-4bd4-8143-9965e00dce24_1338x834.png"
+          },
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000017",
+            "path": null,
+            "self_ref": "#/pictures/17",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/afb538be-9085-4b2e-a14c-0466b0ffc881_2912x1654.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+        "segment": {
+          "first_self_ref": "#/texts/167",
+          "item_count": 11,
+          "last_self_ref": "#/texts/175"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/167",
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/333",
+          "#/texts/170",
+          "#/texts/171",
+          "#/texts/172",
+          "#/texts/173",
+          "#/texts/334",
+          "#/texts/174",
+          "#/texts/175"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "If you implement everything we’ve covered so far, you’ll be dramatically ahead of the average AI prototyping noob. But it’s very possible that your PMs or designers will still prototype in isolation. Creating a shared understanding for your team for when to use AI prototypes is just as important as knowing how to get good results.\nBefore we get into the product development lifecycle, I want to briefly touch on fidelity. For a long time, we’ve had low-fidelity scratch-pad versions of UIs, and high-fidelity mocks for the polished finished product. AI prototyping introduces medium fidelity—better than a napkin drawing but still not as good as your finalized Figma mocks.\nHere’s an example of a mid-fi mock of Reddit. At first glance, it seems correct, but you’ll notice lots of imperfections, like two buttons for upvoting, too much padding on the left navigation, and the top right navigation items being pushed in too far from the right edge.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nYou can also definitely create high-fi mocks with AI prototyping tools—the key is how much time and effort you put into them.\nIt’s critically important to choose the appropriate fidelity for your prototype based on the context, and then set clear expectations with team members around that level of fidelity. For example, if you’re explaining an interaction to an engineer, mid-fi is totally fine, and it’s a waste of time to push past that. Whereas if you’re pitching your CEO on funding a new team that will require millions in new investment, a functional high-fi mock is probably worth the time.\nBelow, I’ve outlined the six main steps in the product development lifecycle and how prototypes can be leveraged, as well as what fidelity they should be and who is responsible for the prototype. I encourage you to take this as general guidance and apply what makes sense in your own company.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nLet’s walk through an example of the full development lifecycle for a new feature at Reddit called Reddit Answers. This will be a gen AI feature that allows users to ask questions and get quick answers based on past Reddit posts and comments.",
+      "token_count": 569
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000008",
+      "contextualized_text": "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization\nTeam workflows\nWorkflow 2: Product development lifecycle\nStep 1: Discovery\nStarting in Discovery, you may choose to use an AI prototyping tool to quickly express an idea in medium fidelity. This is typically used only internally, and may just be between product, design, and your engineering lead. We might start out with something like this, which should take only about 20 minutes:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nThis is a great asset for internal communication, but we probably wouldn’t want to show this off to any executives or customers.\nBy the way, here’s the prompt that generated this prototype:\n```\n# Reddit Answers PRD\n```\n```\n## Overview\n```\n```\nReddit Answers is a new Q&A feature that leverages Reddit’s vast community knowledge to provide generated, fact-based answers to user questions, with references to specific posts and comments. It prioritizes highly upvoted, less controversial content and supplements Reddit information with external sources to enhance credibility.\n```\n```\n## User Stories\n```\n```\nAs a user, I want to ask questions and receive comprehensive answers based on Reddit’s collective knowledge.\n```\n```\nAs a user, I want to see which specific Reddit posts and comments contributed to the answer.\n```\n```\nAs a user, I want to understand how reliable the Reddit-sourced information is compared with external sources.\n```\n```\nAs a user, I want to access additional external links that provide more context to the answer.\n```\n```\nAs a user, I want to navigate easily to the Reddit discussions referenced in the answer.\n```\n```\nAs a developer, I want to access Reddit Answers data via API to enhance AI applications with Reddit’s knowledge.\n```\n```\n## Implementation Phases\n```\n```\n### Phase 1: Core Q&A Experience\n```\n```\nQuestion input interface in left nav\n```\n```\nAnswer generation from Reddit content\n```\n```\nBasic reference linking to source posts/comments\n```\n```\nSimple reliability scoring\n```\n```\nLocal answer history\n```\n```\n### Phase 2: Enhanced Credibility & Context\n```\n```\nSophisticated reliability-scoring algorithm\n```\n```\nExternal source integration\n```\n```\nContent moderation systems\n```\n```\nImproved reference highlighting\n```\n```\nPersonalized answer recommendations\n```\n```\n### Phase 3: Ecosystem Integration\n```\n```\nAPI access for AI companies\n```\n```\nAnalytics dashboard for Reddit team\n```\n```\nCommunity feedback mechanisms\n```\n```\nMobile optimization\n```\n```\nEnhanced search integration\n```\n```\n## Design System\n```\n```\nColors:\n```\n```\nPrimary: Reddit Orange (#FF4500)\n```\n```\nSecondary: Periwinkle Blue (#9494FF)\n```\n```\nBackground: Light Gray (#F8F9FA)\n```\n```\nText: Dark Gray (#1A1A1B)\n```\n```\nTypography:\n```\n```\nReddit’s IBM Plex font family\n```\n```\nSpacing:\n```\n```\nConsistent 8px grid system\n```\n```\n##Components:\n```\n```\nQuestion Input\n```\n```\nAnswer Card\n```\n```\nReference List\n```\n```\nReliability Score Badge\n```\n```\nExternal Link Cards\n```\n```\nSource Attribution Tag\n```\n```\n## Data Model\n```\n```\n### Question\n```\n```\nid: unique identifier\n```\n```\ntext: the user’s question\n```\n```\ntimestamp: when question was asked\n```\n```\nuser_id: who asked the question\n```\n```\ncategory: auto-categorized topic area\n```\n```\n### Answer\n```\n```\nid: unique identifier\n```\n```\nquestion_id: reference to question\n```\n```\ntext: generated answer content\n```\n```\nreliability_score: 0-100 score comparing Reddit info with external sources\n```\n```\ntimestamp: when answer was generated\n```\n```\n### Reference\n```\n```\nid: unique identifier\n```\n```\nanswer_id: reference to answer\n```\n```\npost_id: Reddit post referenced\n```\n```\ncomment_id: specific comment referenced (optional)\n```\n```\nrelevance_score: how relevant this reference is to the answer\n```\n```\ncontroversy_score: measure of how controversial the content is\n```\n```\nupvote_count: number of upvotes on referenced content\n```\n```\n### ExternalSource\n```\n```\nid: unique identifier\n```\n```\nanswer_id: reference to answer\n```\n```\nurl: link to external source\n```\n```\ntitle: title of the external content\n```\n```\nrelevance_score: how relevant this source is to the answer\n```\n```\ndomain_authority: credibility rating of the source domain\n```",
+      "doc_item_refs": [
+        "#/texts/177",
+        "#/texts/335",
+        "#/texts/178",
+        "#/texts/179",
+        "#/texts/180",
+        "#/texts/181",
+        "#/texts/182",
+        "#/texts/183",
+        "#/texts/184",
+        "#/texts/185",
+        "#/texts/186",
+        "#/texts/187",
+        "#/texts/188",
+        "#/texts/189",
+        "#/texts/190",
+        "#/texts/191",
+        "#/texts/192",
+        "#/texts/193",
+        "#/texts/194",
+        "#/texts/195",
+        "#/texts/196",
+        "#/texts/197",
+        "#/texts/198",
+        "#/texts/199",
+        "#/texts/200",
+        "#/texts/201",
+        "#/texts/202",
+        "#/texts/203",
+        "#/texts/204",
+        "#/texts/205",
+        "#/texts/206",
+        "#/texts/207",
+        "#/texts/208",
+        "#/texts/209",
+        "#/texts/210",
+        "#/texts/211",
+        "#/texts/212",
+        "#/texts/213",
+        "#/texts/214",
+        "#/texts/215",
+        "#/texts/216",
+        "#/texts/217",
+        "#/texts/218",
+        "#/texts/219",
+        "#/texts/220",
+        "#/texts/221",
+        "#/texts/222",
+        "#/texts/223",
+        "#/texts/224",
+        "#/texts/225",
+        "#/texts/226",
+        "#/texts/227",
+        "#/texts/228",
+        "#/texts/229",
+        "#/texts/230",
+        "#/texts/231",
+        "#/texts/232",
+        "#/texts/233",
+        "#/texts/234",
+        "#/texts/235",
+        "#/texts/236",
+        "#/texts/237",
+        "#/texts/238",
+        "#/texts/239",
+        "#/texts/240",
+        "#/texts/241",
+        "#/texts/242",
+        "#/texts/243",
+        "#/texts/244",
+        "#/texts/245",
+        "#/texts/246",
+        "#/texts/247",
+        "#/texts/248",
+        "#/texts/249",
+        "#/texts/250",
+        "#/texts/251",
+        "#/texts/252",
+        "#/texts/253",
+        "#/texts/254"
+      ],
+      "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "headings": [
+        "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+        "Team workflows",
+        "Workflow 2: Product development lifecycle",
+        "Step 1: Discovery"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000018",
+          "path": null,
+          "self_ref": "#/pictures/18",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/47b20c8f-ec09-4662-9eeb-6cf36716690b_810x514.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000008",
+        "chunk_sha256": "cf4476b301f261d412543878091149af322ec1ff3f29a3a7dbd332394fc039f6",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+        "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+        "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+        "headings": [
+          "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+          "Team workflows",
+          "Workflow 2: Product development lifecycle",
+          "Step 1: Discovery"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000018",
+            "path": null,
+            "self_ref": "#/pictures/18",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/47b20c8f-ec09-4662-9eeb-6cf36716690b_810x514.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+        "segment": {
+          "first_self_ref": "#/texts/177",
+          "item_count": 79,
+          "last_self_ref": "#/texts/254"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/177",
+          "#/texts/335",
+          "#/texts/178",
+          "#/texts/179",
+          "#/texts/180",
+          "#/texts/181",
+          "#/texts/182",
+          "#/texts/183",
+          "#/texts/184",
+          "#/texts/185",
+          "#/texts/186",
+          "#/texts/187",
+          "#/texts/188",
+          "#/texts/189",
+          "#/texts/190",
+          "#/texts/191",
+          "#/texts/192",
+          "#/texts/193",
+          "#/texts/194",
+          "#/texts/195",
+          "#/texts/196",
+          "#/texts/197",
+          "#/texts/198",
+          "#/texts/199",
+          "#/texts/200",
+          "#/texts/201",
+          "#/texts/202",
+          "#/texts/203",
+          "#/texts/204",
+          "#/texts/205",
+          "#/texts/206",
+          "#/texts/207",
+          "#/texts/208",
+          "#/texts/209",
+          "#/texts/210",
+          "#/texts/211",
+          "#/texts/212",
+          "#/texts/213",
+          "#/texts/214",
+          "#/texts/215",
+          "#/texts/216",
+          "#/texts/217",
+          "#/texts/218",
+          "#/texts/219",
+          "#/texts/220",
+          "#/texts/221",
+          "#/texts/222",
+          "#/texts/223",
+          "#/texts/224",
+          "#/texts/225",
+          "#/texts/226",
+          "#/texts/227",
+          "#/texts/228",
+          "#/texts/229",
+          "#/texts/230",
+          "#/texts/231",
+          "#/texts/232",
+          "#/texts/233",
+          "#/texts/234",
+          "#/texts/235",
+          "#/texts/236",
+          "#/texts/237",
+          "#/texts/238",
+          "#/texts/239",
+          "#/texts/240",
+          "#/texts/241",
+          "#/texts/242",
+          "#/texts/243",
+          "#/texts/244",
+          "#/texts/245",
+          "#/texts/246",
+          "#/texts/247",
+          "#/texts/248",
+          "#/texts/249",
+          "#/texts/250",
+          "#/texts/251",
+          "#/texts/252",
+          "#/texts/253",
+          "#/texts/254"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "Starting in Discovery, you may choose to use an AI prototyping tool to quickly express an idea in medium fidelity. This is typically used only internally, and may just be between product, design, and your engineering lead. We might start out with something like this, which should take only about 20 minutes:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nThis is a great asset for internal communication, but we probably wouldn’t want to show this off to any executives or customers.\nBy the way, here’s the prompt that generated this prototype:\n```\n# Reddit Answers PRD\n```\n```\n## Overview\n```\n```\nReddit Answers is a new Q&A feature that leverages Reddit’s vast community knowledge to provide generated, fact-based answers to user questions, with references to specific posts and comments. It prioritizes highly upvoted, less controversial content and supplements Reddit information with external sources to enhance credibility.\n```\n```\n## User Stories\n```\n```\nAs a user, I want to ask questions and receive comprehensive answers based on Reddit’s collective knowledge.\n```\n```\nAs a user, I want to see which specific Reddit posts and comments contributed to the answer.\n```\n```\nAs a user, I want to understand how reliable the Reddit-sourced information is compared with external sources.\n```\n```\nAs a user, I want to access additional external links that provide more context to the answer.\n```\n```\nAs a user, I want to navigate easily to the Reddit discussions referenced in the answer.\n```\n```\nAs a developer, I want to access Reddit Answers data via API to enhance AI applications with Reddit’s knowledge.\n```\n```\n## Implementation Phases\n```\n```\n### Phase 1: Core Q&A Experience\n```\n```\nQuestion input interface in left nav\n```\n```\nAnswer generation from Reddit content\n```\n```\nBasic reference linking to source posts/comments\n```\n```\nSimple reliability scoring\n```\n```\nLocal answer history\n```\n```\n### Phase 2: Enhanced Credibility & Context\n```\n```\nSophisticated reliability-scoring algorithm\n```\n```\nExternal source integration\n```\n```\nContent moderation systems\n```\n```\nImproved reference highlighting\n```\n```\nPersonalized answer recommendations\n```\n```\n### Phase 3: Ecosystem Integration\n```\n```\nAPI access for AI companies\n```\n```\nAnalytics dashboard for Reddit team\n```\n```\nCommunity feedback mechanisms\n```\n```\nMobile optimization\n```\n```\nEnhanced search integration\n```\n```\n## Design System\n```\n```\nColors:\n```\n```\nPrimary: Reddit Orange (#FF4500)\n```\n```\nSecondary: Periwinkle Blue (#9494FF)\n```\n```\nBackground: Light Gray (#F8F9FA)\n```\n```\nText: Dark Gray (#1A1A1B)\n```\n```\nTypography:\n```\n```\nReddit’s IBM Plex font family\n```\n```\nSpacing:\n```\n```\nConsistent 8px grid system\n```\n```\n##Components:\n```\n```\nQuestion Input\n```\n```\nAnswer Card\n```\n```\nReference List\n```\n```\nReliability Score Badge\n```\n```\nExternal Link Cards\n```\n```\nSource Attribution Tag\n```\n```\n## Data Model\n```\n```\n### Question\n```\n```\nid: unique identifier\n```\n```\ntext: the user’s question\n```\n```\ntimestamp: when question was asked\n```\n```\nuser_id: who asked the question\n```\n```\ncategory: auto-categorized topic area\n```\n```\n### Answer\n```\n```\nid: unique identifier\n```\n```\nquestion_id: reference to question\n```\n```\ntext: generated answer content\n```\n```\nreliability_score: 0-100 score comparing Reddit info with external sources\n```\n```\ntimestamp: when answer was generated\n```\n```\n### Reference\n```\n```\nid: unique identifier\n```\n```\nanswer_id: reference to answer\n```\n```\npost_id: Reddit post referenced\n```\n```\ncomment_id: specific comment referenced (optional)\n```\n```\nrelevance_score: how relevant this reference is to the answer\n```\n```\ncontroversy_score: measure of how controversial the content is\n```\n```\nupvote_count: number of upvotes on referenced content\n```\n```\n### ExternalSource\n```\n```\nid: unique identifier\n```\n```\nanswer_id: reference to answer\n```\n```\nurl: link to external source\n```\n```\ntitle: title of the external content\n```\n```\nrelevance_score: how relevant this source is to the answer\n```\n```\ndomain_authority: credibility rating of the source domain\n```",
+      "token_count": 1258
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000009",
+      "contextualized_text": "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization\nTeam workflows\nWorkflow 2: Product development lifecycle\nStep 2: Roadmap and alignment\nOnce we’ve firmed up the idea and want to build more buy-in internally, we likely want to put something together in high fidelity that we can show stakeholders and customers.\nWe’ll refine our initial prototype, use our component library, and come out with a much more polished prototype. This can take anywhere from 20 to 60 minutes, depending on the complexity of your prototype.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI",
+      "doc_item_refs": [
+        "#/texts/256",
+        "#/texts/257",
+        "#/texts/336",
+        "#/texts/258"
+      ],
+      "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "headings": [
+        "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+        "Team workflows",
+        "Workflow 2: Product development lifecycle",
+        "Step 2: Roadmap and alignment"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000019",
+          "path": null,
+          "self_ref": "#/pictures/19",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/f9e3a0d9-a2ab-456f-a53c-39e59900633c_810x533.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000009",
+        "chunk_sha256": "6bce3a6b20d5578e7409303eda2faedae33d78fb86df9745885dbd1efbee8f2e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+        "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+        "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+        "headings": [
+          "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+          "Team workflows",
+          "Workflow 2: Product development lifecycle",
+          "Step 2: Roadmap and alignment"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000019",
+            "path": null,
+            "self_ref": "#/pictures/19",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/f9e3a0d9-a2ab-456f-a53c-39e59900633c_810x533.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+        "segment": {
+          "first_self_ref": "#/texts/256",
+          "item_count": 4,
+          "last_self_ref": "#/texts/258"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/256",
+          "#/texts/257",
+          "#/texts/336",
+          "#/texts/258"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "Once we’ve firmed up the idea and want to build more buy-in internally, we likely want to put something together in high fidelity that we can show stakeholders and customers.\nWe’ll refine our initial prototype, use our component library, and come out with a much more polished prototype. This can take anywhere from 20 to 60 minutes, depending on the complexity of your prototype.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI",
+      "token_count": 179
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000010",
+      "contextualized_text": "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization\nTeam workflows\nWorkflow 2: Product development lifecycle\nStep 3: PRD and mocks\nNow that we have buy-in to build this new feature, we need to figure out exactly how it will work. We can include the prior high-fidelity prototype inside the PRD and demo it live to the team to start generating questions and working out edge cases.\nWe might hear things like:\n- What does the accuracy score mean?\n- What external sources should be used?\n- Is there any content within Reddit that should be excluded from answers?\n- How should answers be vetted before being included in the AI response?\nUsing the prototype for communication is a much faster and easier way to drive these important conversations than hoping an engineer reads your whole PRD and adds a comment or two. This conversation with engineering will likely take two hours or more across a few discussions.",
+      "doc_item_refs": [
+        "#/texts/260",
+        "#/texts/261",
+        "#/texts/262",
+        "#/texts/263",
+        "#/texts/264",
+        "#/texts/265",
+        "#/texts/266"
+      ],
+      "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "headings": [
+        "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+        "Team workflows",
+        "Workflow 2: Product development lifecycle",
+        "Step 3: PRD and mocks"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000010",
+        "chunk_sha256": "00ce9f7d171d9256b8f8cadd16b5fe851e09904eab71c3eae44f8fc2fa8834f8",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+        "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+        "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+        "headings": [
+          "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+          "Team workflows",
+          "Workflow 2: Product development lifecycle",
+          "Step 3: PRD and mocks"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+        "segment": {
+          "first_self_ref": "#/texts/260",
+          "item_count": 7,
+          "last_self_ref": "#/texts/266"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/260",
+          "#/texts/261",
+          "#/texts/262",
+          "#/texts/263",
+          "#/texts/264",
+          "#/texts/265",
+          "#/texts/266"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "Now that we have buy-in to build this new feature, we need to figure out exactly how it will work. We can include the prior high-fidelity prototype inside the PRD and demo it live to the team to start generating questions and working out edge cases.\nWe might hear things like:\n- What does the accuracy score mean?\n- What external sources should be used?\n- Is there any content within Reddit that should be excluded from answers?\n- How should answers be vetted before being included in the AI response?\nUsing the prototype for communication is a much faster and easier way to drive these important conversations than hoping an engineer reads your whole PRD and adds a comment or two. This conversation with engineering will likely take two hours or more across a few discussions.",
+      "token_count": 229
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000011",
+      "contextualized_text": "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization\nTeam workflows\nWorkflow 2: Product development lifecycle\nStep 4: User interviews\nAs we’re continuing to iterate on the idea, we can bring our high-fidelity prototype with us to user interviews. We can get feedback on the exact user flows very early in the development cycle instead of waiting for the feature to be ready in production. User interviews will likely take you three to five days to collect enough feedback.\nAlthough direct user interviews are likely the best way to gather feedback, we can also scale our feedback collection with surveys. You can embed your favorite survey tools directly into the prototype to collect structured feedback by sharing it with actual users.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI",
+      "doc_item_refs": [
+        "#/texts/268",
+        "#/texts/269",
+        "#/texts/337",
+        "#/texts/270"
+      ],
+      "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "headings": [
+        "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+        "Team workflows",
+        "Workflow 2: Product development lifecycle",
+        "Step 4: User interviews"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000020",
+          "path": null,
+          "self_ref": "#/pictures/20",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/9af48762-269f-460d-a67d-ed188fefc7ff_810x533.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000011",
+        "chunk_sha256": "6deafdaf63347a5551d61358e81d4e71062eede6fa2ae0b59dbfa739d44e71d3",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+        "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+        "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+        "headings": [
+          "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+          "Team workflows",
+          "Workflow 2: Product development lifecycle",
+          "Step 4: User interviews"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000020",
+            "path": null,
+            "self_ref": "#/pictures/20",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/9af48762-269f-460d-a67d-ed188fefc7ff_810x533.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+        "segment": {
+          "first_self_ref": "#/texts/268",
+          "item_count": 4,
+          "last_self_ref": "#/texts/270"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/268",
+          "#/texts/269",
+          "#/texts/337",
+          "#/texts/270"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "As we’re continuing to iterate on the idea, we can bring our high-fidelity prototype with us to user interviews. We can get feedback on the exact user flows very early in the development cycle instead of waiting for the feature to be ready in production. User interviews will likely take you three to five days to collect enough feedback.\nAlthough direct user interviews are likely the best way to gather feedback, we can also scale our feedback collection with surveys. You can embed your favorite survey tools directly into the prototype to collect structured feedback by sharing it with actual users.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI",
+      "token_count": 211
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000012",
+      "contextualized_text": "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization\nTeam workflows\nWorkflow 2: Product development lifecycle\nStep 5: Engineering scoping and delivery\nIt’s important to remember that the code generated by AI prototyping tools is mostly useless to your engineering team (unless your components are built using your existing code). It doesn’t follow any of the existing patterns, use any of the same libraries, or may not even be written in the same programming language.\nSome ways the prototype can be useful are for documenting very specific interactions, like animations. If you want the loading animation to be exactly what you created in the prototype, your engineering team can likely use that as a head start during implementation.\nThroughout the building process, the high-fidelity prototype can still continue to be a useful communication tool any time there are questions about aspects of the product or feature. Prototyping doesn’t really impact development timelines, so expect two to six weeks, depending on the complexity of the feature.",
+      "doc_item_refs": [
+        "#/texts/272",
+        "#/texts/273",
+        "#/texts/274"
+      ],
+      "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "headings": [
+        "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+        "Team workflows",
+        "Workflow 2: Product development lifecycle",
+        "Step 5: Engineering scoping and delivery"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000012",
+        "chunk_sha256": "17403671d318695a5e057d4fe41a6258a69828b9b0c9d4433d057a81342796df",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+        "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+        "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+        "headings": [
+          "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+          "Team workflows",
+          "Workflow 2: Product development lifecycle",
+          "Step 5: Engineering scoping and delivery"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+        "segment": {
+          "first_self_ref": "#/texts/272",
+          "item_count": 3,
+          "last_self_ref": "#/texts/274"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/272",
+          "#/texts/273",
+          "#/texts/274"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "It’s important to remember that the code generated by AI prototyping tools is mostly useless to your engineering team (unless your components are built using your existing code). It doesn’t follow any of the existing patterns, use any of the same libraries, or may not even be written in the same programming language.\nSome ways the prototype can be useful are for documenting very specific interactions, like animations. If you want the loading animation to be exactly what you created in the prototype, your engineering team can likely use that as a head start during implementation.\nThroughout the building process, the high-fidelity prototype can still continue to be a useful communication tool any time there are questions about aspects of the product or feature. Prototyping doesn’t really impact development timelines, so expect two to six weeks, depending on the complexity of the feature.",
+      "token_count": 246
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000013",
+      "contextualized_text": "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization\nBonus tip: Using your actual logo in prototypes\nThis section is quick but super-important, because I see a lot of people run into this challenge. Most AI prototyping tools would rather draw an uncanny-valley version of your logo than use the real thing. With all the other small UI mistakes they make, this often makes the prototype feel unusable when presenting to customers or senior stakeholders.\nThe simple solution to this is to paste in a link to the exact image you want to use. There are two ways to find that logo URL:\n1. Right-click on the image, inspect element, and grab the URL or SVG for the image.\n2. Use a logo repository, like Brandfetch, that hosts most company logos. Find yours and grab the embed link.\nStarting by grabbing the image directly, we can inspect the site and click on the logo. This image is an SVG, meaning there is no link to copy. We can instead copy the SVG content and paste that into our preferred AI tool.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nHere’s the result in Bolt with a simple request to build a homepage:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nTo include your logo, simply paste the link or SVG text with a prompt like\n*“Add my logo to the header using this link.”*\nThe second option is to look up the logo on a site like Brandfetch and copy the embed link. Paste that directly into your AI prototyping tool and you’ll get a clean logo instantly.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nAs you’d expect, this looks identical:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nYou can use these approaches for any images you want to include—just make sure you’re linking to the image itself, not a webpage. The URL will typically end in PNG or SVG.\nOne last tip: If you need some realistic images for your prototype, just ask the AI tool to grab them from\n[Unsplash](https://unsplash.com/)\n, which does a reasonably good job at picking relevant images. Here’s the Airbnb example once more, where the AI decided on these images based on the prompt\n*“Add images from Unsplash that make sense given the context.”*\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI",
+      "doc_item_refs": [
+        "#/texts/276",
+        "#/texts/277",
+        "#/texts/278",
+        "#/texts/279",
+        "#/texts/280",
+        "#/texts/338",
+        "#/texts/281",
+        "#/texts/282",
+        "#/texts/339",
+        "#/texts/283",
+        "#/texts/284",
+        "#/texts/285",
+        "#/texts/286",
+        "#/texts/340",
+        "#/texts/287",
+        "#/texts/288",
+        "#/texts/341",
+        "#/texts/289",
+        "#/texts/290",
+        "#/texts/291",
+        "#/texts/292",
+        "#/texts/293",
+        "#/texts/294",
+        "#/texts/342",
+        "#/texts/295"
+      ],
+      "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "headings": [
+        "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+        "Bonus tip: Using your actual logo in prototypes"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000021",
+          "path": null,
+          "self_ref": "#/pictures/21",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/cde8d4c6-75bc-4f5a-ad49-c1daf45d6da5_264x249.png"
+        },
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000022",
+          "path": null,
+          "self_ref": "#/pictures/22",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/6ddc2bd3-9228-461d-96e9-436995afce5d_1263x237.png"
+        },
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000023",
+          "path": null,
+          "self_ref": "#/pictures/23",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/bfc51610-0712-447a-a4b9-f4bc6adc8d80_1373x623.png"
+        },
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000024",
+          "path": null,
+          "self_ref": "#/pictures/24",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/2790a01c-717a-4e7a-9234-3ce32216b2d7_1271x257.png"
+        },
+        {
+          "caption": "Image from How to get your entire team prototyping with AI",
+          "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000025",
+          "path": null,
+          "self_ref": "#/pictures/25",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/46318531-4992-4093-b086-ab4d69afc502_1456x797.jpeg"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000013",
+        "chunk_sha256": "ea89df506d1f78f406ed3a8403288c86fa08e58283974c9036c0205e94d5336b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+        "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+        "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+        "headings": [
+          "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+          "Bonus tip: Using your actual logo in prototypes"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000021",
+            "path": null,
+            "self_ref": "#/pictures/21",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/cde8d4c6-75bc-4f5a-ad49-c1daf45d6da5_264x249.png"
+          },
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000022",
+            "path": null,
+            "self_ref": "#/pictures/22",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/6ddc2bd3-9228-461d-96e9-436995afce5d_1263x237.png"
+          },
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000023",
+            "path": null,
+            "self_ref": "#/pictures/23",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/bfc51610-0712-447a-a4b9-f4bc6adc8d80_1373x623.png"
+          },
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000024",
+            "path": null,
+            "self_ref": "#/pictures/24",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/2790a01c-717a-4e7a-9234-3ce32216b2d7_1271x257.png"
+          },
+          {
+            "caption": "Image from How to get your entire team prototyping with AI",
+            "image_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#image=000025",
+            "path": null,
+            "self_ref": "#/pictures/25",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/46318531-4992-4093-b086-ab4d69afc502_1456x797.jpeg"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+        "segment": {
+          "first_self_ref": "#/texts/276",
+          "item_count": 25,
+          "last_self_ref": "#/texts/295"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/276",
+          "#/texts/277",
+          "#/texts/278",
+          "#/texts/279",
+          "#/texts/280",
+          "#/texts/338",
+          "#/texts/281",
+          "#/texts/282",
+          "#/texts/339",
+          "#/texts/283",
+          "#/texts/284",
+          "#/texts/285",
+          "#/texts/286",
+          "#/texts/340",
+          "#/texts/287",
+          "#/texts/288",
+          "#/texts/341",
+          "#/texts/289",
+          "#/texts/290",
+          "#/texts/291",
+          "#/texts/292",
+          "#/texts/293",
+          "#/texts/294",
+          "#/texts/342",
+          "#/texts/295"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "This section is quick but super-important, because I see a lot of people run into this challenge. Most AI prototyping tools would rather draw an uncanny-valley version of your logo than use the real thing. With all the other small UI mistakes they make, this often makes the prototype feel unusable when presenting to customers or senior stakeholders.\nThe simple solution to this is to paste in a link to the exact image you want to use. There are two ways to find that logo URL:\n1. Right-click on the image, inspect element, and grab the URL or SVG for the image.\n2. Use a logo repository, like Brandfetch, that hosts most company logos. Find yours and grab the embed link.\nStarting by grabbing the image directly, we can inspect the site and click on the logo. This image is an SVG, meaning there is no link to copy. We can instead copy the SVG content and paste that into our preferred AI tool.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nHere’s the result in Bolt with a simple request to build a homepage:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nTo include your logo, simply paste the link or SVG text with a prompt like\n*“Add my logo to the header using this link.”*\nThe second option is to look up the logo on a site like Brandfetch and copy the embed link. Paste that directly into your AI prototyping tool and you’ll get a clean logo instantly.\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nAs you’d expect, this looks identical:\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI\nYou can use these approaches for any images you want to include—just make sure you’re linking to the image itself, not a webpage. The URL will typically end in PNG or SVG.\nOne last tip: If you need some realistic images for your prototype, just ask the AI tool to grab them from\n[Unsplash](https://unsplash.com/)\n, which does a reasonably good job at picking relevant images. Here’s the Airbnb example once more, where the AI decided on these images based on the prompt\n*“Add images from Unsplash that make sense given the context.”*\nImage from How to get your entire team prototyping with AI\nImage from How to get your entire team prototyping with AI",
+      "token_count": 631
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000014",
+      "contextualized_text": "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization\nWhere to go from here\nIf you want to drive adoption on your team, start with component libraries to establish visual consistency, implement baselines and forks to accelerate iteration, and align your team on when and how to use different fidelity levels throughout your product development lifecycle. These aren’t merely nice-to-haves—this is what separates teams just poking at the surface of what AI can do for them from those fully integrating AI tools into their best practices and daily workflows to supercharge their products.\nGive these workflows a try, and feel free to reach out with your progress. I’m excited to see you and your team level up with AI prototyping!\n*Thanks, Colin!*\n*For more from Colin, check out his*\n[*free 45-minute live online class*](https://maven.com/p/becb6f/product-development-lifecycle-with-ai-prototyping)\n*coming up on July 8th, and his course*\n[*AI Prototyping for Product Managers*](https://maven.com/tech-for-product/ai-prototyping-for-product-managers?promoCode=LENNYSLIST)\n*(which kicks off on June 30th; use code LENNYSLIST to get $100 off). You can also*\n[*book Colin for one-day team workshops*](https://teams.techforproduct.com/)\n*with your team.*\n*Have a fulfilling and productive week 🙏*\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/297",
+        "#/texts/298",
+        "#/texts/299",
+        "#/texts/300",
+        "#/texts/301",
+        "#/texts/302",
+        "#/texts/303",
+        "#/texts/304",
+        "#/texts/305",
+        "#/texts/306",
+        "#/texts/307",
+        "#/texts/308",
+        "#/texts/309",
+        "#/texts/310",
+        "#/texts/311",
+        "#/texts/312",
+        "#/texts/313",
+        "#/texts/314",
+        "#/texts/315",
+        "#/texts/316"
+      ],
+      "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+      "headings": [
+        "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+        "Where to go from here"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md#chunk=000014",
+        "chunk_sha256": "1b0d187c48df42949c1a4f7fdd835900316b833844557153424cd9da75384874",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+        "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+        "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+        "headings": [
+          "How to get your entire team prototyping with AI — A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle | 2025-06-10 | Tags: design, ai, leadership, engineering, newsletter, organization",
+          "Where to go from here"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+        "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+        "segment": {
+          "first_self_ref": "#/texts/297",
+          "item_count": 20,
+          "last_self_ref": "#/texts/316"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/297",
+          "#/texts/298",
+          "#/texts/299",
+          "#/texts/300",
+          "#/texts/301",
+          "#/texts/302",
+          "#/texts/303",
+          "#/texts/304",
+          "#/texts/305",
+          "#/texts/306",
+          "#/texts/307",
+          "#/texts/308",
+          "#/texts/309",
+          "#/texts/310",
+          "#/texts/311",
+          "#/texts/312",
+          "#/texts/313",
+          "#/texts/314",
+          "#/texts/315",
+          "#/texts/316"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "If you want to drive adoption on your team, start with component libraries to establish visual consistency, implement baselines and forks to accelerate iteration, and align your team on when and how to use different fidelity levels throughout your product development lifecycle. These aren’t merely nice-to-haves—this is what separates teams just poking at the surface of what AI can do for them from those fully integrating AI tools into their best practices and daily workflows to supercharge their products.\nGive these workflows a try, and feel free to reach out with your progress. I’m excited to see you and your team level up with AI prototyping!\n*Thanks, Colin!*\n*For more from Colin, check out his*\n[*free 45-minute live online class*](https://maven.com/p/becb6f/product-development-lifecycle-with-ai-prototyping)\n*coming up on July 8th, and his course*\n[*AI Prototyping for Product Managers*](https://maven.com/tech-for-product/ai-prototyping-for-product-managers?promoCode=LENNYSLIST)\n*(which kicks off on June 30th; use code LENNYSLIST to get $100 off). You can also*\n[*book Colin for one-day team workshops*](https://teams.techforproduct.com/)\n*with your team.*\n*Have a fulfilling and productive week 🙏*\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "token_count": 524
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.docling.json",
+  "docling_sha256": "2b84509b0039a8863956b0d21928e00be73d47dca6292c642b2fda116bec1bcd",
+  "document_id": "02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+  "enhanced_sha256": "896a8c3c3685f0d45f450b55511cdd4af3375171ae0054223c9d1c36a749a722",
+  "fact_document_path": "chunks/v2/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.chunks.json",
+  "metadata": {
+    "date": "2025-06-10",
+    "subtitle": "A guide to creating AI prototypes that match your brand and are integrated into every step of your development lifecycle",
+    "tags": [
+      "design",
+      "ai",
+      "leadership",
+      "engineering",
+      "newsletter",
+      "organization"
+    ],
+    "title": "How to get your entire team prototyping with AI",
+    "type": "newsletter",
+    "word_count": 4619
+  },
+  "raw_path": "corpus/raw/02-newsletters/how-to-get-your-entire-team-prototyping-with-ai.md",
+  "raw_sha256": "575dc90666aa1608c0e78986b12ada10cd07d70dcf3737d1162e673394029c7d",
+  "schema_version": "1",
+  "title": "How to get your entire team prototyping with AI"
+}

@@ -1,0 +1,1605 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000000",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\n*👋 Hey,*\n[*Lenny*](https://twitter.com/lennysan)\n*here! Welcome to this month’s ✨*\n***free edition***\n*✨ of Lenny’s Newsletter. Each week I humbly tackle reader questions about building product, driving growth, and working with humans.*\n*If you’re not a subscriber, here’s what you missed this month:*\n1. [*Five steps to starting your product-led growth motion, part 2*](https://www.lennysnewsletter.com/p/five-steps-to-starting-your-product)\n2. [*How Coda builds product*](https://www.lennysnewsletter.com/p/how-coda-builds-product)\n3. [*Discussion: What’s one change you’ve made to your product development process in the past year that’s had the most impact on your team’s success?*](https://www.lennysnewsletter.com/p/discussion-whats-one-change-that/comments)\n*Subscribe to get access to these posts, and every post.*\nLast month,\n[Dan Shipper](https://twitter.com/danshipper)\n(co-founder and CEO of\n[Every](https://every.to/)\n)\n[launched](https://twitter.com/danshipper/status/1602126357953142784)\na chatbot trained on the Huberman Lab podcast, and I was blown away. I pinged Dan to see what it would take to build something like this for my newsletter content (as I was super-curious about the process, plus readers have been asking for it over the past couple of months, including just yesterday!), and by the next morning, Dan had a functioning chatbot 🤯\nNot only did Dan offer to build and launch the chatbot, he suggested that we use this opportunity to help people learn how to build their own. And that’s exactly what you’ll find below.\nDan walks us through the basics of AI and GPT-3, how to set up an environment to play with the API, and how to train it on your own data. No coding background necessary. I found this incredibly interesting, and, as Dan points out below, “the best way to prepare for this fast-approaching future is to dive in and get your hands dirty.” Let’s dig in.\n*You can find Dan Shipper on*\n[*Twitter*](https://twitter.com/danshipper)\n*,*\n[*LinkedIn*](https://www.linkedin.com/in/danshipper/)\n*, and his*\n[*Every newsletter*](https://every.to/subscribe?v=3)\n*where he shares his ongoing research into all things AI, tech, and personal development. Also, Dan*\n***\n*just*\n***\n*launched a*\n[*cohort-based course to help you build your own chatbot*](https://www.chatbot-course.com/)\n*, so if you’d like to get even deeper, definitely check it out.*",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000000",
+        "chunk_sha256": "9d6442c6f6878eb9f94bb7b3df273253f89b1c9765013f631996e6634ec078d3",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 32,
+          "last_self_ref": "#/texts/32"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "*👋 Hey,*\n[*Lenny*](https://twitter.com/lennysan)\n*here! Welcome to this month’s ✨*\n***free edition***\n*✨ of Lenny’s Newsletter. Each week I humbly tackle reader questions about building product, driving growth, and working with humans.*\n*If you’re not a subscriber, here’s what you missed this month:*\n1. [*Five steps to starting your product-led growth motion, part 2*](https://www.lennysnewsletter.com/p/five-steps-to-starting-your-product)\n2. [*How Coda builds product*](https://www.lennysnewsletter.com/p/how-coda-builds-product)\n3. [*Discussion: What’s one change you’ve made to your product development process in the past year that’s had the most impact on your team’s success?*](https://www.lennysnewsletter.com/p/discussion-whats-one-change-that/comments)\n*Subscribe to get access to these posts, and every post.*\nLast month,\n[Dan Shipper](https://twitter.com/danshipper)\n(co-founder and CEO of\n[Every](https://every.to/)\n)\n[launched](https://twitter.com/danshipper/status/1602126357953142784)\na chatbot trained on the Huberman Lab podcast, and I was blown away. I pinged Dan to see what it would take to build something like this for my newsletter content (as I was super-curious about the process, plus readers have been asking for it over the past couple of months, including just yesterday!), and by the next morning, Dan had a functioning chatbot 🤯\nNot only did Dan offer to build and launch the chatbot, he suggested that we use this opportunity to help people learn how to build their own. And that’s exactly what you’ll find below.\nDan walks us through the basics of AI and GPT-3, how to set up an environment to play with the API, and how to train it on your own data. No coding background necessary. I found this incredibly interesting, and, as Dan points out below, “the best way to prepare for this fast-approaching future is to dive in and get your hands dirty.” Let’s dig in.\n*You can find Dan Shipper on*\n[*Twitter*](https://twitter.com/danshipper)\n*,*\n[*LinkedIn*](https://www.linkedin.com/in/danshipper/)\n*, and his*\n[*Every newsletter*](https://every.to/subscribe?v=3)\n*where he shares his ongoing research into all things AI, tech, and personal development. Also, Dan*\n***\n*just*\n***\n*launched a*\n[*cohort-based course to help you build your own chatbot*](https://www.chatbot-course.com/)\n*, so if you’d like to get even deeper, definitely check it out.*",
+      "token_count": 769
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000001",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\n*by Dan Shipper*\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nLenny’s Newsletter is great, but it’s inherently one-sided. It talks\n*to*\nyou, but you can’t talk back. Wouldn’t it be awesome if you could ask Lenny’s Newsletter a question?\nWell, now that’s possible.\nOver the course of last week I built an AI-powered chatbot for Lenny that uses his entire newsletter archive to answer any question you have about product, growth, and startups. It’s built with GPT-3 and it took a couple hours to do, end to end. In this post, I’ll break down exactly how the Lenny Bot works so you can learn to build one yourself.\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nYou can also use it right now 👇\n[Try the Lenny Chatbot](https://www.lennybot.com/)\nAI technologies like GPT-3 are still in their infancy, but they’re going to be everywhere soon. Staying on top of how they work is going to be crucial to your career in tech, and especially in building product. The best way to prepare for a fast-approaching future is to dive in and get your hands dirty. That’s what I’ve been doing over at\n[Every](https://every.to/)\n—I’m writing weekly about my experiments with using GPT-3 to\n[build chatbots](https://every.to/chain-of-thought/i-trained-a-gpt-3-chatbot-on-every-episode-of-my-favorite-podcast)\n,\n[understand patterns in my thinking](https://every.to/chain-of-thought/gpt-3-is-the-best-journal-you-ve-ever-used)\n, and\n[organize my notes](https://every.to/chain-of-thought/the-end-of-organizing)\n. I’m trying to understand these technologies as deeply as possible, and I want to share with you what I’ve learned.\nIt might seem intimidating to get started, especially if you don’t have a technical background. But I’m going to start at the very beginning. You’ll be able to understand what I’m talking about and begin using it yourself,\n*no programming required*\n**.** (And if you have any questions, you can always paste them into ChatGPT—it’ll give you good responses ;)",
+      "doc_item_refs": [
+        "#/texts/34",
+        "#/texts/266",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/267",
+        "#/texts/41",
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/44",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/48",
+        "#/texts/49",
+        "#/texts/50",
+        "#/texts/51",
+        "#/texts/52",
+        "#/texts/53",
+        "#/texts/54",
+        "#/texts/55"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot"
+      ],
+      "images": [
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/6bf83feb-d725-4904-a08d-409b093ea786_3024x4032.jpeg"
+        },
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/03379035-15b1-4cd6-a5ed-6a768e1f2949_1640x1298.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000001",
+        "chunk_sha256": "2a2ffecb96a4bd18298f526ae5069cfed2d273f5cd6f18b0e79cd55e546aa31f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot"
+        ],
+        "images": [
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/6bf83feb-d725-4904-a08d-409b093ea786_3024x4032.jpeg"
+          },
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/03379035-15b1-4cd6-a5ed-6a768e1f2949_1640x1298.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/34",
+          "item_count": 24,
+          "last_self_ref": "#/texts/55"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/34",
+          "#/texts/266",
+          "#/texts/35",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/40",
+          "#/texts/267",
+          "#/texts/41",
+          "#/texts/42",
+          "#/texts/43",
+          "#/texts/44",
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/48",
+          "#/texts/49",
+          "#/texts/50",
+          "#/texts/51",
+          "#/texts/52",
+          "#/texts/53",
+          "#/texts/54",
+          "#/texts/55"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "*by Dan Shipper*\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nLenny’s Newsletter is great, but it’s inherently one-sided. It talks\n*to*\nyou, but you can’t talk back. Wouldn’t it be awesome if you could ask Lenny’s Newsletter a question?\nWell, now that’s possible.\nOver the course of last week I built an AI-powered chatbot for Lenny that uses his entire newsletter archive to answer any question you have about product, growth, and startups. It’s built with GPT-3 and it took a couple hours to do, end to end. In this post, I’ll break down exactly how the Lenny Bot works so you can learn to build one yourself.\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nYou can also use it right now 👇\n[Try the Lenny Chatbot](https://www.lennybot.com/)\nAI technologies like GPT-3 are still in their infancy, but they’re going to be everywhere soon. Staying on top of how they work is going to be crucial to your career in tech, and especially in building product. The best way to prepare for a fast-approaching future is to dive in and get your hands dirty. That’s what I’ve been doing over at\n[Every](https://every.to/)\n—I’m writing weekly about my experiments with using GPT-3 to\n[build chatbots](https://every.to/chain-of-thought/i-trained-a-gpt-3-chatbot-on-every-episode-of-my-favorite-podcast)\n,\n[understand patterns in my thinking](https://every.to/chain-of-thought/gpt-3-is-the-best-journal-you-ve-ever-used)\n, and\n[organize my notes](https://every.to/chain-of-thought/the-end-of-organizing)\n. I’m trying to understand these technologies as deeply as possible, and I want to share with you what I’ve learned.\nIt might seem intimidating to get started, especially if you don’t have a technical background. But I’m going to start at the very beginning. You’ll be able to understand what I’m talking about and begin using it yourself,\n*no programming required*\n**.** (And if you have any questions, you can always paste them into ChatGPT—it’ll give you good responses ;)",
+      "token_count": 671
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000002",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\nPreamble: GPT-3 vs. ChatGPT\nYou’ve probably heard of both GPT-3 and ChatGPT. Maybe you use those terms interchangeably, or maybe you’re not really sure what the difference is. It’s worth taking a minute to understand how they differ.\nGPT-3 and ChatGPT are both “large language models.” These are machine-learning models that are very good at generating natural-sounding text, code, and more. They’re trained using large data sets of text, and this helps them get very good at lots of natural-language tasks, like answering questions, writing marketing copy, and holding conversations. So what’s the difference between them? And why is it important?\nGPT-3 is a general-purpose language model—it can hold conversations, write code, complete a blog post, do translation tasks, and more. You can think of it like a flexible know-it-all that can expound on any topic you want.\nChatGPT is a version of GPT-3 that’s been turned into a friendly, inoffensive extrovert. Basically, it’s been specifically trained to be good at holding conversations. OpenAI does this by repeatedly holding conversations with the model and then rewarding it for good responses and punishing it for bad ones—a process called\n[Reinforcement Learning from Human Feedback](https://huggingface.co/blog/rlhf)\n.\nYou’d think since we’re building a chatbot we’d use ChatGPT, right? Unfortunately not. OpenAI hasn’t created a way for us to interact with the ChatGPT model directly—you can only use it through the ChatGPT web app. So it’s not suitable for our purposes.\nWe want to be able to interact with the model directly, not through an intervening app. So instead we’ll use GPT-3 for our explorations. It’ll give us all the power and flexibility we need to build a chatbot.\nWe’ll do it in two ways: using\n[OpenAI’s Playground](https://platform.openai.com/playground)\nto start, and with a little bit of code after that. The Playground is a web app that lets you prompt GPT-3 directly and get responses back, making it a great place for us to experiment.\nLet’s start there and see how things go.",
+      "doc_item_refs": [
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60",
+        "#/texts/61",
+        "#/texts/62",
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65",
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/68"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot",
+        "Preamble: GPT-3 vs. ChatGPT"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000002",
+        "chunk_sha256": "77efa48031cab55d7e876a8a1cc18b16c66f05e6b5a6afd1ea833d31321d739e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot",
+          "Preamble: GPT-3 vs. ChatGPT"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/57",
+          "item_count": 12,
+          "last_self_ref": "#/texts/68"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/60",
+          "#/texts/61",
+          "#/texts/62",
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65",
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/68"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "You’ve probably heard of both GPT-3 and ChatGPT. Maybe you use those terms interchangeably, or maybe you’re not really sure what the difference is. It’s worth taking a minute to understand how they differ.\nGPT-3 and ChatGPT are both “large language models.” These are machine-learning models that are very good at generating natural-sounding text, code, and more. They’re trained using large data sets of text, and this helps them get very good at lots of natural-language tasks, like answering questions, writing marketing copy, and holding conversations. So what’s the difference between them? And why is it important?\nGPT-3 is a general-purpose language model—it can hold conversations, write code, complete a blog post, do translation tasks, and more. You can think of it like a flexible know-it-all that can expound on any topic you want.\nChatGPT is a version of GPT-3 that’s been turned into a friendly, inoffensive extrovert. Basically, it’s been specifically trained to be good at holding conversations. OpenAI does this by repeatedly holding conversations with the model and then rewarding it for good responses and punishing it for bad ones—a process called\n[Reinforcement Learning from Human Feedback](https://huggingface.co/blog/rlhf)\n.\nYou’d think since we’re building a chatbot we’d use ChatGPT, right? Unfortunately not. OpenAI hasn’t created a way for us to interact with the ChatGPT model directly—you can only use it through the ChatGPT web app. So it’s not suitable for our purposes.\nWe want to be able to interact with the model directly, not through an intervening app. So instead we’ll use GPT-3 for our explorations. It’ll give us all the power and flexibility we need to build a chatbot.\nWe’ll do it in two ways: using\n[OpenAI’s Playground](https://platform.openai.com/playground)\nto start, and with a little bit of code after that. The Playground is a web app that lets you prompt GPT-3 directly and get responses back, making it a great place for us to experiment.\nLet’s start there and see how things go.",
+      "token_count": 577
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000003",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\nThe basics of GPT-3\nThe really basic way to explain GPT-3 is that it likes to finish your sentences for you. You provide it with a starting set of words, and it tries to figure out the most likely set of words that follow from your input. You can provide any string of words. It’s very flexible and can talk about anything you want, from product management to astrophysics.\nThe set of words you provide is called a\n*prompt*\n, and the answer you get back from GPT-3 is called a\n*completion*\n.\nBelow is a simple example in the\n[GPT-3 Playground](https://platform.openai.com/playground?model=text-davinci-003)\n. The non-green text is what I typed in as a prompt, and the green text is what GPT-3 returned as the completion:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nYou can see that GPT-3 performs well on a simple completion like this. But it performs well even when the prompts get more complicated.\nYou can, for example, prompt it to define product-market fit:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nThat’s not bad! Since it can already answer product questions, this looks like it will be useful for our Lenny Chatbot out of the box.\nYou might assume that on the back end, GPT-3 has some compendium of concepts that it’s using to understand your sentence and generate the right completion. But in reality, it’s a probability engine. It’s just very good at, given a prompt, finding the words that are most likely to follow it.\nIt can do this because it’s been\n[trained by analyzing the statistical probabilities of sentences from basically the entire internet](https://en.wikipedia.org/wiki/GPT-3#Training_and_capabilities)\n, so it has a lot of data to learn from. (All those Medium posts about product-market fit are good for something!)\nIf you want to learn more about how this works from a technical perspective, I recommend checking out Andrej Karpathy’s\n[videos](https://www.youtube.com/@AndrejKarpathy)\n.",
+      "doc_item_refs": [
+        "#/texts/70",
+        "#/texts/71",
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/74",
+        "#/texts/75",
+        "#/texts/76",
+        "#/texts/77",
+        "#/texts/78",
+        "#/texts/268",
+        "#/texts/79",
+        "#/texts/80",
+        "#/texts/81",
+        "#/texts/269",
+        "#/texts/82",
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/87",
+        "#/texts/88",
+        "#/texts/89",
+        "#/texts/90"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot",
+        "The basics of GPT-3"
+      ],
+      "images": [
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/56ba3ae9-273e-4efb-a682-7e2f1731324d_1600x710.png"
+        },
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a10d7186-361d-464a-a561-e7df762021a6_1600x885.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000003",
+        "chunk_sha256": "744e29cb36f3f3844555385d61ff1d0f6b205d3e2bada62780a219920adab695",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot",
+          "The basics of GPT-3"
+        ],
+        "images": [
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/56ba3ae9-273e-4efb-a682-7e2f1731324d_1600x710.png"
+          },
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a10d7186-361d-464a-a561-e7df762021a6_1600x885.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/70",
+          "item_count": 23,
+          "last_self_ref": "#/texts/90"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/70",
+          "#/texts/71",
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/74",
+          "#/texts/75",
+          "#/texts/76",
+          "#/texts/77",
+          "#/texts/78",
+          "#/texts/268",
+          "#/texts/79",
+          "#/texts/80",
+          "#/texts/81",
+          "#/texts/269",
+          "#/texts/82",
+          "#/texts/83",
+          "#/texts/84",
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/87",
+          "#/texts/88",
+          "#/texts/89",
+          "#/texts/90"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "The really basic way to explain GPT-3 is that it likes to finish your sentences for you. You provide it with a starting set of words, and it tries to figure out the most likely set of words that follow from your input. You can provide any string of words. It’s very flexible and can talk about anything you want, from product management to astrophysics.\nThe set of words you provide is called a\n*prompt*\n, and the answer you get back from GPT-3 is called a\n*completion*\n.\nBelow is a simple example in the\n[GPT-3 Playground](https://platform.openai.com/playground?model=text-davinci-003)\n. The non-green text is what I typed in as a prompt, and the green text is what GPT-3 returned as the completion:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nYou can see that GPT-3 performs well on a simple completion like this. But it performs well even when the prompts get more complicated.\nYou can, for example, prompt it to define product-market fit:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nThat’s not bad! Since it can already answer product questions, this looks like it will be useful for our Lenny Chatbot out of the box.\nYou might assume that on the back end, GPT-3 has some compendium of concepts that it’s using to understand your sentence and generate the right completion. But in reality, it’s a probability engine. It’s just very good at, given a prompt, finding the words that are most likely to follow it.\nIt can do this because it’s been\n[trained by analyzing the statistical probabilities of sentences from basically the entire internet](https://en.wikipedia.org/wiki/GPT-3#Training_and_capabilities)\n, so it has a lot of data to learn from. (All those Medium posts about product-market fit are good for something!)\nIf you want to learn more about how this works from a technical perspective, I recommend checking out Andrej Karpathy’s\n[videos](https://www.youtube.com/@AndrejKarpathy)\n.",
+      "token_count": 609
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000004",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\nTurning GPT-3 into a chatbot\nRight now we have the bot answering questions, but how can we get it to actually chat with us?\nIdeally we want it to get messages from the user and give responses back. And we want to give it a little bit of personality. It would be great if it sounded something like Lenny himself—warm, friendly, and smart.\nThat’s pretty simple to do with GPT-3 as well. We can ask it to behave in this way in our prompt:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nAs you can see, GPT-3 has read enough chatbot transcripts and product management posts to be able to start a conversation with us based on this kind of prompt.\nWe can continue our conversation with it by writing more of the transcript:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nNotice what we’re doing—every time we run the model, we feed it the entire transcript of what came before in the conversation, and that guides its responses:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nSuccess! It’s chatting with us at a high level about product management questions, like how to build a roadmap.\nBut what if we want to get responses to questions that are harder to answer? For example, one of the biggest values of Lenny’s Newsletter is the amount of benchmark data he provides so that you can measure how well you’re doing against the best in the business.\nIf we go back through Lenny’s archive, we find in his post “\n[What is a good activation rate](https://www.lennysnewsletter.com/p/what-is-a-good-activation-rate)\n” that the average activation rate across different kinds of products is about 34% and the median is 25%.\nLet’s ask GPT-3 and see whether it knows this:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nNot bad! It’s in the right ballpark, but its estimate for a good activation rate is a little lower than Lenny’s data says is the average. Ideally, since it’s a Lenny chatbot, we want it to return the benchmark he provides in his article.\nOnce we start really probing the bot, this kind of problem only gets bigger. For example, if we ask it who Substack’s first publisher was—a topic Lenny covered in “\n[How to kickstart and scale a consumer business, Step 4](https://www.lennysnewsletter.com/p/consumer-business-find-first-users)\n”—it will say it was Andrew Sullivan:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nThis answer sounds confident, but it is incorrect. (The correct answer is\n[Bill Bishop](https://sinocism.com/)\n.) This isn’t an isolated incident. For example, if I ask, “Is it best for consumer startup ideas to come from founders who are trying to solve their own problems?” it replies:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nThis is confident—and also wrong. As Lenny covered in “\n[How to kickstart and scale a consumer business](https://www.lennysnewsletter.com/p/kickstarting-and-scaling-a-consumer)\n,” less than a third of consumer startup ideas came from founders solving their own problems. So it’s not “absolutely” a best practice.\nWhat’s going on here? There are two intertwined problems:\n1. **GPT-3 tends to “hallucinate.”** [Hallucination](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)) is a technical term that refers to the model’s propensity to return nonsensical or false completions depending on what’s asked of it. Basically, the model is like a very smart and overeager 6-year-old. It will try its best to give you a good answer even if it doesn’t know what it’s talking about. OpenAI and other foundational-model companies are actively working on this problem, but it’s still pretty common. It’s compounded by the second problem.\n2. **GPT-3 might not have the right data.** GPT-3 has a knowledge cutoff—meaning all of the information it uses to produce its responses is frozen in 2021. Also, much of Lenny’s writing is behind a paywall. That means that even though GPT-3 has read the whole internet, it won’t have the material from his newsletter available to construct answers.\nSo how could we construct a chatbot with GPT-3 that solves these problems? Ideally we want to feed GPT-3 the information it needs to answer questions on the fly. That way it will have the right information available and will be less likely to make things up.\nThere’s a pretty easy way to do that.",
+      "doc_item_refs": [
+        "#/texts/92",
+        "#/texts/93",
+        "#/texts/94",
+        "#/texts/270",
+        "#/texts/95",
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/271",
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/272",
+        "#/texts/100",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/103",
+        "#/texts/104",
+        "#/texts/105",
+        "#/texts/106",
+        "#/texts/273",
+        "#/texts/107",
+        "#/texts/108",
+        "#/texts/109",
+        "#/texts/110",
+        "#/texts/111",
+        "#/texts/274",
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/114",
+        "#/texts/115",
+        "#/texts/275",
+        "#/texts/116",
+        "#/texts/117",
+        "#/texts/118",
+        "#/texts/119",
+        "#/texts/120",
+        "#/texts/121",
+        "#/texts/125",
+        "#/texts/128",
+        "#/texts/129"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot",
+        "Turning GPT-3 into a chatbot"
+      ],
+      "images": [
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/7192d681-668c-4fc7-befa-e2d4da5497ea_1600x1009.png"
+        },
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/cf483800-74be-4633-8f04-7287ee6dbbe2_1600x1376.png"
+        },
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b5f606b3-de7e-4ad0-9e62-721258c9d9d2_1456x1600.png"
+        },
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/ab3affee-84ae-4269-9bc8-1e4974ae9c08_1540x1600.png"
+        },
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b5605455-8b6c-4d73-a92f-98f3470eec0a_1568x1600.png"
+        },
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000009",
+          "path": null,
+          "self_ref": "#/pictures/9",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/7d71a34e-430a-4738-9fd1-793b86f1070b_1600x1387.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000004",
+        "chunk_sha256": "1514ba3901dc55acd525819fb87db1cb93a8b0931a69173e0e93958e4c39ddfd",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot",
+          "Turning GPT-3 into a chatbot"
+        ],
+        "images": [
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/7192d681-668c-4fc7-befa-e2d4da5497ea_1600x1009.png"
+          },
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/cf483800-74be-4633-8f04-7287ee6dbbe2_1600x1376.png"
+          },
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/b5f606b3-de7e-4ad0-9e62-721258c9d9d2_1456x1600.png"
+          },
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/ab3affee-84ae-4269-9bc8-1e4974ae9c08_1540x1600.png"
+          },
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/b5605455-8b6c-4d73-a92f-98f3470eec0a_1568x1600.png"
+          },
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000009",
+            "path": null,
+            "self_ref": "#/pictures/9",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/7d71a34e-430a-4738-9fd1-793b86f1070b_1600x1387.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/92",
+          "item_count": 39,
+          "last_self_ref": "#/texts/129"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/92",
+          "#/texts/93",
+          "#/texts/94",
+          "#/texts/270",
+          "#/texts/95",
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/271",
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/272",
+          "#/texts/100",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/103",
+          "#/texts/104",
+          "#/texts/105",
+          "#/texts/106",
+          "#/texts/273",
+          "#/texts/107",
+          "#/texts/108",
+          "#/texts/109",
+          "#/texts/110",
+          "#/texts/111",
+          "#/texts/274",
+          "#/texts/112",
+          "#/texts/113",
+          "#/texts/114",
+          "#/texts/115",
+          "#/texts/275",
+          "#/texts/116",
+          "#/texts/117",
+          "#/texts/118",
+          "#/texts/119",
+          "#/texts/120",
+          "#/texts/121",
+          "#/texts/125",
+          "#/texts/128",
+          "#/texts/129"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "Right now we have the bot answering questions, but how can we get it to actually chat with us?\nIdeally we want it to get messages from the user and give responses back. And we want to give it a little bit of personality. It would be great if it sounded something like Lenny himself—warm, friendly, and smart.\nThat’s pretty simple to do with GPT-3 as well. We can ask it to behave in this way in our prompt:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nAs you can see, GPT-3 has read enough chatbot transcripts and product management posts to be able to start a conversation with us based on this kind of prompt.\nWe can continue our conversation with it by writing more of the transcript:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nNotice what we’re doing—every time we run the model, we feed it the entire transcript of what came before in the conversation, and that guides its responses:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nSuccess! It’s chatting with us at a high level about product management questions, like how to build a roadmap.\nBut what if we want to get responses to questions that are harder to answer? For example, one of the biggest values of Lenny’s Newsletter is the amount of benchmark data he provides so that you can measure how well you’re doing against the best in the business.\nIf we go back through Lenny’s archive, we find in his post “\n[What is a good activation rate](https://www.lennysnewsletter.com/p/what-is-a-good-activation-rate)\n” that the average activation rate across different kinds of products is about 34% and the median is 25%.\nLet’s ask GPT-3 and see whether it knows this:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nNot bad! It’s in the right ballpark, but its estimate for a good activation rate is a little lower than Lenny’s data says is the average. Ideally, since it’s a Lenny chatbot, we want it to return the benchmark he provides in his article.\nOnce we start really probing the bot, this kind of problem only gets bigger. For example, if we ask it who Substack’s first publisher was—a topic Lenny covered in “\n[How to kickstart and scale a consumer business, Step 4](https://www.lennysnewsletter.com/p/consumer-business-find-first-users)\n”—it will say it was Andrew Sullivan:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nThis answer sounds confident, but it is incorrect. (The correct answer is\n[Bill Bishop](https://sinocism.com/)\n.) This isn’t an isolated incident. For example, if I ask, “Is it best for consumer startup ideas to come from founders who are trying to solve their own problems?” it replies:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nThis is confident—and also wrong. As Lenny covered in “\n[How to kickstart and scale a consumer business](https://www.lennysnewsletter.com/p/kickstarting-and-scaling-a-consumer)\n,” less than a third of consumer startup ideas came from founders solving their own problems. So it’s not “absolutely” a best practice.\nWhat’s going on here? There are two intertwined problems:\n1. **GPT-3 tends to “hallucinate.”** [Hallucination](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)) is a technical term that refers to the model’s propensity to return nonsensical or false completions depending on what’s asked of it. Basically, the model is like a very smart and overeager 6-year-old. It will try its best to give you a good answer even if it doesn’t know what it’s talking about. OpenAI and other foundational-model companies are actively working on this problem, but it’s still pretty common. It’s compounded by the second problem.\n2. **GPT-3 might not have the right data.** GPT-3 has a knowledge cutoff—meaning all of the information it uses to produce its responses is frozen in 2021. Also, much of Lenny’s writing is behind a paywall. That means that even though GPT-3 has read the whole internet, it won’t have the material from his newsletter available to construct answers.\nSo how could we construct a chatbot with GPT-3 that solves these problems? Ideally we want to feed GPT-3 the information it needs to answer questions on the fly. That way it will have the right information available and will be less likely to make things up.\nThere’s a pretty easy way to do that.",
+      "token_count": 1328
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000005",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\nStuffing context into the prompt\nWhen I was in high school, I had a physics teacher who allowed open-book tests. He would allow you to bring a single index card to the test with any of the formulas that you thought you needed to answer the questions.\nThe idea was that memorizing the formulas didn’t matter so much. What mattered most was using your reasoning abilities to turn the formulas into the correct answer.\nPeople would come to the test with microscopic handwriting covering every inch of their notecard. It turns out that this was helpful! The formulas gave you the context you needed to think through the answers to the questions on the tests, so the tests became less about your memory and more about how well you understood the topic. (I got a B in that class, so my understanding was pretty average.)\nYou can work with GPT-3 in a similar way. If, in your prompt, you include the equivalent of a notecard with context to help it answer the question, it will often get it right. (Its reasoning capabilities are better than mine.)\nLet’s go back to an example GPT-3 failed on earlier and see if we can correct it with this technique.\nAs I mentioned above, in “How to kickstart a consumer business,” Lenny notes that less than a third of the founders got their idea from trying to solve their own problem:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nLast time, when we asked GPT-3 if it was best for consumer business founders to try to solve their own problem, it responded, “Absolutely!” Which, given what’s in Lenny’s article, is wrong.\nLet’s ask GPT-3 this question again—but let’s give it a little help. We’ll feed it the equivalent of a notecard. Written on the notecard will be the section of Lenny’s article that contains the answer. Then we’ll see if it can get it right.\nTo make this fair, we won’t give it just the text containing the answer. We’ll give it a bunch of the surrounding text in the article as well to see how it does. Let’s see if it works:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nSuccess! Now it tells us that less than a third of founders were trying to solve their own problem. This is great—all we have to do is write all of Lenny’s posts on a little notecard and feed it into the model along with any question we have, and it will answer based on what he’s written.\nBut this introduces another problem: space limitations.\nThe notecard analogy is apt because there’s limited space in the prompt—right now, about 4,000 tokens (each token is the equivalent of ¾ of a word). So we can’t feed in Lenny’s entire archive on every question. We have to be very choosy about what we put in there.\nLet’s talk about how to solve this.",
+      "doc_item_refs": [
+        "#/texts/131",
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/134",
+        "#/texts/135",
+        "#/texts/136",
+        "#/texts/276",
+        "#/texts/137",
+        "#/texts/277",
+        "#/texts/138",
+        "#/texts/139",
+        "#/texts/140",
+        "#/texts/141",
+        "#/texts/278",
+        "#/texts/142",
+        "#/texts/143",
+        "#/texts/144",
+        "#/texts/145",
+        "#/texts/146"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot",
+        "Stuffing context into the prompt"
+      ],
+      "images": [
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000010",
+          "path": null,
+          "self_ref": "#/pictures/10",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/28de9446-2042-4bcc-9424-5e2e43ed9655_1428x914.png"
+        },
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000011",
+          "path": null,
+          "self_ref": "#/pictures/11",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4a68d4d0-c3cc-4afb-a291-0b243ff79a0f_1563x661.jpeg"
+        },
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000012",
+          "path": null,
+          "self_ref": "#/pictures/12",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/1f193353-11e5-4092-84ad-cbfdf0c22e59_1552x1121.jpeg"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000005",
+        "chunk_sha256": "8c2ab641ba6904eb7fa64aba1857f6f862e01e70e64cc7ed4caed6358b365f76",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot",
+          "Stuffing context into the prompt"
+        ],
+        "images": [
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000010",
+            "path": null,
+            "self_ref": "#/pictures/10",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/28de9446-2042-4bcc-9424-5e2e43ed9655_1428x914.png"
+          },
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000011",
+            "path": null,
+            "self_ref": "#/pictures/11",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/4a68d4d0-c3cc-4afb-a291-0b243ff79a0f_1563x661.jpeg"
+          },
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000012",
+            "path": null,
+            "self_ref": "#/pictures/12",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/1f193353-11e5-4092-84ad-cbfdf0c22e59_1552x1121.jpeg"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/131",
+          "item_count": 19,
+          "last_self_ref": "#/texts/146"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/131",
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/134",
+          "#/texts/135",
+          "#/texts/136",
+          "#/texts/276",
+          "#/texts/137",
+          "#/texts/277",
+          "#/texts/138",
+          "#/texts/139",
+          "#/texts/140",
+          "#/texts/141",
+          "#/texts/278",
+          "#/texts/142",
+          "#/texts/143",
+          "#/texts/144",
+          "#/texts/145",
+          "#/texts/146"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "When I was in high school, I had a physics teacher who allowed open-book tests. He would allow you to bring a single index card to the test with any of the formulas that you thought you needed to answer the questions.\nThe idea was that memorizing the formulas didn’t matter so much. What mattered most was using your reasoning abilities to turn the formulas into the correct answer.\nPeople would come to the test with microscopic handwriting covering every inch of their notecard. It turns out that this was helpful! The formulas gave you the context you needed to think through the answers to the questions on the tests, so the tests became less about your memory and more about how well you understood the topic. (I got a B in that class, so my understanding was pretty average.)\nYou can work with GPT-3 in a similar way. If, in your prompt, you include the equivalent of a notecard with context to help it answer the question, it will often get it right. (Its reasoning capabilities are better than mine.)\nLet’s go back to an example GPT-3 failed on earlier and see if we can correct it with this technique.\nAs I mentioned above, in “How to kickstart a consumer business,” Lenny notes that less than a third of the founders got their idea from trying to solve their own problem:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nLast time, when we asked GPT-3 if it was best for consumer business founders to try to solve their own problem, it responded, “Absolutely!” Which, given what’s in Lenny’s article, is wrong.\nLet’s ask GPT-3 this question again—but let’s give it a little help. We’ll feed it the equivalent of a notecard. Written on the notecard will be the section of Lenny’s article that contains the answer. Then we’ll see if it can get it right.\nTo make this fair, we won’t give it just the text containing the answer. We’ll give it a bunch of the surrounding text in the article as well to see how it does. Let’s see if it works:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nSuccess! Now it tells us that less than a third of founders were trying to solve their own problem. This is great—all we have to do is write all of Lenny’s posts on a little notecard and feed it into the model along with any question we have, and it will answer based on what he’s written.\nBut this introduces another problem: space limitations.\nThe notecard analogy is apt because there’s limited space in the prompt—right now, about 4,000 tokens (each token is the equivalent of ¾ of a word). So we can’t feed in Lenny’s entire archive on every question. We have to be very choosy about what we put in there.\nLet’s talk about how to solve this.",
+      "token_count": 753
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000006",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\nEmbedding Lenny’s archive\nAt this point we’re going to have to move out of manual interactions with GPT-3’s Playground and start using chunks of code that work directly with the GPT-3 API. The code we’re building is going to do the following tasks:\n1. We need to download and store Lenny’s archive in a way that makes it easily searchable for our bot.\n2. We need some code that will help find relevant chunks of text from the archive of Lenny’s content that we created in the previous step.\n3. When a user asks a question, we want to use the code from the last step to get the chunks of text that are most likely to answer the question, and put them into the prompt that we send to GPT-3.\n4. We’ll display the resulting answer to the user.\nThis is simple to do with a library called\n[GPT Index](https://gpt-index.readthedocs.io/en/latest/)\n, an open-source library created by\n[Jerry Liu](https://twitter.com/jerryjliu0)\n. It’s completely separate from OpenAI but built to help with tasks like this.\nHere’s how it works:\n1. Create an index of article chunks\n2. Find the most relevant chunks\n3. Ask our question to GPT-3 using the most relevant chunk\n*Note:*\nThis is about to get a little bit more complicated and technical. If you’re interested in that, read on to get an explanation of exactly what’s happening here!\nYou can access and run the code from this article in a Google Colab file\n[here](https://colab.research.google.com/drive/1p2AablavDkSXly6H-XNLoSylMtoz7NDG?usp=sharing)\n. Colab is a cloud-based programming environment that will let you run everything right from your browser. (If you have questions about any of this, reach out to me on\n[Twitter](https://www.twitter.com/danshipper)\n.)\nIf you’re not interested in the technical details, skip to the end to try out the chatbot for yourself.\nStill here? Great. Let’s start with index construction.",
+      "doc_item_refs": [
+        "#/texts/148",
+        "#/texts/149",
+        "#/texts/150",
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/153",
+        "#/texts/154",
+        "#/texts/155",
+        "#/texts/156",
+        "#/texts/157",
+        "#/texts/158",
+        "#/texts/159",
+        "#/texts/160",
+        "#/texts/161",
+        "#/texts/162",
+        "#/texts/163",
+        "#/texts/164",
+        "#/texts/165",
+        "#/texts/166",
+        "#/texts/167",
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/170"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot",
+        "Embedding Lenny’s archive"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000006",
+        "chunk_sha256": "30c0cc5704f9b4c5e323786ccd20f448dc745f17032444981d3bf74e30a80892",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot",
+          "Embedding Lenny’s archive"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/148",
+          "item_count": 23,
+          "last_self_ref": "#/texts/170"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/148",
+          "#/texts/149",
+          "#/texts/150",
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/153",
+          "#/texts/154",
+          "#/texts/155",
+          "#/texts/156",
+          "#/texts/157",
+          "#/texts/158",
+          "#/texts/159",
+          "#/texts/160",
+          "#/texts/161",
+          "#/texts/162",
+          "#/texts/163",
+          "#/texts/164",
+          "#/texts/165",
+          "#/texts/166",
+          "#/texts/167",
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/170"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "At this point we’re going to have to move out of manual interactions with GPT-3’s Playground and start using chunks of code that work directly with the GPT-3 API. The code we’re building is going to do the following tasks:\n1. We need to download and store Lenny’s archive in a way that makes it easily searchable for our bot.\n2. We need some code that will help find relevant chunks of text from the archive of Lenny’s content that we created in the previous step.\n3. When a user asks a question, we want to use the code from the last step to get the chunks of text that are most likely to answer the question, and put them into the prompt that we send to GPT-3.\n4. We’ll display the resulting answer to the user.\nThis is simple to do with a library called\n[GPT Index](https://gpt-index.readthedocs.io/en/latest/)\n, an open-source library created by\n[Jerry Liu](https://twitter.com/jerryjliu0)\n. It’s completely separate from OpenAI but built to help with tasks like this.\nHere’s how it works:\n1. Create an index of article chunks\n2. Find the most relevant chunks\n3. Ask our question to GPT-3 using the most relevant chunk\n*Note:*\nThis is about to get a little bit more complicated and technical. If you’re interested in that, read on to get an explanation of exactly what’s happening here!\nYou can access and run the code from this article in a Google Colab file\n[here](https://colab.research.google.com/drive/1p2AablavDkSXly6H-XNLoSylMtoz7NDG?usp=sharing)\n. Colab is a cloud-based programming environment that will let you run everything right from your browser. (If you have questions about any of this, reach out to me on\n[Twitter](https://www.twitter.com/danshipper)\n.)\nIf you’re not interested in the technical details, skip to the end to try out the chatbot for yourself.\nStill here? Great. Let’s start with index construction.",
+      "token_count": 556
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000007",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\nEmbedding Lenny’s archive\nConstructing our index\nThe first thing we need to do is construct our index. You can think of an index as like a database: it stores a collection of pieces of text in a way that makes them easily searchable.\nTo construct the index, we first collect Lenny’s entire newsletter archive into a folder. Then we ask GPT Index to take all of the files in the folder and break each file into small, sequential pieces. Then we store those pieces in a searchable format.\nThe code looks like this:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nWhen we run this function, we’ll have created a file called index.json that contains chunks of Lenny’s articles converted into a format that makes them easily searchable. These are called\n[embeddings](https://platform.openai.com/docs/guides/embeddings)\n—a condensed mathematical representation of each chunk of text.\nJust like latitude and longitude can help you tell how close two cities are on a map, embeddings do the same kind of thing for text chunks. If you want to know if two pieces of text are similar, you just calculate the embeddings for them and compare. Text chunks with embeddings that are “closer” together are similar.\nEmbeddings are handy for us, because when a user asks a question, they’ll make it easy for us to search Lenny’s archive and find articles that are most likely to answer our question.\nWith that in mind, let’s run the code and see what happens.\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nSuccess! The Lenny’s archive is fully indexed, and we can query it to find relevant chunks of documents and use those chunks to answer our questions. (Be careful if you do this with big documents, as embeddings cost $0.0004 for every 1,000 tokens.)",
+      "doc_item_refs": [
+        "#/texts/172",
+        "#/texts/173",
+        "#/texts/174",
+        "#/texts/279",
+        "#/texts/175",
+        "#/texts/176",
+        "#/texts/177",
+        "#/texts/178",
+        "#/texts/179",
+        "#/texts/180",
+        "#/texts/181",
+        "#/texts/280",
+        "#/texts/182",
+        "#/texts/183"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot",
+        "Embedding Lenny’s archive",
+        "Constructing our index"
+      ],
+      "images": [
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000013",
+          "path": null,
+          "self_ref": "#/pictures/13",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/62015e67-94b6-48a7-b623-693cd3b0ca2b_1600x777.png"
+        },
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000014",
+          "path": null,
+          "self_ref": "#/pictures/14",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/3e0446ef-b109-42c8-a839-243033d51008_1582x988.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000007",
+        "chunk_sha256": "1625b6e5a89bca12c3f44d62dc4b85aea58e0c5f0d111f41474075bf410b893c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot",
+          "Embedding Lenny’s archive",
+          "Constructing our index"
+        ],
+        "images": [
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000013",
+            "path": null,
+            "self_ref": "#/pictures/13",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/62015e67-94b6-48a7-b623-693cd3b0ca2b_1600x777.png"
+          },
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000014",
+            "path": null,
+            "self_ref": "#/pictures/14",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/3e0446ef-b109-42c8-a839-243033d51008_1582x988.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/172",
+          "item_count": 14,
+          "last_self_ref": "#/texts/183"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/172",
+          "#/texts/173",
+          "#/texts/174",
+          "#/texts/279",
+          "#/texts/175",
+          "#/texts/176",
+          "#/texts/177",
+          "#/texts/178",
+          "#/texts/179",
+          "#/texts/180",
+          "#/texts/181",
+          "#/texts/280",
+          "#/texts/182",
+          "#/texts/183"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "The first thing we need to do is construct our index. You can think of an index as like a database: it stores a collection of pieces of text in a way that makes them easily searchable.\nTo construct the index, we first collect Lenny’s entire newsletter archive into a folder. Then we ask GPT Index to take all of the files in the folder and break each file into small, sequential pieces. Then we store those pieces in a searchable format.\nThe code looks like this:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nWhen we run this function, we’ll have created a file called index.json that contains chunks of Lenny’s articles converted into a format that makes them easily searchable. These are called\n[embeddings](https://platform.openai.com/docs/guides/embeddings)\n—a condensed mathematical representation of each chunk of text.\nJust like latitude and longitude can help you tell how close two cities are on a map, embeddings do the same kind of thing for text chunks. If you want to know if two pieces of text are similar, you just calculate the embeddings for them and compare. Text chunks with embeddings that are “closer” together are similar.\nEmbeddings are handy for us, because when a user asks a question, they’ll make it easy for us to search Lenny’s archive and find articles that are most likely to answer our question.\nWith that in mind, let’s run the code and see what happens.\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nSuccess! The Lenny’s archive is fully indexed, and we can query it to find relevant chunks of documents and use those chunks to answer our questions. (Be careful if you do this with big documents, as embeddings cost $0.0004 for every 1,000 tokens.)",
+      "token_count": 539
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000008",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\nEmbedding Lenny’s archive\nAsking our question\nTo query the index we created in the last section, all we have to do is paste a question into GPT Index. It will then:\n- Find the chunks of our index that are most relevant to the question\n- Combine those chunks and our question into a prompt that it sends to GPT-3\n- Print the output\nHere’s what the code looks like:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nAnd if I ask it, “What is good retention for a consumer social product?” it says:\n“25% is good.”\nIf I ask it now, “Is it best for consumer startup ideas to come from founders who are trying to solve their own problem?” it automatically comes back with the right answer:\n*“Based on the research, it appears that it is a good idea for consumer startup ideas to come from founders who are trying to solve their own problem, as this was the strategy used by around 30% of the most successful consumer companies.*\n*However, it is not necessarily the best strategy, as other strategies such as paying attention to curiosity, what’s already working, and paradigm shifts were also used by a significant number of successful companies.”*\nWe now have an end-to-end solution to turn questions into answers that are based on Lenny’s archive. And it only took a few lines of code!\nIf you want to see the results in action, you should check out the bot here:\n[Try the Lenny Chatbot](https://www.lennybot.com/)\nYou can also\n[access the full source code for this article in this Colab notebook](https://colab.research.google.com/drive/1p2AablavDkSXly6H-XNLoSylMtoz7NDG?#scrollTo=4gHdfdtsSGEW)\n.",
+      "doc_item_refs": [
+        "#/texts/185",
+        "#/texts/186",
+        "#/texts/187",
+        "#/texts/188",
+        "#/texts/189",
+        "#/texts/281",
+        "#/texts/190",
+        "#/texts/191",
+        "#/texts/192",
+        "#/texts/193",
+        "#/texts/194",
+        "#/texts/195",
+        "#/texts/196",
+        "#/texts/197",
+        "#/texts/198",
+        "#/texts/199",
+        "#/texts/200",
+        "#/texts/201"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot",
+        "Embedding Lenny’s archive",
+        "Asking our question"
+      ],
+      "images": [
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000015",
+          "path": null,
+          "self_ref": "#/pictures/15",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/06b241d2-10e4-4b20-ae97-f72ec02a3883_1250x256.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000008",
+        "chunk_sha256": "db60b345476c6288004097647b35daf470c6f627ad8aea58427d380116b1f5e6",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot",
+          "Embedding Lenny’s archive",
+          "Asking our question"
+        ],
+        "images": [
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000015",
+            "path": null,
+            "self_ref": "#/pictures/15",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/06b241d2-10e4-4b20-ae97-f72ec02a3883_1250x256.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/185",
+          "item_count": 18,
+          "last_self_ref": "#/texts/201"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/185",
+          "#/texts/186",
+          "#/texts/187",
+          "#/texts/188",
+          "#/texts/189",
+          "#/texts/281",
+          "#/texts/190",
+          "#/texts/191",
+          "#/texts/192",
+          "#/texts/193",
+          "#/texts/194",
+          "#/texts/195",
+          "#/texts/196",
+          "#/texts/197",
+          "#/texts/198",
+          "#/texts/199",
+          "#/texts/200",
+          "#/texts/201"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "To query the index we created in the last section, all we have to do is paste a question into GPT Index. It will then:\n- Find the chunks of our index that are most relevant to the question\n- Combine those chunks and our question into a prompt that it sends to GPT-3\n- Print the output\nHere’s what the code looks like:\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nAnd if I ask it, “What is good retention for a consumer social product?” it says:\n“25% is good.”\nIf I ask it now, “Is it best for consumer startup ideas to come from founders who are trying to solve their own problem?” it automatically comes back with the right answer:\n*“Based on the research, it appears that it is a good idea for consumer startup ideas to come from founders who are trying to solve their own problem, as this was the strategy used by around 30% of the most successful consumer companies.*\n*However, it is not necessarily the best strategy, as other strategies such as paying attention to curiosity, what’s already working, and paradigm shifts were also used by a significant number of successful companies.”*\nWe now have an end-to-end solution to turn questions into answers that are based on Lenny’s archive. And it only took a few lines of code!\nIf you want to see the results in action, you should check out the bot here:\n[Try the Lenny Chatbot](https://www.lennybot.com/)\nYou can also\n[access the full source code for this article in this Colab notebook](https://colab.research.google.com/drive/1p2AablavDkSXly6H-XNLoSylMtoz7NDG?#scrollTo=4gHdfdtsSGEW)\n.",
+      "token_count": 493
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000009",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\nWhat all of this means\nIt’s important to keep in mind: this is just the beginning. The horizon of possibility is shifting almost every day with these technologies. What’s hard to do today will be easy in a matter of months.\nWe’re just beginning to unravel the implications of this technology, but here are a few of the most relevant possibilities.",
+      "doc_item_refs": [
+        "#/texts/203",
+        "#/texts/204"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot",
+        "What all of this means"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000009",
+        "chunk_sha256": "9e1e3c137510eec50f65f70ddaa3e316feb2074978762823a9558489e7cb0518",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot",
+          "What all of this means"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/203",
+          "item_count": 2,
+          "last_self_ref": "#/texts/204"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/203",
+          "#/texts/204"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "It’s important to keep in mind: this is just the beginning. The horizon of possibility is shifting almost every day with these technologies. What’s hard to do today will be easy in a matter of months.\nWe’re just beginning to unravel the implications of this technology, but here are a few of the most relevant possibilities.",
+      "token_count": 141
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000010",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\nWhat all of this means\nContent creators get a new format\nEvery newsletter, book, blog, and podcast that’s used as evergreen reference information by its audience can now be repackaged as a chatbot.\nThis is great for audiences because it means that any time you want to know what Lenny (or any other creator) says about a topic, you’re not going to have to sort through an archive of articles or podcast episodes in order to get their answer to your question. Instead, you’ll just be able to use Lenny’s chatbot to get his answer instantly—and then maybe later read the article in full if you want more details.\nThis is also great for content creators. They now get the ability to monetize the content they’ve already created in new ways, and lessen the amount of repetitive questions they have to answer. This will (hopefully) give them more time and money to create great content.\nA new class of content creators will learn to create compelling chatbot experiences that combine their personality and worldview for their niche audience in the same way that some creators learned to create compelling YouTube videos, newsletter articles, or TikTok clips.",
+      "doc_item_refs": [
+        "#/texts/206",
+        "#/texts/207",
+        "#/texts/208",
+        "#/texts/209"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot",
+        "What all of this means",
+        "Content creators get a new format"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000010",
+        "chunk_sha256": "e333da914fb1cd297ba28c6600c5135208bed51703f7cf6d2f4b2221128d3ca9",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot",
+          "What all of this means",
+          "Content creators get a new format"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/206",
+          "item_count": 4,
+          "last_self_ref": "#/texts/209"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/206",
+          "#/texts/207",
+          "#/texts/208",
+          "#/texts/209"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "Every newsletter, book, blog, and podcast that’s used as evergreen reference information by its audience can now be repackaged as a chatbot.\nThis is great for audiences because it means that any time you want to know what Lenny (or any other creator) says about a topic, you’re not going to have to sort through an archive of articles or podcast episodes in order to get their answer to your question. Instead, you’ll just be able to use Lenny’s chatbot to get his answer instantly—and then maybe later read the article in full if you want more details.\nThis is also great for content creators. They now get the ability to monetize the content they’ve already created in new ways, and lessen the amount of repetitive questions they have to answer. This will (hopefully) give them more time and money to create great content.\nA new class of content creators will learn to create compelling chatbot experiences that combine their personality and worldview for their niche audience in the same way that some creators learned to create compelling YouTube videos, newsletter articles, or TikTok clips.",
+      "token_count": 304
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000011",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\nWhat all of this means\nOrganizing your notes is over\nYou’re not going to need a fancy filing system to make sure that you remember what got said in a meeting, or what you learned from the latest book you read. Instead, you’ll be able to ask a chatbot that sits on top of all your notes and returns the right answer to you.\nThis type of chatbot will be able to act like a personal research assistant that can detect patterns in what you’re writing down and synthesize information to help you understand what you think about a topic.",
+      "doc_item_refs": [
+        "#/texts/211",
+        "#/texts/212"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot",
+        "What all of this means",
+        "Organizing your notes is over"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000011",
+        "chunk_sha256": "2fcd6d4118d71d855172f744c423e0bf928414db84d2645c9d8ddf7cbff25ac6",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot",
+          "What all of this means",
+          "Organizing your notes is over"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/211",
+          "item_count": 2,
+          "last_self_ref": "#/texts/212"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/211",
+          "#/texts/212"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "You’re not going to need a fancy filing system to make sure that you remember what got said in a meeting, or what you learned from the latest book you read. Instead, you’ll be able to ask a chatbot that sits on top of all your notes and returns the right answer to you.\nThis type of chatbot will be able to act like a personal research assistant that can detect patterns in what you’re writing down and synthesize information to help you understand what you think about a topic.",
+      "token_count": 181
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000012",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\nWhat all of this means\nEnterprise knowledge management is changing forever\nChatbots aren’t just valuable for content creators and personal knowledge management. They’re also a big deal for companies.\nEvery company currently struggles with making sure all of the knowledge in their organization is written down, up to date, and searchable. In the future, chatbots could serve as a kind of automated librarian for company knowledge.\nThey’d be responsible for answering questions by sourcing information from the right person or document. They could also be used to proactively record tacit knowledge into living documents by periodically interviewing key people about their progress on company initiatives.\nThey’ll eliminate the repetitive questions that get asked inside organizations and make it easier for larger companies to collaborate effectively.",
+      "doc_item_refs": [
+        "#/texts/214",
+        "#/texts/215",
+        "#/texts/216",
+        "#/texts/217"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot",
+        "What all of this means",
+        "Enterprise knowledge management is changing forever"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000012",
+        "chunk_sha256": "d4a539deeef5eff07a00aab1ca9615dd970be7190a8fa65b6e2614aa7201ce14",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot",
+          "What all of this means",
+          "Enterprise knowledge management is changing forever"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/214",
+          "item_count": 4,
+          "last_self_ref": "#/texts/217"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/214",
+          "#/texts/215",
+          "#/texts/216",
+          "#/texts/217"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "Chatbots aren’t just valuable for content creators and personal knowledge management. They’re also a big deal for companies.\nEvery company currently struggles with making sure all of the knowledge in their organization is written down, up to date, and searchable. In the future, chatbots could serve as a kind of automated librarian for company knowledge.\nThey’d be responsible for answering questions by sourcing information from the right person or document. They could also be used to proactively record tacit knowledge into living documents by periodically interviewing key people about their progress on company initiatives.\nThey’ll eliminate the repetitive questions that get asked inside organizations and make it easier for larger companies to collaborate effectively.",
+      "token_count": 216
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000013",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\nWrapping up\nAll of this is just the start. Ultimately, the limit for these technologies is our imagination and our desire to improve them.\nIf you use Lenny’s chatbot or follow the code samples, you’ll see that it’s very promising but not yet perfect. There are tremendous returns available to the individuals or groups who learn to make these types of experiences truly incredible for users. I hope this inspires you to embark on that journey.\nIf you’re really into this and want to go deeper, I write a column over at Every where I unpack my AI experiments and explorations. Check it out\n[here.](https://every.to/subscribe?v=3)",
+      "doc_item_refs": [
+        "#/texts/219",
+        "#/texts/220",
+        "#/texts/221",
+        "#/texts/222"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot",
+        "Wrapping up"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000013",
+        "chunk_sha256": "267986075844f354d8bec0927aa02ab5f0b961c88ad4d108e77c967fe2233411",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot",
+          "Wrapping up"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/219",
+          "item_count": 4,
+          "last_self_ref": "#/texts/222"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/219",
+          "#/texts/220",
+          "#/texts/221",
+          "#/texts/222"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "All of this is just the start. Ultimately, the limit for these technologies is our imagination and our desire to improve them.\nIf you use Lenny’s chatbot or follow the code samples, you’ll see that it’s very promising but not yet perfect. There are tremendous returns available to the individuals or groups who learn to make these types of experiences truly incredible for users. I hope this inspires you to embark on that journey.\nIf you’re really into this and want to go deeper, I write a column over at Every where I unpack my AI experiments and explorations. Check it out\n[here.](https://every.to/subscribe?v=3)",
+      "token_count": 211
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000014",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\nWrapping up\n📚 Further study\n1. [But what is a neural network?](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)\n2. [Neural networks and deep learning](https://neuralnetworksanddeeplearning.com/)\n3. [Transformers, explained](https://www.youtube.com/watch?v=SZorAJ4I-sA&t=143s)\n4. [Let’s build GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY&t=4511s)\n5. [The end of organizing](https://every.to/chain-of-thought/the-end-of-organizing)\n6. [GPT-3 is the best journal I’ve ever used](https://every.to/chain-of-thought/gpt-3-is-the-best-journal-you-ve-ever-used)\n7. [6 new theories about AI](https://every.to/napkin-math/6-new-theories-about-ai)\n*Thanks, Dan! You can find Dan Shipper on*\n[*Twitter*](https://twitter.com/danshipper)\n*,*\n[*LinkedIn*](https://www.linkedin.com/in/danshipper/)\n*, and especially make sure to*\n[*subscribe to Every*](https://every.to/subscribe?v=3)\n*, where he shares his ongoing research into all things AI, tech, and personal development.*\n*Have a fulfilling and productive week 🙏*",
+      "doc_item_refs": [
+        "#/texts/224",
+        "#/texts/225",
+        "#/texts/226",
+        "#/texts/227",
+        "#/texts/228",
+        "#/texts/229",
+        "#/texts/230",
+        "#/texts/231",
+        "#/texts/232",
+        "#/texts/233",
+        "#/texts/234",
+        "#/texts/235",
+        "#/texts/236",
+        "#/texts/237",
+        "#/texts/238"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot",
+        "Wrapping up",
+        "📚 Further study"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000014",
+        "chunk_sha256": "3e776b4228a146d3539592f6ecb1eb7dcff9e0ba710ddf87b9f915aa07fd397b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot",
+          "Wrapping up",
+          "📚 Further study"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/224",
+          "item_count": 15,
+          "last_self_ref": "#/texts/238"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/224",
+          "#/texts/225",
+          "#/texts/226",
+          "#/texts/227",
+          "#/texts/228",
+          "#/texts/229",
+          "#/texts/230",
+          "#/texts/231",
+          "#/texts/232",
+          "#/texts/233",
+          "#/texts/234",
+          "#/texts/235",
+          "#/texts/236",
+          "#/texts/237",
+          "#/texts/238"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "1. [But what is a neural network?](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)\n2. [Neural networks and deep learning](https://neuralnetworksanddeeplearning.com/)\n3. [Transformers, explained](https://www.youtube.com/watch?v=SZorAJ4I-sA&t=143s)\n4. [Let’s build GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY&t=4511s)\n5. [The end of organizing](https://every.to/chain-of-thought/the-end-of-organizing)\n6. [GPT-3 is the best journal I’ve ever used](https://every.to/chain-of-thought/gpt-3-is-the-best-journal-you-ve-ever-used)\n7. [6 new theories about AI](https://every.to/napkin-math/6-new-theories-about-ai)\n*Thanks, Dan! You can find Dan Shipper on*\n[*Twitter*](https://twitter.com/danshipper)\n*,*\n[*LinkedIn*](https://www.linkedin.com/in/danshipper/)\n*, and especially make sure to*\n[*subscribe to Every*](https://every.to/subscribe?v=3)\n*, where he shares his ongoing research into all things AI, tech, and personal development.*\n*Have a fulfilling and productive week 🙏*",
+      "token_count": 476
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000015",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\n📣 Join Lenny’s Talent Collective 📣\nIf you’re hiring,\n[join Lenny’s Talent Collective](https://www.lennysjobs.com/talent/welcome)\nto start getting weekly drops of world-class product and growth people who are passively open to new opportunities. I hand-review every application and accept less than 10% of candidates who apply.\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nIf you’re looking for a new gig, apply to join! You’ll get personalized opportunities from hand-selected companies. You can join anonymously, hide yourself from companies, and leave anytime.\n[Apply to join](https://www.lennysjobs.com/talent)",
+      "doc_item_refs": [
+        "#/texts/240",
+        "#/texts/241",
+        "#/texts/242",
+        "#/texts/282",
+        "#/texts/243",
+        "#/texts/244",
+        "#/texts/245"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot",
+        "📣 Join Lenny’s Talent Collective 📣"
+      ],
+      "images": [
+        {
+          "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+          "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000016",
+          "path": null,
+          "self_ref": "#/pictures/16",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/e77cdc85-4a67-491a-9ae6-ee0fee2add2b_1498x1234.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000015",
+        "chunk_sha256": "785b572c02210d772e11c0da3c312b5bf7769ed5c39a05e5e22abf36bd8140ae",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot",
+          "📣 Join Lenny’s Talent Collective 📣"
+        ],
+        "images": [
+          {
+            "caption": "Image from I built a Lenny chatbot using GPT-3. Here’s how to build your own",
+            "image_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#image=000016",
+            "path": null,
+            "self_ref": "#/pictures/16",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/e77cdc85-4a67-491a-9ae6-ee0fee2add2b_1498x1234.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 15,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/240",
+          "item_count": 7,
+          "last_self_ref": "#/texts/245"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/240",
+          "#/texts/241",
+          "#/texts/242",
+          "#/texts/282",
+          "#/texts/243",
+          "#/texts/244",
+          "#/texts/245"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 15,
+      "raw_text": "If you’re hiring,\n[join Lenny’s Talent Collective](https://www.lennysjobs.com/talent/welcome)\nto start getting weekly drops of world-class product and growth people who are passively open to new opportunities. I hand-review every application and accept less than 10% of candidates who apply.\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nImage from I built a Lenny chatbot using GPT-3. Here’s how to build your own\nIf you’re looking for a new gig, apply to join! You’ll get personalized opportunities from hand-selected companies. You can join anonymously, hide yourself from companies, and leave anytime.\n[Apply to join](https://www.lennysjobs.com/talent)",
+      "token_count": 252
+    },
+    {
+      "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000016",
+      "contextualized_text": "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth\nHow I built a Lenny chatbot\n📣 Join Lenny’s Talent Collective 📣\n❤️‍🔥 Featured job opportunities\n1. **MetaMap:** [VP, Product](https://www.lennysjobs.com/jobs/74ca739b-4b51-4d55-8727-6606327fae58) (SF, Miami, Mexico City)\n2. **DX:** [Content Lead](https://www.lennysjobs.com/jobs/d88460d1-d9e0-4f13-b939-968d22d5a85e) (Park City, UT; Remote)\n3. **Surfer:** [Senior Product Manager](https://www.lennysjobs.com/jobs/f6ebf2d0-c425-4690-95de-01b9c6568092) (Remote)\n4. **Zendoor:** [Product Designer](https://www.lennysjobs.com/jobs/192a2c6c-e46c-4190-9d81-9a527273c89d) (Remote)\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/247",
+        "#/texts/251",
+        "#/texts/255",
+        "#/texts/259",
+        "#/texts/263",
+        "#/texts/264",
+        "#/texts/265"
+      ],
+      "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+      "headings": [
+        "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+        "How I built a Lenny chatbot",
+        "📣 Join Lenny’s Talent Collective 📣",
+        "❤️‍🔥 Featured job opportunities"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md#chunk=000016",
+        "chunk_sha256": "eb9b417f9e2e4155d6f13255f49986fbf5d58852a008025c1b36917b3b3880e2",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+        "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+        "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+        "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+        "headings": [
+          "I built a Lenny chatbot using GPT-3. Here’s how to build your own. — A step-by-step guide to building an AI chatbot | 2023-02-07 | Tags: ai, design, newsletter, b2c, startups, growth",
+          "How I built a Lenny chatbot",
+          "📣 Join Lenny’s Talent Collective 📣",
+          "❤️‍🔥 Featured job opportunities"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 16,
+        "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+        "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+        "segment": {
+          "first_self_ref": "#/texts/247",
+          "item_count": 7,
+          "last_self_ref": "#/texts/265"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/247",
+          "#/texts/251",
+          "#/texts/255",
+          "#/texts/259",
+          "#/texts/263",
+          "#/texts/264",
+          "#/texts/265"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 16,
+      "raw_text": "1. **MetaMap:** [VP, Product](https://www.lennysjobs.com/jobs/74ca739b-4b51-4d55-8727-6606327fae58) (SF, Miami, Mexico City)\n2. **DX:** [Content Lead](https://www.lennysjobs.com/jobs/d88460d1-d9e0-4f13-b939-968d22d5a85e) (Park City, UT; Remote)\n3. **Surfer:** [Senior Product Manager](https://www.lennysjobs.com/jobs/f6ebf2d0-c425-4690-95de-01b9c6568092) (Remote)\n4. **Zendoor:** [Product Designer](https://www.lennysjobs.com/jobs/192a2c6c-e46c-4190-9d81-9a527273c89d) (Remote)\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "token_count": 368
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.docling.json",
+  "docling_sha256": "ceeb4fba497ef3b8dbfcd625ab4ed2f91bb729a58a6dfbd1ce6e7fbd243dd007",
+  "document_id": "02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+  "enhanced_sha256": "236fdc38b0b001abb5c1cbe733b191d9fcb23fc02ebb5e52e6a73bd501d9db83",
+  "fact_document_path": "chunks/v2/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.chunks.json",
+  "metadata": {
+    "date": "2023-02-07",
+    "subtitle": "A step-by-step guide to building an AI chatbot",
+    "tags": [
+      "ai",
+      "design",
+      "newsletter",
+      "b2c",
+      "startups",
+      "growth"
+    ],
+    "title": "I built a Lenny chatbot using GPT-3. Here’s how to build your own.",
+    "type": "newsletter",
+    "word_count": 4647
+  },
+  "raw_path": "corpus/raw/02-newsletters/i-built-a-lenny-chatbot-using-gpt-3-heres-how-to-build-your-own.md",
+  "raw_sha256": "184f80246b7ffe1e69bf8d9df5888e18544e373ed1a85aa683d521b0f995050b",
+  "schema_version": "1",
+  "title": "I built a Lenny chatbot using GPT-3. Here’s how to build your own."
+}

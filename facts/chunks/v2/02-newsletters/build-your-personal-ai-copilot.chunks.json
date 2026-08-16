@@ -1,0 +1,1825 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000000",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\n*👋 Welcome to a*\n***✨ free edition ✨***\n*of my weekly newsletter. Each week I tackle reader questions about building product, driving growth, and accelerating your career. For more:*\n[***Lenny’s Podcast***](https://www.lennysnewsletter.com/podcast)\nHow I AI. Lennybot. Lenny’s Reads. Courses\nOne of my favorite collaborators,\n[Tal Raviv](https://www.linkedin.com/in/talsraviv?originalSubdomain=il)\n, is back with another incredible piece that will change how many of you operate at work. If you’re looking for the promised AI productivity gains everyone’s talking about, start here.\nP.S. You can now also listen to these posts in convenient podcast form:\n[Spotify](https://open.spotify.com/show/0IIunA06qMtrcQLfypTooj)\n/\n[Apple](https://podcasts.apple.com/us/podcast/lennys-reads/id1810314693)\n/\n[YouTube](https://www.youtube.com/@lennysreads)\n.\n*For more from Tal, check out his*\n[*63 free video tutorials*](https://talraviv.co/)\n*on using AI agents at work, his other guest post,*\n[*“PM is an unfair role. So work unfairly”*](https://www.lennysnewsletter.com/p/product-manager-is-an-unfair-role)\n*, and his*\n[*episode on Lenny’s Podcast*](https://www.lennysnewsletter.com/p/the-super-ic-pm-tal-raviv)\n*. You can also book Tal for an*\n[*AI build sprint*](https://talraviv.co/build-sprints)\n*with your team.*\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nHere’s my embarrassing story: 11 months ago I wasn’t using AI at work—at all.\nMy team and I were building AI products used by tens of thousands of people. But when it came to using AI in my own job, I was a proud Luddite.\nI didn’t want to sound like “the average of the internet.” I was worried that if I let AI tools do things for me, I’d lose my edge. When I tried using ChatGPT, I found it disappointing for strategic and innovative work—like consulting a chatty Wikipedia.\nDeep down, I felt discouraged that I didn’t know the exact magic spells of prompting that only influencers seemed to know.\nThen my engineering team kicked off a new, paperwork-intensive version of Scrum for a large initiative that required me to write dozens of detailed user stories. I couldn’t keep up, and all of a sudden I became my team’s bottleneck.\nI did what any experienced product manager would do: I whined and complained. Eventually my eng manager,\n[Oleksii](https://www.linkedin.com/in/oleksii-monchyk-91ba09171/?originalSubdomain=de)\n, took pity on me and showed me how to write detailed, near-perfect user stories with ChatGPT (\n[which I covered in my discussion on Lenny’s Podcast](https://www.youtube.com/watch?v=wFhurV1l6Jk&t=975s)\n!).\nOleksii instructed me to (1) paste in an example template of a user story and (2) use speech-to-text as I blabbed on and on about how the product experience should work. I also ended up dictating the background story of the initiative to ChatGPT, just like I would at a team kickoff.\nChatGPT replied with user stories that were concise, thoughtful, and airtight. The edge cases were extremely relevant, as if it had been a member of the team for months. Not only did the results translate my ramblings to engineering’s structured template, but each user story also included stipulations (mobile responsiveness, accessibility, pricing tiers) that I’d often forget.\nThe results were nearly perfect, and my fingers never even touched the keyboard. ChatGPT was exhibiting superpowers I didn’t know existed.\nI had a hunch that mere user stories were just the beginning of how I could use it at my job. Could AI help me with higher-level tasks? Could it answer the ultimate question of knowledge work:\n*What is the most important thing I should do next?*\nI realized that AI tools had felt like blunt, generic instruments becaus\n*e*\nI wasn’t providing enough\n*context*\n.LLMs can be highly effective for intelligent knowledge work, but only when we provide them with the same background knowledge that any person would need to do the same work.\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nRecent advances in LLMs allow us to maintain (and grow) this context over time and across conversations, the same way we might keep a colleague in the loop. And we can even instruct LLMs to use consistent behaviors, values, and guidelines for interacting with us.\n**When LLMs have this valuable and ongoing context about our goals, our role, our projects, our team, and our wider org, they become our “AI copilot”—a real thinking partner for long-term, complex work.**\nRemember my fear of losing my edge? When we treat LLMs as partners that inspire rather than replace our thinking, our output only gets sharper.\nAn AI copilot might be the least “\n[agentic](https://www.lennysnewsletter.com/p/make-product-management-fun-again)\n” way of using AI, and that’s the point. As AI tools proliferate and become more capable, our AI copilot is there to support us and make us better at our jobs. An AI copilot can work\n*with*\nus, not just for us. And that can make all the difference.\nOver nearly a year now, I’ve taught workshops to more than 20,000 tech employees and founders on how to leverage AI for complex, innovative tasks at work. I can confirm: regardless of company size, vertical, or fluency in AI, many tech workers today are missing out for the same reason I was. They’re not giving LLMs the context needed to experience their full potential.",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/tables/0",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/328",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/44",
+        "#/texts/329",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/48",
+        "#/texts/49",
+        "#/texts/50",
+        "#/texts/51",
+        "#/texts/52",
+        "#/texts/53",
+        "#/texts/54"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering"
+      ],
+      "images": [
+        {
+          "caption": "Image from Build your personal AI copilot",
+          "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/80cae2b6-17fa-4a25-b3c9-f26691a33b56_2913x1876.png"
+        },
+        {
+          "caption": "Image from Build your personal AI copilot",
+          "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c10b0bdd-9f55-4579-9395-5f441aa547c0_1388x760.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000000",
+        "chunk_sha256": "061bdbabb1e1cedb5d002f07cbfb48c432772488ea97d5e5367f21c662e8424b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering"
+        ],
+        "images": [
+          {
+            "caption": "Image from Build your personal AI copilot",
+            "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/80cae2b6-17fa-4a25-b3c9-f26691a33b56_2913x1876.png"
+          },
+          {
+            "caption": "Image from Build your personal AI copilot",
+            "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c10b0bdd-9f55-4579-9395-5f441aa547c0_1388x760.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 57,
+          "last_self_ref": "#/texts/54"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/tables/0",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/328",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32",
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/40",
+          "#/texts/41",
+          "#/texts/42",
+          "#/texts/43",
+          "#/texts/44",
+          "#/texts/329",
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/48",
+          "#/texts/49",
+          "#/texts/50",
+          "#/texts/51",
+          "#/texts/52",
+          "#/texts/53",
+          "#/texts/54"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "*👋 Welcome to a*\n***✨ free edition ✨***\n*of my weekly newsletter. Each week I tackle reader questions about building product, driving growth, and accelerating your career. For more:*\n[***Lenny’s Podcast***](https://www.lennysnewsletter.com/podcast)\nHow I AI. Lennybot. Lenny’s Reads. Courses\nOne of my favorite collaborators,\n[Tal Raviv](https://www.linkedin.com/in/talsraviv?originalSubdomain=il)\n, is back with another incredible piece that will change how many of you operate at work. If you’re looking for the promised AI productivity gains everyone’s talking about, start here.\nP.S. You can now also listen to these posts in convenient podcast form:\n[Spotify](https://open.spotify.com/show/0IIunA06qMtrcQLfypTooj)\n/\n[Apple](https://podcasts.apple.com/us/podcast/lennys-reads/id1810314693)\n/\n[YouTube](https://www.youtube.com/@lennysreads)\n.\n*For more from Tal, check out his*\n[*63 free video tutorials*](https://talraviv.co/)\n*on using AI agents at work, his other guest post,*\n[*“PM is an unfair role. So work unfairly”*](https://www.lennysnewsletter.com/p/product-manager-is-an-unfair-role)\n*, and his*\n[*episode on Lenny’s Podcast*](https://www.lennysnewsletter.com/p/the-super-ic-pm-tal-raviv)\n*. You can also book Tal for an*\n[*AI build sprint*](https://talraviv.co/build-sprints)\n*with your team.*\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nHere’s my embarrassing story: 11 months ago I wasn’t using AI at work—at all.\nMy team and I were building AI products used by tens of thousands of people. But when it came to using AI in my own job, I was a proud Luddite.\nI didn’t want to sound like “the average of the internet.” I was worried that if I let AI tools do things for me, I’d lose my edge. When I tried using ChatGPT, I found it disappointing for strategic and innovative work—like consulting a chatty Wikipedia.\nDeep down, I felt discouraged that I didn’t know the exact magic spells of prompting that only influencers seemed to know.\nThen my engineering team kicked off a new, paperwork-intensive version of Scrum for a large initiative that required me to write dozens of detailed user stories. I couldn’t keep up, and all of a sudden I became my team’s bottleneck.\nI did what any experienced product manager would do: I whined and complained. Eventually my eng manager,\n[Oleksii](https://www.linkedin.com/in/oleksii-monchyk-91ba09171/?originalSubdomain=de)\n, took pity on me and showed me how to write detailed, near-perfect user stories with ChatGPT (\n[which I covered in my discussion on Lenny’s Podcast](https://www.youtube.com/watch?v=wFhurV1l6Jk&t=975s)\n!).\nOleksii instructed me to (1) paste in an example template of a user story and (2) use speech-to-text as I blabbed on and on about how the product experience should work. I also ended up dictating the background story of the initiative to ChatGPT, just like I would at a team kickoff.\nChatGPT replied with user stories that were concise, thoughtful, and airtight. The edge cases were extremely relevant, as if it had been a member of the team for months. Not only did the results translate my ramblings to engineering’s structured template, but each user story also included stipulations (mobile responsiveness, accessibility, pricing tiers) that I’d often forget.\nThe results were nearly perfect, and my fingers never even touched the keyboard. ChatGPT was exhibiting superpowers I didn’t know existed.\nI had a hunch that mere user stories were just the beginning of how I could use it at my job. Could AI help me with higher-level tasks? Could it answer the ultimate question of knowledge work:\n*What is the most important thing I should do next?*\nI realized that AI tools had felt like blunt, generic instruments becaus\n*e*\nI wasn’t providing enough\n*context*\n.LLMs can be highly effective for intelligent knowledge work, but only when we provide them with the same background knowledge that any person would need to do the same work.\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nRecent advances in LLMs allow us to maintain (and grow) this context over time and across conversations, the same way we might keep a colleague in the loop. And we can even instruct LLMs to use consistent behaviors, values, and guidelines for interacting with us.\n**When LLMs have this valuable and ongoing context about our goals, our role, our projects, our team, and our wider org, they become our “AI copilot”—a real thinking partner for long-term, complex work.**\nRemember my fear of losing my edge? When we treat LLMs as partners that inspire rather than replace our thinking, our output only gets sharper.\nAn AI copilot might be the least “\n[agentic](https://www.lennysnewsletter.com/p/make-product-management-fun-again)\n” way of using AI, and that’s the point. As AI tools proliferate and become more capable, our AI copilot is there to support us and make us better at our jobs. An AI copilot can work\n*with*\nus, not just for us. And that can make all the difference.\nOver nearly a year now, I’ve taught workshops to more than 20,000 tech employees and founders on how to leverage AI for complex, innovative tasks at work. I can confirm: regardless of company size, vertical, or fluency in AI, many tech workers today are missing out for the same reason I was. They’re not giving LLMs the context needed to experience their full potential.",
+      "token_count": 1490
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000001",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nBelow, I’ll share how to change the way you think about working with AI, and how to practically construct your own AI copilot.",
+      "doc_item_refs": [
+        "#/texts/55"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000001",
+        "chunk_sha256": "6c21587529eb6e3ed2a6e21ee04f13279e4a553669ab11a33b81baf4631174de",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/55",
+          "item_count": 1,
+          "last_self_ref": "#/texts/55"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/55"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "Below, I’ll share how to change the way you think about working with AI, and how to practically construct your own AI copilot.",
+      "token_count": 80
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000002",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nWhat are AI copilots good for?\nLeveraging a copilot isn’t about AI producing perfect answers—it’s about getting the most out of ourselves. Daniel Kahneman won the Nobel Prize in economics for his collaboration with Amos Tversky, and I love his reflection: “I am not a genius. Neither is Tversky. Together, we are exceptional.”\nAfter we work together to build AI copilots, my students start using LLMs to help them make strategic decisions, brainstorm roadmap ideas, develop their soft skills, and even support them emotionally. Their copilots challenge their thinking, analyze data, apply decision frameworks, prioritize, and help rehearse hard conversations.\nAI copilots also make it infinitely easier to\n[vibe code an AI prototype](https://www.lennysnewsletter.com/p/a-guide-to-ai-prototyping-for-product)\n,\n[run meaningful data analysis](https://maven.com/p/eddc27/how-experienced-growth-p-ms-analyze-data-with-ai)\n,\n[launch an AI automation](https://www.lennysnewsletter.com/p/make-product-management-fun-again)\n, generate AI slide decks, and insert-AI-tool-we-don’t-even-know-about-yet. Because our copilots hold up-to-date context about us and our work, we’re often one chat message away from getting a detailed prompt we can take anywhere else.\nAnd yes, AI copilots can also draft PRDs, user research plans, meeting agendas, and Slack updates. (When you regularly loop LLMs into your thinking, generating documents feels like an afterthought.)\nMonths after building a copilot, students tell me they “use it every day” and it’s “always open at work.” Their copilots keep them focused, remind them who to talk to, catch nuances they would have missed, and turn them into superpowered contributors who can analyze data and discuss technical concepts. They move so fast that leadership taps them to teach everyone else how they got so productive.\nAnd they do! One student created a\n[career development copilot](https://www.youtube.com/watch?v=sblODeX-FGk)\nfor women on her team. Another is piloting AI coaching for sales managers doing one-on-ones. A third\n[built an onboarding copilot](https://darshen.substack.com/p/the-pm-onboarding-copilot)\nwhen joining a new company. Two weeks in, when he presented his product strategy, his CEO remarked, “It feels like you’ve been here for months.”",
+      "doc_item_refs": [
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60",
+        "#/texts/61",
+        "#/texts/62",
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65",
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/70",
+        "#/texts/71",
+        "#/texts/72"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "What are AI copilots good for?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000002",
+        "chunk_sha256": "f9a3a263836e73b36343a5e98781bb65c8d59b60faa50f74596c91c0a9942351",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "What are AI copilots good for?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/57",
+          "item_count": 16,
+          "last_self_ref": "#/texts/72"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/60",
+          "#/texts/61",
+          "#/texts/62",
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65",
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69",
+          "#/texts/70",
+          "#/texts/71",
+          "#/texts/72"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "Leveraging a copilot isn’t about AI producing perfect answers—it’s about getting the most out of ourselves. Daniel Kahneman won the Nobel Prize in economics for his collaboration with Amos Tversky, and I love his reflection: “I am not a genius. Neither is Tversky. Together, we are exceptional.”\nAfter we work together to build AI copilots, my students start using LLMs to help them make strategic decisions, brainstorm roadmap ideas, develop their soft skills, and even support them emotionally. Their copilots challenge their thinking, analyze data, apply decision frameworks, prioritize, and help rehearse hard conversations.\nAI copilots also make it infinitely easier to\n[vibe code an AI prototype](https://www.lennysnewsletter.com/p/a-guide-to-ai-prototyping-for-product)\n,\n[run meaningful data analysis](https://maven.com/p/eddc27/how-experienced-growth-p-ms-analyze-data-with-ai)\n,\n[launch an AI automation](https://www.lennysnewsletter.com/p/make-product-management-fun-again)\n, generate AI slide decks, and insert-AI-tool-we-don’t-even-know-about-yet. Because our copilots hold up-to-date context about us and our work, we’re often one chat message away from getting a detailed prompt we can take anywhere else.\nAnd yes, AI copilots can also draft PRDs, user research plans, meeting agendas, and Slack updates. (When you regularly loop LLMs into your thinking, generating documents feels like an afterthought.)\nMonths after building a copilot, students tell me they “use it every day” and it’s “always open at work.” Their copilots keep them focused, remind them who to talk to, catch nuances they would have missed, and turn them into superpowered contributors who can analyze data and discuss technical concepts. They move so fast that leadership taps them to teach everyone else how they got so productive.\nAnd they do! One student created a\n[career development copilot](https://www.youtube.com/watch?v=sblODeX-FGk)\nfor women on her team. Another is piloting AI coaching for sales managers doing one-on-ones. A third\n[built an onboarding copilot](https://darshen.substack.com/p/the-pm-onboarding-copilot)\nwhen joining a new company. Two weeks in, when he presented his product strategy, his CEO remarked, “It feels like you’ve been here for months.”",
+      "token_count": 657
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000003",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nHow do I build an AI copilot?\nYou can build a valuable AI copilot in a number of ways—anything from keeping a long chat thread to creating a\n[geeky Cursor repository](https://maven.com/p/0a96cb/cursor-isn-t-just-for-coding-how-ai-native-p-ms-work)\n. But my preferred method is using the “Projects” feature in my favorite LLM. Projects are available in\n[ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt)\n,\n[Claude](https://claude.ai/projects)\n,\n[M365 Copilot](https://learn.microsoft.com/en-us/training/modules/build-your-first-agent-microsoft-365-copilot-use-copilot-studio/)\n, and\n[Gemini](https://gemini.google/overview/gems/)\n’s paid and enterprise plans. (The latter call them “declarative agents” and “Gems,” respectively.)\nWith Projects, building your AI copilot is much like bringing on a new teammate. Each project is made up of three elements:\n**project knowledge**\n,\n**instructions**\n, and\n**chat threads**\n. And each of these elements corresponds with a step in the onboarding process:\n1. **Hire your copilot:** Use **instructions** to set your copilot’s role, personality, and behaviors.\n2. **Onboard your copilot:** Fill out the **project knowledge** with company and org-level documents that act as shared context across all future conversations with your copilot.\n3. **Kick off an initiative:** Begin a **chat thread** for each initiative you’re working on.\n4. **Put your copilot to work:** Create simple, conversational prompts.\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nWith this framework in mind, open your favorite LLM (upgrade to paid if you haven’t already), navigate to Project/Gem, and let’s get hands-on.\n*What if your LLM at work doesn’t have projects? No worries, I’ve included a workaround for you at the end of this post.*",
+      "doc_item_refs": [
+        "#/texts/74",
+        "#/texts/75",
+        "#/texts/76",
+        "#/texts/77",
+        "#/texts/78",
+        "#/texts/79",
+        "#/texts/80",
+        "#/texts/81",
+        "#/texts/82",
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/87",
+        "#/texts/88",
+        "#/texts/89",
+        "#/texts/90",
+        "#/texts/91",
+        "#/texts/92",
+        "#/texts/97",
+        "#/texts/102",
+        "#/texts/107",
+        "#/texts/330",
+        "#/texts/110",
+        "#/texts/111",
+        "#/texts/112"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "How do I build an AI copilot?"
+      ],
+      "images": [
+        {
+          "caption": "Image from Build your personal AI copilot",
+          "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/77058e97-c68c-4d2c-8f13-69004a20c5d7_1600x722.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000003",
+        "chunk_sha256": "2b94a703dac4799b8d733574cb6d5c42edfc574861d462c53b08d06060a3b6e6",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "How do I build an AI copilot?"
+        ],
+        "images": [
+          {
+            "caption": "Image from Build your personal AI copilot",
+            "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/77058e97-c68c-4d2c-8f13-69004a20c5d7_1600x722.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/74",
+          "item_count": 26,
+          "last_self_ref": "#/texts/112"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/74",
+          "#/texts/75",
+          "#/texts/76",
+          "#/texts/77",
+          "#/texts/78",
+          "#/texts/79",
+          "#/texts/80",
+          "#/texts/81",
+          "#/texts/82",
+          "#/texts/83",
+          "#/texts/84",
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/87",
+          "#/texts/88",
+          "#/texts/89",
+          "#/texts/90",
+          "#/texts/91",
+          "#/texts/92",
+          "#/texts/97",
+          "#/texts/102",
+          "#/texts/107",
+          "#/texts/330",
+          "#/texts/110",
+          "#/texts/111",
+          "#/texts/112"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "You can build a valuable AI copilot in a number of ways—anything from keeping a long chat thread to creating a\n[geeky Cursor repository](https://maven.com/p/0a96cb/cursor-isn-t-just-for-coding-how-ai-native-p-ms-work)\n. But my preferred method is using the “Projects” feature in my favorite LLM. Projects are available in\n[ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt)\n,\n[Claude](https://claude.ai/projects)\n,\n[M365 Copilot](https://learn.microsoft.com/en-us/training/modules/build-your-first-agent-microsoft-365-copilot-use-copilot-studio/)\n, and\n[Gemini](https://gemini.google/overview/gems/)\n’s paid and enterprise plans. (The latter call them “declarative agents” and “Gems,” respectively.)\nWith Projects, building your AI copilot is much like bringing on a new teammate. Each project is made up of three elements:\n**project knowledge**\n,\n**instructions**\n, and\n**chat threads**\n. And each of these elements corresponds with a step in the onboarding process:\n1. **Hire your copilot:** Use **instructions** to set your copilot’s role, personality, and behaviors.\n2. **Onboard your copilot:** Fill out the **project knowledge** with company and org-level documents that act as shared context across all future conversations with your copilot.\n3. **Kick off an initiative:** Begin a **chat thread** for each initiative you’re working on.\n4. **Put your copilot to work:** Create simple, conversational prompts.\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nWith this framework in mind, open your favorite LLM (upgrade to paid if you haven’t already), navigate to Project/Gem, and let’s get hands-on.\n*What if your LLM at work doesn’t have projects? No worries, I’ve included a workaround for you at the end of this post.*",
+      "token_count": 584
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000004",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nStep 1: “Hire” your AI copilot\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nThe first step is to create a new project. I’m naming mine “Tal’s AI Copilot.” Don’t worry about giving it a description.\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nInside our project, we’ll “hire” our thinking partner by deciding what values and behaviors we want it to have. Like when selecting a colleague or a coach, we’ll choose traits that transcend the initiatives we’re working on, company strategy, or what quarter we’re in.\nProjects allow us to do this by defining\n**instructions**\n. Think of these as the “super-prompt” that the LLM applies throughout the conversation, slightly stickier than any prompts you type into a chat conversation. (If you’ve worked on an AI product, you might recognize this as extending the “system prompt.”)\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nTo get you started, copy and paste the following prompt into your project’s instructions. Make sure to fill in the placeholders with what’s relevant to your role:\n```\nI am a [role] at [company name], and you are my expert coach and advisor, assisting and proactively coaching me in my role to reach my maximum potential.\n```\n```\nI will provide you with detailed information about our company, such as our strategy, target customer, market insights, products, internal stakeholders and team dynamics, past performance reviews, and retrospective results.\n```\n```\nIn each conversation, I will provide you with information about a particular initiative so you can help me navigate it.\n```\n```\nI expect you to: ask me questions when warranted to gain more context, fill in important missing information, and challenge my assumptions. Ask me questions that will let you most effectively coach and assist me in my role.\n```\n```\nEncourage me to: [list the values and behaviors that make you successful in your role]\n```\n```\nI want you to find the balance of: [traits you want in a thought partner and coach that will be both effective and fun to work with]\n```\nThere’s nothing sacred about this prompt. It’s a starting point, and you should tweak it over time, according to how you want your copilot to behave. Maybe you want it to be sassier, or more skeptical of what you say. Maybe you want it to be more supportive or perhaps more wildly creative (or all of the above!). The key is to make it yours: treat these instructions as a set of knobs you can play with for the lifetime of your copilot.",
+      "doc_item_refs": [
+        "#/texts/331",
+        "#/texts/114",
+        "#/texts/115",
+        "#/texts/332",
+        "#/texts/116",
+        "#/texts/117",
+        "#/texts/118",
+        "#/texts/119",
+        "#/texts/120",
+        "#/texts/333",
+        "#/texts/121",
+        "#/texts/122",
+        "#/texts/123",
+        "#/texts/124",
+        "#/texts/125",
+        "#/texts/126",
+        "#/texts/127",
+        "#/texts/128",
+        "#/texts/129"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Step 1: “Hire” your AI copilot"
+      ],
+      "images": [
+        {
+          "caption": "Image from Build your personal AI copilot",
+          "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/158b9226-4b42-4654-83eb-0b561f4218bc_2912x760.png"
+        },
+        {
+          "caption": "Image from Build your personal AI copilot",
+          "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/d018f7de-cfcf-41b2-8a21-daeca21fd114_2913x1081.png"
+        },
+        {
+          "caption": "Image from Build your personal AI copilot",
+          "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/43ec5499-416e-4c9c-bd74-8055a809a83b_2913x2141.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000004",
+        "chunk_sha256": "ba1c8e792c2b48d5cc1af0d44b047110baeecb03c0232e0efca2cb0a4ab3b2c4",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Step 1: “Hire” your AI copilot"
+        ],
+        "images": [
+          {
+            "caption": "Image from Build your personal AI copilot",
+            "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/158b9226-4b42-4654-83eb-0b561f4218bc_2912x760.png"
+          },
+          {
+            "caption": "Image from Build your personal AI copilot",
+            "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/d018f7de-cfcf-41b2-8a21-daeca21fd114_2913x1081.png"
+          },
+          {
+            "caption": "Image from Build your personal AI copilot",
+            "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/43ec5499-416e-4c9c-bd74-8055a809a83b_2913x2141.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/331",
+          "item_count": 19,
+          "last_self_ref": "#/texts/129"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/331",
+          "#/texts/114",
+          "#/texts/115",
+          "#/texts/332",
+          "#/texts/116",
+          "#/texts/117",
+          "#/texts/118",
+          "#/texts/119",
+          "#/texts/120",
+          "#/texts/333",
+          "#/texts/121",
+          "#/texts/122",
+          "#/texts/123",
+          "#/texts/124",
+          "#/texts/125",
+          "#/texts/126",
+          "#/texts/127",
+          "#/texts/128",
+          "#/texts/129"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "Image from Build your personal AI copilot\nImage from Build your personal AI copilot\nThe first step is to create a new project. I’m naming mine “Tal’s AI Copilot.” Don’t worry about giving it a description.\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nInside our project, we’ll “hire” our thinking partner by deciding what values and behaviors we want it to have. Like when selecting a colleague or a coach, we’ll choose traits that transcend the initiatives we’re working on, company strategy, or what quarter we’re in.\nProjects allow us to do this by defining\n**instructions**\n. Think of these as the “super-prompt” that the LLM applies throughout the conversation, slightly stickier than any prompts you type into a chat conversation. (If you’ve worked on an AI product, you might recognize this as extending the “system prompt.”)\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nTo get you started, copy and paste the following prompt into your project’s instructions. Make sure to fill in the placeholders with what’s relevant to your role:\n```\nI am a [role] at [company name], and you are my expert coach and advisor, assisting and proactively coaching me in my role to reach my maximum potential.\n```\n```\nI will provide you with detailed information about our company, such as our strategy, target customer, market insights, products, internal stakeholders and team dynamics, past performance reviews, and retrospective results.\n```\n```\nIn each conversation, I will provide you with information about a particular initiative so you can help me navigate it.\n```\n```\nI expect you to: ask me questions when warranted to gain more context, fill in important missing information, and challenge my assumptions. Ask me questions that will let you most effectively coach and assist me in my role.\n```\n```\nEncourage me to: [list the values and behaviors that make you successful in your role]\n```\n```\nI want you to find the balance of: [traits you want in a thought partner and coach that will be both effective and fun to work with]\n```\nThere’s nothing sacred about this prompt. It’s a starting point, and you should tweak it over time, according to how you want your copilot to behave. Maybe you want it to be sassier, or more skeptical of what you say. Maybe you want it to be more supportive or perhaps more wildly creative (or all of the above!). The key is to make it yours: treat these instructions as a set of knobs you can play with for the lifetime of your copilot.",
+      "token_count": 649
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000005",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nStep 2: Onboard your copilot\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nCongrats! You’ve hired a copilot with a stellar personality and aligned values, and now it’s their first day on the job. Time to onboard them to the realities of your organization, team, and role.\nThink: What would you provide to a new teammate in their first week on the job, before they’re assigned any particular initiative or responsibilities? What’s relevant to and informs all initiatives that you work on? We’ll start by uploading these documents to our\n**project knowledge**\n.\nHere are some examples of valuable context for your AI copilot:\n- Your company/product’s landing page (use your browser to “save as PDF”)\n- Your company strategy deck (export as a PDF)\n- All of your customer segmentation and research insights\n- Research on your competitive landscape\n- Company vision, strategy, quarterly planning docs, etc.\n- Company processes\n- Your team’s org chart and roles\n- Your team’s past retrospectives\n- Your last performance review or informal manager feedback\nGrab two or three that are readily available; don’t overthink it.\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nIf you don’t have a lot of written documentation available, ask your LLM to interview you to make up for any gaps in its knowledge. Imagine this as having coffee with a sharp colleague a few days after they join the team—they’re probably bursting with questions.\n```\nPlease review what I’ve shared with you and ask me questions to help complete your knowledge.\n```\n```\nWhat important information are you missing (company- and product-level) that you need to help me across all my initiatives, present and future?\n```\n```\nFocus more on company, org, and industry level. Focus less on short-term conditions or initiatives (e.g. resources, constraints, or individuals), as those will change over time.\n```\n```\nI want you to ask me these questions sequentially (most crucial questions first), so I can answer one at a time.\n```\nWhen you’re ready to wrap up the conversation, ask it to generate a document that you can upload to your project knowledge:\n```\nPlease create a document with the new information you’ve learned in our conversation. Only include new information learned in this conversation (i.e. that wasn’t already in project knowledge). Don’t outline any outstanding gaps in the document.\n```\n```\nOptimize the document for adding to the project knowledge, so it can apply in all our future conversations.\n```\n```\nUse exact quotations of my original words for the most salient and important things.\n```\nOnce the document is ready, download it as a file, and re-upload it to your project knowledge.",
+      "doc_item_refs": [
+        "#/texts/334",
+        "#/texts/131",
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/134",
+        "#/texts/135",
+        "#/texts/136",
+        "#/texts/137",
+        "#/texts/138",
+        "#/texts/139",
+        "#/texts/140",
+        "#/texts/141",
+        "#/texts/142",
+        "#/texts/143",
+        "#/texts/144",
+        "#/texts/145",
+        "#/texts/146",
+        "#/texts/335",
+        "#/texts/147",
+        "#/texts/148",
+        "#/texts/149",
+        "#/texts/150",
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/153",
+        "#/texts/154",
+        "#/texts/155",
+        "#/texts/156",
+        "#/texts/157"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Step 2: Onboard your copilot"
+      ],
+      "images": [
+        {
+          "caption": "Image from Build your personal AI copilot",
+          "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/f9d45675-24da-424f-b0c8-bee090bd5e83_2912x760.png"
+        },
+        {
+          "caption": "Image from Build your personal AI copilot",
+          "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/48e281ce-6a8d-4766-acda-4aa96034cf44_2927x2147.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000005",
+        "chunk_sha256": "fd227f446eada12ff1d7e8bd0c21ab107123a368139ea5760717429556cee7e4",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Step 2: Onboard your copilot"
+        ],
+        "images": [
+          {
+            "caption": "Image from Build your personal AI copilot",
+            "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/f9d45675-24da-424f-b0c8-bee090bd5e83_2912x760.png"
+          },
+          {
+            "caption": "Image from Build your personal AI copilot",
+            "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/48e281ce-6a8d-4766-acda-4aa96034cf44_2927x2147.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/334",
+          "item_count": 29,
+          "last_self_ref": "#/texts/157"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/334",
+          "#/texts/131",
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/134",
+          "#/texts/135",
+          "#/texts/136",
+          "#/texts/137",
+          "#/texts/138",
+          "#/texts/139",
+          "#/texts/140",
+          "#/texts/141",
+          "#/texts/142",
+          "#/texts/143",
+          "#/texts/144",
+          "#/texts/145",
+          "#/texts/146",
+          "#/texts/335",
+          "#/texts/147",
+          "#/texts/148",
+          "#/texts/149",
+          "#/texts/150",
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/153",
+          "#/texts/154",
+          "#/texts/155",
+          "#/texts/156",
+          "#/texts/157"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "Image from Build your personal AI copilot\nImage from Build your personal AI copilot\nCongrats! You’ve hired a copilot with a stellar personality and aligned values, and now it’s their first day on the job. Time to onboard them to the realities of your organization, team, and role.\nThink: What would you provide to a new teammate in their first week on the job, before they’re assigned any particular initiative or responsibilities? What’s relevant to and informs all initiatives that you work on? We’ll start by uploading these documents to our\n**project knowledge**\n.\nHere are some examples of valuable context for your AI copilot:\n- Your company/product’s landing page (use your browser to “save as PDF”)\n- Your company strategy deck (export as a PDF)\n- All of your customer segmentation and research insights\n- Research on your competitive landscape\n- Company vision, strategy, quarterly planning docs, etc.\n- Company processes\n- Your team’s org chart and roles\n- Your team’s past retrospectives\n- Your last performance review or informal manager feedback\nGrab two or three that are readily available; don’t overthink it.\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nIf you don’t have a lot of written documentation available, ask your LLM to interview you to make up for any gaps in its knowledge. Imagine this as having coffee with a sharp colleague a few days after they join the team—they’re probably bursting with questions.\n```\nPlease review what I’ve shared with you and ask me questions to help complete your knowledge.\n```\n```\nWhat important information are you missing (company- and product-level) that you need to help me across all my initiatives, present and future?\n```\n```\nFocus more on company, org, and industry level. Focus less on short-term conditions or initiatives (e.g. resources, constraints, or individuals), as those will change over time.\n```\n```\nI want you to ask me these questions sequentially (most crucial questions first), so I can answer one at a time.\n```\nWhen you’re ready to wrap up the conversation, ask it to generate a document that you can upload to your project knowledge:\n```\nPlease create a document with the new information you’ve learned in our conversation. Only include new information learned in this conversation (i.e. that wasn’t already in project knowledge). Don’t outline any outstanding gaps in the document.\n```\n```\nOptimize the document for adding to the project knowledge, so it can apply in all our future conversations.\n```\n```\nUse exact quotations of my original words for the most salient and important things.\n```\nOnce the document is ready, download it as a file, and re-upload it to your project knowledge.",
+      "token_count": 674
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000006",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nStep 3: Kick off an initiative\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nNow that your new copilot is up to speed on the big picture, it’s time to involve it in a specific initiative.\nI recommend keeping each initiative in its own\n**chat thread**\n. That way, your LLM can track the full context with the least amount of effort from you. You’ll use this dedicated chat thread to kick off, brainstorm, and make decisions with your copilot. It’s where you’ll update your copilot throughout the life of the initiative, and where together you’ll navigate the inevitable twists and turns. (Below we’ll cover what to do if you hit thread limits.)\nInside your project, open a new chat thread, and paste in the following prompt:\n```\nNow that you have the context on my company and my team, I want to tell you a bit about the initiative that I am working on and give you the specific initiative context.\n```\n```\nThis is the starting point of what I know, and I’ll be updating over time as more information and insights come in:\n```\n```\n[Share what you know about this initiative at the start in any order.]\n```\nI recommend using the dictation feature (built into ChatGPT, Gemini, and M365 Copilot, or found in Claude’s mobile app) to ramble about what you know to get things started. Let loose about the problem, customer, background, stakeholders, organizational politics—everything that’s on your mind and relevant to this initiative.\nDon’t worry about structuring your thoughts in a clean, professional way. Just get it out there in a stream of consciousness. I find that when I start to talk, I’m reminded of additional details I may not have included if I’d structured my thoughts prematurely.\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nAt this point, people usually ask me what model to select. My answer is always: the smartest model available to you at work. We’re not using AI at scale here, so get the best brain you can, even if it’s considered “expensive” or “slow” by engineering terms. (Your only constraints should be where and how your company allows you to upload sensitive information.)\nTo recap: You “hired” your copilot with instructions, you “onboarded” your copilot with project knowledge, and now you’ve kicked off an initiative in a chat thread. With all this context, it’s time for the copilot to dig in.",
+      "doc_item_refs": [
+        "#/texts/336",
+        "#/texts/159",
+        "#/texts/160",
+        "#/texts/161",
+        "#/texts/162",
+        "#/texts/163",
+        "#/texts/164",
+        "#/texts/165",
+        "#/texts/166",
+        "#/texts/167",
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/337",
+        "#/texts/170",
+        "#/texts/171",
+        "#/texts/172"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Step 3: Kick off an initiative"
+      ],
+      "images": [
+        {
+          "caption": "Image from Build your personal AI copilot",
+          "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/46468383-2887-4238-a002-158a0fb1cf91_2912x760.png"
+        },
+        {
+          "caption": "Image from Build your personal AI copilot",
+          "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000009",
+          "path": null,
+          "self_ref": "#/pictures/9",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/f605c83d-3a10-427d-bde0-f4861d955655_2913x1019.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000006",
+        "chunk_sha256": "9a32f840dfbf8f560ea234393fd966a79b5af780711d258d0e19a80e2cec0c4c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Step 3: Kick off an initiative"
+        ],
+        "images": [
+          {
+            "caption": "Image from Build your personal AI copilot",
+            "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/46468383-2887-4238-a002-158a0fb1cf91_2912x760.png"
+          },
+          {
+            "caption": "Image from Build your personal AI copilot",
+            "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000009",
+            "path": null,
+            "self_ref": "#/pictures/9",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/f605c83d-3a10-427d-bde0-f4861d955655_2913x1019.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/336",
+          "item_count": 16,
+          "last_self_ref": "#/texts/172"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/336",
+          "#/texts/159",
+          "#/texts/160",
+          "#/texts/161",
+          "#/texts/162",
+          "#/texts/163",
+          "#/texts/164",
+          "#/texts/165",
+          "#/texts/166",
+          "#/texts/167",
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/337",
+          "#/texts/170",
+          "#/texts/171",
+          "#/texts/172"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "Image from Build your personal AI copilot\nImage from Build your personal AI copilot\nNow that your new copilot is up to speed on the big picture, it’s time to involve it in a specific initiative.\nI recommend keeping each initiative in its own\n**chat thread**\n. That way, your LLM can track the full context with the least amount of effort from you. You’ll use this dedicated chat thread to kick off, brainstorm, and make decisions with your copilot. It’s where you’ll update your copilot throughout the life of the initiative, and where together you’ll navigate the inevitable twists and turns. (Below we’ll cover what to do if you hit thread limits.)\nInside your project, open a new chat thread, and paste in the following prompt:\n```\nNow that you have the context on my company and my team, I want to tell you a bit about the initiative that I am working on and give you the specific initiative context.\n```\n```\nThis is the starting point of what I know, and I’ll be updating over time as more information and insights come in:\n```\n```\n[Share what you know about this initiative at the start in any order.]\n```\nI recommend using the dictation feature (built into ChatGPT, Gemini, and M365 Copilot, or found in Claude’s mobile app) to ramble about what you know to get things started. Let loose about the problem, customer, background, stakeholders, organizational politics—everything that’s on your mind and relevant to this initiative.\nDon’t worry about structuring your thoughts in a clean, professional way. Just get it out there in a stream of consciousness. I find that when I start to talk, I’m reminded of additional details I may not have included if I’d structured my thoughts prematurely.\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nAt this point, people usually ask me what model to select. My answer is always: the smartest model available to you at work. We’re not using AI at scale here, so get the best brain you can, even if it’s considered “expensive” or “slow” by engineering terms. (Your only constraints should be where and how your company allows you to upload sensitive information.)\nTo recap: You “hired” your copilot with instructions, you “onboarded” your copilot with project knowledge, and now you’ve kicked off an initiative in a chat thread. With all this context, it’s time for the copilot to dig in.",
+      "token_count": 616
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000007",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nStep 4: Put your copilot to work\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nWith your initiative thread kicked off, paste the following into the chat:\n```\nWhat is the single most important thing I should do next?\n```\nTake a look at the results. Can you imagine sending that prompt to a blank LLM chat thread (before you had a copilot)? Since you’ve provided ample context and instructions, your copilot returns thought-provoking reflections, spot-on questions, and concrete next steps. In my case, since I told my copilot about my team members and stakeholders, it specifically calls out my colleagues by name (!).\nWhen we approach AI as a thinking partner full of relevant context, it can serve as endless inspiration. Here’s a list of use cases and example prompts to get your imagination going:\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nNotice how there’s nothing fancy about these prompts. Since the LLM has so much context, conversational one-liners are often all you need. Expect surprising and delightful moments. In the words of\n[Karina Nguyen](https://youtu.be/DeskgjrLxxs?si=4boISMhdv6pSkiOc&t=3071)\n, an AI researcher who’s worked at both Anthropic and OpenAI, “Models are really good at connecting the dots.”",
+      "doc_item_refs": [
+        "#/texts/338",
+        "#/texts/174",
+        "#/texts/175",
+        "#/texts/176",
+        "#/texts/177",
+        "#/texts/178",
+        "#/texts/339",
+        "#/texts/179",
+        "#/texts/180",
+        "#/texts/181",
+        "#/texts/182"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Step 4: Put your copilot to work"
+      ],
+      "images": [
+        {
+          "caption": "Image from Build your personal AI copilot",
+          "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000010",
+          "path": null,
+          "self_ref": "#/pictures/10",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/3a0f9f07-29f2-4ff4-97ba-2ff551b4cb48_2912x760.png"
+        },
+        {
+          "caption": "Image from Build your personal AI copilot",
+          "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000011",
+          "path": null,
+          "self_ref": "#/pictures/11",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/d7d8cdc0-8f0a-4c6d-b910-59b4715885ed_2912x5873.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000007",
+        "chunk_sha256": "bb3fd6159cf35080a6ec6b838d2f4ca9ae9d7dacf51708fab8ad46e1a7290d84",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Step 4: Put your copilot to work"
+        ],
+        "images": [
+          {
+            "caption": "Image from Build your personal AI copilot",
+            "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000010",
+            "path": null,
+            "self_ref": "#/pictures/10",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/3a0f9f07-29f2-4ff4-97ba-2ff551b4cb48_2912x760.png"
+          },
+          {
+            "caption": "Image from Build your personal AI copilot",
+            "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000011",
+            "path": null,
+            "self_ref": "#/pictures/11",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/d7d8cdc0-8f0a-4c6d-b910-59b4715885ed_2912x5873.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/338",
+          "item_count": 11,
+          "last_self_ref": "#/texts/182"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/338",
+          "#/texts/174",
+          "#/texts/175",
+          "#/texts/176",
+          "#/texts/177",
+          "#/texts/178",
+          "#/texts/339",
+          "#/texts/179",
+          "#/texts/180",
+          "#/texts/181",
+          "#/texts/182"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "Image from Build your personal AI copilot\nImage from Build your personal AI copilot\nWith your initiative thread kicked off, paste the following into the chat:\n```\nWhat is the single most important thing I should do next?\n```\nTake a look at the results. Can you imagine sending that prompt to a blank LLM chat thread (before you had a copilot)? Since you’ve provided ample context and instructions, your copilot returns thought-provoking reflections, spot-on questions, and concrete next steps. In my case, since I told my copilot about my team members and stakeholders, it specifically calls out my colleagues by name (!).\nWhen we approach AI as a thinking partner full of relevant context, it can serve as endless inspiration. Here’s a list of use cases and example prompts to get your imagination going:\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nNotice how there’s nothing fancy about these prompts. Since the LLM has so much context, conversational one-liners are often all you need. Expect surprising and delightful moments. In the words of\n[Karina Nguyen](https://youtu.be/DeskgjrLxxs?si=4boISMhdv6pSkiOc&t=3071)\n, an AI researcher who’s worked at both Anthropic and OpenAI, “Models are really good at connecting the dots.”",
+      "token_count": 368
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000008",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nOther ways to leverage your copilot\nUsing your copilot to build AI prototypes\nUsing\n[AI to prototype](https://www.lennysnewsletter.com/p/a-guide-to-ai-prototyping-for-product)\nshortens the path to making something people want, in three ways:\n1. Iterate with yourself: hone your vision\n2. Iterate with your team: keep conversations grounded\n3. Iterate with customers: validate usability and viability\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nAI tools for building prototypes (i.e. vibe coding) have gotten so good at this that the hardest part is articulating what you want.\nSince our copilot has been with us on our entire journey, it becomes much easier to come up with a detailed description of our solution. Once you’ve converged on a direction, ask your copilot to create a prototype directly in the chat (e.g. Claude Artifacts or OpenAI Canvas). Continuing in the same conversation thread, fill out the following prompt:\n```\nHelp me generate an interactive prototype of this idea.\n```\n```\nWe are going to build only the interactive, client-side prototype version of this (without deep functionality) to serve as a good internal feedback tool that can also help test the usability with customers.\n```\n```\nKeep the scope extremely focused on what we’ve discussed explicitly. “Happy path” only for now.\n```\n```\n[Optional: I have attached a screenshot of the current interface. Make sure it looks pixel-perfect and as similar as possible to the original.]\n```\n```\nDon’t build it yet; make a plan first. If needed, remind me what other files or images or resources I should provide you to help you do an amazing job.\n```\nYou can also have it generate a prompt to use in an external text-to-UI tool like v0, Replit, Lovable, Bolt, and so on. Just append the following lines to the prompt above:\n```\nCreate a separate document with a prompt that I can directly paste into an external AI prototyping tool (all commentary should be outside, so I can just copy and paste the doc as is). This should be a developer-ready specification that can be used to build this interactive prototype.\n```\n```\nAssume the tool has no prior context except what you include in the prompt.\n```",
+      "doc_item_refs": [
+        "#/texts/185",
+        "#/texts/186",
+        "#/texts/187",
+        "#/texts/188",
+        "#/texts/189",
+        "#/texts/190",
+        "#/texts/340",
+        "#/texts/191",
+        "#/texts/192",
+        "#/texts/193",
+        "#/texts/194",
+        "#/texts/195",
+        "#/texts/196",
+        "#/texts/197",
+        "#/texts/198",
+        "#/texts/199",
+        "#/texts/200",
+        "#/texts/201"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Other ways to leverage your copilot",
+        "Using your copilot to build AI prototypes"
+      ],
+      "images": [
+        {
+          "caption": "Image from Build your personal AI copilot",
+          "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000012",
+          "path": null,
+          "self_ref": "#/pictures/12",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/59df72c6-3ba5-41f2-8767-75fedfe19ea5_2913x1525.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000008",
+        "chunk_sha256": "629fb6b2ff57671bb4862de0df179f40ea65c6da3039eef0acb81c98658178ef",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Other ways to leverage your copilot",
+          "Using your copilot to build AI prototypes"
+        ],
+        "images": [
+          {
+            "caption": "Image from Build your personal AI copilot",
+            "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000012",
+            "path": null,
+            "self_ref": "#/pictures/12",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/59df72c6-3ba5-41f2-8767-75fedfe19ea5_2913x1525.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/185",
+          "item_count": 18,
+          "last_self_ref": "#/texts/201"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/185",
+          "#/texts/186",
+          "#/texts/187",
+          "#/texts/188",
+          "#/texts/189",
+          "#/texts/190",
+          "#/texts/340",
+          "#/texts/191",
+          "#/texts/192",
+          "#/texts/193",
+          "#/texts/194",
+          "#/texts/195",
+          "#/texts/196",
+          "#/texts/197",
+          "#/texts/198",
+          "#/texts/199",
+          "#/texts/200",
+          "#/texts/201"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "Using\n[AI to prototype](https://www.lennysnewsletter.com/p/a-guide-to-ai-prototyping-for-product)\nshortens the path to making something people want, in three ways:\n1. Iterate with yourself: hone your vision\n2. Iterate with your team: keep conversations grounded\n3. Iterate with customers: validate usability and viability\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot\nAI tools for building prototypes (i.e. vibe coding) have gotten so good at this that the hardest part is articulating what you want.\nSince our copilot has been with us on our entire journey, it becomes much easier to come up with a detailed description of our solution. Once you’ve converged on a direction, ask your copilot to create a prototype directly in the chat (e.g. Claude Artifacts or OpenAI Canvas). Continuing in the same conversation thread, fill out the following prompt:\n```\nHelp me generate an interactive prototype of this idea.\n```\n```\nWe are going to build only the interactive, client-side prototype version of this (without deep functionality) to serve as a good internal feedback tool that can also help test the usability with customers.\n```\n```\nKeep the scope extremely focused on what we’ve discussed explicitly. “Happy path” only for now.\n```\n```\n[Optional: I have attached a screenshot of the current interface. Make sure it looks pixel-perfect and as similar as possible to the original.]\n```\n```\nDon’t build it yet; make a plan first. If needed, remind me what other files or images or resources I should provide you to help you do an amazing job.\n```\nYou can also have it generate a prompt to use in an external text-to-UI tool like v0, Replit, Lovable, Bolt, and so on. Just append the following lines to the prompt above:\n```\nCreate a separate document with a prompt that I can directly paste into an external AI prototyping tool (all commentary should be outside, so I can just copy and paste the doc as is). This should be a developer-ready specification that can be used to build this interactive prototype.\n```\n```\nAssume the tool has no prior context except what you include in the prompt.\n```",
+      "token_count": 583
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000009",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nOther ways to leverage your copilot\nUsing your copilot to build AI automations\nAI automations can take repetitive, energy-draining tasks off our plate. Unfortunately, they’re not magic genies, and shine under specific conditions. This makes it hard to get started, because the first challenge is thinking of a use case that is both genuinely valuable and also a good fit for AI automation platforms.\nDid someone mention\n*generating ideas based on personalized context*\n? Sounds like a job for your AI copilot. You can use this prompt in an existing chat thread or start a new one as a throwaway brainstorm. Either way, it’ll base its ideas on your project knowledge:\n```\nBased on what you know about me and my organization, please brainstorm five ideas for an AI automation I can build using platforms such as Zapier Agents/Lindy AI/Relay app/Cassidy AI/Gumloop/etc. Limit yourself to what makes sense to build in those platforms.\n```\n```\nThese should help me, as a product manager, save time on draining yet essential tasks that take me away from more valuable, strategic, and creative uses of my attention and energy.\n```\n```\nAsk yourself: What ongoing repetitive work requires some judgment and writing abilities but not my full expertise and intuition? Put another way, if my company assigned me a junior intern, what would I have them do?\n```\n```\nTry to phrase each idea in one or two sentences, exactly the way you would in a message asking a junior intern to do something. Additionally, follow up each idea with a brief explanation of why you chose this over other ideas. Pitch me as the product manager in terms of business outcomes and the value of my time.\n```\n```\n# IMPORTANT: These should be event-driven AI automations, not batch tasks.\n```\n```\nOnly suggest event-driven automations that process items one at a time as they arrive——with currently available information. Do NOT suggest batch tasks that process multiple items on a schedule (e.g. “every morning, scan all...” or “weekly, compile...”).\n```\n```\n[Why: AI automations shine in one-at-a-time, repetitive tasks. They do best when designed for immediate responses to individual triggers.]\n```\n```\n❌ WRONG (Batch Task): “Every morning, scan all new support tickets and summarize them”\n```\n```\n✅ RIGHT (Event-Driven): “When a new support ticket arrives, analyze it and alert me if it’s urgent”\n```\n```\nBefore finalizing your suggestions, verify each one:\n```\n```\n- Does it trigger on a specific event? ✓\n```\n```\n- Does it process one item at a time? ✓\n```\n```\n- Could it run multiple times per day as events occur? ✓\n```\n```\nIf any answer is “no,” revise it to be event-driven.\n```\n```\nThe only exception to this is if the end-result value is being delivered on a particular timeline, for example to centralize information and reduce noise (e.g. weekly update, daily brief on upcoming events, or weekly digest of changes). If you believe that a use case falls under this exception, please note your reasoning.\n```\n```\n# Examples\n```\n```\nBelow are examples of use cases where product managers have gotten a lot of value from AI agents. Remember, these are just examples to inspire you to think of use cases that make sense for you.\n```\n```\n1. Compile fragmented information that would require a lot of clicks:\n```\n```\n“When a new message is posted in the #feature-requests Slack channel, distill the customer request into 2-5 keywords. Search those keywords in recent Slack threads, HubSpot conversations, and Gong snippets, and reply to the thread with links to what you find.”\n```\n```\n“Every morning, scan my calendar for customer calls, and instead of searching the web, DM me with recent interactions from this customer in Salesforce, Gong, and Zendesk.” (Example of an exception where the value is the daily delivery timeline to centralize information.)\n```\n```\n“Every Monday morning, prepare a competitor activity digest by scanning recent blog posts, App Store updates, and X announcements.” (Example of an exception where the value is the weekly delivery timeline to reduce noise.)\n```\n```\n“When a customer churns, post a message in the #churn-lessons channel with recent support interactions, NPS rating and date, and churn survey response.”\n```\n```\n2. Boring, Sisyphean tasks with high upside:\n```\n```\n“Monitor the pricing pages of 5 competitors for changes.”\n```\n```\n“When a bug nears its SLA deadline for the associated customer, ping this dedicated Slack channel and cc each respective customer success representative.”\n```\n```\n3. Scanning exhausting amounts of data:\n```\n```\n“DM me when a support case is resolved as a ‘product confusion’ reason rather than a technical issue.”\n```\n```\n“Ping this channel when you see a feature request that showed up for the first time.”\n```\n```\n“When an NPS survey text response is posted in the Slack channel, decide if it’s clearly a technical issue and, if so, create a support ticket in Zendesk.”\n```\n```\n4. Drafting updates:\n```\n```\n“Every Friday at 10 a.m., write up a summary of progress made across all teams in our project board, across all epics, changes made to scope, and highlighting any timeline changes.” [Example of an exception where the value is the daily weekly timeline to centralize information]\n```\nNotice the pattern? Good automations start with “When [specific event happens],” not “Every [time period],” unless there’s specific value in triggering on a daily/weekly/etc. cadence.\nScan the resulting use cases and use them as inspiration. Have a conversation! Engage with the results and push back on parts that don’t sit right with you. The goal is finding a use case you’re excited to make happen. With this in hand, turn on deep research mode, and ask your copilot to\n[generate a personalized, step-by-step tutorial](https://www.lennysnewsletter.com/i/162096097/ai-agent-builder-prompt)\non how to construct the automation.",
+      "doc_item_refs": [
+        "#/texts/203",
+        "#/texts/204",
+        "#/texts/205",
+        "#/texts/206",
+        "#/texts/207",
+        "#/texts/208",
+        "#/texts/209",
+        "#/texts/210",
+        "#/texts/211",
+        "#/texts/212",
+        "#/texts/213",
+        "#/texts/214",
+        "#/texts/215",
+        "#/texts/216",
+        "#/texts/217",
+        "#/texts/218",
+        "#/texts/219",
+        "#/texts/220",
+        "#/texts/221",
+        "#/texts/222",
+        "#/texts/223",
+        "#/texts/224",
+        "#/texts/225",
+        "#/texts/226",
+        "#/texts/227",
+        "#/texts/228",
+        "#/texts/229",
+        "#/texts/230",
+        "#/texts/231",
+        "#/texts/232",
+        "#/texts/233",
+        "#/texts/234",
+        "#/texts/235",
+        "#/texts/236",
+        "#/texts/237",
+        "#/texts/238",
+        "#/texts/239",
+        "#/texts/240",
+        "#/texts/241"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Other ways to leverage your copilot",
+        "Using your copilot to build AI automations"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000009",
+        "chunk_sha256": "6494d2fb068f52fe5118a2133918390997dbbbf65452c1ebf808dbbf486845f2",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Other ways to leverage your copilot",
+          "Using your copilot to build AI automations"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/203",
+          "item_count": 39,
+          "last_self_ref": "#/texts/241"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/203",
+          "#/texts/204",
+          "#/texts/205",
+          "#/texts/206",
+          "#/texts/207",
+          "#/texts/208",
+          "#/texts/209",
+          "#/texts/210",
+          "#/texts/211",
+          "#/texts/212",
+          "#/texts/213",
+          "#/texts/214",
+          "#/texts/215",
+          "#/texts/216",
+          "#/texts/217",
+          "#/texts/218",
+          "#/texts/219",
+          "#/texts/220",
+          "#/texts/221",
+          "#/texts/222",
+          "#/texts/223",
+          "#/texts/224",
+          "#/texts/225",
+          "#/texts/226",
+          "#/texts/227",
+          "#/texts/228",
+          "#/texts/229",
+          "#/texts/230",
+          "#/texts/231",
+          "#/texts/232",
+          "#/texts/233",
+          "#/texts/234",
+          "#/texts/235",
+          "#/texts/236",
+          "#/texts/237",
+          "#/texts/238",
+          "#/texts/239",
+          "#/texts/240",
+          "#/texts/241"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "AI automations can take repetitive, energy-draining tasks off our plate. Unfortunately, they’re not magic genies, and shine under specific conditions. This makes it hard to get started, because the first challenge is thinking of a use case that is both genuinely valuable and also a good fit for AI automation platforms.\nDid someone mention\n*generating ideas based on personalized context*\n? Sounds like a job for your AI copilot. You can use this prompt in an existing chat thread or start a new one as a throwaway brainstorm. Either way, it’ll base its ideas on your project knowledge:\n```\nBased on what you know about me and my organization, please brainstorm five ideas for an AI automation I can build using platforms such as Zapier Agents/Lindy AI/Relay app/Cassidy AI/Gumloop/etc. Limit yourself to what makes sense to build in those platforms.\n```\n```\nThese should help me, as a product manager, save time on draining yet essential tasks that take me away from more valuable, strategic, and creative uses of my attention and energy.\n```\n```\nAsk yourself: What ongoing repetitive work requires some judgment and writing abilities but not my full expertise and intuition? Put another way, if my company assigned me a junior intern, what would I have them do?\n```\n```\nTry to phrase each idea in one or two sentences, exactly the way you would in a message asking a junior intern to do something. Additionally, follow up each idea with a brief explanation of why you chose this over other ideas. Pitch me as the product manager in terms of business outcomes and the value of my time.\n```\n```\n# IMPORTANT: These should be event-driven AI automations, not batch tasks.\n```\n```\nOnly suggest event-driven automations that process items one at a time as they arrive——with currently available information. Do NOT suggest batch tasks that process multiple items on a schedule (e.g. “every morning, scan all...” or “weekly, compile...”).\n```\n```\n[Why: AI automations shine in one-at-a-time, repetitive tasks. They do best when designed for immediate responses to individual triggers.]\n```\n```\n❌ WRONG (Batch Task): “Every morning, scan all new support tickets and summarize them”\n```\n```\n✅ RIGHT (Event-Driven): “When a new support ticket arrives, analyze it and alert me if it’s urgent”\n```\n```\nBefore finalizing your suggestions, verify each one:\n```\n```\n- Does it trigger on a specific event? ✓\n```\n```\n- Does it process one item at a time? ✓\n```\n```\n- Could it run multiple times per day as events occur? ✓\n```\n```\nIf any answer is “no,” revise it to be event-driven.\n```\n```\nThe only exception to this is if the end-result value is being delivered on a particular timeline, for example to centralize information and reduce noise (e.g. weekly update, daily brief on upcoming events, or weekly digest of changes). If you believe that a use case falls under this exception, please note your reasoning.\n```\n```\n# Examples\n```\n```\nBelow are examples of use cases where product managers have gotten a lot of value from AI agents. Remember, these are just examples to inspire you to think of use cases that make sense for you.\n```\n```\n1. Compile fragmented information that would require a lot of clicks:\n```\n```\n“When a new message is posted in the #feature-requests Slack channel, distill the customer request into 2-5 keywords. Search those keywords in recent Slack threads, HubSpot conversations, and Gong snippets, and reply to the thread with links to what you find.”\n```\n```\n“Every morning, scan my calendar for customer calls, and instead of searching the web, DM me with recent interactions from this customer in Salesforce, Gong, and Zendesk.” (Example of an exception where the value is the daily delivery timeline to centralize information.)\n```\n```\n“Every Monday morning, prepare a competitor activity digest by scanning recent blog posts, App Store updates, and X announcements.” (Example of an exception where the value is the weekly delivery timeline to reduce noise.)\n```\n```\n“When a customer churns, post a message in the #churn-lessons channel with recent support interactions, NPS rating and date, and churn survey response.”\n```\n```\n2. Boring, Sisyphean tasks with high upside:\n```\n```\n“Monitor the pricing pages of 5 competitors for changes.”\n```\n```\n“When a bug nears its SLA deadline for the associated customer, ping this dedicated Slack channel and cc each respective customer success representative.”\n```\n```\n3. Scanning exhausting amounts of data:\n```\n```\n“DM me when a support case is resolved as a ‘product confusion’ reason rather than a technical issue.”\n```\n```\n“Ping this channel when you see a feature request that showed up for the first time.”\n```\n```\n“When an NPS survey text response is posted in the Slack channel, decide if it’s clearly a technical issue and, if so, create a support ticket in Zendesk.”\n```\n```\n4. Drafting updates:\n```\n```\n“Every Friday at 10 a.m., write up a summary of progress made across all teams in our project board, across all epics, changes made to scope, and highlighting any timeline changes.” [Example of an exception where the value is the daily weekly timeline to centralize information]\n```\nNotice the pattern? Good automations start with “When [specific event happens],” not “Every [time period],” unless there’s specific value in triggering on a daily/weekly/etc. cadence.\nScan the resulting use cases and use them as inspiration. Have a conversation! Engage with the results and push back on parts that don’t sit right with you. The goal is finding a use case you’re excited to make happen. With this in hand, turn on deep research mode, and ask your copilot to\n[generate a personalized, step-by-step tutorial](https://www.lennysnewsletter.com/i/162096097/ai-agent-builder-prompt)\non how to construct the automation.",
+      "token_count": 1498
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000010",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nOther ways to leverage your copilot\nGossiping to your AI copilot\nShit happens. A stakeholder changes their mind, new data arrives, or things turn out to be way higher-effort than planned. One hallway conversation can upend everything.\nFor your AI copilot to help you navigate, you’ll need to loop it in. I call this habit “gossiping” to AI, because I fill in my copilot the same way I’d lean over and vent to a colleague sitting next to me.\nI love using speech-to-text here as well: “You won’t\n*believe*\nwhat just happened in my conversation with so-and-so. . .” That’s it. No structured format, no formal update process. Just the exasperated sharing that comes naturally.\nEven if I don’t have any action items, my AI copilot remembers and references these updates later. Unlike with most coworkers, you can bluntly add:\n```\nI don’t want solutions right now; I want you to listen. Confirm with just a “yes.”\n```\nGossip keeps the context fresh and effective.\nPro tip: I personally use my LLM’s native mobile app for dictation on the go. This makes gossiping feel as lightweight as sending a WhatsApp voice message to a friend or coworker.",
+      "doc_item_refs": [
+        "#/texts/243",
+        "#/texts/244",
+        "#/texts/245",
+        "#/texts/246",
+        "#/texts/247",
+        "#/texts/248",
+        "#/texts/249",
+        "#/texts/250",
+        "#/texts/251"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Other ways to leverage your copilot",
+        "Gossiping to your AI copilot"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000010",
+        "chunk_sha256": "14a7b66c4e691dd1d7dedd733b5fbf399d94cebaa7197c14cbd90889af642714",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Other ways to leverage your copilot",
+          "Gossiping to your AI copilot"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/243",
+          "item_count": 9,
+          "last_self_ref": "#/texts/251"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/243",
+          "#/texts/244",
+          "#/texts/245",
+          "#/texts/246",
+          "#/texts/247",
+          "#/texts/248",
+          "#/texts/249",
+          "#/texts/250",
+          "#/texts/251"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "Shit happens. A stakeholder changes their mind, new data arrives, or things turn out to be way higher-effort than planned. One hallway conversation can upend everything.\nFor your AI copilot to help you navigate, you’ll need to loop it in. I call this habit “gossiping” to AI, because I fill in my copilot the same way I’d lean over and vent to a colleague sitting next to me.\nI love using speech-to-text here as well: “You won’t\n*believe*\nwhat just happened in my conversation with so-and-so. . .” That’s it. No structured format, no formal update process. Just the exasperated sharing that comes naturally.\nEven if I don’t have any action items, my AI copilot remembers and references these updates later. Unlike with most coworkers, you can bluntly add:\n```\nI don’t want solutions right now; I want you to listen. Confirm with just a “yes.”\n```\nGossip keeps the context fresh and effective.\nPro tip: I personally use my LLM’s native mobile app for dictation on the go. This makes gossiping feel as lightweight as sending a WhatsApp voice message to a friend or coworker.",
+      "token_count": 334
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000011",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nHabits for getting the most out of your AI copilot\nGetting the most out of our copilot depends on us, not the AI. The difference between an okay AI copilot and an exceptional one isn’t the tech—it’s the habits we build around it.",
+      "doc_item_refs": [
+        "#/texts/253"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Habits for getting the most out of your AI copilot"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000011",
+        "chunk_sha256": "a2dff6f13cb6afc0b70813b2a86f56b07a103850b55f8e76a8858d82363b513e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Habits for getting the most out of your AI copilot"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/253",
+          "item_count": 1,
+          "last_self_ref": "#/texts/253"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/253"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "Getting the most out of our copilot depends on us, not the AI. The difference between an okay AI copilot and an exceptional one isn’t the tech—it’s the habits we build around it.",
+      "token_count": 108
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000012",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nHabits for getting the most out of your AI copilot\nCultivating an “AI mindset”\nYour AI copilot will undoubtedly be delightful, but it most certainly won’t always be\n*right*\n. That brings me to the most important component of using an AI copilot: our mindset.\nWorking successfully with a thinking partner—human or machine—is about taking the good and disregarding the bad. If our car’s driver assist beeps loudly on a wide-open highway, it’s no harm done. We still keep it activated in case it alerts us to something on the road we didn’t see. Or think of your favorite mentor or confidant: we don’t constantly judge if their advice could “replace our thinking.” Rather, we focus on the parts of what they say that are valuable and inspiring.\nEven when they’re wrong, LLMs can be weirdly inspiring and motivating. Often when I disagree with what my AI copilot suggests, it still gets me thinking. As with any outside advice, it spurs me to crystallize what\n*I*\nthinkI should do instead.\nIt’s up to us to apply taste and judgment based on hard-earned product intuition. To quote David Lieb (YC partner and founder of Google Photos), “Your gut is the world’s most sophisticated machine learning model ever created.” When working with generative AI, apply your craft and taste to identify what’s valuable.\nIf you’re frequently getting outputs you’re not happy with, ask yourself, “What context does the AI need to succeed here?” or “Does it have enough guidance to deliver results?” Since we’re using LLMs for their intelligence (rather than for their knowledge), it’s on us to think about what we should provide to set them up for success.\nTo tweak your inputs, hover your mouse over your last chat message and click the “edit” button (or ✏️ icon) found in all major LLMs. Provide a tiny bit more guidance or background information, and submit again. If you find the same gap happening over and over again, consider adding that information to the project knowledge.\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot",
+      "doc_item_refs": [
+        "#/texts/255",
+        "#/texts/256",
+        "#/texts/257",
+        "#/texts/258",
+        "#/texts/259",
+        "#/texts/260",
+        "#/texts/261",
+        "#/texts/262",
+        "#/texts/263",
+        "#/texts/264",
+        "#/texts/341",
+        "#/texts/265"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Habits for getting the most out of your AI copilot",
+        "Cultivating an “AI mindset”"
+      ],
+      "images": [
+        {
+          "caption": "Image from Build your personal AI copilot",
+          "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000013",
+          "path": null,
+          "self_ref": "#/pictures/13",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/cf84c2c6-c800-4458-860e-6bc3bd25328d_2913x419.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000012",
+        "chunk_sha256": "feae431e86d036338b23da9292305c8fc09c322cb3fb45ca5fb71df175d5247f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Habits for getting the most out of your AI copilot",
+          "Cultivating an “AI mindset”"
+        ],
+        "images": [
+          {
+            "caption": "Image from Build your personal AI copilot",
+            "image_id": "02-newsletters/build-your-personal-ai-copilot.md#image=000013",
+            "path": null,
+            "self_ref": "#/pictures/13",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/cf84c2c6-c800-4458-860e-6bc3bd25328d_2913x419.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/255",
+          "item_count": 12,
+          "last_self_ref": "#/texts/265"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/255",
+          "#/texts/256",
+          "#/texts/257",
+          "#/texts/258",
+          "#/texts/259",
+          "#/texts/260",
+          "#/texts/261",
+          "#/texts/262",
+          "#/texts/263",
+          "#/texts/264",
+          "#/texts/341",
+          "#/texts/265"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "Your AI copilot will undoubtedly be delightful, but it most certainly won’t always be\n*right*\n. That brings me to the most important component of using an AI copilot: our mindset.\nWorking successfully with a thinking partner—human or machine—is about taking the good and disregarding the bad. If our car’s driver assist beeps loudly on a wide-open highway, it’s no harm done. We still keep it activated in case it alerts us to something on the road we didn’t see. Or think of your favorite mentor or confidant: we don’t constantly judge if their advice could “replace our thinking.” Rather, we focus on the parts of what they say that are valuable and inspiring.\nEven when they’re wrong, LLMs can be weirdly inspiring and motivating. Often when I disagree with what my AI copilot suggests, it still gets me thinking. As with any outside advice, it spurs me to crystallize what\n*I*\nthinkI should do instead.\nIt’s up to us to apply taste and judgment based on hard-earned product intuition. To quote David Lieb (YC partner and founder of Google Photos), “Your gut is the world’s most sophisticated machine learning model ever created.” When working with generative AI, apply your craft and taste to identify what’s valuable.\nIf you’re frequently getting outputs you’re not happy with, ask yourself, “What context does the AI need to succeed here?” or “Does it have enough guidance to deliver results?” Since we’re using LLMs for their intelligence (rather than for their knowledge), it’s on us to think about what we should provide to set them up for success.\nTo tweak your inputs, hover your mouse over your last chat message and click the “edit” button (or ✏️ icon) found in all major LLMs. Provide a tiny bit more guidance or background information, and submit again. If you find the same gap happening over and over again, consider adding that information to the project knowledge.\nImage from Build your personal AI copilot\nImage from Build your personal AI copilot",
+      "token_count": 523
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000013",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nHabits for getting the most out of your AI copilot\nGrowing your copilot’s knowledge over time\nOur investment in our AI copilot also earns compound interest. Beyond regularly providing context in each initiative thread, we can also make sure our project knowledge continues to grow, instantly benefiting current initiatives as well as those to come.\nThe end of an initiative is a great opportunity to update the project knowledge. Start by sharing the outcome, good or bad. Include any retrospectives your team ran. Turn on speech-to-text and add your personal reflections. Finally, ask it to output a “new lessons learned” document.\nYou can guess what’s coming next: download the document, and upload it to the project knowledge. When we add real-world lessons to our project knowledge, we accelerate the opportunities for our copilot to “connect the dots” and surprise us with delightfully wise counsel.\nYou can think of this as memory, but a transparent, curated memory that’s completely under your control for a professional context.",
+      "doc_item_refs": [
+        "#/texts/267",
+        "#/texts/268",
+        "#/texts/269",
+        "#/texts/270"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Habits for getting the most out of your AI copilot",
+        "Growing your copilot’s knowledge over time"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000013",
+        "chunk_sha256": "58ad89ed3f273e8248eb440b4038689c0b927fba1f35120453b6715c4bc79158",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Habits for getting the most out of your AI copilot",
+          "Growing your copilot’s knowledge over time"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/267",
+          "item_count": 4,
+          "last_self_ref": "#/texts/270"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/267",
+          "#/texts/268",
+          "#/texts/269",
+          "#/texts/270"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "Our investment in our AI copilot also earns compound interest. Beyond regularly providing context in each initiative thread, we can also make sure our project knowledge continues to grow, instantly benefiting current initiatives as well as those to come.\nThe end of an initiative is a great opportunity to update the project knowledge. Start by sharing the outcome, good or bad. Include any retrospectives your team ran. Turn on speech-to-text and add your personal reflections. Finally, ask it to output a “new lessons learned” document.\nYou can guess what’s coming next: download the document, and upload it to the project knowledge. When we add real-world lessons to our project knowledge, we accelerate the opportunities for our copilot to “connect the dots” and surprise us with delightfully wise counsel.\nYou can think of this as memory, but a transparent, curated memory that’s completely under your control for a professional context.",
+      "token_count": 263
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000014",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nHabits for getting the most out of your AI copilot\nNote: What if you hit chat size limits?\nDifferent LLMs have different context window limits. If you run into a limit, you can use a prompt to have the LLM summarize the conversation so you can start a new thread with the key context carried over.\nTo use this prompt, hover your mouse over your last chat message and click the “edit” button (or ✏️ icon). Replace with the following prompt, and hit enter.\nFinally, start a new thread using the output.\n```\nThis conversation has reached its context limit. Create a document that can serve as the initial context for a fresh blank LLM thread. Your goal is to preserve approximately 90% of the conversation’s value and context while reducing its length by ~90%.\n```\n```\nAct as an expert handing off to another expert who will help me, and set them up for maximum success, as close as possible to having been there all along. Tell the new expert what instructions or behaviors to exhibit that I’ve implicitly or explicitly requested of you. Tell a chronological story.\n```\n```\nUse your best judgment when it would be particularly valuable to use the original exact words of either the user or AI.\n```\n```\nSkip any context that is already found in the project knowledge or in your system instructions, since this will be available automatically to the new thread.\n```\n```\nCreate a second, separate document with what you chose not to include, and why.\n```",
+      "doc_item_refs": [
+        "#/texts/272",
+        "#/texts/273",
+        "#/texts/274",
+        "#/texts/275",
+        "#/texts/276",
+        "#/texts/277",
+        "#/texts/278",
+        "#/texts/279"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Habits for getting the most out of your AI copilot",
+        "Note: What if you hit chat size limits?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000014",
+        "chunk_sha256": "bdb5d75eb6477b562e7caacfe41cbc773683becf39469a696776bd1006cf16ab",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Habits for getting the most out of your AI copilot",
+          "Note: What if you hit chat size limits?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/272",
+          "item_count": 8,
+          "last_self_ref": "#/texts/279"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/272",
+          "#/texts/273",
+          "#/texts/274",
+          "#/texts/275",
+          "#/texts/276",
+          "#/texts/277",
+          "#/texts/278",
+          "#/texts/279"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "Different LLMs have different context window limits. If you run into a limit, you can use a prompt to have the LLM summarize the conversation so you can start a new thread with the key context carried over.\nTo use this prompt, hover your mouse over your last chat message and click the “edit” button (or ✏️ icon). Replace with the following prompt, and hit enter.\nFinally, start a new thread using the output.\n```\nThis conversation has reached its context limit. Create a document that can serve as the initial context for a fresh blank LLM thread. Your goal is to preserve approximately 90% of the conversation’s value and context while reducing its length by ~90%.\n```\n```\nAct as an expert handing off to another expert who will help me, and set them up for maximum success, as close as possible to having been there all along. Tell the new expert what instructions or behaviors to exhibit that I’ve implicitly or explicitly requested of you. Tell a chronological story.\n```\n```\nUse your best judgment when it would be particularly valuable to use the original exact words of either the user or AI.\n```\n```\nSkip any context that is already found in the project knowledge or in your system instructions, since this will be available automatically to the new thread.\n```\n```\nCreate a second, separate document with what you chose not to include, and why.\n```",
+      "token_count": 373
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000015",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nWhere might copilots evolve next?\nIt feels like we’re only at the beginning. Every day I use my AI copilot, I bump into moments where I think, “I wish it could just. . .” From what I hear from my workshop participants, I’m not alone.\nToday’s friction points reveal where the real opportunities lie for both founders and incumbents alike, and many startups today are gunning for these opportunities from different angles. Here’s my wish list for what comes next:",
+      "doc_item_refs": [
+        "#/texts/281",
+        "#/texts/282"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Where might copilots evolve next?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000015",
+        "chunk_sha256": "c681c980ea09bc47fd7552550f1183ebbb84e80291920d9c007877995463a61f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Where might copilots evolve next?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 15,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/281",
+          "item_count": 2,
+          "last_self_ref": "#/texts/282"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/281",
+          "#/texts/282"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 15,
+      "raw_text": "It feels like we’re only at the beginning. Every day I use my AI copilot, I bump into moments where I think, “I wish it could just. . .” From what I hear from my workshop participants, I’m not alone.\nToday’s friction points reveal where the real opportunities lie for both founders and incumbents alike, and many startups today are gunning for these opportunities from different angles. Here’s my wish list for what comes next:",
+      "token_count": 157
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000016",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nWhere might copilots evolve next?\nMake it easier to update project knowledge\nToday, I’m the human API between my copilot and everything else. I manually recount what happened in conversations, export strategy decks as PDFs, and update my project knowledge when I remember to. It works, with a lot of work.\nImagine if your copilot could pull directly from new department templates, project management, or team messaging, dynamically updating as your world changes. I wish it could have all this information without getting confused, overwhelmed, or over-indexing to irrelevant details. I want information to flow the other way as well: what if thinking, planning, and\n[scrapbooking](https://www.lennysnewsletter.com/i/151079492/get-a-head-start-on-discovery-with-product-scrapbooking)\ncould happen in the same place?\nBut what really excites me is transparent, editable knowledge that feels like a living document. Imagine today’s consumer “memory” features, but with professional-grade control.\nI’m inspired by how Cursor works for coding: imagine\n*selective*\ncontext, where you choose which documents and initiatives your copilot considers for each conversation. Sometimes you want one feature initiative to take another into account; sometimes you don’t.",
+      "doc_item_refs": [
+        "#/texts/284",
+        "#/texts/285",
+        "#/texts/286",
+        "#/texts/287",
+        "#/texts/288",
+        "#/texts/289",
+        "#/texts/290",
+        "#/texts/291"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Where might copilots evolve next?",
+        "Make it easier to update project knowledge"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000016",
+        "chunk_sha256": "1879735f6a3eb6cc80893aec26bf67e5c7009e46ff464f6f6d894ea564cc3982",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Where might copilots evolve next?",
+          "Make it easier to update project knowledge"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 16,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/284",
+          "item_count": 8,
+          "last_self_ref": "#/texts/291"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/284",
+          "#/texts/285",
+          "#/texts/286",
+          "#/texts/287",
+          "#/texts/288",
+          "#/texts/289",
+          "#/texts/290",
+          "#/texts/291"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 16,
+      "raw_text": "Today, I’m the human API between my copilot and everything else. I manually recount what happened in conversations, export strategy decks as PDFs, and update my project knowledge when I remember to. It works, with a lot of work.\nImagine if your copilot could pull directly from new department templates, project management, or team messaging, dynamically updating as your world changes. I wish it could have all this information without getting confused, overwhelmed, or over-indexing to irrelevant details. I want information to flow the other way as well: what if thinking, planning, and\n[scrapbooking](https://www.lennysnewsletter.com/i/151079492/get-a-head-start-on-discovery-with-product-scrapbooking)\ncould happen in the same place?\nBut what really excites me is transparent, editable knowledge that feels like a living document. Imagine today’s consumer “memory” features, but with professional-grade control.\nI’m inspired by how Cursor works for coding: imagine\n*selective*\ncontext, where you choose which documents and initiatives your copilot considers for each conversation. Sometimes you want one feature initiative to take another into account; sometimes you don’t.",
+      "token_count": 336
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000017",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nWhere might copilots evolve next?\nI want to benefit from being on a team\nWhat if every teammate joining you had a copilot waiting for them that was 80% ready to rock? Instead of starting from scratch, picture shared knowledge layers curated by leadership. You’d still have your personal context, but now it sits on top of your team’s collective intelligence.\nNew PMs would start with company-specific templates, relevant frameworks, and real lessons learned. Over time, our copilots become smarter not just from individual experiences but from your entire team’s wins and failures.",
+      "doc_item_refs": [
+        "#/texts/293",
+        "#/texts/294"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Where might copilots evolve next?",
+        "I want to benefit from being on a team"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000017",
+        "chunk_sha256": "bdbdf7a8d1313fb157afabf760f3727ceffadf693390bbddbded98debb174f49",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Where might copilots evolve next?",
+          "I want to benefit from being on a team"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 17,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/293",
+          "item_count": 2,
+          "last_self_ref": "#/texts/294"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/293",
+          "#/texts/294"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 17,
+      "raw_text": "What if every teammate joining you had a copilot waiting for them that was 80% ready to rock? Instead of starting from scratch, picture shared knowledge layers curated by leadership. You’d still have your personal context, but now it sits on top of your team’s collective intelligence.\nNew PMs would start with company-specific templates, relevant frameworks, and real lessons learned. Over time, our copilots become smarter not just from individual experiences but from your entire team’s wins and failures.",
+      "token_count": 172
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000018",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nWhere might copilots evolve next?\nPush me\nEven with the best-constructed copilot, there’s that moment of writer’s block. What should I update it on? What question do I even ask? Building the habit is harder than building the tool.\nI would love for AI to push me like a sharp chief of staff that doesn’t wait to be asked. Imagine checking in based on your calendar: “Hey, you have that stakeholder review tomorrow. Want to role-play scenarios?” Or pushing me to focus: “This would be a really good time to schedule user research and get input from the sales team.”\nThe opportunity isn’t in making copilots smarter, but rather in making them more connected, more collaborative, and more proactive. The future of AI at work may be more about asking better questions of us than offering better answers.",
+      "doc_item_refs": [
+        "#/texts/296",
+        "#/texts/297",
+        "#/texts/298"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Where might copilots evolve next?",
+        "Push me"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000018",
+        "chunk_sha256": "cb2e17707d6fa307ac5509273806bb8949bfc6a240b46462de0b34034d6a3e7b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Where might copilots evolve next?",
+          "Push me"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 18,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/296",
+          "item_count": 3,
+          "last_self_ref": "#/texts/298"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/296",
+          "#/texts/297",
+          "#/texts/298"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 18,
+      "raw_text": "Even with the best-constructed copilot, there’s that moment of writer’s block. What should I update it on? What question do I even ask? Building the habit is harder than building the tool.\nI would love for AI to push me like a sharp chief of staff that doesn’t wait to be asked. Imagine checking in based on your calendar: “Hey, you have that stakeholder review tomorrow. Want to role-play scenarios?” Or pushing me to focus: “This would be a really good time to schedule user research and get input from the sales team.”\nThe opportunity isn’t in making copilots smarter, but rather in making them more connected, more collaborative, and more proactive. The future of AI at work may be more about asking better questions of us than offering better answers.",
+      "token_count": 230
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000019",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nContext changes everything\nUsing AI at work shouldn’t mean sifting through generic responses or conjuring perfect prompts. The most fruitful way to think about using LLMs is like collaborating with an inspirational colleague who knows your company strategy, remembers that conversation with your manager from last Tuesday, and can challenge your assumptions when everyone else has gone home.\nWhen we give AI the context it needs—and treat it like a partner sitting next to us rather than a magic oracle—we don’t lose our edge; we sharpen it.\n*Thank you to*\n[*Alex Furmansky*](https://www.linkedin.com/in/alexfurmansky/)\n*for being an amazing (human) thinking partner for these ideas. And thank you to*\n[*Colin Matthews*](https://maven.com/tech-for-product/ai-prototyping-for-product-managers?promoCode=LENNYSLIST)\n*for lending his deep expertise on AI prototyping.*",
+      "doc_item_refs": [
+        "#/texts/300",
+        "#/texts/301",
+        "#/texts/302",
+        "#/texts/303",
+        "#/texts/304",
+        "#/texts/305",
+        "#/texts/306"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Context changes everything"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000019",
+        "chunk_sha256": "21fba608f101e856f50a6912562cc176622c413936529678eb086de7f7a0ba9e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Context changes everything"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 19,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/300",
+          "item_count": 7,
+          "last_self_ref": "#/texts/306"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/300",
+          "#/texts/301",
+          "#/texts/302",
+          "#/texts/303",
+          "#/texts/304",
+          "#/texts/305",
+          "#/texts/306"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 19,
+      "raw_text": "Using AI at work shouldn’t mean sifting through generic responses or conjuring perfect prompts. The most fruitful way to think about using LLMs is like collaborating with an inspirational colleague who knows your company strategy, remembers that conversation with your manager from last Tuesday, and can challenge your assumptions when everyone else has gone home.\nWhen we give AI the context it needs—and treat it like a partner sitting next to us rather than a magic oracle—we don’t lose our edge; we sharpen it.\n*Thank you to*\n[*Alex Furmansky*](https://www.linkedin.com/in/alexfurmansky/)\n*for being an amazing (human) thinking partner for these ideas. And thank you to*\n[*Colin Matthews*](https://maven.com/tech-for-product/ai-prototyping-for-product-managers?promoCode=LENNYSLIST)\n*for lending his deep expertise on AI prototyping.*",
+      "token_count": 264
+    },
+    {
+      "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000020",
+      "contextualized_text": "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering\nAppendix: What if my LLM doesn’t have “projects”?\nWhile projects are supported by the major LLM providers on all paid plans, many tech workers (especially in Big Tech) don’t have access to projects as part of the internal tools they’re required to use to access LLMs.\nIf this is you, don’t worry. Projects are not a fundamental LLM capability; they are a UX convenience.\nThe simplest solution is to do things manually. Assemble your instructions and project knowledge in one long text file. Each time you start a new chat thread, start by pasting in the entire file. This is a decent approximation of how projects work behind the scenes (and way better than working without context). It’s not elegant, but hopefully you won’t have to do this very frequently (more on chat threads later).\nFor those who want a more adventurous solution: A few Big Tech employees have realized that while they can’t access projects, they\n*do*\nhave access to AI-powered software development environments, like Cursor. They’ve realized that those contain all the same ingredients as the projects feature (knowledge, instructions, and chat threads), and they’ve repurposed these tools as thinking partners (using them with plain English instead of code).\n(If the geeky approach sounds appealing, I’m hosting a\n[free lightning lesson featuring live hands-on demos](https://maven.com/p/0a96cb/cursor-isn-t-just-for-coding-how-ai-native-p-ms-work)\nof how people are doing this.)\n*Thanks, Tal!*\n*Have a fulfilling and productive week 🙏*\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/308",
+        "#/texts/309",
+        "#/texts/310",
+        "#/texts/311",
+        "#/texts/312",
+        "#/texts/313",
+        "#/texts/314",
+        "#/texts/315",
+        "#/texts/316",
+        "#/texts/317",
+        "#/texts/318",
+        "#/texts/319",
+        "#/texts/320",
+        "#/texts/321",
+        "#/texts/322",
+        "#/texts/323",
+        "#/texts/324",
+        "#/texts/325",
+        "#/texts/326",
+        "#/texts/327"
+      ],
+      "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+      "headings": [
+        "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+        "Appendix: What if my LLM doesn’t have “projects”?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/build-your-personal-ai-copilot.md#chunk=000020",
+        "chunk_sha256": "01ff64b3d502656508c128eda1ddff09938a1619f1783e471105d760d9cb1af9",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+        "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+        "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+        "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+        "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+        "headings": [
+          "Build your personal AI copilot — A guide to using AI as a long-term thinking partner (including prompts to get you started) | 2025-07-22 | Tags: ai, leadership, design, strategy, newsletter, engineering",
+          "Appendix: What if my LLM doesn’t have “projects”?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 20,
+        "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+        "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+        "segment": {
+          "first_self_ref": "#/texts/308",
+          "item_count": 20,
+          "last_self_ref": "#/texts/327"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/308",
+          "#/texts/309",
+          "#/texts/310",
+          "#/texts/311",
+          "#/texts/312",
+          "#/texts/313",
+          "#/texts/314",
+          "#/texts/315",
+          "#/texts/316",
+          "#/texts/317",
+          "#/texts/318",
+          "#/texts/319",
+          "#/texts/320",
+          "#/texts/321",
+          "#/texts/322",
+          "#/texts/323",
+          "#/texts/324",
+          "#/texts/325",
+          "#/texts/326",
+          "#/texts/327"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 20,
+      "raw_text": "While projects are supported by the major LLM providers on all paid plans, many tech workers (especially in Big Tech) don’t have access to projects as part of the internal tools they’re required to use to access LLMs.\nIf this is you, don’t worry. Projects are not a fundamental LLM capability; they are a UX convenience.\nThe simplest solution is to do things manually. Assemble your instructions and project knowledge in one long text file. Each time you start a new chat thread, start by pasting in the entire file. This is a decent approximation of how projects work behind the scenes (and way better than working without context). It’s not elegant, but hopefully you won’t have to do this very frequently (more on chat threads later).\nFor those who want a more adventurous solution: A few Big Tech employees have realized that while they can’t access projects, they\n*do*\nhave access to AI-powered software development environments, like Cursor. They’ve realized that those contain all the same ingredients as the projects feature (knowledge, instructions, and chat threads), and they’ve repurposed these tools as thinking partners (using them with plain English instead of code).\n(If the geeky approach sounds appealing, I’m hosting a\n[free lightning lesson featuring live hands-on demos](https://maven.com/p/0a96cb/cursor-isn-t-just-for-coding-how-ai-native-p-ms-work)\nof how people are doing this.)\n*Thanks, Tal!*\n*Have a fulfilling and productive week 🙏*\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "token_count": 556
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/build-your-personal-ai-copilot.docling.json",
+  "docling_sha256": "6c2e4052082bd4037c4c0b6f01b17e75b828f1fa4d0c3d6eeaf4ba981d0226ed",
+  "document_id": "02-newsletters/build-your-personal-ai-copilot.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/build-your-personal-ai-copilot.md",
+  "enhanced_sha256": "19c8bedcb4878194111a1f0600066ba58eaf3ec5f72d21297df9b061086a567b",
+  "fact_document_path": "chunks/v2/02-newsletters/build-your-personal-ai-copilot.chunks.json",
+  "metadata": {
+    "date": "2025-07-22",
+    "subtitle": "A guide to using AI as a long-term thinking partner (including prompts to get you started)",
+    "tags": [
+      "ai",
+      "leadership",
+      "design",
+      "strategy",
+      "newsletter",
+      "engineering"
+    ],
+    "title": "Build your personal AI copilot",
+    "type": "newsletter",
+    "word_count": 6180
+  },
+  "raw_path": "corpus/raw/02-newsletters/build-your-personal-ai-copilot.md",
+  "raw_sha256": "23ed912699dba76197675d7c1bc2b46cf28c4a1699f1b90cfe86b64215913c75",
+  "schema_version": "1",
+  "title": "Build your personal AI copilot"
+}

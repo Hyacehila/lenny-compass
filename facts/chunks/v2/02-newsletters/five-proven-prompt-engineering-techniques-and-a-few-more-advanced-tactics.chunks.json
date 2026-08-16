@@ -1,0 +1,1267 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000000",
+      "contextualized_text": "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career\n❤️‍🔥 A quick note on the Lenny and Friends Summit\n1. The inaugural Lenny and Friends Summit was a smashing success. I shared some reflections on [LinkedIn](https://www.linkedin.com/posts/lennyrachitsky_some-reflections-on-the-lenny-and-friends-activity-7256770312699076609-zxJQ) and [X](https://x.com/lennysan/status/1851004994901999989) .\n2. If you couldn’t make it, videos of the talks from the Summit will be going up on [my YouTube channel](https://www.youtube.com/user/lennyrach?sub_confirmation=1) over the next couple of weeks. Subscribe to catch them as they come out.\n3. My live podcast recording with [Shreyas Doshi](https://shreyasdoshi.com/) will be coming out this Thursday as an episode in your regular podcast feed.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nI’m constantly hearing about people doing mind-blowing things with AI, like building entire products, offloading big parts of their job, and saving hundreds of hours doing research. But most of the time when I try using ChatGPT/Claude/Gemini, I get very meh results. Maybe you’re having the same luck.\nThe difference, I’m learning, is in crafting your prompts. The nuance and skill needed to get good results became clear to me when\n[Mike Taylor](https://www.linkedin.com/in/mjt145/)\npublished his guest post “\n[How close is AI to replacing product managers?](https://www.lennysnewsletter.com/p/how-close-is-ai-to-replacing-product)\n” and included prompts that did unexpectedly well in a blind test vs. human performance. I wanted to learn more—and so did many readers who emailed me after that post came out. I asked Mike to write a deeper dive just on prompt engineering.\nMike is a full-time professional prompt engineer. He\n[wrote a book for O’Reilly](https://www.amazon.com/Prompt-Engineering-Generative-AI-Future-Proof/dp/109815343X)\non prompt engineering and created a\n[course on AI](https://www.udemy.com/course/prompt-engineering-for-ai/)\ntaken by 100,000 people, and over the past few years he’s built up a collection of techniques that have proven useful again and again. Below, Mike shares the five prompting techniques he’s found to have the most impact when prompting LLMs, plus three advanced bonus techniques if you want to go further down the rabbit hole.\n*For more from Mike, check out his book,*\n[Prompt Engineering for Generative AI](https://www.amazon.com/Prompt-Engineering-Generative-AI-Future-Proof/dp/109815343X)\n*, and his AI engineering studio,*\n[*Brightpool*](https://brightpool.dev/)\n*. Follow him on*\n[*LinkedIn*](https://www.linkedin.com/in/mjt145/)\n*and*\n[*X*](https://x.com/hammer_mt)\n*.*\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nMuch like how becoming a better communicator leads to better results from the people you work with, writing better prompts improves the responses you can get from AI. We already know that people can’t read our minds. But neither can AI, so you have to tell it what you want, as specifically as possible.\nSay you’re asking ChatGPT to write an announcement for a new feature. You want to make sure the phrasing is attention-grabbing and factual but that the message is also authentic to your product and customer base. Naively asking ChatGPT to do the task without giving it any real direction will likely result in a generic response that leans too heavily on emojis and over-enthusiastic corporate speak.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nWith no stylistic direction, you’ll get one of these fake, corporate-sounding responses, because that’s the average of what’s out there. The same thing might happen if you delegated this task to a member of your team without being clear about what you actually want. One quick trick: ChatGPT is capable of emulating any famous style or format—you just need to specify that in your prompt so it knows what you’re looking for. Something as simple as appending the words “in the style of [insert famous person]” can make a huge difference to the results you get.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nSpecifying a style is just one tactic, though, and there are hundreds of\n[prompt engineering techniques](https://arxiv.org/pdf/2406.06608)\n, many of them proven effective in scientific studies. The good news is that you don’t have to read through all those papers on ArXiv. Every week, I spend a full day researching and experimenting with the latest techniques, and in this post, I’ll walk you through the five easy-to-use prompt engineering tactics that I actually use day-to-day, plus three more that are a bit more advanced and tailored to certain circumstances. What’s more, I’ll give you plug-and-play templates you can start using today to improve your own prompts.",
+      "doc_item_refs": [
+        "#/texts/2",
+        "#/texts/8",
+        "#/texts/12",
+        "#/texts/306",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/307",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/308",
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/309",
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/44",
+        "#/texts/45"
+      ],
+      "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+      "headings": [
+        "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+        "❤️‍🔥 A quick note on the Lenny and Friends Summit"
+      ],
+      "images": [
+        {
+          "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+          "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/89e0f5c4-017a-41f3-abe5-09c81420ddb8_4032x3024.jpeg"
+        },
+        {
+          "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+          "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/b22fec3b-2cd7-4a43-a20f-1ec1b9a681e8_8000x4000.png"
+        },
+        {
+          "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+          "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/5f7a958e-f1a3-4bf1-b5c2-17df7efd2c0a_1484x742.png"
+        },
+        {
+          "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+          "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/4dd75738-ecd8-4189-a3e9-39cbb787200e_2364x1454.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000000",
+        "chunk_sha256": "ff6502ada06bc933065c6f475df040c2747767c0ceeb19768a73aaa2a00891a3",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.docling.json",
+        "docling_sha256": "edc6a390c44571a54a892a7f9c3b2e38f453aa99c9319e042bf966c4bfaf154f",
+        "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_sha256": "24172e372a05255c96f484c620105e0ee1774dce75cfa2e29bc77cde6f1e493a",
+        "fact_document_path": "chunks/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.chunks.json",
+        "headings": [
+          "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+          "❤️‍🔥 A quick note on the Lenny and Friends Summit"
+        ],
+        "images": [
+          {
+            "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+            "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/89e0f5c4-017a-41f3-abe5-09c81420ddb8_4032x3024.jpeg"
+          },
+          {
+            "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+            "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/b22fec3b-2cd7-4a43-a20f-1ec1b9a681e8_8000x4000.png"
+          },
+          {
+            "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+            "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/5f7a958e-f1a3-4bf1-b5c2-17df7efd2c0a_1484x742.png"
+          },
+          {
+            "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+            "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/4dd75738-ecd8-4189-a3e9-39cbb787200e_2364x1454.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "raw_sha256": "8b789963b4e9ed10187b0ed1d35a7d2c0ade5cc9663cf763ebb131674680e317",
+        "segment": {
+          "first_self_ref": "#/texts/2",
+          "item_count": 37,
+          "last_self_ref": "#/texts/45"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/2",
+          "#/texts/8",
+          "#/texts/12",
+          "#/texts/306",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32",
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/36",
+          "#/texts/307",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/308",
+          "#/texts/40",
+          "#/texts/41",
+          "#/texts/309",
+          "#/texts/42",
+          "#/texts/43",
+          "#/texts/44",
+          "#/texts/45"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "1. The inaugural Lenny and Friends Summit was a smashing success. I shared some reflections on [LinkedIn](https://www.linkedin.com/posts/lennyrachitsky_some-reflections-on-the-lenny-and-friends-activity-7256770312699076609-zxJQ) and [X](https://x.com/lennysan/status/1851004994901999989) .\n2. If you couldn’t make it, videos of the talks from the Summit will be going up on [my YouTube channel](https://www.youtube.com/user/lennyrach?sub_confirmation=1) over the next couple of weeks. Subscribe to catch them as they come out.\n3. My live podcast recording with [Shreyas Doshi](https://shreyasdoshi.com/) will be coming out this Thursday as an episode in your regular podcast feed.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nI’m constantly hearing about people doing mind-blowing things with AI, like building entire products, offloading big parts of their job, and saving hundreds of hours doing research. But most of the time when I try using ChatGPT/Claude/Gemini, I get very meh results. Maybe you’re having the same luck.\nThe difference, I’m learning, is in crafting your prompts. The nuance and skill needed to get good results became clear to me when\n[Mike Taylor](https://www.linkedin.com/in/mjt145/)\npublished his guest post “\n[How close is AI to replacing product managers?](https://www.lennysnewsletter.com/p/how-close-is-ai-to-replacing-product)\n” and included prompts that did unexpectedly well in a blind test vs. human performance. I wanted to learn more—and so did many readers who emailed me after that post came out. I asked Mike to write a deeper dive just on prompt engineering.\nMike is a full-time professional prompt engineer. He\n[wrote a book for O’Reilly](https://www.amazon.com/Prompt-Engineering-Generative-AI-Future-Proof/dp/109815343X)\non prompt engineering and created a\n[course on AI](https://www.udemy.com/course/prompt-engineering-for-ai/)\ntaken by 100,000 people, and over the past few years he’s built up a collection of techniques that have proven useful again and again. Below, Mike shares the five prompting techniques he’s found to have the most impact when prompting LLMs, plus three advanced bonus techniques if you want to go further down the rabbit hole.\n*For more from Mike, check out his book,*\n[Prompt Engineering for Generative AI](https://www.amazon.com/Prompt-Engineering-Generative-AI-Future-Proof/dp/109815343X)\n*, and his AI engineering studio,*\n[*Brightpool*](https://brightpool.dev/)\n*. Follow him on*\n[*LinkedIn*](https://www.linkedin.com/in/mjt145/)\n*and*\n[*X*](https://x.com/hammer_mt)\n*.*\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nMuch like how becoming a better communicator leads to better results from the people you work with, writing better prompts improves the responses you can get from AI. We already know that people can’t read our minds. But neither can AI, so you have to tell it what you want, as specifically as possible.\nSay you’re asking ChatGPT to write an announcement for a new feature. You want to make sure the phrasing is attention-grabbing and factual but that the message is also authentic to your product and customer base. Naively asking ChatGPT to do the task without giving it any real direction will likely result in a generic response that leans too heavily on emojis and over-enthusiastic corporate speak.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nWith no stylistic direction, you’ll get one of these fake, corporate-sounding responses, because that’s the average of what’s out there. The same thing might happen if you delegated this task to a member of your team without being clear about what you actually want. One quick trick: ChatGPT is capable of emulating any famous style or format—you just need to specify that in your prompt so it knows what you’re looking for. Something as simple as appending the words “in the style of [insert famous person]” can make a huge difference to the results you get.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nSpecifying a style is just one tactic, though, and there are hundreds of\n[prompt engineering techniques](https://arxiv.org/pdf/2406.06608)\n, many of them proven effective in scientific studies. The good news is that you don’t have to read through all those papers on ArXiv. Every week, I spend a full day researching and experimenting with the latest techniques, and in this post, I’ll walk you through the five easy-to-use prompt engineering tactics that I actually use day-to-day, plus three more that are a bit more advanced and tailored to certain circumstances. What’s more, I’ll give you plug-and-play templates you can start using today to improve your own prompts.",
+      "token_count": 1360
+    },
+    {
+      "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000001",
+      "contextualized_text": "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career\nMy five favorite prompt engineering tactics\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nThese techniques work across any large language model, so whether you use ChatGPT, Claude, Gemini, or Perplexity, you can get better results. I’ve included examples of how these techniques work, what problems they solve for, and when to use them. Most are backed by scientific evidence, so I’ve also linked to those papers for further reading.\nWith today’s latest models, there’s a lot less need for prompting tricks than there was back in 2020 with GPT-3. However, no matter how smart AI gets, it’ll always need guidance from you, and the more guidance you give it, the better results you’ll get. The types of tactics I’ve focused on in this list are ones that I anticipate will continue to be useful far into the future.",
+      "doc_item_refs": [
+        "#/texts/310",
+        "#/texts/47",
+        "#/texts/48",
+        "#/texts/49"
+      ],
+      "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+      "headings": [
+        "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+        "My five favorite prompt engineering tactics"
+      ],
+      "images": [
+        {
+          "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+          "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/85b96d8b-3b29-4906-a7fb-d257134cd6c4_2364x1582.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000001",
+        "chunk_sha256": "c8a0cc3dd0e460a9700333a7dbad07a89b39023be26db56f44f5bc15b503fead",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.docling.json",
+        "docling_sha256": "edc6a390c44571a54a892a7f9c3b2e38f453aa99c9319e042bf966c4bfaf154f",
+        "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_sha256": "24172e372a05255c96f484c620105e0ee1774dce75cfa2e29bc77cde6f1e493a",
+        "fact_document_path": "chunks/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.chunks.json",
+        "headings": [
+          "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+          "My five favorite prompt engineering tactics"
+        ],
+        "images": [
+          {
+            "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+            "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/85b96d8b-3b29-4906-a7fb-d257134cd6c4_2364x1582.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "raw_sha256": "8b789963b4e9ed10187b0ed1d35a7d2c0ade5cc9663cf763ebb131674680e317",
+        "segment": {
+          "first_self_ref": "#/texts/310",
+          "item_count": 4,
+          "last_self_ref": "#/texts/49"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/310",
+          "#/texts/47",
+          "#/texts/48",
+          "#/texts/49"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nThese techniques work across any large language model, so whether you use ChatGPT, Claude, Gemini, or Perplexity, you can get better results. I’ve included examples of how these techniques work, what problems they solve for, and when to use them. Most are backed by scientific evidence, so I’ve also linked to those papers for further reading.\nWith today’s latest models, there’s a lot less need for prompting tricks than there was back in 2020 with GPT-3. However, no matter how smart AI gets, it’ll always need guidance from you, and the more guidance you give it, the better results you’ll get. The types of tactics I’ve focused on in this list are ones that I anticipate will continue to be useful far into the future.",
+      "token_count": 254
+    },
+    {
+      "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000002",
+      "contextualized_text": "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career\nTactic 1: Role-playing\nRole-playing is the technique we already demonstrated, where you instruct the AI to assume the persona of an expert, celebrity, or character. This approach leverages the AI’s broad knowledge base to mimic the style, expertise, and perspective of the chosen role. By doing so, you can obtain responses that are more tailored to the specific domain or viewpoint you’re interested in. For example, asking the AI to respond as a renowned scientist might yield more technical and research-oriented answers, while role-playing as a creative writer could result in more imaginative and narrative-driven responses.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt template:** “You are an expert in [field] known for [key adjective]. Help me [task].”\n- **Example:**\n- \n**Situation:**\nYou’re preparing for a crucial meeting with the engineering team to discuss a new feature’s technical feasibility.\n- **Problem:** You’re not confident in your ability to articulate the technical requirements clearly and persuasively.\n- **Prompt:** “You are an *expert software architect* known for bridging the gap between product vision and technical implementation. Help me prepare talking points for a meeting with our engineering team about the technical feasibility of our new AI-powered recommendation engine.”\n- **Try it with ChatGPT:** https://chatgpt.com/share/67070632-89d8-800d-b153-83c8a743b819\n- **Source** : https://arxiv.org/abs/2305.16367",
+      "doc_item_refs": [
+        "#/texts/51",
+        "#/texts/311",
+        "#/texts/52",
+        "#/texts/53",
+        "#/texts/56",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60",
+        "#/texts/63",
+        "#/texts/68",
+        "#/texts/71"
+      ],
+      "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+      "headings": [
+        "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+        "Tactic 1: Role-playing"
+      ],
+      "images": [
+        {
+          "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+          "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c784a7de-3455-44b8-887d-9a01812cffa0_2364x1616.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000002",
+        "chunk_sha256": "e144d41e301ca27d7a7b7462b6a00f047a1f846690a2c0adff738ee9a333b919",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.docling.json",
+        "docling_sha256": "edc6a390c44571a54a892a7f9c3b2e38f453aa99c9319e042bf966c4bfaf154f",
+        "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_sha256": "24172e372a05255c96f484c620105e0ee1774dce75cfa2e29bc77cde6f1e493a",
+        "fact_document_path": "chunks/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.chunks.json",
+        "headings": [
+          "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+          "Tactic 1: Role-playing"
+        ],
+        "images": [
+          {
+            "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+            "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c784a7de-3455-44b8-887d-9a01812cffa0_2364x1616.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "raw_sha256": "8b789963b4e9ed10187b0ed1d35a7d2c0ade5cc9663cf763ebb131674680e317",
+        "segment": {
+          "first_self_ref": "#/texts/51",
+          "item_count": 12,
+          "last_self_ref": "#/texts/71"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/51",
+          "#/texts/311",
+          "#/texts/52",
+          "#/texts/53",
+          "#/texts/56",
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/60",
+          "#/texts/63",
+          "#/texts/68",
+          "#/texts/71"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "Role-playing is the technique we already demonstrated, where you instruct the AI to assume the persona of an expert, celebrity, or character. This approach leverages the AI’s broad knowledge base to mimic the style, expertise, and perspective of the chosen role. By doing so, you can obtain responses that are more tailored to the specific domain or viewpoint you’re interested in. For example, asking the AI to respond as a renowned scientist might yield more technical and research-oriented answers, while role-playing as a creative writer could result in more imaginative and narrative-driven responses.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt template:** “You are an expert in [field] known for [key adjective]. Help me [task].”\n- **Example:**\n- \n**Situation:**\nYou’re preparing for a crucial meeting with the engineering team to discuss a new feature’s technical feasibility.\n- **Problem:** You’re not confident in your ability to articulate the technical requirements clearly and persuasively.\n- **Prompt:** “You are an *expert software architect* known for bridging the gap between product vision and technical implementation. Help me prepare talking points for a meeting with our engineering team about the technical feasibility of our new AI-powered recommendation engine.”\n- **Try it with ChatGPT:** https://chatgpt.com/share/67070632-89d8-800d-b153-83c8a743b819\n- **Source** : https://arxiv.org/abs/2305.16367",
+      "token_count": 431
+    },
+    {
+      "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000003",
+      "contextualized_text": "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career\nTactic 2: Style unbundling\nStyle unbundling involves breaking down the key elements of a particular expert’s style or skill set into discrete components. Instead of simply asking the AI to imitate someone, you prompt it to analyze and list the specific characteristics that make up that person’s unique approach. Then you can use those characteristics to prompt the AI to create new content. This technique allows for a more nuanced understanding and application of the desired style. It’s particularly useful when you want to incorporate certain aspects of an expert’s method without fully adopting their persona, giving you more control over which elements to emphasize in the AI’s output.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt templates:**\n- “Describe the key elements of [expert]’s style/skill in bullet points.”\n- “Do [task] in the following style: [style].” *Note: The key-element bullet points we get in response to the first prompt go into the second prompt as the style guide.*\n- **Example:**\n- \n**Situation:**\nYou admire how a competitor’s product manager communicates product updates, but you don’t want to copy their style directly.\n- **Problem:** You’re struggling to pinpoint what makes their communication effective.\n- **Prompts:**\n- \n“Describe the key elements of Apple’s product announcement style in bullet points. Focus on how they communicate new features and benefits to users.”\n*Note: the output of this prompt becomes the bullet points in the second prompt below.*\n- \n“Write a product announcement for our new project management software feature in the following style:\n*- Simplicity: Clear messaging without technical jargon\n- Storytelling: Narratives highlighting user benefits\n- Visuals: High-quality demos and graphics\n- Live demos: Showcasing features in real time\n- Customer focus: Emphasizing personal benefits\n- Key features: Highlighting important advancements\n- User testimonials: Reinforcing value through experiences\n- Comparative context: Showing improvements over past models\n- Emotional appeal: Connecting technology to lifestyle\n- Call to action: Encouraging audience engagement*”\n- **Try it with ChatGPT:** https://chatgpt.com/share/67070931-6780-800d-a8d0-c6a198de3479\n- **Source** : https://bakztfuture.substack.com/p/dall-e-2-unbundling",
+      "doc_item_refs": [
+        "#/texts/76",
+        "#/texts/312",
+        "#/texts/77",
+        "#/texts/78",
+        "#/texts/79",
+        "#/texts/80",
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/87",
+        "#/texts/90",
+        "#/texts/91",
+        "#/texts/92",
+        "#/texts/93",
+        "#/texts/94",
+        "#/texts/95",
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/100",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/103",
+        "#/texts/104",
+        "#/texts/105",
+        "#/texts/106",
+        "#/texts/109"
+      ],
+      "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+      "headings": [
+        "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+        "Tactic 2: Style unbundling"
+      ],
+      "images": [
+        {
+          "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+          "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/9e564b44-53c4-4b53-8352-79b23a32d9f2_2364x1690.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000003",
+        "chunk_sha256": "0bc5f2fd4ee9a14321fdf2a5ecf991e57a41f4d30af1ed0d3cdf702c2e6e7814",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.docling.json",
+        "docling_sha256": "edc6a390c44571a54a892a7f9c3b2e38f453aa99c9319e042bf966c4bfaf154f",
+        "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_sha256": "24172e372a05255c96f484c620105e0ee1774dce75cfa2e29bc77cde6f1e493a",
+        "fact_document_path": "chunks/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.chunks.json",
+        "headings": [
+          "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+          "Tactic 2: Style unbundling"
+        ],
+        "images": [
+          {
+            "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+            "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/9e564b44-53c4-4b53-8352-79b23a32d9f2_2364x1690.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "raw_sha256": "8b789963b4e9ed10187b0ed1d35a7d2c0ade5cc9663cf763ebb131674680e317",
+        "segment": {
+          "first_self_ref": "#/texts/76",
+          "item_count": 29,
+          "last_self_ref": "#/texts/109"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/76",
+          "#/texts/312",
+          "#/texts/77",
+          "#/texts/78",
+          "#/texts/79",
+          "#/texts/80",
+          "#/texts/83",
+          "#/texts/84",
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/87",
+          "#/texts/90",
+          "#/texts/91",
+          "#/texts/92",
+          "#/texts/93",
+          "#/texts/94",
+          "#/texts/95",
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/100",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/103",
+          "#/texts/104",
+          "#/texts/105",
+          "#/texts/106",
+          "#/texts/109"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "Style unbundling involves breaking down the key elements of a particular expert’s style or skill set into discrete components. Instead of simply asking the AI to imitate someone, you prompt it to analyze and list the specific characteristics that make up that person’s unique approach. Then you can use those characteristics to prompt the AI to create new content. This technique allows for a more nuanced understanding and application of the desired style. It’s particularly useful when you want to incorporate certain aspects of an expert’s method without fully adopting their persona, giving you more control over which elements to emphasize in the AI’s output.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt templates:**\n- “Describe the key elements of [expert]’s style/skill in bullet points.”\n- “Do [task] in the following style: [style].” *Note: The key-element bullet points we get in response to the first prompt go into the second prompt as the style guide.*\n- **Example:**\n- \n**Situation:**\nYou admire how a competitor’s product manager communicates product updates, but you don’t want to copy their style directly.\n- **Problem:** You’re struggling to pinpoint what makes their communication effective.\n- **Prompts:**\n- \n“Describe the key elements of Apple’s product announcement style in bullet points. Focus on how they communicate new features and benefits to users.”\n*Note: the output of this prompt becomes the bullet points in the second prompt below.*\n- \n“Write a product announcement for our new project management software feature in the following style:\n*- Simplicity: Clear messaging without technical jargon\n- Storytelling: Narratives highlighting user benefits\n- Visuals: High-quality demos and graphics\n- Live demos: Showcasing features in real time\n- Customer focus: Emphasizing personal benefits\n- Key features: Highlighting important advancements\n- User testimonials: Reinforcing value through experiences\n- Comparative context: Showing improvements over past models\n- Emotional appeal: Connecting technology to lifestyle\n- Call to action: Encouraging audience engagement*”\n- **Try it with ChatGPT:** https://chatgpt.com/share/67070931-6780-800d-a8d0-c6a198de3479\n- **Source** : https://bakztfuture.substack.com/p/dall-e-2-unbundling",
+      "token_count": 598
+    },
+    {
+      "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000004",
+      "contextualized_text": "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career\nTactic 3: Emotion prompting\nEmotion prompting is a technique that involves adding emotional context or stakes to your request. By framing the task as personally important or impactful, you can potentially elicit more careful and thoughtful responses from the AI. This method taps into the AI’s programming to be helpful and considerate, potentially leading to more thorough or empathetic outputs. However, it’s important to use this technique judiciously, as it can sometimes have the opposite intention and lead to worse results.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt template:** “Help me [task]. Please make sure [attribute]. This task is very important for my career.”\n- **Example:**\n- \n**Situation:**\nYou need to write a compelling product roadmap presentation for the executive team.\n- **Problem:** You’re concerned that your presentation might not convey the urgency and importance of your proposed initiatives.\n- **Prompt:** “Help me draft a product roadmap presentation that will resonate with our executive team. Please make sure it conveys a sense of urgency and highlights the strategic importance of each initiative. *This task is very important for my career.* ”\n- **Try it with ChatGPT:** https://chatgpt.com/share/6707074a-c83c-800d-9654-0aca023fc523\n- **Source** : https://arxiv.org/abs/2307.11760",
+      "doc_item_refs": [
+        "#/texts/114",
+        "#/texts/313",
+        "#/texts/115",
+        "#/texts/116",
+        "#/texts/119",
+        "#/texts/120",
+        "#/texts/121",
+        "#/texts/122",
+        "#/texts/123",
+        "#/texts/126",
+        "#/texts/131",
+        "#/texts/134"
+      ],
+      "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+      "headings": [
+        "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+        "Tactic 3: Emotion prompting"
+      ],
+      "images": [
+        {
+          "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+          "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/3224788f-296b-4a1f-a0ed-85aba177a016_2364x1702.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000004",
+        "chunk_sha256": "9d9c48df12d7fe847fda1d894281b3ea0093c6aa0a67b1c8f802454b3d5aafc7",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.docling.json",
+        "docling_sha256": "edc6a390c44571a54a892a7f9c3b2e38f453aa99c9319e042bf966c4bfaf154f",
+        "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_sha256": "24172e372a05255c96f484c620105e0ee1774dce75cfa2e29bc77cde6f1e493a",
+        "fact_document_path": "chunks/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.chunks.json",
+        "headings": [
+          "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+          "Tactic 3: Emotion prompting"
+        ],
+        "images": [
+          {
+            "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+            "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/3224788f-296b-4a1f-a0ed-85aba177a016_2364x1702.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "raw_sha256": "8b789963b4e9ed10187b0ed1d35a7d2c0ade5cc9663cf763ebb131674680e317",
+        "segment": {
+          "first_self_ref": "#/texts/114",
+          "item_count": 12,
+          "last_self_ref": "#/texts/134"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/114",
+          "#/texts/313",
+          "#/texts/115",
+          "#/texts/116",
+          "#/texts/119",
+          "#/texts/120",
+          "#/texts/121",
+          "#/texts/122",
+          "#/texts/123",
+          "#/texts/126",
+          "#/texts/131",
+          "#/texts/134"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "Emotion prompting is a technique that involves adding emotional context or stakes to your request. By framing the task as personally important or impactful, you can potentially elicit more careful and thoughtful responses from the AI. This method taps into the AI’s programming to be helpful and considerate, potentially leading to more thorough or empathetic outputs. However, it’s important to use this technique judiciously, as it can sometimes have the opposite intention and lead to worse results.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt template:** “Help me [task]. Please make sure [attribute]. This task is very important for my career.”\n- **Example:**\n- \n**Situation:**\nYou need to write a compelling product roadmap presentation for the executive team.\n- **Problem:** You’re concerned that your presentation might not convey the urgency and importance of your proposed initiatives.\n- **Prompt:** “Help me draft a product roadmap presentation that will resonate with our executive team. Please make sure it conveys a sense of urgency and highlights the strategic importance of each initiative. *This task is very important for my career.* ”\n- **Try it with ChatGPT:** https://chatgpt.com/share/6707074a-c83c-800d-9654-0aca023fc523\n- **Source** : https://arxiv.org/abs/2307.11760",
+      "token_count": 399
+    },
+    {
+      "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000005",
+      "contextualized_text": "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career\nTactic 4: Few-shot learning\nFew-shot learning, also known as in-context learning, is a technique where you provide the AI with a few examples of the task you want it to perform before asking it to complete a similar task. This method helps to guide the AI’s understanding of the specific format, style, or approach you’re looking for. By demonstrating the desired output through examples, you can often achieve more accurate and relevant results, especially for tasks that might be ambiguous or require a particular structure.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt template:** “Here are some examples of [task]. Generate a [task] for [new context].”\n- **Example:**\n- \n**Situation:**\nYou need to write user stories for a new feature, but you’re new to the team and unsure of their preferred format.\n- **Problem:** You want to ensure that your user stories align with the team’s existing style and structure.\n- \n**Prompt:**\n“Here are some examples of user stories from our backlog:\n*- As a user, I want to reset my password so that I can regain access to my account if I forget it.\n- As an admin, I want to view user activity logs so that I can monitor for suspicious behavior.* Generate a user story for adding a new ‘dark mode’ feature to our mobile app.”\n- **Try it with ChatGPT:** https://chatgpt.com/share/67070778-8ce8-800d-a45a-0405480a9600\n- **Source** : https://arxiv.org/abs/2005.14165",
+      "doc_item_refs": [
+        "#/texts/139",
+        "#/texts/314",
+        "#/texts/140",
+        "#/texts/141",
+        "#/texts/144",
+        "#/texts/145",
+        "#/texts/146",
+        "#/texts/147",
+        "#/texts/148",
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/153",
+        "#/texts/154",
+        "#/texts/155",
+        "#/texts/158",
+        "#/texts/161"
+      ],
+      "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+      "headings": [
+        "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+        "Tactic 4: Few-shot learning"
+      ],
+      "images": [
+        {
+          "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+          "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a72de3e1-5d1b-43aa-b4db-d3e3d4391543_2364x1666.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000005",
+        "chunk_sha256": "4eec53f4cef2759f791ac1d82907fbe7d3ce804a02dd2def1035cbc1c5ace5da",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.docling.json",
+        "docling_sha256": "edc6a390c44571a54a892a7f9c3b2e38f453aa99c9319e042bf966c4bfaf154f",
+        "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_sha256": "24172e372a05255c96f484c620105e0ee1774dce75cfa2e29bc77cde6f1e493a",
+        "fact_document_path": "chunks/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.chunks.json",
+        "headings": [
+          "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+          "Tactic 4: Few-shot learning"
+        ],
+        "images": [
+          {
+            "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+            "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a72de3e1-5d1b-43aa-b4db-d3e3d4391543_2364x1666.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "raw_sha256": "8b789963b4e9ed10187b0ed1d35a7d2c0ade5cc9663cf763ebb131674680e317",
+        "segment": {
+          "first_self_ref": "#/texts/139",
+          "item_count": 16,
+          "last_self_ref": "#/texts/161"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/139",
+          "#/texts/314",
+          "#/texts/140",
+          "#/texts/141",
+          "#/texts/144",
+          "#/texts/145",
+          "#/texts/146",
+          "#/texts/147",
+          "#/texts/148",
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/153",
+          "#/texts/154",
+          "#/texts/155",
+          "#/texts/158",
+          "#/texts/161"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "Few-shot learning, also known as in-context learning, is a technique where you provide the AI with a few examples of the task you want it to perform before asking it to complete a similar task. This method helps to guide the AI’s understanding of the specific format, style, or approach you’re looking for. By demonstrating the desired output through examples, you can often achieve more accurate and relevant results, especially for tasks that might be ambiguous or require a particular structure.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt template:** “Here are some examples of [task]. Generate a [task] for [new context].”\n- **Example:**\n- \n**Situation:**\nYou need to write user stories for a new feature, but you’re new to the team and unsure of their preferred format.\n- **Problem:** You want to ensure that your user stories align with the team’s existing style and structure.\n- \n**Prompt:**\n“Here are some examples of user stories from our backlog:\n*- As a user, I want to reset my password so that I can regain access to my account if I forget it.\n- As an admin, I want to view user activity logs so that I can monitor for suspicious behavior.* Generate a user story for adding a new ‘dark mode’ feature to our mobile app.”\n- **Try it with ChatGPT:** https://chatgpt.com/share/67070778-8ce8-800d-a45a-0405480a9600\n- **Source** : https://arxiv.org/abs/2005.14165",
+      "token_count": 442
+    },
+    {
+      "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000006",
+      "contextualized_text": "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career\nTactic 5: Synthetic bootstrap\nSynthetic bootstrap is a practical technique where you use the AI to generate multiple examples based on given inputs. These AI-generated examples can then be used as a form of in-context learning for subsequent prompts or as test cases you can use as inputs for your existing prompt template. This method is particularly useful when you don’t have a lot of real-world examples readily available or when you need a large number of diverse input examples quickly. It allows you to bootstrap the learning process, potentially improving the AI’s performance on the target task even without the help of a domain expert.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt templates:**\n- “Generate ten examples of [examples] for [context]. Here are the inputs: [inputs].”\n- “Generate [task] using [examples].”\n- **Example:**\n- \n**Situation:**\nYou’re creating personas for a new target market, but you lack real user data.\n- **Problem:** You need diverse, realistic personas to guide product development, but you don’t have the resources for extensive user research.\n- **Prompts:**\n- \n“\n*Generate ten examples*\nof user personas for our new fitness tracking app. Here are the inputs:\n- Name and age\n- Occupation\n- Fitness goal\n- Current fitness routine\n- Technology comfort level\n- Key pain points in their fitness journey”\n- “Generate potential customer feedback on our idea to track calories burned during work meetings, *using our user personas* .”\n- **Try it with ChatGPT:** https://chatgpt.com/share/67070802-0564-800d-b96b-020fa30d8382\n- **Source** : https://arxiv.org/abs/2310.03714",
+      "doc_item_refs": [
+        "#/texts/166",
+        "#/texts/315",
+        "#/texts/167",
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/170",
+        "#/texts/171",
+        "#/texts/172",
+        "#/texts/173",
+        "#/texts/174",
+        "#/texts/175",
+        "#/texts/178",
+        "#/texts/179",
+        "#/texts/180",
+        "#/texts/181",
+        "#/texts/182",
+        "#/texts/183",
+        "#/texts/184",
+        "#/texts/185",
+        "#/texts/186",
+        "#/texts/187",
+        "#/texts/188",
+        "#/texts/189",
+        "#/texts/193",
+        "#/texts/196"
+      ],
+      "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+      "headings": [
+        "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+        "Tactic 5: Synthetic bootstrap"
+      ],
+      "images": [
+        {
+          "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+          "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000009",
+          "path": null,
+          "self_ref": "#/pictures/9",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/a8bc604b-312a-479e-912e-7590271fc9ac_2364x2554.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000006",
+        "chunk_sha256": "a6ebc54fae9e268975f91cb753c77fc64648800f92b684bf01b262ab6512cf66",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.docling.json",
+        "docling_sha256": "edc6a390c44571a54a892a7f9c3b2e38f453aa99c9319e042bf966c4bfaf154f",
+        "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_sha256": "24172e372a05255c96f484c620105e0ee1774dce75cfa2e29bc77cde6f1e493a",
+        "fact_document_path": "chunks/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.chunks.json",
+        "headings": [
+          "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+          "Tactic 5: Synthetic bootstrap"
+        ],
+        "images": [
+          {
+            "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+            "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000009",
+            "path": null,
+            "self_ref": "#/pictures/9",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/a8bc604b-312a-479e-912e-7590271fc9ac_2364x2554.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "raw_sha256": "8b789963b4e9ed10187b0ed1d35a7d2c0ade5cc9663cf763ebb131674680e317",
+        "segment": {
+          "first_self_ref": "#/texts/166",
+          "item_count": 25,
+          "last_self_ref": "#/texts/196"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/166",
+          "#/texts/315",
+          "#/texts/167",
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/170",
+          "#/texts/171",
+          "#/texts/172",
+          "#/texts/173",
+          "#/texts/174",
+          "#/texts/175",
+          "#/texts/178",
+          "#/texts/179",
+          "#/texts/180",
+          "#/texts/181",
+          "#/texts/182",
+          "#/texts/183",
+          "#/texts/184",
+          "#/texts/185",
+          "#/texts/186",
+          "#/texts/187",
+          "#/texts/188",
+          "#/texts/189",
+          "#/texts/193",
+          "#/texts/196"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "Synthetic bootstrap is a practical technique where you use the AI to generate multiple examples based on given inputs. These AI-generated examples can then be used as a form of in-context learning for subsequent prompts or as test cases you can use as inputs for your existing prompt template. This method is particularly useful when you don’t have a lot of real-world examples readily available or when you need a large number of diverse input examples quickly. It allows you to bootstrap the learning process, potentially improving the AI’s performance on the target task even without the help of a domain expert.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt templates:**\n- “Generate ten examples of [examples] for [context]. Here are the inputs: [inputs].”\n- “Generate [task] using [examples].”\n- **Example:**\n- \n**Situation:**\nYou’re creating personas for a new target market, but you lack real user data.\n- **Problem:** You need diverse, realistic personas to guide product development, but you don’t have the resources for extensive user research.\n- **Prompts:**\n- \n“\n*Generate ten examples*\nof user personas for our new fitness tracking app. Here are the inputs:\n- Name and age\n- Occupation\n- Fitness goal\n- Current fitness routine\n- Technology comfort level\n- Key pain points in their fitness journey”\n- “Generate potential customer feedback on our idea to track calories burned during work meetings, *using our user personas* .”\n- **Try it with ChatGPT:** https://chatgpt.com/share/67070802-0564-800d-b96b-020fa30d8382\n- **Source** : https://arxiv.org/abs/2310.03714",
+      "token_count": 477
+    },
+    {
+      "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000007",
+      "contextualized_text": "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career\nBONUS: Three more advanced tactics\nIf you got this far and still want to push your prompting skills further, the next level up is learning ways to split up the task into multiple steps. Rather than trying to do it all in one prompt, most professionals in the AI space build a system that corrects for the errors AI models commonly make. These tactics can take more time or be harder to implement—particularly if you can’t code—but they can make all the difference when AI is failing at a task. With better structuring interactions with AI, you can leverage its strengths, mitigate weaknesses, and create more robust and reliable outcomes.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+      "doc_item_refs": [
+        "#/texts/201",
+        "#/texts/316",
+        "#/texts/202"
+      ],
+      "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+      "headings": [
+        "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+        "BONUS: Three more advanced tactics"
+      ],
+      "images": [
+        {
+          "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+          "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000010",
+          "path": null,
+          "self_ref": "#/pictures/10",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/631f1db4-f177-4a12-a7b6-ae9c03e90376_2422x2594.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000007",
+        "chunk_sha256": "b21b30ffaba45622f3515c4cfef6f565020d5f23e4a6a3b23a2752594ab3e8f8",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.docling.json",
+        "docling_sha256": "edc6a390c44571a54a892a7f9c3b2e38f453aa99c9319e042bf966c4bfaf154f",
+        "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_sha256": "24172e372a05255c96f484c620105e0ee1774dce75cfa2e29bc77cde6f1e493a",
+        "fact_document_path": "chunks/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.chunks.json",
+        "headings": [
+          "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+          "BONUS: Three more advanced tactics"
+        ],
+        "images": [
+          {
+            "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+            "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000010",
+            "path": null,
+            "self_ref": "#/pictures/10",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/631f1db4-f177-4a12-a7b6-ae9c03e90376_2422x2594.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "raw_sha256": "8b789963b4e9ed10187b0ed1d35a7d2c0ade5cc9663cf763ebb131674680e317",
+        "segment": {
+          "first_self_ref": "#/texts/201",
+          "item_count": 3,
+          "last_self_ref": "#/texts/202"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/201",
+          "#/texts/316",
+          "#/texts/202"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "If you got this far and still want to push your prompting skills further, the next level up is learning ways to split up the task into multiple steps. Rather than trying to do it all in one prompt, most professionals in the AI space build a system that corrects for the errors AI models commonly make. These tactics can take more time or be harder to implement—particularly if you can’t code—but they can make all the difference when AI is failing at a task. With better structuring interactions with AI, you can leverage its strengths, mitigate weaknesses, and create more robust and reliable outcomes.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+      "token_count": 211
+    },
+    {
+      "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000008",
+      "contextualized_text": "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career\nBONUS: Three more advanced tactics\nTactic 6: Chain-of-thought\nThe chain-of-thought technique encourages the AI to break down complex problems into smaller, more manageable steps. By prompting the AI to “think through” a problem step-by-step, you can often obtain more logical, transparent, and accurate results. This method is particularly effective for tasks that require reasoning, problem-solving, or multistep processes. It not only improves the quality of the final answer but also provides insight into the AI’s reasoning process, making it easier to identify and correct any errors in logic. Many AI tools have baked this into their system already (OpenAI’s\n[o1-preview](https://openai.com/index/learning-to-reason-with-llms/)\nhas it trained directly into the model), but I often like to separate planning as its own step, so I can vet the plan before I decide how to proceed.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt template:** “Think this through step-by-step: [describe problem].”\n- **Example:**\n- \n**Situation:**\nYou’re trying to decide whether to prioritize feature A or feature B for the next sprint.\n- **Problem:** The decision is complex, involving multiple factors such as development time, user impact, and strategic alignment.\n- **Prompt:** “ *Think this through step-by-step* : We need to decide whether to prioritize feature A (advanced reporting) or feature B (integration with a popular third-party tool) for our next sprint. Consider development time, potential user impact, strategic alignment with our product roadmap, and revenue potential for each feature.”\n- **Try it with ChatGPT:** https://chatgpt.com/share/6707083b-0b40-800d-8fc0-b2e1f0d4188f\n- **Source** : https://arxiv.org/abs/2201.11903",
+      "doc_item_refs": [
+        "#/texts/204",
+        "#/texts/205",
+        "#/texts/206",
+        "#/texts/317",
+        "#/texts/207",
+        "#/texts/208",
+        "#/texts/211",
+        "#/texts/212",
+        "#/texts/213",
+        "#/texts/214",
+        "#/texts/215",
+        "#/texts/218",
+        "#/texts/223",
+        "#/texts/226"
+      ],
+      "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+      "headings": [
+        "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+        "BONUS: Three more advanced tactics",
+        "Tactic 6: Chain-of-thought"
+      ],
+      "images": [
+        {
+          "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+          "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000011",
+          "path": null,
+          "self_ref": "#/pictures/11",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/011d1b83-fb2a-40ff-9686-f5db8c965663_2364x1710.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000008",
+        "chunk_sha256": "71dbfbb61f17800ec1956669d036dc2be30b7f2574ee56ded30bff620687d375",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.docling.json",
+        "docling_sha256": "edc6a390c44571a54a892a7f9c3b2e38f453aa99c9319e042bf966c4bfaf154f",
+        "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_sha256": "24172e372a05255c96f484c620105e0ee1774dce75cfa2e29bc77cde6f1e493a",
+        "fact_document_path": "chunks/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.chunks.json",
+        "headings": [
+          "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+          "BONUS: Three more advanced tactics",
+          "Tactic 6: Chain-of-thought"
+        ],
+        "images": [
+          {
+            "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+            "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000011",
+            "path": null,
+            "self_ref": "#/pictures/11",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/011d1b83-fb2a-40ff-9686-f5db8c965663_2364x1710.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "raw_sha256": "8b789963b4e9ed10187b0ed1d35a7d2c0ade5cc9663cf763ebb131674680e317",
+        "segment": {
+          "first_self_ref": "#/texts/204",
+          "item_count": 14,
+          "last_self_ref": "#/texts/226"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/204",
+          "#/texts/205",
+          "#/texts/206",
+          "#/texts/317",
+          "#/texts/207",
+          "#/texts/208",
+          "#/texts/211",
+          "#/texts/212",
+          "#/texts/213",
+          "#/texts/214",
+          "#/texts/215",
+          "#/texts/218",
+          "#/texts/223",
+          "#/texts/226"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "The chain-of-thought technique encourages the AI to break down complex problems into smaller, more manageable steps. By prompting the AI to “think through” a problem step-by-step, you can often obtain more logical, transparent, and accurate results. This method is particularly effective for tasks that require reasoning, problem-solving, or multistep processes. It not only improves the quality of the final answer but also provides insight into the AI’s reasoning process, making it easier to identify and correct any errors in logic. Many AI tools have baked this into their system already (OpenAI’s\n[o1-preview](https://openai.com/index/learning-to-reason-with-llms/)\nhas it trained directly into the model), but I often like to separate planning as its own step, so I can vet the plan before I decide how to proceed.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt template:** “Think this through step-by-step: [describe problem].”\n- **Example:**\n- \n**Situation:**\nYou’re trying to decide whether to prioritize feature A or feature B for the next sprint.\n- **Problem:** The decision is complex, involving multiple factors such as development time, user impact, and strategic alignment.\n- **Prompt:** “ *Think this through step-by-step* : We need to decide whether to prioritize feature A (advanced reporting) or feature B (integration with a popular third-party tool) for our next sprint. Consider development time, potential user impact, strategic alignment with our product roadmap, and revenue potential for each feature.”\n- **Try it with ChatGPT:** https://chatgpt.com/share/6707083b-0b40-800d-8fc0-b2e1f0d4188f\n- **Source** : https://arxiv.org/abs/2201.11903",
+      "token_count": 522
+    },
+    {
+      "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000009",
+      "contextualized_text": "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career\nBONUS: Three more advanced tactics\nTactic 7: Retrieval-augmented generation (RAG)\nRAG is a technique that involves providing the AI with relevant contextual information before asking it to perform a task. This method combines the AI’s general knowledge with the data contained in your files and documents and with externally sourced information, allowing for more informed and accurate responses. First, you search for relevant documents (or parts of documents) and then add them to the prompt. RAG is particularly useful when dealing with specialized topics, niche events, or specific datasets that might not be fully covered in the AI’s training data. By augmenting the AI’s knowledge with relevant context, you can obtain more precise and up-to-date outputs.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt template:** “Based on [relevant document(s)], answer this question: [question].”\n- **Example:**\n- \n**Situation:**\nYou’re drafting a competitive-analysis report, but you’re not sure you have the most up-to-date information on the market.\n- **Problem:** You need to ensure that your analysis is based on current market conditions and competitor offerings.\n- **Prompt:** “Based on Seeking Alpha’s Tesla report, answer this question: How does Tesla’s performance compare with competitors like BYD?” ( [source](https://seekingalpha.com/article/4666977-tesla-stock-q4-earnings-results-still-long-term-buy) )\n- **Try it with ChatGPT:** https://chatgpt.com/share/6707087a-32c8-800d-89d4-ac3fd691adb1\n- **Source** : https://arxiv.org/abs/2005.11401\n*Note: In this example, the full PDF is inserted into the prompt, but in many systems (including OpenAI’s custom GPTs), only the most relevant parts of the report will be retrieved to insert into the prompt. This is done via a vector search (searching by similarity to the user question being asked).*",
+      "doc_item_refs": [
+        "#/texts/231",
+        "#/texts/318",
+        "#/texts/232",
+        "#/texts/233",
+        "#/texts/236",
+        "#/texts/237",
+        "#/texts/238",
+        "#/texts/239",
+        "#/texts/240",
+        "#/texts/243",
+        "#/texts/248",
+        "#/texts/251",
+        "#/texts/255"
+      ],
+      "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+      "headings": [
+        "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+        "BONUS: Three more advanced tactics",
+        "Tactic 7: Retrieval-augmented generation (RAG)"
+      ],
+      "images": [
+        {
+          "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+          "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000012",
+          "path": null,
+          "self_ref": "#/pictures/12",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/7dc6d9b5-2ac3-452f-8060-286f341fcc43_2364x1750.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000009",
+        "chunk_sha256": "008064b625f11894aa9204c407599855abe20f03750c5fa1e81571447d25368b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.docling.json",
+        "docling_sha256": "edc6a390c44571a54a892a7f9c3b2e38f453aa99c9319e042bf966c4bfaf154f",
+        "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_sha256": "24172e372a05255c96f484c620105e0ee1774dce75cfa2e29bc77cde6f1e493a",
+        "fact_document_path": "chunks/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.chunks.json",
+        "headings": [
+          "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+          "BONUS: Three more advanced tactics",
+          "Tactic 7: Retrieval-augmented generation (RAG)"
+        ],
+        "images": [
+          {
+            "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+            "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000012",
+            "path": null,
+            "self_ref": "#/pictures/12",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/7dc6d9b5-2ac3-452f-8060-286f341fcc43_2364x1750.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "raw_sha256": "8b789963b4e9ed10187b0ed1d35a7d2c0ade5cc9663cf763ebb131674680e317",
+        "segment": {
+          "first_self_ref": "#/texts/231",
+          "item_count": 13,
+          "last_self_ref": "#/texts/255"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/231",
+          "#/texts/318",
+          "#/texts/232",
+          "#/texts/233",
+          "#/texts/236",
+          "#/texts/237",
+          "#/texts/238",
+          "#/texts/239",
+          "#/texts/240",
+          "#/texts/243",
+          "#/texts/248",
+          "#/texts/251",
+          "#/texts/255"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "RAG is a technique that involves providing the AI with relevant contextual information before asking it to perform a task. This method combines the AI’s general knowledge with the data contained in your files and documents and with externally sourced information, allowing for more informed and accurate responses. First, you search for relevant documents (or parts of documents) and then add them to the prompt. RAG is particularly useful when dealing with specialized topics, niche events, or specific datasets that might not be fully covered in the AI’s training data. By augmenting the AI’s knowledge with relevant context, you can obtain more precise and up-to-date outputs.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt template:** “Based on [relevant document(s)], answer this question: [question].”\n- **Example:**\n- \n**Situation:**\nYou’re drafting a competitive-analysis report, but you’re not sure you have the most up-to-date information on the market.\n- **Problem:** You need to ensure that your analysis is based on current market conditions and competitor offerings.\n- **Prompt:** “Based on Seeking Alpha’s Tesla report, answer this question: How does Tesla’s performance compare with competitors like BYD?” ( [source](https://seekingalpha.com/article/4666977-tesla-stock-q4-earnings-results-still-long-term-buy) )\n- **Try it with ChatGPT:** https://chatgpt.com/share/6707087a-32c8-800d-89d4-ac3fd691adb1\n- **Source** : https://arxiv.org/abs/2005.11401\n*Note: In this example, the full PDF is inserted into the prompt, but in many systems (including OpenAI’s custom GPTs), only the most relevant parts of the report will be retrieved to insert into the prompt. This is done via a vector search (searching by similarity to the user question being asked).*",
+      "token_count": 546
+    },
+    {
+      "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000010",
+      "contextualized_text": "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career\nBONUS: Three more advanced tactics\nTactic 8: LLM-as-a-judge\nHuman feedback is expensive and slow, so it’s common practice among AI practitioners to use an AI model to evaluate and rate the quality of outputs, either from itself or from other sources. This method leverages the AI’s analytical capabilities to provide a more objective assessment of content quality. It can be particularly useful for tasks like content moderation, quality control, or comparing multiple AI-generated outputs to select the best one. However, it’s important to remember that the AI’s judgments are based on its training and may not always align perfectly with human assessments.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt templates:**\n- “Generate [task].”\n- “Please rate the output on a scale of 1 to 5 based on [criteria]: [output of task]. For each rating, provide a brief explanation of the score.”\n- **Example:**\n- \n**Situation:**\nYou’ve written several versions of a product description for your landing page.\n- **Problem:** You’re not sure which version will be most effective in conveying the product’s value to potential customers.\n- **Prompts:**\n- “Generate five diverse product descriptions for a pair of shoes that fits any foot size.”\n- “Please rate each of the product descriptions on a scale of 1 to 5 based on clarity, persuasiveness, and how well it conveys the product’s unique value proposition. For each rating, provide a brief explanation of the score.”\n- **Try it with ChatGPT:** https://chatgpt.com/share/670708d3-1c54-800d-b638-8e9a1c3e89ae\n- **Source** : https://arxiv.org/abs/2306.05685",
+      "doc_item_refs": [
+        "#/texts/257",
+        "#/texts/319",
+        "#/texts/258",
+        "#/texts/259",
+        "#/texts/260",
+        "#/texts/261",
+        "#/texts/262",
+        "#/texts/263",
+        "#/texts/264",
+        "#/texts/265",
+        "#/texts/266",
+        "#/texts/269",
+        "#/texts/270",
+        "#/texts/271",
+        "#/texts/272",
+        "#/texts/275"
+      ],
+      "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+      "headings": [
+        "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+        "BONUS: Three more advanced tactics",
+        "Tactic 8: LLM-as-a-judge"
+      ],
+      "images": [
+        {
+          "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+          "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000013",
+          "path": null,
+          "self_ref": "#/pictures/13",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/2bb867f5-9a4b-4a44-966d-aa8a5f714aab_2364x2848.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000010",
+        "chunk_sha256": "17bb6e58859dfd4a3d3bfee1ec4fc9785e9d5646ee2691b34776ea8f034b2c7b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.docling.json",
+        "docling_sha256": "edc6a390c44571a54a892a7f9c3b2e38f453aa99c9319e042bf966c4bfaf154f",
+        "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_sha256": "24172e372a05255c96f484c620105e0ee1774dce75cfa2e29bc77cde6f1e493a",
+        "fact_document_path": "chunks/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.chunks.json",
+        "headings": [
+          "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+          "BONUS: Three more advanced tactics",
+          "Tactic 8: LLM-as-a-judge"
+        ],
+        "images": [
+          {
+            "caption": "Image from Five proven prompt engineering techniques (and a few more-advanced tactics)",
+            "image_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#image=000013",
+            "path": null,
+            "self_ref": "#/pictures/13",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/2bb867f5-9a4b-4a44-966d-aa8a5f714aab_2364x2848.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "raw_sha256": "8b789963b4e9ed10187b0ed1d35a7d2c0ade5cc9663cf763ebb131674680e317",
+        "segment": {
+          "first_self_ref": "#/texts/257",
+          "item_count": 16,
+          "last_self_ref": "#/texts/275"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/257",
+          "#/texts/319",
+          "#/texts/258",
+          "#/texts/259",
+          "#/texts/260",
+          "#/texts/261",
+          "#/texts/262",
+          "#/texts/263",
+          "#/texts/264",
+          "#/texts/265",
+          "#/texts/266",
+          "#/texts/269",
+          "#/texts/270",
+          "#/texts/271",
+          "#/texts/272",
+          "#/texts/275"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "Human feedback is expensive and slow, so it’s common practice among AI practitioners to use an AI model to evaluate and rate the quality of outputs, either from itself or from other sources. This method leverages the AI’s analytical capabilities to provide a more objective assessment of content quality. It can be particularly useful for tasks like content moderation, quality control, or comparing multiple AI-generated outputs to select the best one. However, it’s important to remember that the AI’s judgments are based on its training and may not always align perfectly with human assessments.\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\nImage from Five proven prompt engineering techniques (and a few more-advanced tactics)\n- **Prompt templates:**\n- “Generate [task].”\n- “Please rate the output on a scale of 1 to 5 based on [criteria]: [output of task]. For each rating, provide a brief explanation of the score.”\n- **Example:**\n- \n**Situation:**\nYou’ve written several versions of a product description for your landing page.\n- **Problem:** You’re not sure which version will be most effective in conveying the product’s value to potential customers.\n- **Prompts:**\n- “Generate five diverse product descriptions for a pair of shoes that fits any foot size.”\n- “Please rate each of the product descriptions on a scale of 1 to 5 based on clarity, persuasiveness, and how well it conveys the product’s unique value proposition. For each rating, provide a brief explanation of the score.”\n- **Try it with ChatGPT:** https://chatgpt.com/share/670708d3-1c54-800d-b638-8e9a1c3e89ae\n- **Source** : https://arxiv.org/abs/2306.05685",
+      "token_count": 483
+    },
+    {
+      "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000011",
+      "contextualized_text": "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career\nConclusion\nMastering these prompt engineering techniques will significantly enhance your ability to leverage AI. By writing good instructions, providing more context, and designing better systems, you can overcome many of the common challenges people face when using (and struggling with) AI tools.\nThese methods allow you to tap into the full potential of AI, whether you’re drafting user stories, conducting competitive analysis, or making complex product decisions. Remember, the key is to experiment with these techniques and adapt them to your specific needs and contexts. As AI continues to evolve, staying updated with these and other strategies will help you maintain a competitive edge.\nWhile AI won’t replace you directly, those who use AI effectively will have an advantage when going for that next promotion or applying for that next job. So bookmark this guide, practice these techniques, and don’t hesitate to iterate on your approaches as you discover what works best for you and your team.\n*Thanks, Mike!*\n*For more from Mike, check out his book,*\n[Prompt Engineering for Generative AI](https://www.amazon.com/Prompt-Engineering-Generative-AI-Future-Proof/dp/109815343X)\n*, and his AI engineering studio,*\n[*Brightpool*](https://brightpool.dev/)\n*, and follow him on*\n[*LinkedIn*](https://www.linkedin.com/in/mjt145/)\n*and*\n[*X*](https://x.com/hammer_mt)\n*.*\n*Have a fulfilling and productive week 🙏*",
+      "doc_item_refs": [
+        "#/texts/280",
+        "#/texts/281",
+        "#/texts/282",
+        "#/texts/283",
+        "#/texts/284",
+        "#/texts/285",
+        "#/texts/286",
+        "#/texts/287",
+        "#/texts/288",
+        "#/texts/289",
+        "#/texts/290",
+        "#/texts/291",
+        "#/texts/292",
+        "#/texts/293"
+      ],
+      "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+      "headings": [
+        "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+        "Conclusion"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000011",
+        "chunk_sha256": "841ddf20eab9ff30b342f0b6a3078b017a31b7423a9f2254296860710aec2198",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.docling.json",
+        "docling_sha256": "edc6a390c44571a54a892a7f9c3b2e38f453aa99c9319e042bf966c4bfaf154f",
+        "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_sha256": "24172e372a05255c96f484c620105e0ee1774dce75cfa2e29bc77cde6f1e493a",
+        "fact_document_path": "chunks/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.chunks.json",
+        "headings": [
+          "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+          "Conclusion"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "raw_sha256": "8b789963b4e9ed10187b0ed1d35a7d2c0ade5cc9663cf763ebb131674680e317",
+        "segment": {
+          "first_self_ref": "#/texts/280",
+          "item_count": 14,
+          "last_self_ref": "#/texts/293"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/280",
+          "#/texts/281",
+          "#/texts/282",
+          "#/texts/283",
+          "#/texts/284",
+          "#/texts/285",
+          "#/texts/286",
+          "#/texts/287",
+          "#/texts/288",
+          "#/texts/289",
+          "#/texts/290",
+          "#/texts/291",
+          "#/texts/292",
+          "#/texts/293"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "Mastering these prompt engineering techniques will significantly enhance your ability to leverage AI. By writing good instructions, providing more context, and designing better systems, you can overcome many of the common challenges people face when using (and struggling with) AI tools.\nThese methods allow you to tap into the full potential of AI, whether you’re drafting user stories, conducting competitive analysis, or making complex product decisions. Remember, the key is to experiment with these techniques and adapt them to your specific needs and contexts. As AI continues to evolve, staying updated with these and other strategies will help you maintain a competitive edge.\nWhile AI won’t replace you directly, those who use AI effectively will have an advantage when going for that next promotion or applying for that next job. So bookmark this guide, practice these techniques, and don’t hesitate to iterate on your approaches as you discover what works best for you and your team.\n*Thanks, Mike!*\n*For more from Mike, check out his book,*\n[Prompt Engineering for Generative AI](https://www.amazon.com/Prompt-Engineering-Generative-AI-Future-Proof/dp/109815343X)\n*, and his AI engineering studio,*\n[*Brightpool*](https://brightpool.dev/)\n*, and follow him on*\n[*LinkedIn*](https://www.linkedin.com/in/mjt145/)\n*and*\n[*X*](https://x.com/hammer_mt)\n*.*\n*Have a fulfilling and productive week 🙏*",
+      "token_count": 387
+    },
+    {
+      "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000012",
+      "contextualized_text": "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career\nHiring? 👀\nI’ve got a white-glove recruiting service specializing in senior product roles (e.g. Directors, VPs, and Heads of Product), where I work with a few select companies to fill their open roles. If you’re hiring, apply to work with us below.\n[Start hiring](https://www.lennysjobs.com/)\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/295",
+        "#/texts/296",
+        "#/texts/297",
+        "#/texts/298",
+        "#/texts/299",
+        "#/texts/300",
+        "#/texts/301",
+        "#/texts/302",
+        "#/texts/303",
+        "#/texts/304",
+        "#/texts/305"
+      ],
+      "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+      "headings": [
+        "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+        "Hiring? 👀"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md#chunk=000012",
+        "chunk_sha256": "9aee54fc81e5478f3bf0c92185756f1b0930d7705143644655971021f55ce8b2",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.docling.json",
+        "docling_sha256": "edc6a390c44571a54a892a7f9c3b2e38f453aa99c9319e042bf966c4bfaf154f",
+        "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "enhanced_sha256": "24172e372a05255c96f484c620105e0ee1774dce75cfa2e29bc77cde6f1e493a",
+        "fact_document_path": "chunks/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.chunks.json",
+        "headings": [
+          "Five proven prompt engineering techniques (and a few more-advanced tactics) — How to get exactly what you want when working with AI | 2024-10-29 | Tags: ai, engineering, design, leadership, product-management, career",
+          "Hiring? 👀"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+        "raw_sha256": "8b789963b4e9ed10187b0ed1d35a7d2c0ade5cc9663cf763ebb131674680e317",
+        "segment": {
+          "first_self_ref": "#/texts/295",
+          "item_count": 11,
+          "last_self_ref": "#/texts/305"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/295",
+          "#/texts/296",
+          "#/texts/297",
+          "#/texts/298",
+          "#/texts/299",
+          "#/texts/300",
+          "#/texts/301",
+          "#/texts/302",
+          "#/texts/303",
+          "#/texts/304",
+          "#/texts/305"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "I’ve got a white-glove recruiting service specializing in senior product roles (e.g. Directors, VPs, and Heads of Product), where I work with a few select companies to fill their open roles. If you’re hiring, apply to work with us below.\n[Start hiring](https://www.lennysjobs.com/)\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "token_count": 275
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.docling.json",
+  "docling_sha256": "edc6a390c44571a54a892a7f9c3b2e38f453aa99c9319e042bf966c4bfaf154f",
+  "document_id": "02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+  "enhanced_sha256": "24172e372a05255c96f484c620105e0ee1774dce75cfa2e29bc77cde6f1e493a",
+  "fact_document_path": "chunks/v2/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.chunks.json",
+  "metadata": {
+    "date": "2024-10-29",
+    "subtitle": "How to get exactly what you want when working with AI",
+    "tags": [
+      "ai",
+      "engineering",
+      "design",
+      "leadership",
+      "product-management",
+      "career"
+    ],
+    "title": "Five proven prompt engineering techniques (and a few more-advanced tactics)",
+    "type": "newsletter",
+    "word_count": 3428
+  },
+  "raw_path": "corpus/raw/02-newsletters/five-proven-prompt-engineering-techniques-and-a-few-more-advanced-tactics.md",
+  "raw_sha256": "8b789963b4e9ed10187b0ed1d35a7d2c0ade5cc9663cf763ebb131674680e317",
+  "schema_version": "1",
+  "title": "Five proven prompt engineering techniques (and a few more-advanced tactics)"
+}

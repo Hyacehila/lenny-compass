@@ -1,0 +1,285 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md#chunk=000000",
+      "contextualized_text": "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔 — Thank you for all of the feedback and kind words so far | 2019-09-24 | Tags: leadership, growth, design, strategy, newsletter, product-management\nWelcome to the third edition of the Q&A series! Thank you for all of the feedback and kind words so far. It means a lot. 💛\nKeep the questions coming! Anything you’re struggling with at work around business growth, personal growth, building product, people issues, management, org design, or communication is game. If I don’t have anything insightful to say on a topic, I’ll find someone amazing to help answer your question.\n**New addition this week:**\nA bit of inspiration for your week ahead at the end of each newsletter.\nIf you’re finding value in this newsletter, please share it with a friend and click the little gray heart above. The bigger this community gets, the more we all learn.\nOn to this week’s questions…",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6"
+      ],
+      "document_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+      "headings": [
+        "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔 — Thank you for all of the feedback and kind words so far | 2019-09-24 | Tags: leadership, growth, design, strategy, newsletter, product-management"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md#chunk=000000",
+        "chunk_sha256": "40dc53fc42f4a0c51f495456dd69139daaeb672a5313489400251cb6cc01827d",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.docling.json",
+        "docling_sha256": "976a79d16ad1efd9232f2aa4e26f40ed7ad8657847a1a4ae475a5069aac45806",
+        "document_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+        "enhanced_sha256": "b4b0ed1dc5c66953b63812f55ef1299fb249a5921ce8cf1e2e76333a6598cd0e",
+        "fact_document_path": "chunks/v2/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.chunks.json",
+        "headings": [
+          "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔 — Thank you for all of the feedback and kind words so far | 2019-09-24 | Tags: leadership, growth, design, strategy, newsletter, product-management"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+        "raw_sha256": "bdf85668da1fc36c9059e9d01d807d733f85d600066d772b1bf8d94affea6d04",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 6,
+          "last_self_ref": "#/texts/6"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "Welcome to the third edition of the Q&A series! Thank you for all of the feedback and kind words so far. It means a lot. 💛\nKeep the questions coming! Anything you’re struggling with at work around business growth, personal growth, building product, people issues, management, org design, or communication is game. If I don’t have anything insightful to say on a topic, I’ll find someone amazing to help answer your question.\n**New addition this week:**\nA bit of inspiration for your week ahead at the end of each newsletter.\nIf you’re finding value in this newsletter, please share it with a friend and click the little gray heart above. The bigger this community gets, the more we all learn.\nOn to this week’s questions…",
+      "token_count": 226
+    },
+    {
+      "chunk_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md#chunk=000001",
+      "contextualized_text": "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔 — Thank you for all of the feedback and kind words so far | 2019-09-24 | Tags: leadership, growth, design, strategy, newsletter, product-management\nQ: When creating a new product, what are some strategies and tactics for minimizing the cold start problem — making the product useful with zero users and data?\nI’ll assume your product involves a marketplace, since that’s where “cold start” (a.k.a. chicken-and-egg) problems are most common.\nBased on many conversations with folks at about a dozen marketplace companies, these five tactics seem to be the most common solutions to the chicken-and-egg problem:\n1. **Single-player mode** : Make your product immediately useful to one side of the marketplace, which seeds that side and then draws in the other side. Examples: OpenTable handling reservations for restaurants before getting into guest discovery — bootstrapping supply, GrubHub scanning restaurant menus and putting them online — bootstrapping demand.\n2. **Pay one (or both) sides:** Instead of relying on the marketplace to support both sides immediately, pay the supply or demand to stay in your marketplace. Examples: Lyft and Uber paying early drivers a salary, and also giving early users free credits.\n3. **Employees are early supply:** Have your employees offer the service early on. Examples: Airbnb founders hosting their apartment, Rover employees doing dog-sitting.\n4. **Focus on one market:** If your service is location-specific, you’ll need to solve the chicken-and-egg problem in every market. To make your life easier, start with getting critical mass in just one market. Examples: Rover in Seattle, Airbnb in NY.\n5. **Focus on one niche:** Similar to the above, for companies that aren’t location-specific, pick a niche and build critical-mass around it — then expand out. Examples: eBay and Beanie Babies, Eventbrite and tech events.\nIn most cases you’ll be supply constrained from the start (you need something to sell after all), thus most of the solutions focus on growing supply.",
+      "doc_item_refs": [
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/13",
+        "#/texts/16",
+        "#/texts/19",
+        "#/texts/22",
+        "#/texts/25"
+      ],
+      "document_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+      "headings": [
+        "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔 — Thank you for all of the feedback and kind words so far | 2019-09-24 | Tags: leadership, growth, design, strategy, newsletter, product-management",
+        "Q: When creating a new product, what are some strategies and tactics for minimizing the cold start problem — making the product useful with zero users and data?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md#chunk=000001",
+        "chunk_sha256": "5ffbc06c221f6cb9ff5a4624966b7eb8e1f9065de80e3916e1758f0a0e0f9f95",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.docling.json",
+        "docling_sha256": "976a79d16ad1efd9232f2aa4e26f40ed7ad8657847a1a4ae475a5069aac45806",
+        "document_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+        "enhanced_sha256": "b4b0ed1dc5c66953b63812f55ef1299fb249a5921ce8cf1e2e76333a6598cd0e",
+        "fact_document_path": "chunks/v2/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.chunks.json",
+        "headings": [
+          "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔 — Thank you for all of the feedback and kind words so far | 2019-09-24 | Tags: leadership, growth, design, strategy, newsletter, product-management",
+          "Q: When creating a new product, what are some strategies and tactics for minimizing the cold start problem — making the product useful with zero users and data?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+        "raw_sha256": "bdf85668da1fc36c9059e9d01d807d733f85d600066d772b1bf8d94affea6d04",
+        "segment": {
+          "first_self_ref": "#/texts/8",
+          "item_count": 8,
+          "last_self_ref": "#/texts/25"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/texts/13",
+          "#/texts/16",
+          "#/texts/19",
+          "#/texts/22",
+          "#/texts/25"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "I’ll assume your product involves a marketplace, since that’s where “cold start” (a.k.a. chicken-and-egg) problems are most common.\nBased on many conversations with folks at about a dozen marketplace companies, these five tactics seem to be the most common solutions to the chicken-and-egg problem:\n1. **Single-player mode** : Make your product immediately useful to one side of the marketplace, which seeds that side and then draws in the other side. Examples: OpenTable handling reservations for restaurants before getting into guest discovery — bootstrapping supply, GrubHub scanning restaurant menus and putting them online — bootstrapping demand.\n2. **Pay one (or both) sides:** Instead of relying on the marketplace to support both sides immediately, pay the supply or demand to stay in your marketplace. Examples: Lyft and Uber paying early drivers a salary, and also giving early users free credits.\n3. **Employees are early supply:** Have your employees offer the service early on. Examples: Airbnb founders hosting their apartment, Rover employees doing dog-sitting.\n4. **Focus on one market:** If your service is location-specific, you’ll need to solve the chicken-and-egg problem in every market. To make your life easier, start with getting critical mass in just one market. Examples: Rover in Seattle, Airbnb in NY.\n5. **Focus on one niche:** Similar to the above, for companies that aren’t location-specific, pick a niche and build critical-mass around it — then expand out. Examples: eBay and Beanie Babies, Eventbrite and tech events.\nIn most cases you’ll be supply constrained from the start (you need something to sell after all), thus most of the solutions focus on growing supply.",
+      "token_count": 486
+    },
+    {
+      "chunk_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md#chunk=000002",
+      "contextualized_text": "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔 — Thank you for all of the feedback and kind words so far | 2019-09-24 | Tags: leadership, growth, design, strategy, newsletter, product-management\nQ: I recently started a new product manager role and some of my work overlaps with a technical program manager that's been with the company much longer. There's been some tension because of that overlap — I'm wondering how to manage that relationship and make it effective so we work together productively.\nTricky spot. Not only do you have to deal with the traditional fuzziness of a product manager’s role, you’re also dealing with the power of tenure and history within an org. Labels like product manager, program manager, and project manager can mean substantially different things at different companies, and there’s no hard rule that says you get to do X if your title is Y. However, in the abstract, a program manager has a meaningfully different skillset from a product manager, and thus there should be a distinction between these roles and the people you hire to fill them. At the risk of not getting these totally right and upsetting people, here’s how I think about these three roles:\n- **Project Manager: Responsible for** ***project*** **success** . This includes making sure everyone is aligned around the same deadlines, that the right people are talking when they need to be, and that the project launches on time. Success generally means these projects launch on time and under budget. *Projects* , unlike products and programs, are one-off and come to an end.\n- **Product Manager: Responsible for** ***product*** **success** . Examples of products include the [Substack](https://www.substack.com/) website, the [Google Maps](https://www.google.com/maps) mobile app, and the [Slack](https://slack.com/) onboarding flow. Success means these products drive business impact. This role often encompasses the *project* management responsibilities and includes a direct relationship with the people building product — engineers, designers, researchers.\n- **Program Manager: Responsible for** ***program*** **success** . Examples of programs include running the Bird scooter charging program, the Airbnb Superhost program, and the Lyft ambassador program. What’s the difference between a *product* and a *program* ? In my view, it’s whether the core of the work is building a product (i.e. working with engineers, designers, researchers), or using existing products (i.e. working with ops, sales, marketing), respectively. What’s the difference between a *program* and a *project* ? This is even fuzzier, but generally, a *program* is made up of multiple *projects* and requires longer-term thinking.\nWith that out of the way, here’s my advice for how to find clarity in your specific situation:\n1. **First, try to work it out the person directly** — If at all possible, talk to the person about this one-on-one first. I bet you they are feeling the same frustration. Point out that you want what’s best for the team (and company), you’re feeling hampered and frustrated with a lack of clarity around your roles, and that you’d like to resolve this to make both of your lives better. If you can get to a place you are both happy, then codify it and share this with your manager(s) — it’s important that they’re also aligned with your worldviews.\n2. **If that doesn’t work, go to your manager(s) —** If you don’t think the first option will work, or you’ve tried and it failed, then talk to your manager (and possibly their manager). Share concrete examples of where you see overlap, the negative impact this has been having, and your perspective on how to address it. Lean on them to clarify roles with you and the other person (and their manager). Don’t be afraid to bring this to their attention early — in my experience, these things rarely get worked out without a manager being involved.\n3. **Differentiate between historical roles vs. ideal roles** — Encourage everyone to take a step back from what the world is today and to think about what the ideal roles and responsibilities for each role *should* be. As you scale your org, what should program managers be responsible for, and what should product managers be responsible for? What kind of skillsets should you hire for in each? What is the career progression for each role? Work backward from that ideal.\n4. **Avoid waiting for the perfect answer** — As a corollary to the above, don’t wait for all of the details to be worked out before you make changes. This can often take months (or years.) Instead, figure out the biggest issues, align on a few improvements, and act on them.\n5. **Consider changing titles or teams** — Maybe this program manager should be a product manager? Maybe you two should be on different teams? Think about the best long-term change, not just short-term solves.\nThe worst thing you can do is nothing — these kinds of things rarely get fixed organically. So I’m glad you are recognizing that this issue, and working to resolve it. Keep at it!",
+      "doc_item_refs": [
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/35",
+        "#/texts/48",
+        "#/texts/65",
+        "#/texts/66",
+        "#/texts/69",
+        "#/texts/72",
+        "#/texts/77",
+        "#/texts/80",
+        "#/texts/83"
+      ],
+      "document_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+      "headings": [
+        "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔 — Thank you for all of the feedback and kind words so far | 2019-09-24 | Tags: leadership, growth, design, strategy, newsletter, product-management",
+        "Q: I recently started a new product manager role and some of my work overlaps with a technical program manager that's been with the company much longer. There's been some tension because of that overlap — I'm wondering how to manage that relationship and make it effective so we work together productively."
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md#chunk=000002",
+        "chunk_sha256": "f6d163c123988a367fb13e5fee3c5ab3976d3e32a98c9610deb35748299e71cb",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.docling.json",
+        "docling_sha256": "976a79d16ad1efd9232f2aa4e26f40ed7ad8657847a1a4ae475a5069aac45806",
+        "document_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+        "enhanced_sha256": "b4b0ed1dc5c66953b63812f55ef1299fb249a5921ce8cf1e2e76333a6598cd0e",
+        "fact_document_path": "chunks/v2/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.chunks.json",
+        "headings": [
+          "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔 — Thank you for all of the feedback and kind words so far | 2019-09-24 | Tags: leadership, growth, design, strategy, newsletter, product-management",
+          "Q: I recently started a new product manager role and some of my work overlaps with a technical program manager that's been with the company much longer. There's been some tension because of that overlap — I'm wondering how to manage that relationship and make it effective so we work together productively."
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+        "raw_sha256": "bdf85668da1fc36c9059e9d01d807d733f85d600066d772b1bf8d94affea6d04",
+        "segment": {
+          "first_self_ref": "#/texts/27",
+          "item_count": 11,
+          "last_self_ref": "#/texts/83"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/35",
+          "#/texts/48",
+          "#/texts/65",
+          "#/texts/66",
+          "#/texts/69",
+          "#/texts/72",
+          "#/texts/77",
+          "#/texts/80",
+          "#/texts/83"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "Tricky spot. Not only do you have to deal with the traditional fuzziness of a product manager’s role, you’re also dealing with the power of tenure and history within an org. Labels like product manager, program manager, and project manager can mean substantially different things at different companies, and there’s no hard rule that says you get to do X if your title is Y. However, in the abstract, a program manager has a meaningfully different skillset from a product manager, and thus there should be a distinction between these roles and the people you hire to fill them. At the risk of not getting these totally right and upsetting people, here’s how I think about these three roles:\n- **Project Manager: Responsible for** ***project*** **success** . This includes making sure everyone is aligned around the same deadlines, that the right people are talking when they need to be, and that the project launches on time. Success generally means these projects launch on time and under budget. *Projects* , unlike products and programs, are one-off and come to an end.\n- **Product Manager: Responsible for** ***product*** **success** . Examples of products include the [Substack](https://www.substack.com/) website, the [Google Maps](https://www.google.com/maps) mobile app, and the [Slack](https://slack.com/) onboarding flow. Success means these products drive business impact. This role often encompasses the *project* management responsibilities and includes a direct relationship with the people building product — engineers, designers, researchers.\n- **Program Manager: Responsible for** ***program*** **success** . Examples of programs include running the Bird scooter charging program, the Airbnb Superhost program, and the Lyft ambassador program. What’s the difference between a *product* and a *program* ? In my view, it’s whether the core of the work is building a product (i.e. working with engineers, designers, researchers), or using existing products (i.e. working with ops, sales, marketing), respectively. What’s the difference between a *program* and a *project* ? This is even fuzzier, but generally, a *program* is made up of multiple *projects* and requires longer-term thinking.\nWith that out of the way, here’s my advice for how to find clarity in your specific situation:\n1. **First, try to work it out the person directly** — If at all possible, talk to the person about this one-on-one first. I bet you they are feeling the same frustration. Point out that you want what’s best for the team (and company), you’re feeling hampered and frustrated with a lack of clarity around your roles, and that you’d like to resolve this to make both of your lives better. If you can get to a place you are both happy, then codify it and share this with your manager(s) — it’s important that they’re also aligned with your worldviews.\n2. **If that doesn’t work, go to your manager(s) —** If you don’t think the first option will work, or you’ve tried and it failed, then talk to your manager (and possibly their manager). Share concrete examples of where you see overlap, the negative impact this has been having, and your perspective on how to address it. Lean on them to clarify roles with you and the other person (and their manager). Don’t be afraid to bring this to their attention early — in my experience, these things rarely get worked out without a manager being involved.\n3. **Differentiate between historical roles vs. ideal roles** — Encourage everyone to take a step back from what the world is today and to think about what the ideal roles and responsibilities for each role *should* be. As you scale your org, what should program managers be responsible for, and what should product managers be responsible for? What kind of skillsets should you hire for in each? What is the career progression for each role? Work backward from that ideal.\n4. **Avoid waiting for the perfect answer** — As a corollary to the above, don’t wait for all of the details to be worked out before you make changes. This can often take months (or years.) Instead, figure out the biggest issues, align on a few improvements, and act on them.\n5. **Consider changing titles or teams** — Maybe this program manager should be a product manager? Maybe you two should be on different teams? Think about the best long-term change, not just short-term solves.\nThe worst thing you can do is nothing — these kinds of things rarely get fixed organically. So I’m glad you are recognizing that this issue, and working to resolve it. Keep at it!",
+      "token_count": 1187
+    },
+    {
+      "chunk_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md#chunk=000003",
+      "contextualized_text": "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔 — Thank you for all of the feedback and kind words so far | 2019-09-24 | Tags: leadership, growth, design, strategy, newsletter, product-management\nQ: How do you build a growth team from scratch?\nRead these three essays and you’ll be on your way:\n1. [Building a Growth Team from Zero to Fifty](https://brianbalfour.com/essays/building-a-growth-team-from-zero-to-fifty)\n2. [How to build a growth team – lessons from Uber, Hubspot, and others](https://andrewchen.co/how-to-build-a-growth-team/)\n3. [How Do You Choose the Best Growth Team Model?](https://medium.com/swlh/how-do-you-choose-the-best-growth-team-model-632ad5a85be9#.7bkat2fn5)\nA few additional thoughts:\n1. Everyone in a company should feel responsible for helping it grow — from the CX team to the IT team to the product team. Though it’s extremely valuable to have a dedicated growth team (you should have one), don’t ever think you can delegate growth to just that one group.\n2. Early on, focus on the things that can give you 2x - 10x growth. Unless your product is designed to grow through viral loops, a % increase in conversion in the early days isn’t going to have the best ROI.\n3. In most cases, once you’re retention is healthy, your biggest growth wins will come from the top of the funnel. You should put a significant portion of your budget and resources there. This includes things like referrals, performance marketing, SEO, and landing page optimization.\nSincerely,\nLenny 👋\n**A bit of inspiration for the week ahead:**\n1. [The Entire Plane of the Milky Way Captured in a Single Photo](https://kottke.org/19/08/the-entire-plane-of-the-milky-way-captured-in-a-single-photo)\n2. [How the economy works by Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0&app=desktop) - Learned more about the economy in 30 minutes than I have in 30 years\n3. [Tycho's sunrise set at Burning Man](https://soundcloud.com/tycho/inversion-burning-man-sunrise-set-2019) - Live from the Dusty Rhino in Black Rock City\n[Sign up now](https://www.lennysnewsletter.com/subscribe?)",
+      "doc_item_refs": [
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/87",
+        "#/texts/88",
+        "#/texts/89",
+        "#/texts/90",
+        "#/texts/91",
+        "#/texts/92",
+        "#/texts/93",
+        "#/texts/94",
+        "#/texts/95",
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/100",
+        "#/texts/103"
+      ],
+      "document_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+      "headings": [
+        "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔 — Thank you for all of the feedback and kind words so far | 2019-09-24 | Tags: leadership, growth, design, strategy, newsletter, product-management",
+        "Q: How do you build a growth team from scratch?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md#chunk=000003",
+        "chunk_sha256": "cf09972831671e9aada0d9dd63e6ca4e28b9608dd910966c01bc058079a4df6d",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.docling.json",
+        "docling_sha256": "976a79d16ad1efd9232f2aa4e26f40ed7ad8657847a1a4ae475a5069aac45806",
+        "document_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+        "enhanced_sha256": "b4b0ed1dc5c66953b63812f55ef1299fb249a5921ce8cf1e2e76333a6598cd0e",
+        "fact_document_path": "chunks/v2/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.chunks.json",
+        "headings": [
+          "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔 — Thank you for all of the feedback and kind words so far | 2019-09-24 | Tags: leadership, growth, design, strategy, newsletter, product-management",
+          "Q: How do you build a growth team from scratch?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+        "raw_sha256": "bdf85668da1fc36c9059e9d01d807d733f85d600066d772b1bf8d94affea6d04",
+        "segment": {
+          "first_self_ref": "#/texts/85",
+          "item_count": 15,
+          "last_self_ref": "#/texts/103"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/87",
+          "#/texts/88",
+          "#/texts/89",
+          "#/texts/90",
+          "#/texts/91",
+          "#/texts/92",
+          "#/texts/93",
+          "#/texts/94",
+          "#/texts/95",
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/100",
+          "#/texts/103"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "Read these three essays and you’ll be on your way:\n1. [Building a Growth Team from Zero to Fifty](https://brianbalfour.com/essays/building-a-growth-team-from-zero-to-fifty)\n2. [How to build a growth team – lessons from Uber, Hubspot, and others](https://andrewchen.co/how-to-build-a-growth-team/)\n3. [How Do You Choose the Best Growth Team Model?](https://medium.com/swlh/how-do-you-choose-the-best-growth-team-model-632ad5a85be9#.7bkat2fn5)\nA few additional thoughts:\n1. Everyone in a company should feel responsible for helping it grow — from the CX team to the IT team to the product team. Though it’s extremely valuable to have a dedicated growth team (you should have one), don’t ever think you can delegate growth to just that one group.\n2. Early on, focus on the things that can give you 2x - 10x growth. Unless your product is designed to grow through viral loops, a % increase in conversion in the early days isn’t going to have the best ROI.\n3. In most cases, once you’re retention is healthy, your biggest growth wins will come from the top of the funnel. You should put a significant portion of your budget and resources there. This includes things like referrals, performance marketing, SEO, and landing page optimization.\nSincerely,\nLenny 👋\n**A bit of inspiration for the week ahead:**\n1. [The Entire Plane of the Milky Way Captured in a Single Photo](https://kottke.org/19/08/the-entire-plane-of-the-milky-way-captured-in-a-single-photo)\n2. [How the economy works by Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0&app=desktop) - Learned more about the economy in 30 minutes than I have in 30 years\n3. [Tycho's sunrise set at Burning Man](https://soundcloud.com/tycho/inversion-burning-man-sunrise-set-2019) - Live from the Dusty Rhino in Black Rock City\n[Sign up now](https://www.lennysnewsletter.com/subscribe?)",
+      "token_count": 614
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.docling.json",
+  "docling_sha256": "976a79d16ad1efd9232f2aa4e26f40ed7ad8657847a1a4ae475a5069aac45806",
+  "document_id": "02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+  "enhanced_sha256": "b4b0ed1dc5c66953b63812f55ef1299fb249a5921ce8cf1e2e76333a6598cd0e",
+  "fact_document_path": "chunks/v2/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.chunks.json",
+  "metadata": {
+    "date": "2019-09-24",
+    "subtitle": "Thank you for all of the feedback and kind words so far",
+    "tags": [
+      "leadership",
+      "growth",
+      "design",
+      "strategy",
+      "newsletter",
+      "product-management"
+    ],
+    "title": "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔",
+    "type": "newsletter",
+    "word_count": 1501
+  },
+  "raw_path": "corpus/raw/02-newsletters/this-week-2-tackling-the-chicken-and-egg-problem-building-a-growth-team-from-scr.md",
+  "raw_sha256": "bdf85668da1fc36c9059e9d01d807d733f85d600066d772b1bf8d94affea6d04",
+  "schema_version": "1",
+  "title": "This Week #2: Tackling the chicken-and-egg problem, building a growth team from scratch, and addressing overlap with PM peers 🤔"
+}

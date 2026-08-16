@@ -1,0 +1,1423 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000000",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\n*👋 Hey,*\n[*Lenny*](https://twitter.com/lennysan)\n*here! Welcome to this month’s ✨*\n***free edition***\n*✨ of my newsletter. Each week I humbly tackle reader questions about product, growth, working with humans, and anything else that’s stressing you out about work.*\n*If you’re not a subscriber, here’s what you missed this month:*\n1. [*All the ways to grow your product*](https://www.lennysnewsletter.com/p/all-the-ways-to-grow-your-product)\n2. [*How to kickstart and scale a consumer business—Step 5: Finding product-market fit*](https://www.lennysnewsletter.com/p/how-to-kickstart-and-scale-a-consumer-9c8)\n3. [*Kickstarting and scaling a consumer business—Step 6: Building your growth engine*](https://www.lennysnewsletter.com/p/growth-engines)\n*Subscribe to get access to these posts, and every post.*",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000000",
+        "chunk_sha256": "04ea8ab6118c3e48896485aa96a2b4151090a7c086eab66dc75bade087c7edd2",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 10,
+          "last_self_ref": "#/texts/10"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "*👋 Hey,*\n[*Lenny*](https://twitter.com/lennysan)\n*here! Welcome to this month’s ✨*\n***free edition***\n*✨ of my newsletter. Each week I humbly tackle reader questions about product, growth, working with humans, and anything else that’s stressing you out about work.*\n*If you’re not a subscriber, here’s what you missed this month:*\n1. [*All the ways to grow your product*](https://www.lennysnewsletter.com/p/all-the-ways-to-grow-your-product)\n2. [*How to kickstart and scale a consumer business—Step 5: Finding product-market fit*](https://www.lennysnewsletter.com/p/how-to-kickstart-and-scale-a-consumer-9c8)\n3. [*Kickstarting and scaling a consumer business—Step 6: Building your growth engine*](https://www.lennysnewsletter.com/p/growth-engines)\n*Subscribe to get access to these posts, and every post.*",
+      "token_count": 331
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000001",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\nQ: You talk about retention a lot, but how do I actually measure retention? Specifically, cohort retention. I haven’t found any great guides out there.\nI was also shocked to find that there wasn’t a great post out there on how to accurately and concretely measure cohort retention. Considering how important it is to all things product and growth—and how costly it is to get it wrong—this is a big gap. So let’s fix it.\nTo help us out, I’ve tapped\n[Olga Berezovsky](https://www.linkedin.com/in/olgaberezovsky/)\n, author of the wonderful\n[Data Analysis Journal](https://dataanalysis.substack.com/)\nnewsletter, to get deep into the weeds of retention. Below, she shares the formulas, SQL queries, tools, and templates you need to measure, visualize, and report on retention. I’ve never seen this level of detail and guidance before, and I’m excited to share it here. Thank you, Olga! And enjoy!\n*You can follow Olga on*\n[*LinkedIn*](https://www.linkedin.com/in/olgaberezovsky/)\n*and*\n[*Twitter*](https://twitter.com/OlgaBerezovsky)\n*, and*\n[*subscribe to her newsletter here*](https://dataanalysis.substack.com/)\n*.*\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nMany analysts (and product managers, founders, and most people) are intimidated by retention. The graphs can be difficult to read, the definitions vary for each product and business type, and the SQL is complex. At the same time, retention is both the most important and the least understood metric at most companies. In my experience, it takes up to six months to nail accurate retention reporting.\nOn every team I was a part of over my 10+ year tenure as an analyst, I would continually work on our retention reporting. As one example, at\n[Change.org](https://www.change.org/)\n, I was part of the Petition Starters squad, and by monitoring and slicing the Day 7 and Day 30 retention of users who started petitions, we grew “petition starters per day” (our KPI) by 450%. Each new petition generated new signatures, which helped us grow to over 450 million active users. Similarly, at\n[MyFitnessPal](https://www.myfitnesspal.com/)\n(where I work now), Day 1 and Day 7 retention are closely monitored for\n*every*\nproduct initiative.\n**In this post, I’ll share the methods, tools, and strategies I’ve developed over the years to help you calculate cohort retention and understand the nuances of reporting on retention. For a primer on retention, make sure to read two of Lenny’s previous posts on the topic,**\n[**How to increase your retention**](https://www.lennysnewsletter.com/p/how-to-increase-your-retention-issue)\n**and**\n[**What is good retention**](https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29)\n**, to get an introduction and learn why it’s important to monitor and grow retention.**\nTo recap, retention measures the ability of your product to keep users active over time. Retention for consumer businesses would have a different meaning than for enterprise, B2B, or B2C companies:\nImage from How to measure cohort retention\nImage from How to measure cohort retention",
+      "doc_item_refs": [
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/286",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/287",
+        "#/texts/40"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+        "Q: You talk about retention a lot, but how do I actually measure retention? Specifically, cohort retention. I haven’t found any great guides out there."
+      ],
+      "images": [
+        {
+          "caption": "Image from How to measure cohort retention",
+          "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/601ece17-3366-47f7-ab8c-5b0accdbef5e_4096x1368.png"
+        },
+        {
+          "caption": "Image from How to measure cohort retention",
+          "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/788ee8c2-6fc8-44fc-968b-ce92ac45c32c_2318x1112.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000001",
+        "chunk_sha256": "2fac2cac5c39d6bf9fd67ab4c7b15af94077d0ce85ef04f387e04794a3cca324",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+          "Q: You talk about retention a lot, but how do I actually measure retention? Specifically, cohort retention. I haven’t found any great guides out there."
+        ],
+        "images": [
+          {
+            "caption": "Image from How to measure cohort retention",
+            "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/601ece17-3366-47f7-ab8c-5b0accdbef5e_4096x1368.png"
+          },
+          {
+            "caption": "Image from How to measure cohort retention",
+            "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/788ee8c2-6fc8-44fc-968b-ce92ac45c32c_2318x1112.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/12",
+          "item_count": 31,
+          "last_self_ref": "#/texts/40"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/286",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32",
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/39",
+          "#/texts/287",
+          "#/texts/40"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "I was also shocked to find that there wasn’t a great post out there on how to accurately and concretely measure cohort retention. Considering how important it is to all things product and growth—and how costly it is to get it wrong—this is a big gap. So let’s fix it.\nTo help us out, I’ve tapped\n[Olga Berezovsky](https://www.linkedin.com/in/olgaberezovsky/)\n, author of the wonderful\n[Data Analysis Journal](https://dataanalysis.substack.com/)\nnewsletter, to get deep into the weeds of retention. Below, she shares the formulas, SQL queries, tools, and templates you need to measure, visualize, and report on retention. I’ve never seen this level of detail and guidance before, and I’m excited to share it here. Thank you, Olga! And enjoy!\n*You can follow Olga on*\n[*LinkedIn*](https://www.linkedin.com/in/olgaberezovsky/)\n*and*\n[*Twitter*](https://twitter.com/OlgaBerezovsky)\n*, and*\n[*subscribe to her newsletter here*](https://dataanalysis.substack.com/)\n*.*\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nMany analysts (and product managers, founders, and most people) are intimidated by retention. The graphs can be difficult to read, the definitions vary for each product and business type, and the SQL is complex. At the same time, retention is both the most important and the least understood metric at most companies. In my experience, it takes up to six months to nail accurate retention reporting.\nOn every team I was a part of over my 10+ year tenure as an analyst, I would continually work on our retention reporting. As one example, at\n[Change.org](https://www.change.org/)\n, I was part of the Petition Starters squad, and by monitoring and slicing the Day 7 and Day 30 retention of users who started petitions, we grew “petition starters per day” (our KPI) by 450%. Each new petition generated new signatures, which helped us grow to over 450 million active users. Similarly, at\n[MyFitnessPal](https://www.myfitnesspal.com/)\n(where I work now), Day 1 and Day 7 retention are closely monitored for\n*every*\nproduct initiative.\n**In this post, I’ll share the methods, tools, and strategies I’ve developed over the years to help you calculate cohort retention and understand the nuances of reporting on retention. For a primer on retention, make sure to read two of Lenny’s previous posts on the topic,**\n[**How to increase your retention**](https://www.lennysnewsletter.com/p/how-to-increase-your-retention-issue)\n**and**\n[**What is good retention**](https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29)\n**, to get an introduction and learn why it’s important to monitor and grow retention.**\nTo recap, retention measures the ability of your product to keep users active over time. Retention for consumer businesses would have a different meaning than for enterprise, B2B, or B2C companies:\nImage from How to measure cohort retention\nImage from How to measure cohort retention",
+      "token_count": 864
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000002",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\nStep 1. Define “active”\nAs you can see above, a fundamental variable in calculating retention for most products is “active users.” But it’s not obvious what “active” means.\nBelow are the most common events used to define “active” across companies. Each of these events has its own downsides and limitations:\n1. **Visit:** Too broad; you will overcount users, most likely having a challenge with unauthenticated and not registered users. Only relevant for the web.\n2. **Session starts:** You’ll possibly overcount users by pulling in unauthenticated IDs. You will also need to limit the session length to a specific time range that should be unique to your product usage. If you don’t do this, you are likely to count background app refreshes, notifications, and any other app activity that is *not* related to user activity (read more: [This Is Why You Overcount Your Daily Active Users](https://dataanalysis.substack.com/p/this-is-why-you-overreport-your-daily) ).\n3. **Login or app opens:** Same as above, as you will need a way to exclude new users with their first app open event for cohorted retention and exclude unauthenticated users and duplicates.\n4. **Web page views or screen views:** Too broad; most likely will pull in all user types (dormant, lapsers, new users) into one bucket and over-report both DAU and retention.\n5. **Main user action** (e.g. item view, search, log an exercise, transaction, etc.): Too narrow, and easy to miss active users who don’t do the main activity you expect but keep using the app ( [adjacent users](https://andrewchen.com/the-adjacent-user-theory/) case), or they make a transaction from a different platform (app/web).\nAt different companies, I had to report DAU and retention based on all these event variations, sometimes even mixing a few of them together (session start + app open + main transaction).\nMost companies use logins or app opens as main events for the “active users” definition.But given that I always aim for the cleanest and most precise data reporting,\n**I’d recommend using the main user action as the activity event**\n, for example:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\n**Pros to this approach:**\n1. It ignores all the “noise” events, like visits, screen views, and logins, and tailors the activity event to only the main transaction or event that you expect a user most commonly does.\n2. It gives you the cleanest sample of truly active users, whose behavior you can monitor and validate.\n3. It is usually available across all platforms (unlike app open or visits) and data sources, making it easily accessible for reporting and monitoring.\nRegardless of your business type,\n**my recommendation is to use the main user action to monitor not only retention but other user activity metrics like DAU, WAU, MAU, and DAU/MAU ratio.**",
+      "doc_item_refs": [
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/44",
+        "#/texts/47",
+        "#/texts/54",
+        "#/texts/57",
+        "#/texts/60",
+        "#/texts/65",
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/288",
+        "#/texts/69",
+        "#/texts/70",
+        "#/texts/71",
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/74",
+        "#/texts/75"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+        "Step 1. Define “active”"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to measure cohort retention",
+          "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/4430235c-6770-46b1-b329-e83f6008f80f_2318x2316.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000002",
+        "chunk_sha256": "c8c409ef8a6d710e74e97a8e79225e23df4d64387b4bb0a3d316b91a0d595e5d",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+          "Step 1. Define “active”"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to measure cohort retention",
+            "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/4430235c-6770-46b1-b329-e83f6008f80f_2318x2316.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/42",
+          "item_count": 19,
+          "last_self_ref": "#/texts/75"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/42",
+          "#/texts/43",
+          "#/texts/44",
+          "#/texts/47",
+          "#/texts/54",
+          "#/texts/57",
+          "#/texts/60",
+          "#/texts/65",
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/288",
+          "#/texts/69",
+          "#/texts/70",
+          "#/texts/71",
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/74",
+          "#/texts/75"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "As you can see above, a fundamental variable in calculating retention for most products is “active users.” But it’s not obvious what “active” means.\nBelow are the most common events used to define “active” across companies. Each of these events has its own downsides and limitations:\n1. **Visit:** Too broad; you will overcount users, most likely having a challenge with unauthenticated and not registered users. Only relevant for the web.\n2. **Session starts:** You’ll possibly overcount users by pulling in unauthenticated IDs. You will also need to limit the session length to a specific time range that should be unique to your product usage. If you don’t do this, you are likely to count background app refreshes, notifications, and any other app activity that is *not* related to user activity (read more: [This Is Why You Overcount Your Daily Active Users](https://dataanalysis.substack.com/p/this-is-why-you-overreport-your-daily) ).\n3. **Login or app opens:** Same as above, as you will need a way to exclude new users with their first app open event for cohorted retention and exclude unauthenticated users and duplicates.\n4. **Web page views or screen views:** Too broad; most likely will pull in all user types (dormant, lapsers, new users) into one bucket and over-report both DAU and retention.\n5. **Main user action** (e.g. item view, search, log an exercise, transaction, etc.): Too narrow, and easy to miss active users who don’t do the main activity you expect but keep using the app ( [adjacent users](https://andrewchen.com/the-adjacent-user-theory/) case), or they make a transaction from a different platform (app/web).\nAt different companies, I had to report DAU and retention based on all these event variations, sometimes even mixing a few of them together (session start + app open + main transaction).\nMost companies use logins or app opens as main events for the “active users” definition.But given that I always aim for the cleanest and most precise data reporting,\n**I’d recommend using the main user action as the activity event**\n, for example:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\n**Pros to this approach:**\n1. It ignores all the “noise” events, like visits, screen views, and logins, and tailors the activity event to only the main transaction or event that you expect a user most commonly does.\n2. It gives you the cleanest sample of truly active users, whose behavior you can monitor and validate.\n3. It is usually available across all platforms (unlike app open or visits) and data sources, making it easily accessible for reporting and monitoring.\nRegardless of your business type,\n**my recommendation is to use the main user action to monitor not only retention but other user activity metrics like DAU, WAU, MAU, and DAU/MAU ratio.**",
+      "token_count": 760
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000003",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\nStep 2. Differentiate users from customers\nOnce your team agrees on what “active” means for your product, the next step is to segment your active users into free vs. paid. Your retention will have a different logic for each of these groups.",
+      "doc_item_refs": [
+        "#/texts/77"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+        "Step 2. Differentiate users from customers"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000003",
+        "chunk_sha256": "b1a479ec7633aab47a57db8710a616859a70f231c70ff25b156fccbb156758e3",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+          "Step 2. Differentiate users from customers"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/77",
+          "item_count": 1,
+          "last_self_ref": "#/texts/77"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/77"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "Once your team agrees on what “active” means for your product, the next step is to segment your active users into free vs. paid. Your retention will have a different logic for each of these groups.",
+      "token_count": 114
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000004",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\nStep 2. Differentiate users from customers\n\n“A customer is defined as the person/group who is paying you. A user is a person using the product. In subscription products, oftentimes there are multiple users associated with a single customer. Or people are users before they are customers. You need to separate the definition and language between these two things for teams to clearly act on them.” —\n[Brian Balfour, “Common Mistakes in Defining Metrics”](https://brianbalfour.com/quick-takes/common-mistakes-defining-metrics)\nDepending on your business model, your retention output will be built on a different metric input, for example:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nThese metrics are your baseline for calculating retention. Now that you know who your active user or active customer is (e.g. a paid user who logged an exercise or a free user who read an article), you can start building retention to learn how often they come back.\nOften a mistake I see SaaS companies make is reporting one “blended” retention, with a mix of free and paid users. This can be misleading, because users who pay for the product are likely to use it way more than free users. So the true activity of free users (and your “pool of opportunity” to convert) will be hidden.",
+      "doc_item_refs": [
+        "#/texts/79",
+        "#/texts/80",
+        "#/texts/81",
+        "#/texts/289",
+        "#/texts/82",
+        "#/texts/83",
+        "#/texts/84"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+        "Step 2. Differentiate users from customers",
+        ""
+      ],
+      "images": [
+        {
+          "caption": "Image from How to measure cohort retention",
+          "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/014c7768-3222-4913-a03e-fc177adadd23_2318x1112.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000004",
+        "chunk_sha256": "65de73daca19999cf0ff5c02daedb07544aca77370f74ba38570b7a22bcd974c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+          "Step 2. Differentiate users from customers",
+          ""
+        ],
+        "images": [
+          {
+            "caption": "Image from How to measure cohort retention",
+            "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/014c7768-3222-4913-a03e-fc177adadd23_2318x1112.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/79",
+          "item_count": 7,
+          "last_self_ref": "#/texts/84"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/79",
+          "#/texts/80",
+          "#/texts/81",
+          "#/texts/289",
+          "#/texts/82",
+          "#/texts/83",
+          "#/texts/84"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "“A customer is defined as the person/group who is paying you. A user is a person using the product. In subscription products, oftentimes there are multiple users associated with a single customer. Or people are users before they are customers. You need to separate the definition and language between these two things for teams to clearly act on them.” —\n[Brian Balfour, “Common Mistakes in Defining Metrics”](https://brianbalfour.com/quick-takes/common-mistakes-defining-metrics)\nDepending on your business model, your retention output will be built on a different metric input, for example:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nThese metrics are your baseline for calculating retention. Now that you know who your active user or active customer is (e.g. a paid user who logged an exercise or a free user who read an article), you can start building retention to learn how often they come back.\nOften a mistake I see SaaS companies make is reporting one “blended” retention, with a mix of free and paid users. This can be misleading, because users who pay for the product are likely to use it way more than free users. So the true activity of free users (and your “pool of opportunity” to convert) will be hidden.",
+      "token_count": 347
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000005",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\nStep 3. Pick your retention type\nThe next step in calculating retention is setting your timeline. As a team, you have to agree on what retention reporting type you should adopt:\n1. **X-day retention**\n2. **Unbounded (rolling) retention**\nThe method you choose will significantly affect your results.",
+      "doc_item_refs": [
+        "#/texts/86",
+        "#/texts/87",
+        "#/texts/88",
+        "#/texts/89"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+        "Step 3. Pick your retention type"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000005",
+        "chunk_sha256": "f17f17f909c10fd46553a58750fffa1159955b15d5e0537c1f7cac8a0824be37",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+          "Step 3. Pick your retention type"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/86",
+          "item_count": 4,
+          "last_self_ref": "#/texts/89"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/86",
+          "#/texts/87",
+          "#/texts/88",
+          "#/texts/89"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "The next step in calculating retention is setting your timeline. As a team, you have to agree on what retention reporting type you should adopt:\n1. **X-day retention**\n2. **Unbounded (rolling) retention**\nThe method you choose will significantly affect your results.",
+      "token_count": 133
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000006",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\nStep 3. Pick your retention type\n1. X-day retention\nX-day (also known as N-day or bounded) tells you the percentage of users who come back on a specific day. For example, for all users who join, what percentage return to your app on exactly day 14:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nThis is the most conservative retention approach and will return you a lower retention percentage.",
+      "doc_item_refs": [
+        "#/texts/91",
+        "#/texts/290",
+        "#/texts/92",
+        "#/texts/93"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+        "Step 3. Pick your retention type",
+        "1. X-day retention"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to measure cohort retention",
+          "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/1ebda1bb-0adf-463c-b2e3-4b8b543e16c9_1456x1042.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000006",
+        "chunk_sha256": "cd15e6fa61632f8b06afd02c85e80dcb023c5bb06419c5135a286a3a27ee45cf",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+          "Step 3. Pick your retention type",
+          "1. X-day retention"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to measure cohort retention",
+            "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/1ebda1bb-0adf-463c-b2e3-4b8b543e16c9_1456x1042.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/91",
+          "item_count": 4,
+          "last_self_ref": "#/texts/93"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/91",
+          "#/texts/290",
+          "#/texts/92",
+          "#/texts/93"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "X-day (also known as N-day or bounded) tells you the percentage of users who come back on a specific day. For example, for all users who join, what percentage return to your app on exactly day 14:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nThis is the most conservative retention approach and will return you a lower retention percentage.",
+      "token_count": 157
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000007",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\nStep 3. Pick your retention type\n2. Unbounded retention\nUnbounded retention tells you how many of your users got back on a specific day\n*or later*\n. For example, for all new users who joined on a specific day, what percentage of users are using the product after 14 days (and not necessarily on day 14).\nIf your goal is to match retention with your user churn, this is the way to go. The unbounded retention value for month 6 gives you the percentage of users who returned after month 6.\nSo which approach should you use? Both are correct, yet both will return completely different retention data:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nMy general favorite method is unbounded retention because (1) I like my KPIs to be connected, proportional, and correlated to each other, and (2) unbounded retention is the inverse of churn, so it gives me another way to validate and test my data, increasing the confidence in my reporting (the higher the churn, the lower the retention, and vice versa).\nBut you should pick the method that works best for your analytical objective and your users’ natural behavior:\n- **If your users use the product regularly** (e.g. logging foods every morning, recording exercise, or listening to a podcast daily), use X-day retention.\n- **If your KPIs are coded to a specific time range (e.g. 30 days trial, 28 days active, 7 days resubscriber)** , then you probably want to also count only those users who return to your product within a set period of time and use the X-day method.\n- **If you don’t expect users to come back on an average daily/weekly/monthly basis** , and the user engagement pattern is more chaotic, then use the unbounded method.\n- **X-day retention is more appropriate for short-term analysis** like measuring the onboarding funnel or marketing campaigns.\n- **Unbounded retention is more useful for measuring long-term user behavior** , especially if you want to segment your users into retention groups (6M, 9M, 1 year, 2 years).\nOverall, a rule of thumb in analytics is that if your product is SaaS, you are likely to be tied to a specific time bound (paid subscription length, trial length, etc.). Because of that, it’s recommended to follow X-day retention. If you are not in SaaS but in a B2C or consumer transactional or social business, then you can be more flexible and adopt unbounded retention.",
+      "doc_item_refs": [
+        "#/texts/95",
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/291",
+        "#/texts/100",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/103",
+        "#/texts/106",
+        "#/texts/109",
+        "#/texts/112",
+        "#/texts/115",
+        "#/texts/118"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+        "Step 3. Pick your retention type",
+        "2. Unbounded retention"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to measure cohort retention",
+          "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b0a226d8-6d58-4572-a70d-e5075a8d038e_1458x794.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000007",
+        "chunk_sha256": "d3c0b94f09207eb6aacaaa17ab620323d4ee418fcf40223618cbeb946412a5e1",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+          "Step 3. Pick your retention type",
+          "2. Unbounded retention"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to measure cohort retention",
+            "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/b0a226d8-6d58-4572-a70d-e5075a8d038e_1458x794.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/95",
+          "item_count": 15,
+          "last_self_ref": "#/texts/118"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/95",
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/291",
+          "#/texts/100",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/103",
+          "#/texts/106",
+          "#/texts/109",
+          "#/texts/112",
+          "#/texts/115",
+          "#/texts/118"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "Unbounded retention tells you how many of your users got back on a specific day\n*or later*\n. For example, for all new users who joined on a specific day, what percentage of users are using the product after 14 days (and not necessarily on day 14).\nIf your goal is to match retention with your user churn, this is the way to go. The unbounded retention value for month 6 gives you the percentage of users who returned after month 6.\nSo which approach should you use? Both are correct, yet both will return completely different retention data:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nMy general favorite method is unbounded retention because (1) I like my KPIs to be connected, proportional, and correlated to each other, and (2) unbounded retention is the inverse of churn, so it gives me another way to validate and test my data, increasing the confidence in my reporting (the higher the churn, the lower the retention, and vice versa).\nBut you should pick the method that works best for your analytical objective and your users’ natural behavior:\n- **If your users use the product regularly** (e.g. logging foods every morning, recording exercise, or listening to a podcast daily), use X-day retention.\n- **If your KPIs are coded to a specific time range (e.g. 30 days trial, 28 days active, 7 days resubscriber)** , then you probably want to also count only those users who return to your product within a set period of time and use the X-day method.\n- **If you don’t expect users to come back on an average daily/weekly/monthly basis** , and the user engagement pattern is more chaotic, then use the unbounded method.\n- **X-day retention is more appropriate for short-term analysis** like measuring the onboarding funnel or marketing campaigns.\n- **Unbounded retention is more useful for measuring long-term user behavior** , especially if you want to segment your users into retention groups (6M, 9M, 1 year, 2 years).\nOverall, a rule of thumb in analytics is that if your product is SaaS, you are likely to be tied to a specific time bound (paid subscription length, trial length, etc.). Because of that, it’s recommended to follow X-day retention. If you are not in SaaS but in a B2C or consumer transactional or social business, then you can be more flexible and adopt unbounded retention.",
+      "token_count": 621
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000008",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\nStep 4. Reporting retention from BI applications vs. SQL\n1. Getting retention via product analytics tools\nToday’s popular product analytics tools support retention reporting. Each application has its own specifics or limitations. Reporting retention from these tools is doable (and becomes common),\n*assuming you have the right events you need, which often is not the case*\n.\nTo make things easy, Amplitude, Mixpanel, Kissmetrics, Google Analytics, Adobe Analytics, and others are integrated via SDK with the client side (browser, app, device) and pass you client data, which is usually user and app activity. While some of these events can be used for retention reporting, others won’t be sufficient. Read more to learn about\n[when to use client-side or server-side events for analytics](https://dataanalysis.substack.com/p/when-to-use-client-side-or-server)\nand\n[why most analytics efforts fail](https://www.reforge.com/blog/why-most-analytics-efforts-fail)\n.\nOften, to make changes to a subscription or a purchase, users are routed from the app to the app store (Apple Store, Google Play, Stripe, PayPal, etc.) to activate a trial, complete a payment, cancel or renew a subscription, etc. That’s why\n*this payment data is likely not available in the app (client) analytics*\n. So you won’t be able to access it in Amplitude or Mixpanel right away. Therefore, for SaaS products (those that report retention based on DAPU or DAC), you might not have the ability to replicate retention in product analytics tools, because they won’t have payment data.\nThis is solvable, and your company might already address it. The common solution here is to load payment data into product analytics tools from a database via Segment or a data pipeline (assuming you already receive this data from a payment provider like Stripe/Apple/PayPal). But if you work for a small startup and are in the early process of setting up reporting and analytics, this is likely not the case. And creating cohorted or even simple retention most likely won’t be doable at this stage.\nAssuming you have needed events loaded in the product analytics tool, you can read the guidance on how to approach retention graphs in\n[Amplitude](https://help.amplitude.com/hc/en-us/articles/230543327-Retention-Analysis#create-a-new-retention-analysis-chart)\n,\n[Mixpanel](https://help.mixpanel.com/hc/en-us/articles/115004546883-Retention-Report-Basics)\n, or\n[Google Analytics](https://support.google.com/analytics/answer/6074676?hl=en#zippy=%2Cin-this-article)\n.\n❗Heads-up: Amplitude, Mixpanel, or similar analytics by default report N-day retention. Read more about N-day or unbounded retention differences in Amplitude:\n[3 Ways to Measure User Retention](https://amplitude.com/blog/3-ways-measure-user-retention)\n. If your business is consumer social, you will have to change retention settings and customize it.\n❗❗If you report retention from multiple sources—for example, from Amplitude and also from Tableau, which is sourcing data from a database—it will be very different, because of all the specifics described above: (1) rolling dates/N-day type, (2) different “activity” definition and tracking, and (3) possibly data availability and refresh gaps.",
+      "doc_item_refs": [
+        "#/texts/121",
+        "#/texts/122",
+        "#/texts/123",
+        "#/texts/124",
+        "#/texts/125",
+        "#/texts/126",
+        "#/texts/127",
+        "#/texts/128",
+        "#/texts/129",
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/134",
+        "#/texts/135",
+        "#/texts/136",
+        "#/texts/137",
+        "#/texts/138",
+        "#/texts/139",
+        "#/texts/140",
+        "#/texts/141",
+        "#/texts/142",
+        "#/texts/143"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+        "Step 4. Reporting retention from BI applications vs. SQL",
+        "1. Getting retention via product analytics tools"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000008",
+        "chunk_sha256": "3b3772f78808a751a6399ad8ad4f2238defbc424816e57ca08c6e84bda8ff473",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+          "Step 4. Reporting retention from BI applications vs. SQL",
+          "1. Getting retention via product analytics tools"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/121",
+          "item_count": 23,
+          "last_self_ref": "#/texts/143"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/121",
+          "#/texts/122",
+          "#/texts/123",
+          "#/texts/124",
+          "#/texts/125",
+          "#/texts/126",
+          "#/texts/127",
+          "#/texts/128",
+          "#/texts/129",
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/134",
+          "#/texts/135",
+          "#/texts/136",
+          "#/texts/137",
+          "#/texts/138",
+          "#/texts/139",
+          "#/texts/140",
+          "#/texts/141",
+          "#/texts/142",
+          "#/texts/143"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "Today’s popular product analytics tools support retention reporting. Each application has its own specifics or limitations. Reporting retention from these tools is doable (and becomes common),\n*assuming you have the right events you need, which often is not the case*\n.\nTo make things easy, Amplitude, Mixpanel, Kissmetrics, Google Analytics, Adobe Analytics, and others are integrated via SDK with the client side (browser, app, device) and pass you client data, which is usually user and app activity. While some of these events can be used for retention reporting, others won’t be sufficient. Read more to learn about\n[when to use client-side or server-side events for analytics](https://dataanalysis.substack.com/p/when-to-use-client-side-or-server)\nand\n[why most analytics efforts fail](https://www.reforge.com/blog/why-most-analytics-efforts-fail)\n.\nOften, to make changes to a subscription or a purchase, users are routed from the app to the app store (Apple Store, Google Play, Stripe, PayPal, etc.) to activate a trial, complete a payment, cancel or renew a subscription, etc. That’s why\n*this payment data is likely not available in the app (client) analytics*\n. So you won’t be able to access it in Amplitude or Mixpanel right away. Therefore, for SaaS products (those that report retention based on DAPU or DAC), you might not have the ability to replicate retention in product analytics tools, because they won’t have payment data.\nThis is solvable, and your company might already address it. The common solution here is to load payment data into product analytics tools from a database via Segment or a data pipeline (assuming you already receive this data from a payment provider like Stripe/Apple/PayPal). But if you work for a small startup and are in the early process of setting up reporting and analytics, this is likely not the case. And creating cohorted or even simple retention most likely won’t be doable at this stage.\nAssuming you have needed events loaded in the product analytics tool, you can read the guidance on how to approach retention graphs in\n[Amplitude](https://help.amplitude.com/hc/en-us/articles/230543327-Retention-Analysis#create-a-new-retention-analysis-chart)\n,\n[Mixpanel](https://help.mixpanel.com/hc/en-us/articles/115004546883-Retention-Report-Basics)\n, or\n[Google Analytics](https://support.google.com/analytics/answer/6074676?hl=en#zippy=%2Cin-this-article)\n.\n❗Heads-up: Amplitude, Mixpanel, or similar analytics by default report N-day retention. Read more about N-day or unbounded retention differences in Amplitude:\n[3 Ways to Measure User Retention](https://amplitude.com/blog/3-ways-measure-user-retention)\n. If your business is consumer social, you will have to change retention settings and customize it.\n❗❗If you report retention from multiple sources—for example, from Amplitude and also from Tableau, which is sourcing data from a database—it will be very different, because of all the specifics described above: (1) rolling dates/N-day type, (2) different “activity” definition and tracking, and (3) possibly data availability and refresh gaps.",
+      "token_count": 848
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000009",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\nStep 4. Reporting retention from BI applications vs. SQL\n2. Getting retention via SQL\nThis is one of the common questions for analysts during SQL interviews and often is the first project to work on. It’s a multi-step process requiring a deep understanding of the business objective, a flexible approach, and data intuition.\nLooking back at all the places I’ve worked, I don’t remember a case where you could come in and quickly run some SQL to cohort your users into the right retention groups. Usually, some work needs to be done to the underlying tables to bring the data to the appropriate format and structure to work with retention. Same with DAU, churn, LTV, anything.\nFirst, you work on creating\n*Sessions*\nor\n*Users*\nor an\n*Activity*\ntable that serves as a foundation for calculating your KPIs later. This table should have the right timestamp of user activity, event ID, user ID, properties, and measures you need. After the new table is tested, you can then work on creating downstream views for retention, DAU, or anything else.\nWhen replicating retention with SQL, it’s easy to go wild and overcomplicate your approach. Follow these steps to stay on track and get the correct retention logic:\n- Step 1: Get the users’ first (initial) action—this is usually sign-up or the first purchase\n- Step 2: Get the user activity after the sign-up or purchase—based on your activity definition\n- Step 3: Get the total time in between the initial and consecutive user action (“retained _ time”)\n- Step 4: Convert the total time to days/weeks/months as needed\n- Step 5: Group users into buckets based on the total retained time from the previous step\n- Step 6: Map and order users’ buckets based on their initial action time—sign-up or the first purchase\nDepending on your underlying data and table structure, these steps can be done via a simple SELECT statement (like SELECT\n*\nFROM ready\n_\nto\n_\nuse\n_\nretention\n_\ntable) or another quick way, such as\n```\nSELECT\n    snapshot_date\n    , start_date\n    , n_period\n    , COUNT(user_id) AS n_users\nFROM subscriptions\nGROUP BY snapshot_date, start_date, n_month\n```\nor via multiple subqueries, self-joins, window functions, or a combination of all of the above. That’s why this is such a good interview question—because, given the input values and the business type/case, your output SQL will be completely different.\nRegardless of SQL complexity, your output raw data may look similar to this for simple retention:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nAnd this is the underlying table structure for cohorted retention:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nHere is a sample SQL to replicate the cohorted table above:\n```\nWITH new_user_activity AS (\n\nSELECT\n    a.*\n  FROM activity a\n  JOIN signups s\n    ON s.user_id = a.user_id\n    AND s.signup_date = a.activity_date -- if initial user signup counts as activity. If not, either disregard or s.signup_date = a.activity_date\n)\n\n, active_user_count AS (\n  SELECT\n    activity_date\n    , COUNT(DISTINCT user_id) AS users_count\n  FROM new_user_activity\n  GROUP BY activity_date\n)\n\n-- for daily retention:\nSELECT\n    n.signup_date AS signup_date\n    , DATEDIFF('DAU', n.signup_date, a.activity_date) AS period\n    , MAX(c.users_count) AS new_users\n    , COUNT(DISTINCT a.user_id) AS retained_users\n    , COUNT(DISTINCT a.user_id) / MAX(c.users_count)::float AS retention\nFROM new_user_activity n\nLEFT JOIN activity a\n  ON n.user_id = a.user_id\n  AND n.signup_date < a.activity_date\n  AND (n.signup_date + interval '30 days') >= a.activity_date -- retention data for the next 30 days after signup\nLEFT JOIN active_user_count c\n  ON n.signup_date = c.activity_date\nGROUP BY 1, 2\n```\nFind more SQL solutions for retention types\n[here](https://gist.github.com/ks--ks/446e6d78e8a49048d4eabf55c3363309)\n.",
+      "doc_item_refs": [
+        "#/texts/145",
+        "#/texts/146",
+        "#/texts/147",
+        "#/texts/148",
+        "#/texts/149",
+        "#/texts/150",
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/153",
+        "#/texts/154",
+        "#/texts/155",
+        "#/texts/156",
+        "#/texts/157",
+        "#/texts/161",
+        "#/texts/162",
+        "#/texts/163",
+        "#/texts/164",
+        "#/texts/165",
+        "#/texts/166",
+        "#/texts/167",
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/170",
+        "#/texts/171",
+        "#/texts/172",
+        "#/texts/173",
+        "#/texts/174",
+        "#/texts/175",
+        "#/texts/176",
+        "#/texts/177",
+        "#/texts/292",
+        "#/texts/178",
+        "#/texts/179",
+        "#/texts/293",
+        "#/texts/180",
+        "#/texts/181",
+        "#/texts/182",
+        "#/texts/183",
+        "#/texts/184",
+        "#/texts/185"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+        "Step 4. Reporting retention from BI applications vs. SQL",
+        "2. Getting retention via SQL"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to measure cohort retention",
+          "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/d00fc185-cfc5-424e-a29d-8e5c9fb9ac56_852x340.png"
+        },
+        {
+          "caption": "Image from How to measure cohort retention",
+          "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a87bc5bc-dec9-461e-adda-69086fcb7fc5_1278x516.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000009",
+        "chunk_sha256": "08ccc6617fa4881b6cd4a0d2de22286de7f70f1fb0d772ddb30405545f3a30ad",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+          "Step 4. Reporting retention from BI applications vs. SQL",
+          "2. Getting retention via SQL"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to measure cohort retention",
+            "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/d00fc185-cfc5-424e-a29d-8e5c9fb9ac56_852x340.png"
+          },
+          {
+            "caption": "Image from How to measure cohort retention",
+            "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a87bc5bc-dec9-461e-adda-69086fcb7fc5_1278x516.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/145",
+          "item_count": 40,
+          "last_self_ref": "#/texts/185"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/145",
+          "#/texts/146",
+          "#/texts/147",
+          "#/texts/148",
+          "#/texts/149",
+          "#/texts/150",
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/153",
+          "#/texts/154",
+          "#/texts/155",
+          "#/texts/156",
+          "#/texts/157",
+          "#/texts/161",
+          "#/texts/162",
+          "#/texts/163",
+          "#/texts/164",
+          "#/texts/165",
+          "#/texts/166",
+          "#/texts/167",
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/170",
+          "#/texts/171",
+          "#/texts/172",
+          "#/texts/173",
+          "#/texts/174",
+          "#/texts/175",
+          "#/texts/176",
+          "#/texts/177",
+          "#/texts/292",
+          "#/texts/178",
+          "#/texts/179",
+          "#/texts/293",
+          "#/texts/180",
+          "#/texts/181",
+          "#/texts/182",
+          "#/texts/183",
+          "#/texts/184",
+          "#/texts/185"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "This is one of the common questions for analysts during SQL interviews and often is the first project to work on. It’s a multi-step process requiring a deep understanding of the business objective, a flexible approach, and data intuition.\nLooking back at all the places I’ve worked, I don’t remember a case where you could come in and quickly run some SQL to cohort your users into the right retention groups. Usually, some work needs to be done to the underlying tables to bring the data to the appropriate format and structure to work with retention. Same with DAU, churn, LTV, anything.\nFirst, you work on creating\n*Sessions*\nor\n*Users*\nor an\n*Activity*\ntable that serves as a foundation for calculating your KPIs later. This table should have the right timestamp of user activity, event ID, user ID, properties, and measures you need. After the new table is tested, you can then work on creating downstream views for retention, DAU, or anything else.\nWhen replicating retention with SQL, it’s easy to go wild and overcomplicate your approach. Follow these steps to stay on track and get the correct retention logic:\n- Step 1: Get the users’ first (initial) action—this is usually sign-up or the first purchase\n- Step 2: Get the user activity after the sign-up or purchase—based on your activity definition\n- Step 3: Get the total time in between the initial and consecutive user action (“retained _ time”)\n- Step 4: Convert the total time to days/weeks/months as needed\n- Step 5: Group users into buckets based on the total retained time from the previous step\n- Step 6: Map and order users’ buckets based on their initial action time—sign-up or the first purchase\nDepending on your underlying data and table structure, these steps can be done via a simple SELECT statement (like SELECT\n*\nFROM ready\n_\nto\n_\nuse\n_\nretention\n_\ntable) or another quick way, such as\n```\nSELECT\n    snapshot_date\n    , start_date\n    , n_period\n    , COUNT(user_id) AS n_users\nFROM subscriptions\nGROUP BY snapshot_date, start_date, n_month\n```\nor via multiple subqueries, self-joins, window functions, or a combination of all of the above. That’s why this is such a good interview question—because, given the input values and the business type/case, your output SQL will be completely different.\nRegardless of SQL complexity, your output raw data may look similar to this for simple retention:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nAnd this is the underlying table structure for cohorted retention:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nHere is a sample SQL to replicate the cohorted table above:\n```\nWITH new_user_activity AS (\n\nSELECT\n    a.*\n  FROM activity a\n  JOIN signups s\n    ON s.user_id = a.user_id\n    AND s.signup_date = a.activity_date -- if initial user signup counts as activity. If not, either disregard or s.signup_date = a.activity_date\n)\n\n, active_user_count AS (\n  SELECT\n    activity_date\n    , COUNT(DISTINCT user_id) AS users_count\n  FROM new_user_activity\n  GROUP BY activity_date\n)\n\n-- for daily retention:\nSELECT\n    n.signup_date AS signup_date\n    , DATEDIFF('DAU', n.signup_date, a.activity_date) AS period\n    , MAX(c.users_count) AS new_users\n    , COUNT(DISTINCT a.user_id) AS retained_users\n    , COUNT(DISTINCT a.user_id) / MAX(c.users_count)::float AS retention\nFROM new_user_activity n\nLEFT JOIN activity a\n  ON n.user_id = a.user_id\n  AND n.signup_date < a.activity_date\n  AND (n.signup_date + interval '30 days') >= a.activity_date -- retention data for the next 30 days after signup\nLEFT JOIN active_user_count c\n  ON n.signup_date = c.activity_date\nGROUP BY 1, 2\n```\nFind more SQL solutions for retention types\n[here](https://gist.github.com/ks--ks/446e6d78e8a49048d4eabf55c3363309)\n.",
+      "token_count": 1035
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000010",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\nStep 5. Visualizing retention\nOnce you have your SQL working, the next step is to visualize your data.\nThere are many ways to visualize a retention report. I won’t be going into depth here, because the most common data visualization tools (\n[Tableau](https://www.tableau.com/)\n,\n[Power BI](https://powerbi.microsoft.com/en-us/)\n) require meaningful expertise. Same with\n[Mode](https://mode.com/)\nor\n[Sisence](https://www.sisense.com/)\n. These tools let you leverage their cohorted graphs, and each format can be grouped by (1) time period (e.g. daily, monthly, annually) and then by (2) user segments (e.g. trialers, resubscribers, power users) to make your analytics really powerful.\nIn Excel, you can leverage pivot tables and replicate the same charts there as well. In the pivot table editor, you can drag the initial activity dates into rows and the retained period into columns. For cohorted charts, it’s recommended to apply a color scale (click on conditional formatting, choose a color scale, then pick a color option). Without color-coding, cohorts are difficult to read.\nIf you are looking for a quick template for a cohorted retention graph, I recommend using\n[Christoph Janz’s cohort analysis template](https://www.dropbox.com/s/cbegrp1ohchgtj5/ChristophJanz_SaaSCohortAnalysisb.xlsx)\n. If you have new customers and their activity dates, you can plug them into his file and get retention calculations.\nRegarding retention visualization format, quite often I see a line chart or a stacked line chart. Product analytics tools like\n[Amplitude](https://amplitude.com/)\nand\n[Mixpanel](https://mixpanel.com/)\nby default create line charts similar to these:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nFor a KPIs dashboard, it’s a good practice to have\n**a simple summary table**\nwith retention stats:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nThe best practice for reporting retention is\n**cohorts**\n:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nThis chart shows how many users registered each week and how many of them were retained in each subsequent week. It is filtered to only “New Users.” Additionally, you can segment retention reporting for active users, churned users, inactive users, and reactivated users. That can help you locate your power users and understand what makes them stick. It’s expected that retention for these cohorts will be significantly different. So you should always cohort your users into different behavioral segments if you can. Like I said, your ability to create multiple user cohorts is linearly correlated with how well your analytics is set up.\nIn companies with more advanced data stacks, the product team has the ability to locate, test, iterate, and release new features to only specific user segments. Having these groups cleanly and precisely cohorted also speaks to the maturity of the analytical domain. It takes time to get there, though.",
+      "doc_item_refs": [
+        "#/texts/187",
+        "#/texts/188",
+        "#/texts/189",
+        "#/texts/190",
+        "#/texts/191",
+        "#/texts/192",
+        "#/texts/193",
+        "#/texts/194",
+        "#/texts/195",
+        "#/texts/196",
+        "#/texts/197",
+        "#/texts/198",
+        "#/texts/199",
+        "#/texts/200",
+        "#/texts/201",
+        "#/texts/202",
+        "#/texts/203",
+        "#/texts/204",
+        "#/texts/205",
+        "#/texts/294",
+        "#/texts/206",
+        "#/texts/207",
+        "#/texts/208",
+        "#/texts/209",
+        "#/texts/295",
+        "#/texts/210",
+        "#/texts/211",
+        "#/texts/212",
+        "#/texts/213",
+        "#/texts/296",
+        "#/texts/214",
+        "#/texts/215",
+        "#/texts/216"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+        "Step 5. Visualizing retention"
+      ],
+      "images": [
+        {
+          "caption": "Image from How to measure cohort retention",
+          "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a4fd11c5-8770-4a34-aed4-74204483a9b5_1562x1268.png"
+        },
+        {
+          "caption": "Image from How to measure cohort retention",
+          "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000009",
+          "path": null,
+          "self_ref": "#/pictures/9",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ef73ed43-d245-4b31-b242-1119b099d1cd_1296x304.png"
+        },
+        {
+          "caption": "Image from How to measure cohort retention",
+          "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000010",
+          "path": null,
+          "self_ref": "#/pictures/10",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/875a7a40-cabc-406c-b531-6fe972d41f35_1300x604.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000010",
+        "chunk_sha256": "3b0ccf3e1cb206075099da68a49ec0523bbdcbf177117279d6d89fe616163ccb",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+          "Step 5. Visualizing retention"
+        ],
+        "images": [
+          {
+            "caption": "Image from How to measure cohort retention",
+            "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a4fd11c5-8770-4a34-aed4-74204483a9b5_1562x1268.png"
+          },
+          {
+            "caption": "Image from How to measure cohort retention",
+            "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000009",
+            "path": null,
+            "self_ref": "#/pictures/9",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ef73ed43-d245-4b31-b242-1119b099d1cd_1296x304.png"
+          },
+          {
+            "caption": "Image from How to measure cohort retention",
+            "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000010",
+            "path": null,
+            "self_ref": "#/pictures/10",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/875a7a40-cabc-406c-b531-6fe972d41f35_1300x604.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/187",
+          "item_count": 33,
+          "last_self_ref": "#/texts/216"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/187",
+          "#/texts/188",
+          "#/texts/189",
+          "#/texts/190",
+          "#/texts/191",
+          "#/texts/192",
+          "#/texts/193",
+          "#/texts/194",
+          "#/texts/195",
+          "#/texts/196",
+          "#/texts/197",
+          "#/texts/198",
+          "#/texts/199",
+          "#/texts/200",
+          "#/texts/201",
+          "#/texts/202",
+          "#/texts/203",
+          "#/texts/204",
+          "#/texts/205",
+          "#/texts/294",
+          "#/texts/206",
+          "#/texts/207",
+          "#/texts/208",
+          "#/texts/209",
+          "#/texts/295",
+          "#/texts/210",
+          "#/texts/211",
+          "#/texts/212",
+          "#/texts/213",
+          "#/texts/296",
+          "#/texts/214",
+          "#/texts/215",
+          "#/texts/216"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "Once you have your SQL working, the next step is to visualize your data.\nThere are many ways to visualize a retention report. I won’t be going into depth here, because the most common data visualization tools (\n[Tableau](https://www.tableau.com/)\n,\n[Power BI](https://powerbi.microsoft.com/en-us/)\n) require meaningful expertise. Same with\n[Mode](https://mode.com/)\nor\n[Sisence](https://www.sisense.com/)\n. These tools let you leverage their cohorted graphs, and each format can be grouped by (1) time period (e.g. daily, monthly, annually) and then by (2) user segments (e.g. trialers, resubscribers, power users) to make your analytics really powerful.\nIn Excel, you can leverage pivot tables and replicate the same charts there as well. In the pivot table editor, you can drag the initial activity dates into rows and the retained period into columns. For cohorted charts, it’s recommended to apply a color scale (click on conditional formatting, choose a color scale, then pick a color option). Without color-coding, cohorts are difficult to read.\nIf you are looking for a quick template for a cohorted retention graph, I recommend using\n[Christoph Janz’s cohort analysis template](https://www.dropbox.com/s/cbegrp1ohchgtj5/ChristophJanz_SaaSCohortAnalysisb.xlsx)\n. If you have new customers and their activity dates, you can plug them into his file and get retention calculations.\nRegarding retention visualization format, quite often I see a line chart or a stacked line chart. Product analytics tools like\n[Amplitude](https://amplitude.com/)\nand\n[Mixpanel](https://mixpanel.com/)\nby default create line charts similar to these:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nFor a KPIs dashboard, it’s a good practice to have\n**a simple summary table**\nwith retention stats:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nThe best practice for reporting retention is\n**cohorts**\n:\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nThis chart shows how many users registered each week and how many of them were retained in each subsequent week. It is filtered to only “New Users.” Additionally, you can segment retention reporting for active users, churned users, inactive users, and reactivated users. That can help you locate your power users and understand what makes them stick. It’s expected that retention for these cohorts will be significantly different. So you should always cohort your users into different behavioral segments if you can. Like I said, your ability to create multiple user cohorts is linearly correlated with how well your analytics is set up.\nIn companies with more advanced data stacks, the product team has the ability to locate, test, iterate, and release new features to only specific user segments. Having these groups cleanly and precisely cohorted also speaks to the maturity of the analytical domain. It takes time to get there, though.",
+      "token_count": 779
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000011",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\n📗 Takeaways\n🤝\n**Retention measures the ability of your product to keep (1) users (2) active (3) over time.**\n- Depending on your business model and type, “users” can mean customers, free users, or free users with a purchase, so retention calculation and definition will be different.\n- “Active” can be a range of activity events, and often you have to pick the event that is available, consistent across your platforms, and clean.\n- “Over time” can be tricky to define—bound to a specific timeline or a rolling average? Pick your X-day or unbounded retention type based on your product usage.\n📈\n**Reporting retention from product analytics tools has its own specifics.**\nIt’s faster and easier to create a report and slice and dice, but given the analytics setup at your company, it may be limited or lead you further away from the questions you want to answer.\n[🗄️](https://emojipedia.org/file-cabinet/)\n**Getting retention data via SQL is not straightforward**\neither, and your SQL code will be different depending on your underlying data structure and format. Create the foundation metrics tables first, then work on your SQL from there.\n**📊 Visualizing retention via cohort graphs**\nis the best practice that gives you the most insights into user behavior patterns.",
+      "doc_item_refs": [
+        "#/texts/218",
+        "#/texts/219",
+        "#/texts/220",
+        "#/texts/221",
+        "#/texts/222",
+        "#/texts/223",
+        "#/texts/224",
+        "#/texts/225",
+        "#/texts/226",
+        "#/texts/227",
+        "#/texts/228",
+        "#/texts/229",
+        "#/texts/230"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+        "📗 Takeaways"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000011",
+        "chunk_sha256": "cefc0bebd55045448a6f8365be0d99d30d4974178d3bfeb53ef7817fbfefd3e6",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+          "📗 Takeaways"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/218",
+          "item_count": 13,
+          "last_self_ref": "#/texts/230"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/218",
+          "#/texts/219",
+          "#/texts/220",
+          "#/texts/221",
+          "#/texts/222",
+          "#/texts/223",
+          "#/texts/224",
+          "#/texts/225",
+          "#/texts/226",
+          "#/texts/227",
+          "#/texts/228",
+          "#/texts/229",
+          "#/texts/230"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "🤝\n**Retention measures the ability of your product to keep (1) users (2) active (3) over time.**\n- Depending on your business model and type, “users” can mean customers, free users, or free users with a purchase, so retention calculation and definition will be different.\n- “Active” can be a range of activity events, and often you have to pick the event that is available, consistent across your platforms, and clean.\n- “Over time” can be tricky to define—bound to a specific timeline or a rolling average? Pick your X-day or unbounded retention type based on your product usage.\n📈\n**Reporting retention from product analytics tools has its own specifics.**\nIt’s faster and easier to create a report and slice and dice, but given the analytics setup at your company, it may be limited or lead you further away from the questions you want to answer.\n[🗄️](https://emojipedia.org/file-cabinet/)\n**Getting retention data via SQL is not straightforward**\neither, and your SQL code will be different depending on your underlying data structure and format. Create the foundation metrics tables first, then work on your SQL from there.\n**📊 Visualizing retention via cohort graphs**\nis the best practice that gives you the most insights into user behavior patterns.",
+      "token_count": 353
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000012",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\n📗 Takeaways\nOther things to keep in mind\nGiven that retention includes so many elements of activity, it’s not the right metric to use for weekly reporting or as a baseline for an A/B test. Too often I have seen how product analytics teams evaluate experimentation against retention and wonder why the increase in user activity doesn’t lead to a change in retention.\n*Because the activity is only one of the components of retention.*\nRetention (like revenue) is the\n[output](https://brianbalfour.com/quick-takes/common-mistakes-defining-metrics)\nmetric. You should monitor it but not strictly utilize it as a goal for testing or campaigning.\nAdditionally, every new executive who comes in pushes for their own definition and reporting format. Therefore, product analytics should be flexible with the dashboards and data sources to adopt whatever new retention meaning is requested (for example, changing app\n_\nopen event to login, or 30-day retention calculation to rolling 28 days).\nI’ll stop here, but there is much more to retention to cover—the specifics of revenue retention reporting, retention differences between SaaS and B2C or B2B, handling user outliers, working with retention curve patterns, retention growth-rate benchmarks, and more.\nThank you for reading! If you want to learn more about analyzing, measuring, or reporting user behavior, product metrics, or A/B tests, subscribe to my\n[Data Analysis Journal](https://dataanalysis.substack.com/)\n, a weekly newsletter about product analytics and data science.",
+      "doc_item_refs": [
+        "#/texts/232",
+        "#/texts/233",
+        "#/texts/234",
+        "#/texts/235",
+        "#/texts/236",
+        "#/texts/237",
+        "#/texts/238",
+        "#/texts/239",
+        "#/texts/240",
+        "#/texts/241",
+        "#/texts/242",
+        "#/texts/243"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+        "📗 Takeaways",
+        "Other things to keep in mind"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000012",
+        "chunk_sha256": "32c8a549903e0bdd0a054a4989f55e8c1ab631b9d2cbebf2df0249ec544d7a7b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+          "📗 Takeaways",
+          "Other things to keep in mind"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/232",
+          "item_count": 12,
+          "last_self_ref": "#/texts/243"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/232",
+          "#/texts/233",
+          "#/texts/234",
+          "#/texts/235",
+          "#/texts/236",
+          "#/texts/237",
+          "#/texts/238",
+          "#/texts/239",
+          "#/texts/240",
+          "#/texts/241",
+          "#/texts/242",
+          "#/texts/243"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "Given that retention includes so many elements of activity, it’s not the right metric to use for weekly reporting or as a baseline for an A/B test. Too often I have seen how product analytics teams evaluate experimentation against retention and wonder why the increase in user activity doesn’t lead to a change in retention.\n*Because the activity is only one of the components of retention.*\nRetention (like revenue) is the\n[output](https://brianbalfour.com/quick-takes/common-mistakes-defining-metrics)\nmetric. You should monitor it but not strictly utilize it as a goal for testing or campaigning.\nAdditionally, every new executive who comes in pushes for their own definition and reporting format. Therefore, product analytics should be flexible with the dashboards and data sources to adopt whatever new retention meaning is requested (for example, changing app\n_\nopen event to login, or 30-day retention calculation to rolling 28 days).\nI’ll stop here, but there is much more to retention to cover—the specifics of revenue retention reporting, retention differences between SaaS and B2C or B2B, handling user outliers, working with retention curve patterns, retention growth-rate benchmarks, and more.\nThank you for reading! If you want to learn more about analyzing, measuring, or reporting user behavior, product metrics, or A/B tests, subscribe to my\n[Data Analysis Journal](https://dataanalysis.substack.com/)\n, a weekly newsletter about product analytics and data science.",
+      "token_count": 397
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000013",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\n📗 Takeaways\n📚 Further study\n1. [Everything You Need to Know About Retention (Rates)](https://chartmogul.com/blog/retention-rate) from ChartMogul\n2. [Lecture 6: Growth](https://genius.com/Alex-schultz-lecture-6-growth-annotated) from Alex Schultz, VP of Analytics, Meta\n3. [3 Things Your User Retention Rate Is Hiding](https://mode.com/blog/what-user-retention-hides/) from Mode\n4. [Cohort Analysis That Helps You Look Ahead](https://mode.com/blog/cohort-analysis-helps-look-ahead/) from Mode\n5. [How to increase your retention](https://www.lennysnewsletter.com/p/how-to-increase-your-retention-issue)\n6. [What is good retention](https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29)\n7. [User Engagement and Activity Histogram Analysis](https://dataanalysis.substack.com/p/user-engagement-and-activity-histogram) from Olga\n8. [Day of the Week Analysis in SQL](https://dataanalysis.substack.com/p/day-of-the-week-analysis-in-sql-issue) from Olga\n9. [Excel template for cohort analyses in SaaS](https://christophjanz.blogspot.com/2013/10/excel-template-for-cohort-analyses-in.html) from Christoph Janz\n10. [How Cohort Analysis Improves Retention & Reduces Churn](https://heap.io/topics/how-cohort-analysis-improves-retention-reduces-churn) from Heap\n*Thanks, Olga! Have a fulfilling and productive week 🙏*",
+      "doc_item_refs": [
+        "#/texts/245",
+        "#/texts/248",
+        "#/texts/251",
+        "#/texts/254",
+        "#/texts/257",
+        "#/texts/258",
+        "#/texts/259",
+        "#/texts/262",
+        "#/texts/265",
+        "#/texts/268",
+        "#/texts/271"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+        "📗 Takeaways",
+        "📚 Further study"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000013",
+        "chunk_sha256": "bd346ba4325e9ff2437608a7d2f0136b9fbf597d665b57bdf0ec59a13771af70",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+          "📗 Takeaways",
+          "📚 Further study"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/245",
+          "item_count": 11,
+          "last_self_ref": "#/texts/271"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/245",
+          "#/texts/248",
+          "#/texts/251",
+          "#/texts/254",
+          "#/texts/257",
+          "#/texts/258",
+          "#/texts/259",
+          "#/texts/262",
+          "#/texts/265",
+          "#/texts/268",
+          "#/texts/271"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "1. [Everything You Need to Know About Retention (Rates)](https://chartmogul.com/blog/retention-rate) from ChartMogul\n2. [Lecture 6: Growth](https://genius.com/Alex-schultz-lecture-6-growth-annotated) from Alex Schultz, VP of Analytics, Meta\n3. [3 Things Your User Retention Rate Is Hiding](https://mode.com/blog/what-user-retention-hides/) from Mode\n4. [Cohort Analysis That Helps You Look Ahead](https://mode.com/blog/cohort-analysis-helps-look-ahead/) from Mode\n5. [How to increase your retention](https://www.lennysnewsletter.com/p/how-to-increase-your-retention-issue)\n6. [What is good retention](https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29)\n7. [User Engagement and Activity Histogram Analysis](https://dataanalysis.substack.com/p/user-engagement-and-activity-histogram) from Olga\n8. [Day of the Week Analysis in SQL](https://dataanalysis.substack.com/p/day-of-the-week-analysis-in-sql-issue) from Olga\n9. [Excel template for cohort analyses in SaaS](https://christophjanz.blogspot.com/2013/10/excel-template-for-cohort-analyses-in.html) from Christoph Janz\n10. [How Cohort Analysis Improves Retention & Reduces Churn](https://heap.io/topics/how-cohort-analysis-improves-retention-reduces-churn) from Heap\n*Thanks, Olga! Have a fulfilling and productive week 🙏*",
+      "token_count": 488
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000014",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\n📣 Hiring, or looking for a new gig? Join Lenny’s Talent Collective.\n[Join Lenny’s Talent Collective](https://www.lennysjobs.com/talent/welcome)\nto get bi-monthly drops of world-class hand-curated product and growth people who are open to new opportunities.\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nIf you’re looking for a new gig, join the collective to get personalized opportunities from hand-selected companies. You can join publicly or anonymously, and leave anytime.\n[Apply to join](https://www.lennysjobs.com/talent)",
+      "doc_item_refs": [
+        "#/texts/273",
+        "#/texts/274",
+        "#/texts/297",
+        "#/texts/275",
+        "#/texts/276",
+        "#/texts/277"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+        "📣 Hiring, or looking for a new gig? Join Lenny’s Talent Collective."
+      ],
+      "images": [
+        {
+          "caption": "Image from How to measure cohort retention",
+          "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000011",
+          "path": null,
+          "self_ref": "#/pictures/11",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/fd2a86a0-dc08-4cf2-9095-e88dd7f2e5cf_1476x856.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000014",
+        "chunk_sha256": "ee2da4a398ee9050f88699864f51a63b6d89d4d8e22306b57b6b65d23f27150b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+          "📣 Hiring, or looking for a new gig? Join Lenny’s Talent Collective."
+        ],
+        "images": [
+          {
+            "caption": "Image from How to measure cohort retention",
+            "image_id": "02-newsletters/how-to-measure-cohort-retention.md#image=000011",
+            "path": null,
+            "self_ref": "#/pictures/11",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/fd2a86a0-dc08-4cf2-9095-e88dd7f2e5cf_1476x856.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/273",
+          "item_count": 6,
+          "last_self_ref": "#/texts/277"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/273",
+          "#/texts/274",
+          "#/texts/297",
+          "#/texts/275",
+          "#/texts/276",
+          "#/texts/277"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "[Join Lenny’s Talent Collective](https://www.lennysjobs.com/talent/welcome)\nto get bi-monthly drops of world-class hand-curated product and growth people who are open to new opportunities.\nImage from How to measure cohort retention\nImage from How to measure cohort retention\nIf you’re looking for a new gig, join the collective to get personalized opportunities from hand-selected companies. You can join publicly or anonymously, and leave anytime.\n[Apply to join](https://www.lennysjobs.com/talent)",
+      "token_count": 205
+    },
+    {
+      "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000015",
+      "contextualized_text": "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b\n📣 Hiring, or looking for a new gig? Join Lenny’s Talent Collective.\n❤️‍🔥 Featured job opportunities\n1. **Walmart:** [Sr./Principal Product Manager (Store No8 incubator)](https://www.lennysjobs.com/jobs/22be805a-9d53-46f9-ac69-ddf6b158c2fb) (S.F., Manhattan, San Diego, Seattle)\n**If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/279",
+        "#/texts/283",
+        "#/texts/284",
+        "#/texts/285"
+      ],
+      "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+      "headings": [
+        "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+        "📣 Hiring, or looking for a new gig? Join Lenny’s Talent Collective.",
+        "❤️‍🔥 Featured job opportunities"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/how-to-measure-cohort-retention.md#chunk=000015",
+        "chunk_sha256": "294c1b282a13d8d7273396db30d47c08a922c0e6bcb2dabd9f8b6296293fcd81",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+        "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+        "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+        "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+        "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+        "headings": [
+          "How to measure cohort retention — A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky | 2022-08-30 | Tags: growth, analytics, b2c, newsletter, design, b2b",
+          "📣 Hiring, or looking for a new gig? Join Lenny’s Talent Collective.",
+          "❤️‍🔥 Featured job opportunities"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 15,
+        "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+        "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+        "segment": {
+          "first_self_ref": "#/texts/279",
+          "item_count": 4,
+          "last_self_ref": "#/texts/285"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/279",
+          "#/texts/283",
+          "#/texts/284",
+          "#/texts/285"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 15,
+      "raw_text": "1. **Walmart:** [Sr./Principal Product Manager (Store No8 incubator)](https://www.lennysjobs.com/jobs/22be805a-9d53-46f9-ac69-ddf6b158c2fb) (S.F., Manhattan, San Diego, Seattle)\n**If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "token_count": 203
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/how-to-measure-cohort-retention.docling.json",
+  "docling_sha256": "2ff7be9688b6ba1ec9fef3791dd8437a5d0909c43ce1d971510a3f218fb0ec73",
+  "document_id": "02-newsletters/how-to-measure-cohort-retention.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/how-to-measure-cohort-retention.md",
+  "enhanced_sha256": "c836ba25414eb3f00639af6e96bee552cf05bc659f65b096f9e95f338974eb6c",
+  "fact_document_path": "chunks/v2/02-newsletters/how-to-measure-cohort-retention.chunks.json",
+  "metadata": {
+    "date": "2022-08-30",
+    "subtitle": "A deep dive into the formulas, visualizations, and SQL you need to accurately measure and report on cohort retention—a guest post by Olga Berezovsky",
+    "tags": [
+      "growth",
+      "analytics",
+      "b2c",
+      "newsletter",
+      "design",
+      "b2b"
+    ],
+    "title": "How to measure cohort retention",
+    "type": "newsletter",
+    "word_count": 4145
+  },
+  "raw_path": "corpus/raw/02-newsletters/how-to-measure-cohort-retention.md",
+  "raw_sha256": "4a0aeb4f61f96ee498739698a5c78b538bcb7da8491b58aec77a983ad0160e58",
+  "schema_version": "1",
+  "title": "How to measure cohort retention"
+}

@@ -1,0 +1,5956 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/texts/82"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/groups/17"
+      },
+      {
+        "$ref": "#/groups/18"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/pictures/5"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/texts/103"
+      },
+      {
+        "$ref": "#/groups/19"
+      },
+      {
+        "$ref": "#/groups/25"
+      },
+      {
+        "$ref": "#/texts/126"
+      },
+      {
+        "$ref": "#/texts/127"
+      },
+      {
+        "$ref": "#/texts/128"
+      },
+      {
+        "$ref": "#/groups/26"
+      },
+      {
+        "$ref": "#/texts/147"
+      },
+      {
+        "$ref": "#/texts/148"
+      },
+      {
+        "$ref": "#/groups/33"
+      },
+      {
+        "$ref": "#/groups/38"
+      },
+      {
+        "$ref": "#/texts/173"
+      },
+      {
+        "$ref": "#/groups/39"
+      },
+      {
+        "$ref": "#/texts/230"
+      },
+      {
+        "$ref": "#/groups/50"
+      },
+      {
+        "$ref": "#/texts/243"
+      },
+      {
+        "$ref": "#/texts/244"
+      },
+      {
+        "$ref": "#/texts/245"
+      },
+      {
+        "$ref": "#/texts/246"
+      },
+      {
+        "$ref": "#/texts/247"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/furniture"
+  },
+  "groups": [
+    {
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        },
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/0"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/1"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/11"
+      },
+      "self_ref": "#/groups/2"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/14"
+      },
+      "self_ref": "#/groups/3"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/17"
+      },
+      "self_ref": "#/groups/4"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/20"
+      },
+      "self_ref": "#/groups/5"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/23"
+      },
+      "self_ref": "#/groups/6"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        },
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        },
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/7"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/8"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/9"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/10"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/11"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/12"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/13"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/14"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/15"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/16"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/17"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/pictures/3"
+        },
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/pictures/4"
+        },
+        {
+          "$ref": "#/texts/98"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/18"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/107"
+        },
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/118"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/19"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/104"
+      },
+      "self_ref": "#/groups/20"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/108"
+        },
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/107"
+      },
+      "self_ref": "#/groups/21"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/112"
+      },
+      "self_ref": "#/groups/22"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/116"
+        },
+        {
+          "$ref": "#/texts/117"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/115"
+      },
+      "self_ref": "#/groups/23"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/119"
+        },
+        {
+          "$ref": "#/texts/120"
+        },
+        {
+          "$ref": "#/texts/121"
+        },
+        {
+          "$ref": "#/texts/122"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/118"
+      },
+      "self_ref": "#/groups/24"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/123"
+        },
+        {
+          "$ref": "#/texts/124"
+        },
+        {
+          "$ref": "#/texts/125"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/25"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/132"
+        },
+        {
+          "$ref": "#/texts/135"
+        },
+        {
+          "$ref": "#/texts/138"
+        },
+        {
+          "$ref": "#/texts/141"
+        },
+        {
+          "$ref": "#/texts/144"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/26"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/130"
+        },
+        {
+          "$ref": "#/texts/131"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/129"
+      },
+      "self_ref": "#/groups/27"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/132"
+      },
+      "self_ref": "#/groups/28"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/136"
+        },
+        {
+          "$ref": "#/texts/137"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/135"
+      },
+      "self_ref": "#/groups/29"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/139"
+        },
+        {
+          "$ref": "#/texts/140"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/138"
+      },
+      "self_ref": "#/groups/30"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/142"
+        },
+        {
+          "$ref": "#/texts/143"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/141"
+      },
+      "self_ref": "#/groups/31"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/145"
+        },
+        {
+          "$ref": "#/texts/146"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/144"
+      },
+      "self_ref": "#/groups/32"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/149"
+        },
+        {
+          "$ref": "#/texts/152"
+        },
+        {
+          "$ref": "#/texts/155"
+        },
+        {
+          "$ref": "#/texts/160"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/33"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/150"
+        },
+        {
+          "$ref": "#/texts/151"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/149"
+      },
+      "self_ref": "#/groups/34"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/153"
+        },
+        {
+          "$ref": "#/texts/154"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/152"
+      },
+      "self_ref": "#/groups/35"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/156"
+        },
+        {
+          "$ref": "#/texts/157"
+        },
+        {
+          "$ref": "#/texts/158"
+        },
+        {
+          "$ref": "#/texts/159"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/155"
+      },
+      "self_ref": "#/groups/36"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/161"
+        },
+        {
+          "$ref": "#/texts/162"
+        },
+        {
+          "$ref": "#/texts/163"
+        },
+        {
+          "$ref": "#/texts/164"
+        },
+        {
+          "$ref": "#/texts/165"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/160"
+      },
+      "self_ref": "#/groups/37"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/166"
+        },
+        {
+          "$ref": "#/texts/167"
+        },
+        {
+          "$ref": "#/texts/168"
+        },
+        {
+          "$ref": "#/texts/169"
+        },
+        {
+          "$ref": "#/texts/170"
+        },
+        {
+          "$ref": "#/texts/171"
+        },
+        {
+          "$ref": "#/texts/172"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/38"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/174"
+        },
+        {
+          "$ref": "#/texts/177"
+        },
+        {
+          "$ref": "#/texts/182"
+        },
+        {
+          "$ref": "#/texts/193"
+        },
+        {
+          "$ref": "#/texts/200"
+        },
+        {
+          "$ref": "#/texts/203"
+        },
+        {
+          "$ref": "#/texts/208"
+        },
+        {
+          "$ref": "#/texts/215"
+        },
+        {
+          "$ref": "#/texts/220"
+        },
+        {
+          "$ref": "#/texts/227"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/39"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/175"
+        },
+        {
+          "$ref": "#/texts/176"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/174"
+      },
+      "self_ref": "#/groups/40"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/178"
+        },
+        {
+          "$ref": "#/texts/179"
+        },
+        {
+          "$ref": "#/texts/180"
+        },
+        {
+          "$ref": "#/texts/181"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/177"
+      },
+      "self_ref": "#/groups/41"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/183"
+        },
+        {
+          "$ref": "#/texts/184"
+        },
+        {
+          "$ref": "#/texts/185"
+        },
+        {
+          "$ref": "#/texts/186"
+        },
+        {
+          "$ref": "#/texts/187"
+        },
+        {
+          "$ref": "#/texts/188"
+        },
+        {
+          "$ref": "#/texts/189"
+        },
+        {
+          "$ref": "#/texts/190"
+        },
+        {
+          "$ref": "#/texts/191"
+        },
+        {
+          "$ref": "#/texts/192"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/182"
+      },
+      "self_ref": "#/groups/42"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/194"
+        },
+        {
+          "$ref": "#/texts/195"
+        },
+        {
+          "$ref": "#/texts/196"
+        },
+        {
+          "$ref": "#/texts/197"
+        },
+        {
+          "$ref": "#/texts/198"
+        },
+        {
+          "$ref": "#/texts/199"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/193"
+      },
+      "self_ref": "#/groups/43"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/201"
+        },
+        {
+          "$ref": "#/texts/202"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/200"
+      },
+      "self_ref": "#/groups/44"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/204"
+        },
+        {
+          "$ref": "#/texts/205"
+        },
+        {
+          "$ref": "#/texts/206"
+        },
+        {
+          "$ref": "#/texts/207"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/203"
+      },
+      "self_ref": "#/groups/45"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/209"
+        },
+        {
+          "$ref": "#/texts/210"
+        },
+        {
+          "$ref": "#/texts/211"
+        },
+        {
+          "$ref": "#/texts/212"
+        },
+        {
+          "$ref": "#/texts/213"
+        },
+        {
+          "$ref": "#/texts/214"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/208"
+      },
+      "self_ref": "#/groups/46"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/216"
+        },
+        {
+          "$ref": "#/texts/217"
+        },
+        {
+          "$ref": "#/texts/218"
+        },
+        {
+          "$ref": "#/texts/219"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/215"
+      },
+      "self_ref": "#/groups/47"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/221"
+        },
+        {
+          "$ref": "#/texts/222"
+        },
+        {
+          "$ref": "#/texts/223"
+        },
+        {
+          "$ref": "#/texts/224"
+        },
+        {
+          "$ref": "#/texts/225"
+        },
+        {
+          "$ref": "#/texts/226"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/220"
+      },
+      "self_ref": "#/groups/48"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/228"
+        },
+        {
+          "$ref": "#/texts/229"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/227"
+      },
+      "self_ref": "#/groups/49"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/231"
+        },
+        {
+          "$ref": "#/texts/235"
+        },
+        {
+          "$ref": "#/texts/239"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/50"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/232"
+        },
+        {
+          "$ref": "#/texts/233"
+        },
+        {
+          "$ref": "#/texts/234"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/231"
+      },
+      "self_ref": "#/groups/51"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/236"
+        },
+        {
+          "$ref": "#/texts/237"
+        },
+        {
+          "$ref": "#/texts/238"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/235"
+      },
+      "self_ref": "#/groups/52"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/240"
+        },
+        {
+          "$ref": "#/texts/241"
+        },
+        {
+          "$ref": "#/texts/242"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/239"
+      },
+      "self_ref": "#/groups/53"
+    }
+  ],
+  "key_value_items": [],
+  "name": "winning-at-seo",
+  "origin": {
+    "binary_hash": 8201479279765814298,
+    "filename": "winning-at-seo.md",
+    "mimetype": "text/markdown",
+    "uri": null
+  },
+  "pages": {},
+  "pictures": [
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/248"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/248"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/3498649b-a190-4717-9076-98d1ae45c87c_1944x1314.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/0"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/249"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/249"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/33c84d3b-ae10-4c74-9fac-abcdd407e996_595x1020.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/1"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/250"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/250"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/fd3358ab-bcce-40f9-b221-ad9d35fe7eba_586x949.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/2"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/251"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/251"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/450697ec-a0d8-4bc8-9a36-733241cecdf4_2171x1094.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/3"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/252"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/252"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/2caa6849-7bfd-424e-b689-fe4e95866031_1569x976.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/4"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/253"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/253"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5a83e4b2-a40a-43ad-a18c-c26d4a0ceb11_1196x596.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/5"
+    }
+  ],
+  "schema_name": "DoclingDocument",
+  "tables": [],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "title",
+      "meta": null,
+      "orig": "Winning at SEO — If you find this newsletter valuable, consider sharing it with friends, or subscribe if you haven’t already 👇 | 2020-07-14 | Tags: design, strategy, startups, newsletter, b2b, growth",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/0",
+      "text": "Winning at SEO — If you find this newsletter valuable, consider sharing it with friends, or subscribe if you haven’t already 👇 | 2020-07-14 | Tags: design, strategy, startups, newsletter, b2b, growth"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you find this newsletter valuable, consider sharing it with friends, or subscribe if you haven’t already 👇",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/1",
+      "text": "If you find this newsletter valuable, consider sharing it with friends, or subscribe if you haven’t already 👇"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "Q: Our company is starting to work on SEO, but there’s an incumbent who’s really good at SEO. How would you recommend we compete with them?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/2",
+      "text": "Q: Our company is starting to work on SEO, but there’s an incumbent who’s really good at SEO. How would you recommend we compete with them?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "SEO has always felt to me like one of the dark-arts of growth — mysterious, full of tricks, yet when practiced skillfully immensely powerful.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/3",
+      "text": "SEO has always felt to me like one of the dark-arts of growth — mysterious, full of tricks, yet when practiced skillfully immensely powerful."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I’m a mere padawan in the arts of SEO, so for this question I turned to my former colleague",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/4",
+      "text": "I’m a mere padawan in the arts of SEO, so for this question I turned to my former colleague"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.linkedin.com/in/brianta626/",
+      "label": "text",
+      "meta": null,
+      "orig": "Brian Ta",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/5",
+      "text": "Brian Ta"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". Having led the SEO efforts at five different companies, including Airbnb, Strava, and now at AngelList, Brian is one of my go-to people for SEO questions. In this week's post, Brian generously shares his strategy for winning at SEO based on his experience at these companies. If you’d like more insight or have questions, you can find",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/6",
+      "text": ". Having led the SEO efforts at five different companies, including Airbnb, Strava, and now at AngelList, Brian is one of my go-to people for SEO questions. In this week's post, Brian generously shares his strategy for winning at SEO based on his experience at these companies. If you’d like more insight or have questions, you can find"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://twitter.com/fanfavorite_bta?lang=en",
+      "label": "text",
+      "meta": null,
+      "orig": "Brian on Twitter",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/7",
+      "text": "Brian on Twitter"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "🙏",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/8",
+      "text": "🙏"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "—",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/9",
+      "text": "—"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Before we get into the meat and potatoes of SEO strategy, I’m going to make a couple of assumptions about you and your product:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/10",
+      "text": "Before we get into the meat and potatoes of SEO strategy, I’m going to make a couple of assumptions about you and your product:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/2"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/11",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "You’re just starting an SEO program",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/12",
+      "text": "You’re just starting an SEO program"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", and/or your company isn’t widely known yet.",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/13",
+      "text": ", and/or your company isn’t widely known yet."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/14",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "You don’t know much about SEO",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/15",
+      "text": "You don’t know much about SEO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "other than the fact that someone said that it’s something you should invest in early and that it’ll get you “free” traffic.",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/16",
+      "text": "other than the fact that someone said that it’s something you should invest in early and that it’ll get you “free” traffic."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/17",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "You have a relatively large degree of freedom",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/18",
+      "text": "You have a relatively large degree of freedom"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "to create, modify, and remove products and pages on your website.",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/19",
+      "text": "to create, modify, and remove products and pages on your website."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/5"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/20",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "You’re trying to rank in Google",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/21",
+      "text": "You’re trying to rank in Google"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". This advice is generally going to be helpful with any search engine, but I’ll be referring to Google/Googlebot a lot.",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/22",
+      "text": ". This advice is generally going to be helpful with any search engine, but I’ll be referring to Google/Googlebot a lot."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/6"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/23",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "You’re not a B2B company.",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/24",
+      "text": "You’re not a B2B company."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "That’s not to say that this guide isn’t useful for B2B, but you’ll have to get more creative about how you leverage the advice given here.",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/25",
+      "text": "That’s not to say that this guide isn’t useful for B2B, but you’ll have to get more creative about how you leverage the advice given here."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "By the end of this post, you will be armed with a toolkit that will allow you to go toe-to-toe with incumbents in any industry. I’ll be leaning on my experience leading SEO at",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/26",
+      "text": "By the end of this post, you will be armed with a toolkit that will allow you to go toe-to-toe with incumbents in any industry. I’ll be leaning on my experience leading SEO at"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.airbnb.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "Airbnb",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/27",
+      "text": "Airbnb"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/28",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://angel.co/",
+      "label": "text",
+      "meta": null,
+      "orig": "AngelList",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/29",
+      "text": "AngelList"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/30",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.strava.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "Strava",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/31",
+      "text": "Strava"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/32",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.spotangels.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "SpotAngels",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/33",
+      "text": "SpotAngels"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", and",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/34",
+      "text": ", and"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://upsolve.org/",
+      "label": "text",
+      "meta": null,
+      "orig": "Upsolve",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/35",
+      "text": "Upsolve"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". In the case of both SpotAngels and Upsolve, each grew from less than 1,000 organic visitors/month to over 250,000 after investing in an SEO strategy like the one I will describe below.",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/36",
+      "text": ". In the case of both SpotAngels and Upsolve, each grew from less than 1,000 organic visitors/month to over 250,000 after investing in an SEO strategy like the one I will describe below."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "As a final note before we get started: This post is in no way a substitute for original thinking, creativity, and hard work. It merely serves as a guide to help you kickstart a coherent, scalable SEO strategy.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/37",
+      "text": "As a final note before we get started: This post is in no way a substitute for original thinking, creativity, and hard work. It merely serves as a guide to help you kickstart a coherent, scalable SEO strategy."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "How should early-stage founders overcome the SEO advantages of incumbents?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/38",
+      "text": "How should early-stage founders overcome the SEO advantages of incumbents?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "The strategy is actually simple: Create many valuable web pages in a scalable and cheap way.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/39",
+      "text": "The strategy is actually simple: Create many valuable web pages in a scalable and cheap way."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Let’s break this down:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/40",
+      "text": "Let’s break this down:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "1. Create many valuable web pages",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/41",
+      "text": "1. Create many valuable web pages"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "SEO is all about creating web pages. Lots of web pages. But not just any web pages. The secret is to create pages that are",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/42",
+      "text": "SEO is all about creating web pages. Lots of web pages. But not just any web pages. The secret is to create pages that are"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "as helpful to search engines as they are to your users",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/43",
+      "text": "as helpful to search engines as they are to your users"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". At the end of the day, SEO is creating a product for a pretty stupid bot. Give it the content it wants and make it as easy as possible for it to consume it.",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/44",
+      "text": ". At the end of the day, SEO is creating a product for a pretty stupid bot. Give it the content it wants and make it as easy as possible for it to consume it."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "2. Make it scalable and cheap",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/45",
+      "text": "2. Make it scalable and cheap"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Blog posts, title tag tweaks, and keyword stuffing aren’t scalable and require a ton of manual effort and upkeep.",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/46",
+      "text": "Blog posts, title tag tweaks, and keyword stuffing aren’t scalable and require a ton of manual effort and upkeep."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Instead, you’ll want to create pages programmatically",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/47",
+      "text": "Instead, you’ll want to create pages programmatically"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", full of content that Google is expecting – engaging, targeted, and fast.",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/48",
+      "text": ", full of content that Google is expecting – engaging, targeted, and fast."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "To do these two things well, you’ll need to answer three questions:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/49",
+      "text": "To do these two things well, you’ll need to answer three questions:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "What kind of pages should I create?",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/50",
+      "text": "What kind of pages should I create?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "How do I create these pages programmatically?",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/51",
+      "text": "How do I create these pages programmatically?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "What features do I need to create on each page for Google to love it?",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/52",
+      "text": "What features do I need to create on each page for Google to love it?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Let’s tackle each of these one-by-one.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/53",
+      "text": "Let’s tackle each of these one-by-one."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "What kind of pages should I create?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/54",
+      "text": "What kind of pages should I create?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "To answer this question, start by asking yourself: What are people on Google searching for that my business is uniquely able to answer?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/55",
+      "text": "To answer this question, start by asking yourself: What are people on Google searching for that my business is uniquely able to answer?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Write down all of the unique pieces of information that your business has access to.",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/56",
+      "text": "Write down all of the unique pieces of information that your business has access to."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.strava.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "Strava",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/57",
+      "text": "Strava"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "has popular running routes,",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/58",
+      "text": "has popular running routes,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.airbnb.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "Airbnb",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/59",
+      "text": "Airbnb"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "has unique listings,",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/60",
+      "text": "has unique listings,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.pinterest.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "Pinterest",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/61",
+      "text": "Pinterest"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "has user-generated images. What do you have?",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/62",
+      "text": "has user-generated images. What do you have?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "What you are looking for is unique and valuable data points that your business/product already has that can be turned into useful web pages. For example, Thumbtack has thousands of pages like",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/63",
+      "text": "What you are looking for is unique and valuable data points that your business/product already has that can be turned into useful web pages. For example, Thumbtack has thousands of pages like"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.thumbtack.com/wa/seattle/electricians/",
+      "label": "text",
+      "meta": null,
+      "orig": "the best electricians in Seattle",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/64",
+      "text": "the best electricians in Seattle"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", using data that their pros input.",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/65",
+      "text": ", using data that their pros input."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Winning at SEO",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/66",
+      "text": "Image from Winning at SEO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "As an example, say we’re a startup that sells flowers (let’s call it “Petal to the Metal”). We should not be trying to rank for keywords such as “flowers” or “red roses”. Not only are those terrible keywords because they have no user intent, they’re also extremely competitive. Instead, you want to create pages that capture a specific and valuable user intent.",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/67",
+      "text": "As an example, say we’re a startup that sells flowers (let’s call it “Petal to the Metal”). We should not be trying to rank for keywords such as “flowers” or “red roses”. Not only are those terrible keywords because they have no user intent, they’re also extremely competitive. Instead, you want to create pages that capture a specific and valuable user intent."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "SEO isn’t about capturing the top keywords — it’s about capturing the long-tail of keywords",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/68",
+      "text": "SEO isn’t about capturing the top keywords — it’s about capturing the long-tail of keywords"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/69",
+      "text": "."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Sure, you won’t catch the white whale of “flowers”, but if you can capture all of the keywords that follow a common formula such as “{flower type} for sale in {location}”, you’re going to be capturing valuable, high converting traffic and see a much higher ROI. Your goal should be to niche down when you start, and as you grow in authority, create more pages and move into new keyword spaces*.*",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/70",
+      "text": "Sure, you won’t catch the white whale of “flowers”, but if you can capture all of the keywords that follow a common formula such as “{flower type} for sale in {location}”, you’re going to be capturing valuable, high converting traffic and see a much higher ROI. Your goal should be to niche down when you start, and as you grow in authority, create more pages and move into new keyword spaces*.*"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "So, as a next step, figure out what niches and keyword spaces could work best for your business. How? Creativity, imagination, and stealing ideas from your competitors. Some of the keyword spaces you’ll want to move into are going to be painfully obvious. In the case of Upsolve, which is a non-profit startup that helps individuals file bankruptcy for free, the obvious space we wanted to move into was “how to file for bankruptcy in {state}”.  When it’s not obvious, you’ll have to get creative with the data that you have at hand, and figure out what type of searches users are performing that (1) you can answer and (2) will lead to intentful actions (e.g. sign up, book, purchase).",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/71",
+      "text": "So, as a next step, figure out what niches and keyword spaces could work best for your business. How? Creativity, imagination, and stealing ideas from your competitors. Some of the keyword spaces you’ll want to move into are going to be painfully obvious. In the case of Upsolve, which is a non-profit startup that helps individuals file bankruptcy for free, the obvious space we wanted to move into was “how to file for bankruptcy in {state}”.  When it’s not obvious, you’ll have to get creative with the data that you have at hand, and figure out what type of searches users are performing that (1) you can answer and (2) will lead to intentful actions (e.g. sign up, book, purchase)."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "When you consider different keyword spaces, it’s important to look at search volumes for those keywords. A few tools I recommend are",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/72",
+      "text": "When you consider different keyword spaces, it’s important to look at search volumes for those keywords. A few tools I recommend are"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://ads.google.com/home/tools/keyword-planner/",
+      "label": "text",
+      "meta": null,
+      "orig": "Google Keyword Planner",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/73",
+      "text": "Google Keyword Planner"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(free),",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/74",
+      "text": "(free),"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.semrush.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "SEMRush",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/75",
+      "text": "SEMRush"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "($), or",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/76",
+      "text": "($), or"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://ahrefs.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "Ahrefs",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/77",
+      "text": "Ahrefs"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "($).",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/78",
+      "text": "($)."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "How do I create high-quality pages programmatically?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/79",
+      "text": "How do I create high-quality pages programmatically?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "There’s an oft-repeated, and accurate, phrase in SEO circles: Content is king. Simply put, the more high-quality content that you have, the more traffic that you get. There’s a reason why Nerdwallet’s entire SEO strategy is centered around producing extremely high-quality content (written by Pulitzer Prize winners).",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/80",
+      "text": "There’s an oft-repeated, and accurate, phrase in SEO circles: Content is king. Simply put, the more high-quality content that you have, the more traffic that you get. There’s a reason why Nerdwallet’s entire SEO strategy is centered around producing extremely high-quality content (written by Pulitzer Prize winners)."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://substackcdn.com/image/fetch/$s_!-8Ff!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F33c84d3b-ae10-4c74-9fac-abcdd407e996_595x1020.png",
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Winning at SEO",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/81",
+      "text": "Image from Winning at SEO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "There’s also a reason why every single recipe website you’ve ever visited has that long and obnoxious intro text about the recipe — text is the primary signal that Google uses to rank your pages.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/82",
+      "text": "There’s also a reason why every single recipe website you’ve ever visited has that long and obnoxious intro text about the recipe — text is the primary signal that Google uses to rank your pages."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Every page on your website is a piece of content, and your goal is to produce as many",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/83",
+      "text": "Every page on your website is a piece of content, and your goal is to produce as many"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "high-quality",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/84",
+      "text": "high-quality"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "pieces of content as possible. But, unlike Nerdwallet or recipe websites, you don’t have the time or resources to write detailed blog posts and long-winded stories about how much your dog loves your lemon crinkle cookies.",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/85",
+      "text": "pieces of content as possible. But, unlike Nerdwallet or recipe websites, you don’t have the time or resources to write detailed blog posts and long-winded stories about how much your dog loves your lemon crinkle cookies."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Instead, you’ll want to create the content programmatically, using the data points that you’ve outlined in the previous exercise, and then apply it to the keywords that you’re targeting. Think of your page as a very elaborate page from a Mad Libs, and you’re using internal and publicly available data to fill in the blanks.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/86",
+      "text": "Instead, you’ll want to create the content programmatically, using the data points that you’ve outlined in the previous exercise, and then apply it to the keywords that you’re targeting. Think of your page as a very elaborate page from a Mad Libs, and you’re using internal and publicly available data to fill in the blanks."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Now comes the fun part. Using the data points you noted in the previous step, sketch out your",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/87",
+      "text": "Now comes the fun part. Using the data points you noted in the previous step, sketch out your"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "ideal web page",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/88",
+      "text": "ideal web page"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". Create a page that has all of the information you have at your disposal, for the keyword that you’re trying to target. Here’s a sketch I made for our flower startup:",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/89",
+      "text": ". Create a page that has all of the information you have at your disposal, for the keyword that you’re trying to target. Here’s a sketch I made for our flower startup:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://substackcdn.com/image/fetch/$s_!1eHr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd3358ab-bcce-40f9-b221-ad9d35fe7eba_586x949.png",
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Winning at SEO",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/90",
+      "text": "Image from Winning at SEO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "As a side note, if you have access to user-generated content, this is the best kind of content to use — it provides natural, keyword-rich content that is useful to both your users and Google.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/91",
+      "text": "As a side note, if you have access to user-generated content, this is the best kind of content to use — it provides natural, keyword-rich content that is useful to both your users and Google."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "As you create this page, make sure to think about how these pages scale based on the quality of the data that you have. Since we’re creating one template to generate potentially hundreds or thousands of pages, you need to think about what the pages look like in the best AND worst-case scenario. For example, Strava’s San Francisco running routes page is going to look a hell of a lot better than their Fresno one, because of the amount of quality data that they’ll have from their users. You’ll want to make sure that you can maintain a good bar of quality on your lesser popular pages. If the pages don’t meet your minimum bar of quality, cut them out by blocking Google from accessing them (by",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/92",
+      "text": "As you create this page, make sure to think about how these pages scale based on the quality of the data that you have. Since we’re creating one template to generate potentially hundreds or thousands of pages, you need to think about what the pages look like in the best AND worst-case scenario. For example, Strava’s San Francisco running routes page is going to look a hell of a lot better than their Fresno one, because of the amount of quality data that they’ll have from their users. You’ll want to make sure that you can maintain a good bar of quality on your lesser popular pages. If the pages don’t meet your minimum bar of quality, cut them out by blocking Google from accessing them (by"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://developers.google.com/search/reference/robots_meta_tag#robotsmeta",
+      "label": "text",
+      "meta": null,
+      "orig": "adding a noindex tag",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/93",
+      "text": "adding a noindex tag"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "or",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/94",
+      "text": "or"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://support.google.com/webmasters/answer/6062596?hl=en",
+      "label": "text",
+      "meta": null,
+      "orig": "blocking it on the robots.txt",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/95",
+      "text": "blocking it on the robots.txt"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ").",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/96",
+      "text": ")."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://substackcdn.com/image/fetch/$s_!ccxR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F450697ec-a0d8-4bc8-9a36-733241cecdf4_2171x1094.png",
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Winning at SEO",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/97",
+      "text": "Image from Winning at SEO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://substackcdn.com/image/fetch/$s_!rYlv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2caa6849-7bfd-424e-b689-fe4e95866031_1569x976.png",
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Winning at SEO",
+      "parent": {
+        "$ref": "#/groups/18"
+      },
+      "prov": [],
+      "self_ref": "#/texts/98",
+      "text": "Image from Winning at SEO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Going back to our imaginary Flower startup, we’ve decided that we’re going to create pages that are competing for the keyword “{flower type} + {city name}”. We’re a San Francisco based company so our data is going to be most robust in SF, while the data that we have in Fresno is quite limited. Below is an example of what I’d put together to help me figure out what content I have and don’t have:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/99",
+      "text": "Going back to our imaginary Flower startup, we’ve decided that we’re going to create pages that are competing for the keyword “{flower type} + {city name}”. We’re a San Francisco based company so our data is going to be most robust in SF, while the data that we have in Fresno is quite limited. Below is an example of what I’d put together to help me figure out what content I have and don’t have:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://substackcdn.com/image/fetch/$s_!zvaT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5a83e4b2-a40a-43ad-a18c-c26d4a0ceb11_1196x596.png",
+      "label": "text",
+      "meta": null,
+      "orig": "Image from Winning at SEO",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/100",
+      "text": "Image from Winning at SEO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Looking at the spreadsheet, the Fresno page we’re creating is quite weak. It’s missing five of the nine data-points, and key information like flower arrangements and local flower shops in the area aren’t available. The next step is to think of ways to increase the quality of the data for our lesser-known locations. We can bootstrap the data that’s needed, such as hooking into the Yelp API to pull the local flower shops in cities that are missing that data, or using some of our existing data to craft a workaround. In this case, we could show popular flower arrangements available in nearby cities or programmatically create flower arrangements based on what individual flowers are available in a city.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/101",
+      "text": "Looking at the spreadsheet, the Fresno page we’re creating is quite weak. It’s missing five of the nine data-points, and key information like flower arrangements and local flower shops in the area aren’t available. The next step is to think of ways to increase the quality of the data for our lesser-known locations. We can bootstrap the data that’s needed, such as hooking into the Yelp API to pull the local flower shops in cities that are missing that data, or using some of our existing data to craft a workaround. In this case, we could show popular flower arrangements available in nearby cities or programmatically create flower arrangements based on what individual flowers are available in a city."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "What features do I need to create on each page for Google to love it?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/102",
+      "text": "What features do I need to create on each page for Google to love it?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "As important as content is to SEO, there are also a couple of important SEO tricks to keep in mind when designing your pages. This section will be more prescriptive and tactical than previous sections, but will introduce some SEO fundamentals that will help you avoid the most common SEO mistakes:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/103",
+      "text": "As important as content is to SEO, there are also a couple of important SEO tricks to keep in mind when designing your pages. This section will be more prescriptive and tactical than previous sections, but will introduce some SEO fundamentals that will help you avoid the most common SEO mistakes:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/20"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/104",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Title tags:",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/105",
+      "text": "Title tags:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "You should always have a relevant and unique title tag on every single page. This is literally the most important SEO tag that you can have. It’s also one of your primary levers of optimization if your pages aren’t performing well. Your title tag is usually going to be whatever keyword space that you were designing for in the previous exercises.",
+      "parent": {
+        "$ref": "#/groups/20"
+      },
+      "prov": [],
+      "self_ref": "#/texts/106",
+      "text": "You should always have a relevant and unique title tag on every single page. This is literally the most important SEO tag that you can have. It’s also one of your primary levers of optimization if your pages aren’t performing well. Your title tag is usually going to be whatever keyword space that you were designing for in the previous exercises."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/21"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/107",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Internal linking:",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/108",
+      "text": "Internal linking:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "This is far and away the most overlooked SEO feature. This is the biggest optimization recommendation that I make to every company that I’ve ever consulted for. Internal links are links that you have on your page that point to a different page that is still on your domain. This is",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/109",
+      "text": "This is far and away the most overlooked SEO feature. This is the biggest optimization recommendation that I make to every company that I’ve ever consulted for. Internal links are links that you have on your page that point to a different page that is still on your domain. This is"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "extremely",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/110",
+      "text": "extremely"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "important, as Google uses internal linking as a means of determining the hierarchy of information on your site (the more internal links pointing to a page, the more important it is), and how they discover new pages on your site. It doesn’t matter how great your content is if Google can’t find the page. Typical solutions to internal linking are recommended products, nearby locations, and “other {thing} people liked.”",
+      "parent": {
+        "$ref": "#/groups/21"
+      },
+      "prov": [],
+      "self_ref": "#/texts/111",
+      "text": "important, as Google uses internal linking as a means of determining the hierarchy of information on your site (the more internal links pointing to a page, the more important it is), and how they discover new pages on your site. It doesn’t matter how great your content is if Google can’t find the page. Typical solutions to internal linking are recommended products, nearby locations, and “other {thing} people liked.”"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/22"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/112",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Robots.txt:",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "prov": [],
+      "self_ref": "#/texts/113",
+      "text": "Robots.txt:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "The robots.txt is used to tell crawlers where they’re allowed to crawl and not crawl on your site. This is important because you probably don’t want Google crawling every single page of your website. More pages are better, but not all pages bring in valuable traffic. Make use of the robots.txt to set up guardrail where Google is allowed to crawl. The more time that Google spends on the pages that you care about, the better you usually perform. After all, Google has a finite amount of resources it will spend to crawl your page. If it’s wasting all of its time crawling a useless set of pages (such as user profile pages), it won’t have time to get to the pages that matter.",
+      "parent": {
+        "$ref": "#/groups/22"
+      },
+      "prov": [],
+      "self_ref": "#/texts/114",
+      "text": "The robots.txt is used to tell crawlers where they’re allowed to crawl and not crawl on your site. This is important because you probably don’t want Google crawling every single page of your website. More pages are better, but not all pages bring in valuable traffic. Make use of the robots.txt to set up guardrail where Google is allowed to crawl. The more time that Google spends on the pages that you care about, the better you usually perform. After all, Google has a finite amount of resources it will spend to crawl your page. If it’s wasting all of its time crawling a useless set of pages (such as user profile pages), it won’t have time to get to the pages that matter."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/23"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/115",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Javascript rendering:",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/116",
+      "text": "Javascript rendering:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Google has the easiest time reading a page if it’s served in plain HTML. There’s quite a bit of debate in the SEO community about how well Google is able to render Javascript, but the way I see it, you want to make it as easy as possible for Google to crawl your pages. Making Google put in extra effort to view the content on your page is just a bad idea. If you care about SEO at all, figure out a way to make sure that your logged-out pages are served server-side. You can do your fancy Javascript stuff once a user signs in.",
+      "parent": {
+        "$ref": "#/groups/23"
+      },
+      "prov": [],
+      "self_ref": "#/texts/117",
+      "text": "Google has the easiest time reading a page if it’s served in plain HTML. There’s quite a bit of debate in the SEO community about how well Google is able to render Javascript, but the way I see it, you want to make it as easy as possible for Google to crawl your pages. Making Google put in extra effort to view the content on your page is just a bad idea. If you care about SEO at all, figure out a way to make sure that your logged-out pages are served server-side. You can do your fancy Javascript stuff once a user signs in."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/24"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/19"
+      },
+      "prov": [],
+      "self_ref": "#/texts/118",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Schema markup:",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/119",
+      "text": "Schema markup:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’ve ever wondered how search results sometimes include fancy features on the result pages, such as the number of stars your product has, inventory, or the number of reviews, it is done through schema markup. There are possible many enhancements, so I’ll just point you to",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/120",
+      "text": "If you’ve ever wondered how search results sometimes include fancy features on the result pages, such as the number of stars your product has, inventory, or the number of reviews, it is done through schema markup. There are possible many enhancements, so I’ll just point you to"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://developers.google.com/search/docs/guides/search-gallery",
+      "label": "text",
+      "meta": null,
+      "orig": "Google’s official documentation",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/121",
+      "text": "Google’s official documentation"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/groups/24"
+      },
+      "prov": [],
+      "self_ref": "#/texts/122",
+      "text": "."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "There’s a lot more to consider when working on SEO, but I’ve touched on what I believe are the most important and impactful elements to get right. To go deeper, definitely do your own research, starting with",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/123",
+      "text": "There’s a lot more to consider when working on SEO, but I’ve touched on what I believe are the most important and impactful elements to get right. To go deeper, definitely do your own research, starting with"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://support.google.com/webmasters/answer/7451184?hl=en",
+      "label": "text",
+      "meta": null,
+      "orig": "Google’s documentation",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/124",
+      "text": "Google’s documentation"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ".",
+      "parent": {
+        "$ref": "#/groups/25"
+      },
+      "prov": [],
+      "self_ref": "#/texts/125",
+      "text": "."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "Closing Thoughts",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/126",
+      "text": "Closing Thoughts"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Don’t overcomplicate your SEO strategy. Your goal should be to get from 0 - 80%, and that’s usually more than enough to get competitive in your space. Get your pages live and out there, make sure you’re targeting the correct keywords, and get your SEO fundamentals in place (e.g. title tags, internal linking, high-quality content). With this, you’ll be on your way to winning organic search.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/127",
+      "text": "Don’t overcomplicate your SEO strategy. Your goal should be to get from 0 - 80%, and that’s usually more than enough to get competitive in your space. Get your pages live and out there, make sure you’re targeting the correct keywords, and get your SEO fundamentals in place (e.g. title tags, internal linking, high-quality content). With this, you’ll be on your way to winning organic search."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "A few final tips and reminders:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/128",
+      "text": "A few final tips and reminders:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/27"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "prov": [],
+      "self_ref": "#/texts/129",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Not all keyword spaces are winnable.",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "prov": [],
+      "self_ref": "#/texts/130",
+      "text": "Not all keyword spaces are winnable."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Know which ones aren’t (travel), and hold off on a serious SEO strategy until you’re further along.",
+      "parent": {
+        "$ref": "#/groups/27"
+      },
+      "prov": [],
+      "self_ref": "#/texts/131",
+      "text": "Know which ones aren’t (travel), and hold off on a serious SEO strategy until you’re further along."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/28"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "prov": [],
+      "self_ref": "#/texts/132",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Create pages that are niche",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "prov": [],
+      "self_ref": "#/texts/133",
+      "text": "Create pages that are niche"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", and once you have a foothold go up the funnel.",
+      "parent": {
+        "$ref": "#/groups/28"
+      },
+      "prov": [],
+      "self_ref": "#/texts/134",
+      "text": ", and once you have a foothold go up the funnel."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/29"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "prov": [],
+      "self_ref": "#/texts/135",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "SEO is creating high-quality content at scale",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "prov": [],
+      "self_ref": "#/texts/136",
+      "text": "SEO is creating high-quality content at scale"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". Maintain that minimum quality bar, and do it cheaply. Your time is valuable, spend it wisely.",
+      "parent": {
+        "$ref": "#/groups/29"
+      },
+      "prov": [],
+      "self_ref": "#/texts/137",
+      "text": ". Maintain that minimum quality bar, and do it cheaply. Your time is valuable, spend it wisely."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/30"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "prov": [],
+      "self_ref": "#/texts/138",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Simple is better.",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "prov": [],
+      "self_ref": "#/texts/139",
+      "text": "Simple is better."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Don’t overcomplicate.",
+      "parent": {
+        "$ref": "#/groups/30"
+      },
+      "prov": [],
+      "self_ref": "#/texts/140",
+      "text": "Don’t overcomplicate."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/31"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "prov": [],
+      "self_ref": "#/texts/141",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Traffic is a vanity metric",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "prov": [],
+      "self_ref": "#/texts/142",
+      "text": "Traffic is a vanity metric"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". Traffic that converts is what you’re after. It’s easy to forget when you’re chasing traffic highs.",
+      "parent": {
+        "$ref": "#/groups/31"
+      },
+      "prov": [],
+      "self_ref": "#/texts/143",
+      "text": ". Traffic that converts is what you’re after. It’s easy to forget when you’re chasing traffic highs."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/32"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/26"
+      },
+      "prov": [],
+      "self_ref": "#/texts/144",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "The faster your site is, the better",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "prov": [],
+      "self_ref": "#/texts/145",
+      "text": "The faster your site is, the better"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". Your users don’t like slow websites, Google doesn’t like slow websites.",
+      "parent": {
+        "$ref": "#/groups/32"
+      },
+      "prov": [],
+      "self_ref": "#/texts/146",
+      "text": ". Your users don’t like slow websites, Google doesn’t like slow websites."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "Bonus: SEO myths",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/147",
+      "text": "Bonus: SEO myths"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Common misconceptions about SEO:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/148",
+      "text": "Common misconceptions about SEO:"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/34"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "prov": [],
+      "self_ref": "#/texts/149",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "You need to build backlinks:",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "prov": [],
+      "self_ref": "#/texts/150",
+      "text": "You need to build backlinks:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Don’t worry about backlinks. They’re probably not holding you back (lol), and they’re unlikely to be the game-changer that you think they’ll be.",
+      "parent": {
+        "$ref": "#/groups/34"
+      },
+      "prov": [],
+      "self_ref": "#/texts/151",
+      "text": "Don’t worry about backlinks. They’re probably not holding you back (lol), and they’re unlikely to be the game-changer that you think they’ll be."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/35"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "prov": [],
+      "self_ref": "#/texts/152",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "It’ll take 6 months for SEO to work:",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "prov": [],
+      "self_ref": "#/texts/153",
+      "text": "It’ll take 6 months for SEO to work:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "This number is probably closer to 3 months, but if you’re doing things right and are in the right space, you’ll see progress within a month.",
+      "parent": {
+        "$ref": "#/groups/35"
+      },
+      "prov": [],
+      "self_ref": "#/texts/154",
+      "text": "This number is probably closer to 3 months, but if you’re doing things right and are in the right space, you’ll see progress within a month."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/36"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "prov": [],
+      "self_ref": "#/texts/155",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "You need to hire a full-time SEO to get it right:",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "prov": [],
+      "self_ref": "#/texts/156",
+      "text": "You need to hire a full-time SEO to get it right:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "You don’t. SEO is not that hard.",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "prov": [],
+      "self_ref": "#/texts/157",
+      "text": "You don’t. SEO is not that hard."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Especially",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "prov": [],
+      "self_ref": "#/texts/158",
+      "text": "Especially"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "if you’re a small startup with complete control of your entire site. Find a trustworthy consultant that can point you in the right direction and have them meet with your engineering team. Some of the most impactful experiments and features that I’ve helped launch came from the designers and engineers on our team. Get your hands dirty, and I assure you that it’s easier than it seems.",
+      "parent": {
+        "$ref": "#/groups/36"
+      },
+      "prov": [],
+      "self_ref": "#/texts/159",
+      "text": "if you’re a small startup with complete control of your entire site. Find a trustworthy consultant that can point you in the right direction and have them meet with your engineering team. Some of the most impactful experiments and features that I’ve helped launch came from the designers and engineers on our team. Get your hands dirty, and I assure you that it’s easier than it seems."
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/37"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/33"
+      },
+      "prov": [],
+      "self_ref": "#/texts/160",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "There’s no way to run SEO experiments:",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "prov": [],
+      "self_ref": "#/texts/161",
+      "text": "There’s no way to run SEO experiments:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Here are two",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "prov": [],
+      "self_ref": "#/texts/162",
+      "text": "Here are two"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://medium.com/airbnb-engineering/experimentation-measurement-for-search-engine-optimization-b64136629760",
+      "label": "text",
+      "meta": null,
+      "orig": "great",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "prov": [],
+      "self_ref": "#/texts/163",
+      "text": "great"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.growthengblog.com/blog/2018/4/15/scaling-new-growth-opportunities-series-seo-basics",
+      "label": "text",
+      "meta": null,
+      "orig": "references",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "prov": [],
+      "self_ref": "#/texts/164",
+      "text": "references"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "for SEO experimentation.  Keep in mind that just because you can run experiments, doesn’t mean that you should. Experiments are run when you’re unsure about a change or trying to optimize something. If your SEO isn’t in good shape, it’s smarter just to ship.",
+      "parent": {
+        "$ref": "#/groups/37"
+      },
+      "prov": [],
+      "self_ref": "#/texts/165",
+      "text": "for SEO experimentation.  Keep in mind that just because you can run experiments, doesn’t mean that you should. Experiments are run when you’re unsure about a change or trying to optimize something. If your SEO isn’t in good shape, it’s smarter just to ship."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "For more, follow me on",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "prov": [],
+      "self_ref": "#/texts/166",
+      "text": "For more, follow me on"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://twitter.com/fanfavorite_bta?lang=en",
+      "label": "text",
+      "meta": null,
+      "orig": "Twitter",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "prov": [],
+      "self_ref": "#/texts/167",
+      "text": "Twitter"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "and",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "prov": [],
+      "self_ref": "#/texts/168",
+      "text": "and"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.linkedin.com/in/brianta626/",
+      "label": "text",
+      "meta": null,
+      "orig": "LinkedIn",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "prov": [],
+      "self_ref": "#/texts/169",
+      "text": "LinkedIn"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". If you're a startup and looking for someone to help with SEO advising or consulting, my",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "prov": [],
+      "self_ref": "#/texts/170",
+      "text": ". If you're a startup and looking for someone to help with SEO advising or consulting, my"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://twitter.com/fanfavorite_bta?lang=en",
+      "label": "text",
+      "meta": null,
+      "orig": "Twitter DMs",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "prov": [],
+      "self_ref": "#/texts/171",
+      "text": "Twitter DMs"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "are open.",
+      "parent": {
+        "$ref": "#/groups/38"
+      },
+      "prov": [],
+      "self_ref": "#/texts/172",
+      "text": "are open."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "🔥 Job opportunities (new)",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/173",
+      "text": "🔥 Job opportunities (new)"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/40"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "prov": [],
+      "self_ref": "#/texts/174",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Product Manager:",
+      "parent": {
+        "$ref": "#/groups/40"
+      },
+      "prov": [],
+      "self_ref": "#/texts/175",
+      "text": "Product Manager:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://jobs.lever.co/outschool/19e1866e-b599-4296-b452-0f40ca4de630",
+      "label": "text",
+      "meta": null,
+      "orig": "Outschool",
+      "parent": {
+        "$ref": "#/groups/40"
+      },
+      "prov": [],
+      "self_ref": "#/texts/176",
+      "text": "Outschool"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/41"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "prov": [],
+      "self_ref": "#/texts/177",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Growth:",
+      "parent": {
+        "$ref": "#/groups/41"
+      },
+      "prov": [],
+      "self_ref": "#/texts/178",
+      "text": "Growth:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://jobs.lever.co/airhouse/2fa1feb6-f994-4de2-8611-3ecf0abde767",
+      "label": "text",
+      "meta": null,
+      "orig": "Airhouse",
+      "parent": {
+        "$ref": "#/groups/41"
+      },
+      "prov": [],
+      "self_ref": "#/texts/179",
+      "text": "Airhouse"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/41"
+      },
+      "prov": [],
+      "self_ref": "#/texts/180",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.linkedin.com/jobs/view/1858997263/",
+      "label": "text",
+      "meta": null,
+      "orig": "Cerebral",
+      "parent": {
+        "$ref": "#/groups/41"
+      },
+      "prov": [],
+      "self_ref": "#/texts/181",
+      "text": "Cerebral"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/42"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "prov": [],
+      "self_ref": "#/texts/182",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Design:",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "prov": [],
+      "self_ref": "#/texts/183",
+      "text": "Design:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.cascade.io/jobs/analytical-product-designer",
+      "label": "text",
+      "meta": null,
+      "orig": "Cascade",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "prov": [],
+      "self_ref": "#/texts/184",
+      "text": "Cascade"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "prov": [],
+      "self_ref": "#/texts/185",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/Lead-Designer-first-design-hire-da77a3e4cfe94dfa80b4a4d4e01af034",
+      "label": "text",
+      "meta": null,
+      "orig": "Pairplay",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "prov": [],
+      "self_ref": "#/texts/186",
+      "text": "Pairplay"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "prov": [],
+      "self_ref": "#/texts/187",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://jobs.lever.co/pachama/f4f49853-9d59-4dcc-9d0b-143ca63a53d2",
+      "label": "text",
+      "meta": null,
+      "orig": "Pachama",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "prov": [],
+      "self_ref": "#/texts/188",
+      "text": "Pachama"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "prov": [],
+      "self_ref": "#/texts/189",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/Founding-Designer-San-Francisco-d1296f25efcc43a7833fd28ea3952b39",
+      "label": "text",
+      "meta": null,
+      "orig": "Primer",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "prov": [],
+      "self_ref": "#/texts/190",
+      "text": "Primer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "prov": [],
+      "self_ref": "#/texts/191",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://sourcetable.com/jobs#contract-designer",
+      "label": "text",
+      "meta": null,
+      "orig": "Sourcetable",
+      "parent": {
+        "$ref": "#/groups/42"
+      },
+      "prov": [],
+      "self_ref": "#/texts/192",
+      "text": "Sourcetable"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/43"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "prov": [],
+      "self_ref": "#/texts/193",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Frontend engineer:",
+      "parent": {
+        "$ref": "#/groups/43"
+      },
+      "prov": [],
+      "self_ref": "#/texts/194",
+      "text": "Frontend engineer:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.cascade.io/jobs/front-end-product-engineer",
+      "label": "text",
+      "meta": null,
+      "orig": "Cascade",
+      "parent": {
+        "$ref": "#/groups/43"
+      },
+      "prov": [],
+      "self_ref": "#/texts/195",
+      "text": "Cascade"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/43"
+      },
+      "prov": [],
+      "self_ref": "#/texts/196",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/Founding-Frontend-Engineer-San-Francisco-783c2072b9c047a88cb884babb47ef04",
+      "label": "text",
+      "meta": null,
+      "orig": "Primer",
+      "parent": {
+        "$ref": "#/groups/43"
+      },
+      "prov": [],
+      "self_ref": "#/texts/197",
+      "text": "Primer"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/43"
+      },
+      "prov": [],
+      "self_ref": "#/texts/198",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://transformdata.io/careers/",
+      "label": "text",
+      "meta": null,
+      "orig": "Transform",
+      "parent": {
+        "$ref": "#/groups/43"
+      },
+      "prov": [],
+      "self_ref": "#/texts/199",
+      "text": "Transform"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/44"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "prov": [],
+      "self_ref": "#/texts/200",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Backend engineer:",
+      "parent": {
+        "$ref": "#/groups/44"
+      },
+      "prov": [],
+      "self_ref": "#/texts/201",
+      "text": "Backend engineer:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://sourcetable.com/jobs#backend-god",
+      "label": "text",
+      "meta": null,
+      "orig": "Sourcetable",
+      "parent": {
+        "$ref": "#/groups/44"
+      },
+      "prov": [],
+      "self_ref": "#/texts/202",
+      "text": "Sourcetable"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/45"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "prov": [],
+      "self_ref": "#/texts/203",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Fullstack engineer:",
+      "parent": {
+        "$ref": "#/groups/45"
+      },
+      "prov": [],
+      "self_ref": "#/texts/204",
+      "text": "Fullstack engineer:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/Software-Developer-e7cad269968e4d5aaeb1f6da9e282626",
+      "label": "text",
+      "meta": null,
+      "orig": "Centered",
+      "parent": {
+        "$ref": "#/groups/45"
+      },
+      "prov": [],
+      "self_ref": "#/texts/205",
+      "text": "Centered"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/45"
+      },
+      "prov": [],
+      "self_ref": "#/texts/206",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://projectwren.com/careers/software-engineer",
+      "label": "text",
+      "meta": null,
+      "orig": "Wren",
+      "parent": {
+        "$ref": "#/groups/45"
+      },
+      "prov": [],
+      "self_ref": "#/texts/207",
+      "text": "Wren"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/46"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "prov": [],
+      "self_ref": "#/texts/208",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "iOS engineer:",
+      "parent": {
+        "$ref": "#/groups/46"
+      },
+      "prov": [],
+      "self_ref": "#/texts/209",
+      "text": "iOS engineer:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://docs.google.com/document/d/1ZpH5WMQqg337hxpHMZGMPjmmzSfVRJdK76Lof8mw_V0/edit#",
+      "label": "text",
+      "meta": null,
+      "orig": "Ideaflow",
+      "parent": {
+        "$ref": "#/groups/46"
+      },
+      "prov": [],
+      "self_ref": "#/texts/210",
+      "text": "Ideaflow"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/46"
+      },
+      "prov": [],
+      "self_ref": "#/texts/211",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/Lead-iOS-Developer-ba18577b6ba44ad68e45b8e7a957353c",
+      "label": "text",
+      "meta": null,
+      "orig": "Pairplay",
+      "parent": {
+        "$ref": "#/groups/46"
+      },
+      "prov": [],
+      "self_ref": "#/texts/212",
+      "text": "Pairplay"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/46"
+      },
+      "prov": [],
+      "self_ref": "#/texts/213",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.notion.so/Founding-Mobile-iOS-Engineer-San-Francisco-77c9499922c246899348fd27eb017484",
+      "label": "text",
+      "meta": null,
+      "orig": "Primer",
+      "parent": {
+        "$ref": "#/groups/46"
+      },
+      "prov": [],
+      "self_ref": "#/texts/214",
+      "text": "Primer"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/47"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "prov": [],
+      "self_ref": "#/texts/215",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Engineering exec:",
+      "parent": {
+        "$ref": "#/groups/47"
+      },
+      "prov": [],
+      "self_ref": "#/texts/216",
+      "text": "Engineering exec:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://angel.co/company/cerebral-4/jobs/535826-vp-of-engineering",
+      "label": "text",
+      "meta": null,
+      "orig": "Cerebral",
+      "parent": {
+        "$ref": "#/groups/47"
+      },
+      "prov": [],
+      "self_ref": "#/texts/217",
+      "text": "Cerebral"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/47"
+      },
+      "prov": [],
+      "self_ref": "#/texts/218",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://jobs.lever.co/snackpass/74686298-a043-4976-8f77-f4ef643f4200",
+      "label": "text",
+      "meta": null,
+      "orig": "Snackpass",
+      "parent": {
+        "$ref": "#/groups/47"
+      },
+      "prov": [],
+      "self_ref": "#/texts/219",
+      "text": "Snackpass"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/48"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "prov": [],
+      "self_ref": "#/texts/220",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Sales/BD:",
+      "parent": {
+        "$ref": "#/groups/48"
+      },
+      "prov": [],
+      "self_ref": "#/texts/221",
+      "text": "Sales/BD:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://angel.co/company/kudo-meeting/jobs/649855-vice-president-of-sales",
+      "label": "text",
+      "meta": null,
+      "orig": "KUDO",
+      "parent": {
+        "$ref": "#/groups/48"
+      },
+      "prov": [],
+      "self_ref": "#/texts/222",
+      "text": "KUDO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/48"
+      },
+      "prov": [],
+      "self_ref": "#/texts/223",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://jobs.lever.co/pachama/996cdde4-737b-4794-ad0f-d726448c3dfb",
+      "label": "text",
+      "meta": null,
+      "orig": "Pachama",
+      "parent": {
+        "$ref": "#/groups/48"
+      },
+      "prov": [],
+      "self_ref": "#/texts/224",
+      "text": "Pachama"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/groups/48"
+      },
+      "prov": [],
+      "self_ref": "#/texts/225",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://angel.co/company/swayable/jobs/808347-director-of-sales",
+      "label": "text",
+      "meta": null,
+      "orig": "Swayable",
+      "parent": {
+        "$ref": "#/groups/48"
+      },
+      "prov": [],
+      "self_ref": "#/texts/226",
+      "text": "Swayable"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/49"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": false,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/39"
+      },
+      "prov": [],
+      "self_ref": "#/texts/227",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Security:",
+      "parent": {
+        "$ref": "#/groups/49"
+      },
+      "prov": [],
+      "self_ref": "#/texts/228",
+      "text": "Security:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://angel.co/company/kudo-meeting/jobs/592999-cybersecurity-compliance-program-manager",
+      "label": "text",
+      "meta": null,
+      "orig": "KUDO",
+      "parent": {
+        "$ref": "#/groups/49"
+      },
+      "prov": [],
+      "self_ref": "#/texts/229",
+      "text": "KUDO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 2,
+      "meta": null,
+      "orig": "🧠 Inspiration for the week ahead",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/230",
+      "text": "🧠 Inspiration for the week ahead"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/51"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/50"
+      },
+      "prov": [],
+      "self_ref": "#/texts/231",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Read",
+      "parent": {
+        "$ref": "#/groups/51"
+      },
+      "prov": [],
+      "self_ref": "#/texts/232",
+      "text": "Read"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ":",
+      "parent": {
+        "$ref": "#/groups/51"
+      },
+      "prov": [],
+      "self_ref": "#/texts/233",
+      "text": ":"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.theatlantic.com/family/archive/2020/05/how-choose-fulfilling-career/611920/",
+      "label": "text",
+      "meta": null,
+      "orig": "4 Rules for Identifying Your Life’s Work",
+      "parent": {
+        "$ref": "#/groups/51"
+      },
+      "prov": [],
+      "self_ref": "#/texts/234",
+      "text": "4 Rules for Identifying Your Life’s Work"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/52"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/50"
+      },
+      "prov": [],
+      "self_ref": "#/texts/235",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Listen",
+      "parent": {
+        "$ref": "#/groups/52"
+      },
+      "prov": [],
+      "self_ref": "#/texts/236",
+      "text": "Listen"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ":",
+      "parent": {
+        "$ref": "#/groups/52"
+      },
+      "prov": [],
+      "self_ref": "#/texts/237",
+      "text": ":"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://podcasts.apple.com/us/podcast/all-in-with-chamath-palihapitiya-jason-calacanis/id1502871393",
+      "label": "text",
+      "meta": null,
+      "orig": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "parent": {
+        "$ref": "#/groups/52"
+      },
+      "prov": [],
+      "self_ref": "#/texts/238",
+      "text": "All-In with Chamath, Jason, Sacks & Friedberg"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/53"
+        }
+      ],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": null,
+      "hyperlink": null,
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/groups/50"
+      },
+      "prov": [],
+      "self_ref": "#/texts/239",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Watch",
+      "parent": {
+        "$ref": "#/groups/53"
+      },
+      "prov": [],
+      "self_ref": "#/texts/240",
+      "text": "Watch"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ":",
+      "parent": {
+        "$ref": "#/groups/53"
+      },
+      "prov": [],
+      "self_ref": "#/texts/241",
+      "text": ":"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://vimeo.com/435609071",
+      "label": "text",
+      "meta": null,
+      "orig": "Solo Charleston: Don’t Forget to Mess Around!",
+      "parent": {
+        "$ref": "#/groups/53"
+      },
+      "prov": [],
+      "self_ref": "#/texts/242",
+      "text": "Solo Charleston: Don’t Forget to Mess Around!"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’re finding this newsletter valuable, consider",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/243",
+      "text": "If you’re finding this newsletter valuable, consider"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.lennyrachitsky.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "sharing it with friends",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/244",
+      "text": "sharing it with friends"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", or subscribing if you aren’t already.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/245",
+      "text": ", or subscribing if you aren’t already."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Sincerely,",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/246",
+      "text": "Sincerely,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Lenny 👋",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/247",
+      "text": "Lenny 👋"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Winning at SEO",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/248",
+      "text": "Image from Winning at SEO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Winning at SEO",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/249",
+      "text": "Image from Winning at SEO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Winning at SEO",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/250",
+      "text": "Image from Winning at SEO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Winning at SEO",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/251",
+      "text": "Image from Winning at SEO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Winning at SEO",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/252",
+      "text": "Image from Winning at SEO"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from Winning at SEO",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/253",
+      "text": "Image from Winning at SEO"
+    }
+  ],
+  "version": "1.10.0"
+}

@@ -1,0 +1,937 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000000",
+      "contextualized_text": "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics\n*👋 Hey,*\n[*Lenny*](https://twitter.com/lennysan)\n*here! Welcome to the ✨*\n***bonus free edition***\n*✨ of my weekly newsletter. Each week I tackle reader questions about building product, driving growth, working with humans, and anything else that’s stressing you out about work. If you’re not a subscriber, here’s what you missed this month:*\n1. [What is a good payback period](https://www.lennysnewsletter.com/p/payback-period)\n2. [What is product management](https://www.lennysnewsletter.com/p/what-is-product-management)\n3. [The most common pitfalls of new product managers](https://www.lennysnewsletter.com/p/product-manager-pitfalls)\n4. [The most important consumer metrics to track](https://www.lennysnewsletter.com/p/the-most-important-consumer-metrics)",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9"
+      ],
+      "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+      "headings": [
+        "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000000",
+        "chunk_sha256": "5e8de2b13128f7acb420739868339f4ab8822648966e898f9115815d2ac6e301",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.docling.json",
+        "docling_sha256": "de20863337237fefdc43be7d1fe5b7562cb4c4356789d9f9a7f6cc42cafd895a",
+        "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_sha256": "bbdf5c70867df533ee5a465d22f09ce96430f178bace0dae9b75186007de0ff7",
+        "fact_document_path": "chunks/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.chunks.json",
+        "headings": [
+          "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "raw_sha256": "c6fe3cda85173d8bed812018384b6c7c4dc0c14ba969570545a2605b5af1857e",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 9,
+          "last_self_ref": "#/texts/9"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "*👋 Hey,*\n[*Lenny*](https://twitter.com/lennysan)\n*here! Welcome to the ✨*\n***bonus free edition***\n*✨ of my weekly newsletter. Each week I tackle reader questions about building product, driving growth, working with humans, and anything else that’s stressing you out about work. If you’re not a subscriber, here’s what you missed this month:*\n1. [What is a good payback period](https://www.lennysnewsletter.com/p/payback-period)\n2. [What is product management](https://www.lennysnewsletter.com/p/what-is-product-management)\n3. [The most common pitfalls of new product managers](https://www.lennysnewsletter.com/p/product-manager-pitfalls)\n4. [The most important consumer metrics to track](https://www.lennysnewsletter.com/p/the-most-important-consumer-metrics)",
+      "token_count": 291
+    },
+    {
+      "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000001",
+      "contextualized_text": "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics\nQ: How do I become a more technical PM?\nAs you may know,\n[I took a crack at this question](https://www.lennysnewsletter.com/p/getting-more-technical)\na few months ago, and that post that turned out to be one of my all-time most popular posts. But considering how often I still get this question—clearly, questions remain. Also, with the rise of Web3, fintech, data infrastructure companies, and other deeply technical products, it’s only becoming more important for PMs to build their technical chops.\nTo help you develop those chops, I’ve pulled in\n[Justin Gage](https://randomshit.dev/)\n, author of the fantastic\n[Technically](https://technically.dev/)\nnewsletter (fittingly described as “a place for not software engineers to learn about software engineering”), to share his highly actionable tips on becoming a more technical PM. In my previous post on the subject, I linked to Justin’s newsletter numerous times, and that’s because he’s especially talented at explaining deeply technical subjects clearly and directly. We’re super-lucky to have Justin share his wisdom with us. And if you want to go deeper, definitely subscribe to\n[Technically](https://technically.dev/)\n.",
+      "doc_item_refs": [
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20"
+      ],
+      "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+      "headings": [
+        "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+        "Q: How do I become a more technical PM?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000001",
+        "chunk_sha256": "ce55f0366e57fb0ea9448e4e885ec72882a49254b51a403e405de5a101c1d584",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.docling.json",
+        "docling_sha256": "de20863337237fefdc43be7d1fe5b7562cb4c4356789d9f9a7f6cc42cafd895a",
+        "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_sha256": "bbdf5c70867df533ee5a465d22f09ce96430f178bace0dae9b75186007de0ff7",
+        "fact_document_path": "chunks/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.chunks.json",
+        "headings": [
+          "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+          "Q: How do I become a more technical PM?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "raw_sha256": "c6fe3cda85173d8bed812018384b6c7c4dc0c14ba969570545a2605b5af1857e",
+        "segment": {
+          "first_self_ref": "#/texts/11",
+          "item_count": 10,
+          "last_self_ref": "#/texts/20"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "As you may know,\n[I took a crack at this question](https://www.lennysnewsletter.com/p/getting-more-technical)\na few months ago, and that post that turned out to be one of my all-time most popular posts. But considering how often I still get this question—clearly, questions remain. Also, with the rise of Web3, fintech, data infrastructure companies, and other deeply technical products, it’s only becoming more important for PMs to build their technical chops.\nTo help you develop those chops, I’ve pulled in\n[Justin Gage](https://randomshit.dev/)\n, author of the fantastic\n[Technically](https://technically.dev/)\nnewsletter (fittingly described as “a place for not software engineers to learn about software engineering”), to share his highly actionable tips on becoming a more technical PM. In my previous post on the subject, I linked to Justin’s newsletter numerous times, and that’s because he’s especially talented at explaining deeply technical subjects clearly and directly. We’re super-lucky to have Justin share his wisdom with us. And if you want to go deeper, definitely subscribe to\n[Technically](https://technically.dev/)\n.",
+      "token_count": 334
+    },
+    {
+      "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000002",
+      "contextualized_text": "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics\nThe top 5 things PMs should know about engineering\n*by*\n[*Justin Gage*](https://randomshit.dev/)\nThere’s an old debate about how technically minded product managers should be. On the one hand, understanding your developers, their process, and their work is part and parcel of shipping products effectively. On the other hand, you don’t want to step on your engineers’ toes, and getting too deep into the codebase isn’t a great use of your time. One point we can all agree on, though: a strong technical knowledge foundation means a more effective PM. So in that spirit, this post will cover the top five technical things PMs should know.\nIf you don’t understand some of the ideas here, that’s fine! The more you work with engineers, the more comfortable you’ll get. And of course, every company is different; some companies hire only super-technical PMs, while others prefer generalists, or even design-focused ones. But no matter what, the more you understand, the better you’ll do.",
+      "doc_item_refs": [
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25"
+      ],
+      "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+      "headings": [
+        "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+        "The top 5 things PMs should know about engineering"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000002",
+        "chunk_sha256": "5617f8799494ff0ea670904511f61490dd4b6e6fbced383b5ce0995a27e44c62",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.docling.json",
+        "docling_sha256": "de20863337237fefdc43be7d1fe5b7562cb4c4356789d9f9a7f6cc42cafd895a",
+        "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_sha256": "bbdf5c70867df533ee5a465d22f09ce96430f178bace0dae9b75186007de0ff7",
+        "fact_document_path": "chunks/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.chunks.json",
+        "headings": [
+          "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+          "The top 5 things PMs should know about engineering"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "raw_sha256": "c6fe3cda85173d8bed812018384b6c7c4dc0c14ba969570545a2605b5af1857e",
+        "segment": {
+          "first_self_ref": "#/texts/22",
+          "item_count": 4,
+          "last_self_ref": "#/texts/25"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "*by*\n[*Justin Gage*](https://randomshit.dev/)\nThere’s an old debate about how technically minded product managers should be. On the one hand, understanding your developers, their process, and their work is part and parcel of shipping products effectively. On the other hand, you don’t want to step on your engineers’ toes, and getting too deep into the codebase isn’t a great use of your time. One point we can all agree on, though: a strong technical knowledge foundation means a more effective PM. So in that spirit, this post will cover the top five technical things PMs should know.\nIf you don’t understand some of the ideas here, that’s fine! The more you work with engineers, the more comfortable you’ll get. And of course, every company is different; some companies hire only super-technical PMs, while others prefer generalists, or even design-focused ones. But no matter what, the more you understand, the better you’ll do.",
+      "token_count": 275
+    },
+    {
+      "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000003",
+      "contextualized_text": "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics\nLearn #1: Your company’s tech stack\n**What to know:**\nWhat technologies your company’s app, site, and infrastructure use. For example,\n[Technically.dev](https://technically.dev/)\nis built with React and Next.js, deployed on Vercel, and written in HTML, CSS, and JavaScript.\nImage from The top 5 things PMs should know about engineering\nImage from The top 5 things PMs should know about engineering\n**Why it matters:**\nChoices of programming languages, frameworks, and infrastructure all come with important trade-offs that impact what might make a project something that could take a few hours, or a few weeks. If you’re using a NoSQL database, you can skip migrations when adding new features, but you might run into data quality issues. If parts of the stack are legacy, you may want to avoid projects that touch them. But perhaps more qualitatively, speaking the language of your engineers helps build trust and improves communication.\n**How to learn about it:**\nDo as much snooping as you can, and then just ask your team.\nFirst, look at your company’s GitHub repositories. You should be able to see what kinds of programming languages are in there, as well as any files or notes specific to what frameworks the app relies on. Here’s a screenshot of\n[Supabase’s main repo](https://github.com/supabase/supabase)\n, an open source Firebase competitor. Note how GitHub tells you what languages the code is in (on the bottom right):\nImage from The top 5 things PMs should know about engineering\nImage from The top 5 things PMs should know about engineering\nBeyond languages, the structure of your team’s project might indicate what frameworks they’re using. If you see some files prepended with .next, your team is probably using NextJS. If you see “import { useState } from ‘React’ ” in any files, your team is probably using React. Reading through code files isn’t too fun and is not the best use of your time, but peeping at a few can at least give you some grounding.\nAfter you’ve done your snooping work to impress them, just ask one of your developers.",
+      "doc_item_refs": [
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/171",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/172",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/41"
+      ],
+      "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+      "headings": [
+        "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+        "Learn #1: Your company’s tech stack"
+      ],
+      "images": [
+        {
+          "caption": "Image from The top 5 things PMs should know about engineering",
+          "image_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/d37cfdbc-e3d1-4cab-86c5-e76da0bc3557_3836x4000.png"
+        },
+        {
+          "caption": "Image from The top 5 things PMs should know about engineering",
+          "image_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a561381a-c242-4e06-b701-8776399361ee_1600x715.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000003",
+        "chunk_sha256": "7c34d36ea358517ae36b1b4cce64943a8c39bd28edffb80440b79eae114d6f5e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.docling.json",
+        "docling_sha256": "de20863337237fefdc43be7d1fe5b7562cb4c4356789d9f9a7f6cc42cafd895a",
+        "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_sha256": "bbdf5c70867df533ee5a465d22f09ce96430f178bace0dae9b75186007de0ff7",
+        "fact_document_path": "chunks/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.chunks.json",
+        "headings": [
+          "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+          "Learn #1: Your company’s tech stack"
+        ],
+        "images": [
+          {
+            "caption": "Image from The top 5 things PMs should know about engineering",
+            "image_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/d37cfdbc-e3d1-4cab-86c5-e76da0bc3557_3836x4000.png"
+          },
+          {
+            "caption": "Image from The top 5 things PMs should know about engineering",
+            "image_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a561381a-c242-4e06-b701-8776399361ee_1600x715.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "raw_sha256": "c6fe3cda85173d8bed812018384b6c7c4dc0c14ba969570545a2605b5af1857e",
+        "segment": {
+          "first_self_ref": "#/texts/27",
+          "item_count": 17,
+          "last_self_ref": "#/texts/41"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/171",
+          "#/texts/31",
+          "#/texts/32",
+          "#/texts/33",
+          "#/texts/34",
+          "#/texts/35",
+          "#/texts/36",
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/172",
+          "#/texts/39",
+          "#/texts/40",
+          "#/texts/41"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "**What to know:**\nWhat technologies your company’s app, site, and infrastructure use. For example,\n[Technically.dev](https://technically.dev/)\nis built with React and Next.js, deployed on Vercel, and written in HTML, CSS, and JavaScript.\nImage from The top 5 things PMs should know about engineering\nImage from The top 5 things PMs should know about engineering\n**Why it matters:**\nChoices of programming languages, frameworks, and infrastructure all come with important trade-offs that impact what might make a project something that could take a few hours, or a few weeks. If you’re using a NoSQL database, you can skip migrations when adding new features, but you might run into data quality issues. If parts of the stack are legacy, you may want to avoid projects that touch them. But perhaps more qualitatively, speaking the language of your engineers helps build trust and improves communication.\n**How to learn about it:**\nDo as much snooping as you can, and then just ask your team.\nFirst, look at your company’s GitHub repositories. You should be able to see what kinds of programming languages are in there, as well as any files or notes specific to what frameworks the app relies on. Here’s a screenshot of\n[Supabase’s main repo](https://github.com/supabase/supabase)\n, an open source Firebase competitor. Note how GitHub tells you what languages the code is in (on the bottom right):\nImage from The top 5 things PMs should know about engineering\nImage from The top 5 things PMs should know about engineering\nBeyond languages, the structure of your team’s project might indicate what frameworks they’re using. If you see some files prepended with .next, your team is probably using NextJS. If you see “import { useState } from ‘React’ ” in any files, your team is probably using React. Reading through code files isn’t too fun and is not the best use of your time, but peeping at a few can at least give you some grounding.\nAfter you’ve done your snooping work to impress them, just ask one of your developers.",
+      "token_count": 545
+    },
+    {
+      "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000004",
+      "contextualized_text": "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics\nLearn #2: Sensitive points in the codebase\n**What to know:**\nWhich pieces of the codebase—logical or procedural—are tangled, sensitive, or otherwise intransigent.\n**Why it matters:**\nKnowing the hardest parts of the app to work on can help you plan more effectively and avoid project delays. If updating the marketing site copy takes a few days because\n[Gatsby](https://www.gatsbyjs.com/)\n(a popular JS framework) requires a re-deploy to change content, you might de-prioritize that work in favor of something that you can move on quicker. There might not be much you can\n*do*\nabout this as a PM, but it’s useful knowledge to have and can help you allocate resources more effectively.\n**How to learn about it:**\nTalk to fellow PMs about projects that went surprisingly quickly or surprisingly slowly. A personal example: after doing some work on improving the onboarding experience, I was frustrated with how long things were taking. I eventually learned that the section of our codebase that dealt with onboarding was poorly organized and very difficult to test locally. That explained it! And of course, ask your engineers; they’ll know better than anyone.",
+      "doc_item_refs": [
+        "#/texts/43",
+        "#/texts/44",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/48",
+        "#/texts/49",
+        "#/texts/50",
+        "#/texts/51",
+        "#/texts/52"
+      ],
+      "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+      "headings": [
+        "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+        "Learn #2: Sensitive points in the codebase"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000004",
+        "chunk_sha256": "8d1979cd3415bb904cc4b9bba793468b40bf527c8b3c60a9f3cfd8dc0253d4be",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.docling.json",
+        "docling_sha256": "de20863337237fefdc43be7d1fe5b7562cb4c4356789d9f9a7f6cc42cafd895a",
+        "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_sha256": "bbdf5c70867df533ee5a465d22f09ce96430f178bace0dae9b75186007de0ff7",
+        "fact_document_path": "chunks/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.chunks.json",
+        "headings": [
+          "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+          "Learn #2: Sensitive points in the codebase"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "raw_sha256": "c6fe3cda85173d8bed812018384b6c7c4dc0c14ba969570545a2605b5af1857e",
+        "segment": {
+          "first_self_ref": "#/texts/43",
+          "item_count": 10,
+          "last_self_ref": "#/texts/52"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/43",
+          "#/texts/44",
+          "#/texts/45",
+          "#/texts/46",
+          "#/texts/47",
+          "#/texts/48",
+          "#/texts/49",
+          "#/texts/50",
+          "#/texts/51",
+          "#/texts/52"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "**What to know:**\nWhich pieces of the codebase—logical or procedural—are tangled, sensitive, or otherwise intransigent.\n**Why it matters:**\nKnowing the hardest parts of the app to work on can help you plan more effectively and avoid project delays. If updating the marketing site copy takes a few days because\n[Gatsby](https://www.gatsbyjs.com/)\n(a popular JS framework) requires a re-deploy to change content, you might de-prioritize that work in favor of something that you can move on quicker. There might not be much you can\n*do*\nabout this as a PM, but it’s useful knowledge to have and can help you allocate resources more effectively.\n**How to learn about it:**\nTalk to fellow PMs about projects that went surprisingly quickly or surprisingly slowly. A personal example: after doing some work on improving the onboarding experience, I was frustrated with how long things were taking. I eventually learned that the section of our codebase that dealt with onboarding was poorly organized and very difficult to test locally. That explained it! And of course, ask your engineers; they’ll know better than anyone.",
+      "token_count": 316
+    },
+    {
+      "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000005",
+      "contextualized_text": "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics\nLearn #3: Your build and deploy process\n**What to know:**\nHow your app gets built and deployed to your users, what’s manual and what’s automated, and how long it usually takes.\n**Why it matters:**\nWriting code is only half the battle—you need to get it to your users by deploying the changes to production. Larger teams and more complex apps can have multi-day deployment processes that may delay projects and add to lead time. Knowing these pressure points can also help you more effectively batch features and understand what’s worth doing when.\nA good example is how your company distributes cloud builds vs. on-premise builds. If it takes a while to get newer versions of your software to your on-premise customers, as a PM, you might try to batch a few features on a tighter timeline so that your team can bundle them together for a single release. For small updates like copy changes, you might feel comfortable doing them yourself if the release process is easy, but may time them along with another PM’s release if deploys take longer.\n**How to learn about it:**\nAsk your developers, but you can also do some legwork before then by looking at pull requests (PRs) that have been merged and what the GitHub checks (or whatever else your version control system is) run for builds. Here’s an example from Supabase; it looks like the team is using\n[Vercel](https://vercel.com/)\nto deploy the app, since the Vercel bot commented on the PR with links to deploy previews.\nImage from The top 5 things PMs should know about engineering\nImage from The top 5 things PMs should know about engineering\nThis is good to know—after doing some digging on Vercel, you might navigate to its site and learn that its product makes deploys quick and easy, usually sub-5 minutes. That information may come in handy later on when you’re wondering if you can get that copy change in before the deadline, or if asking your engineer for a quick change is going to be too bothersome. To find open PRs on your team’s repositories in GitHub, just navigate to the repository, click on the “Pull Requests” tab, and click on any one.\nIf your app also has customers that deploy it on-premise, you’ll want to get information on how upgrades work (do customers get them automatically? how often does the team recommend updating?), how far behind cloud they are, and how difficult one-off builds are.",
+      "doc_item_refs": [
+        "#/texts/54",
+        "#/texts/55",
+        "#/texts/56",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60",
+        "#/texts/61",
+        "#/texts/62",
+        "#/texts/173",
+        "#/texts/63",
+        "#/texts/64",
+        "#/texts/65"
+      ],
+      "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+      "headings": [
+        "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+        "Learn #3: Your build and deploy process"
+      ],
+      "images": [
+        {
+          "caption": "Image from The top 5 things PMs should know about engineering",
+          "image_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ca385698-5dea-43df-9e40-d9a103dc339f_1600x812.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000005",
+        "chunk_sha256": "d9540bed973af321fd2c9d6d1c41adde9fa884f597897be81e02754e66c19ebe",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.docling.json",
+        "docling_sha256": "de20863337237fefdc43be7d1fe5b7562cb4c4356789d9f9a7f6cc42cafd895a",
+        "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_sha256": "bbdf5c70867df533ee5a465d22f09ce96430f178bace0dae9b75186007de0ff7",
+        "fact_document_path": "chunks/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.chunks.json",
+        "headings": [
+          "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+          "Learn #3: Your build and deploy process"
+        ],
+        "images": [
+          {
+            "caption": "Image from The top 5 things PMs should know about engineering",
+            "image_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/ca385698-5dea-43df-9e40-d9a103dc339f_1600x812.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "raw_sha256": "c6fe3cda85173d8bed812018384b6c7c4dc0c14ba969570545a2605b5af1857e",
+        "segment": {
+          "first_self_ref": "#/texts/54",
+          "item_count": 13,
+          "last_self_ref": "#/texts/65"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/54",
+          "#/texts/55",
+          "#/texts/56",
+          "#/texts/57",
+          "#/texts/58",
+          "#/texts/59",
+          "#/texts/60",
+          "#/texts/61",
+          "#/texts/62",
+          "#/texts/173",
+          "#/texts/63",
+          "#/texts/64",
+          "#/texts/65"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "**What to know:**\nHow your app gets built and deployed to your users, what’s manual and what’s automated, and how long it usually takes.\n**Why it matters:**\nWriting code is only half the battle—you need to get it to your users by deploying the changes to production. Larger teams and more complex apps can have multi-day deployment processes that may delay projects and add to lead time. Knowing these pressure points can also help you more effectively batch features and understand what’s worth doing when.\nA good example is how your company distributes cloud builds vs. on-premise builds. If it takes a while to get newer versions of your software to your on-premise customers, as a PM, you might try to batch a few features on a tighter timeline so that your team can bundle them together for a single release. For small updates like copy changes, you might feel comfortable doing them yourself if the release process is easy, but may time them along with another PM’s release if deploys take longer.\n**How to learn about it:**\nAsk your developers, but you can also do some legwork before then by looking at pull requests (PRs) that have been merged and what the GitHub checks (or whatever else your version control system is) run for builds. Here’s an example from Supabase; it looks like the team is using\n[Vercel](https://vercel.com/)\nto deploy the app, since the Vercel bot commented on the PR with links to deploy previews.\nImage from The top 5 things PMs should know about engineering\nImage from The top 5 things PMs should know about engineering\nThis is good to know—after doing some digging on Vercel, you might navigate to its site and learn that its product makes deploys quick and easy, usually sub-5 minutes. That information may come in handy later on when you’re wondering if you can get that copy change in before the deadline, or if asking your engineer for a quick change is going to be too bothersome. To find open PRs on your team’s repositories in GitHub, just navigate to the repository, click on the “Pull Requests” tab, and click on any one.\nIf your app also has customers that deploy it on-premise, you’ll want to get information on how upgrades work (do customers get them automatically? how often does the team recommend updating?), how far behind cloud they are, and how difficult one-off builds are.",
+      "token_count": 590
+    },
+    {
+      "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000006",
+      "contextualized_text": "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics\nLearn #4: How to contribute code\n**What to know:**\nHow to make code changes and open a PR, specifically for small, self-contained changes like updating copy or changing colors.\n**Why it matters:**\nGreat products have great copy, and you shouldn’t have to rely on your engineers to fix typos. Being able to make small changes yourself, be it copy or fixing an errant border radius (generally frontend stuff), will result in more polished products shipped faster. Don’t bite off more than you can chew, though; keeping the code you contribute to smaller copy- or design-related tweaks will win you points.\n**How to learn about it:**\nAs you get started, sit down with your favorite engineer on your team and ask them to walk you through how to contribute code. It’s going to look\n*something*\nlike cloning your app’s repository locally, running it locally, making a fix and committing your changes, and then opening a PR in GitHub. You can even cheat and edit some code directly in GitHub, as long as it’s low-risk (like this markdown file):\nImage from The top 5 things PMs should know about engineering\nImage from The top 5 things PMs should know about engineering\nLearning how to code is obviously beyond the scope of this post. Personally, I got my start by studying some slides from a Python class in college (that I\n*wasn’t*\ntaking), brushed up with\n[Codecademy](https://www.codecademy.com/)\n, and then ended up building full-stack apps in my free time over the course of my career. If your goal is to be dangerous, focus on your team’s primary programming language and set a reasonable goal with a developer. Maybe it’s updating the copy on the website or something simple. The hardest part tends to not be the code itself but rather the process around the code, like handling version control and CI (continuous integration).",
+      "doc_item_refs": [
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/70",
+        "#/texts/71",
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/74",
+        "#/texts/174",
+        "#/texts/75",
+        "#/texts/76",
+        "#/texts/77",
+        "#/texts/78",
+        "#/texts/79",
+        "#/texts/80"
+      ],
+      "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+      "headings": [
+        "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+        "Learn #4: How to contribute code"
+      ],
+      "images": [
+        {
+          "caption": "Image from The top 5 things PMs should know about engineering",
+          "image_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/2b3c1d8a-cbda-4bc0-94e9-5569e63799d6_1600x1089.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000006",
+        "chunk_sha256": "c15f9731acdbf284ee2096be7ed6338b8650d9b5286b1335e724a2aebc122220",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.docling.json",
+        "docling_sha256": "de20863337237fefdc43be7d1fe5b7562cb4c4356789d9f9a7f6cc42cafd895a",
+        "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_sha256": "bbdf5c70867df533ee5a465d22f09ce96430f178bace0dae9b75186007de0ff7",
+        "fact_document_path": "chunks/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.chunks.json",
+        "headings": [
+          "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+          "Learn #4: How to contribute code"
+        ],
+        "images": [
+          {
+            "caption": "Image from The top 5 things PMs should know about engineering",
+            "image_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/2b3c1d8a-cbda-4bc0-94e9-5569e63799d6_1600x1089.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "raw_sha256": "c6fe3cda85173d8bed812018384b6c7c4dc0c14ba969570545a2605b5af1857e",
+        "segment": {
+          "first_self_ref": "#/texts/67",
+          "item_count": 15,
+          "last_self_ref": "#/texts/80"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69",
+          "#/texts/70",
+          "#/texts/71",
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/74",
+          "#/texts/174",
+          "#/texts/75",
+          "#/texts/76",
+          "#/texts/77",
+          "#/texts/78",
+          "#/texts/79",
+          "#/texts/80"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "**What to know:**\nHow to make code changes and open a PR, specifically for small, self-contained changes like updating copy or changing colors.\n**Why it matters:**\nGreat products have great copy, and you shouldn’t have to rely on your engineers to fix typos. Being able to make small changes yourself, be it copy or fixing an errant border radius (generally frontend stuff), will result in more polished products shipped faster. Don’t bite off more than you can chew, though; keeping the code you contribute to smaller copy- or design-related tweaks will win you points.\n**How to learn about it:**\nAs you get started, sit down with your favorite engineer on your team and ask them to walk you through how to contribute code. It’s going to look\n*something*\nlike cloning your app’s repository locally, running it locally, making a fix and committing your changes, and then opening a PR in GitHub. You can even cheat and edit some code directly in GitHub, as long as it’s low-risk (like this markdown file):\nImage from The top 5 things PMs should know about engineering\nImage from The top 5 things PMs should know about engineering\nLearning how to code is obviously beyond the scope of this post. Personally, I got my start by studying some slides from a Python class in college (that I\n*wasn’t*\ntaking), brushed up with\n[Codecademy](https://www.codecademy.com/)\n, and then ended up building full-stack apps in my free time over the course of my career. If your goal is to be dangerous, focus on your team’s primary programming language and set a reasonable goal with a developer. Maybe it’s updating the copy on the website or something simple. The hardest part tends to not be the code itself but rather the process around the code, like handling version control and CI (continuous integration).",
+      "token_count": 474
+    },
+    {
+      "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000007",
+      "contextualized_text": "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics\nLearn #5: Technical basics 101\n**What to know:**\nOutside of your company’s codebase, you need a basic understanding of how apps, data, and infrastructure work. Beyond being able to code, a conceptual understanding of what pieces come together to build applications is table stakes.\n**Why it matters:**\nA lot of what your developers tell you will sound like complete nonsense without the right technical foundation. And whether you know how to code or not, you’ll want to know what your developer means when they say they can keep this feature to a “frontend change only.”\n**How to learn about it:**\nThere’s no teacher as valuable as experience. The reality is that knowing how to code—specifically, how to build apps that relate to your company’s stack—is the best way to be more technically literate. But that takes a long time, and simply isn’t for everyone! Thankfully, there are some shortcuts you can take in the meantime. A few that have worked for me:",
+      "doc_item_refs": [
+        "#/texts/82",
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/87"
+      ],
+      "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+      "headings": [
+        "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+        "Learn #5: Technical basics 101"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000007",
+        "chunk_sha256": "9777a2305e70ad72db646fc19387f37b80f87a1f18002ae6ab8c12c7180b35d0",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.docling.json",
+        "docling_sha256": "de20863337237fefdc43be7d1fe5b7562cb4c4356789d9f9a7f6cc42cafd895a",
+        "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_sha256": "bbdf5c70867df533ee5a465d22f09ce96430f178bace0dae9b75186007de0ff7",
+        "fact_document_path": "chunks/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.chunks.json",
+        "headings": [
+          "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+          "Learn #5: Technical basics 101"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "raw_sha256": "c6fe3cda85173d8bed812018384b6c7c4dc0c14ba969570545a2605b5af1857e",
+        "segment": {
+          "first_self_ref": "#/texts/82",
+          "item_count": 6,
+          "last_self_ref": "#/texts/87"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/82",
+          "#/texts/83",
+          "#/texts/84",
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/87"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "**What to know:**\nOutside of your company’s codebase, you need a basic understanding of how apps, data, and infrastructure work. Beyond being able to code, a conceptual understanding of what pieces come together to build applications is table stakes.\n**Why it matters:**\nA lot of what your developers tell you will sound like complete nonsense without the right technical foundation. And whether you know how to code or not, you’ll want to know what your developer means when they say they can keep this feature to a “frontend change only.”\n**How to learn about it:**\nThere’s no teacher as valuable as experience. The reality is that knowing how to code—specifically, how to build apps that relate to your company’s stack—is the best way to be more technically literate. But that takes a long time, and simply isn’t for everyone! Thankfully, there are some shortcuts you can take in the meantime. A few that have worked for me:",
+      "token_count": 265
+    },
+    {
+      "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000008",
+      "contextualized_text": "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics\nLearn #5: Technical basics 101\n1. Read engineering blogs\nThey’re sometimes surprisingly easy to understand, and can get you used to the terms engineers use daily. I like reading\n[Segment’s](https://segment.com/blog/engineering/)\n,\n[Slack’s](https://slack.engineering/)\n,\n[Netflix’s](https://netflixtechblog.com/)\n, and\n[Stitch Fix’s](https://multithreaded.stitchfix.com/)\n. Teams usually write these for recruiting purposes—look at all the cool stuff we’ve built!—but they can still contain useful base knowledge. Much of being technically literate is understanding how software is used\n*in practice*\n, and these blogs are great for that.",
+      "doc_item_refs": [
+        "#/texts/89",
+        "#/texts/90",
+        "#/texts/91",
+        "#/texts/92",
+        "#/texts/93",
+        "#/texts/94",
+        "#/texts/95",
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/98",
+        "#/texts/99"
+      ],
+      "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+      "headings": [
+        "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+        "Learn #5: Technical basics 101",
+        "1. Read engineering blogs"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000008",
+        "chunk_sha256": "9c49fdc43d71802cf2fc3a18502b450d66735660693d3d6b26958cb1ef3c0c50",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.docling.json",
+        "docling_sha256": "de20863337237fefdc43be7d1fe5b7562cb4c4356789d9f9a7f6cc42cafd895a",
+        "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_sha256": "bbdf5c70867df533ee5a465d22f09ce96430f178bace0dae9b75186007de0ff7",
+        "fact_document_path": "chunks/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.chunks.json",
+        "headings": [
+          "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+          "Learn #5: Technical basics 101",
+          "1. Read engineering blogs"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "raw_sha256": "c6fe3cda85173d8bed812018384b6c7c4dc0c14ba969570545a2605b5af1857e",
+        "segment": {
+          "first_self_ref": "#/texts/89",
+          "item_count": 11,
+          "last_self_ref": "#/texts/99"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/89",
+          "#/texts/90",
+          "#/texts/91",
+          "#/texts/92",
+          "#/texts/93",
+          "#/texts/94",
+          "#/texts/95",
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/98",
+          "#/texts/99"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "They’re sometimes surprisingly easy to understand, and can get you used to the terms engineers use daily. I like reading\n[Segment’s](https://segment.com/blog/engineering/)\n,\n[Slack’s](https://slack.engineering/)\n,\n[Netflix’s](https://netflixtechblog.com/)\n, and\n[Stitch Fix’s](https://multithreaded.stitchfix.com/)\n. Teams usually write these for recruiting purposes—look at all the cool stuff we’ve built!—but they can still contain useful base knowledge. Much of being technically literate is understanding how software is used\n*in practice*\n, and these blogs are great for that.",
+      "token_count": 218
+    },
+    {
+      "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000009",
+      "contextualized_text": "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics\nLearn #5: Technical basics 101\n2. Look up everything you don’t know\nTechnical writing and speak is built on layers and layers of concepts; you need to start from the bottom to understand the top. Search for terms you don’t understand rather than just glossing over them. There aren’t very many good central resources online for going from 0 to 1 in being technically literate, but many individual concepts have useful explainers. A nice example is\n[Duo Security’s guide to SAML](https://duo.com/blog/the-beer-drinkers-guide-to-saml)\n. Search enough and, with a discerning eye, you’ll find writing styles you like.",
+      "doc_item_refs": [
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/103"
+      ],
+      "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+      "headings": [
+        "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+        "Learn #5: Technical basics 101",
+        "2. Look up everything you don’t know"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000009",
+        "chunk_sha256": "a5e79e55a46e81e98ffef6fd51fa3ff0980786b7698fc3294e22f21f5344eabd",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.docling.json",
+        "docling_sha256": "de20863337237fefdc43be7d1fe5b7562cb4c4356789d9f9a7f6cc42cafd895a",
+        "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_sha256": "bbdf5c70867df533ee5a465d22f09ce96430f178bace0dae9b75186007de0ff7",
+        "fact_document_path": "chunks/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.chunks.json",
+        "headings": [
+          "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+          "Learn #5: Technical basics 101",
+          "2. Look up everything you don’t know"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "raw_sha256": "c6fe3cda85173d8bed812018384b6c7c4dc0c14ba969570545a2605b5af1857e",
+        "segment": {
+          "first_self_ref": "#/texts/101",
+          "item_count": 3,
+          "last_self_ref": "#/texts/103"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/103"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "Technical writing and speak is built on layers and layers of concepts; you need to start from the bottom to understand the top. Search for terms you don’t understand rather than just glossing over them. There aren’t very many good central resources online for going from 0 to 1 in being technically literate, but many individual concepts have useful explainers. A nice example is\n[Duo Security’s guide to SAML](https://duo.com/blog/the-beer-drinkers-guide-to-saml)\n. Search enough and, with a discerning eye, you’ll find writing styles you like.",
+      "token_count": 197
+    },
+    {
+      "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000010",
+      "contextualized_text": "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics\nLearn #5: Technical basics 101\n3. Find a developer friend on the outside\nChances are you’re friends with a developer outside your company; buy them a coffee! Come with some questions prepared. It’s usually unproductive to have them dump their knowledge on you, but a series of pointed questions around a particular topic can lead to a fruitful conversation. For example, when I’m writing newsletter issues, sometimes I’ll grab 30 minutes with an engineer friend to make sure I fully understand a topic I’m writing about. Doing your research beforehand to make sure you have good questions is the key.\nAside from these, though,\n[subscribe to Technically](https://technically.substack.com/subscribe)\n—it’s made for exactly you :)\n*Thanks, Justin!*",
+      "doc_item_refs": [
+        "#/texts/105",
+        "#/texts/106",
+        "#/texts/107",
+        "#/texts/108",
+        "#/texts/109"
+      ],
+      "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+      "headings": [
+        "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+        "Learn #5: Technical basics 101",
+        "3. Find a developer friend on the outside"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000010",
+        "chunk_sha256": "4d03d30731b0bbec3fb0d5f3fc3b1c26a296b83e9bd54484d6d2bfc45a759405",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.docling.json",
+        "docling_sha256": "de20863337237fefdc43be7d1fe5b7562cb4c4356789d9f9a7f6cc42cafd895a",
+        "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_sha256": "bbdf5c70867df533ee5a465d22f09ce96430f178bace0dae9b75186007de0ff7",
+        "fact_document_path": "chunks/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.chunks.json",
+        "headings": [
+          "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+          "Learn #5: Technical basics 101",
+          "3. Find a developer friend on the outside"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "raw_sha256": "c6fe3cda85173d8bed812018384b6c7c4dc0c14ba969570545a2605b5af1857e",
+        "segment": {
+          "first_self_ref": "#/texts/105",
+          "item_count": 5,
+          "last_self_ref": "#/texts/109"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/105",
+          "#/texts/106",
+          "#/texts/107",
+          "#/texts/108",
+          "#/texts/109"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "Chances are you’re friends with a developer outside your company; buy them a coffee! Come with some questions prepared. It’s usually unproductive to have them dump their knowledge on you, but a series of pointed questions around a particular topic can lead to a fruitful conversation. For example, when I’m writing newsletter issues, sometimes I’ll grab 30 minutes with an engineer friend to make sure I fully understand a topic I’m writing about. Doing your research beforehand to make sure you have good questions is the key.\nAside from these, though,\n[subscribe to Technically](https://technically.substack.com/subscribe)\n—it’s made for exactly you :)\n*Thanks, Justin!*",
+      "token_count": 217
+    },
+    {
+      "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000011",
+      "contextualized_text": "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics\n🔥 Featured job openings\n1. **Mynd:** [Product Manager, Buying Services](https://www.lennysjobs.com/jobs/5acd93b4-3e73-45f6-894f-a701509a81ea) (Remote-US)\n2. **OpenPhone:** [Senior Product Manager](https://lennys-jobs.pallet.xyz/jobs/a4e59b3d-06a3-4f89-a340-b8bd5f8aee97) (Remote-US)\n3. **TaxBit:** [Product Lead](https://lennys-jobs.pallet.xyz/jobs/4a453e47-d6c8-4241-becc-763fe8097d97) (Seattle)\n4. **Orbiit:** [Director of Product Management](https://lennys-jobs.pallet.xyz/jobs/be8a2c08-274c-4ebf-b20e-79439dc7b70e) (NYC)\n5. **Relish Works:** [Associate Product Manager](https://lennys-jobs.pallet.xyz/jobs/e6008616-d0ba-4765-ab3a-8eec826cd044) (Remote-US)\n6. **OnFrontiers:** [UI/UX Designer](https://lennys-jobs.pallet.xyz/jobs/c5c630a8-eef4-4ee2-b5c0-f454921f70ff) (Remote-US)\n7. **OnFrontiers:** [Product Manager](https://lennys-jobs.pallet.xyz/jobs/08ad9dfd-0a57-4679-8e59-5fb49545eedf) (Remote-US)\n8. **Panther:** [Product Manager (Core)](https://lennys-jobs.pallet.xyz/jobs/e5d8025a-078b-48f5-b083-67978ff06b89) (Remote-Global)\n9. **The.com:** [Software Engineer](https://lennys-jobs.pallet.xyz/jobs/e3ea6743-db26-4796-bdfd-3a6885b7b3c3) (SF)\n10. **Relive:** [Product Manager](https://lennys-jobs.pallet.xyz/jobs/7a4300f0-d46e-43a4-a8db-dfec28c4e511) (Remote-EU)\n11. **GetSetUp:** [Product Lead, Discovery](https://lennys-jobs.pallet.xyz/jobs/522f84e1-0499-4ddd-975a-f996f648fa0a) (Remote-Global)\n*Browse more open roles, or add your own, at*\n[*Lenny’s Job Board*](https://lennysnewsletter.com/jobs)\n*.*",
+      "doc_item_refs": [
+        "#/texts/111",
+        "#/texts/115",
+        "#/texts/119",
+        "#/texts/123",
+        "#/texts/127",
+        "#/texts/131",
+        "#/texts/135",
+        "#/texts/139",
+        "#/texts/143",
+        "#/texts/147",
+        "#/texts/151",
+        "#/texts/155",
+        "#/texts/156",
+        "#/texts/157"
+      ],
+      "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+      "headings": [
+        "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+        "🔥 Featured job openings"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000011",
+        "chunk_sha256": "725b654f3aeac31550fe4e664cf83374b1a8739195f4cdcfd7c438000d309a22",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.docling.json",
+        "docling_sha256": "de20863337237fefdc43be7d1fe5b7562cb4c4356789d9f9a7f6cc42cafd895a",
+        "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_sha256": "bbdf5c70867df533ee5a465d22f09ce96430f178bace0dae9b75186007de0ff7",
+        "fact_document_path": "chunks/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.chunks.json",
+        "headings": [
+          "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+          "🔥 Featured job openings"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "raw_sha256": "c6fe3cda85173d8bed812018384b6c7c4dc0c14ba969570545a2605b5af1857e",
+        "segment": {
+          "first_self_ref": "#/texts/111",
+          "item_count": 14,
+          "last_self_ref": "#/texts/157"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/111",
+          "#/texts/115",
+          "#/texts/119",
+          "#/texts/123",
+          "#/texts/127",
+          "#/texts/131",
+          "#/texts/135",
+          "#/texts/139",
+          "#/texts/143",
+          "#/texts/147",
+          "#/texts/151",
+          "#/texts/155",
+          "#/texts/156",
+          "#/texts/157"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "1. **Mynd:** [Product Manager, Buying Services](https://www.lennysjobs.com/jobs/5acd93b4-3e73-45f6-894f-a701509a81ea) (Remote-US)\n2. **OpenPhone:** [Senior Product Manager](https://lennys-jobs.pallet.xyz/jobs/a4e59b3d-06a3-4f89-a340-b8bd5f8aee97) (Remote-US)\n3. **TaxBit:** [Product Lead](https://lennys-jobs.pallet.xyz/jobs/4a453e47-d6c8-4241-becc-763fe8097d97) (Seattle)\n4. **Orbiit:** [Director of Product Management](https://lennys-jobs.pallet.xyz/jobs/be8a2c08-274c-4ebf-b20e-79439dc7b70e) (NYC)\n5. **Relish Works:** [Associate Product Manager](https://lennys-jobs.pallet.xyz/jobs/e6008616-d0ba-4765-ab3a-8eec826cd044) (Remote-US)\n6. **OnFrontiers:** [UI/UX Designer](https://lennys-jobs.pallet.xyz/jobs/c5c630a8-eef4-4ee2-b5c0-f454921f70ff) (Remote-US)\n7. **OnFrontiers:** [Product Manager](https://lennys-jobs.pallet.xyz/jobs/08ad9dfd-0a57-4679-8e59-5fb49545eedf) (Remote-US)\n8. **Panther:** [Product Manager (Core)](https://lennys-jobs.pallet.xyz/jobs/e5d8025a-078b-48f5-b083-67978ff06b89) (Remote-Global)\n9. **The.com:** [Software Engineer](https://lennys-jobs.pallet.xyz/jobs/e3ea6743-db26-4796-bdfd-3a6885b7b3c3) (SF)\n10. **Relive:** [Product Manager](https://lennys-jobs.pallet.xyz/jobs/7a4300f0-d46e-43a4-a8db-dfec28c4e511) (Remote-EU)\n11. **GetSetUp:** [Product Lead, Discovery](https://lennys-jobs.pallet.xyz/jobs/522f84e1-0499-4ddd-975a-f996f648fa0a) (Remote-Global)\n*Browse more open roles, or add your own, at*\n[*Lenny’s Job Board*](https://lennysnewsletter.com/jobs)\n*.*",
+      "token_count": 832
+    },
+    {
+      "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000012",
+      "contextualized_text": "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics\n🔥 Featured job openings\nHow would you rate this week's newsletter? 🤔\n[Legend](https://a.sprig.com/672d7967625042535f477e7369643a3434363132?r=5)\n•\n[Great](https://a.sprig.com/672d7967625042535f477e7369643a3434363132?r=4)\n•\n[Good](https://a.sprig.com/672d7967625042535f477e7369643a3434363132?r=3)\n•\n[OK](https://a.sprig.com/672d7967625042535f477e7369643a3434363132?r=2)\n•\n[Meh](https://a.sprig.com/672d7967625042535f477e7369643a3434363132?r=1)\n**If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/159",
+        "#/texts/160",
+        "#/texts/161",
+        "#/texts/162",
+        "#/texts/163",
+        "#/texts/164",
+        "#/texts/165",
+        "#/texts/166",
+        "#/texts/167",
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/170"
+      ],
+      "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+      "headings": [
+        "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+        "🔥 Featured job openings",
+        "How would you rate this week's newsletter? 🤔"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md#chunk=000012",
+        "chunk_sha256": "0efd67ebf1190705d9f8e4df270acab89762b7d3ffd48b50a3bd3866e48389c8",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.docling.json",
+        "docling_sha256": "de20863337237fefdc43be7d1fe5b7562cb4c4356789d9f9a7f6cc42cafd895a",
+        "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "enhanced_sha256": "bbdf5c70867df533ee5a465d22f09ce96430f178bace0dae9b75186007de0ff7",
+        "fact_document_path": "chunks/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.chunks.json",
+        "headings": [
+          "The top 5 things PMs should know about engineering — Guest post by Justin Gage, writer of Technically and growth at Retool | 2021-12-16 | Tags: engineering, design, leadership, newsletter, product-management, analytics",
+          "🔥 Featured job openings",
+          "How would you rate this week's newsletter? 🤔"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+        "raw_sha256": "c6fe3cda85173d8bed812018384b6c7c4dc0c14ba969570545a2605b5af1857e",
+        "segment": {
+          "first_self_ref": "#/texts/159",
+          "item_count": 12,
+          "last_self_ref": "#/texts/170"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/159",
+          "#/texts/160",
+          "#/texts/161",
+          "#/texts/162",
+          "#/texts/163",
+          "#/texts/164",
+          "#/texts/165",
+          "#/texts/166",
+          "#/texts/167",
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/170"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "[Legend](https://a.sprig.com/672d7967625042535f477e7369643a3434363132?r=5)\n•\n[Great](https://a.sprig.com/672d7967625042535f477e7369643a3434363132?r=4)\n•\n[Good](https://a.sprig.com/672d7967625042535f477e7369643a3434363132?r=3)\n•\n[OK](https://a.sprig.com/672d7967625042535f477e7369643a3434363132?r=2)\n•\n[Meh](https://a.sprig.com/672d7967625042535f477e7369643a3434363132?r=1)\n**If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "token_count": 348
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.docling.json",
+  "docling_sha256": "de20863337237fefdc43be7d1fe5b7562cb4c4356789d9f9a7f6cc42cafd895a",
+  "document_id": "02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+  "enhanced_sha256": "bbdf5c70867df533ee5a465d22f09ce96430f178bace0dae9b75186007de0ff7",
+  "fact_document_path": "chunks/v2/02-newsletters/the-top-5-things-pms-should-know-about-engineering.chunks.json",
+  "metadata": {
+    "date": "2021-12-16",
+    "subtitle": "Guest post by Justin Gage, writer of Technically and growth at Retool",
+    "tags": [
+      "engineering",
+      "design",
+      "leadership",
+      "newsletter",
+      "product-management",
+      "analytics"
+    ],
+    "title": "The top 5 things PMs should know about engineering",
+    "type": "newsletter",
+    "word_count": 2385
+  },
+  "raw_path": "corpus/raw/02-newsletters/the-top-5-things-pms-should-know-about-engineering.md",
+  "raw_sha256": "c6fe3cda85173d8bed812018384b6c7c4dc0c14ba969570545a2605b5af1857e",
+  "schema_version": "1",
+  "title": "The top 5 things PMs should know about engineering"
+}

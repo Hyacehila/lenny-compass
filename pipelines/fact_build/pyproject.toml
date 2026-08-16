@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lenny-compass-fact-build"
+version = "0.1.0"
+description = "Local Docling fact-layer builder for the Lenny Compass corpus"
+requires-python = "==3.11.*"
+dependencies = [
+    "ai-pm-contracts==0.1.0",
+    "docling-slim[format-markdown,feat-chunking]==2.120.1",
+    "docling-core==2.91.0",
+    # Docling 2.120.1 imports its PDF and reading-order modules while creating
+    # DocumentConverter, even when Markdown is the only allowed input format.
+    "docling-parse==7.13.0",
+    "pypdfium2==5.13.0",
+    "rtree==1.4.1",
+    "scipy==1.17.1",
+    "docling-ibm-models==3.14.0",
+]
+
+[tool.uv.sources]
+ai-pm-contracts = { workspace = true }
+
+[project.scripts]
+fact-build = "fact_build.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fact_build"]
+
+[tool.uv]
+link-mode = "copy"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3,<9",
+]

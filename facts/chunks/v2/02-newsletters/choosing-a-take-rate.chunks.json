@@ -1,0 +1,995 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000000",
+      "contextualized_text": "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership\nQ: I’m building a marketplace and I’m struggling to pick my take rate. How do I decide what % to charge?\nFirst, some context. There are essentially four revenue models to pick from when building a business:\n1. **Subscription** : Charge your customer a recurring monthly/yearly fee for your product/service (e.g. SaaS, Stitch Fix, Netflix)\n2. **Advertising** : Charge a 3rd party for your users viewing/clicking an ad (e.g. Buzzfeed, Twitter, TV)\n3. **One-time purchase** : Charge your customer once for a specific product/service (e.g. DTC, annual contracts, IRL commerce)\n4. **Taking a cut of each transaction** : Charge your customers a fee for each transaction you enable (e.g. Airbnb, Substack, Apple)\nYou can combine these models (e.g. Shopify charges a subscription fee + a transaction fee, NY Times has subscriptions + ads), but if your product enables money exchange between two parties you fit squarely into the fourth bucket: taking a cut of each transaction. Which means you’ll need to decide what fee — also known as “take rate” — to charge your customers. To help you figure this out, we’re going to look at:\n1. The take rates of 35+ companies\n2. The Take Rate Formula\n3. A guide to choosing your own take rate\n4. How to increase your take rate\n5. How to lower your take rate\nLet’s get to it!",
+      "doc_item_refs": [
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/6",
+        "#/texts/9",
+        "#/texts/12",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21"
+      ],
+      "document_id": "02-newsletters/choosing-a-take-rate.md",
+      "headings": [
+        "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+        "Q: I’m building a marketplace and I’m struggling to pick my take rate. How do I decide what % to charge?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000000",
+        "chunk_sha256": "c87d33d4a853e934b0705bb91ecd6c6fe6fe286b80b59b7bd8a23f278792f133",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+        "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+        "document_id": "02-newsletters/choosing-a-take-rate.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+        "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+        "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+        "headings": [
+          "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+          "Q: I’m building a marketplace and I’m struggling to pick my take rate. How do I decide what % to charge?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+        "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+        "segment": {
+          "first_self_ref": "#/texts/2",
+          "item_count": 12,
+          "last_self_ref": "#/texts/21"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/6",
+          "#/texts/9",
+          "#/texts/12",
+          "#/texts/15",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "First, some context. There are essentially four revenue models to pick from when building a business:\n1. **Subscription** : Charge your customer a recurring monthly/yearly fee for your product/service (e.g. SaaS, Stitch Fix, Netflix)\n2. **Advertising** : Charge a 3rd party for your users viewing/clicking an ad (e.g. Buzzfeed, Twitter, TV)\n3. **One-time purchase** : Charge your customer once for a specific product/service (e.g. DTC, annual contracts, IRL commerce)\n4. **Taking a cut of each transaction** : Charge your customers a fee for each transaction you enable (e.g. Airbnb, Substack, Apple)\nYou can combine these models (e.g. Shopify charges a subscription fee + a transaction fee, NY Times has subscriptions + ads), but if your product enables money exchange between two parties you fit squarely into the fourth bucket: taking a cut of each transaction. Which means you’ll need to decide what fee — also known as “take rate” — to charge your customers. To help you figure this out, we’re going to look at:\n1. The take rates of 35+ companies\n2. The Take Rate Formula\n3. A guide to choosing your own take rate\n4. How to increase your take rate\n5. How to lower your take rate\nLet’s get to it!",
+      "token_count": 361
+    },
+    {
+      "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000001",
+      "contextualized_text": "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership\n1. Take rates across the industry today\nImage from Choosing a take rate\nImage from Choosing a take rate\n*(*\n[*Click here to check out the detailed spreadsheet*](https://docs.google.com/spreadsheets/d/1VD_cb65dgIQr1bz33G1cGA5knDSz4S5yEQTSxyQOSlU/edit#gid=0)\n*)*\n**If you look at the list above, two major takeaways emerge:**\n1. There is a relatively clear distinction between “platform” businesses (which make it easier for you to run your business, like Patreon and Substack), and Marketplaces (which also bring you new business, like Doordash and Cameo). Platforms generally charge 5 - 15% and Marketplaces generally charge 10 - 50%.\n2. More broadly, differences in take rates are primarily driven by three factors: (1) whether you can drive new demand, (2) how much convenience you provide the seller, and (3) the level of competition in the market.\nWith this in mind, let’s help you determine your initial take rate.",
+      "doc_item_refs": [
+        "#/texts/261",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30"
+      ],
+      "document_id": "02-newsletters/choosing-a-take-rate.md",
+      "headings": [
+        "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+        "1. Take rates across the industry today"
+      ],
+      "images": [
+        {
+          "caption": "Image from Choosing a take rate",
+          "image_id": "02-newsletters/choosing-a-take-rate.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/0cb7b6f7-ca57-4dea-9d6d-793525b28ee6_1456x3033.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000001",
+        "chunk_sha256": "7849c9d5f92828640af5de094bab600202e4e8bf9efd1c7b23848ad37d117b07",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+        "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+        "document_id": "02-newsletters/choosing-a-take-rate.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+        "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+        "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+        "headings": [
+          "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+          "1. Take rates across the industry today"
+        ],
+        "images": [
+          {
+            "caption": "Image from Choosing a take rate",
+            "image_id": "02-newsletters/choosing-a-take-rate.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/0cb7b6f7-ca57-4dea-9d6d-793525b28ee6_1456x3033.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+        "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+        "segment": {
+          "first_self_ref": "#/texts/261",
+          "item_count": 9,
+          "last_self_ref": "#/texts/30"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/261",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "Image from Choosing a take rate\nImage from Choosing a take rate\n*(*\n[*Click here to check out the detailed spreadsheet*](https://docs.google.com/spreadsheets/d/1VD_cb65dgIQr1bz33G1cGA5knDSz4S5yEQTSxyQOSlU/edit#gid=0)\n*)*\n**If you look at the list above, two major takeaways emerge:**\n1. There is a relatively clear distinction between “platform” businesses (which make it easier for you to run your business, like Patreon and Substack), and Marketplaces (which also bring you new business, like Doordash and Cameo). Platforms generally charge 5 - 15% and Marketplaces generally charge 10 - 50%.\n2. More broadly, differences in take rates are primarily driven by three factors: (1) whether you can drive new demand, (2) how much convenience you provide the seller, and (3) the level of competition in the market.\nWith this in mind, let’s help you determine your initial take rate.",
+      "token_count": 281
+    },
+    {
+      "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000002",
+      "contextualized_text": "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership\n1. Take rates across the industry today\n2. The Take Rate Formula\nIf you boil it all down:",
+      "doc_item_refs": [
+        "#/texts/32"
+      ],
+      "document_id": "02-newsletters/choosing-a-take-rate.md",
+      "headings": [
+        "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+        "1. Take rates across the industry today",
+        "2. The Take Rate Formula"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000002",
+        "chunk_sha256": "592c77744c81f417d6b92cd050da6328af60f00aa0921337134bfe9159b52353",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+        "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+        "document_id": "02-newsletters/choosing-a-take-rate.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+        "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+        "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+        "headings": [
+          "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+          "1. Take rates across the industry today",
+          "2. The Take Rate Formula"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+        "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+        "segment": {
+          "first_self_ref": "#/texts/32",
+          "item_count": 1,
+          "last_self_ref": "#/texts/32"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/32"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "If you boil it all down:",
+      "token_count": 50
+    },
+    {
+      "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000003",
+      "contextualized_text": "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership\n1. Take rates across the industry today\n2. The Take Rate Formula\nTake rate = Convenience + Demand - Competition\n- **Convenience** : How much easier you make it to run your customer’s business (more is good)\n- **Demand** : How much valuable demand you can drive to the customer (more is good)\n- **Competition** : How competitive your market is (less is good)",
+      "doc_item_refs": [
+        "#/texts/34",
+        "#/texts/37",
+        "#/texts/40"
+      ],
+      "document_id": "02-newsletters/choosing-a-take-rate.md",
+      "headings": [
+        "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+        "1. Take rates across the industry today",
+        "2. The Take Rate Formula",
+        "Take rate = Convenience + Demand - Competition"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000003",
+        "chunk_sha256": "6c5ee98b27dc6d929f07676a04c44d7bba2ed4c3aac1e68132db0968762e6c59",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+        "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+        "document_id": "02-newsletters/choosing-a-take-rate.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+        "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+        "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+        "headings": [
+          "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+          "1. Take rates across the industry today",
+          "2. The Take Rate Formula",
+          "Take rate = Convenience + Demand - Competition"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+        "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+        "segment": {
+          "first_self_ref": "#/texts/34",
+          "item_count": 3,
+          "last_self_ref": "#/texts/40"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/34",
+          "#/texts/37",
+          "#/texts/40"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "- **Convenience** : How much easier you make it to run your customer’s business (more is good)\n- **Demand** : How much valuable demand you can drive to the customer (more is good)\n- **Competition** : How competitive your market is (less is good)",
+      "token_count": 115
+    },
+    {
+      "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000004",
+      "contextualized_text": "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership\n1. Take rates across the industry today\n2. The Take Rate Formula\nFor example:\n- **Gumroad (8.50%)** : High convenience + Little demand gen - Medium competition\n- **StockX (~11%)** : High convenience + High demand gen - Medium competition\n- **Substack (~13%)** : Very high convenience + Little demand gen - Medium competition\n- **Airbnb (15%)** : High convenience + Very high demand gen - High competition\n- **OnlyFans (20%)** : Very high convenience + Little demand gen - Very low competition\n- **Cameo (25%)** : High convenience + Very high demand gen - Very low competition\n- **Twitch (50%)** : Very high convenience + Very high demand gen - Very low competition",
+      "doc_item_refs": [
+        "#/texts/44",
+        "#/texts/47",
+        "#/texts/50",
+        "#/texts/53",
+        "#/texts/56",
+        "#/texts/59",
+        "#/texts/62"
+      ],
+      "document_id": "02-newsletters/choosing-a-take-rate.md",
+      "headings": [
+        "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+        "1. Take rates across the industry today",
+        "2. The Take Rate Formula",
+        "For example:"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000004",
+        "chunk_sha256": "d91afee106383d6b81a90dfff70f115a2a97f5321dc9062c516c40e1eefde960",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+        "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+        "document_id": "02-newsletters/choosing-a-take-rate.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+        "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+        "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+        "headings": [
+          "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+          "1. Take rates across the industry today",
+          "2. The Take Rate Formula",
+          "For example:"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+        "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+        "segment": {
+          "first_self_ref": "#/texts/44",
+          "item_count": 7,
+          "last_self_ref": "#/texts/62"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/44",
+          "#/texts/47",
+          "#/texts/50",
+          "#/texts/53",
+          "#/texts/56",
+          "#/texts/59",
+          "#/texts/62"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "- **Gumroad (8.50%)** : High convenience + Little demand gen - Medium competition\n- **StockX (~11%)** : High convenience + High demand gen - Medium competition\n- **Substack (~13%)** : Very high convenience + Little demand gen - Medium competition\n- **Airbnb (15%)** : High convenience + Very high demand gen - High competition\n- **OnlyFans (20%)** : Very high convenience + Little demand gen - Very low competition\n- **Cameo (25%)** : High convenience + Very high demand gen - Very low competition\n- **Twitch (50%)** : Very high convenience + Very high demand gen - Very low competition",
+      "token_count": 208
+    },
+    {
+      "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000005",
+      "contextualized_text": "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership\n1. Take rates across the industry today\n3. Choosing your take rate\nA back-of-the-envelope guide to help you land on an initial take rate:\n**Step 1: Are you a “platform” or a “marketplace”?**\n- Marketplace (i.e. will drive demand): Start with 20%\n- Platform (i.e. won’t drive demand): Start with 10%\n**Step 2: Evaluate the level of Convenience your product provides**\n- Free money (e.g. Shutterstock): Add 50-60%\n- Makes running your business possible (e.g. Apple, Twitch): Add 15-20%\n- Makes running your business significantly easier (e.g. Onlyfans, Toptal, Uber): Add 10-15%\n**Step 3: Evaluate the level of Competition in your market**\n- Very competitive (e.g. Etsy, GOAT, Lyft): Subtract 5-10%\n- Somewhat competitive (e.g. Airbnb, Rover): Subtract 2-5%\n- There is competition (e.g. Twitch): Add 5-10%\nAdd these up and that gives you a starting point for your take rate.\n**Important**\n: This number will not be set in stone. Every company that has a take rate eventually begins to tweak their fees in order to maximize revenue. Once you have this initial number in mind you now have a base to start experimenting with.",
+      "doc_item_refs": [
+        "#/texts/66",
+        "#/texts/67",
+        "#/texts/68",
+        "#/texts/69",
+        "#/texts/70",
+        "#/texts/71",
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/74",
+        "#/texts/75",
+        "#/texts/76",
+        "#/texts/77",
+        "#/texts/78",
+        "#/texts/79",
+        "#/texts/80"
+      ],
+      "document_id": "02-newsletters/choosing-a-take-rate.md",
+      "headings": [
+        "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+        "1. Take rates across the industry today",
+        "3. Choosing your take rate"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000005",
+        "chunk_sha256": "54b0d38fd8d89acf705cc03b4605aac93e04fe9b32e9d3e7027c73af7f3e2a5c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+        "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+        "document_id": "02-newsletters/choosing-a-take-rate.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+        "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+        "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+        "headings": [
+          "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+          "1. Take rates across the industry today",
+          "3. Choosing your take rate"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+        "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+        "segment": {
+          "first_self_ref": "#/texts/66",
+          "item_count": 15,
+          "last_self_ref": "#/texts/80"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/66",
+          "#/texts/67",
+          "#/texts/68",
+          "#/texts/69",
+          "#/texts/70",
+          "#/texts/71",
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/74",
+          "#/texts/75",
+          "#/texts/76",
+          "#/texts/77",
+          "#/texts/78",
+          "#/texts/79",
+          "#/texts/80"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "A back-of-the-envelope guide to help you land on an initial take rate:\n**Step 1: Are you a “platform” or a “marketplace”?**\n- Marketplace (i.e. will drive demand): Start with 20%\n- Platform (i.e. won’t drive demand): Start with 10%\n**Step 2: Evaluate the level of Convenience your product provides**\n- Free money (e.g. Shutterstock): Add 50-60%\n- Makes running your business possible (e.g. Apple, Twitch): Add 15-20%\n- Makes running your business significantly easier (e.g. Onlyfans, Toptal, Uber): Add 10-15%\n**Step 3: Evaluate the level of Competition in your market**\n- Very competitive (e.g. Etsy, GOAT, Lyft): Subtract 5-10%\n- Somewhat competitive (e.g. Airbnb, Rover): Subtract 2-5%\n- There is competition (e.g. Twitch): Add 5-10%\nAdd these up and that gives you a starting point for your take rate.\n**Important**\n: This number will not be set in stone. Every company that has a take rate eventually begins to tweak their fees in order to maximize revenue. Once you have this initial number in mind you now have a base to start experimenting with.",
+      "token_count": 343
+    },
+    {
+      "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000006",
+      "contextualized_text": "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership\n1. Take rates across the industry today\n4. How to increase your take rate\nSay you’ve already set a take rate and you want to increase it. Coming back to our formula, you have three options:\n**1. Increase the convenience**\n- Provide additional features and services (e.g. insurance, integrations, team accounts)\n- Do more of the heavy lifting (e.g. delivery, course creation, account manager)\n- Make it easier to get paid (e.g. accept online payments, early payouts)\n**2. Improve the demand**\n- Bring in more demand (e.g. Grubhub)\n- Bring in better demand (e.g. StockX, Toptal)\n- Unlock a whole new revenue stream (e.g. Cameo, Twitch, Rover)\n**3. Reduce competition**\n: Tough one.",
+      "doc_item_refs": [
+        "#/texts/82",
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/85",
+        "#/texts/86",
+        "#/texts/87",
+        "#/texts/88",
+        "#/texts/89",
+        "#/texts/90",
+        "#/texts/91",
+        "#/texts/92"
+      ],
+      "document_id": "02-newsletters/choosing-a-take-rate.md",
+      "headings": [
+        "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+        "1. Take rates across the industry today",
+        "4. How to increase your take rate"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000006",
+        "chunk_sha256": "d8e76b0982fe36d6de19197e1a30551173781a247961311b0793c6da564d72c6",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+        "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+        "document_id": "02-newsletters/choosing-a-take-rate.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+        "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+        "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+        "headings": [
+          "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+          "1. Take rates across the industry today",
+          "4. How to increase your take rate"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+        "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+        "segment": {
+          "first_self_ref": "#/texts/82",
+          "item_count": 11,
+          "last_self_ref": "#/texts/92"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/82",
+          "#/texts/83",
+          "#/texts/84",
+          "#/texts/85",
+          "#/texts/86",
+          "#/texts/87",
+          "#/texts/88",
+          "#/texts/89",
+          "#/texts/90",
+          "#/texts/91",
+          "#/texts/92"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "Say you’ve already set a take rate and you want to increase it. Coming back to our formula, you have three options:\n**1. Increase the convenience**\n- Provide additional features and services (e.g. insurance, integrations, team accounts)\n- Do more of the heavy lifting (e.g. delivery, course creation, account manager)\n- Make it easier to get paid (e.g. accept online payments, early payouts)\n**2. Improve the demand**\n- Bring in more demand (e.g. Grubhub)\n- Bring in better demand (e.g. StockX, Toptal)\n- Unlock a whole new revenue stream (e.g. Cameo, Twitch, Rover)\n**3. Reduce competition**\n: Tough one.",
+      "token_count": 210
+    },
+    {
+      "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000007",
+      "contextualized_text": "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership\n1. Take rates across the industry today\n5. Should you lower your take rate?\nI can’t write a post about take rates without referencing\n[Bill Gurley’s seminal piece on take rates](https://abovethecrowd.com/2013/04/18/a-rake-too-far-optimal-platformpricing-strategy/)\n, in which he argues that you are often better off\n*lowering*\nyour take rate:\n“It may seem tautological that a higher rake is always better – that charging more would be better than charging less. But in fact, the opposite may often be true. The most dangerous strategy for any platform company is to price too high – to charge a greedy and overzealous rake that could serve to undermine the whole point of having a platform in the first place.”\n— Bill Gurley\nGurley’s primary argument, which I agree with, is that in a winner-take-all market, higher fees mean higher friction for customers and more opportunity for competitors to win business away from you. As Jeff Bezos says, “your margin is my opportunity.” Lower fees can give you both a short-term and lasting edge.\n**Ways to decrease your take rate:**\n1. Add a monthly subscription fee (e.g. [Shopify](https://www.shopify.com/pricing) , [Gumroad](https://gumroad.com/features/pricing) )\n2. Create tiers with lower fees for fewer services (e.g. [Patreon](https://www.patreon.com/product/pricing) , [Uber Eats](https://restaurants.ubereats.com/us/en/pricing/) )\n3. Give discounts for higher volume (e.g. [Upwork scales from 20% to 5%](https://support.upwork.com/hc/en-us/articles/211062538-Freelancer-Service-Fees) , [StockX cuts fees as you sell more](https://help.stockx.com/s/article/What-are-StockX-selling-fees?language=en_US) )\n4. Increase competition\n5. Just lower it",
+      "doc_item_refs": [
+        "#/texts/94",
+        "#/texts/95",
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/100",
+        "#/texts/101",
+        "#/texts/102",
+        "#/texts/103",
+        "#/texts/109",
+        "#/texts/115",
+        "#/texts/121",
+        "#/texts/122"
+      ],
+      "document_id": "02-newsletters/choosing-a-take-rate.md",
+      "headings": [
+        "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+        "1. Take rates across the industry today",
+        "5. Should you lower your take rate?"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000007",
+        "chunk_sha256": "d8c9a084af40d075a8bd40f3d0bac41692bfa56f941b88df8b7ccc5178b1d7b1",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+        "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+        "document_id": "02-newsletters/choosing-a-take-rate.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+        "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+        "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+        "headings": [
+          "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+          "1. Take rates across the industry today",
+          "5. Should you lower your take rate?"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+        "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+        "segment": {
+          "first_self_ref": "#/texts/94",
+          "item_count": 14,
+          "last_self_ref": "#/texts/122"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/94",
+          "#/texts/95",
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/100",
+          "#/texts/101",
+          "#/texts/102",
+          "#/texts/103",
+          "#/texts/109",
+          "#/texts/115",
+          "#/texts/121",
+          "#/texts/122"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "I can’t write a post about take rates without referencing\n[Bill Gurley’s seminal piece on take rates](https://abovethecrowd.com/2013/04/18/a-rake-too-far-optimal-platformpricing-strategy/)\n, in which he argues that you are often better off\n*lowering*\nyour take rate:\n“It may seem tautological that a higher rake is always better – that charging more would be better than charging less. But in fact, the opposite may often be true. The most dangerous strategy for any platform company is to price too high – to charge a greedy and overzealous rake that could serve to undermine the whole point of having a platform in the first place.”\n— Bill Gurley\nGurley’s primary argument, which I agree with, is that in a winner-take-all market, higher fees mean higher friction for customers and more opportunity for competitors to win business away from you. As Jeff Bezos says, “your margin is my opportunity.” Lower fees can give you both a short-term and lasting edge.\n**Ways to decrease your take rate:**\n1. Add a monthly subscription fee (e.g. [Shopify](https://www.shopify.com/pricing) , [Gumroad](https://gumroad.com/features/pricing) )\n2. Create tiers with lower fees for fewer services (e.g. [Patreon](https://www.patreon.com/product/pricing) , [Uber Eats](https://restaurants.ubereats.com/us/en/pricing/) )\n3. Give discounts for higher volume (e.g. [Upwork scales from 20% to 5%](https://support.upwork.com/hc/en-us/articles/211062538-Freelancer-Service-Fees) , [StockX cuts fees as you sell more](https://help.stockx.com/s/article/What-are-StockX-selling-fees?language=en_US) )\n4. Increase competition\n5. Just lower it",
+      "token_count": 512
+    },
+    {
+      "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000008",
+      "contextualized_text": "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership\n1. Take rates across the industry today\nBonus: What surprised me about the take rates\nComing back to\n[the list of take rates](https://docs.google.com/spreadsheets/d/1VD_cb65dgIQr1bz33G1cGA5knDSz4S5yEQTSxyQOSlU/edit#gid=0)\n, what stood out to me:\n1. OnlyFans (a platform that doesn’t bring any demand) is able to charge 20% (a rate normally reserved for marketplaces). This is probably because they solve a *major* pain point for their creators (e.g. accepting payment for sex work), and there isn’t much competition out there.\n2. Etsy’s fees are at the low end of the spectrum for a marketplace (e.g. even lower than Substack, which doesn’t drive demand). This is probably because of heavy competition with Amazon.\n3. Toptal is able to charge close to 40% as a labor marketplace. This is likely due to how much time and effort the platform saves both supply and demand.\n4. Twitch takes 50%. This likely speaks to the quality of the product and the significant network effects.\n5. Shutterstock and Getty images take up to 85%. This is likely due to how little work there is to get paid once you’ve uploaded your photos.\n6. Cameo has the opportunity to charge a higher take rate, since as far as I can tell there is no competition for their supply.\n7. Companies like Upwork, Patreon, StockX, Doordash, Uber Eats, and Grubhub take advantage of The Take Rate Formula by offering different take rates for more or less Convenience and Demand. For example:\nImage from Choosing a take rate\nImage from Choosing a take rate\nImage from Choosing a take rate\nImage from Choosing a take rate\nAnd finally…",
+      "doc_item_refs": [
+        "#/texts/124",
+        "#/texts/125",
+        "#/texts/126",
+        "#/texts/127",
+        "#/texts/131",
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/134",
+        "#/texts/135",
+        "#/texts/136",
+        "#/texts/262",
+        "#/texts/137",
+        "#/texts/263",
+        "#/texts/138",
+        "#/texts/139"
+      ],
+      "document_id": "02-newsletters/choosing-a-take-rate.md",
+      "headings": [
+        "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+        "1. Take rates across the industry today",
+        "Bonus: What surprised me about the take rates"
+      ],
+      "images": [
+        {
+          "caption": "Image from Choosing a take rate",
+          "image_id": "02-newsletters/choosing-a-take-rate.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/386a85e0-c059-4c04-83a0-b3d1a77042ce_2366x1182.png"
+        },
+        {
+          "caption": "Image from Choosing a take rate",
+          "image_id": "02-newsletters/choosing-a-take-rate.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/81752c56-e9e1-42bc-842b-9f837170b627_1866x1352.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000008",
+        "chunk_sha256": "a5885db215daf7d9ed9cf9c071fc262361bbbb7a7c328367679b7a454f6c9e4f",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+        "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+        "document_id": "02-newsletters/choosing-a-take-rate.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+        "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+        "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+        "headings": [
+          "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+          "1. Take rates across the industry today",
+          "Bonus: What surprised me about the take rates"
+        ],
+        "images": [
+          {
+            "caption": "Image from Choosing a take rate",
+            "image_id": "02-newsletters/choosing-a-take-rate.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/386a85e0-c059-4c04-83a0-b3d1a77042ce_2366x1182.png"
+          },
+          {
+            "caption": "Image from Choosing a take rate",
+            "image_id": "02-newsletters/choosing-a-take-rate.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/81752c56-e9e1-42bc-842b-9f837170b627_1866x1352.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+        "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+        "segment": {
+          "first_self_ref": "#/texts/124",
+          "item_count": 15,
+          "last_self_ref": "#/texts/139"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/124",
+          "#/texts/125",
+          "#/texts/126",
+          "#/texts/127",
+          "#/texts/131",
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/134",
+          "#/texts/135",
+          "#/texts/136",
+          "#/texts/262",
+          "#/texts/137",
+          "#/texts/263",
+          "#/texts/138",
+          "#/texts/139"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "Coming back to\n[the list of take rates](https://docs.google.com/spreadsheets/d/1VD_cb65dgIQr1bz33G1cGA5knDSz4S5yEQTSxyQOSlU/edit#gid=0)\n, what stood out to me:\n1. OnlyFans (a platform that doesn’t bring any demand) is able to charge 20% (a rate normally reserved for marketplaces). This is probably because they solve a *major* pain point for their creators (e.g. accepting payment for sex work), and there isn’t much competition out there.\n2. Etsy’s fees are at the low end of the spectrum for a marketplace (e.g. even lower than Substack, which doesn’t drive demand). This is probably because of heavy competition with Amazon.\n3. Toptal is able to charge close to 40% as a labor marketplace. This is likely due to how much time and effort the platform saves both supply and demand.\n4. Twitch takes 50%. This likely speaks to the quality of the product and the significant network effects.\n5. Shutterstock and Getty images take up to 85%. This is likely due to how little work there is to get paid once you’ve uploaded your photos.\n6. Cameo has the opportunity to charge a higher take rate, since as far as I can tell there is no competition for their supply.\n7. Companies like Upwork, Patreon, StockX, Doordash, Uber Eats, and Grubhub take advantage of The Take Rate Formula by offering different take rates for more or less Convenience and Demand. For example:\nImage from Choosing a take rate\nImage from Choosing a take rate\nImage from Choosing a take rate\nImage from Choosing a take rate\nAnd finally…",
+      "token_count": 433
+    },
+    {
+      "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000009",
+      "contextualized_text": "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership\n📚 Further study\n- [A Rake Too Far](https://abovethecrowd.com/2013/04/18/a-rake-too-far-optimal-platformpricing-strategy/) by Bill Gurley\n- [How to set pricing in your marketplace](https://www.sharetribe.com/academy/how-to-set-pricing-in-your-marketplace/) by Juho Makkonen\n- [My running collection of take rates](https://docs.google.com/spreadsheets/d/1VD_cb65dgIQr1bz33G1cGA5knDSz4S5yEQTSxyQOSlU/edit#gid=0)\nHave a productive and fulfilling week 🙏",
+      "doc_item_refs": [
+        "#/texts/141",
+        "#/texts/144",
+        "#/texts/147",
+        "#/texts/148"
+      ],
+      "document_id": "02-newsletters/choosing-a-take-rate.md",
+      "headings": [
+        "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+        "📚 Further study"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000009",
+        "chunk_sha256": "36bbdabd4b3b6cb3d25d42616f0086bc48eaec04057e964802e1b744a8a15a75",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+        "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+        "document_id": "02-newsletters/choosing-a-take-rate.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+        "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+        "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+        "headings": [
+          "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+          "📚 Further study"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+        "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+        "segment": {
+          "first_self_ref": "#/texts/141",
+          "item_count": 4,
+          "last_self_ref": "#/texts/148"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/141",
+          "#/texts/144",
+          "#/texts/147",
+          "#/texts/148"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "- [A Rake Too Far](https://abovethecrowd.com/2013/04/18/a-rake-too-far-optimal-platformpricing-strategy/) by Bill Gurley\n- [How to set pricing in your marketplace](https://www.sharetribe.com/academy/how-to-set-pricing-in-your-marketplace/) by Juho Makkonen\n- [My running collection of take rates](https://docs.google.com/spreadsheets/d/1VD_cb65dgIQr1bz33G1cGA5knDSz4S5yEQTSxyQOSlU/edit#gid=0)\nHave a productive and fulfilling week 🙏",
+      "token_count": 197
+    },
+    {
+      "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000010",
+      "contextualized_text": "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership\n\n**🔥 Job opening of the week:**\n[Lead Product Manager at Quartzy](https://jobs.lever.co/quartzy/2b7342f1-9382-40f3-a119-2a7a90237020?lever-origin=applied&lever-source%5B%5D=Lenny%27s)\n*Quartzy is in hyper-growth mode and our SaaS platform has an exciting roadmap for 2021! If you're interested in building technologies that help research labs handle, order and optimize their resources daily, take a look at this role.*\n[Learn more](https://jobs.lever.co/quartzy/2b7342f1-9382-40f3-a119-2a7a90237020?lever-origin=applied&lever-source%5B%5D=Lenny%27s)\n**Additional opportunities:**",
+      "doc_item_refs": [
+        "#/texts/150",
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/153",
+        "#/texts/154"
+      ],
+      "document_id": "02-newsletters/choosing-a-take-rate.md",
+      "headings": [
+        "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000010",
+        "chunk_sha256": "d70eacfee4ca3ed261d048f9adf0c763baeaf19e38c58542ff1aa68dd204d91b",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+        "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+        "document_id": "02-newsletters/choosing-a-take-rate.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+        "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+        "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+        "headings": [
+          "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+        "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+        "segment": {
+          "first_self_ref": "#/texts/150",
+          "item_count": 5,
+          "last_self_ref": "#/texts/154"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/150",
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/153",
+          "#/texts/154"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "**🔥 Job opening of the week:**\n[Lead Product Manager at Quartzy](https://jobs.lever.co/quartzy/2b7342f1-9382-40f3-a119-2a7a90237020?lever-origin=applied&lever-source%5B%5D=Lenny%27s)\n*Quartzy is in hyper-growth mode and our SaaS platform has an exciting roadmap for 2021! If you're interested in building technologies that help research labs handle, order and optimize their resources daily, take a look at this role.*\n[Learn more](https://jobs.lever.co/quartzy/2b7342f1-9382-40f3-a119-2a7a90237020?lever-origin=applied&lever-source%5B%5D=Lenny%27s)\n**Additional opportunities:**",
+      "token_count": 237
+    },
+    {
+      "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000011",
+      "contextualized_text": "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership\n\n1. **Product** : [AbstractOps](https://work.abstractops.com/3003f61f65d44cfdbebfdd01677f1adb) , [Decent](https://decent.breezy.hr/p/a976bf37026c-product-lead) , [Goldcast](https://boards.greenhouse.io/goldcast/jobs/4009779004) , [Rocketplace](https://jobs.ashbyhq.com/Rocketplace/11bc424f-e80f-4bab-aa96-517c01a6d511) , [Twine](https://docs.google.com/document/d/1VUHSTVfk2HyVfzcryXBGcpgUHrVGCddy1tGvMjGEHao/edit) , [Wrapbook](https://boards.greenhouse.io/wrapbook/jobs/4217915003?gh_jid=4217915003)\n2. **Growth** : [Offsyte](https://www.notion.so/Growth-Marketing-Manager-3fbc68b7dcc2411c857a2753bd4e70f7) , [SpaceX Starlink](https://boards.greenhouse.io/spacex/jobs/5032353002?gh_jid=5032353002&gh_src=seekorswimcom)\n3. **Design** : [Ashby](https://jobs.ashbyhq.com/ashby/145ff46b-1441-4773-bcd3-c8c90baa598a) , [Berbix](https://jobs.lever.co/berbix/ba8af3cd-d797-492b-9849-13b37df0f6b2) , [Eppo](https://www.notion.so/Eppo-Founding-Designer-57b62fbe7832400396ee7dbfd9889c0e) , [Instrumentl](https://angel.co/company/instrumentl/jobs/1175906-lead-product-designer-remote) , [Office Hours](https://jobs.lever.co/office-hours/13d73541-b5b7-405a-9ad8-1d3f0edf9c92) , [Primer](https://www.notion.so/Designer-San-Francisco-CA-327a70b082714933aef3c58ef63b54ab) , [Runway](https://www.notion.so/A-Product-Designer-baa24543701f472bb291d4429812064a) , [Watershed](https://www.notion.so/Designer-Watershed-7cb7bf8bd750432399d36e83e4e32391)\n4. **Frontend engineer** : [Levels](https://www.notion.so/levelshealth/Join-Levels-Remote-Developer-58454f0db7e3466692f7b75db6237ddf) , [Practice](https://www.notion.so/Front-end-Developer-929e1933b9b4432a851043adbb7bff04)\n5. **Backend engineer** : [Driveway](https://www.notion.so/Driveway-Senior-Engineer-758d5ce4ce764f9ea920c5728ee136f3) , [Eppo](https://www.notion.so/Eppo-Founding-Data-Engineer-45533e4fc79c4c4d97b8302c051243bc) , [Pogo](https://www.notion.so/Senior-Software-Engineer-Backend-6d954206f00b446289f18bf51960ca34) , [Reclaim](https://reclaim.ai/job-site-reliability-engineer/) , [Transform](https://transformdata.io/careers/)\n6. **Fullstack engineer** : [Icebreaker](https://icebreaker.video/product-engineer) , [Mem](https://get.mem.ai/careers#product-engineer) , [Runway](https://www.notion.so/A-Product-first-Full-stack-Engineer-5e056689b68048aeb1ccfea6ac73eb9e) , [Snackpass](https://jobs.lever.co/snackpass/7c3bb72b-70d3-45ca-9dea-eea57ed5333d) , [Sorare](https://www.welcometothejungle.com/fr/companies/sorare/jobs/senior-full-stack-developer_paris_SORAR_Y1eay7e) , [Stytch](https://jobs.lever.co/stytch/00c92a1b-36c2-46f6-8af1-885a6bbd6bd4)\n7. **Mobile engineer** : [Nocap](https://www.notion.so/nocapnotion/Software-Engineer-iOS-058677353900453ca6b60c62445ac3a0) , [Primer](https://www.notion.so/Senior-Software-Engineer-iOS-San-Francisco-CA-87f0fd3ee3dc4c3f8d0419c07fcdd434) , [Stytch](https://jobs.lever.co/stytch/d3bf3860-4aaa-4a23-8e28-dad20957be44)",
+      "doc_item_refs": [
+        "#/texts/155",
+        "#/texts/169",
+        "#/texts/175",
+        "#/texts/193",
+        "#/texts/199",
+        "#/texts/211",
+        "#/texts/225"
+      ],
+      "document_id": "02-newsletters/choosing-a-take-rate.md",
+      "headings": [
+        "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000011",
+        "chunk_sha256": "58374211df53a9740b41678167e7a7246de35a5dd9754c89dc1d15469789295c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+        "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+        "document_id": "02-newsletters/choosing-a-take-rate.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+        "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+        "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+        "headings": [
+          "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+        "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+        "segment": {
+          "first_self_ref": "#/texts/155",
+          "item_count": 7,
+          "last_self_ref": "#/texts/225"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/155",
+          "#/texts/169",
+          "#/texts/175",
+          "#/texts/193",
+          "#/texts/199",
+          "#/texts/211",
+          "#/texts/225"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "1. **Product** : [AbstractOps](https://work.abstractops.com/3003f61f65d44cfdbebfdd01677f1adb) , [Decent](https://decent.breezy.hr/p/a976bf37026c-product-lead) , [Goldcast](https://boards.greenhouse.io/goldcast/jobs/4009779004) , [Rocketplace](https://jobs.ashbyhq.com/Rocketplace/11bc424f-e80f-4bab-aa96-517c01a6d511) , [Twine](https://docs.google.com/document/d/1VUHSTVfk2HyVfzcryXBGcpgUHrVGCddy1tGvMjGEHao/edit) , [Wrapbook](https://boards.greenhouse.io/wrapbook/jobs/4217915003?gh_jid=4217915003)\n2. **Growth** : [Offsyte](https://www.notion.so/Growth-Marketing-Manager-3fbc68b7dcc2411c857a2753bd4e70f7) , [SpaceX Starlink](https://boards.greenhouse.io/spacex/jobs/5032353002?gh_jid=5032353002&gh_src=seekorswimcom)\n3. **Design** : [Ashby](https://jobs.ashbyhq.com/ashby/145ff46b-1441-4773-bcd3-c8c90baa598a) , [Berbix](https://jobs.lever.co/berbix/ba8af3cd-d797-492b-9849-13b37df0f6b2) , [Eppo](https://www.notion.so/Eppo-Founding-Designer-57b62fbe7832400396ee7dbfd9889c0e) , [Instrumentl](https://angel.co/company/instrumentl/jobs/1175906-lead-product-designer-remote) , [Office Hours](https://jobs.lever.co/office-hours/13d73541-b5b7-405a-9ad8-1d3f0edf9c92) , [Primer](https://www.notion.so/Designer-San-Francisco-CA-327a70b082714933aef3c58ef63b54ab) , [Runway](https://www.notion.so/A-Product-Designer-baa24543701f472bb291d4429812064a) , [Watershed](https://www.notion.so/Designer-Watershed-7cb7bf8bd750432399d36e83e4e32391)\n4. **Frontend engineer** : [Levels](https://www.notion.so/levelshealth/Join-Levels-Remote-Developer-58454f0db7e3466692f7b75db6237ddf) , [Practice](https://www.notion.so/Front-end-Developer-929e1933b9b4432a851043adbb7bff04)\n5. **Backend engineer** : [Driveway](https://www.notion.so/Driveway-Senior-Engineer-758d5ce4ce764f9ea920c5728ee136f3) , [Eppo](https://www.notion.so/Eppo-Founding-Data-Engineer-45533e4fc79c4c4d97b8302c051243bc) , [Pogo](https://www.notion.so/Senior-Software-Engineer-Backend-6d954206f00b446289f18bf51960ca34) , [Reclaim](https://reclaim.ai/job-site-reliability-engineer/) , [Transform](https://transformdata.io/careers/)\n6. **Fullstack engineer** : [Icebreaker](https://icebreaker.video/product-engineer) , [Mem](https://get.mem.ai/careers#product-engineer) , [Runway](https://www.notion.so/A-Product-first-Full-stack-Engineer-5e056689b68048aeb1ccfea6ac73eb9e) , [Snackpass](https://jobs.lever.co/snackpass/7c3bb72b-70d3-45ca-9dea-eea57ed5333d) , [Sorare](https://www.welcometothejungle.com/fr/companies/sorare/jobs/senior-full-stack-developer_paris_SORAR_Y1eay7e) , [Stytch](https://jobs.lever.co/stytch/00c92a1b-36c2-46f6-8af1-885a6bbd6bd4)\n7. **Mobile engineer** : [Nocap](https://www.notion.so/nocapnotion/Software-Engineer-iOS-058677353900453ca6b60c62445ac3a0) , [Primer](https://www.notion.so/Senior-Software-Engineer-iOS-San-Francisco-CA-87f0fd3ee3dc4c3f8d0419c07fcdd434) , [Stytch](https://jobs.lever.co/stytch/d3bf3860-4aaa-4a23-8e28-dad20957be44)",
+      "token_count": 1460
+    },
+    {
+      "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000012",
+      "contextualized_text": "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership\n\n8. **Game economy designer** : [Sorare](https://www.welcometothejungle.com/fr/companies/sorare/jobs/game-economy-designer_paris_SORAR_kYW8MjK)",
+      "doc_item_refs": [
+        "#/texts/233"
+      ],
+      "document_id": "02-newsletters/choosing-a-take-rate.md",
+      "headings": [
+        "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+        ""
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000012",
+        "chunk_sha256": "72d657ecc2b1fc72cd9e9cb298ed19c1c033ab8c0822f5b780791886976ed32d",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+        "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+        "document_id": "02-newsletters/choosing-a-take-rate.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+        "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+        "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+        "headings": [
+          "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+          ""
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+        "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+        "segment": {
+          "first_self_ref": "#/texts/233",
+          "item_count": 1,
+          "last_self_ref": "#/texts/233"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/233"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "8. **Game economy designer** : [Sorare](https://www.welcometothejungle.com/fr/companies/sorare/jobs/game-economy-designer_paris_SORAR_kYW8MjK)",
+      "token_count": 86
+    },
+    {
+      "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000013",
+      "contextualized_text": "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership\n🧠 Inspiration for the week ahead\n1. **Watch** : Living on a Prayer + park\n2. **Listen** : A 5m documentary about a rainy afternoon in Japan (via [Edith Zimmerman](https://drawinglinks.substack.com/) )\n[Watch on YouTube](https://www.youtube.com/watch?v=i5SLi-GZ0Z4)\n1. **Read** : [Marketplace Supply Strategy: Comprehensive, Exclusive, or Curated](https://a16z.com/2021/03/31/marketplace-supply-strategy/) by Casey Winters and Anne Lewandowski",
+      "doc_item_refs": [
+        "#/texts/238",
+        "#/texts/241",
+        "#/texts/246",
+        "#/texts/247"
+      ],
+      "document_id": "02-newsletters/choosing-a-take-rate.md",
+      "headings": [
+        "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+        "🧠 Inspiration for the week ahead"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000013",
+        "chunk_sha256": "204dc25a297c6354ecda6e1d772cc02be66967d22c90b262ad859884a04dec93",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+        "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+        "document_id": "02-newsletters/choosing-a-take-rate.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+        "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+        "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+        "headings": [
+          "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+          "🧠 Inspiration for the week ahead"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+        "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+        "segment": {
+          "first_self_ref": "#/texts/238",
+          "item_count": 4,
+          "last_self_ref": "#/texts/247"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/238",
+          "#/texts/241",
+          "#/texts/246",
+          "#/texts/247"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "1. **Watch** : Living on a Prayer + park\n2. **Listen** : A 5m documentary about a rainy afternoon in Japan (via [Edith Zimmerman](https://drawinglinks.substack.com/) )\n[Watch on YouTube](https://www.youtube.com/watch?v=i5SLi-GZ0Z4)\n1. **Read** : [Marketplace Supply Strategy: Comprehensive, Exclusive, or Curated](https://a16z.com/2021/03/31/marketplace-supply-strategy/) by Casey Winters and Anne Lewandowski",
+      "token_count": 173
+    },
+    {
+      "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000014",
+      "contextualized_text": "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership\n🧠 Inspiration for the week ahead\nHow would you rate this week's newsletter? 🤔\n[Great](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4Hp2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n•\n[Good](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4vX2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n•\n[Meh](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4kr2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n**If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/253",
+        "#/texts/254",
+        "#/texts/255",
+        "#/texts/256",
+        "#/texts/257",
+        "#/texts/258",
+        "#/texts/259",
+        "#/texts/260"
+      ],
+      "document_id": "02-newsletters/choosing-a-take-rate.md",
+      "headings": [
+        "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+        "🧠 Inspiration for the week ahead",
+        "How would you rate this week's newsletter? 🤔"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/choosing-a-take-rate.md#chunk=000014",
+        "chunk_sha256": "ee80c20162f6bd77b19650cd322525f90bbd00d8b23960b9ce3aa4473f677f58",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+        "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+        "document_id": "02-newsletters/choosing-a-take-rate.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+        "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+        "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+        "headings": [
+          "Choosing a take rate — Issue 72 | 2021-04-06 | Tags: strategy, design, pricing, b2b, growth, leadership",
+          "🧠 Inspiration for the week ahead",
+          "How would you rate this week's newsletter? 🤔"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+        "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+        "segment": {
+          "first_self_ref": "#/texts/253",
+          "item_count": 8,
+          "last_self_ref": "#/texts/260"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/253",
+          "#/texts/254",
+          "#/texts/255",
+          "#/texts/256",
+          "#/texts/257",
+          "#/texts/258",
+          "#/texts/259",
+          "#/texts/260"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "[Great](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4Hp2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n•\n[Good](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4vX2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n•\n[Meh](https://t.sidekickopen82.com/s1t/c/5/f18dQhb0S7kF8cV_VXW1CdjwB59hl3kW7_k2847sD3qkVNxJHk1CX2ZcW2bzNJl8lkfc1101?te=W3R5hFj4cm2zwW4cQKtC3KcLnYW4hLZp03ZVbTxW1JB0ML1--tKxW20ZTw51-YpBFW1W_jBk1ZmvHBW21j9tt1-_j_TW1Vnkcj1V3fMvw1V21pC4kr2&si=7000000001348012&pi=6174bab6-7009-4402-a497-3d6f867fbea1)\n**If you’re finding this newsletter valuable, consider sharing it with friends, or subscribing if you haven’t already.**\nSincerely,\nLenny 👋",
+      "token_count": 760
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/choosing-a-take-rate.docling.json",
+  "docling_sha256": "0874049900529f26c33f69dcd093d4bbfcae742232ffc5be93817345903e92f7",
+  "document_id": "02-newsletters/choosing-a-take-rate.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/choosing-a-take-rate.md",
+  "enhanced_sha256": "db7eed7e031eae3a3701d39bef7362e95781dfffe3f6469e80b85a3c8d2c29c9",
+  "fact_document_path": "chunks/v2/02-newsletters/choosing-a-take-rate.chunks.json",
+  "metadata": {
+    "date": "2021-04-06",
+    "subtitle": "Issue 72",
+    "tags": [
+      "strategy",
+      "design",
+      "pricing",
+      "b2b",
+      "growth",
+      "leadership"
+    ],
+    "title": "Choosing a take rate",
+    "type": "newsletter",
+    "word_count": 1840
+  },
+  "raw_path": "corpus/raw/02-newsletters/choosing-a-take-rate.md",
+  "raw_sha256": "8b487399b9d090ede38ca1e4c67e8715d4eb79a2247f056df91b6410ef72bf56",
+  "schema_version": "1",
+  "title": "Choosing a take rate"
+}

@@ -1,0 +1,1815 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000000",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nThis post will transform how you build products, come up with new ideas, and operate as a PM.\nWhether you’re already deep into AI tools or just getting started, you’ll learn what tools you should be paying attention to, which tool to use when, and how to get unstuck when you run into an issue. You’ll find a collection of battle-tested prompts, real-world examples, and a step-by-step guide you can put into practice immediately. Imagine being able to turn Figma designs into a working app with a few clicks, or turn your PRD into a working prototype in minutes. This is all possible, and you’ll learn how.\n[Colin Matthews](https://www.linkedin.com/in/colinmatthews-pm/?originalSubdomain=ca)\nwas a longtime PM and now teaches my favorite AI prototyping course:\n[AI Prototyping for Product Managers](https://maven.com/tech-for-product/ai-prototyping-for-product-managers?promoCode=LENNYSLIST)\n. He also wrote my 9th most popular post of all time (\n[Become a more technical product manager](https://www.lennysnewsletter.com/p/become-a-more-technical-product-manager)\n). I absolutely love how simply and clearly Colin is able to explain complex topics, and I personally learned\n*so much*\nfrom this post on AI prototyping. I’m confident you will too.\n*If you’d like to learn more,*\n[*check out Colin’s free 30-minute lightning lesson*](https://maven.com/p/30546f/ai-prototyping-for-product-managers-in-2025)\n*, where he shows you how to build a functional prototype in 10 minutes (including a few advanced techniques). And for much more,*\n[*check out Colin’s top-rated four-week cohort-based course*](https://maven.com/tech-for-product/ai-prototyping-for-product-managers?promoCode=lennyslist)\n*, where you’ll master AI prototyping tools, learn to debug common issues, and build a fundamental understanding of how coding works. Use code “LENNYSLIST” to get $100 off.*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nIf you haven’t been paying close attention over the past six months, you may have missed the rise of tools like\n[Cursor](https://www.cursor.com/)\n,\n[Replit Agent](https://replit.com/)\n,\n[v0](https://v0.dev/)\n,\n[Bolt](https://bolt.new/)\n, and other new cutting-edge AI tools that allow you to build working apps in minutes. For example, it took me 10 minutes to build\n[this 2-D tank game](https://cfjzdhoyqmiljtvb3fnjprf0stjcd8tg.vercel.app/)\n(with an AI opponent included), merely using this series of prompts:\n- *“Build a 2d tank game with an AI opponent.”*\n- *“Add collision for the shot when it hits a tank.”*\n- *“When health hits zero, play an animation and reset the game.”*\n- *“Improve the acceleration for player movement.”*\n- *“Make it so holding down the space bar has a timer to shoot a 2nd time.”*\n- *“Add power ups to the map.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nPretty cool. But what’s cooler is that you can use these tools to build functional prototypes from a Figma design, convert a rough hand-drawn sketch to a working app, translate a PRD document into an interactive prototype, or even build a usable internal tool for your team, with no coding ability. In this post, I’ll cover the basics of AI prototyping, show how to get good results out of the most popular tools, and walk through an end-to-end example of building a prototype in less than 10 minutes.",
+      "doc_item_refs": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/314",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/315",
+        "#/texts/34",
+        "#/texts/35"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management"
+      ],
+      "images": [
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000000",
+          "path": null,
+          "self_ref": "#/pictures/0",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/5307ae42-888a-4ba5-8e9b-8cb6d3916c14_1456x1105.jpeg"
+        },
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000001",
+          "path": null,
+          "self_ref": "#/pictures/1",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/f2bb8af7-b477-4009-a792-6f997633bb67_3220x1922.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000000",
+        "chunk_sha256": "355ecb48169343f1f18c1b744370d201e1ee4d3287a8956f9ba2471feb71e81d",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management"
+        ],
+        "images": [
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000000",
+            "path": null,
+            "self_ref": "#/pictures/0",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/5307ae42-888a-4ba5-8e9b-8cb6d3916c14_1456x1105.jpeg"
+          },
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000001",
+            "path": null,
+            "self_ref": "#/pictures/1",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/f2bb8af7-b477-4009-a792-6f997633bb67_3220x1922.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 0,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/1",
+          "item_count": 37,
+          "last_self_ref": "#/texts/35"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/1",
+          "#/texts/2",
+          "#/texts/3",
+          "#/texts/4",
+          "#/texts/5",
+          "#/texts/6",
+          "#/texts/7",
+          "#/texts/8",
+          "#/texts/9",
+          "#/texts/10",
+          "#/texts/11",
+          "#/texts/12",
+          "#/texts/13",
+          "#/texts/14",
+          "#/texts/15",
+          "#/texts/314",
+          "#/texts/16",
+          "#/texts/17",
+          "#/texts/18",
+          "#/texts/19",
+          "#/texts/20",
+          "#/texts/21",
+          "#/texts/22",
+          "#/texts/23",
+          "#/texts/24",
+          "#/texts/25",
+          "#/texts/26",
+          "#/texts/27",
+          "#/texts/28",
+          "#/texts/29",
+          "#/texts/30",
+          "#/texts/31",
+          "#/texts/32",
+          "#/texts/33",
+          "#/texts/315",
+          "#/texts/34",
+          "#/texts/35"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 0,
+      "raw_text": "This post will transform how you build products, come up with new ideas, and operate as a PM.\nWhether you’re already deep into AI tools or just getting started, you’ll learn what tools you should be paying attention to, which tool to use when, and how to get unstuck when you run into an issue. You’ll find a collection of battle-tested prompts, real-world examples, and a step-by-step guide you can put into practice immediately. Imagine being able to turn Figma designs into a working app with a few clicks, or turn your PRD into a working prototype in minutes. This is all possible, and you’ll learn how.\n[Colin Matthews](https://www.linkedin.com/in/colinmatthews-pm/?originalSubdomain=ca)\nwas a longtime PM and now teaches my favorite AI prototyping course:\n[AI Prototyping for Product Managers](https://maven.com/tech-for-product/ai-prototyping-for-product-managers?promoCode=LENNYSLIST)\n. He also wrote my 9th most popular post of all time (\n[Become a more technical product manager](https://www.lennysnewsletter.com/p/become-a-more-technical-product-manager)\n). I absolutely love how simply and clearly Colin is able to explain complex topics, and I personally learned\n*so much*\nfrom this post on AI prototyping. I’m confident you will too.\n*If you’d like to learn more,*\n[*check out Colin’s free 30-minute lightning lesson*](https://maven.com/p/30546f/ai-prototyping-for-product-managers-in-2025)\n*, where he shows you how to build a functional prototype in 10 minutes (including a few advanced techniques). And for much more,*\n[*check out Colin’s top-rated four-week cohort-based course*](https://maven.com/tech-for-product/ai-prototyping-for-product-managers?promoCode=lennyslist)\n*, where you’ll master AI prototyping tools, learn to debug common issues, and build a fundamental understanding of how coding works. Use code “LENNYSLIST” to get $100 off.*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nIf you haven’t been paying close attention over the past six months, you may have missed the rise of tools like\n[Cursor](https://www.cursor.com/)\n,\n[Replit Agent](https://replit.com/)\n,\n[v0](https://v0.dev/)\n,\n[Bolt](https://bolt.new/)\n, and other new cutting-edge AI tools that allow you to build working apps in minutes. For example, it took me 10 minutes to build\n[this 2-D tank game](https://cfjzdhoyqmiljtvb3fnjprf0stjcd8tg.vercel.app/)\n(with an AI opponent included), merely using this series of prompts:\n- *“Build a 2d tank game with an AI opponent.”*\n- *“Add collision for the shot when it hits a tank.”*\n- *“When health hits zero, play an animation and reset the game.”*\n- *“Improve the acceleration for player movement.”*\n- *“Make it so holding down the space bar has a timer to shoot a 2nd time.”*\n- *“Add power ups to the map.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nPretty cool. But what’s cooler is that you can use these tools to build functional prototypes from a Figma design, convert a rough hand-drawn sketch to a working app, translate a PRD document into an interactive prototype, or even build a usable internal tool for your team, with no coding ability. In this post, I’ll cover the basics of AI prototyping, show how to get good results out of the most popular tools, and walk through an end-to-end example of building a prototype in less than 10 minutes.",
+      "token_count": 995
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000001",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nChoosing your tooling\nCurrent AI development tools come in three types:\n1. **Chatbots (e.g.** [**Claude**](https://claude.ai/) **,** [**ChatGPT**](https://chatgpt.com/) **):** The AI tools you probably know, which can also write and explain basic code\n2. **Cloud development environments (e.g.** [**Replit**](https://replit.com/) **,** [**Bolt**](https://bolt.new/) **,** [**v0**](https://v0.dev/) **,** [**Lovable**](https://lovable.dev/) **):** Full-stack platforms thatcan build and run your apps in the cloud\n3. **Local developer assistants (e.g.** [**GitHub Copliot**](https://github.com/features/copilot) **,** [**Cursor**](https://www.cursor.com/) **,** [**Windsurf**](https://codeium.com/windsurf) **,** [**Zed**](https://zed.dev/ai) **):** Development environments (i.e. IDEs) that help you write code with the help of AI\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nLet’s review the most popular tools in each category to see what they can do and what we can build.",
+      "doc_item_refs": [
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/45",
+        "#/texts/56",
+        "#/texts/316",
+        "#/texts/67",
+        "#/texts/68"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Choosing your tooling"
+      ],
+      "images": [
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000002",
+          "path": null,
+          "self_ref": "#/pictures/2",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/263e0c31-8ed5-40d0-b3d3-2fff6ef4f129_2912x1858.jpeg"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000001",
+        "chunk_sha256": "4db104bccb8a50efe21f2486055d185e14e381dcbd0da947d8d017128d38335e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Choosing your tooling"
+        ],
+        "images": [
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000002",
+            "path": null,
+            "self_ref": "#/pictures/2",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/263e0c31-8ed5-40d0-b3d3-2fff6ef4f129_2912x1858.jpeg"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 1,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/37",
+          "item_count": 7,
+          "last_self_ref": "#/texts/68"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/37",
+          "#/texts/38",
+          "#/texts/45",
+          "#/texts/56",
+          "#/texts/316",
+          "#/texts/67",
+          "#/texts/68"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 1,
+      "raw_text": "Current AI development tools come in three types:\n1. **Chatbots (e.g.** [**Claude**](https://claude.ai/) **,** [**ChatGPT**](https://chatgpt.com/) **):** The AI tools you probably know, which can also write and explain basic code\n2. **Cloud development environments (e.g.** [**Replit**](https://replit.com/) **,** [**Bolt**](https://bolt.new/) **,** [**v0**](https://v0.dev/) **,** [**Lovable**](https://lovable.dev/) **):** Full-stack platforms thatcan build and run your apps in the cloud\n3. **Local developer assistants (e.g.** [**GitHub Copliot**](https://github.com/features/copilot) **,** [**Cursor**](https://www.cursor.com/) **,** [**Windsurf**](https://codeium.com/windsurf) **,** [**Zed**](https://zed.dev/ai) **):** Development environments (i.e. IDEs) that help you write code with the help of AI\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nLet’s review the most popular tools in each category to see what they can do and what we can build.",
+      "token_count": 455
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000002",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nChoosing your tooling\nChatbots (ChatGPT, Claude)\n***Best for:***\n*Prototypes that are just one page and don’t have complex design requirements, like calculators, flip cards, or data visualizations*\nChatbots are capable of writing code in response to a question or prompt.\nA prompt like\n***“Build me a calculator with React”***\nresults in the following:\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nIf you want to run this code, ChatGPT requires you to copy and paste the code into your IDE and run it on your own computer.\nClaude goes one step beyond ChatGPT’s abilities with their\n[Artifact system](https://support.anthropic.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)\n. Artifacts allow you to run the code within Claude’s interface and deploy to a shareable link. An unfortunate limitation is that you can’t make any direct edits to the code, so you’re entirely reliant on using prompts to make code changes.\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\n(\n[Perplexity](https://www.perplexity.ai/)\nis another tool you’ve probably heard of, which feels similar to chatbots but is more focused on search and not as useful for creating apps. It can write basic code because it’s built on top of other AI models like ChatGPT and Claude, but I wouldn’t recommend it for this use case.)\nRemember that chatbots can write code for any part of our stack (client, server, database) but can’t host your code (deploy) for us. They also can’t create complex prototypes with multiple pages, and it’s difficult to change the code directly. As a result, these tools are best used for very simple one-time prototypes—which sometimes is enough to get the job done. Think of chatbots when you’re looking to create a very simple landing page, individual inputs like a date picker, or small apps like a to-do list.",
+      "doc_item_refs": [
+        "#/texts/70",
+        "#/texts/71",
+        "#/texts/72",
+        "#/texts/73",
+        "#/texts/74",
+        "#/texts/75",
+        "#/texts/317",
+        "#/texts/76",
+        "#/texts/77",
+        "#/texts/78",
+        "#/texts/79",
+        "#/texts/80",
+        "#/texts/318",
+        "#/texts/81",
+        "#/texts/82",
+        "#/texts/83",
+        "#/texts/84",
+        "#/texts/85"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Choosing your tooling",
+        "Chatbots (ChatGPT, Claude)"
+      ],
+      "images": [
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000003",
+          "path": null,
+          "self_ref": "#/pictures/3",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/06c9d7ea-1cb6-41dd-8c88-5f8d9ff2ae4e_1080x641.gif"
+        },
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000004",
+          "path": null,
+          "self_ref": "#/pictures/4",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/71c5a618-e663-49d4-986e-0ea9c18620f8_1080x641.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000002",
+        "chunk_sha256": "bb89f1ee5456c7245c046eab3bdcce4daa37ff078c13a651f0a1537b862aaf0a",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Choosing your tooling",
+          "Chatbots (ChatGPT, Claude)"
+        ],
+        "images": [
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000003",
+            "path": null,
+            "self_ref": "#/pictures/3",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/06c9d7ea-1cb6-41dd-8c88-5f8d9ff2ae4e_1080x641.gif"
+          },
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000004",
+            "path": null,
+            "self_ref": "#/pictures/4",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/71c5a618-e663-49d4-986e-0ea9c18620f8_1080x641.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 2,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/70",
+          "item_count": 18,
+          "last_self_ref": "#/texts/85"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/70",
+          "#/texts/71",
+          "#/texts/72",
+          "#/texts/73",
+          "#/texts/74",
+          "#/texts/75",
+          "#/texts/317",
+          "#/texts/76",
+          "#/texts/77",
+          "#/texts/78",
+          "#/texts/79",
+          "#/texts/80",
+          "#/texts/318",
+          "#/texts/81",
+          "#/texts/82",
+          "#/texts/83",
+          "#/texts/84",
+          "#/texts/85"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 2,
+      "raw_text": "***Best for:***\n*Prototypes that are just one page and don’t have complex design requirements, like calculators, flip cards, or data visualizations*\nChatbots are capable of writing code in response to a question or prompt.\nA prompt like\n***“Build me a calculator with React”***\nresults in the following:\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nIf you want to run this code, ChatGPT requires you to copy and paste the code into your IDE and run it on your own computer.\nClaude goes one step beyond ChatGPT’s abilities with their\n[Artifact system](https://support.anthropic.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)\n. Artifacts allow you to run the code within Claude’s interface and deploy to a shareable link. An unfortunate limitation is that you can’t make any direct edits to the code, so you’re entirely reliant on using prompts to make code changes.\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\n(\n[Perplexity](https://www.perplexity.ai/)\nis another tool you’ve probably heard of, which feels similar to chatbots but is more focused on search and not as useful for creating apps. It can write basic code because it’s built on top of other AI models like ChatGPT and Claude, but I wouldn’t recommend it for this use case.)\nRemember that chatbots can write code for any part of our stack (client, server, database) but can’t host your code (deploy) for us. They also can’t create complex prototypes with multiple pages, and it’s difficult to change the code directly. As a result, these tools are best used for very simple one-time prototypes—which sometimes is enough to get the job done. Think of chatbots when you’re looking to create a very simple landing page, individual inputs like a date picker, or small apps like a to-do list.",
+      "token_count": 533
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000003",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nChoosing your tooling\nCloud development environments (Replit, Bolt, v0, Lovable)\n***Best for:***\n*Prototypes with more than one feature, specific design requirements, or many pages*\nCloud development environments are one big step up from chatbots. These tools handle all the tasks required to turn your ideas into an actual working product. They can help you build end-to-end features, handle the backend infrastructure necessary to run your prototype, allow multi-file edits with agentic workflows, and take on more complex tasks across your codebase such as updating your database schema.\nOne of the key differentiators among the various cloud development environments is hosting. As I explained in my\n[prior post](https://www.lennysnewsletter.com/p/become-a-more-technical-product-manager)\non becoming a more technical PM, every software product is built with three parts: a client, a server, and a database. The client is what the user interacts with (often written in JavaScript), the server processes requests from the client to retrieve data or integrate with other products (often written in Node.js, Python, or Java), and the database is your permanent storage of data. Making prototypes that have real features requires you to host both your client and server code, and may require a database to power the app.\nOne of the most popular tools today,\n[v0](https://v0.dev/)\n, is capable of writing and hosting both client and server code. By default it uses specific frameworks called\n[Next.js](https://nextjs.org/)\nand\n[Shadcn UI](https://ui.shadcn.com/)\nto do so (both were created by\n[Vercel](https://vercel.com/)\n, the same company that owns v0). v0 can deploy your code and run backend servers—plus, one of its strongest features is that it has great styling as a default. Here’s a basic CRM I built in v0 with the prompt “Build me a basic CRM.”\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\n[Bolt](https://bolt.new/)\nis very similar to v0 in that it can also generate and deploy both client and server code. But a key difference is where the server runs. With v0, you deploy to real cloud hosting infrastructure, whereas Bolt runs the server code directly in the user’s browser. This means Bolt cannot natively support prototypes that need user identity like logins or accounts, multi-user interactions such as chat or collaborative workspaces, secure data operations like payment processing, or persistent data storage between sessions, because an isolated copy of the server is created on each user’s device. You can make up for this by integrating with external products like Supabase that offer servers and databases.\nHere’s a basic CRM I built with Bolt, using the prompt “Build me a basic CRM.”\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nAnother popular tool is\n[Replit](https://replit.com/)\n. Replit allows you to build full-stack applications, including a client, server, and database. It can build web apps using both JavaScript and Python frameworks and particularly excels at building internal admin tools (e.g. file conversion, job applicant tracking) and data-driven applications (e.g. image resizing, multi-page dashboards) with simple UIs.\nI use Replit whenever I need a fully functional back end or I want to use Python code. I’ve used it to build an MP4-to-GIF converter and a Substack image resizer—both tools I use weekly.\nHere’s a basic CRM I built with Replit, using the prompt “Build me a basic CRM.”\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nFinally, we have\n[Lovable](https://lovable.dev/)\n. It’s the newest of the bunch. Lovable is most similar to v0 and Bolt—it excels at generating websites, and uses JavaScript frameworks like React and Next.js. Its differentiation comes from its integrations with other popular tools. Lovable can connect to a GitHub repository, automatically add authentication and databases with Supabase, and help you connect to AI providers like Anthropic and OpenAI. All of these features make it one of the best AI coding tools for building products you actually want to use in production.\nOne major drawback of Lovable is the lack of a code editor. To edit code, you have to ask the agent with prompting. This can make it difficult to debug issues directly in Lovable. I often find myself starting a new feature here but moving over to Cursor to resolve problems.\nHere’s a basic CRM I built with Lovable, using the prompt “Build me a basic CRM.”\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nTo recap:\n- Choose v0 for beautiful designs by default\n- Choose Bolt for quick prototypes with flexible designs\n- Choose Replit for internal tools or products that store or transform data\n- Choose Lovable for building production apps that benefit from integrations with your current tools\nRegardless of your choice, cloud development environments all support building more complex applications than chatbots, with the ability to deploy to the cloud and easily share updated iterations over time.",
+      "doc_item_refs": [
+        "#/texts/87",
+        "#/texts/88",
+        "#/texts/89",
+        "#/texts/90",
+        "#/texts/91",
+        "#/texts/92",
+        "#/texts/93",
+        "#/texts/94",
+        "#/texts/95",
+        "#/texts/96",
+        "#/texts/97",
+        "#/texts/98",
+        "#/texts/99",
+        "#/texts/100",
+        "#/texts/101",
+        "#/texts/319",
+        "#/texts/102",
+        "#/texts/103",
+        "#/texts/104",
+        "#/texts/105",
+        "#/texts/320",
+        "#/texts/106",
+        "#/texts/107",
+        "#/texts/108",
+        "#/texts/109",
+        "#/texts/110",
+        "#/texts/111",
+        "#/texts/321",
+        "#/texts/112",
+        "#/texts/113",
+        "#/texts/114",
+        "#/texts/115",
+        "#/texts/116",
+        "#/texts/117",
+        "#/texts/322",
+        "#/texts/118",
+        "#/texts/119",
+        "#/texts/120",
+        "#/texts/121",
+        "#/texts/122",
+        "#/texts/123",
+        "#/texts/124"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Choosing your tooling",
+        "Cloud development environments (Replit, Bolt, v0, Lovable)"
+      ],
+      "images": [
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000005",
+          "path": null,
+          "self_ref": "#/pictures/5",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/baa2653d-0687-4214-8a50-df1281081b31_3226x1938.png"
+        },
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000006",
+          "path": null,
+          "self_ref": "#/pictures/6",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/fa08cc5e-283b-4da4-9d3a-441b93923b2b_3202x1938.png"
+        },
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000007",
+          "path": null,
+          "self_ref": "#/pictures/7",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/40190b06-861d-4a75-b2eb-44fe6ee9800b_3220x1950.png"
+        },
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000008",
+          "path": null,
+          "self_ref": "#/pictures/8",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/5753e282-dacf-4349-9fd2-e6732810fe8f_3224x1938.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000003",
+        "chunk_sha256": "a862101828a123bb4157af0805858e34320bec12aaedf2bfaa0dd01e25f593fc",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Choosing your tooling",
+          "Cloud development environments (Replit, Bolt, v0, Lovable)"
+        ],
+        "images": [
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000005",
+            "path": null,
+            "self_ref": "#/pictures/5",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/baa2653d-0687-4214-8a50-df1281081b31_3226x1938.png"
+          },
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000006",
+            "path": null,
+            "self_ref": "#/pictures/6",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/fa08cc5e-283b-4da4-9d3a-441b93923b2b_3202x1938.png"
+          },
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000007",
+            "path": null,
+            "self_ref": "#/pictures/7",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/40190b06-861d-4a75-b2eb-44fe6ee9800b_3220x1950.png"
+          },
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000008",
+            "path": null,
+            "self_ref": "#/pictures/8",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/5753e282-dacf-4349-9fd2-e6732810fe8f_3224x1938.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 3,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/87",
+          "item_count": 42,
+          "last_self_ref": "#/texts/124"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/87",
+          "#/texts/88",
+          "#/texts/89",
+          "#/texts/90",
+          "#/texts/91",
+          "#/texts/92",
+          "#/texts/93",
+          "#/texts/94",
+          "#/texts/95",
+          "#/texts/96",
+          "#/texts/97",
+          "#/texts/98",
+          "#/texts/99",
+          "#/texts/100",
+          "#/texts/101",
+          "#/texts/319",
+          "#/texts/102",
+          "#/texts/103",
+          "#/texts/104",
+          "#/texts/105",
+          "#/texts/320",
+          "#/texts/106",
+          "#/texts/107",
+          "#/texts/108",
+          "#/texts/109",
+          "#/texts/110",
+          "#/texts/111",
+          "#/texts/321",
+          "#/texts/112",
+          "#/texts/113",
+          "#/texts/114",
+          "#/texts/115",
+          "#/texts/116",
+          "#/texts/117",
+          "#/texts/322",
+          "#/texts/118",
+          "#/texts/119",
+          "#/texts/120",
+          "#/texts/121",
+          "#/texts/122",
+          "#/texts/123",
+          "#/texts/124"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 3,
+      "raw_text": "***Best for:***\n*Prototypes with more than one feature, specific design requirements, or many pages*\nCloud development environments are one big step up from chatbots. These tools handle all the tasks required to turn your ideas into an actual working product. They can help you build end-to-end features, handle the backend infrastructure necessary to run your prototype, allow multi-file edits with agentic workflows, and take on more complex tasks across your codebase such as updating your database schema.\nOne of the key differentiators among the various cloud development environments is hosting. As I explained in my\n[prior post](https://www.lennysnewsletter.com/p/become-a-more-technical-product-manager)\non becoming a more technical PM, every software product is built with three parts: a client, a server, and a database. The client is what the user interacts with (often written in JavaScript), the server processes requests from the client to retrieve data or integrate with other products (often written in Node.js, Python, or Java), and the database is your permanent storage of data. Making prototypes that have real features requires you to host both your client and server code, and may require a database to power the app.\nOne of the most popular tools today,\n[v0](https://v0.dev/)\n, is capable of writing and hosting both client and server code. By default it uses specific frameworks called\n[Next.js](https://nextjs.org/)\nand\n[Shadcn UI](https://ui.shadcn.com/)\nto do so (both were created by\n[Vercel](https://vercel.com/)\n, the same company that owns v0). v0 can deploy your code and run backend servers—plus, one of its strongest features is that it has great styling as a default. Here’s a basic CRM I built in v0 with the prompt “Build me a basic CRM.”\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\n[Bolt](https://bolt.new/)\nis very similar to v0 in that it can also generate and deploy both client and server code. But a key difference is where the server runs. With v0, you deploy to real cloud hosting infrastructure, whereas Bolt runs the server code directly in the user’s browser. This means Bolt cannot natively support prototypes that need user identity like logins or accounts, multi-user interactions such as chat or collaborative workspaces, secure data operations like payment processing, or persistent data storage between sessions, because an isolated copy of the server is created on each user’s device. You can make up for this by integrating with external products like Supabase that offer servers and databases.\nHere’s a basic CRM I built with Bolt, using the prompt “Build me a basic CRM.”\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nAnother popular tool is\n[Replit](https://replit.com/)\n. Replit allows you to build full-stack applications, including a client, server, and database. It can build web apps using both JavaScript and Python frameworks and particularly excels at building internal admin tools (e.g. file conversion, job applicant tracking) and data-driven applications (e.g. image resizing, multi-page dashboards) with simple UIs.\nI use Replit whenever I need a fully functional back end or I want to use Python code. I’ve used it to build an MP4-to-GIF converter and a Substack image resizer—both tools I use weekly.\nHere’s a basic CRM I built with Replit, using the prompt “Build me a basic CRM.”\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nFinally, we have\n[Lovable](https://lovable.dev/)\n. It’s the newest of the bunch. Lovable is most similar to v0 and Bolt—it excels at generating websites, and uses JavaScript frameworks like React and Next.js. Its differentiation comes from its integrations with other popular tools. Lovable can connect to a GitHub repository, automatically add authentication and databases with Supabase, and help you connect to AI providers like Anthropic and OpenAI. All of these features make it one of the best AI coding tools for building products you actually want to use in production.\nOne major drawback of Lovable is the lack of a code editor. To edit code, you have to ask the agent with prompting. This can make it difficult to debug issues directly in Lovable. I often find myself starting a new feature here but moving over to Cursor to resolve problems.\nHere’s a basic CRM I built with Lovable, using the prompt “Build me a basic CRM.”\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nTo recap:\n- Choose v0 for beautiful designs by default\n- Choose Bolt for quick prototypes with flexible designs\n- Choose Replit for internal tools or products that store or transform data\n- Choose Lovable for building production apps that benefit from integrations with your current tools\nRegardless of your choice, cloud development environments all support building more complex applications than chatbots, with the ability to deploy to the cloud and easily share updated iterations over time.",
+      "token_count": 1266
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000004",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nChoosing your tooling\nLocal developer assistants (GitHub Copilot, Cursor, Windsurf, Zed)\n***Best for:***\n*People who know how to code and are working on serious applications they want to ship to production*\nThe final type of AI development tool is local developer assistants. These products are targeted toward people who know how to write code. Tools like Cursor and GitHub Copilot can take prompts in a similar fashion to Claude but can then generate and apply changes within your own codebase and development environment (IDE). These tools do more than autocomplete—they can now write most of your code just using prompts.\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nFor example, I built this presentation app (with live Q&A and polls!) in about 10 days using Lovable and Cursor. I started the app in Lovable to build basic features quickly, synced my code to GitHub to allow editing in other tools, and made final changes and fixed bugs with Cursor. This application uses authentication, databases, real-time updates, and more.\nTen days may sound like a lot, but most of that time was spent resolving bugs and troubleshooting issues—something Cursor excels at compared with other tools, and something I get into a couple of sections down.\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nGitHub Copilot is more popular in enterprise environments, as it comes from a trusted vendor, Microsoft. It supports multi-file changes from prompts, code explanations, and more. I’ve found it works best when given very specific direction and does not perform as well as Cursor at more general instructions. For example, when I asked for a new feature without providing context, Copilot re-created components of my app that already existed, whereas Cursor modified my existing files directly.\nTwo tools I haven’t spent as much time with but people are excited about are Windsurf and Zed. Windsurf is another IDE that can suggest multi-line changes to files and suggest commands such as moving files on your behalf. It excels at working on larger, more complex codebases. Zed is a highly performant editor built with a variety of productivity features such as prompt libraries, slash commands, and keyboard shortcuts for common actions like applying AI-generated code.",
+      "doc_item_refs": [
+        "#/texts/126",
+        "#/texts/127",
+        "#/texts/128",
+        "#/texts/323",
+        "#/texts/129",
+        "#/texts/130",
+        "#/texts/131",
+        "#/texts/324",
+        "#/texts/132",
+        "#/texts/133",
+        "#/texts/134"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Choosing your tooling",
+        "Local developer assistants (GitHub Copilot, Cursor, Windsurf, Zed)"
+      ],
+      "images": [
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000009",
+          "path": null,
+          "self_ref": "#/pictures/9",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/eb9ff6f4-c9d2-4653-95c5-e63bd7e9e1f7_3246x2136.gif"
+        },
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000010",
+          "path": null,
+          "self_ref": "#/pictures/10",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/d66cb770-6f7d-4565-af71-02bd6d8da3f9_864x513.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000004",
+        "chunk_sha256": "a2d6c1540a8587801a29127a06f51b2771c460273b07f29217d7cb181ed2e227",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Choosing your tooling",
+          "Local developer assistants (GitHub Copilot, Cursor, Windsurf, Zed)"
+        ],
+        "images": [
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000009",
+            "path": null,
+            "self_ref": "#/pictures/9",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/eb9ff6f4-c9d2-4653-95c5-e63bd7e9e1f7_3246x2136.gif"
+          },
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000010",
+            "path": null,
+            "self_ref": "#/pictures/10",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/d66cb770-6f7d-4565-af71-02bd6d8da3f9_864x513.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 4,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/126",
+          "item_count": 11,
+          "last_self_ref": "#/texts/134"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/126",
+          "#/texts/127",
+          "#/texts/128",
+          "#/texts/323",
+          "#/texts/129",
+          "#/texts/130",
+          "#/texts/131",
+          "#/texts/324",
+          "#/texts/132",
+          "#/texts/133",
+          "#/texts/134"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 4,
+      "raw_text": "***Best for:***\n*People who know how to code and are working on serious applications they want to ship to production*\nThe final type of AI development tool is local developer assistants. These products are targeted toward people who know how to write code. Tools like Cursor and GitHub Copilot can take prompts in a similar fashion to Claude but can then generate and apply changes within your own codebase and development environment (IDE). These tools do more than autocomplete—they can now write most of your code just using prompts.\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nFor example, I built this presentation app (with live Q&A and polls!) in about 10 days using Lovable and Cursor. I started the app in Lovable to build basic features quickly, synced my code to GitHub to allow editing in other tools, and made final changes and fixed bugs with Cursor. This application uses authentication, databases, real-time updates, and more.\nTen days may sound like a lot, but most of that time was spent resolving bugs and troubleshooting issues—something Cursor excels at compared with other tools, and something I get into a couple of sections down.\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nGitHub Copilot is more popular in enterprise environments, as it comes from a trusted vendor, Microsoft. It supports multi-file changes from prompts, code explanations, and more. I’ve found it works best when given very specific direction and does not perform as well as Cursor at more general instructions. For example, when I asked for a new feature without providing context, Copilot re-created components of my app that already existed, whereas Cursor modified my existing files directly.\nTwo tools I haven’t spent as much time with but people are excited about are Windsurf and Zed. Windsurf is another IDE that can suggest multi-line changes to files and suggest commands such as moving files on your behalf. It excels at working on larger, more complex codebases. Zed is a highly performant editor built with a variety of productivity features such as prompt libraries, slash commands, and keyboard shortcuts for common actions like applying AI-generated code.",
+      "token_count": 576
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000005",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nBuilding your prototype\nNow that we’re familiar with the basic tools, let’s build some prototypes. The two most common prototyping use cases for product managers are:\n1. Converting an existing design to a functional prototype\n2. Building an idea into a prototype from scratch",
+      "doc_item_refs": [
+        "#/texts/136",
+        "#/texts/137",
+        "#/texts/138"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Building your prototype"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000005",
+        "chunk_sha256": "6648956e9a46f17aaf13e2fbd11c56d15cd733a26eecb14e0a5eea75e2d51b7e",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Building your prototype"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 5,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/136",
+          "item_count": 3,
+          "last_self_ref": "#/texts/138"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/136",
+          "#/texts/137",
+          "#/texts/138"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 5,
+      "raw_text": "Now that we’re familiar with the basic tools, let’s build some prototypes. The two most common prototyping use cases for product managers are:\n1. Converting an existing design to a functional prototype\n2. Building an idea into a prototype from scratch",
+      "token_count": 100
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000006",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nBuilding your prototype\nConverting a design to a functional prototype\nLet’s turn the following design for Airbnb’s home page into a working prototype. Say you want to use this prototype to explore a new feature, such as a price filter.\nHere’s our initial design:\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nI chose Bolt for this task, as it’s better at building off a pre-existing design and we don’t need the backend database provided by Replit. Here’s a prompt I used (which you can copy and paste). Make sure to include a screenshot of the design!\n*“Build a prototype to match this design. Match it exactly.”*\nHere’s how this experience looks in Bolt:\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nNext, we’ll add our new price filter feature. Notice in the prompt below how I describe every feature in detail. One pro tip with prompting these tools is to be hyperspecific when describing changes for your subsequent prompts, as it helps the AI pinpoint what should change.\n*“Implement an inline price filter as a component of the search bar. It should appear next to ‘Add guests’ in its own section.*\n*Selecting the input should pop up a price filter with minimum and maximum values. The background of the pop-up should be white and should cover elements beneath it.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nThis is a great starting point. Let’s extend this feature with a slider for the minimum price.\n*“Can you add a price slider? It should have a blue line and a black node. Sliding the node should modify the minimum price.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nWe now have a functional initial prototype of your product idea within 10 minutes! Without any coding skill. Incredible. We could even continue to improve this prototype filter (e.g. showing listings updated in real time as you adjust the price). Check out the prototype\n[here](https://peaceful-shortbread-751d61.netlify.app/)\n.",
+      "doc_item_refs": [
+        "#/texts/140",
+        "#/texts/141",
+        "#/texts/325",
+        "#/texts/142",
+        "#/texts/143",
+        "#/texts/144",
+        "#/texts/145",
+        "#/texts/326",
+        "#/texts/146",
+        "#/texts/147",
+        "#/texts/148",
+        "#/texts/149",
+        "#/texts/327",
+        "#/texts/150",
+        "#/texts/151",
+        "#/texts/152",
+        "#/texts/328",
+        "#/texts/153",
+        "#/texts/154",
+        "#/texts/155",
+        "#/texts/156"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Building your prototype",
+        "Converting a design to a functional prototype"
+      ],
+      "images": [
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000011",
+          "path": null,
+          "self_ref": "#/pictures/11",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/cf29900c-a0a2-4474-8620-e5a50a11a530_3080x1424.png"
+        },
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000012",
+          "path": null,
+          "self_ref": "#/pictures/12",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/000e35d0-08fd-471b-9f22-a12adae2b37f_1080x641.gif"
+        },
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000013",
+          "path": null,
+          "self_ref": "#/pictures/13",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/6862d7f0-e5c6-4865-9716-69d171d5ceaa_3202x1920.gif"
+        },
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000014",
+          "path": null,
+          "self_ref": "#/pictures/14",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/714f13e1-1534-4008-bf6f-1520264cdf4f_3218x1934.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000006",
+        "chunk_sha256": "4d1ea4828643cef5bd4874cba557b225c0bf97ba322918aa82ea8870c73aad0c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Building your prototype",
+          "Converting a design to a functional prototype"
+        ],
+        "images": [
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000011",
+            "path": null,
+            "self_ref": "#/pictures/11",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/cf29900c-a0a2-4474-8620-e5a50a11a530_3080x1424.png"
+          },
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000012",
+            "path": null,
+            "self_ref": "#/pictures/12",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/000e35d0-08fd-471b-9f22-a12adae2b37f_1080x641.gif"
+          },
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000013",
+            "path": null,
+            "self_ref": "#/pictures/13",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/6862d7f0-e5c6-4865-9716-69d171d5ceaa_3202x1920.gif"
+          },
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000014",
+            "path": null,
+            "self_ref": "#/pictures/14",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/714f13e1-1534-4008-bf6f-1520264cdf4f_3218x1934.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 6,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/140",
+          "item_count": 21,
+          "last_self_ref": "#/texts/156"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/140",
+          "#/texts/141",
+          "#/texts/325",
+          "#/texts/142",
+          "#/texts/143",
+          "#/texts/144",
+          "#/texts/145",
+          "#/texts/326",
+          "#/texts/146",
+          "#/texts/147",
+          "#/texts/148",
+          "#/texts/149",
+          "#/texts/327",
+          "#/texts/150",
+          "#/texts/151",
+          "#/texts/152",
+          "#/texts/328",
+          "#/texts/153",
+          "#/texts/154",
+          "#/texts/155",
+          "#/texts/156"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 6,
+      "raw_text": "Let’s turn the following design for Airbnb’s home page into a working prototype. Say you want to use this prototype to explore a new feature, such as a price filter.\nHere’s our initial design:\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nI chose Bolt for this task, as it’s better at building off a pre-existing design and we don’t need the backend database provided by Replit. Here’s a prompt I used (which you can copy and paste). Make sure to include a screenshot of the design!\n*“Build a prototype to match this design. Match it exactly.”*\nHere’s how this experience looks in Bolt:\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nNext, we’ll add our new price filter feature. Notice in the prompt below how I describe every feature in detail. One pro tip with prompting these tools is to be hyperspecific when describing changes for your subsequent prompts, as it helps the AI pinpoint what should change.\n*“Implement an inline price filter as a component of the search bar. It should appear next to ‘Add guests’ in its own section.*\n*Selecting the input should pop up a price filter with minimum and maximum values. The background of the pop-up should be white and should cover elements beneath it.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nThis is a great starting point. Let’s extend this feature with a slider for the minimum price.\n*“Can you add a price slider? It should have a blue line and a black node. Sliding the node should modify the minimum price.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nWe now have a functional initial prototype of your product idea within 10 minutes! Without any coding skill. Incredible. We could even continue to improve this prototype filter (e.g. showing listings updated in real time as you adjust the price). Check out the prototype\n[here](https://peaceful-shortbread-751d61.netlify.app/)\n.",
+      "token_count": 543
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000007",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nBuilding your prototype\nBuilding a prototype from scratch\nIf you’re like me, your design skills are probably not good enough to create the initial design we used in the prior example. Luckily, you can build a prototype using existing patterns and components from free and publicly available design systems like\n[Tailwind](https://tailwindcss.com/)\nor\n[Shadcn UI](https://ui.shadcn.com/)\n.\nLet’s build a quick CRM with Bolt, then add a new feature to it. Let’s say we’re considering adding a feature that automates email outreach directly from our CRM and want to gather customer feedback about this feature before building it, by showing potential users a prototype of what it might look like.\nWe can quickly put together a v1 with the following prompts:\n*“Create a comprehensive customer relationship management (CRM) system.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nAgain, let’s take a moment to pause here. We just created a working prototype of a CRM in less than five minutes—something that would have previously taken weeks of an engineer’s time. Unbelievable.\nLet’s keep going and see how we add a new feature.\n*“Please implement a mock AI email writer. This should be accessible from the left nav.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nAgain, less than five minutes to be able to play with a new feature idea. Just think about how many ideas you can explore and how quickly you can bring them to market. AI prototyping tools have been available for less than six months and have already absolutely changed the speed at which teams can ship.\nNow we can take our prototype and get customers’ direct feedback without wasting time developing an initial version. This approach can speed up your discovery process by getting interactive examples in your customers’ hands as early as possible.\nEach AI tool will have very different outcomes based on their default settings and how specific you are. Here’s the exact same example with the same prompts using v0:\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers",
+      "doc_item_refs": [
+        "#/texts/158",
+        "#/texts/159",
+        "#/texts/160",
+        "#/texts/161",
+        "#/texts/162",
+        "#/texts/163",
+        "#/texts/164",
+        "#/texts/165",
+        "#/texts/329",
+        "#/texts/166",
+        "#/texts/167",
+        "#/texts/168",
+        "#/texts/169",
+        "#/texts/330",
+        "#/texts/170",
+        "#/texts/171",
+        "#/texts/172",
+        "#/texts/173",
+        "#/texts/331",
+        "#/texts/174"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Building your prototype",
+        "Building a prototype from scratch"
+      ],
+      "images": [
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000015",
+          "path": null,
+          "self_ref": "#/pictures/15",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c04b9082-1628-49c1-8814-5270966c8554_3198x1842.png"
+        },
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000016",
+          "path": null,
+          "self_ref": "#/pictures/16",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c61c29eb-4947-43af-a4c6-70497f745483_1080x641.gif"
+        },
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000017",
+          "path": null,
+          "self_ref": "#/pictures/17",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/00ec3345-3c32-42dd-8891-d60a947973d0_2962x1626.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000007",
+        "chunk_sha256": "8c06511eaa9922689154c63592af05ddc6d9f096043152ac1cde23ddfdbb6949",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Building your prototype",
+          "Building a prototype from scratch"
+        ],
+        "images": [
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000015",
+            "path": null,
+            "self_ref": "#/pictures/15",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c04b9082-1628-49c1-8814-5270966c8554_3198x1842.png"
+          },
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000016",
+            "path": null,
+            "self_ref": "#/pictures/16",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c61c29eb-4947-43af-a4c6-70497f745483_1080x641.gif"
+          },
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000017",
+            "path": null,
+            "self_ref": "#/pictures/17",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/00ec3345-3c32-42dd-8891-d60a947973d0_2962x1626.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 7,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/158",
+          "item_count": 20,
+          "last_self_ref": "#/texts/174"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/158",
+          "#/texts/159",
+          "#/texts/160",
+          "#/texts/161",
+          "#/texts/162",
+          "#/texts/163",
+          "#/texts/164",
+          "#/texts/165",
+          "#/texts/329",
+          "#/texts/166",
+          "#/texts/167",
+          "#/texts/168",
+          "#/texts/169",
+          "#/texts/330",
+          "#/texts/170",
+          "#/texts/171",
+          "#/texts/172",
+          "#/texts/173",
+          "#/texts/331",
+          "#/texts/174"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 7,
+      "raw_text": "If you’re like me, your design skills are probably not good enough to create the initial design we used in the prior example. Luckily, you can build a prototype using existing patterns and components from free and publicly available design systems like\n[Tailwind](https://tailwindcss.com/)\nor\n[Shadcn UI](https://ui.shadcn.com/)\n.\nLet’s build a quick CRM with Bolt, then add a new feature to it. Let’s say we’re considering adding a feature that automates email outreach directly from our CRM and want to gather customer feedback about this feature before building it, by showing potential users a prototype of what it might look like.\nWe can quickly put together a v1 with the following prompts:\n*“Create a comprehensive customer relationship management (CRM) system.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nAgain, let’s take a moment to pause here. We just created a working prototype of a CRM in less than five minutes—something that would have previously taken weeks of an engineer’s time. Unbelievable.\nLet’s keep going and see how we add a new feature.\n*“Please implement a mock AI email writer. This should be accessible from the left nav.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nAgain, less than five minutes to be able to play with a new feature idea. Just think about how many ideas you can explore and how quickly you can bring them to market. AI prototyping tools have been available for less than six months and have already absolutely changed the speed at which teams can ship.\nNow we can take our prototype and get customers’ direct feedback without wasting time developing an initial version. This approach can speed up your discovery process by getting interactive examples in your customers’ hands as early as possible.\nEach AI tool will have very different outcomes based on their default settings and how specific you are. Here’s the exact same example with the same prompts using v0:\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers",
+      "token_count": 526
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000008",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nBuilding your prototype\nCommon use cases and prompt templates\nHere are a few good templates you can use to get started with each of the tools I’ve highlighted:",
+      "doc_item_refs": [
+        "#/texts/176"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Building your prototype",
+        "Common use cases and prompt templates"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000008",
+        "chunk_sha256": "3e2166a4e640b3d7f7b9f60e4e3715441f979f086cc0d640f0274dc1e7cc0a54",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Building your prototype",
+          "Common use cases and prompt templates"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 8,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/176",
+          "item_count": 1,
+          "last_self_ref": "#/texts/176"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/176"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 8,
+      "raw_text": "Here are a few good templates you can use to get started with each of the tools I’ve highlighted:",
+      "token_count": 78
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000009",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nBuilding your prototype\nCommon use cases and prompt templates\n\n**Task #1:**\nBuild a prototype from an existing Figma design\n**Prompt:**\n```\nBuild a prototype to match this design. Match it exactly. Use Tailwindcss.\n```\n```\nMatch styles, fonts, spacing, and colors.\n```\n```\n[Include a single screenshot from Figma]\n```\n**Tool:**\nBolt\n**Example:**\n[Deployment manager](https://spectacular-jelly-78231b.netlify.app/)\n**Task #2:**\nBuild a prototype from scratch with good UI design defaults\n**Prompt**\n```\nBuild a prototype for [x].\n```\n`This tool should:\n- [Behavior 1]`\n```\n- [Behavior 2]\n```\n```\n- [Behavior 3]\n```\n```\nImplement a simple initial iteration that meets these exact requirements.\n```\n**Tool:**\nv0\n**Example:**\n[Sales calculator](https://v0.dev/chat/zMcDEi4HTuf?b=b_blmQipLxqTK)\n**Task #3:**\nBuild a dashboard to visualize data\n**Prompt:**\n```\nBuild a prototype for [x].\n```\n```\nUse Python and Streamlit.\n```\n**Tool:**\nReplit\n**Example:**\n[Product analytics dashboard](https://product-analytics-dashboard-colinmatthews2.replit.app/)\n**Task #4:**\nConvert a hand-drawn mockup to a prototype\n**Prompt:**\n```\nConvert the hand-drawn sketch to a functional prototype. Focus on frontend functionality.\n```\n```\nMake it in the style of [product you like].\n```\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\n**Tool:**\nv0\n**Example:**\n[Netflix-inspired blog](https://a4thjlf0qthccgos.vercel.app/)\n**Task #5:**\nConvert a PRD to prototype\n**Prompt:**\n`Implement a prototype to match the features in this PRD. Follow the exact specifications in the document. Focus on front end functionality -- do not include a server or database. Use Tailwindcss\n[Copy/paste PRD. Include any relevant images]`\n**Tool:**\nBolt\n**Example:**\n[2-factor authentication UI](https://musical-pegasus-eb007e.netlify.app/)\n**Task #6:**\nBuild your personalized productivity tool\n**Prompt:**\n`Build a tool that does [x].\nThis tool should:\n- [Behavior 1]`\n```\n- [Behavior 2]\n```\n```\n- [Behavior 3]\n```\n**Tool:**\nReplit\n**Example:**\n[Substack image resizer](https://substack-image-resizer-colinmatthews2.replit.app/)",
+      "doc_item_refs": [
+        "#/texts/178",
+        "#/texts/179",
+        "#/texts/180",
+        "#/texts/181",
+        "#/texts/182",
+        "#/texts/183",
+        "#/texts/184",
+        "#/texts/185",
+        "#/texts/186",
+        "#/texts/187",
+        "#/texts/189",
+        "#/texts/190",
+        "#/texts/191",
+        "#/texts/192",
+        "#/texts/193",
+        "#/texts/194",
+        "#/texts/195",
+        "#/texts/196",
+        "#/texts/197",
+        "#/texts/198",
+        "#/texts/199",
+        "#/texts/200",
+        "#/texts/201",
+        "#/texts/203",
+        "#/texts/204",
+        "#/texts/205",
+        "#/texts/206",
+        "#/texts/207",
+        "#/texts/208",
+        "#/texts/209",
+        "#/texts/210",
+        "#/texts/211",
+        "#/texts/213",
+        "#/texts/214",
+        "#/texts/215",
+        "#/texts/216",
+        "#/texts/217",
+        "#/texts/332",
+        "#/texts/218",
+        "#/texts/219",
+        "#/texts/220",
+        "#/texts/221",
+        "#/texts/222",
+        "#/texts/224",
+        "#/texts/225",
+        "#/texts/226",
+        "#/texts/227",
+        "#/texts/228",
+        "#/texts/229",
+        "#/texts/230",
+        "#/texts/231",
+        "#/texts/232",
+        "#/texts/234",
+        "#/texts/235",
+        "#/texts/236",
+        "#/texts/237",
+        "#/texts/238",
+        "#/texts/239",
+        "#/texts/240",
+        "#/texts/241",
+        "#/texts/242",
+        "#/texts/243",
+        "#/texts/244",
+        "#/texts/245"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Building your prototype",
+        "Common use cases and prompt templates",
+        ""
+      ],
+      "images": [
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000018",
+          "path": null,
+          "self_ref": "#/pictures/18",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/01579465-632f-4ffc-9656-25d4d2fd0a35_1600x1229.png"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000009",
+        "chunk_sha256": "5277c5e3b2793885ec4198dd1d8ddbd0357aa03aeaa810cdb702635aa89caef0",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Building your prototype",
+          "Common use cases and prompt templates",
+          ""
+        ],
+        "images": [
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000018",
+            "path": null,
+            "self_ref": "#/pictures/18",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/01579465-632f-4ffc-9656-25d4d2fd0a35_1600x1229.png"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 9,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/178",
+          "item_count": 64,
+          "last_self_ref": "#/texts/245"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/178",
+          "#/texts/179",
+          "#/texts/180",
+          "#/texts/181",
+          "#/texts/182",
+          "#/texts/183",
+          "#/texts/184",
+          "#/texts/185",
+          "#/texts/186",
+          "#/texts/187",
+          "#/texts/189",
+          "#/texts/190",
+          "#/texts/191",
+          "#/texts/192",
+          "#/texts/193",
+          "#/texts/194",
+          "#/texts/195",
+          "#/texts/196",
+          "#/texts/197",
+          "#/texts/198",
+          "#/texts/199",
+          "#/texts/200",
+          "#/texts/201",
+          "#/texts/203",
+          "#/texts/204",
+          "#/texts/205",
+          "#/texts/206",
+          "#/texts/207",
+          "#/texts/208",
+          "#/texts/209",
+          "#/texts/210",
+          "#/texts/211",
+          "#/texts/213",
+          "#/texts/214",
+          "#/texts/215",
+          "#/texts/216",
+          "#/texts/217",
+          "#/texts/332",
+          "#/texts/218",
+          "#/texts/219",
+          "#/texts/220",
+          "#/texts/221",
+          "#/texts/222",
+          "#/texts/224",
+          "#/texts/225",
+          "#/texts/226",
+          "#/texts/227",
+          "#/texts/228",
+          "#/texts/229",
+          "#/texts/230",
+          "#/texts/231",
+          "#/texts/232",
+          "#/texts/234",
+          "#/texts/235",
+          "#/texts/236",
+          "#/texts/237",
+          "#/texts/238",
+          "#/texts/239",
+          "#/texts/240",
+          "#/texts/241",
+          "#/texts/242",
+          "#/texts/243",
+          "#/texts/244",
+          "#/texts/245"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 9,
+      "raw_text": "**Task #1:**\nBuild a prototype from an existing Figma design\n**Prompt:**\n```\nBuild a prototype to match this design. Match it exactly. Use Tailwindcss.\n```\n```\nMatch styles, fonts, spacing, and colors.\n```\n```\n[Include a single screenshot from Figma]\n```\n**Tool:**\nBolt\n**Example:**\n[Deployment manager](https://spectacular-jelly-78231b.netlify.app/)\n**Task #2:**\nBuild a prototype from scratch with good UI design defaults\n**Prompt**\n```\nBuild a prototype for [x].\n```\n`This tool should:\n- [Behavior 1]`\n```\n- [Behavior 2]\n```\n```\n- [Behavior 3]\n```\n```\nImplement a simple initial iteration that meets these exact requirements.\n```\n**Tool:**\nv0\n**Example:**\n[Sales calculator](https://v0.dev/chat/zMcDEi4HTuf?b=b_blmQipLxqTK)\n**Task #3:**\nBuild a dashboard to visualize data\n**Prompt:**\n```\nBuild a prototype for [x].\n```\n```\nUse Python and Streamlit.\n```\n**Tool:**\nReplit\n**Example:**\n[Product analytics dashboard](https://product-analytics-dashboard-colinmatthews2.replit.app/)\n**Task #4:**\nConvert a hand-drawn mockup to a prototype\n**Prompt:**\n```\nConvert the hand-drawn sketch to a functional prototype. Focus on frontend functionality.\n```\n```\nMake it in the style of [product you like].\n```\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\n**Tool:**\nv0\n**Example:**\n[Netflix-inspired blog](https://a4thjlf0qthccgos.vercel.app/)\n**Task #5:**\nConvert a PRD to prototype\n**Prompt:**\n`Implement a prototype to match the features in this PRD. Follow the exact specifications in the document. Focus on front end functionality -- do not include a server or database. Use Tailwindcss\n[Copy/paste PRD. Include any relevant images]`\n**Tool:**\nBolt\n**Example:**\n[2-factor authentication UI](https://musical-pegasus-eb007e.netlify.app/)\n**Task #6:**\nBuild your personalized productivity tool\n**Prompt:**\n`Build a tool that does [x].\nThis tool should:\n- [Behavior 1]`\n```\n- [Behavior 2]\n```\n```\n- [Behavior 3]\n```\n**Tool:**\nReplit\n**Example:**\n[Substack image resizer](https://substack-image-resizer-colinmatthews2.replit.app/)",
+      "token_count": 761
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000010",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nSolving prototyping problems—without knowing how to code\nBuilding your initial prototype is one thing. But one of the most common frustrations with AI prototyping is the errors the AI makes along the way toward a functional version. If you try to do anything even slightly complex, you’re likely to hit a wall. Knowing how to code becomes a superpower for debugging, but there are other approaches non-technical builders can use to still get great results.\nLet’s break down the four most effective ways to get to functional prototypes:\n1. Reflection\n2. Batching\n3. Be specific\n4. Lost context",
+      "doc_item_refs": [
+        "#/texts/247",
+        "#/texts/248",
+        "#/texts/249",
+        "#/texts/250",
+        "#/texts/251",
+        "#/texts/252"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Solving prototyping problems—without knowing how to code"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000010",
+        "chunk_sha256": "2bd3b564a216a4ee1b6b9d17f55e75108dbb1c41606803dfb98cc675e980dc2d",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Solving prototyping problems—without knowing how to code"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 10,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/247",
+          "item_count": 6,
+          "last_self_ref": "#/texts/252"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/247",
+          "#/texts/248",
+          "#/texts/249",
+          "#/texts/250",
+          "#/texts/251",
+          "#/texts/252"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 10,
+      "raw_text": "Building your initial prototype is one thing. But one of the most common frustrations with AI prototyping is the errors the AI makes along the way toward a functional version. If you try to do anything even slightly complex, you’re likely to hit a wall. Knowing how to code becomes a superpower for debugging, but there are other approaches non-technical builders can use to still get great results.\nLet’s break down the four most effective ways to get to functional prototypes:\n1. Reflection\n2. Batching\n3. Be specific\n4. Lost context",
+      "token_count": 171
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000011",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nSolving prototyping problems—without knowing how to code\nReflection\nReflection is the most important strategy for getting useful outputs from AI coding tools. These tools will respond to any question by writing code by default, which often means there’s no real plan. By forcing the AI to build a plan first vs. going straight to code, you’ll get much better results and have more visibility into what’s happening.\nExample:\n*“Build me a calorie tracking app with only a front end. Start by detailing out the minimum requirements. Do not write any code.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nYou can also use reflection to get out of a loop. Rather than asking the AI to fix your syntax errors, ask it to come up with a list of possible reasons an error exists. Be explicit about not wanting code, only an explanation of what’s happening.",
+      "doc_item_refs": [
+        "#/texts/254",
+        "#/texts/255",
+        "#/texts/256",
+        "#/texts/333",
+        "#/texts/257",
+        "#/texts/258"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Solving prototyping problems—without knowing how to code",
+        "Reflection"
+      ],
+      "images": [
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000019",
+          "path": null,
+          "self_ref": "#/pictures/19",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/5c6d213c-43c8-42b3-9292-a8ffe447778b_1080x641.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000011",
+        "chunk_sha256": "2b8807f1a8cfdada9171a3d7fc1c501f27fd7563776ed6502379bca3cf127196",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Solving prototyping problems—without knowing how to code",
+          "Reflection"
+        ],
+        "images": [
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000019",
+            "path": null,
+            "self_ref": "#/pictures/19",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/5c6d213c-43c8-42b3-9292-a8ffe447778b_1080x641.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 11,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/254",
+          "item_count": 6,
+          "last_self_ref": "#/texts/258"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/254",
+          "#/texts/255",
+          "#/texts/256",
+          "#/texts/333",
+          "#/texts/257",
+          "#/texts/258"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 11,
+      "raw_text": "Reflection is the most important strategy for getting useful outputs from AI coding tools. These tools will respond to any question by writing code by default, which often means there’s no real plan. By forcing the AI to build a plan first vs. going straight to code, you’ll get much better results and have more visibility into what’s happening.\nExample:\n*“Build me a calorie tracking app with only a front end. Start by detailing out the minimum requirements. Do not write any code.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nYou can also use reflection to get out of a loop. Rather than asking the AI to fix your syntax errors, ask it to come up with a list of possible reasons an error exists. Be explicit about not wanting code, only an explanation of what’s happening.",
+      "token_count": 240
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000012",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nSolving prototyping problems—without knowing how to code\nBatching\nBatching is a little unintuitive. Most people think that providing the most context up front will help the AI make the right decisions, but the opposite is true. You want to build the smallest iteration of something functional and then extend it. Try breaking down your prompts into smaller batches rather than asking for a complex prototype up front. I recommend starting with the data model first, as this is the backbone of how your prototype will store information.\nExample:\n*“Implement only the client-side view for calorie tracking. Use a basic data model that tracks entries with a description and number of associated calories. Display a table of all current entries and the sum of total calories in the top right corner.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers",
+      "doc_item_refs": [
+        "#/texts/260",
+        "#/texts/261",
+        "#/texts/262",
+        "#/texts/334",
+        "#/texts/263"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Solving prototyping problems—without knowing how to code",
+        "Batching"
+      ],
+      "images": [
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000020",
+          "path": null,
+          "self_ref": "#/pictures/20",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/5a687bf0-350c-47a6-8431-bb140450f7e4_3218x1910.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000012",
+        "chunk_sha256": "25ef02d3f396ff035122fe33bd70115d6cead135436e8dfa6457586b6ebb208c",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Solving prototyping problems—without knowing how to code",
+          "Batching"
+        ],
+        "images": [
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000020",
+            "path": null,
+            "self_ref": "#/pictures/20",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/5a687bf0-350c-47a6-8431-bb140450f7e4_3218x1910.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 12,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/260",
+          "item_count": 5,
+          "last_self_ref": "#/texts/263"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/260",
+          "#/texts/261",
+          "#/texts/262",
+          "#/texts/334",
+          "#/texts/263"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 12,
+      "raw_text": "Batching is a little unintuitive. Most people think that providing the most context up front will help the AI make the right decisions, but the opposite is true. You want to build the smallest iteration of something functional and then extend it. Try breaking down your prompts into smaller batches rather than asking for a complex prototype up front. I recommend starting with the data model first, as this is the backbone of how your prototype will store information.\nExample:\n*“Implement only the client-side view for calorie tracking. Use a basic data model that tracks entries with a description and number of associated calories. Display a table of all current entries and the sum of total calories in the top right corner.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers",
+      "token_count": 231
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000013",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nSolving prototyping problems—without knowing how to code\nBe specific\nThe more specific you can be with AI, the more likely you are to get what you want. Just like if you were working with a junior engineer. Being specific comes in all forms—what technologies you’re using, what parts of the product should be built, and what files or even specific lines of code should change.\nExample:\n*“Add the ability to track calories on each day.\n- Extend the data model to include a date for the entry\n- Display a date picker in the entry form, defaulted to today’s date\n- Display today’s date inline with the total calorie amount\n- Add a left and right navigation arrow inline with the calorie amount to switch days backward and forward\n- The total calorie amount should show the sum of calories on the specified date.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers",
+      "doc_item_refs": [
+        "#/texts/265",
+        "#/texts/266",
+        "#/texts/267",
+        "#/texts/268",
+        "#/texts/269",
+        "#/texts/270",
+        "#/texts/271",
+        "#/texts/272",
+        "#/texts/335",
+        "#/texts/273"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Solving prototyping problems—without knowing how to code",
+        "Be specific"
+      ],
+      "images": [
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000021",
+          "path": null,
+          "self_ref": "#/pictures/21",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/89e8da38-877b-4808-9124-7528e659f871_3218x1910.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000013",
+        "chunk_sha256": "735aa3079d6dc223b5d96b4b40f1ca0ae86870f5e4188cafcf309c167a6d62ac",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Solving prototyping problems—without knowing how to code",
+          "Be specific"
+        ],
+        "images": [
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000021",
+            "path": null,
+            "self_ref": "#/pictures/21",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/89e8da38-877b-4808-9124-7528e659f871_3218x1910.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 13,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/265",
+          "item_count": 10,
+          "last_self_ref": "#/texts/273"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/265",
+          "#/texts/266",
+          "#/texts/267",
+          "#/texts/268",
+          "#/texts/269",
+          "#/texts/270",
+          "#/texts/271",
+          "#/texts/272",
+          "#/texts/335",
+          "#/texts/273"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 13,
+      "raw_text": "The more specific you can be with AI, the more likely you are to get what you want. Just like if you were working with a junior engineer. Being specific comes in all forms—what technologies you’re using, what parts of the product should be built, and what files or even specific lines of code should change.\nExample:\n*“Add the ability to track calories on each day.\n- Extend the data model to include a date for the entry\n- Display a date picker in the entry form, defaulted to today’s date\n- Display today’s date inline with the total calorie amount\n- Add a left and right navigation arrow inline with the calorie amount to switch days backward and forward\n- The total calorie amount should show the sum of calories on the specified date.”*\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers",
+      "token_count": 248
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000014",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nSolving prototyping problems—without knowing how to code\nLost context\nOne of the most frustrating experiences of using AI prototyping tools is when they rewrite entire sections of your prototype and you lose hours of work. This often happens when your instructions are not specific enough and the AI cannot figure out the correct changes to make, so it rewrites everything. Fortunately, most tools have built a checkpoint system, where you can easily roll back to a prior version.\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nYou can also avoid losing context by focusing the AI on specific parts of the product that need to change. This can be done using a combination of the above strategies:\n1. Reflection to determine what files need to change\n2. Batching to limit the changes in each iteration\n3. Being specific to minimize the chance of incorrect results",
+      "doc_item_refs": [
+        "#/texts/275",
+        "#/texts/336",
+        "#/texts/276",
+        "#/texts/277",
+        "#/texts/278",
+        "#/texts/279",
+        "#/texts/280"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Solving prototyping problems—without knowing how to code",
+        "Lost context"
+      ],
+      "images": [
+        {
+          "caption": "Image from A guide to AI prototyping for product managers",
+          "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000022",
+          "path": null,
+          "self_ref": "#/pictures/22",
+          "sha256": null,
+          "url": "https://substack-post-media.s3.amazonaws.com/public/images/c8855e71-6dc7-40f4-a77e-37ac3f9a2627_3218x1910.gif"
+        }
+      ],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000014",
+        "chunk_sha256": "9980e191434bf4afa12bea8897f19aec68834993b2df5671c9ee07b8f6b6b2c9",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Solving prototyping problems—without knowing how to code",
+          "Lost context"
+        ],
+        "images": [
+          {
+            "caption": "Image from A guide to AI prototyping for product managers",
+            "image_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#image=000022",
+            "path": null,
+            "self_ref": "#/pictures/22",
+            "sha256": null,
+            "url": "https://substack-post-media.s3.amazonaws.com/public/images/c8855e71-6dc7-40f4-a77e-37ac3f9a2627_3218x1910.gif"
+          }
+        ],
+        "kind": "document_chunk",
+        "ordinal": 14,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/275",
+          "item_count": 7,
+          "last_self_ref": "#/texts/280"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/275",
+          "#/texts/336",
+          "#/texts/276",
+          "#/texts/277",
+          "#/texts/278",
+          "#/texts/279",
+          "#/texts/280"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 14,
+      "raw_text": "One of the most frustrating experiences of using AI prototyping tools is when they rewrite entire sections of your prototype and you lose hours of work. This often happens when your instructions are not specific enough and the AI cannot figure out the correct changes to make, so it rewrites everything. Fortunately, most tools have built a checkpoint system, where you can easily roll back to a prior version.\nImage from A guide to AI prototyping for product managers\nImage from A guide to AI prototyping for product managers\nYou can also avoid losing context by focusing the AI on specific parts of the product that need to change. This can be done using a combination of the above strategies:\n1. Reflection to determine what files need to change\n2. Batching to limit the changes in each iteration\n3. Being specific to minimize the chance of incorrect results",
+      "token_count": 227
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000015",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nPutting it all together\nAI prototyping is changing the way product teams work. Instead of spending weeks or months waiting for a feature to ship, you can build a prototype and get immediate feedback. Ship an internal tool in a day and see if it actually solves a problem. Sketch a mockup on a whiteboard and turn it into an app the same day.\nIt sounds magical (and it definitely feels like magic), but there are limitations. Most product managers should use cloud development environments like:\n- v0 for beautiful designs by default\n- Bolt for quick prototypes with flexible designs\n- Replit for internal or data-driven tools\n- Lovable for building production apps and great integrations\nAs you’re working on your prototype, you’re likely to run into issues. Be specific, reflect on the process, and try small incremental batches to get the best results.",
+      "doc_item_refs": [
+        "#/texts/282",
+        "#/texts/283",
+        "#/texts/284",
+        "#/texts/285",
+        "#/texts/286",
+        "#/texts/287",
+        "#/texts/288"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Putting it all together"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000015",
+        "chunk_sha256": "dbeafc301a7276d09b2517ae8c3e0974553e6eb59c6a5140890be57d0bb3a9f8",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Putting it all together"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 15,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/282",
+          "item_count": 7,
+          "last_self_ref": "#/texts/288"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/282",
+          "#/texts/283",
+          "#/texts/284",
+          "#/texts/285",
+          "#/texts/286",
+          "#/texts/287",
+          "#/texts/288"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 15,
+      "raw_text": "AI prototyping is changing the way product teams work. Instead of spending weeks or months waiting for a feature to ship, you can build a prototype and get immediate feedback. Ship an internal tool in a day and see if it actually solves a problem. Sketch a mockup on a whiteboard and turn it into an app the same day.\nIt sounds magical (and it definitely feels like magic), but there are limitations. Most product managers should use cloud development environments like:\n- v0 for beautiful designs by default\n- Bolt for quick prototypes with flexible designs\n- Replit for internal or data-driven tools\n- Lovable for building production apps and great integrations\nAs you’re working on your prototype, you’re likely to run into issues. Be specific, reflect on the process, and try small incremental batches to get the best results.",
+      "token_count": 223
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000016",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nPutting it all together\n📚 Further study\n1. [Maximizing outputs with v0: From UI generation to code creation—Vercel](https://vercel.com/blog/maximizing-outputs-with-v0-from-ui-generation-to-code-creation)\n2. [Prompt engineering overview—Anthropic](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)\n3. [Build a fullstack app in 7 minutes with v0 (Figma to code)](https://www.youtube.com/watch?v=cyFVtaLy-bA)\n4. [Bolt tutorial for beginners with the Bolt CEO Eric Simons](https://www.youtube.com/watch?v=1SfUMQ1yTY8&t=1607s)\n5. [Windsurf vs. Cursor: which is the better AI code editor?](https://www.builder.io/blog/windsurf-vs-cursor)\n*Thanks, Colin!*\n*If you’d like to learn more, Colin is teaching a free 30-minute lightning lesson on January 14th where he’ll show you how to build a functional prototype in 10 minutes (including a few advanced techniques).*\n[*Sign up here*](https://maven.com/p/30546f/ai-prototyping-for-product-managers-in-2025)\n*. For much more hands-on learning,*\n[*sign up for Colin’s live four-week cohort-based course on AI prototyping*](https://maven.com/tech-for-product/ai-prototyping-for-product-managers?promoCode=lennyslist)\n*, where you’ll master AI prototyping tools, debug common issues, and build a fundamental understanding of how coding works. Use code “LENNYSLIST” to get $100 off. Enrollment closes January 23rd.*\n*Have a fulfilling and productive week 🙏*",
+      "doc_item_refs": [
+        "#/texts/290",
+        "#/texts/291",
+        "#/texts/292",
+        "#/texts/293",
+        "#/texts/294",
+        "#/texts/295",
+        "#/texts/296",
+        "#/texts/297",
+        "#/texts/298",
+        "#/texts/299",
+        "#/texts/300",
+        "#/texts/301"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Putting it all together",
+        "📚 Further study"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000016",
+        "chunk_sha256": "395b08780f5ad8f9237ea455fecd7d562a22ea5f543b29cf5d7cd40b6bd2e001",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Putting it all together",
+          "📚 Further study"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 16,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/290",
+          "item_count": 12,
+          "last_self_ref": "#/texts/301"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/290",
+          "#/texts/291",
+          "#/texts/292",
+          "#/texts/293",
+          "#/texts/294",
+          "#/texts/295",
+          "#/texts/296",
+          "#/texts/297",
+          "#/texts/298",
+          "#/texts/299",
+          "#/texts/300",
+          "#/texts/301"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 16,
+      "raw_text": "1. [Maximizing outputs with v0: From UI generation to code creation—Vercel](https://vercel.com/blog/maximizing-outputs-with-v0-from-ui-generation-to-code-creation)\n2. [Prompt engineering overview—Anthropic](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)\n3. [Build a fullstack app in 7 minutes with v0 (Figma to code)](https://www.youtube.com/watch?v=cyFVtaLy-bA)\n4. [Bolt tutorial for beginners with the Bolt CEO Eric Simons](https://www.youtube.com/watch?v=1SfUMQ1yTY8&t=1607s)\n5. [Windsurf vs. Cursor: which is the better AI code editor?](https://www.builder.io/blog/windsurf-vs-cursor)\n*Thanks, Colin!*\n*If you’d like to learn more, Colin is teaching a free 30-minute lightning lesson on January 14th where he’ll show you how to build a functional prototype in 10 minutes (including a few advanced techniques).*\n[*Sign up here*](https://maven.com/p/30546f/ai-prototyping-for-product-managers-in-2025)\n*. For much more hands-on learning,*\n[*sign up for Colin’s live four-week cohort-based course on AI prototyping*](https://maven.com/tech-for-product/ai-prototyping-for-product-managers?promoCode=lennyslist)\n*, where you’ll master AI prototyping tools, debug common issues, and build a fundamental understanding of how coding works. Use code “LENNYSLIST” to get $100 off. Enrollment closes January 23rd.*\n*Have a fulfilling and productive week 🙏*",
+      "token_count": 508
+    },
+    {
+      "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000017",
+      "contextualized_text": "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management\nHiring? 👀\nI run a white-glove recruiting service specializing in senior product roles (e.g. Directors, VPs, and Heads of Product), working with a few select companies to fill their open roles. If you’re hiring, apply to work with us below.\n[Start hiring](https://www.lennysjobs.com/)\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "doc_item_refs": [
+        "#/texts/303",
+        "#/texts/304",
+        "#/texts/305",
+        "#/texts/306",
+        "#/texts/307",
+        "#/texts/308",
+        "#/texts/309",
+        "#/texts/310",
+        "#/texts/311",
+        "#/texts/312",
+        "#/texts/313"
+      ],
+      "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+      "headings": [
+        "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+        "Hiring? 👀"
+      ],
+      "images": [],
+      "locator": {
+        "chunk_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md#chunk=000017",
+        "chunk_sha256": "9566ae6aa4f1dc9f087d2a50eefd38ed5e6982af657f33e7f898d20258f839a3",
+        "config_version": "fact-build-v2",
+        "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+        "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+        "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+        "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+        "headings": [
+          "A guide to AI prototyping for product managers — How to turn your idea into a working prototype in minutes | 2025-01-07 | Tags: design, ai, engineering, leadership, newsletter, product-management",
+          "Hiring? 👀"
+        ],
+        "images": [],
+        "kind": "document_chunk",
+        "ordinal": 17,
+        "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+        "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+        "segment": {
+          "first_self_ref": "#/texts/303",
+          "item_count": 11,
+          "last_self_ref": "#/texts/313"
+        },
+        "segment_ordinal": 0,
+        "self_refs": [
+          "#/texts/303",
+          "#/texts/304",
+          "#/texts/305",
+          "#/texts/306",
+          "#/texts/307",
+          "#/texts/308",
+          "#/texts/309",
+          "#/texts/310",
+          "#/texts/311",
+          "#/texts/312",
+          "#/texts/313"
+        ]
+      },
+      "metadata": {},
+      "ordinal": 17,
+      "raw_text": "I run a white-glove recruiting service specializing in senior product roles (e.g. Directors, VPs, and Heads of Product), working with a few select companies to fill their open roles. If you’re hiring, apply to work with us below.\n[Start hiring](https://www.lennysjobs.com/)\n**If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are**\n[**group discounts**](https://www.lennysnewsletter.com/subscribe?group=true)\n**,**\n[**gift options**](https://www.lennysnewsletter.com/subscribe?gift=true)\n**, and**\n[**referral bonuses**](https://www.lennysnewsletter.com/leaderboard)\n**available.**\nSincerely,\nLenny 👋",
+      "token_count": 267
+    }
+  ],
+  "config_version": "fact-build-v2",
+  "docling_path": "documents/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.docling.json",
+  "docling_sha256": "163ec9e112340a1f9bfb7ff8032673369386d340b2900bf4cc1c9cc8e6b5b971",
+  "document_id": "02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+  "document_type": "newsletter",
+  "enhanced_path": "corpus/enhanced/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+  "enhanced_sha256": "e6c89d8efa1e6f9366d98b627a2b476fae2381611eab947bc11255ea492b5022",
+  "fact_document_path": "chunks/v2/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.chunks.json",
+  "metadata": {
+    "date": "2025-01-07",
+    "subtitle": "How to turn your idea into a working prototype in minutes",
+    "tags": [
+      "design",
+      "ai",
+      "engineering",
+      "leadership",
+      "newsletter",
+      "product-management"
+    ],
+    "title": "A guide to AI prototyping for product managers",
+    "type": "newsletter",
+    "word_count": 4449
+  },
+  "raw_path": "corpus/raw/02-newsletters/a-guide-to-ai-prototyping-for-product-managers.md",
+  "raw_sha256": "e5546b241f3a4aea7e9bdc1f1796a77dd87f7b30ecc77f383d8edf6b9d22676d",
+  "schema_version": "1",
+  "title": "A guide to AI prototyping for product managers"
+}

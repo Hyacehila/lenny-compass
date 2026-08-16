@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "config_version": "fact-build-v2",
+  "input": {
+    "enhanced_root": "corpus/enhanced",
+    "raw_root": "corpus/raw",
+    "enhanced_provenance": "pipelines/source_enhancement/provenance/enhanced-manifest.json",
+    "expected_document_count": 638
+  },
+  "output": {
+    "artifact_version": "v2",
+    "documents_root": "facts/documents/v2",
+    "chunks_root": "facts/chunks/v2",
+    "assets_root": "facts/assets/v2",
+    "quarantine_root": "facts/quarantine",
+    "build_manifest": "facts/manifests/build.json",
+    "pilot_report": "facts/manifests/pilot-report.json"
+  },
+  "docling": {
+    "distribution": "docling-slim",
+    "version": "2.120.1",
+    "core_version": "2.91.0",
+    "input_format": "markdown",
+    "pipeline": "SimplePipeline",
+    "fetch_remote_images": false
+  },
+  "chunking": {
+    "chunker": "HybridChunker",
+    "tokenizer_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "tokenizer_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "max_tokens": 1500,
+    "merge_peers": true
+  },
+  "pilot": {
+    "documents": [
+      "02-newsletters/get-perplexity-pro-free-for-1-year.md",
+      "02-newsletters/how-to-kickstart-and-scale-a-consumer-business.md",
+      "02-newsletters/how-to-measure-cohort-retention.md",
+      "02-newsletters/how-to-run-seo-experiments.md",
+      "03-podcasts/eric-ries.md"
+    ],
+    "require_all_valid": true
+  }
+}

@@ -1,0 +1,6 @@
+[tool.uv.workspace]
+members = [
+    "contracts",
+    "pipelines/fact_build",
+]
+exclude = ["pipelines/source_enhancement"]

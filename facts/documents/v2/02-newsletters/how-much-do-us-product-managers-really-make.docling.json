@@ -1,0 +1,3435 @@
+{
+  "body": {
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/groups/11"
+      },
+      {
+        "$ref": "#/groups/12"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/groups/13"
+      },
+      {
+        "$ref": "#/groups/14"
+      },
+      {
+        "$ref": "#/groups/15"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/groups/16"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/texts/109"
+      },
+      {
+        "$ref": "#/texts/110"
+      },
+      {
+        "$ref": "#/groups/17"
+      },
+      {
+        "$ref": "#/texts/114"
+      },
+      {
+        "$ref": "#/texts/115"
+      },
+      {
+        "$ref": "#/texts/116"
+      },
+      {
+        "$ref": "#/texts/117"
+      },
+      {
+        "$ref": "#/texts/118"
+      },
+      {
+        "$ref": "#/texts/119"
+      },
+      {
+        "$ref": "#/texts/120"
+      },
+      {
+        "$ref": "#/texts/121"
+      },
+      {
+        "$ref": "#/texts/122"
+      },
+      {
+        "$ref": "#/texts/123"
+      },
+      {
+        "$ref": "#/texts/124"
+      },
+      {
+        "$ref": "#/texts/125"
+      },
+      {
+        "$ref": "#/texts/126"
+      },
+      {
+        "$ref": "#/texts/127"
+      },
+      {
+        "$ref": "#/texts/128"
+      }
+    ],
+    "content_layer": "body",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/body"
+  },
+  "form_items": [],
+  "furniture": {
+    "children": [],
+    "content_layer": "furniture",
+    "label": "unspecified",
+    "meta": null,
+    "name": "_root_",
+    "parent": null,
+    "self_ref": "#/furniture"
+  },
+  "groups": [
+    {
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "content_layer": "body",
+      "label": "list",
+      "meta": null,
+      "name": "list",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/0"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/11"
+        },
+        {
+          "$ref": "#/texts/12"
+        },
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/1"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/2"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        },
+        {
+          "$ref": "#/texts/26"
+        },
+        {
+          "$ref": "#/texts/27"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/3"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/texts/31"
+      },
+      "self_ref": "#/groups/4"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/5"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/6"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/7"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/8"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/9"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/pictures/5"
+        },
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/pictures/6"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/pictures/7"
+        },
+        {
+          "$ref": "#/texts/72"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/10"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/11"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/12"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/13"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/14"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/15"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        },
+        {
+          "$ref": "#/texts/107"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/16"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/113"
+        }
+      ],
+      "content_layer": "body",
+      "label": "inline",
+      "meta": null,
+      "name": "group",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "self_ref": "#/groups/17"
+    }
+  ],
+  "key_value_items": [],
+  "name": "how-much-do-us-product-managers-really-make",
+  "origin": {
+    "binary_hash": 14226805981116793560,
+    "filename": "how-much-do-us-product-managers-really-make.md",
+    "mimetype": "text/markdown",
+    "uri": null
+  },
+  "pages": {},
+  "pictures": [
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/129"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/129"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://substack-post-media.s3.amazonaws.com/public/images/ba580a7a-9986-47b0-8695-9a52e9d9f80a_4000x2000.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/0"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/130"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/130"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://substack-post-media.s3.amazonaws.com/public/images/5990e974-fb58-4f49-9a88-e2cfa1a0abfe_2592x1862.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/1"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/131"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/131"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://substack-post-media.s3.amazonaws.com/public/images/6dbaa03b-d04d-49fc-8fa4-42cb1b5793c8_2160x2186.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/2"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/132"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/132"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://substack-post-media.s3.amazonaws.com/public/images/13eb0c3f-6184-48e0-af44-64ca79323a79_2160x2696.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/3"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/133"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/133"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://substack-post-media.s3.amazonaws.com/public/images/1159d899-de41-4f86-8a27-026da2ccdf5f_4198x1862.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/4"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/134"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/134"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://substack-post-media.s3.amazonaws.com/public/images/b7435801-0a3c-4211-9006-793e55fa2249_1600x954.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/5"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/135"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/135"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://substack-post-media.s3.amazonaws.com/public/images/be7fe444-1dac-42da-87b5-01e7a3784a9f_1600x954.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/6"
+    },
+    {
+      "annotations": [],
+      "captions": [
+        {
+          "$ref": "#/texts/136"
+        }
+      ],
+      "children": [
+        {
+          "$ref": "#/texts/136"
+        }
+      ],
+      "content_layer": "body",
+      "footnotes": [],
+      "image": {
+        "dpi": 72,
+        "mimetype": "image/png",
+        "size": {
+          "height": 0.0,
+          "width": 0.0
+        },
+        "uri": "https://substack-post-media.s3.amazonaws.com/public/images/e95f4432-3ce8-4972-8ab0-626e669111e6_1600x954.png"
+      },
+      "label": "picture",
+      "meta": null,
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/pictures/7"
+    }
+  ],
+  "schema_name": "DoclingDocument",
+  "tables": [
+    {
+      "annotations": [],
+      "captions": [],
+      "children": [],
+      "content_layer": "body",
+      "data": {
+        "grid": [
+          [
+            {
+              "bbox": null,
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 1,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 0,
+              "start_row_offset_idx": 0,
+              "text": "Hire your next product leader"
+            },
+            {
+              "bbox": null,
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 2,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 1,
+              "start_row_offset_idx": 0,
+              "text": "Top Maven courses"
+            },
+            {
+              "bbox": null,
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 3,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 2,
+              "start_row_offset_idx": 0,
+              "text": "Lennybot"
+            },
+            {
+              "bbox": null,
+              "col_span": 1,
+              "column_header": true,
+              "end_col_offset_idx": 4,
+              "end_row_offset_idx": 1,
+              "fillable": false,
+              "row_header": false,
+              "row_section": false,
+              "row_span": 1,
+              "start_col_offset_idx": 3,
+              "start_row_offset_idx": 0,
+              "text": "Podcast"
+            }
+          ]
+        ],
+        "num_cols": 4,
+        "num_rows": 1,
+        "orientation": "rot_0",
+        "table_cells": [
+          {
+            "bbox": null,
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 1,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 0,
+            "start_row_offset_idx": 0,
+            "text": "Hire your next product leader"
+          },
+          {
+            "bbox": null,
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 2,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 1,
+            "start_row_offset_idx": 0,
+            "text": "Top Maven courses"
+          },
+          {
+            "bbox": null,
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 3,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 2,
+            "start_row_offset_idx": 0,
+            "text": "Lennybot"
+          },
+          {
+            "bbox": null,
+            "col_span": 1,
+            "column_header": true,
+            "end_col_offset_idx": 4,
+            "end_row_offset_idx": 1,
+            "fillable": false,
+            "row_header": false,
+            "row_section": false,
+            "row_span": 1,
+            "start_col_offset_idx": 3,
+            "start_row_offset_idx": 0,
+            "text": "Podcast"
+          }
+        ]
+      },
+      "footnotes": [],
+      "image": null,
+      "label": "table",
+      "meta": null,
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "references": [],
+      "self_ref": "#/tables/0"
+    }
+  ],
+  "texts": [
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "title",
+      "meta": null,
+      "orig": "How much do U.S. product managers really make? — The rise of ICs, the unexpected salary dip for managers, why salary only moderately impacts satisfaction, and more revealing insights from our recent compensation survey. | 2024-10-22 | Tags: leadership, design, newsletter, product-management, career, strategy",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/0",
+      "text": "How much do U.S. product managers really make? — The rise of ICs, the unexpected salary dip for managers, why salary only moderately impacts satisfaction, and more revealing insights from our recent compensation survey. | 2024-10-22 | Tags: leadership, design, newsletter, product-management, career, strategy"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "👋 Hey, Lenny here! Welcome to this month’s ✨",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/1",
+      "text": "👋 Hey, Lenny here! Welcome to this month’s ✨"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "free edition",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/2",
+      "text": "free edition"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "✨ of Lenny’s Newsletter. Each week I tackle reader questions about building product, driving growth, and accelerating your career. If you’re not a subscriber, here’s what you missed this month:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/3",
+      "text": "✨ of Lenny’s Newsletter. Each week I tackle reader questions about building product, driving growth, and accelerating your career. If you’re not a subscriber, here’s what you missed this month:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.lennysnewsletter.com/p/why-no-productivity-hack-will-solve",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Why no productivity hack will solve your overwhelm",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/4",
+      "text": "Why no productivity hack will solve your overwhelm"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.lennysnewsletter.com/p/a-pms-guide-to-influence",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "A PM’s guide to influence",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/5",
+      "text": "A PM’s guide to influence"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-part",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "State of the product job market, part 2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/6",
+      "text": "State of the product job market, part 2"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "enumerated": true,
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.lennysnewsletter.com/p/why-cash-is-king",
+      "label": "list_item",
+      "marker": "",
+      "meta": null,
+      "orig": "Why cash is king",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/7",
+      "text": "Why cash is king"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Subscribe to get access to these posts, and every post from the past 5+ years. I guarantee that you’ll get a 100x return on the spend of this newsletter in terms of impact on your product and career—or your money back.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/8",
+      "text": "Subscribe to get access to these posts, and every post from the past 5+ years. I guarantee that you’ll get a 100x return on the spend of this newsletter in terms of impact on your product and career—or your money back."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "For more:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/9",
+      "text": "For more:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://lennyssummit.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "Lenny and Friends Summit",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/10",
+      "text": "Lenny and Friends Summit"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I’m thrilled to share part two of the Lenny’s Newsletter Compensation survey results. I suspect this is the edition most of you have been waiting for: in-depth compensation benchmarks for product manager roles by level. Also, a few surprises. Credit to",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/11",
+      "text": "I’m thrilled to share part two of the Lenny’s Newsletter Compensation survey results. I suspect this is the edition most of you have been waiting for: in-depth compensation benchmarks for product manager roles by level. Also, a few surprises. Credit to"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.linkedin.com/in/louise-beryl-13225833/",
+      "label": "text",
+      "meta": null,
+      "orig": "Louise Beryl",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/12",
+      "text": "Louise Beryl"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "for designing, analyzing, and articulating the most interesting findings from this (massive) survey. Also, a big thank you to",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/13",
+      "text": "for designing, analyzing, and articulating the most interesting findings from this (massive) survey. Also, a big thank you to"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.pave.com/benchmarking",
+      "label": "text",
+      "meta": null,
+      "orig": "Pave",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/14",
+      "text": "Pave"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "for helping us sanity-check these numbers.",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/15",
+      "text": "for helping us sanity-check these numbers."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/16",
+      "text": "Image from How much do U.S. product managers really make?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Salary transparency is an increasingly important topic in tech, as professionals are keen to maximize their compensation, and companies are looking to hire and retain top talent. Many states have also recently passed pay transparency legislation in order to promote more equitable outcomes for workers across industries. With comp on everyone’s minds, we want to help U.S. product managers at all levels understand current salary trends and provide useful benchmarks to guide discussions and career planning.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/17",
+      "text": "Salary transparency is an increasingly important topic in tech, as professionals are keen to maximize their compensation, and companies are looking to hire and retain top talent. Many states have also recently passed pay transparency legislation in order to promote more equitable outcomes for workers across industries. With comp on everyone’s minds, we want to help U.S. product managers at all levels understand current salary trends and provide useful benchmarks to guide discussions and career planning."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "We recently analyzed over 5,000 survey responses from Lenny’s Newsletter subscribers to answer the question: “How much do U.S. product managers really make?” We are focusing on U.S. product managers at all levels as they are one of the larger segments represented in this community (n=1,740). And we’re focusing on salary because our recent analysis revealed",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/18",
+      "text": "We recently analyzed over 5,000 survey responses from Lenny’s Newsletter subscribers to answer the question: “How much do U.S. product managers really make?” We are focusing on U.S. product managers at all levels as they are one of the larger segments represented in this community (n=1,740). And we’re focusing on salary because our recent analysis revealed"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/why-cash-is-king",
+      "label": "text",
+      "meta": null,
+      "orig": "a strong preference for salary",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/19",
+      "text": "a strong preference for salary"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "over equity when evaluating what matters most to professionals in their total compensation at the time of hire. In future articles, we will take a look at total comp, including equity and bonuses.",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/20",
+      "text": "over equity when evaluating what matters most to professionals in their total compensation at the time of hire. In future articles, we will take a look at total comp, including equity and bonuses."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "We uncovered a number of insights in the data, but the biggest and perhaps most unexpected theme is",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/21",
+      "text": "We uncovered a number of insights in the data, but the biggest and perhaps most unexpected theme is"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "the rise of the IC career path.",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/22",
+      "text": "the rise of the IC career path."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "As product managers move up the ranks, salaries predictably increase, especially for individual contributors (ICs).",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/23",
+      "text": "As product managers move up the ranks, salaries predictably increase, especially for individual contributors (ICs)."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "But one surprising twist is that senior ICs often out-earn managers, challenging the assumption that management roles always pay more.",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/24",
+      "text": "But one surprising twist is that senior ICs often out-earn managers, challenging the assumption that management roles always pay more."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "This trend suggests that the value of ICs is rising, a shift further reinforced by recent layoffs disproportionately affecting middle managers, thus “flattening” organizations. As Mark Zuckerberg",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/25",
+      "text": "This trend suggests that the value of ICs is rising, a shift further reinforced by recent layoffs disproportionately affecting middle managers, thus “flattening” organizations. As Mark Zuckerberg"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.bloomberg.com/news/articles/2023-02-07/meta-to-ask-many-managers-to-become-individual-contributors-or-leave",
+      "label": "text",
+      "meta": null,
+      "orig": "argued in 2023",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/26",
+      "text": "argued in 2023"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", and many other companies have followed suit, employees need to “get back to making things.”",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/27",
+      "text": ", and many other companies have followed suit, employees need to “get back to making things.”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "All the insights that follow, drawn from those who are currently employed in full-time roles or have been within the past six months, shed more detailed light on salary benchmarks and other unexpected patterns in 2024.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/28",
+      "text": "All the insights that follow, drawn from those who are currently employed in full-time roles or have been within the past six months, shed more detailed light on salary benchmarks and other unexpected patterns in 2024."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "Key trends in salary data",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/29",
+      "text": "Key trends in salary data"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "When it comes to analyzing and benchmarking compensation data, we learned that function, geography, and level have the biggest impact. Let’s dive into these trends and numbers (and make sure to check out the table below for reference):",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/30",
+      "text": "When it comes to analyzing and benchmarking compensation data, we learned that function, geography, and level have the biggest impact. Let’s dive into these trends and numbers (and make sure to check out the table below for reference):"
+    },
+    {
+      "children": [
+        {
+          "$ref": "#/groups/4"
+        }
+      ],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/31",
+      "text": ""
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "1.",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/32",
+      "text": "1."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "ICs can achieve significant salary gains",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/33",
+      "text": "ICs can achieve significant salary gains"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "We found that leveling up within the individual contributor track can lead to significant pay gains. Entry-level ICs earn around $112,500 annually, but as they progress, mid-level ICs see an increase of $38,350 (median salary: $137,500), and senior ICs make $187,500—nearly $78,000 more than entry-level peers. These findings show that staying on the IC track can yield impressive salary growth, often matching or exceeding managerial compensation.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/34",
+      "text": "We found that leveling up within the individual contributor track can lead to significant pay gains. Entry-level ICs earn around $112,500 annually, but as they progress, mid-level ICs see an increase of $38,350 (median salary: $137,500), and senior ICs make $187,500—nearly $78,000 more than entry-level peers. These findings show that staying on the IC track can yield impressive salary growth, often matching or exceeding managerial compensation."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Does the company’s stage affect higher senior IC salaries?",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/35",
+      "text": "Does the company’s stage affect higher senior IC salaries?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Yes and no. Among senior ICs at private companies, those earning in the 75th percentile or higher typically work at Series C or later-stage companies, which makes sense given that these companies have more funding to offer higher salaries.",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/36",
+      "text": "Yes and no. Among senior ICs at private companies, those earning in the 75th percentile or higher typically work at Series C or later-stage companies, which makes sense given that these companies have more funding to offer higher salaries."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "However, when comparing senior ICs at private versus publicly traded companies, there isn’t a major difference in the percentage earning higher wages—",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/37",
+      "text": "However, when comparing senior ICs at private versus publicly traded companies, there isn’t a major difference in the percentage earning higher wages—"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "33.44%",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/38",
+      "text": "33.44%"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "at private companies versus",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/39",
+      "text": "at private companies versus"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "36%",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/40",
+      "text": "36%"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "at publicly traded ones. This small difference is mainly due to a few senior ICs at publicly traded companies making $300K to $400K, a salary range not seen among private companies in our dataset.",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/41",
+      "text": "at publicly traded ones. This small difference is mainly due to a few senior ICs at publicly traded companies making $300K to $400K, a salary range not seen among private companies in our dataset."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/42",
+      "text": "Image from How much do U.S. product managers really make?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "2. There’s a surprising dip in salary at a manager level",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/43",
+      "text": "2. There’s a surprising dip in salary at a manager level"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "One of the more unexpected findings was a salary dip when moving from senior IC to manager. When comparing median salaries, senior ICs significantly earn $26,920 more than managers (manager median salary: $162,500 vs. senior IC median salary: $187,500), which defies the common assumption that management roles always pay more.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/44",
+      "text": "One of the more unexpected findings was a salary dip when moving from senior IC to manager. When comparing median salaries, senior ICs significantly earn $26,920 more than managers (manager median salary: $162,500 vs. senior IC median salary: $187,500), which defies the common assumption that management roles always pay more."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Why?",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/45",
+      "text": "Why?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/the-super-ic-pm-tal-raviv",
+      "label": "text",
+      "meta": null,
+      "orig": "Many companies now recognize and value experienced ICs who can drive substantial impact",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/46",
+      "text": "Many companies now recognize and value experienced ICs who can drive substantial impact"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". One senior IC, Tal Raviv, who appeared on a recent podcast with Lenny, offered this advice: “There’s a really good analogy here in engineering: … You shouldn’t have to rise into management in order to increase your compensation. You’re equally or just as valuable not as a manager [but] as a domain expert. And that’s step one, understand that you’re really, really, really valuable as an IC.” Check out the interview with Tal where he shares tactics for how he",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/47",
+      "text": ". One senior IC, Tal Raviv, who appeared on a recent podcast with Lenny, offered this advice: “There’s a really good analogy here in engineering: … You shouldn’t have to rise into management in order to increase your compensation. You’re equally or just as valuable not as a manager [but] as a domain expert. And that’s step one, understand that you’re really, really, really valuable as an IC.” Check out the interview with Tal where he shares tactics for how he"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.youtube.com/watch?v=wFhurV1l6Jk&t=144s",
+      "label": "text",
+      "meta": null,
+      "orig": "negotiates with recruiters",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/48",
+      "text": "negotiates with recruiters"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "to capture his market value.",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/49",
+      "text": "to capture his market value."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Which level in management matches the numbers we see for senior ICs?",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/50",
+      "text": "Which level in management matches the numbers we see for senior ICs?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Senior ICs are most closely matched to senior managers, particularly comparing quartiles and median salaries. That said, senior ICs still have a higher mode salary band of $175K to $200K compared with $150K to $175K for senior managers, and senior IC roles have a tighter salary range between the low and high points in the range than senior manager roles.",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "prov": [],
+      "self_ref": "#/texts/51",
+      "text": "Senior ICs are most closely matched to senior managers, particularly comparing quartiles and median salaries. That said, senior ICs still have a higher mode salary band of $175K to $200K compared with $150K to $175K for senior managers, and senior IC roles have a tighter salary range between the low and high points in the range than senior manager roles."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/52",
+      "text": "Image from How much do U.S. product managers really make?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "To be sure, more senior and executive levels of management outpace on average the senior IC roles surveyed here; nevertheless, the data reveal that senior ICs are well compensated for their high level of expertise.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/53",
+      "text": "To be sure, more senior and executive levels of management outpace on average the senior IC roles surveyed here; nevertheless, the data reveal that senior ICs are well compensated for their high level of expertise."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "3. Satisfaction is only moderately correlated with the total compensation package",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/54",
+      "text": "3. Satisfaction is only moderately correlated with the total compensation package"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Does money buy happiness, as the old adage goes? In our data, the correlation between total compensation package (salary, equity, and bonus) and satisfaction is 0.31, indicating a moderate positive relationship. This suggests that",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/55",
+      "text": "Does money buy happiness, as the old adage goes? In our data, the correlation between total compensation package (salary, equity, and bonus) and satisfaction is 0.31, indicating a moderate positive relationship. This suggests that"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "as compensation increases, satisfaction with total compensation also tends to increase, but the relationship is not overly strong, as you might expect.",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/56",
+      "text": "as compensation increases, satisfaction with total compensation also tends to increase, but the relationship is not overly strong, as you might expect."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "And interestingly, negotiating total compensation—which many believe would increase satisfaction—showed no significant impact on how satisfied respondents were with their overall compensation. Other variables within our dataset (gender, leveling title, years of experience, and company size) showed only a weak correlation to satisfaction with total compensation or no correlation at all, in the case of states within the U.S.",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "prov": [],
+      "self_ref": "#/texts/57",
+      "text": "And interestingly, negotiating total compensation—which many believe would increase satisfaction—showed no significant impact on how satisfied respondents were with their overall compensation. Other variables within our dataset (gender, leveling title, years of experience, and company size) showed only a weak correlation to satisfaction with total compensation or no correlation at all, in the case of states within the U.S."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "Benchmarks for base salary for U.S. product managers",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/58",
+      "text": "Benchmarks for base salary for U.S. product managers"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Let’s further break down base salaries for U.S. product managers, starting with ICs and moving up through management and executive roles.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/59",
+      "text": "Let’s further break down base salaries for U.S. product managers, starting with ICs and moving up through management and executive roles."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/60",
+      "text": "Image from How much do U.S. product managers really make?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "The box plot above shows where the bulk of our data lies and provides a snapshot of its spread and variability, making it easy to compare different datasets. Here’s how to interpret the key parts:",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/61",
+      "text": "The box plot above shows where the bulk of our data lies and provides a snapshot of its spread and variability, making it easy to compare different datasets. Here’s how to interpret the key parts:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "The “box” in each column identifies the interquartile range (IQR), which gives you a sense of how spread out the middle 50% of the data is. This can be more informative than just looking at the range (which is sensitive to outliers). The outer edges of the box identify the 25th percentile (meaning 25% of data points are below this value) and the 75th percentile (meaning 25% of data points are above this value).",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/62",
+      "text": "The “box” in each column identifies the interquartile range (IQR), which gives you a sense of how spread out the middle 50% of the data is. This can be more informative than just looking at the range (which is sensitive to outliers). The outer edges of the box identify the 25th percentile (meaning 25% of data points are below this value) and the 75th percentile (meaning 25% of data points are above this value)."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "The “median” is the line inside the box that marks the 50th percentile, or midpoint of the data. If it’s not centered, the data may be skewed higher or lower. The “arrow” inside the box identifies the average. It’s best to focus on the median instead of the average in box plots, because it is less affected by outliers and skewed data, providing a more accurate representation of the central tendency.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/63",
+      "text": "The “median” is the line inside the box that marks the 50th percentile, or midpoint of the data. If it’s not centered, the data may be skewed higher or lower. The “arrow” inside the box identifies the average. It’s best to focus on the median instead of the average in box plots, because it is less affected by outliers and skewed data, providing a more accurate representation of the central tendency."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "The “whiskers” extend from the box to the smallest and largest data points (that are not outliers) within 1.5 times the IQR, showing the overall range. The small “circles” identify the outliers beyond the whiskers and are plotted as individual points, highlighting unusual data values.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/64",
+      "text": "The “whiskers” extend from the box to the smallest and largest data points (that are not outliers) within 1.5 times the IQR, showing the overall range. The small “circles” identify the outliers beyond the whiskers and are plotted as individual points, highlighting unusual data values."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "The box plot shows a wider distribution of salary midpoints for more senior roles (C-suite, VP, etc.), with outliers (the little circles) that push compensation into the $600,000 to $1M range. On the other hand, entry-level and mid-level ICs have far more consistent salary distributions, with less variance and fewer extreme outliers.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/65",
+      "text": "The box plot shows a wider distribution of salary midpoints for more senior roles (C-suite, VP, etc.), with outliers (the little circles) that push compensation into the $600,000 to $1M range. On the other hand, entry-level and mid-level ICs have far more consistent salary distributions, with less variance and fewer extreme outliers."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Below is a different view of the same data on the distribution of salary for U.S. product managers across levels. It shows key statistics, such as lowest and highest salary bands reported and percentiles, including the median salary band (or 50th percentile). For example, the C-Suite has a median salary band of $275,000-$299,999 and a wide salary range from $50,000-$599,999. In contrast, Entry-level IC roles have a median salary band of $100,000-$124,999 and a tighter salary range from $49,999 or less to $175,000-$199,999. The data highlights the progression of salaries across levels, with higher-ranking roles generally having higher medians and wider salary ranges.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/66",
+      "text": "Below is a different view of the same data on the distribution of salary for U.S. product managers across levels. It shows key statistics, such as lowest and highest salary bands reported and percentiles, including the median salary band (or 50th percentile). For example, the C-Suite has a median salary band of $275,000-$299,999 and a wide salary range from $50,000-$599,999. In contrast, Entry-level IC roles have a median salary band of $100,000-$124,999 and a tighter salary range from $49,999 or less to $175,000-$199,999. The data highlights the progression of salaries across levels, with higher-ranking roles generally having higher medians and wider salary ranges."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/67",
+      "text": "Image from How much do U.S. product managers really make?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "How we created the benchmarks",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/68",
+      "text": "How we created the benchmarks"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "As we mentioned at the outset, function, geography, and level have the biggest impact on salary. At a high level, the charts below show the distribution of salary bands (annual cash only in USD, not including equity or bonuses) for product managers at three different levels—individual contributor (IC, does not oversee people), people manager (oversees ICs), and executive (oversees people managers)—and compares those who work from the U.S. to those who work outside of the U.S. Even with a quick glance, you can see how the U.S. salary bands (orange bars) skew higher than salary bands for those working outside of the U.S. (blue bars).",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/69",
+      "text": "As we mentioned at the outset, function, geography, and level have the biggest impact on salary. At a high level, the charts below show the distribution of salary bands (annual cash only in USD, not including equity or bonuses) for product managers at three different levels—individual contributor (IC, does not oversee people), people manager (oversees ICs), and executive (oversees people managers)—and compares those who work from the U.S. to those who work outside of the U.S. Even with a quick glance, you can see how the U.S. salary bands (orange bars) skew higher than salary bands for those working outside of the U.S. (blue bars)."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/70",
+      "text": "Image from How much do U.S. product managers really make?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/71",
+      "text": "Image from How much do U.S. product managers really make?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "prov": [],
+      "self_ref": "#/texts/72",
+      "text": "Image from How much do U.S. product managers really make?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Job levels vs. years of experience:",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/73",
+      "text": "Job levels vs. years of experience:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Years of experience—often assumed to be a major predictor of salary—is actually an anti-pattern when it comes to compensation. CEO Matt Schulman at Pave explains, “Here’s why: A product professional with 10 years of experience could be at an IC 5 level at one company and an IC 3 level at another. So saying, ‘This is how much someone with 10 years of experience makes’ implies a direct relationship between experience and compensation. But in reality, the more important relationship is between level and salary, and years of experience is only a correlated variable to job level.”",
+      "parent": {
+        "$ref": "#/groups/11"
+      },
+      "prov": [],
+      "self_ref": "#/texts/74",
+      "text": "Years of experience—often assumed to be a major predictor of salary—is actually an anti-pattern when it comes to compensation. CEO Matt Schulman at Pave explains, “Here’s why: A product professional with 10 years of experience could be at an IC 5 level at one company and an IC 3 level at another. So saying, ‘This is how much someone with 10 years of experience makes’ implies a direct relationship between experience and compensation. But in reality, the more important relationship is between level and salary, and years of experience is only a correlated variable to job level.”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Standardizing levels through job titles:",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/75",
+      "text": "Standardizing levels through job titles:"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Levels are difficult to standardize across different companies and industries. Even among the big tech companies, levels don’t necessarily map one-to-one. In our survey, we addressed this challenge by creating a cascading hierarchy of job titles, and respondents were asked to select the leveling title that best represents their current (or most recent) position: entry-level IC, mid-level IC, senior-level IC, manager, senior manager, director, senior director, vice president / head of, senior vice president, or C-suite (CEO, chief product officer, chief technology officer, etc.). This proxy for job levels is not perfect, but it generates more valid and reliable data from which to create salary benchmarks, showing more granular differences among levels.",
+      "parent": {
+        "$ref": "#/groups/12"
+      },
+      "prov": [],
+      "self_ref": "#/texts/76",
+      "text": "Levels are difficult to standardize across different companies and industries. Even among the big tech companies, levels don’t necessarily map one-to-one. In our survey, we addressed this challenge by creating a cascading hierarchy of job titles, and respondents were asked to select the leveling title that best represents their current (or most recent) position: entry-level IC, mid-level IC, senior-level IC, manager, senior manager, director, senior director, vice president / head of, senior vice president, or C-suite (CEO, chief product officer, chief technology officer, etc.). This proxy for job levels is not perfect, but it generates more valid and reliable data from which to create salary benchmarks, showing more granular differences among levels."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "Takeaways for product managers",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/77",
+      "text": "Takeaways for product managers"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "How can job seekers maximize salary?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/78",
+      "text": "How can job seekers maximize salary?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "For",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/79",
+      "text": "For"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "job seekers",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/80",
+      "text": "job seekers"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", the data shows that",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/81",
+      "text": ", the data shows that"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "job level",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/82",
+      "text": "job level"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "is one of the strongest predictors of salary. This means that if you want to increase your earnings, focus on advancing your role, whether through a higher IC level or transitioning to management. To do so, President of Product and Technology",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/83",
+      "text": "is one of the strongest predictors of salary. This means that if you want to increase your earnings, focus on advancing your role, whether through a higher IC level or transitioning to management. To do so, President of Product and Technology"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.linkedin.com/in/tamar-yehoshua-886217/",
+      "label": "text",
+      "meta": null,
+      "orig": "Tamar Yehoshua",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/84",
+      "text": "Tamar Yehoshua"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "(of Slack, Google, Amazon, and Glean) suggests in her chat on Lenny’s Podcast",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/85",
+      "text": "(of Slack, Google, Amazon, and Glean) suggests in her chat on Lenny’s Podcast"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "not",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/86",
+      "text": "not"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "focusing on which company is going to pay you the most but rather finding companies that have a “",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/87",
+      "text": "focusing on which company is going to pay you the most but rather finding companies that have a “"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://youtu.be/ZoSeOltKqQk?t=1120&si=cI8b535ASs3VuN07",
+      "label": "text",
+      "meta": null,
+      "orig": "nexus of great people",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/88",
+      "text": "nexus of great people"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "” where you’re going to learn the most. She also emphasizes the importance of “",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/89",
+      "text": "” where you’re going to learn the most. She also emphasizes the importance of “"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://youtu.be/ZoSeOltKqQk?t=573&si=yHwfRL2VEJy25F6c",
+      "label": "text",
+      "meta": null,
+      "orig": "moving the business forward",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/90",
+      "text": "moving the business forward"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "” (as opposed to hitting your goals or demonstrating skills at the next level): “One of the things that I think is overlooked is,",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/91",
+      "text": "” (as opposed to hitting your goals or demonstrating skills at the next level): “One of the things that I think is overlooked is,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://youtu.be/ZoSeOltKqQk?si=jXA0NtENpmQFdNrn&t=150",
+      "label": "text",
+      "meta": null,
+      "orig": "do a really good job at whatever your job is at that point",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/92",
+      "text": "do a really good job at whatever your job is at that point"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "… however simple, however easy it may be for you, do a great job.”",
+      "parent": {
+        "$ref": "#/groups/13"
+      },
+      "prov": [],
+      "self_ref": "#/texts/93",
+      "text": "… however simple, however easy it may be for you, do a great job.”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "However, don’t assume that management always means higher pay—according to our data, senior ICs often out-earn managers. If you’re an experienced IC and enjoy it, leverage your expertise to negotiate a strong compensation package without feeling pressured to move into management. Senior IC Tal Raviv",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/94",
+      "text": "However, don’t assume that management always means higher pay—according to our data, senior ICs often out-earn managers. If you’re an experienced IC and enjoy it, leverage your expertise to negotiate a strong compensation package without feeling pressured to move into management. Senior IC Tal Raviv"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://youtu.be/wFhurV1l6Jk?si=x38frGXAm5LswD0x&t=760",
+      "label": "text",
+      "meta": null,
+      "orig": "suggests in his chat on Lenny’s Podcast",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/95",
+      "text": "suggests in his chat on Lenny’s Podcast"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "that advocating for more differentiated senior IC titles at your company to create that career path, and thus compensation progression, for yourself (and others): “I think having good titles that are clear that you can move up into, first of all, creates an idea that there is progress. Creating clear levels and rubric just like you would for within any level or within any title, saying it out loud, recognizing it. At the end of the day, we all want respect, we all want to feel that we’re growing, we all want to feel that we’re recognized. So I think putting it into words goes a really long way.”",
+      "parent": {
+        "$ref": "#/groups/14"
+      },
+      "prov": [],
+      "self_ref": "#/texts/96",
+      "text": "that advocating for more differentiated senior IC titles at your company to create that career path, and thus compensation progression, for yourself (and others): “I think having good titles that are clear that you can move up into, first of all, creates an idea that there is progress. Creating clear levels and rubric just like you would for within any level or within any title, saying it out loud, recognizing it. At the end of the day, we all want respect, we all want to feel that we’re growing, we all want to feel that we’re recognized. So I think putting it into words goes a really long way.”"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "That said, our data highlights that",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/97",
+      "text": "That said, our data highlights that"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "salary isn’t everything",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/98",
+      "text": "salary isn’t everything"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ". While higher compensation is moderately correlated with job satisfaction, negotiating for more money won’t necessarily make you happier in your role.",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/99",
+      "text": ". While higher compensation is moderately correlated with job satisfaction, negotiating for more money won’t necessarily make you happier in your role."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysnewsletter.com/p/why-cash-is-king",
+      "label": "text",
+      "meta": null,
+      "orig": "Consider other aspects of your compensation package, such as equity, benefits, and work-life balance",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/100",
+      "text": "Consider other aspects of your compensation package, such as equity, benefits, and work-life balance"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", to maximize overall satisfaction.",
+      "parent": {
+        "$ref": "#/groups/15"
+      },
+      "prov": [],
+      "self_ref": "#/texts/101",
+      "text": ", to maximize overall satisfaction."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 3,
+      "meta": null,
+      "orig": "How can employers attract and retain talent?",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/102",
+      "text": "How can employers attract and retain talent?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "For",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/103",
+      "text": "For"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "employers",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/104",
+      "text": "employers"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", understanding the value of",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/105",
+      "text": ", understanding the value of"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "experienced ICs",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/106",
+      "text": "experienced ICs"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "is crucial. Senior ICs play vital roles in driving product success and can command salaries that rival management roles. Offering competitive salaries and clear growth paths for ICs can help attract and retain top talent, especially in a market where specialized skills are increasingly valued.",
+      "parent": {
+        "$ref": "#/groups/16"
+      },
+      "prov": [],
+      "self_ref": "#/texts/107",
+      "text": "is crucial. Senior ICs play vital roles in driving product success and can command salaries that rival management roles. Offering competitive salaries and clear growth paths for ICs can help attract and retain top talent, especially in a market where specialized skills are increasingly valued."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Finally, as pay transparency laws continue to spread, it’s important to provide clear and competitive salary information in job postings. This not only builds trust but also ensures that your company remains competitive in attracting the best talent.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/108",
+      "text": "Finally, as pay transparency laws continue to spread, it’s important to provide clear and competitive salary information in job postings. This not only builds trust but also ensures that your company remains competitive in attracting the best talent."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "By focusing on the job level and offering a well-rounded compensation package, both job seekers and employers can create win-win scenarios in today’s competitive market.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/109",
+      "text": "By focusing on the job level and offering a well-rounded compensation package, both job seekers and employers can create win-win scenarios in today’s competitive market."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "What’s next",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/110",
+      "text": "What’s next"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "For round three, we plan to team up with",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/111",
+      "text": "For round three, we plan to team up with"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.pave.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "Pave",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/112",
+      "text": "Pave"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", domain experts in the compensation space, to share data (including equity and bonus benchmarks) and trends related to this segment and others. Make sure you’re subscribed to the newsletter to avoid missing future posts in this series.",
+      "parent": {
+        "$ref": "#/groups/17"
+      },
+      "prov": [],
+      "self_ref": "#/texts/113",
+      "text": ", domain experts in the compensation space, to share data (including equity and bonus benchmarks) and trends related to this segment and others. Make sure you’re subscribed to the newsletter to avoid missing future posts in this series."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Thanks,",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/114",
+      "text": "Thanks,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.linkedin.com/in/louise-beryl-13225833/",
+      "label": "text",
+      "meta": null,
+      "orig": "Louise",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/115",
+      "text": "Louise"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": false,
+        "italic": true,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "! Have a fulfilling and productive week 🙏",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/116",
+      "text": "! Have a fulfilling and productive week 🙏"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "section_header",
+      "level": 1,
+      "meta": null,
+      "orig": "Hiring? 👀",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/117",
+      "text": "Hiring? 👀"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "I’ve got a white-glove recruiting service specializing in senior product roles (e.g. Directors, VPs, and Heads of Product), where I work with a few select companies to fill their open roles. If you’re hiring, apply to work with us below.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/118",
+      "text": "I’ve got a white-glove recruiting service specializing in senior product roles (e.g. Directors, VPs, and Heads of Product), where I work with a few select companies to fill their open roles. If you’re hiring, apply to work with us below."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": "https://www.lennysjobs.com/",
+      "label": "text",
+      "meta": null,
+      "orig": "Start hiring",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/119",
+      "text": "Start hiring"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/120",
+      "text": "If you’re finding this newsletter valuable, share it with a friend, and consider subscribing if you haven’t already. There are"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.lennysnewsletter.com/subscribe?group=true",
+      "label": "text",
+      "meta": null,
+      "orig": "group discounts",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/121",
+      "text": "group discounts"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ",",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/122",
+      "text": ","
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.lennysnewsletter.com/subscribe?gift=true",
+      "label": "text",
+      "meta": null,
+      "orig": "gift options",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/123",
+      "text": "gift options"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": ", and",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/124",
+      "text": ", and"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": "https://www.lennysnewsletter.com/leaderboard",
+      "label": "text",
+      "meta": null,
+      "orig": "referral bonuses",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/125",
+      "text": "referral bonuses"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": {
+        "bold": true,
+        "italic": false,
+        "script": "baseline",
+        "strikethrough": false,
+        "underline": false
+      },
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "available.",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/126",
+      "text": "available."
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Sincerely,",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/127",
+      "text": "Sincerely,"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "text",
+      "meta": null,
+      "orig": "Lenny 👋",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "prov": [],
+      "self_ref": "#/texts/128",
+      "text": "Lenny 👋"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/pictures/0"
+      },
+      "prov": [],
+      "self_ref": "#/texts/129",
+      "text": "Image from How much do U.S. product managers really make?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/pictures/1"
+      },
+      "prov": [],
+      "self_ref": "#/texts/130",
+      "text": "Image from How much do U.S. product managers really make?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "prov": [],
+      "self_ref": "#/texts/131",
+      "text": "Image from How much do U.S. product managers really make?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "prov": [],
+      "self_ref": "#/texts/132",
+      "text": "Image from How much do U.S. product managers really make?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "prov": [],
+      "self_ref": "#/texts/133",
+      "text": "Image from How much do U.S. product managers really make?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/pictures/5"
+      },
+      "prov": [],
+      "self_ref": "#/texts/134",
+      "text": "Image from How much do U.S. product managers really make?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/pictures/6"
+      },
+      "prov": [],
+      "self_ref": "#/texts/135",
+      "text": "Image from How much do U.S. product managers really make?"
+    },
+    {
+      "children": [],
+      "content_layer": "body",
+      "formatting": null,
+      "hyperlink": null,
+      "label": "caption",
+      "meta": null,
+      "orig": "Image from How much do U.S. product managers really make?",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "prov": [],
+      "self_ref": "#/texts/136",
+      "text": "Image from How much do U.S. product managers really make?"
+    }
+  ],
+  "version": "1.10.0"
+}
