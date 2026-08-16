@@ -19,7 +19,7 @@ class FactBuildConfig:
     sha256: str
 
     @classmethod
-    def load(cls, path: str | Path) -> "FactBuildConfig":
+    def load(cls, path: str | Path) -> FactBuildConfig:
         resolved = Path(path).resolve(strict=True)
         raw = resolved.read_bytes()
         try:

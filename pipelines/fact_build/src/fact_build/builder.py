@@ -7,11 +7,12 @@ import os
 import shutil
 import time
 import uuid
+from collections.abc import Callable, Iterable
 from dataclasses import dataclass
 from datetime import UTC, date, datetime
 from importlib.metadata import version
 from pathlib import Path
-from typing import Any, Callable, Iterable
+from typing import Any
 from urllib.parse import urlsplit
 
 import yaml
@@ -36,7 +37,6 @@ from docling_core.types.doc import (
     DocItemLabel,
     DoclingDocument,
     ImageRef,
-    PictureItem,
     SectionHeaderItem,
     Size,
     TitleItem,
@@ -45,7 +45,6 @@ from markdown_it import MarkdownIt
 from transformers import AutoTokenizer
 
 from .config import FactBuildConfig, FactBuildConfigError
-
 
 ProgressCallback = Callable[[str], None]
 
@@ -668,7 +667,9 @@ class FactBuilder:
                         **built.metrics,
                     }
                 )
-            except Exception as exc:
+            # The pilot is a batch isolation boundary: quarantine every document-local
+            # conversion failure and continue reporting the remaining representatives.
+            except Exception as exc:  # noqa: BLE001
                 passed = False
                 self._write_quarantine(document_id, exc, "pilot")
                 entries.append(

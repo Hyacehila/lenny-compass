@@ -2,14 +2,16 @@ from __future__ import annotations
 
 import hashlib
 import json
-from pathlib import Path
 
 import pytest
 from ai_pm_contracts import FactDocument
 from docling_core.types.doc import DoclingDocument
-
-from fact_build.builder import FactBuildError, _assert_chunk_integrity, _frontmatter, _markdown_images
-
+from fact_build.builder import (
+    FactBuildError,
+    _assert_chunk_integrity,
+    _frontmatter,
+    _markdown_images,
+)
 
 REQUIRED_PILOT = {
     "02-newsletters/get-perplexity-pro-free-for-1-year.md",
