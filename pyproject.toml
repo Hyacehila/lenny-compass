@@ -3,5 +3,6 @@ members = [
     "contracts",
     "pipelines/fact_build",
     "pipelines/retrieval_build",
+    "backend",
 ]
 exclude = ["pipelines/source_enhancement"]

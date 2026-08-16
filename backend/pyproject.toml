@@ -1,0 +1,36 @@
+[project]
+name = "lenny-backend"
+version = "0.1.0"
+description = "Local FastAPI application for the AI-PM knowledge base"
+requires-python = "==3.11.*"
+dependencies = [
+    "ai-pm-contracts",
+    "fastapi>=0.116,<1",
+    "httpx>=0.28,<0.29",
+    "pydantic-settings>=2.10,<3",
+    "retrieval-build",
+    "uvicorn>=0.35,<1",
+]
+
+[project.scripts]
+lenny-backend = "lenny_backend.app:main"
+
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lenny_backend"]
+
+[tool.uv.sources]
+ai-pm-contracts = { workspace = true }
+retrieval-build = { workspace = true }
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3,<9",
+]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

@@ -1,0 +1,10 @@
+{
+  "name": "lenny-compass-workspace",
+  "private": true,
+  "packageManager": "pnpm@10.23.0",
+  "scripts": {
+    "web:dev": "pnpm --filter @lenny-compass/web dev",
+    "web:build": "pnpm --filter @lenny-compass/web build",
+    "web:test": "pnpm --filter @lenny-compass/web test"
+  }
+}

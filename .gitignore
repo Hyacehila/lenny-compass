@@ -14,6 +14,12 @@ node_modules/
 dist/
 coverage/
 .next/
+*.tsbuildinfo
+output/playwright/
+.playwright-cli/
+
+# Fact builds publish versioned artifacts, but never commit interrupted staging.
+facts/.fact-build-staging-*/
 
 # Generated retrieval data and runtime state; retain directory scaffolding.
 retrieval/**
