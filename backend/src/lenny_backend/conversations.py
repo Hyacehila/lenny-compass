@@ -7,6 +7,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any, Literal
 
+from ai_pm_contracts import AnswerProcessTrace
 from pydantic import BaseModel, ConfigDict
 
 
@@ -33,6 +34,7 @@ class Message(BaseModel):
     created_at: str
     citations: tuple[dict[str, Any], ...] = ()
     mode: Literal["direct", "agentic"] | None = None
+    process_trace: AnswerProcessTrace | None = None
 
 
 class ConversationStore:
@@ -70,7 +72,8 @@ class ConversationStore:
                     content TEXT NOT NULL,
                     created_at TEXT NOT NULL,
                     citations_json TEXT NOT NULL DEFAULT '[]',
-                    mode TEXT CHECK (mode IS NULL OR mode IN ('direct', 'agentic'))
+                    mode TEXT CHECK (mode IS NULL OR mode IN ('direct', 'agentic')),
+                    process_trace_json TEXT NOT NULL DEFAULT 'null'
                 ) STRICT;
 
                 CREATE INDEX IF NOT EXISTS messages_conversation_sequence
@@ -84,6 +87,11 @@ class ConversationStore:
                 connection.execute(
                     "ALTER TABLE messages ADD COLUMN mode TEXT "
                     "CHECK (mode IS NULL OR mode IN ('direct', 'agentic'))"
+                )
+            if "process_trace_json" not in columns:
+                connection.execute(
+                    "ALTER TABLE messages ADD COLUMN process_trace_json TEXT "
+                    "NOT NULL DEFAULT 'null'"
                 )
 
     def create(self, title: str | None = None) -> Conversation:
@@ -150,6 +158,7 @@ class ConversationStore:
         content: str,
         citations: tuple[dict[str, Any], ...] = (),
         mode: Literal["direct", "agentic"] | None = None,
+        process_trace: AnswerProcessTrace | None = None,
     ) -> Message:
         message = Message(
             id=str(uuid.uuid4()),
@@ -159,13 +168,15 @@ class ConversationStore:
             created_at=_now(),
             citations=citations,
             mode=mode,
+            process_trace=process_trace,
         )
         with self._connect() as connection:
             connection.execute(
                 """
                 INSERT INTO messages(
-                    id, conversation_id, role, content, created_at, citations_json, mode
-                ) VALUES (?, ?, ?, ?, ?, ?, ?)
+                    id, conversation_id, role, content, created_at, citations_json, mode,
+                    process_trace_json
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
                     message.id,
@@ -175,6 +186,13 @@ class ConversationStore:
                     message.created_at,
                     json.dumps(message.citations, ensure_ascii=False, separators=(",", ":")),
                     message.mode,
+                    json.dumps(
+                        message.process_trace.model_dump(mode="json")
+                        if message.process_trace
+                        else None,
+                        ensure_ascii=False,
+                        separators=(",", ":"),
+                    ),
                 ),
             )
             connection.execute(
@@ -187,7 +205,8 @@ class ConversationStore:
         with self._connect() as connection:
             rows = connection.execute(
                 """
-                SELECT id, conversation_id, role, content, created_at, citations_json, mode
+                SELECT id, conversation_id, role, content, created_at, citations_json, mode,
+                       process_trace_json
                 FROM messages WHERE conversation_id = ? ORDER BY sequence ASC
                 """,
                 (conversation_id,),
@@ -197,6 +216,7 @@ class ConversationStore:
     @staticmethod
     def _message_from_row(row: sqlite3.Row) -> Message:
         citations = json.loads(str(row["citations_json"]))
+        raw_trace = json.loads(str(row["process_trace_json"]))
         return Message(
             id=row["id"],
             conversation_id=row["conversation_id"],
@@ -205,4 +225,9 @@ class ConversationStore:
             created_at=row["created_at"],
             citations=tuple(citations),
             mode=row["mode"],
+            process_trace=(
+                AnswerProcessTrace.model_validate(raw_trace)
+                if raw_trace is not None
+                else None
+            ),
         )

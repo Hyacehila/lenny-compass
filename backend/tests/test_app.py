@@ -11,6 +11,7 @@ from ai_pm_contracts import (
     SseAnswerDeltaEvent,
     SseDoneEvent,
     SsePhaseEvent,
+    SseRetrievalSummaryEvent,
 )
 from fastapi.testclient import TestClient
 from lenny_backend.app import create_app
@@ -133,6 +134,9 @@ class _AnswerService:
     async def stream_answer(self, *, conversation_id, request, history):
         assert history[-1].content == request.question
         yield SsePhaseEvent(phase="answer")
+        yield SseRetrievalSummaryEvent(
+            provider_counts={"keyword": 4, "vector": 3}, fused_count=5
+        )
         yield SseAnswerDeltaEvent(delta="Grounded")
         yield SseAnswerDeltaEvent(delta=" answer")
         yield SseDoneEvent(
@@ -159,6 +163,7 @@ def test_injected_answer_service_persists_only_done_answer(tmp_path: Path) -> No
     payloads = _sse_payloads(response.text)
     assert [item["type"] for item in payloads] == [
         "phase",
+        "retrieval_summary",
         "answer_delta",
         "answer_delta",
         "done",
@@ -175,6 +180,13 @@ def test_injected_answer_service_persists_only_done_answer(tmp_path: Path) -> No
         ("assistant", "Grounded answer"),
     ]
     assert [item["mode"] for item in messages] == ["direct", "direct"]
+    assert messages[0]["process_trace"] is None
+    assert messages[1]["process_trace"] == {
+        "phases": [{"phase": "answer", "message": None}],
+        "provider_counts": {"keyword": 4, "vector": 3},
+        "fused_count": 5,
+        "evidence_count": 0,
+    }
 
 
 class _FactReader:
@@ -185,6 +197,39 @@ class _FactReader:
         assert locator == self.evidence.locator
         assert window == 2
         return (self.evidence,)
+
+
+class _IncompleteAnswerService:
+    agentic_available = False
+
+    async def stream_answer(self, *, conversation_id, request, history):
+        yield SsePhaseEvent(phase="retrieve")
+        yield SseAnswerDeltaEvent(delta="Partial")
+
+
+def test_incomplete_stream_does_not_persist_assistant_message(tmp_path: Path) -> None:
+    client = TestClient(
+        _app(_settings(tmp_path), answer_service=_IncompleteAnswerService())
+    )
+    conversation_id = client.post("/api/v1/conversations", json={}).json()["id"]
+
+    response = client.post(
+        f"/api/v1/conversations/{conversation_id}/ask",
+        json={"question": "Question", "mode": "direct"},
+    )
+
+    assert [item["type"] for item in _sse_payloads(response.text)] == [
+        "phase",
+        "answer_delta",
+        "error",
+    ]
+    assert _sse_payloads(response.text)[-1]["error"]["code"] == "ANSWER_STREAM_INCOMPLETE"
+    messages = client.get(
+        f"/api/v1/conversations/{conversation_id}/messages"
+    ).json()
+    assert [(item["role"], item["content"]) for item in messages] == [
+        ("user", "Question")
+    ]
 
 
 def test_fact_window_endpoint_uses_injected_reader(tmp_path: Path) -> None:

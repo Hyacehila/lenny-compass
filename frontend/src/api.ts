@@ -1,4 +1,13 @@
-import type { ChatMessage, Conversation, HealthStatus, RagMode, SseEvent } from "./types";
+import type {
+  ChatMessage,
+  Conversation,
+  DocumentChunkLocator,
+  HealthStatus,
+  IndexStatus,
+  RagMode,
+  SourceWindowResponse,
+  SseEvent,
+} from "./types";
 
 const API_ROOT = "/api/v1";
 
@@ -25,10 +34,21 @@ export const api = {
       method: "POST",
       body: JSON.stringify({ title: "新对话" }),
     }),
+  renameConversation: (id: string, title: string) =>
+    jsonRequest<Conversation>(`/conversations/${encodeURIComponent(id)}`, {
+      method: "PATCH",
+      body: JSON.stringify({ title }),
+    }),
   deleteConversation: (id: string) =>
     jsonRequest<void>(`/conversations/${encodeURIComponent(id)}`, { method: "DELETE" }),
   messages: (id: string) =>
     jsonRequest<ChatMessage[]>(`/conversations/${encodeURIComponent(id)}/messages`),
+  indexStatus: () => jsonRequest<IndexStatus>("/index/status"),
+  readSourceWindow: (locator: DocumentChunkLocator, window = 2) =>
+    jsonRequest<SourceWindowResponse>("/facts/read-source-window", {
+      method: "POST",
+      body: JSON.stringify({ locator, window }),
+    }),
 };
 
 export async function streamAnswer(

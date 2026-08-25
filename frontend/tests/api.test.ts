@@ -1,5 +1,6 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { streamAnswer } from "../src/api";
+import { api, streamAnswer } from "../src/api";
+import type { DocumentChunkLocator } from "../src/types";
 
 afterEach(() => vi.unstubAllGlobals());
 
@@ -32,5 +33,36 @@ describe("streamAnswer", () => {
     await expect(streamAnswer("conversation", "question", "direct", () => undefined)).rejects.toThrow(
       "facts not ready",
     );
+  });
+});
+
+describe("workspace API", () => {
+  it("renames conversations and loads system status", async () => {
+    const fetchMock = vi.fn()
+      .mockResolvedValueOnce(new Response(JSON.stringify({ id: "one", title: "新标题" }), { status: 200 }))
+      .mockResolvedValueOnce(new Response(JSON.stringify({ build_id: "build-one" }), { status: 200 }));
+    vi.stubGlobal("fetch", fetchMock);
+
+    await api.renameConversation("one", "新标题");
+    await api.indexStatus();
+
+    expect(fetchMock).toHaveBeenNthCalledWith(1, "/api/v1/conversations/one", expect.objectContaining({
+      method: "PATCH",
+      body: JSON.stringify({ title: "新标题" }),
+    }));
+    expect(fetchMock).toHaveBeenNthCalledWith(2, "/api/v1/index/status", expect.any(Object));
+  });
+
+  it("reads a fixed two-chunk source context window", async () => {
+    const locator = { kind: "document_chunk", document_id: "doc", chunk_id: "chunk" } as DocumentChunkLocator;
+    const fetchMock = vi.fn().mockResolvedValue(new Response(JSON.stringify({ evidence: [] }), { status: 200 }));
+    vi.stubGlobal("fetch", fetchMock);
+
+    await api.readSourceWindow(locator);
+
+    expect(fetchMock).toHaveBeenCalledWith("/api/v1/facts/read-source-window", expect.objectContaining({
+      method: "POST",
+      body: JSON.stringify({ locator, window: 2 }),
+    }));
   });
 });

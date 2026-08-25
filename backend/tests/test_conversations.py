@@ -2,6 +2,7 @@ import sqlite3
 from pathlib import Path
 
 import pytest
+from ai_pm_contracts import AnswerProcessPhase, AnswerProcessTrace
 from lenny_backend.conversations import ConversationStore
 
 
@@ -26,6 +27,12 @@ def test_conversation_and_message_crud(tmp_path: Path) -> None:
         "Answer",
         ({"evidence_id": "source:one"},),
         mode="direct",
+        process_trace=AnswerProcessTrace(
+            phases=(AnswerProcessPhase(phase="retrieve", message="Searching"),),
+            provider_counts={"keyword": 3, "vector": 2},
+            fused_count=4,
+            evidence_count=1,
+        ),
     )
     assert store.messages(conversation.id) == (user, assistant)
     assert store.get(conversation.id).updated_at == assistant.created_at  # type: ignore[union-attr]
@@ -41,6 +48,9 @@ def test_conversation_and_message_crud(tmp_path: Path) -> None:
         }
     assert "reasoning_content" not in columns
     assert "mode" in columns
+    assert "process_trace_json" in columns
+    assert assistant.process_trace is not None
+    assert assistant.process_trace.provider_counts == {"keyword": 3, "vector": 2}
 
 
 def test_message_requires_existing_conversation(tmp_path: Path) -> None:
@@ -78,4 +88,9 @@ def test_existing_message_database_is_migrated_to_store_mode(tmp_path: Path) -> 
 
     assert conversation.title == "新对话"
     assert stored.mode == "agentic"
+    assert stored.process_trace is None
     assert store.messages(conversation.id)[0].mode == "agentic"
+    assert store.messages(conversation.id)[0].process_trace is None
+    with sqlite3.connect(path) as connection:
+        columns = {row[1] for row in connection.execute("PRAGMA table_info(messages)")}
+    assert "process_trace_json" in columns

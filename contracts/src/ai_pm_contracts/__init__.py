@@ -1,6 +1,8 @@
 """Shared public contracts for the AI-PM repository."""
 
 from .api import (
+    AnswerProcessPhase,
+    AnswerProcessTrace,
     AnswerRequest,
     AnswerResponse,
     ApiError,
@@ -39,6 +41,8 @@ from .retrieval import (
 )
 
 __all__ = [
+    "AnswerProcessPhase",
+    "AnswerProcessTrace",
     "AnswerRequest",
     "AnswerResponse",
     "ApiError",

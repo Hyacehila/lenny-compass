@@ -10,6 +10,20 @@ from .facts import DocumentChunkLocator, Evidence, NonEmpty
 AnswerMode = Literal["direct", "agentic"]
 
 
+class AnswerProcessPhase(ContractModel):
+    phase: NonEmpty
+    message: str | None = None
+
+
+class AnswerProcessTrace(ContractModel):
+    phases: tuple[AnswerProcessPhase, ...] = ()
+    provider_counts: dict[str, Annotated[int, Field(ge=0)]] = Field(
+        default_factory=dict
+    )
+    fused_count: Annotated[int, Field(ge=0)] | None = None
+    evidence_count: Annotated[int, Field(ge=0)] = 0
+
+
 class AnswerRequest(ContractModel):
     question: NonEmpty
     mode: AnswerMode = "direct"

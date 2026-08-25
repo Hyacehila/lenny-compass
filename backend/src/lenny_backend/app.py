@@ -7,6 +7,8 @@ from typing import Any, Protocol
 
 import uvicorn
 from ai_pm_contracts import (
+    AnswerProcessPhase,
+    AnswerProcessTrace,
     AnswerRequest,
     ApiError,
     ApiErrorResponse,
@@ -15,7 +17,10 @@ from ai_pm_contracts import (
     SourceWindowResponse,
     SseDoneEvent,
     SseErrorEvent,
+    SseEvidenceEvent,
     SseEvent,
+    SsePhaseEvent,
+    SseRetrievalSummaryEvent,
 )
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
@@ -276,6 +281,10 @@ def create_app(
                 return
 
             completed = False
+            process_phases: list[AnswerProcessPhase] = []
+            provider_counts: dict[str, int] = {}
+            fused_count: int | None = None
+            evidence_count = 0
             try:
                 async for raw_event in service.stream_answer(
                     conversation_id=conversation_id,
@@ -283,6 +292,15 @@ def create_app(
                     history=history,
                 ):
                     event = _SSE_ADAPTER.validate_python(raw_event)
+                    if isinstance(event, SsePhaseEvent):
+                        process_phases.append(
+                            AnswerProcessPhase(phase=event.phase, message=event.message)
+                        )
+                    elif isinstance(event, SseRetrievalSummaryEvent):
+                        provider_counts = dict(event.provider_counts)
+                        fused_count = event.fused_count
+                    elif isinstance(event, SseEvidenceEvent):
+                        evidence_count += 1
                     if isinstance(event, SseDoneEvent):
                         if completed:
                             raise ValueError("answer service emitted more than one done event")
@@ -297,6 +315,12 @@ def create_app(
                             event.response.answer,
                             citations,
                             request.mode,
+                            AnswerProcessTrace(
+                                phases=tuple(process_phases),
+                                provider_counts=provider_counts,
+                                fused_count=fused_count,
+                                evidence_count=max(evidence_count, len(citations)),
+                            ),
                         )
                     yield _sse(event)
                 if not completed:
