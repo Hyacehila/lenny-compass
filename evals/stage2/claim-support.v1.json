@@ -1,0 +1,3005 @@
+{
+  "schema_version": "stage2-claim-support.v1",
+  "cases": [
+    {
+      "case_id": "support-01-1",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-1",
+        "text": "The playbook recommends that new self-serve users review the setup funnel when activation drops after setup.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-01-2",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-2",
+        "text": "The recommendation is scoped to new self-serve users.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-01-3",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-01-4",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-4",
+        "text": "Every product team should always review the setup funnel.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-01-5",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-01-6",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-01-7",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-7",
+        "text": "The playbook tells new self-serve users not to review the setup funnel when activation drops after setup.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-01-8",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-02-1",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-1",
+        "text": "The playbook recommends that weekly active teams compare cohorts by acquisition source when retention differs across sources.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-02-2",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-2",
+        "text": "The recommendation is scoped to weekly active teams.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-02-3",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-02-4",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-4",
+        "text": "Every product team should always compare cohorts by acquisition source.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-02-5",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-02-6",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-02-7",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-7",
+        "text": "The playbook tells weekly active teams not to compare cohorts by acquisition source when retention differs across sources.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-02-8",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-03-1",
+      "evidence": {
+        "evidence_id": "synthetic:pricing:03",
+        "text": "For prospective buyers, the playbook recommends to test willingness to pay when price sensitivity is uncertain. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-03-1",
+        "text": "The playbook recommends that prospective buyers test willingness to pay when price sensitivity is uncertain.",
+        "evidence_ids": [
+          "synthetic:pricing:03"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-03-2",
+      "evidence": {
+        "evidence_id": "synthetic:pricing:03",
+        "text": "For prospective buyers, the playbook recommends to test willingness to pay when price sensitivity is uncertain. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-03-2",
+        "text": "The recommendation is scoped to prospective buyers.",
+        "evidence_ids": [
+          "synthetic:pricing:03"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-03-3",
+      "evidence": {
+        "evidence_id": "synthetic:pricing:03",
+        "text": "For prospective buyers, the playbook recommends to test willingness to pay when price sensitivity is uncertain. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-03-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:pricing:03"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-03-4",
+      "evidence": {
+        "evidence_id": "synthetic:pricing:03",
+        "text": "For prospective buyers, the playbook recommends to test willingness to pay when price sensitivity is uncertain. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-03-4",
+        "text": "Every product team should always test willingness to pay.",
+        "evidence_ids": [
+          "synthetic:pricing:03"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-03-5",
+      "evidence": {
+        "evidence_id": "synthetic:pricing:03",
+        "text": "For prospective buyers, the playbook recommends to test willingness to pay when price sensitivity is uncertain. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-03-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:pricing:03"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-03-6",
+      "evidence": {
+        "evidence_id": "synthetic:pricing:03",
+        "text": "For prospective buyers, the playbook recommends to test willingness to pay when price sensitivity is uncertain. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-03-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:pricing:03"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-03-7",
+      "evidence": {
+        "evidence_id": "synthetic:pricing:03",
+        "text": "For prospective buyers, the playbook recommends to test willingness to pay when price sensitivity is uncertain. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-03-7",
+        "text": "The playbook tells prospective buyers not to test willingness to pay when price sensitivity is uncertain.",
+        "evidence_ids": [
+          "synthetic:pricing:03"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-03-8",
+      "evidence": {
+        "evidence_id": "synthetic:pricing:03",
+        "text": "For prospective buyers, the playbook recommends to test willingness to pay when price sensitivity is uncertain. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-03-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:pricing:03"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-04-1",
+      "evidence": {
+        "evidence_id": "synthetic:interviews:04",
+        "text": "For recently churned customers, the playbook recommends to ask about the last real event when the team needs behavioral detail. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-04-1",
+        "text": "The playbook recommends that recently churned customers ask about the last real event when the team needs behavioral detail.",
+        "evidence_ids": [
+          "synthetic:interviews:04"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-04-2",
+      "evidence": {
+        "evidence_id": "synthetic:interviews:04",
+        "text": "For recently churned customers, the playbook recommends to ask about the last real event when the team needs behavioral detail. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-04-2",
+        "text": "The recommendation is scoped to recently churned customers.",
+        "evidence_ids": [
+          "synthetic:interviews:04"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-04-3",
+      "evidence": {
+        "evidence_id": "synthetic:interviews:04",
+        "text": "For recently churned customers, the playbook recommends to ask about the last real event when the team needs behavioral detail. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-04-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:interviews:04"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-04-4",
+      "evidence": {
+        "evidence_id": "synthetic:interviews:04",
+        "text": "For recently churned customers, the playbook recommends to ask about the last real event when the team needs behavioral detail. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-04-4",
+        "text": "Every product team should always ask about the last real event.",
+        "evidence_ids": [
+          "synthetic:interviews:04"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-04-5",
+      "evidence": {
+        "evidence_id": "synthetic:interviews:04",
+        "text": "For recently churned customers, the playbook recommends to ask about the last real event when the team needs behavioral detail. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-04-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:interviews:04"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-04-6",
+      "evidence": {
+        "evidence_id": "synthetic:interviews:04",
+        "text": "For recently churned customers, the playbook recommends to ask about the last real event when the team needs behavioral detail. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-04-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:interviews:04"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-04-7",
+      "evidence": {
+        "evidence_id": "synthetic:interviews:04",
+        "text": "For recently churned customers, the playbook recommends to ask about the last real event when the team needs behavioral detail. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-04-7",
+        "text": "The playbook tells recently churned customers not to ask about the last real event when the team needs behavioral detail.",
+        "evidence_ids": [
+          "synthetic:interviews:04"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-04-8",
+      "evidence": {
+        "evidence_id": "synthetic:interviews:04",
+        "text": "For recently churned customers, the playbook recommends to ask about the last real event when the team needs behavioral detail. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-04-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:interviews:04"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-05-1",
+      "evidence": {
+        "evidence_id": "synthetic:roadmaps:05",
+        "text": "For a platform team, the playbook recommends to rank work by desired outcome when the backlog is overloaded. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-05-1",
+        "text": "The playbook recommends that a platform team rank work by desired outcome when the backlog is overloaded.",
+        "evidence_ids": [
+          "synthetic:roadmaps:05"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-05-2",
+      "evidence": {
+        "evidence_id": "synthetic:roadmaps:05",
+        "text": "For a platform team, the playbook recommends to rank work by desired outcome when the backlog is overloaded. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-05-2",
+        "text": "The recommendation is scoped to a platform team.",
+        "evidence_ids": [
+          "synthetic:roadmaps:05"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-05-3",
+      "evidence": {
+        "evidence_id": "synthetic:roadmaps:05",
+        "text": "For a platform team, the playbook recommends to rank work by desired outcome when the backlog is overloaded. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-05-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:roadmaps:05"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-05-4",
+      "evidence": {
+        "evidence_id": "synthetic:roadmaps:05",
+        "text": "For a platform team, the playbook recommends to rank work by desired outcome when the backlog is overloaded. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-05-4",
+        "text": "Every product team should always rank work by desired outcome.",
+        "evidence_ids": [
+          "synthetic:roadmaps:05"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-05-5",
+      "evidence": {
+        "evidence_id": "synthetic:roadmaps:05",
+        "text": "For a platform team, the playbook recommends to rank work by desired outcome when the backlog is overloaded. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-05-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:roadmaps:05"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-05-6",
+      "evidence": {
+        "evidence_id": "synthetic:roadmaps:05",
+        "text": "For a platform team, the playbook recommends to rank work by desired outcome when the backlog is overloaded. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-05-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:roadmaps:05"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-05-7",
+      "evidence": {
+        "evidence_id": "synthetic:roadmaps:05",
+        "text": "For a platform team, the playbook recommends to rank work by desired outcome when the backlog is overloaded. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-05-7",
+        "text": "The playbook tells a platform team not to rank work by desired outcome when the backlog is overloaded.",
+        "evidence_ids": [
+          "synthetic:roadmaps:05"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-05-8",
+      "evidence": {
+        "evidence_id": "synthetic:roadmaps:05",
+        "text": "For a platform team, the playbook recommends to rank work by desired outcome when the backlog is overloaded. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-05-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:roadmaps:05"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-06-1",
+      "evidence": {
+        "evidence_id": "synthetic:experiments:06",
+        "text": "For mobile checkout users, the playbook recommends to test the address-entry step when the largest drop occurs there. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-06-1",
+        "text": "The playbook recommends that mobile checkout users test the address-entry step when the largest drop occurs there.",
+        "evidence_ids": [
+          "synthetic:experiments:06"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-06-2",
+      "evidence": {
+        "evidence_id": "synthetic:experiments:06",
+        "text": "For mobile checkout users, the playbook recommends to test the address-entry step when the largest drop occurs there. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-06-2",
+        "text": "The recommendation is scoped to mobile checkout users.",
+        "evidence_ids": [
+          "synthetic:experiments:06"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-06-3",
+      "evidence": {
+        "evidence_id": "synthetic:experiments:06",
+        "text": "For mobile checkout users, the playbook recommends to test the address-entry step when the largest drop occurs there. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-06-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:experiments:06"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-06-4",
+      "evidence": {
+        "evidence_id": "synthetic:experiments:06",
+        "text": "For mobile checkout users, the playbook recommends to test the address-entry step when the largest drop occurs there. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-06-4",
+        "text": "Every product team should always test the address-entry step.",
+        "evidence_ids": [
+          "synthetic:experiments:06"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-06-5",
+      "evidence": {
+        "evidence_id": "synthetic:experiments:06",
+        "text": "For mobile checkout users, the playbook recommends to test the address-entry step when the largest drop occurs there. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-06-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:experiments:06"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-06-6",
+      "evidence": {
+        "evidence_id": "synthetic:experiments:06",
+        "text": "For mobile checkout users, the playbook recommends to test the address-entry step when the largest drop occurs there. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-06-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:experiments:06"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-06-7",
+      "evidence": {
+        "evidence_id": "synthetic:experiments:06",
+        "text": "For mobile checkout users, the playbook recommends to test the address-entry step when the largest drop occurs there. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-06-7",
+        "text": "The playbook tells mobile checkout users not to test the address-entry step when the largest drop occurs there.",
+        "evidence_ids": [
+          "synthetic:experiments:06"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-06-8",
+      "evidence": {
+        "evidence_id": "synthetic:experiments:06",
+        "text": "For mobile checkout users, the playbook recommends to test the address-entry step when the largest drop occurs there. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-06-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:experiments:06"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-07-1",
+      "evidence": {
+        "evidence_id": "synthetic:strategy:07",
+        "text": "For an enterprise product, the playbook recommends to name the target segment when resources are constrained. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-07-1",
+        "text": "The playbook recommends that an enterprise product name the target segment when resources are constrained.",
+        "evidence_ids": [
+          "synthetic:strategy:07"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-07-2",
+      "evidence": {
+        "evidence_id": "synthetic:strategy:07",
+        "text": "For an enterprise product, the playbook recommends to name the target segment when resources are constrained. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-07-2",
+        "text": "The recommendation is scoped to an enterprise product.",
+        "evidence_ids": [
+          "synthetic:strategy:07"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-07-3",
+      "evidence": {
+        "evidence_id": "synthetic:strategy:07",
+        "text": "For an enterprise product, the playbook recommends to name the target segment when resources are constrained. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-07-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:strategy:07"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-07-4",
+      "evidence": {
+        "evidence_id": "synthetic:strategy:07",
+        "text": "For an enterprise product, the playbook recommends to name the target segment when resources are constrained. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-07-4",
+        "text": "Every product team should always name the target segment.",
+        "evidence_ids": [
+          "synthetic:strategy:07"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-07-5",
+      "evidence": {
+        "evidence_id": "synthetic:strategy:07",
+        "text": "For an enterprise product, the playbook recommends to name the target segment when resources are constrained. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-07-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:strategy:07"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-07-6",
+      "evidence": {
+        "evidence_id": "synthetic:strategy:07",
+        "text": "For an enterprise product, the playbook recommends to name the target segment when resources are constrained. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-07-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:strategy:07"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-07-7",
+      "evidence": {
+        "evidence_id": "synthetic:strategy:07",
+        "text": "For an enterprise product, the playbook recommends to name the target segment when resources are constrained. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-07-7",
+        "text": "The playbook tells an enterprise product not to name the target segment when resources are constrained.",
+        "evidence_ids": [
+          "synthetic:strategy:07"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-07-8",
+      "evidence": {
+        "evidence_id": "synthetic:strategy:07",
+        "text": "For an enterprise product, the playbook recommends to name the target segment when resources are constrained. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-07-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:strategy:07"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-08-1",
+      "evidence": {
+        "evidence_id": "synthetic:discovery:08",
+        "text": "For a product trio, the playbook recommends to interview customers every week when the problem space changes quickly. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-08-1",
+        "text": "The playbook recommends that a product trio interview customers every week when the problem space changes quickly.",
+        "evidence_ids": [
+          "synthetic:discovery:08"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-08-2",
+      "evidence": {
+        "evidence_id": "synthetic:discovery:08",
+        "text": "For a product trio, the playbook recommends to interview customers every week when the problem space changes quickly. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-08-2",
+        "text": "The recommendation is scoped to a product trio.",
+        "evidence_ids": [
+          "synthetic:discovery:08"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-08-3",
+      "evidence": {
+        "evidence_id": "synthetic:discovery:08",
+        "text": "For a product trio, the playbook recommends to interview customers every week when the problem space changes quickly. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-08-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:discovery:08"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-08-4",
+      "evidence": {
+        "evidence_id": "synthetic:discovery:08",
+        "text": "For a product trio, the playbook recommends to interview customers every week when the problem space changes quickly. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-08-4",
+        "text": "Every product team should always interview customers every week.",
+        "evidence_ids": [
+          "synthetic:discovery:08"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-08-5",
+      "evidence": {
+        "evidence_id": "synthetic:discovery:08",
+        "text": "For a product trio, the playbook recommends to interview customers every week when the problem space changes quickly. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-08-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:discovery:08"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-08-6",
+      "evidence": {
+        "evidence_id": "synthetic:discovery:08",
+        "text": "For a product trio, the playbook recommends to interview customers every week when the problem space changes quickly. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-08-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:discovery:08"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-08-7",
+      "evidence": {
+        "evidence_id": "synthetic:discovery:08",
+        "text": "For a product trio, the playbook recommends to interview customers every week when the problem space changes quickly. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-08-7",
+        "text": "The playbook tells a product trio not to interview customers every week when the problem space changes quickly.",
+        "evidence_ids": [
+          "synthetic:discovery:08"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-08-8",
+      "evidence": {
+        "evidence_id": "synthetic:discovery:08",
+        "text": "For a product trio, the playbook recommends to interview customers every week when the problem space changes quickly. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-08-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:discovery:08"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-09-1",
+      "evidence": {
+        "evidence_id": "synthetic:metrics:09",
+        "text": "For a subscription product, the playbook recommends to track durable customer value when the team needs a north-star metric. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-09-1",
+        "text": "The playbook recommends that a subscription product track durable customer value when the team needs a north-star metric.",
+        "evidence_ids": [
+          "synthetic:metrics:09"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-09-2",
+      "evidence": {
+        "evidence_id": "synthetic:metrics:09",
+        "text": "For a subscription product, the playbook recommends to track durable customer value when the team needs a north-star metric. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-09-2",
+        "text": "The recommendation is scoped to a subscription product.",
+        "evidence_ids": [
+          "synthetic:metrics:09"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-09-3",
+      "evidence": {
+        "evidence_id": "synthetic:metrics:09",
+        "text": "For a subscription product, the playbook recommends to track durable customer value when the team needs a north-star metric. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-09-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:metrics:09"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-09-4",
+      "evidence": {
+        "evidence_id": "synthetic:metrics:09",
+        "text": "For a subscription product, the playbook recommends to track durable customer value when the team needs a north-star metric. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-09-4",
+        "text": "Every product team should always track durable customer value.",
+        "evidence_ids": [
+          "synthetic:metrics:09"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-09-5",
+      "evidence": {
+        "evidence_id": "synthetic:metrics:09",
+        "text": "For a subscription product, the playbook recommends to track durable customer value when the team needs a north-star metric. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-09-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:metrics:09"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-09-6",
+      "evidence": {
+        "evidence_id": "synthetic:metrics:09",
+        "text": "For a subscription product, the playbook recommends to track durable customer value when the team needs a north-star metric. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-09-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:metrics:09"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-09-7",
+      "evidence": {
+        "evidence_id": "synthetic:metrics:09",
+        "text": "For a subscription product, the playbook recommends to track durable customer value when the team needs a north-star metric. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-09-7",
+        "text": "The playbook tells a subscription product not to track durable customer value when the team needs a north-star metric.",
+        "evidence_ids": [
+          "synthetic:metrics:09"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-09-8",
+      "evidence": {
+        "evidence_id": "synthetic:metrics:09",
+        "text": "For a subscription product, the playbook recommends to track durable customer value when the team needs a north-star metric. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-09-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:metrics:09"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-10-1",
+      "evidence": {
+        "evidence_id": "synthetic:launch:10",
+        "text": "For a closed beta, the playbook recommends to resolve permission errors first when support tickets cluster around permissions. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-10-1",
+        "text": "The playbook recommends that a closed beta resolve permission errors first when support tickets cluster around permissions.",
+        "evidence_ids": [
+          "synthetic:launch:10"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-10-2",
+      "evidence": {
+        "evidence_id": "synthetic:launch:10",
+        "text": "For a closed beta, the playbook recommends to resolve permission errors first when support tickets cluster around permissions. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-10-2",
+        "text": "The recommendation is scoped to a closed beta.",
+        "evidence_ids": [
+          "synthetic:launch:10"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-10-3",
+      "evidence": {
+        "evidence_id": "synthetic:launch:10",
+        "text": "For a closed beta, the playbook recommends to resolve permission errors first when support tickets cluster around permissions. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-10-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:launch:10"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-10-4",
+      "evidence": {
+        "evidence_id": "synthetic:launch:10",
+        "text": "For a closed beta, the playbook recommends to resolve permission errors first when support tickets cluster around permissions. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-10-4",
+        "text": "Every product team should always resolve permission errors first.",
+        "evidence_ids": [
+          "synthetic:launch:10"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-10-5",
+      "evidence": {
+        "evidence_id": "synthetic:launch:10",
+        "text": "For a closed beta, the playbook recommends to resolve permission errors first when support tickets cluster around permissions. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-10-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:launch:10"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-10-6",
+      "evidence": {
+        "evidence_id": "synthetic:launch:10",
+        "text": "For a closed beta, the playbook recommends to resolve permission errors first when support tickets cluster around permissions. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-10-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:launch:10"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-10-7",
+      "evidence": {
+        "evidence_id": "synthetic:launch:10",
+        "text": "For a closed beta, the playbook recommends to resolve permission errors first when support tickets cluster around permissions. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-10-7",
+        "text": "The playbook tells a closed beta not to resolve permission errors first when support tickets cluster around permissions.",
+        "evidence_ids": [
+          "synthetic:launch:10"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-10-8",
+      "evidence": {
+        "evidence_id": "synthetic:launch:10",
+        "text": "For a closed beta, the playbook recommends to resolve permission errors first when support tickets cluster around permissions. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-10-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:launch:10"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-11-1",
+      "evidence": {
+        "evidence_id": "synthetic:growth:11",
+        "text": "For paid-acquisition users, the playbook recommends to separate channel mix from product changes when retention fell after channel mix shifted. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-11-1",
+        "text": "The playbook recommends that paid-acquisition users separate channel mix from product changes when retention fell after channel mix shifted.",
+        "evidence_ids": [
+          "synthetic:growth:11"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-11-2",
+      "evidence": {
+        "evidence_id": "synthetic:growth:11",
+        "text": "For paid-acquisition users, the playbook recommends to separate channel mix from product changes when retention fell after channel mix shifted. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-11-2",
+        "text": "The recommendation is scoped to paid-acquisition users.",
+        "evidence_ids": [
+          "synthetic:growth:11"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-11-3",
+      "evidence": {
+        "evidence_id": "synthetic:growth:11",
+        "text": "For paid-acquisition users, the playbook recommends to separate channel mix from product changes when retention fell after channel mix shifted. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-11-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:growth:11"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-11-4",
+      "evidence": {
+        "evidence_id": "synthetic:growth:11",
+        "text": "For paid-acquisition users, the playbook recommends to separate channel mix from product changes when retention fell after channel mix shifted. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-11-4",
+        "text": "Every product team should always separate channel mix from product changes.",
+        "evidence_ids": [
+          "synthetic:growth:11"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-11-5",
+      "evidence": {
+        "evidence_id": "synthetic:growth:11",
+        "text": "For paid-acquisition users, the playbook recommends to separate channel mix from product changes when retention fell after channel mix shifted. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-11-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:growth:11"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-11-6",
+      "evidence": {
+        "evidence_id": "synthetic:growth:11",
+        "text": "For paid-acquisition users, the playbook recommends to separate channel mix from product changes when retention fell after channel mix shifted. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-11-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:growth:11"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-11-7",
+      "evidence": {
+        "evidence_id": "synthetic:growth:11",
+        "text": "For paid-acquisition users, the playbook recommends to separate channel mix from product changes when retention fell after channel mix shifted. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-11-7",
+        "text": "The playbook tells paid-acquisition users not to separate channel mix from product changes when retention fell after channel mix shifted.",
+        "evidence_ids": [
+          "synthetic:growth:11"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-11-8",
+      "evidence": {
+        "evidence_id": "synthetic:growth:11",
+        "text": "For paid-acquisition users, the playbook recommends to separate channel mix from product changes when retention fell after channel mix shifted. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-11-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:growth:11"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-12-1",
+      "evidence": {
+        "evidence_id": "synthetic:churn:12",
+        "text": "For enterprise accounts, the playbook recommends to review usage before renewal when usage declines in the final 30 days. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-12-1",
+        "text": "The playbook recommends that enterprise accounts review usage before renewal when usage declines in the final 30 days.",
+        "evidence_ids": [
+          "synthetic:churn:12"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-12-2",
+      "evidence": {
+        "evidence_id": "synthetic:churn:12",
+        "text": "For enterprise accounts, the playbook recommends to review usage before renewal when usage declines in the final 30 days. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-12-2",
+        "text": "The recommendation is scoped to enterprise accounts.",
+        "evidence_ids": [
+          "synthetic:churn:12"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-12-3",
+      "evidence": {
+        "evidence_id": "synthetic:churn:12",
+        "text": "For enterprise accounts, the playbook recommends to review usage before renewal when usage declines in the final 30 days. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-12-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:churn:12"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-12-4",
+      "evidence": {
+        "evidence_id": "synthetic:churn:12",
+        "text": "For enterprise accounts, the playbook recommends to review usage before renewal when usage declines in the final 30 days. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-12-4",
+        "text": "Every product team should always review usage before renewal.",
+        "evidence_ids": [
+          "synthetic:churn:12"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-12-5",
+      "evidence": {
+        "evidence_id": "synthetic:churn:12",
+        "text": "For enterprise accounts, the playbook recommends to review usage before renewal when usage declines in the final 30 days. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-12-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:churn:12"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-12-6",
+      "evidence": {
+        "evidence_id": "synthetic:churn:12",
+        "text": "For enterprise accounts, the playbook recommends to review usage before renewal when usage declines in the final 30 days. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-12-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:churn:12"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-12-7",
+      "evidence": {
+        "evidence_id": "synthetic:churn:12",
+        "text": "For enterprise accounts, the playbook recommends to review usage before renewal when usage declines in the final 30 days. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-12-7",
+        "text": "The playbook tells enterprise accounts not to review usage before renewal when usage declines in the final 30 days.",
+        "evidence_ids": [
+          "synthetic:churn:12"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-12-8",
+      "evidence": {
+        "evidence_id": "synthetic:churn:12",
+        "text": "For enterprise accounts, the playbook recommends to review usage before renewal when usage declines in the final 30 days. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-12-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:churn:12"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-13-1",
+      "evidence": {
+        "evidence_id": "synthetic:onboarding:13",
+        "text": "For invited workspace members, the playbook recommends to measure first collaborative action when solo completion is not the product value. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-13-1",
+        "text": "The playbook recommends that invited workspace members measure first collaborative action when solo completion is not the product value.",
+        "evidence_ids": [
+          "synthetic:onboarding:13"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-13-2",
+      "evidence": {
+        "evidence_id": "synthetic:onboarding:13",
+        "text": "For invited workspace members, the playbook recommends to measure first collaborative action when solo completion is not the product value. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-13-2",
+        "text": "The recommendation is scoped to invited workspace members.",
+        "evidence_ids": [
+          "synthetic:onboarding:13"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-13-3",
+      "evidence": {
+        "evidence_id": "synthetic:onboarding:13",
+        "text": "For invited workspace members, the playbook recommends to measure first collaborative action when solo completion is not the product value. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-13-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:onboarding:13"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-13-4",
+      "evidence": {
+        "evidence_id": "synthetic:onboarding:13",
+        "text": "For invited workspace members, the playbook recommends to measure first collaborative action when solo completion is not the product value. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-13-4",
+        "text": "Every product team should always measure first collaborative action.",
+        "evidence_ids": [
+          "synthetic:onboarding:13"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-13-5",
+      "evidence": {
+        "evidence_id": "synthetic:onboarding:13",
+        "text": "For invited workspace members, the playbook recommends to measure first collaborative action when solo completion is not the product value. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-13-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:onboarding:13"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-13-6",
+      "evidence": {
+        "evidence_id": "synthetic:onboarding:13",
+        "text": "For invited workspace members, the playbook recommends to measure first collaborative action when solo completion is not the product value. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-13-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:onboarding:13"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-13-7",
+      "evidence": {
+        "evidence_id": "synthetic:onboarding:13",
+        "text": "For invited workspace members, the playbook recommends to measure first collaborative action when solo completion is not the product value. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-13-7",
+        "text": "The playbook tells invited workspace members not to measure first collaborative action when solo completion is not the product value.",
+        "evidence_ids": [
+          "synthetic:onboarding:13"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-13-8",
+      "evidence": {
+        "evidence_id": "synthetic:onboarding:13",
+        "text": "For invited workspace members, the playbook recommends to measure first collaborative action when solo completion is not the product value. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-13-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:onboarding:13"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-14-1",
+      "evidence": {
+        "evidence_id": "synthetic:research:14",
+        "text": "For buyers who rejected a proposal, the playbook recommends to ask how the purchase decision was made when the buying process is unclear. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-14-1",
+        "text": "The playbook recommends that buyers who rejected a proposal ask how the purchase decision was made when the buying process is unclear.",
+        "evidence_ids": [
+          "synthetic:research:14"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-14-2",
+      "evidence": {
+        "evidence_id": "synthetic:research:14",
+        "text": "For buyers who rejected a proposal, the playbook recommends to ask how the purchase decision was made when the buying process is unclear. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-14-2",
+        "text": "The recommendation is scoped to buyers who rejected a proposal.",
+        "evidence_ids": [
+          "synthetic:research:14"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-14-3",
+      "evidence": {
+        "evidence_id": "synthetic:research:14",
+        "text": "For buyers who rejected a proposal, the playbook recommends to ask how the purchase decision was made when the buying process is unclear. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-14-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:research:14"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-14-4",
+      "evidence": {
+        "evidence_id": "synthetic:research:14",
+        "text": "For buyers who rejected a proposal, the playbook recommends to ask how the purchase decision was made when the buying process is unclear. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-14-4",
+        "text": "Every product team should always ask how the purchase decision was made.",
+        "evidence_ids": [
+          "synthetic:research:14"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-14-5",
+      "evidence": {
+        "evidence_id": "synthetic:research:14",
+        "text": "For buyers who rejected a proposal, the playbook recommends to ask how the purchase decision was made when the buying process is unclear. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-14-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:research:14"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-14-6",
+      "evidence": {
+        "evidence_id": "synthetic:research:14",
+        "text": "For buyers who rejected a proposal, the playbook recommends to ask how the purchase decision was made when the buying process is unclear. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-14-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:research:14"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-14-7",
+      "evidence": {
+        "evidence_id": "synthetic:research:14",
+        "text": "For buyers who rejected a proposal, the playbook recommends to ask how the purchase decision was made when the buying process is unclear. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-14-7",
+        "text": "The playbook tells buyers who rejected a proposal not to ask how the purchase decision was made when the buying process is unclear.",
+        "evidence_ids": [
+          "synthetic:research:14"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-14-8",
+      "evidence": {
+        "evidence_id": "synthetic:research:14",
+        "text": "For buyers who rejected a proposal, the playbook recommends to ask how the purchase decision was made when the buying process is unclear. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-14-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:research:14"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-15-1",
+      "evidence": {
+        "evidence_id": "synthetic:prioritization:15",
+        "text": "For a small engineering team, the playbook recommends to limit work in progress when five initiatives are running concurrently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-15-1",
+        "text": "The playbook recommends that a small engineering team limit work in progress when five initiatives are running concurrently.",
+        "evidence_ids": [
+          "synthetic:prioritization:15"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-15-2",
+      "evidence": {
+        "evidence_id": "synthetic:prioritization:15",
+        "text": "For a small engineering team, the playbook recommends to limit work in progress when five initiatives are running concurrently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-15-2",
+        "text": "The recommendation is scoped to a small engineering team.",
+        "evidence_ids": [
+          "synthetic:prioritization:15"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-15-3",
+      "evidence": {
+        "evidence_id": "synthetic:prioritization:15",
+        "text": "For a small engineering team, the playbook recommends to limit work in progress when five initiatives are running concurrently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-15-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:prioritization:15"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-15-4",
+      "evidence": {
+        "evidence_id": "synthetic:prioritization:15",
+        "text": "For a small engineering team, the playbook recommends to limit work in progress when five initiatives are running concurrently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-15-4",
+        "text": "Every product team should always limit work in progress.",
+        "evidence_ids": [
+          "synthetic:prioritization:15"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-15-5",
+      "evidence": {
+        "evidence_id": "synthetic:prioritization:15",
+        "text": "For a small engineering team, the playbook recommends to limit work in progress when five initiatives are running concurrently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-15-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:prioritization:15"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-15-6",
+      "evidence": {
+        "evidence_id": "synthetic:prioritization:15",
+        "text": "For a small engineering team, the playbook recommends to limit work in progress when five initiatives are running concurrently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-15-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:prioritization:15"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-15-7",
+      "evidence": {
+        "evidence_id": "synthetic:prioritization:15",
+        "text": "For a small engineering team, the playbook recommends to limit work in progress when five initiatives are running concurrently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-15-7",
+        "text": "The playbook tells a small engineering team not to limit work in progress when five initiatives are running concurrently.",
+        "evidence_ids": [
+          "synthetic:prioritization:15"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-15-8",
+      "evidence": {
+        "evidence_id": "synthetic:prioritization:15",
+        "text": "For a small engineering team, the playbook recommends to limit work in progress when five initiatives are running concurrently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-15-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:prioritization:15"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-16-1",
+      "evidence": {
+        "evidence_id": "synthetic:segmentation:16",
+        "text": "For a two-sided marketplace, the playbook recommends to measure each side separately when supply and demand behave differently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-16-1",
+        "text": "The playbook recommends that a two-sided marketplace measure each side separately when supply and demand behave differently.",
+        "evidence_ids": [
+          "synthetic:segmentation:16"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-16-2",
+      "evidence": {
+        "evidence_id": "synthetic:segmentation:16",
+        "text": "For a two-sided marketplace, the playbook recommends to measure each side separately when supply and demand behave differently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-16-2",
+        "text": "The recommendation is scoped to a two-sided marketplace.",
+        "evidence_ids": [
+          "synthetic:segmentation:16"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-16-3",
+      "evidence": {
+        "evidence_id": "synthetic:segmentation:16",
+        "text": "For a two-sided marketplace, the playbook recommends to measure each side separately when supply and demand behave differently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-16-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:segmentation:16"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-16-4",
+      "evidence": {
+        "evidence_id": "synthetic:segmentation:16",
+        "text": "For a two-sided marketplace, the playbook recommends to measure each side separately when supply and demand behave differently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-16-4",
+        "text": "Every product team should always measure each side separately.",
+        "evidence_ids": [
+          "synthetic:segmentation:16"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-16-5",
+      "evidence": {
+        "evidence_id": "synthetic:segmentation:16",
+        "text": "For a two-sided marketplace, the playbook recommends to measure each side separately when supply and demand behave differently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-16-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:segmentation:16"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-16-6",
+      "evidence": {
+        "evidence_id": "synthetic:segmentation:16",
+        "text": "For a two-sided marketplace, the playbook recommends to measure each side separately when supply and demand behave differently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-16-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:segmentation:16"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-16-7",
+      "evidence": {
+        "evidence_id": "synthetic:segmentation:16",
+        "text": "For a two-sided marketplace, the playbook recommends to measure each side separately when supply and demand behave differently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-16-7",
+        "text": "The playbook tells a two-sided marketplace not to measure each side separately when supply and demand behave differently.",
+        "evidence_ids": [
+          "synthetic:segmentation:16"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-16-8",
+      "evidence": {
+        "evidence_id": "synthetic:segmentation:16",
+        "text": "For a two-sided marketplace, the playbook recommends to measure each side separately when supply and demand behave differently. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-16-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:segmentation:16"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-17-1",
+      "evidence": {
+        "evidence_id": "synthetic:positioning:17",
+        "text": "For security teams, the playbook recommends to test the problem framing when prospects misunderstand the category. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-17-1",
+        "text": "The playbook recommends that security teams test the problem framing when prospects misunderstand the category.",
+        "evidence_ids": [
+          "synthetic:positioning:17"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-17-2",
+      "evidence": {
+        "evidence_id": "synthetic:positioning:17",
+        "text": "For security teams, the playbook recommends to test the problem framing when prospects misunderstand the category. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-17-2",
+        "text": "The recommendation is scoped to security teams.",
+        "evidence_ids": [
+          "synthetic:positioning:17"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-17-3",
+      "evidence": {
+        "evidence_id": "synthetic:positioning:17",
+        "text": "For security teams, the playbook recommends to test the problem framing when prospects misunderstand the category. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-17-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:positioning:17"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-17-4",
+      "evidence": {
+        "evidence_id": "synthetic:positioning:17",
+        "text": "For security teams, the playbook recommends to test the problem framing when prospects misunderstand the category. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-17-4",
+        "text": "Every product team should always test the problem framing.",
+        "evidence_ids": [
+          "synthetic:positioning:17"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-17-5",
+      "evidence": {
+        "evidence_id": "synthetic:positioning:17",
+        "text": "For security teams, the playbook recommends to test the problem framing when prospects misunderstand the category. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-17-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:positioning:17"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-17-6",
+      "evidence": {
+        "evidence_id": "synthetic:positioning:17",
+        "text": "For security teams, the playbook recommends to test the problem framing when prospects misunderstand the category. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-17-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:positioning:17"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-17-7",
+      "evidence": {
+        "evidence_id": "synthetic:positioning:17",
+        "text": "For security teams, the playbook recommends to test the problem framing when prospects misunderstand the category. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-17-7",
+        "text": "The playbook tells security teams not to test the problem framing when prospects misunderstand the category.",
+        "evidence_ids": [
+          "synthetic:positioning:17"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-17-8",
+      "evidence": {
+        "evidence_id": "synthetic:positioning:17",
+        "text": "For security teams, the playbook recommends to test the problem framing when prospects misunderstand the category. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-17-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:positioning:17"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-18-1",
+      "evidence": {
+        "evidence_id": "synthetic:adoption:18",
+        "text": "For existing administrators, the playbook recommends to observe the first configuration task when feature discovery is low. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-18-1",
+        "text": "The playbook recommends that existing administrators observe the first configuration task when feature discovery is low.",
+        "evidence_ids": [
+          "synthetic:adoption:18"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-18-2",
+      "evidence": {
+        "evidence_id": "synthetic:adoption:18",
+        "text": "For existing administrators, the playbook recommends to observe the first configuration task when feature discovery is low. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-18-2",
+        "text": "The recommendation is scoped to existing administrators.",
+        "evidence_ids": [
+          "synthetic:adoption:18"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-18-3",
+      "evidence": {
+        "evidence_id": "synthetic:adoption:18",
+        "text": "For existing administrators, the playbook recommends to observe the first configuration task when feature discovery is low. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-18-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:adoption:18"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-18-4",
+      "evidence": {
+        "evidence_id": "synthetic:adoption:18",
+        "text": "For existing administrators, the playbook recommends to observe the first configuration task when feature discovery is low. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-18-4",
+        "text": "Every product team should always observe the first configuration task.",
+        "evidence_ids": [
+          "synthetic:adoption:18"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-18-5",
+      "evidence": {
+        "evidence_id": "synthetic:adoption:18",
+        "text": "For existing administrators, the playbook recommends to observe the first configuration task when feature discovery is low. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-18-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:adoption:18"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-18-6",
+      "evidence": {
+        "evidence_id": "synthetic:adoption:18",
+        "text": "For existing administrators, the playbook recommends to observe the first configuration task when feature discovery is low. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-18-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:adoption:18"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-18-7",
+      "evidence": {
+        "evidence_id": "synthetic:adoption:18",
+        "text": "For existing administrators, the playbook recommends to observe the first configuration task when feature discovery is low. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-18-7",
+        "text": "The playbook tells existing administrators not to observe the first configuration task when feature discovery is low.",
+        "evidence_ids": [
+          "synthetic:adoption:18"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-18-8",
+      "evidence": {
+        "evidence_id": "synthetic:adoption:18",
+        "text": "For existing administrators, the playbook recommends to observe the first configuration task when feature discovery is low. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-18-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:adoption:18"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-19-1",
+      "evidence": {
+        "evidence_id": "synthetic:quality:19",
+        "text": "For high-volume API clients, the playbook recommends to track error rate by endpoint when aggregate reliability hides variation. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-19-1",
+        "text": "The playbook recommends that high-volume API clients track error rate by endpoint when aggregate reliability hides variation.",
+        "evidence_ids": [
+          "synthetic:quality:19"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-19-2",
+      "evidence": {
+        "evidence_id": "synthetic:quality:19",
+        "text": "For high-volume API clients, the playbook recommends to track error rate by endpoint when aggregate reliability hides variation. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-19-2",
+        "text": "The recommendation is scoped to high-volume API clients.",
+        "evidence_ids": [
+          "synthetic:quality:19"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-19-3",
+      "evidence": {
+        "evidence_id": "synthetic:quality:19",
+        "text": "For high-volume API clients, the playbook recommends to track error rate by endpoint when aggregate reliability hides variation. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-19-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:quality:19"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-19-4",
+      "evidence": {
+        "evidence_id": "synthetic:quality:19",
+        "text": "For high-volume API clients, the playbook recommends to track error rate by endpoint when aggregate reliability hides variation. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-19-4",
+        "text": "Every product team should always track error rate by endpoint.",
+        "evidence_ids": [
+          "synthetic:quality:19"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-19-5",
+      "evidence": {
+        "evidence_id": "synthetic:quality:19",
+        "text": "For high-volume API clients, the playbook recommends to track error rate by endpoint when aggregate reliability hides variation. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-19-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:quality:19"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-19-6",
+      "evidence": {
+        "evidence_id": "synthetic:quality:19",
+        "text": "For high-volume API clients, the playbook recommends to track error rate by endpoint when aggregate reliability hides variation. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-19-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:quality:19"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-19-7",
+      "evidence": {
+        "evidence_id": "synthetic:quality:19",
+        "text": "For high-volume API clients, the playbook recommends to track error rate by endpoint when aggregate reliability hides variation. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-19-7",
+        "text": "The playbook tells high-volume API clients not to track error rate by endpoint when aggregate reliability hides variation.",
+        "evidence_ids": [
+          "synthetic:quality:19"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-19-8",
+      "evidence": {
+        "evidence_id": "synthetic:quality:19",
+        "text": "For high-volume API clients, the playbook recommends to track error rate by endpoint when aggregate reliability hides variation. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-19-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:quality:19"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-20-1",
+      "evidence": {
+        "evidence_id": "synthetic:planning:20",
+        "text": "For a quarterly product review, the playbook recommends to state assumptions next to bets when evidence strength varies. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-20-1",
+        "text": "The playbook recommends that a quarterly product review state assumptions next to bets when evidence strength varies.",
+        "evidence_ids": [
+          "synthetic:planning:20"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-20-2",
+      "evidence": {
+        "evidence_id": "synthetic:planning:20",
+        "text": "For a quarterly product review, the playbook recommends to state assumptions next to bets when evidence strength varies. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-20-2",
+        "text": "The recommendation is scoped to a quarterly product review.",
+        "evidence_ids": [
+          "synthetic:planning:20"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-20-3",
+      "evidence": {
+        "evidence_id": "synthetic:planning:20",
+        "text": "For a quarterly product review, the playbook recommends to state assumptions next to bets when evidence strength varies. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-20-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:planning:20"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-20-4",
+      "evidence": {
+        "evidence_id": "synthetic:planning:20",
+        "text": "For a quarterly product review, the playbook recommends to state assumptions next to bets when evidence strength varies. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-20-4",
+        "text": "Every product team should always state assumptions next to bets.",
+        "evidence_ids": [
+          "synthetic:planning:20"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-20-5",
+      "evidence": {
+        "evidence_id": "synthetic:planning:20",
+        "text": "For a quarterly product review, the playbook recommends to state assumptions next to bets when evidence strength varies. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-20-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:planning:20"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-20-6",
+      "evidence": {
+        "evidence_id": "synthetic:planning:20",
+        "text": "For a quarterly product review, the playbook recommends to state assumptions next to bets when evidence strength varies. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-20-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:planning:20"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-20-7",
+      "evidence": {
+        "evidence_id": "synthetic:planning:20",
+        "text": "For a quarterly product review, the playbook recommends to state assumptions next to bets when evidence strength varies. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-20-7",
+        "text": "The playbook tells a quarterly product review not to state assumptions next to bets when evidence strength varies.",
+        "evidence_ids": [
+          "synthetic:planning:20"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-20-8",
+      "evidence": {
+        "evidence_id": "synthetic:planning:20",
+        "text": "For a quarterly product review, the playbook recommends to state assumptions next to bets when evidence strength varies. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-20-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:planning:20"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-21-1",
+      "evidence": {
+        "evidence_id": "synthetic:analytics:21",
+        "text": "For a new recommendation feature, the playbook recommends to define an exposure event when the denominator is ambiguous. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-21-1",
+        "text": "The playbook recommends that a new recommendation feature define an exposure event when the denominator is ambiguous.",
+        "evidence_ids": [
+          "synthetic:analytics:21"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-21-2",
+      "evidence": {
+        "evidence_id": "synthetic:analytics:21",
+        "text": "For a new recommendation feature, the playbook recommends to define an exposure event when the denominator is ambiguous. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-21-2",
+        "text": "The recommendation is scoped to a new recommendation feature.",
+        "evidence_ids": [
+          "synthetic:analytics:21"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-21-3",
+      "evidence": {
+        "evidence_id": "synthetic:analytics:21",
+        "text": "For a new recommendation feature, the playbook recommends to define an exposure event when the denominator is ambiguous. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-21-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:analytics:21"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-21-4",
+      "evidence": {
+        "evidence_id": "synthetic:analytics:21",
+        "text": "For a new recommendation feature, the playbook recommends to define an exposure event when the denominator is ambiguous. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-21-4",
+        "text": "Every product team should always define an exposure event.",
+        "evidence_ids": [
+          "synthetic:analytics:21"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-21-5",
+      "evidence": {
+        "evidence_id": "synthetic:analytics:21",
+        "text": "For a new recommendation feature, the playbook recommends to define an exposure event when the denominator is ambiguous. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-21-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:analytics:21"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-21-6",
+      "evidence": {
+        "evidence_id": "synthetic:analytics:21",
+        "text": "For a new recommendation feature, the playbook recommends to define an exposure event when the denominator is ambiguous. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-21-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:analytics:21"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-21-7",
+      "evidence": {
+        "evidence_id": "synthetic:analytics:21",
+        "text": "For a new recommendation feature, the playbook recommends to define an exposure event when the denominator is ambiguous. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-21-7",
+        "text": "The playbook tells a new recommendation feature not to define an exposure event when the denominator is ambiguous.",
+        "evidence_ids": [
+          "synthetic:analytics:21"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-21-8",
+      "evidence": {
+        "evidence_id": "synthetic:analytics:21",
+        "text": "For a new recommendation feature, the playbook recommends to define an exposure event when the denominator is ambiguous. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-21-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:analytics:21"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-22-1",
+      "evidence": {
+        "evidence_id": "synthetic:sales requests:22",
+        "text": "For strategic accounts, the playbook recommends to separate reusable needs from one-off requests when custom work is increasing. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-22-1",
+        "text": "The playbook recommends that strategic accounts separate reusable needs from one-off requests when custom work is increasing.",
+        "evidence_ids": [
+          "synthetic:sales requests:22"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-22-2",
+      "evidence": {
+        "evidence_id": "synthetic:sales requests:22",
+        "text": "For strategic accounts, the playbook recommends to separate reusable needs from one-off requests when custom work is increasing. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-22-2",
+        "text": "The recommendation is scoped to strategic accounts.",
+        "evidence_ids": [
+          "synthetic:sales requests:22"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-22-3",
+      "evidence": {
+        "evidence_id": "synthetic:sales requests:22",
+        "text": "For strategic accounts, the playbook recommends to separate reusable needs from one-off requests when custom work is increasing. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-22-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:sales requests:22"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-22-4",
+      "evidence": {
+        "evidence_id": "synthetic:sales requests:22",
+        "text": "For strategic accounts, the playbook recommends to separate reusable needs from one-off requests when custom work is increasing. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-22-4",
+        "text": "Every product team should always separate reusable needs from one-off requests.",
+        "evidence_ids": [
+          "synthetic:sales requests:22"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-22-5",
+      "evidence": {
+        "evidence_id": "synthetic:sales requests:22",
+        "text": "For strategic accounts, the playbook recommends to separate reusable needs from one-off requests when custom work is increasing. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-22-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:sales requests:22"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-22-6",
+      "evidence": {
+        "evidence_id": "synthetic:sales requests:22",
+        "text": "For strategic accounts, the playbook recommends to separate reusable needs from one-off requests when custom work is increasing. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-22-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:sales requests:22"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-22-7",
+      "evidence": {
+        "evidence_id": "synthetic:sales requests:22",
+        "text": "For strategic accounts, the playbook recommends to separate reusable needs from one-off requests when custom work is increasing. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-22-7",
+        "text": "The playbook tells strategic accounts not to separate reusable needs from one-off requests when custom work is increasing.",
+        "evidence_ids": [
+          "synthetic:sales requests:22"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-22-8",
+      "evidence": {
+        "evidence_id": "synthetic:sales requests:22",
+        "text": "For strategic accounts, the playbook recommends to separate reusable needs from one-off requests when custom work is increasing. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-22-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:sales requests:22"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-23-1",
+      "evidence": {
+        "evidence_id": "synthetic:prototyping:23",
+        "text": "For five design partners, the playbook recommends to test the riskiest workflow first when only two weeks are available. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-23-1",
+        "text": "The playbook recommends that five design partners test the riskiest workflow first when only two weeks are available.",
+        "evidence_ids": [
+          "synthetic:prototyping:23"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-23-2",
+      "evidence": {
+        "evidence_id": "synthetic:prototyping:23",
+        "text": "For five design partners, the playbook recommends to test the riskiest workflow first when only two weeks are available. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-23-2",
+        "text": "The recommendation is scoped to five design partners.",
+        "evidence_ids": [
+          "synthetic:prototyping:23"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-23-3",
+      "evidence": {
+        "evidence_id": "synthetic:prototyping:23",
+        "text": "For five design partners, the playbook recommends to test the riskiest workflow first when only two weeks are available. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-23-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:prototyping:23"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-23-4",
+      "evidence": {
+        "evidence_id": "synthetic:prototyping:23",
+        "text": "For five design partners, the playbook recommends to test the riskiest workflow first when only two weeks are available. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-23-4",
+        "text": "Every product team should always test the riskiest workflow first.",
+        "evidence_ids": [
+          "synthetic:prototyping:23"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-23-5",
+      "evidence": {
+        "evidence_id": "synthetic:prototyping:23",
+        "text": "For five design partners, the playbook recommends to test the riskiest workflow first when only two weeks are available. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-23-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:prototyping:23"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-23-6",
+      "evidence": {
+        "evidence_id": "synthetic:prototyping:23",
+        "text": "For five design partners, the playbook recommends to test the riskiest workflow first when only two weeks are available. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-23-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:prototyping:23"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-23-7",
+      "evidence": {
+        "evidence_id": "synthetic:prototyping:23",
+        "text": "For five design partners, the playbook recommends to test the riskiest workflow first when only two weeks are available. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-23-7",
+        "text": "The playbook tells five design partners not to test the riskiest workflow first when only two weeks are available.",
+        "evidence_ids": [
+          "synthetic:prototyping:23"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-23-8",
+      "evidence": {
+        "evidence_id": "synthetic:prototyping:23",
+        "text": "For five design partners, the playbook recommends to test the riskiest workflow first when only two weeks are available. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-23-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:prototyping:23"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-24-1",
+      "evidence": {
+        "evidence_id": "synthetic:localization:24",
+        "text": "For new Japanese users, the playbook recommends to review task completion by locale when overall conversion masks a locale gap. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-24-1",
+        "text": "The playbook recommends that new Japanese users review task completion by locale when overall conversion masks a locale gap.",
+        "evidence_ids": [
+          "synthetic:localization:24"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-24-2",
+      "evidence": {
+        "evidence_id": "synthetic:localization:24",
+        "text": "For new Japanese users, the playbook recommends to review task completion by locale when overall conversion masks a locale gap. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-24-2",
+        "text": "The recommendation is scoped to new Japanese users.",
+        "evidence_ids": [
+          "synthetic:localization:24"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-24-3",
+      "evidence": {
+        "evidence_id": "synthetic:localization:24",
+        "text": "For new Japanese users, the playbook recommends to review task completion by locale when overall conversion masks a locale gap. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-24-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:localization:24"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-24-4",
+      "evidence": {
+        "evidence_id": "synthetic:localization:24",
+        "text": "For new Japanese users, the playbook recommends to review task completion by locale when overall conversion masks a locale gap. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-24-4",
+        "text": "Every product team should always review task completion by locale.",
+        "evidence_ids": [
+          "synthetic:localization:24"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-24-5",
+      "evidence": {
+        "evidence_id": "synthetic:localization:24",
+        "text": "For new Japanese users, the playbook recommends to review task completion by locale when overall conversion masks a locale gap. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-24-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:localization:24"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-24-6",
+      "evidence": {
+        "evidence_id": "synthetic:localization:24",
+        "text": "For new Japanese users, the playbook recommends to review task completion by locale when overall conversion masks a locale gap. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-24-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:localization:24"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-24-7",
+      "evidence": {
+        "evidence_id": "synthetic:localization:24",
+        "text": "For new Japanese users, the playbook recommends to review task completion by locale when overall conversion masks a locale gap. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-24-7",
+        "text": "The playbook tells new Japanese users not to review task completion by locale when overall conversion masks a locale gap.",
+        "evidence_ids": [
+          "synthetic:localization:24"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-24-8",
+      "evidence": {
+        "evidence_id": "synthetic:localization:24",
+        "text": "For new Japanese users, the playbook recommends to review task completion by locale when overall conversion masks a locale gap. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-24-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:localization:24"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-25-1",
+      "evidence": {
+        "evidence_id": "synthetic:notifications:25",
+        "text": "For weekly active managers, the playbook recommends to measure action after notification when open rate alone is not the outcome. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-25-1",
+        "text": "The playbook recommends that weekly active managers measure action after notification when open rate alone is not the outcome.",
+        "evidence_ids": [
+          "synthetic:notifications:25"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-25-2",
+      "evidence": {
+        "evidence_id": "synthetic:notifications:25",
+        "text": "For weekly active managers, the playbook recommends to measure action after notification when open rate alone is not the outcome. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-25-2",
+        "text": "The recommendation is scoped to weekly active managers.",
+        "evidence_ids": [
+          "synthetic:notifications:25"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-25-3",
+      "evidence": {
+        "evidence_id": "synthetic:notifications:25",
+        "text": "For weekly active managers, the playbook recommends to measure action after notification when open rate alone is not the outcome. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-25-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:notifications:25"
+        ]
+      },
+      "expected_verdict": "supported"
+    },
+    {
+      "case_id": "support-25-4",
+      "evidence": {
+        "evidence_id": "synthetic:notifications:25",
+        "text": "For weekly active managers, the playbook recommends to measure action after notification when open rate alone is not the outcome. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-25-4",
+        "text": "Every product team should always measure action after notification.",
+        "evidence_ids": [
+          "synthetic:notifications:25"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-25-5",
+      "evidence": {
+        "evidence_id": "synthetic:notifications:25",
+        "text": "For weekly active managers, the playbook recommends to measure action after notification when open rate alone is not the outcome. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-25-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:notifications:25"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-25-6",
+      "evidence": {
+        "evidence_id": "synthetic:notifications:25",
+        "text": "For weekly active managers, the playbook recommends to measure action after notification when open rate alone is not the outcome. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-25-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:notifications:25"
+        ]
+      },
+      "expected_verdict": "insufficient_context"
+    },
+    {
+      "case_id": "support-25-7",
+      "evidence": {
+        "evidence_id": "synthetic:notifications:25",
+        "text": "For weekly active managers, the playbook recommends to measure action after notification when open rate alone is not the outcome. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-25-7",
+        "text": "The playbook tells weekly active managers not to measure action after notification when open rate alone is not the outcome.",
+        "evidence_ids": [
+          "synthetic:notifications:25"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    },
+    {
+      "case_id": "support-25-8",
+      "evidence": {
+        "evidence_id": "synthetic:notifications:25",
+        "text": "For weekly active managers, the playbook recommends to measure action after notification when open rate alone is not the outcome. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-25-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:notifications:25"
+        ]
+      },
+      "expected_verdict": "contradicted"
+    }
+  ]
+}

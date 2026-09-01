@@ -1,0 +1,107 @@
+{
+  "schema_version": "ai-pm.eval.observation-set.v1",
+  "run_id": "synthetic-baseline-001",
+  "suite_id": "synthetic-pm-smoke-v1",
+  "system_id": "offline-fixture-baseline",
+  "metadata": {
+    "deterministic": true,
+    "source": "checked-in synthetic fixture"
+  },
+  "cases": [
+    {
+      "case_id": "discovery-synthesis",
+      "outcome": "completed",
+      "retrieved_evidence_ids": [
+        "synthetic:interview:01",
+        "synthetic:distractor:01",
+        "synthetic:interview:02"
+      ],
+      "grounded_evidence_ids": [
+        "synthetic:interview:01",
+        "synthetic:interview:02"
+      ],
+      "answer_kind": "answer",
+      "claims": [
+        {
+          "claim_id": "observed-pain",
+          "expectation_id": "pain-point",
+          "citation_ids": ["synthetic:interview:01"]
+        },
+        {
+          "claim_id": "observed-hypothesis",
+          "expectation_id": "testable-hypothesis",
+          "citation_ids": ["synthetic:interview:02"]
+        }
+      ],
+      "trace": {
+        "events": [{"tool": "search", "status": "ok", "latency_ms": 80}],
+        "completed": true,
+        "termination_reason": "answer_ready"
+      },
+      "latency_ms": 920,
+      "cost_usd": 0.004,
+      "input_tokens": 1100,
+      "output_tokens": 260
+    },
+    {
+      "case_id": "insufficient-evidence-refusal",
+      "outcome": "completed",
+      "retrieved_evidence_ids": [],
+      "grounded_evidence_ids": [],
+      "answer_kind": "refusal",
+      "claims": [],
+      "trace": {
+        "events": [{"tool": "search", "status": "ok", "latency_ms": 45}],
+        "completed": true,
+        "termination_reason": "insufficient_evidence"
+      },
+      "latency_ms": 360,
+      "cost_usd": 0.001,
+      "input_tokens": 340,
+      "output_tokens": 60
+    },
+    {
+      "case_id": "multi-source-prioritization",
+      "outcome": "completed",
+      "retrieved_evidence_ids": [
+        "synthetic:metric:activation",
+        "synthetic:distractor:02",
+        "synthetic:request:export",
+        "synthetic:constraint:security"
+      ],
+      "grounded_evidence_ids": [
+        "synthetic:metric:activation",
+        "synthetic:request:export",
+        "synthetic:constraint:security"
+      ],
+      "answer_kind": "answer",
+      "claims": [
+        {
+          "claim_id": "observed-priority",
+          "expectation_id": "priority",
+          "citation_ids": [
+            "synthetic:metric:activation",
+            "synthetic:request:export"
+          ]
+        },
+        {
+          "claim_id": "observed-risk",
+          "expectation_id": "risk",
+          "citation_ids": ["synthetic:constraint:security"]
+        }
+      ],
+      "trace": {
+        "events": [
+          {"tool": "search", "status": "ok", "latency_ms": 100},
+          {"tool": "read_source", "status": "ok", "latency_ms": 55}
+        ],
+        "completed": true,
+        "termination_reason": "answer_ready"
+      },
+      "latency_ms": 1350,
+      "cost_usd": 0.009,
+      "input_tokens": 1800,
+      "output_tokens": 420
+    }
+  ]
+}

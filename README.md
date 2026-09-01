@@ -23,7 +23,13 @@ material and derived full-text facts.
 The retrieval databases locate facts but are never answer evidence. Both Direct
 and Agentic modes must resolve a locator through the fact layer before the text can
 reach an answer model. See `docs/architecture/RAG_SYSTEM.md` and
-`docs/decisions/0001-facts-before-answers.md`.
+`docs/decisions/0001-facts-before-answers.md`. Phase 1 verifies exact citation
+provenance and immutable-snapshot reads. Stage 2 adds an independent model call
+that checks every atomic claim against the exact Evidence it cites, allows one
+repair attempt, and publishes only claims that pass. This is an automatic
+evidence-support check rather than a claim that the outside world has been
+fact-checked. The Phase 1 boundary is recorded in
+`docs/decisions/0002-structural-grounding-boundary.md`.
 
 The upstream license is preserved at `corpus/raw/01-start-here/LICENSE.md`. Read
 `NOTICE.md`, `docs/PROVENANCE.md`, and `docs/USAGE_POLICY.md` before using the data.
@@ -45,8 +51,10 @@ Git and stores the real values in plain text on this machine:
 Copy-Item .env.example .env
 ```
 
-`DEEPSEEK_API_KEY` enables query rewriting, Direct answers, and the user-selectable
-Agentic mode.
+`DEEPSEEK_API_KEY` enables question planning, answer writing, the independent
+claim verifier, and both user-selectable answer modes. `DEEPSEEK_VERIFY_MODEL`
+may point to a separate verifier model; by default it uses the same supported
+DeepSeek model as the writer.
 `ZHIPU_API_KEY` enables the 2048-dimensional vector index and optional image
 inspection. The template fixes the supported model names and endpoints; only the
 two key values remain local. Never put a real key in `.env.example`, source code, a
@@ -103,9 +111,21 @@ uv run --package lenny-backend lenny-backend
 ```
 
 Open `http://127.0.0.1:4317`. Conversations are stored in ignored local SQLite
-state under `runtime/`. Direct mode is the interface default, and Agentic mode can
-be selected per request without an environment feature flag. LLM Wiki remains a
-disabled future adapter and is not part of Direct retrieval or RRF.
+state under `runtime/`. The interface calls the two modes “快速模式” and “深入模式”:
+the first performs one retrieval pass, while the second lets an agent search and
+read source windows over multiple rounds. Both run the independent claim verifier,
+so verification adds latency and another model call. Open
+`http://127.0.0.1:4317/#/guide` for the in-product usage guide.
+
+For scenario questions, Compass may ask one decision-relevant question at a time,
+up to three times. The user may answer, choose a suggested reply, or skip. Answers
+separate local-corpus findings, user-provided premises, evidence-derived advice,
+and general PM guidance. General guidance is allowed when local evidence is absent,
+but it is explicitly labeled and never presented as a corpus finding.
+
+Stage 3 is intentionally out of scope. There is no web search, file upload,
+automatic workflow generation, collaboration account system, or LLM Wiki retrieval
+in the current product.
 
 ## Test the layers
 

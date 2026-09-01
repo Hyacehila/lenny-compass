@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+from pathlib import Path
 
 import pytest
 from ai_pm_contracts import FactDocument
@@ -9,8 +10,10 @@ from docling_core.types.doc import DoclingDocument
 from fact_build.builder import (
     FactBuildError,
     _assert_chunk_integrity,
+    _document_paths,
     _frontmatter,
     _markdown_images,
+    _publish_fact_generation,
 )
 
 REQUIRED_PILOT = {
@@ -41,6 +44,74 @@ def test_configuration_locks_pipeline_and_exact_pilot(fact_config) -> None:
         "max_tokens": 1500,
         "merge_peers": True,
     }
+
+
+def test_generation_paths_preserve_v2_layout_beneath_build_id(fact_config) -> None:
+    document_id = "02-newsletters/example.md"
+    _docling, _chunks, docling_relative, chunks_relative = _document_paths(
+        fact_config,
+        document_id,
+        artifact_prefix=Path("generations") / "fact-build-v2-example",
+    )
+    assert docling_relative == (
+        "generations/fact-build-v2-example/documents/v2/"
+        "02-newsletters/example.docling.json"
+    )
+    assert chunks_relative == (
+        "generations/fact-build-v2-example/chunks/v2/"
+        "02-newsletters/example.chunks.json"
+    )
+
+
+def test_conversion_can_bind_all_fact_locators_to_one_generation(fact_builder) -> None:
+    prefix = Path("generations") / "fact-build-v2-example"
+    built = fact_builder.convert_one(
+        "02-newsletters/get-perplexity-pro-free-for-1-year.md",
+        artifact_prefix=prefix,
+    )
+    document = FactDocument.model_validate_json(built.fact_bytes)
+    expected_root = "generations/fact-build-v2-example/"
+
+    assert document.docling_path.startswith(expected_root)
+    assert document.fact_document_path.startswith(expected_root)
+    assert built.manifest_entry.docling_path == document.docling_path
+    assert built.manifest_entry.fact_document_path == document.fact_document_path
+    assert built.manifest_entry.fact_document_sha256 == sha256(built.fact_bytes)
+    assert all(
+        chunk.locator.docling_path == document.docling_path
+        and chunk.locator.fact_document_path == document.fact_document_path
+        for chunk in document.chunks
+    )
+
+
+def test_generation_publish_rolls_back_if_manifest_pointer_fails(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    facts_root = tmp_path / "facts"
+    staging_root = facts_root / ".staging"
+    build_id = "fact-build-v2-candidate"
+    staged_generation = staging_root / "generations" / build_id
+    staged_generation.mkdir(parents=True)
+    (staged_generation / "complete.txt").write_text("candidate", encoding="utf-8")
+    manifest_path = facts_root / "manifests" / "build.json"
+    manifest_path.parent.mkdir(parents=True)
+    manifest_path.write_bytes(b"previous-manifest")
+
+    def fail_pointer(_path: Path, _data: bytes) -> None:
+        raise OSError("simulated pointer failure")
+
+    monkeypatch.setattr("fact_build.builder._safe_write", fail_pointer)
+    with pytest.raises(OSError, match="simulated pointer failure"):
+        _publish_fact_generation(
+            facts_root=facts_root,
+            staging_root=staging_root,
+            build_id=build_id,
+            manifest_path=manifest_path,
+            manifest_bytes=b"candidate-manifest",
+        )
+
+    assert manifest_path.read_bytes() == b"previous-manifest"
+    assert not (facts_root / "generations" / build_id).exists()
 
 
 def test_provenance_has_exact_corpus_and_byte_hashes(fact_config) -> None:

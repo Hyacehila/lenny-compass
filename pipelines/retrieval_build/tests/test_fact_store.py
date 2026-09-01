@@ -81,6 +81,16 @@ def test_fact_path_cannot_escape_root(fact_artifacts: tuple[Path, object]) -> No
     assert caught.value.code == "INVALID_LOCATOR"
 
 
+def test_manifest_path_is_restricted_to_active_or_generation_manifests(
+    fact_artifacts: tuple[Path, object],
+) -> None:
+    root, _document = fact_artifacts
+    with pytest.raises(ValueError, match="manifest_path"):
+        FactStore(root, manifest_path=root.parent / "outside.json")
+    with pytest.raises(ValueError, match="manifest_path"):
+        FactStore(root, manifest_path=root / "chunks" / "v1" / "alpha.json")
+
+
 @pytest.mark.parametrize("artifact", ["raw", "enhanced", "docling"])
 def test_disk_artifact_tampering_is_stale(
     fact_artifacts: tuple[Path, object], artifact: str

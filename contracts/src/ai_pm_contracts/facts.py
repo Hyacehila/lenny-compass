@@ -30,10 +30,15 @@ class ImageObservation(ContractModel):
 
     image_id: NonEmpty
     url: str | None = None
+    image_sha256: Sha256 | None = None
     caption: str | None = None
     observation: str | None = None
     inspected: bool = False
     error: str | None = None
+    vision_provider: str | None = None
+    vision_model: str | None = None
+    vision_prompt_sha256: Sha256 | None = None
+    vision_prompt_version: str | None = None
 
 
 class DocumentSegment(ContractModel):
@@ -79,6 +84,9 @@ class DocumentChunkLocator(ContractModel):
                 raise ValueError("segment.last_self_ref must match self_refs[-1]")
             if len(self.self_refs) != self.segment.item_count:
                 raise ValueError("segment.item_count must match len(self_refs)")
+        image_ids = [image.image_id for image in self.images]
+        if len(image_ids) != len(set(image_ids)):
+            raise ValueError("image IDs must be unique within a document locator")
         return self
 
 
@@ -122,6 +130,21 @@ class Evidence(ContractModel):
             self.locator, LlmWikiPageLocator
         ):
             raise ValueError("wiki_fact evidence requires LlmWikiPageLocator")
+        if isinstance(self.locator, DocumentChunkLocator):
+            references = {item.image_id: item for item in self.locator.images}
+            for observation in self.image_observations:
+                reference = references.get(observation.image_id)
+                if reference is None:
+                    raise ValueError(
+                        "image observation does not belong to the evidence locator"
+                    )
+                if (
+                    observation.image_sha256 is not None
+                    and observation.image_sha256 != reference.sha256
+                ):
+                    raise ValueError(
+                        "image observation hash does not match the evidence locator"
+                    )
         return self
 
 

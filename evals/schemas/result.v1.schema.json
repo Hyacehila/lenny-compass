@@ -1,0 +1,749 @@
+{
+  "$defs": {
+    "BehaviorMetrics": {
+      "additionalProperties": false,
+      "properties": {
+        "answer_kind_accuracy": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Answer Kind Accuracy"
+        },
+        "answer_kind_correct": {
+          "minimum": 0,
+          "title": "Answer Kind Correct",
+          "type": "integer"
+        },
+        "answer_kind_eligible_cases": {
+          "minimum": 0,
+          "title": "Answer Kind Eligible Cases",
+          "type": "integer"
+        },
+        "completed_cases": {
+          "minimum": 0,
+          "title": "Completed Cases",
+          "type": "integer"
+        },
+        "completion_rate": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Completion Rate",
+          "type": "number"
+        },
+        "refusal_accuracy": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Refusal Accuracy"
+        },
+        "refusal_correct": {
+          "minimum": 0,
+          "title": "Refusal Correct",
+          "type": "integer"
+        },
+        "refusal_eligible_cases": {
+          "minimum": 0,
+          "title": "Refusal Eligible Cases",
+          "type": "integer"
+        },
+        "total_cases": {
+          "minimum": 0,
+          "title": "Total Cases",
+          "type": "integer"
+        },
+        "trace_compliance": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Trace Compliance"
+        },
+        "trace_compliant": {
+          "minimum": 0,
+          "title": "Trace Compliant",
+          "type": "integer"
+        },
+        "trace_eligible_cases": {
+          "minimum": 0,
+          "title": "Trace Eligible Cases",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "total_cases",
+        "completed_cases",
+        "completion_rate",
+        "answer_kind_eligible_cases",
+        "answer_kind_correct",
+        "answer_kind_accuracy",
+        "refusal_eligible_cases",
+        "refusal_correct",
+        "refusal_accuracy",
+        "trace_eligible_cases",
+        "trace_compliant",
+        "trace_compliance"
+      ],
+      "title": "BehaviorMetrics",
+      "type": "object"
+    },
+    "CaseScore": {
+      "additionalProperties": false,
+      "properties": {
+        "answer_kind_correct": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Answer Kind Correct"
+        },
+        "case_id": {
+          "maxLength": 160,
+          "minLength": 1,
+          "title": "Case Id",
+          "type": "string"
+        },
+        "citation_coverage": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Citation Coverage"
+        },
+        "citation_validity": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Citation Validity"
+        },
+        "cost_budget_passed": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Cost Budget Passed"
+        },
+        "expected_claim_coverage": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Expected Claim Coverage"
+        },
+        "grounding_score": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Grounding Score"
+        },
+        "input_token_budget_passed": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Input Token Budget Passed"
+        },
+        "issues": {
+          "items": {
+            "maxLength": 160,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Issues",
+          "type": "array"
+        },
+        "latency_budget_passed": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Latency Budget Passed"
+        },
+        "mrr": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Mrr"
+        },
+        "output_token_budget_passed": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Output Token Budget Passed"
+        },
+        "recall_at_k": {
+          "anyOf": [
+            {
+              "additionalProperties": {
+                "maximum": 1,
+                "minimum": 0,
+                "type": "number"
+              },
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Recall At K"
+        },
+        "refusal_correct": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Refusal Correct"
+        },
+        "trace_compliant": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Trace Compliant"
+        }
+      },
+      "required": [
+        "case_id",
+        "issues",
+        "recall_at_k",
+        "mrr",
+        "citation_validity",
+        "citation_coverage",
+        "expected_claim_coverage",
+        "grounding_score",
+        "answer_kind_correct",
+        "refusal_correct",
+        "trace_compliant",
+        "latency_budget_passed",
+        "cost_budget_passed",
+        "input_token_budget_passed",
+        "output_token_budget_passed"
+      ],
+      "title": "CaseScore",
+      "type": "object"
+    },
+    "DistributionMetrics": {
+      "additionalProperties": false,
+      "properties": {
+        "count": {
+          "minimum": 0,
+          "title": "Count",
+          "type": "integer"
+        },
+        "max": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Max"
+        },
+        "mean": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Mean"
+        },
+        "p50": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "P50"
+        },
+        "p95": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "P95"
+        }
+      },
+      "required": [
+        "count",
+        "mean",
+        "p50",
+        "p95",
+        "max"
+      ],
+      "title": "DistributionMetrics",
+      "type": "object"
+    },
+    "GroundingMetrics": {
+      "additionalProperties": false,
+      "properties": {
+        "addressed_expected_claim_count": {
+          "minimum": 0,
+          "title": "Addressed Expected Claim Count",
+          "type": "integer"
+        },
+        "citation_count": {
+          "minimum": 0,
+          "title": "Citation Count",
+          "type": "integer"
+        },
+        "citation_coverage": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Citation Coverage"
+        },
+        "citation_validity": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Citation Validity"
+        },
+        "covered_claim_count": {
+          "minimum": 0,
+          "title": "Covered Claim Count",
+          "type": "integer"
+        },
+        "eligible_answer_cases": {
+          "minimum": 0,
+          "title": "Eligible Answer Cases",
+          "type": "integer"
+        },
+        "expected_claim_count": {
+          "minimum": 0,
+          "title": "Expected Claim Count",
+          "type": "integer"
+        },
+        "expected_claim_coverage": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Expected Claim Coverage"
+        },
+        "grounded_expected_claim_count": {
+          "minimum": 0,
+          "title": "Grounded Expected Claim Count",
+          "type": "integer"
+        },
+        "grounding_score": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Grounding Score"
+        },
+        "observed_claim_count": {
+          "minimum": 0,
+          "title": "Observed Claim Count",
+          "type": "integer"
+        },
+        "valid_citation_count": {
+          "minimum": 0,
+          "title": "Valid Citation Count",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "eligible_answer_cases",
+        "citation_count",
+        "valid_citation_count",
+        "citation_validity",
+        "observed_claim_count",
+        "covered_claim_count",
+        "citation_coverage",
+        "expected_claim_count",
+        "addressed_expected_claim_count",
+        "expected_claim_coverage",
+        "grounded_expected_claim_count",
+        "grounding_score"
+      ],
+      "title": "GroundingMetrics",
+      "type": "object"
+    },
+    "JsonValue": {},
+    "OperationsMetrics": {
+      "additionalProperties": false,
+      "properties": {
+        "cost_budget_eligible_cases": {
+          "minimum": 0,
+          "title": "Cost Budget Eligible Cases",
+          "type": "integer"
+        },
+        "cost_budget_pass_rate": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Cost Budget Pass Rate"
+        },
+        "cost_observation_count": {
+          "minimum": 0,
+          "title": "Cost Observation Count",
+          "type": "integer"
+        },
+        "input_token_budget_eligible_cases": {
+          "minimum": 0,
+          "title": "Input Token Budget Eligible Cases",
+          "type": "integer"
+        },
+        "input_token_budget_pass_rate": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Input Token Budget Pass Rate"
+        },
+        "latency_budget_eligible_cases": {
+          "minimum": 0,
+          "title": "Latency Budget Eligible Cases",
+          "type": "integer"
+        },
+        "latency_budget_pass_rate": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Latency Budget Pass Rate"
+        },
+        "latency_ms": {
+          "$ref": "#/$defs/DistributionMetrics"
+        },
+        "mean_cost_usd": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Mean Cost Usd"
+        },
+        "output_token_budget_eligible_cases": {
+          "minimum": 0,
+          "title": "Output Token Budget Eligible Cases",
+          "type": "integer"
+        },
+        "output_token_budget_pass_rate": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Output Token Budget Pass Rate"
+        },
+        "total_cost_usd": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Total Cost Usd"
+        },
+        "total_input_tokens": {
+          "minimum": 0,
+          "title": "Total Input Tokens",
+          "type": "integer"
+        },
+        "total_output_tokens": {
+          "minimum": 0,
+          "title": "Total Output Tokens",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "latency_ms",
+        "cost_observation_count",
+        "total_cost_usd",
+        "mean_cost_usd",
+        "total_input_tokens",
+        "total_output_tokens",
+        "latency_budget_eligible_cases",
+        "latency_budget_pass_rate",
+        "cost_budget_eligible_cases",
+        "cost_budget_pass_rate",
+        "input_token_budget_eligible_cases",
+        "input_token_budget_pass_rate",
+        "output_token_budget_eligible_cases",
+        "output_token_budget_pass_rate"
+      ],
+      "title": "OperationsMetrics",
+      "type": "object"
+    },
+    "RetrievalMetrics": {
+      "additionalProperties": false,
+      "properties": {
+        "eligible_cases": {
+          "minimum": 0,
+          "title": "Eligible Cases",
+          "type": "integer"
+        },
+        "mrr": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Mrr"
+        },
+        "recall_at_k": {
+          "additionalProperties": {
+            "maximum": 1,
+            "minimum": 0,
+            "type": "number"
+          },
+          "title": "Recall At K",
+          "type": "object"
+        }
+      },
+      "required": [
+        "eligible_cases",
+        "recall_at_k",
+        "mrr"
+      ],
+      "title": "RetrievalMetrics",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "behavior": {
+      "$ref": "#/$defs/BehaviorMetrics"
+    },
+    "case_ids": {
+      "items": {
+        "maxLength": 160,
+        "minLength": 1,
+        "type": "string"
+      },
+      "title": "Case Ids",
+      "type": "array"
+    },
+    "cases": {
+      "items": {
+        "$ref": "#/$defs/CaseScore"
+      },
+      "title": "Cases",
+      "type": "array"
+    },
+    "grounding": {
+      "$ref": "#/$defs/GroundingMetrics"
+    },
+    "ks": {
+      "items": {
+        "exclusiveMinimum": 0,
+        "type": "integer"
+      },
+      "minItems": 1,
+      "title": "Ks",
+      "type": "array"
+    },
+    "metadata": {
+      "additionalProperties": {
+        "$ref": "#/$defs/JsonValue"
+      },
+      "title": "Metadata",
+      "type": "object"
+    },
+    "operations": {
+      "$ref": "#/$defs/OperationsMetrics"
+    },
+    "retrieval": {
+      "$ref": "#/$defs/RetrievalMetrics"
+    },
+    "run_id": {
+      "maxLength": 160,
+      "minLength": 1,
+      "title": "Run Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "ai-pm.eval.result.v1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "suite_id": {
+      "maxLength": 160,
+      "minLength": 1,
+      "title": "Suite Id",
+      "type": "string"
+    },
+    "system_id": {
+      "maxLength": 160,
+      "minLength": 1,
+      "title": "System Id",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "suite_id",
+    "run_id",
+    "system_id",
+    "case_ids",
+    "ks",
+    "retrieval",
+    "grounding",
+    "behavior",
+    "operations",
+    "cases"
+  ],
+  "title": "EvaluationResult",
+  "type": "object"
+}

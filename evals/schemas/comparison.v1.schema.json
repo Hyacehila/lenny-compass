@@ -1,0 +1,149 @@
+{
+  "$defs": {
+    "ComparisonCheck": {
+      "additionalProperties": false,
+      "properties": {
+        "allowed_delta": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Allowed Delta"
+        },
+        "baseline_value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Baseline Value"
+        },
+        "candidate_value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Candidate Value"
+        },
+        "check_id": {
+          "maxLength": 160,
+          "minLength": 1,
+          "title": "Check Id",
+          "type": "string"
+        },
+        "message": {
+          "maxLength": 1000,
+          "minLength": 1,
+          "title": "Message",
+          "type": "string"
+        },
+        "metric": {
+          "maxLength": 160,
+          "minLength": 1,
+          "title": "Metric",
+          "type": "string"
+        },
+        "rule": {
+          "maxLength": 160,
+          "minLength": 1,
+          "title": "Rule",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "passed",
+            "failed",
+            "skipped"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "check_id",
+        "metric",
+        "rule",
+        "status",
+        "message"
+      ],
+      "title": "ComparisonCheck",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "baseline_run_id": {
+      "maxLength": 160,
+      "minLength": 1,
+      "title": "Baseline Run Id",
+      "type": "string"
+    },
+    "baseline_suite_id": {
+      "maxLength": 160,
+      "minLength": 1,
+      "title": "Baseline Suite Id",
+      "type": "string"
+    },
+    "candidate_run_id": {
+      "maxLength": 160,
+      "minLength": 1,
+      "title": "Candidate Run Id",
+      "type": "string"
+    },
+    "candidate_suite_id": {
+      "maxLength": 160,
+      "minLength": 1,
+      "title": "Candidate Suite Id",
+      "type": "string"
+    },
+    "checks": {
+      "items": {
+        "$ref": "#/$defs/ComparisonCheck"
+      },
+      "title": "Checks",
+      "type": "array"
+    },
+    "passed": {
+      "title": "Passed",
+      "type": "boolean"
+    },
+    "policy_id": {
+      "maxLength": 160,
+      "minLength": 1,
+      "title": "Policy Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "ai-pm.eval.comparison.v1",
+      "title": "Schema Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "policy_id",
+    "baseline_suite_id",
+    "candidate_suite_id",
+    "baseline_run_id",
+    "candidate_run_id",
+    "passed",
+    "checks"
+  ],
+  "title": "ComparisonReport",
+  "type": "object"
+}

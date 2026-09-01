@@ -16,6 +16,7 @@ from ai_pm_contracts import (
 )
 from lenny_backend.agentic import AGENTIC_MAX_READS, AGENTIC_TOOLS, AgenticAnswerService
 from lenny_backend.conversations import Message
+from lenny_backend.grounding import insufficient_evidence_answer
 from lenny_backend.providers import (
     AssistantToolTurn,
     DeepSeekClient,
@@ -84,6 +85,14 @@ class _Facts:
 
     def read_source_window(self, locator, window=0):
         return (self.evidence,)
+
+
+class _UnavailableRetrieval:
+    async def keyword(self, query: str, *, limit: int = 50):
+        raise OSError("lexical unavailable")
+
+    async def semantic(self, query: str, *, limit: int = 50):
+        raise OSError("semantic unavailable")
 
 
 def _history() -> tuple[Message, ...]:
@@ -160,7 +169,19 @@ def test_agentic_reasoning_roundtrip_fact_gate_and_sse_secrecy() -> None:
                 "content": "[evidence:source:doc:chunk] Supported answer",
                 "reasoning_content": "FINAL_PRIVATE",
             }
-        return httpx.Response(200, json={"choices": [{"message": message}]})
+        return httpx.Response(
+            200,
+            json={
+                "choices": [
+                    {
+                        "finish_reason": (
+                            "tool_calls" if "tool_calls" in message else "stop"
+                        ),
+                        "message": message,
+                    }
+                ]
+            },
+        )
 
     deepseek = DeepSeekClient(
         api_key="test-key",
@@ -254,6 +275,310 @@ def test_unread_evidence_citation_is_rejected() -> None:
     with pytest.raises(ProviderError) as caught:
         asyncio.run(consume())
     assert caught.value.code == "AGENTIC_UNREAD_CITATION"
+
+
+def test_agentic_does_not_misreport_total_retrieval_failure_as_no_evidence() -> None:
+    service = AgenticAnswerService(
+        deepseek=_FinalModel("No evidence"),
+        retrieval=_UnavailableRetrieval(),  # type: ignore[arg-type]
+        facts=_Facts(_evidence(_locator())),
+        system_prompt="Read first.",
+    )
+
+    async def consume() -> None:
+        async for _ in service.stream_answer(
+            conversation_id="conversation",
+            request=AnswerRequest(question="Question", mode="agentic"),
+            history=(),
+        ):
+            pass
+
+    with pytest.raises(ProviderError) as caught:
+        asyncio.run(consume())
+    assert caught.value.code == "RETRIEVAL_UNAVAILABLE"
+
+
+class _PartiallyLeakyRetrieval:
+    async def keyword(self, query: str, *, limit: int = 50):
+        raise OSError(r"private local path D:\secret\index.sqlite3")
+
+    async def semantic(self, query: str, *, limit: int = 50):
+        return ()
+
+
+class _InitialPromptCaptureModel:
+    initial_prompt = ""
+
+    async def tool_turn(self, *, messages, tools):
+        self.initial_prompt = messages[-1]["content"]
+        return AssistantToolTurn(
+            content="No evidence",
+            tool_calls=(),
+            provider_message={"role": "assistant", "content": "No evidence"},
+        )
+
+
+def test_agentic_initial_search_error_does_not_disclose_local_exception() -> None:
+    model = _InitialPromptCaptureModel()
+    service = AgenticAnswerService(
+        deepseek=model,
+        retrieval=_PartiallyLeakyRetrieval(),  # type: ignore[arg-type]
+        facts=_Facts(_evidence(_locator())),
+        system_prompt="Read first.",
+    )
+
+    async def consume() -> None:
+        async for _ in service.stream_answer(
+            conversation_id="conversation",
+            request=AnswerRequest(question="Question", mode="agentic"),
+            history=(),
+        ):
+            pass
+
+    asyncio.run(consume())
+    assert "D:\\secret" not in model.initial_prompt
+    assert "Local search could not complete the request" in model.initial_prompt
+
+
+class _ReadThenFinishModel:
+    def __init__(
+        self, locator: DocumentChunkLocator, final_answer: str = "No evidence"
+    ):
+        self.locator = locator
+        self.final_answer = final_answer
+        self.calls = 0
+        self.tool_result = ""
+
+    async def tool_turn(self, *, messages, tools):
+        self.calls += 1
+        if self.calls == 1:
+            arguments = json.dumps(
+                {"locator": self.locator.model_dump(mode="json"), "window": 0}
+            )
+            raw = {
+                "id": "read-secret",
+                "type": "function",
+                "function": {
+                    "name": "read_source_window",
+                    "arguments": arguments,
+                },
+            }
+            return AssistantToolTurn(
+                content=None,
+                tool_calls=(
+                    ToolCall(
+                        id="read-secret",
+                        name="read_source_window",
+                        arguments=arguments,
+                    ),
+                ),
+                provider_message={"role": "assistant", "tool_calls": [raw]},
+            )
+        self.tool_result = messages[-1]["content"]
+        return AssistantToolTurn(
+            content=self.final_answer,
+            tool_calls=(),
+            provider_message={"role": "assistant", "content": self.final_answer},
+        )
+
+
+class _LeakyFactFailure(RuntimeError):
+    def __init__(self, code: str):
+        super().__init__(r"fact missing at D:\private\facts\document.json")
+        self.code = code
+
+
+class _LeakyFacts:
+    def __init__(self, code: str):
+        self.code = code
+
+    def read_source_window(self, locator, window=0):
+        raise _LeakyFactFailure(self.code)
+
+
+@pytest.mark.parametrize(
+    ("exception_code", "public_code"),
+    [
+        (r"SECRET_D:\\private", "FACT_READ_ERROR"),
+    ],
+)
+def test_agentic_fact_failure_is_sanitized_and_not_misreported_as_insufficient(
+    exception_code: str, public_code: str
+) -> None:
+    locator = _locator()
+    model = _ReadThenFinishModel(locator)
+    service = AgenticAnswerService(
+        deepseek=model,
+        retrieval=_Retrieval(locator),  # type: ignore[arg-type]
+        facts=_LeakyFacts(exception_code),
+        system_prompt="Read first.",
+    )
+
+    async def consume() -> None:
+        async for _ in service.stream_answer(
+            conversation_id="conversation",
+            request=AnswerRequest(question="Question", mode="agentic"),
+            history=(),
+        ):
+            pass
+
+    with pytest.raises(ProviderError) as caught:
+        asyncio.run(consume())
+    assert caught.value.code == "FACT_RESOLUTION_FAILED"
+    assert "D:\\private" not in model.tool_result
+    assert json.loads(model.tool_result)["error"] == {
+        "code": public_code,
+        "message": "Source evidence could not be read from the validated snapshot",
+    }
+
+
+class _ReadTwiceModel:
+    def __init__(self, locator: DocumentChunkLocator):
+        self.locator = locator
+        self.calls = 0
+        self.first_tool_result = ""
+
+    async def tool_turn(self, *, messages, tools):
+        self.calls += 1
+        if self.calls == 2:
+            self.first_tool_result = messages[-1]["content"]
+        arguments = json.dumps(
+            {"locator": self.locator.model_dump(mode="json"), "window": 0}
+        )
+        raw = {
+            "id": f"read-{self.calls}",
+            "type": "function",
+            "function": {
+                "name": "read_source_window",
+                "arguments": arguments,
+            },
+        }
+        return AssistantToolTurn(
+            content=None,
+            tool_calls=(
+                ToolCall(
+                    id=f"read-{self.calls}",
+                    name="read_source_window",
+                    arguments=arguments,
+                ),
+            ),
+            provider_message={"role": "assistant", "tool_calls": [raw]},
+        )
+
+
+class _EvidenceThenSnapshotChange:
+    def __init__(self, evidence: Evidence):
+        self.evidence = evidence
+        self.calls = 0
+
+    def read_source_window(self, locator, window=0):
+        self.calls += 1
+        if self.calls == 1:
+            return (self.evidence,)
+        raise _LeakyFactFailure("RETRIEVAL_SNAPSHOT_CHANGED")
+
+
+def test_agentic_snapshot_change_is_fatal_after_evidence_was_read() -> None:
+    locator = _locator()
+    model = _ReadTwiceModel(locator)
+    facts = _EvidenceThenSnapshotChange(_evidence(locator))
+    service = AgenticAnswerService(
+        deepseek=model,
+        retrieval=_Retrieval(locator),  # type: ignore[arg-type]
+        facts=facts,
+        system_prompt="Read first.",
+    )
+
+    async def consume() -> None:
+        async for _ in service.stream_answer(
+            conversation_id="conversation",
+            request=AnswerRequest(question="Question", mode="agentic"),
+            history=(),
+        ):
+            pass
+
+    with pytest.raises(ProviderError) as caught:
+        asyncio.run(consume())
+    assert caught.value.code == "RETRIEVAL_SNAPSHOT_CHANGED"
+    assert facts.calls == 2
+    assert "READ_FACT" in model.first_tool_result
+
+
+def test_agentic_can_refuse_after_reading_irrelevant_evidence() -> None:
+    locator = _locator()
+    refusal = insufficient_evidence_answer("Question")
+    service = AgenticAnswerService(
+        deepseek=_ReadThenFinishModel(locator, refusal),
+        retrieval=_Retrieval(locator),  # type: ignore[arg-type]
+        facts=_Facts(_evidence(locator)),
+        system_prompt="Read first.",
+    )
+
+    async def collect():
+        return [
+            event
+            async for event in service.stream_answer(
+                conversation_id="conversation",
+                request=AnswerRequest(question="Question", mode="agentic"),
+                history=(),
+            )
+        ]
+
+    done = asyncio.run(collect())[-1]
+    assert done.type == "done"
+    assert done.response.answer_kind == "insufficient_evidence"  # type: ignore[union-attr]
+    assert done.response.evidence == ()  # type: ignore[union-attr]
+    assert done.response.claims == ()  # type: ignore[union-attr]
+
+
+def test_agentic_provider_messages_have_a_cumulative_budget() -> None:
+    locator = _locator()
+    service = AgenticAnswerService(
+        deepseek=_FinalModel("No evidence"),
+        retrieval=_Retrieval(locator),  # type: ignore[arg-type]
+        facts=_Facts(_evidence(locator)),
+        system_prompt="Read first.",
+        max_provider_output_tokens=1,
+    )
+
+    async def consume() -> None:
+        async for _ in service.stream_answer(
+            conversation_id="conversation",
+            request=AnswerRequest(question="Question", mode="agentic"),
+            history=(),
+        ):
+            pass
+
+    with pytest.raises(ProviderError) as caught:
+        asyncio.run(consume())
+    assert caught.value.code == "AGENTIC_PROVIDER_MESSAGE_LIMIT"
+
+
+def test_agentic_tool_output_overflow_rolls_back_unseen_evidence() -> None:
+    locator = _locator()
+    model = _ReadThenFinishModel(locator, insufficient_evidence_answer("Question"))
+    service = AgenticAnswerService(
+        deepseek=model,
+        retrieval=_Retrieval(locator),  # type: ignore[arg-type]
+        facts=_Facts(_evidence(locator)),
+        system_prompt="Read first.",
+        max_tool_output_tokens=1,
+    )
+
+    async def consume() -> None:
+        async for _ in service.stream_answer(
+            conversation_id="conversation",
+            request=AnswerRequest(question="Question", mode="agentic"),
+            history=(),
+        ):
+            pass
+
+    with pytest.raises(ProviderError) as caught:
+        asyncio.run(consume())
+    assert caught.value.code == "AGENTIC_TOOL_OUTPUT_LIMIT"
+    assert json.loads(model.tool_result)["error"]["code"] == (
+        "AGENTIC_TOOL_OUTPUT_LIMIT"
+    )
 
 
 class _RepeatedToolModel:
@@ -375,10 +700,15 @@ class _BudgetRecoveryModel:
             )
         tool_result = json.loads(messages[-1]["content"])
         self.tool_errors.append(tool_result["error"]["code"])
+        answer = (
+            "[evidence:source:doc:chunk] 证据不足，无法进一步确认。"
+            if self.tool_errors[-1] == "AGENTIC_READ_LIMIT"
+            else "证据不足，无法进一步确认。"
+        )
         return AssistantToolTurn(
-            content="证据不足，无法进一步确认。",
+            content=answer,
             tool_calls=(),
-            provider_message={"role": "assistant", "content": "证据不足，无法进一步确认。"},
+            provider_message={"role": "assistant", "content": answer},
         )
 
 
@@ -427,6 +757,14 @@ def test_agentic_tool_registry_is_exact_and_has_no_wiki_or_rescan() -> None:
     ]
     for tool in AGENTIC_TOOLS[:2]:
         assert tool["function"]["parameters"]["required"] == ["query", "limit"]
+        assert (
+            tool["function"]["parameters"]["properties"]["query"]["maxLength"] == 2_000
+        )
+    inspect_ids = AGENTIC_TOOLS[3]["function"]["parameters"]["properties"][
+        "evidence_ids"
+    ]
+    assert inspect_ids["maxItems"] == 64
+    assert inspect_ids["items"]["maxLength"] == 1024
     assert AGENTIC_MAX_READS == 24
 
 
@@ -475,4 +813,7 @@ def test_agentic_image_failure_returns_caption_fallback_without_aborting(
     assert observation["error"] == expected_error
     assert observation["url"] == image.url
     assert observation["caption"] == image.caption
-    assert evidence_by_id[evidence.evidence_id].image_observations[0].error == expected_error
+    assert (
+        evidence_by_id[evidence.evidence_id].image_observations[0].error
+        == expected_error
+    )

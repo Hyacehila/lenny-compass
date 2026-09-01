@@ -4,12 +4,14 @@ import asyncio
 import json
 
 import httpx
+import pytest
 from ai_pm_contracts import (
     AnswerRequest,
     DocumentChunkLocator,
     DocumentSegment,
     Evidence,
     ImageReference,
+    QueryRewrite,
     RetrievalHit,
 )
 from lenny_backend.conversations import Message
@@ -19,7 +21,7 @@ from lenny_backend.direct import (
     build_recent_context,
     conservative_token_estimate,
 )
-from lenny_backend.providers import DeepSeekClient
+from lenny_backend.providers import DeepSeekClient, ProviderError
 
 
 def _locator(images: tuple[ImageReference, ...] = ()) -> DocumentChunkLocator:
@@ -88,6 +90,7 @@ def test_direct_service_bm25_degraded_and_fact_prompt_barrier() -> None:
                 json={
                     "choices": [
                         {
+                            "finish_reason": "stop",
                             "message": {
                                 "content": json.dumps(
                                     {
@@ -96,14 +99,15 @@ def test_direct_service_bm25_degraded_and_fact_prompt_barrier() -> None:
                                         "lexical_phrases_en": [],
                                     }
                                 )
-                            }
+                            },
                         }
                     ]
                 },
             )
         stream = (
             'data: {"choices":[{"delta":{"reasoning_content":"DO_NOT_LEAK"}}]}\n\n'
-            'data: {"choices":[{"delta":{"content":"Supported answer"}}]}\n\n'
+            'data: {"choices":[{"delta":{"content":"[evidence:source:doc:chunk] Supported answer"}}]}\n\n'
+            'data: {"choices":[{"delta":{},"finish_reason":"stop"}]}\n\n'
             "data: [DONE]\n\n"
         )
         return httpx.Response(200, content=stream)
@@ -223,6 +227,7 @@ def test_direct_preserves_image_caption_and_url_when_vision_is_unavailable() -> 
                     json={
                         "choices": [
                             {
+                                "finish_reason": "stop",
                                 "message": {
                                     "content": json.dumps(
                                         {
@@ -231,7 +236,7 @@ def test_direct_preserves_image_caption_and_url_when_vision_is_unavailable() -> 
                                             "lexical_phrases_en": [],
                                         }
                                     )
-                                }
+                                },
                             }
                         ]
                     },
@@ -239,7 +244,8 @@ def test_direct_preserves_image_caption_and_url_when_vision_is_unavailable() -> 
             return httpx.Response(
                 200,
                 content=(
-                    'data: {"choices":[{"delta":{"content":"Answer"}}]}\n\n'
+                    'data: {"choices":[{"delta":{"content":"[evidence:source:doc:chunk] Answer"}}]}\n\n'
+                    'data: {"choices":[{"delta":{},"finish_reason":"stop"}]}\n\n'
                     "data: [DONE]\n\n"
                 ),
             )
@@ -277,7 +283,9 @@ def test_direct_preserves_image_caption_and_url_when_vision_is_unavailable() -> 
                 event
                 async for event in service.stream_answer(
                     conversation_id="conversation-one",
-                    request=AnswerRequest(question="What does the chart show?", mode="direct"),
+                    request=AnswerRequest(
+                        question="What does the chart show?", mode="direct"
+                    ),
                     history=(),
                 )
             ]
@@ -314,3 +322,267 @@ def test_recent_context_keeps_at_most_twelve_rounds() -> None:
     assert len(context.splitlines()) == 24
     assert "content-5" not in context
     assert "content-6" in context
+
+
+class _EmptyRetrieval:
+    async def search(self, rewrite):
+        return SearchOutcome(keyword_hits=(), vector_hits=())
+
+
+class _UnavailableRetrieval:
+    async def search(self, rewrite):
+        return SearchOutcome(
+            keyword_hits=(),
+            vector_hits=(),
+            errors=("LEXICAL_INDEX_NOT_READY", "SEMANTIC_INDEX_NOT_READY"),
+        )
+
+
+class _PartiallyChangedSnapshotRetrieval:
+    def __init__(self, locator: DocumentChunkLocator):
+        self.locator = locator
+
+    async def search(self, rewrite):
+        return SearchOutcome(
+            keyword_hits=(
+                RetrievalHit(
+                    provider="keyword",
+                    rank=1,
+                    native_score=1.0,
+                    locator=self.locator,
+                ),
+            ),
+            vector_hits=(),
+            errors=("RETRIEVAL_SNAPSHOT_CHANGED",),
+        )
+
+
+class _NoEvidenceModel:
+    def __init__(self) -> None:
+        self.answer_called = False
+
+    async def rewrite(self, question: str, conversation_context: str) -> QueryRewrite:
+        return QueryRewrite(
+            original_query=question,
+            semantic_query_en=question,
+            lexical_terms_en=(question,),
+        )
+
+    async def stream_answer(self, **kwargs):
+        self.answer_called = True
+        if False:
+            yield "unreachable"
+
+
+def test_direct_zero_evidence_refuses_without_calling_answer_model() -> None:
+    model = _NoEvidenceModel()
+    service = DirectAnswerService(
+        deepseek=model,  # type: ignore[arg-type]
+        retrieval=_EmptyRetrieval(),
+        facts=object(),  # type: ignore[arg-type]
+    )
+
+    async def collect():
+        return [
+            event
+            async for event in service.stream_answer(
+                conversation_id="conversation",
+                request=AnswerRequest(question="这个问题有答案吗？", mode="direct"),
+                history=(),
+            )
+        ]
+
+    events = asyncio.run(collect())
+    done = events[-1]
+    assert done.type == "done"
+    assert done.response.answer_kind == "insufficient_evidence"  # type: ignore[union-attr]
+    assert done.response.evidence == ()  # type: ignore[union-attr]
+    assert done.response.claims == ()  # type: ignore[union-attr]
+    assert model.answer_called is False
+
+
+class _IrrelevantEvidenceRetrieval:
+    def __init__(self, locator: DocumentChunkLocator):
+        self.locator = locator
+
+    async def search(self, rewrite):
+        return SearchOutcome(
+            keyword_hits=(
+                RetrievalHit(
+                    provider="keyword",
+                    rank=1,
+                    native_score=1.0,
+                    locator=self.locator,
+                ),
+            ),
+            vector_hits=(),
+        )
+
+
+class _ExactRefusalModel(_NoEvidenceModel):
+    async def stream_answer(self, **kwargs):
+        self.answer_called = True
+        assert kwargs["insufficient_answer"] == (
+            "The available evidence is insufficient to answer this question reliably."
+        )
+        yield kwargs["insufficient_answer"]
+
+
+def test_direct_can_refuse_after_resolving_irrelevant_evidence() -> None:
+    locator = _locator()
+    evidence = Evidence(
+        evidence_id="source:doc:chunk",
+        evidence_kind="source_chunk",
+        locator=locator,
+        text="This evidence is unrelated to the question.",
+    )
+    model = _ExactRefusalModel()
+    service = DirectAnswerService(
+        deepseek=model,  # type: ignore[arg-type]
+        retrieval=_IrrelevantEvidenceRetrieval(locator),
+        facts=_Facts(evidence),
+    )
+
+    async def collect():
+        return [
+            event
+            async for event in service.stream_answer(
+                conversation_id="conversation",
+                request=AnswerRequest(question="Question", mode="direct"),
+                history=(),
+            )
+        ]
+
+    done = asyncio.run(collect())[-1]
+    assert done.type == "done"
+    assert done.response.answer_kind == "insufficient_evidence"  # type: ignore[union-attr]
+    assert done.response.evidence == ()  # type: ignore[union-attr]
+    assert done.response.claims == ()  # type: ignore[union-attr]
+    assert model.answer_called is True
+
+
+def test_direct_does_not_misreport_total_retrieval_failure_as_no_evidence() -> None:
+    model = _NoEvidenceModel()
+    service = DirectAnswerService(
+        deepseek=model,  # type: ignore[arg-type]
+        retrieval=_UnavailableRetrieval(),
+        facts=object(),  # type: ignore[arg-type]
+    )
+
+    async def consume() -> None:
+        async for _ in service.stream_answer(
+            conversation_id="conversation",
+            request=AnswerRequest(question="Question", mode="direct"),
+            history=(),
+        ):
+            pass
+
+    with pytest.raises(ProviderError) as caught:
+        asyncio.run(consume())
+    assert caught.value.code == "RETRIEVAL_UNAVAILABLE"
+    assert model.answer_called is False
+
+
+def test_direct_snapshot_change_is_fatal_even_with_partial_search_success() -> None:
+    locator = _locator()
+    model = _NoEvidenceModel()
+    service = DirectAnswerService(
+        deepseek=model,  # type: ignore[arg-type]
+        retrieval=_PartiallyChangedSnapshotRetrieval(locator),
+        facts=_Facts(
+            Evidence(
+                evidence_id="source:doc:chunk",
+                evidence_kind="source_chunk",
+                locator=locator,
+                text="Fact",
+            )
+        ),
+    )
+
+    async def consume() -> None:
+        async for _ in service.stream_answer(
+            conversation_id="conversation",
+            request=AnswerRequest(question="Question", mode="direct"),
+            history=(),
+        ):
+            pass
+
+    with pytest.raises(ProviderError) as caught:
+        asyncio.run(consume())
+    assert caught.value.code == "RETRIEVAL_SNAPSHOT_CHANGED"
+    assert model.answer_called is False
+
+
+class _SnapshotChanged(RuntimeError):
+    code = "RETRIEVAL_SNAPSHOT_CHANGED"
+
+
+class _PartiallyResolvingFacts:
+    def __init__(self, evidence: Evidence):
+        self.evidence = evidence
+        self.calls = 0
+
+    def read_source_window(self, locator, window=0):
+        self.calls += 1
+        if self.calls == 1:
+            return (self.evidence,)
+        raise _SnapshotChanged("private snapshot path")
+
+
+class _TwoHitRetrieval:
+    def __init__(
+        self, first: DocumentChunkLocator, second: DocumentChunkLocator
+    ) -> None:
+        self.first = first
+        self.second = second
+
+    async def search(self, rewrite):
+        return SearchOutcome(
+            keyword_hits=(
+                RetrievalHit(
+                    provider="keyword",
+                    rank=1,
+                    native_score=1.0,
+                    locator=self.first,
+                ),
+                RetrievalHit(
+                    provider="keyword",
+                    rank=2,
+                    native_score=2.0,
+                    locator=self.second,
+                ),
+            ),
+            vector_hits=(),
+        )
+
+
+def test_direct_snapshot_change_is_fatal_after_partial_fact_resolution() -> None:
+    first = _locator()
+    second = first.model_copy(update={"chunk_id": "chunk-two", "ordinal": 1})
+    evidence = Evidence(
+        evidence_id="source:doc:chunk",
+        evidence_kind="source_chunk",
+        locator=first,
+        text="Fact",
+    )
+    model = _NoEvidenceModel()
+    facts = _PartiallyResolvingFacts(evidence)
+    service = DirectAnswerService(
+        deepseek=model,  # type: ignore[arg-type]
+        retrieval=_TwoHitRetrieval(first, second),
+        facts=facts,
+    )
+
+    async def consume() -> None:
+        async for _ in service.stream_answer(
+            conversation_id="conversation",
+            request=AnswerRequest(question="Question", mode="direct"),
+            history=(),
+        ):
+            pass
+
+    with pytest.raises(ProviderError) as caught:
+        asyncio.run(consume())
+    assert caught.value.code == "RETRIEVAL_SNAPSHOT_CHANGED"
+    assert facts.calls == 2
+    assert model.answer_called is False

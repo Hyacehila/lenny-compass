@@ -1,0 +1,605 @@
+{
+  "schema_version": "stage2-question-planning.v1",
+  "cases": [
+    {
+      "case_id": "plan-knowledge-01",
+      "question": "什么是北极星指标？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "knowledge",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-knowledge-02",
+      "question": "How does continuous discovery work?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "knowledge",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-knowledge-03",
+      "question": "产品市场匹配通常有哪些判断信号？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "knowledge",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-knowledge-04",
+      "question": "What is a retention cohort?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "knowledge",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-knowledge-05",
+      "question": "机会解决方案树解决什么问题？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "knowledge",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-knowledge-06",
+      "question": "How should a product team define activation?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "knowledge",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-knowledge-07",
+      "question": "双钻模型包含哪些阶段？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "knowledge",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-knowledge-08",
+      "question": "What makes an interview question leading?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "knowledge",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-knowledge-09",
+      "question": "如何区分输出指标和结果指标？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "knowledge",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-knowledge-10",
+      "question": "What is a product strategy?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "knowledge",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-knowledge-11",
+      "question": "定价访谈应该避免哪些问法？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "knowledge",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-knowledge-12",
+      "question": "How is churn different from contraction?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "knowledge",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-knowledge-13",
+      "question": "什么是可逆决策？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "knowledge",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-knowledge-14",
+      "question": "What does product-led growth mean?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "knowledge",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-knowledge-15",
+      "question": "路线图和承诺计划有什么区别？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "knowledge",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-comparison-01",
+      "question": "比较北极星指标和 OMTM 的使用场景。",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "comparison",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-comparison-02",
+      "question": "Compare continuous discovery with a fixed research sprint.",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "comparison",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-comparison-03",
+      "question": "产品愿景与产品战略有什么不同？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "comparison",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-comparison-04",
+      "question": "Compare qualitative interviews and product analytics.",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "comparison",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-comparison-05",
+      "question": "机会解决方案树与普通功能清单有什么区别？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "comparison",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-comparison-06",
+      "question": "Compare leading and lagging indicators.",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "comparison",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-comparison-07",
+      "question": "自下而上定价和基于价值定价有什么差别？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "comparison",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-comparison-08",
+      "question": "Compare problem validation with solution validation.",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "comparison",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-comparison-09",
+      "question": "项目型路线图与结果型路线图如何取舍？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "comparison",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-comparison-10",
+      "question": "Compare a beta launch with a full launch.",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "comparison",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-comparison-11",
+      "question": "用户分群与用户画像有什么不同？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "comparison",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-comparison-12",
+      "question": "Compare an A/B test with a holdout test.",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "comparison",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-comparison-13",
+      "question": "增长团队和核心产品团队的目标如何区分？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "comparison",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-comparison-14",
+      "question": "Compare a product review with a design critique.",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "comparison",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-comparison-15",
+      "question": "月留存与周留存分别适合什么产品？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "comparison",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-missing-01",
+      "question": "我们的激活率下降了，我该先做什么？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": true,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-missing-02",
+      "question": "We need to improve retention. What should the team prioritize?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": true,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-missing-03",
+      "question": "老板要求下季度增长 30%，产品该怎么拆？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": true,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-missing-04",
+      "question": "Our roadmap is overloaded. What should I cut?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": true,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-missing-05",
+      "question": "新功能上线后使用率很低，下一步怎么做？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": true,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-missing-06",
+      "question": "We are considering a price increase. How should we proceed?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": true,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-missing-07",
+      "question": "销售不断插需求，我应该如何排序？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": true,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-missing-08",
+      "question": "Our onboarding is too long. What should change first?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": true,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-missing-09",
+      "question": "团队对北极星指标有分歧，怎么推进？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": true,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-missing-10",
+      "question": "A competitor launched a similar feature. Should we respond?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": true,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-complete-01",
+      "question": "B2B 试用产品的新用户在连接数据源前流失；目标是本月提高首次连接率，工程只有一周，先查什么？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-complete-02",
+      "question": "Our weekly retention is stable, but activation fell after a required setup step was added. What should we test first?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-complete-03",
+      "question": "付费转化稳定，但高价值客户在续约前 30 天减少使用；我们能触达客户成功团队，如何诊断？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-complete-04",
+      "question": "We have 200 interview notes showing the same reporting pain and two engineers for a two-week prototype. What is a sensible next step?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-complete-05",
+      "question": "移动端结账完成率低于网页端，漏斗显示地址输入流失最多，本季度目标是提升成交，优先做什么？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-complete-06",
+      "question": "Our enterprise buyers request SSO, five signed deals are blocked, and security review takes six weeks. How should we sequence the work?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-complete-07",
+      "question": "内容产品首周留存下降，新增用户来源从自然搜索转为广告，产品体验没有改动，该怎么排查？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-complete-08",
+      "question": "A pricing test increased ARPU but reduced conversion; the goal is total gross profit and the sample is powered. How should we decide?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-complete-09",
+      "question": "团队每周交付功能但核心任务完成率不变，当前有可用性录像和事件数据，下一步怎么做？",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-scenario-complete-10",
+      "question": "Our beta has 40 target users, 70% complete the core workflow, and support tickets cluster around permissions. What should the next sprint focus on?",
+      "conversation_context": "",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "scenario_advice",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-follow-up-01",
+      "question": "那第二点具体怎么做？",
+      "conversation_context": "assistant: 先检查激活定义，再看分群差异。",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "follow_up",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-follow-up-02",
+      "question": "Can you turn that into a first-week checklist?",
+      "conversation_context": "assistant: Start with the activation funnel and interview five recent drop-offs.",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "follow_up",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-follow-up-03",
+      "question": "如果工程只有三天呢？",
+      "conversation_context": "assistant: 建议先验证地址输入是否为主要摩擦点。",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "follow_up",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-follow-up-04",
+      "question": "Which assumption is riskiest?",
+      "conversation_context": "assistant: The recommendation depends on whether usage decline predicts renewal risk.",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "follow_up",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-follow-up-05",
+      "question": "这个结论来自哪一类资料？",
+      "conversation_context": "assistant: The answer cited interview and analytics guidance.",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "follow_up",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-follow-up-06",
+      "question": "能再比较一下第二种方法吗？",
+      "conversation_context": "assistant: 两种方法的主要差异是反馈频率。",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "follow_up",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-follow-up-07",
+      "question": "What would make you change that recommendation?",
+      "conversation_context": "assistant: Prioritize the permissions issue in the next sprint.",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "follow_up",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-follow-up-08",
+      "question": "跳过追问，直接给建议。",
+      "conversation_context": "assistant: Which customer segment matters most?",
+      "completed_clarification_rounds": 1,
+      "skip_clarification": true,
+      "expected_intent": "follow_up",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-follow-up-09",
+      "question": "把建议缩成两步。",
+      "conversation_context": "assistant: 先分群，再验证关键摩擦。",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "follow_up",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    },
+    {
+      "case_id": "plan-follow-up-10",
+      "question": "Does that still apply to a marketplace?",
+      "conversation_context": "assistant: Use a retention metric tied to durable customer value.",
+      "completed_clarification_rounds": 0,
+      "skip_clarification": false,
+      "expected_intent": "follow_up",
+      "expected_clarification": false,
+      "expected_source_scope": "broad"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": "ai-pm.eval.case-suite.v1",
+  "suite_id": "synthetic-pm-smoke-v1",
+  "description": "完全合成的产品管理评测案例，只包含虚构证据 ID，不复制任何付费语料。",
+  "metadata": {
+    "data_classification": "synthetic",
+    "language": "zh-CN"
+  },
+  "cases": [
+    {
+      "case_id": "discovery-synthesis",
+      "query": "根据访谈证据，概括主要痛点和一个可验证假设。",
+      "tags": ["retrieval", "grounding", "discovery"],
+      "notes": "证据 ID 指向虚构夹具；仓库中不保存原始访谈文本。",
+      "expectation": {
+        "relevant_evidence_ids": [
+          "synthetic:interview:01",
+          "synthetic:interview:02"
+        ],
+        "answer_kind": "answer",
+        "expected_claims": [
+          {
+            "claim_id": "pain-point",
+            "acceptable_evidence_ids": ["synthetic:interview:01"]
+          },
+          {
+            "claim_id": "testable-hypothesis",
+            "acceptable_evidence_ids": ["synthetic:interview:02"]
+          }
+        ],
+        "trace": {
+          "required_tools": ["search"],
+          "forbidden_tools": ["vision"],
+          "max_steps": 3,
+          "require_completed": true
+        },
+        "budget": {
+          "max_latency_ms": 1500,
+          "max_cost_usd": 0.01,
+          "max_input_tokens": 2000,
+          "max_output_tokens": 500
+        }
+      }
+    },
+    {
+      "case_id": "insufficient-evidence-refusal",
+      "query": "给出这个虚构产品下一季度的精确营收预测。",
+      "tags": ["refusal", "insufficient-evidence"],
+      "expectation": {
+        "relevant_evidence_ids": [],
+        "answer_kind": "refusal",
+        "expected_claims": [],
+        "trace": {
+          "required_tools": ["search"],
+          "max_steps": 2,
+          "require_completed": true
+        },
+        "budget": {
+          "max_latency_ms": 800,
+          "max_cost_usd": 0.003,
+          "max_output_tokens": 150
+        }
+      }
+    },
+    {
+      "case_id": "multi-source-prioritization",
+      "query": "综合三项合成证据，给出优先级结论及其风险。",
+      "tags": ["multi-hop", "prioritization", "trace"],
+      "expectation": {
+        "relevant_evidence_ids": [
+          "synthetic:metric:activation",
+          "synthetic:request:export",
+          "synthetic:constraint:security"
+        ],
+        "answer_kind": "answer",
+        "expected_claims": [
+          {
+            "claim_id": "priority",
+            "acceptable_evidence_ids": [
+              "synthetic:metric:activation",
+              "synthetic:request:export"
+            ]
+          },
+          {
+            "claim_id": "risk",
+            "acceptable_evidence_ids": ["synthetic:constraint:security"]
+          }
+        ],
+        "trace": {
+          "required_tools": ["search", "read_source"],
+          "forbidden_tools": ["vision"],
+          "max_steps": 4,
+          "require_completed": true
+        },
+        "budget": {
+          "max_latency_ms": 2200,
+          "max_cost_usd": 0.02,
+          "max_input_tokens": 3000,
+          "max_output_tokens": 650
+        }
+      }
+    }
+  ]
+}

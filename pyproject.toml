@@ -1,6 +1,7 @@
 [tool.uv.workspace]
 members = [
     "contracts",
+    "evals",
     "pipelines/fact_build",
     "pipelines/retrieval_build",
     "backend",

@@ -12,6 +12,8 @@ def test_settings_defaults_and_environment(monkeypatch, tmp_path: Path) -> None:
     assert settings.app_host == "127.0.0.1"
     assert settings.app_port == 4999
     assert settings.llm_wiki_enabled is False
+    assert settings.provider_timeout_seconds == 60.0
+    assert settings.answer_run_timeout_seconds == 480.0
     assert settings.resolved_chat_db_path == tmp_path / "runtime/backend/conversations.sqlite3"
     assert settings.resolved_retrieval_manifest_path == tmp_path / "retrieval/manifests/build.json"
 

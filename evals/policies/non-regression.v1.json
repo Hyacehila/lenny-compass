@@ -1,0 +1,82 @@
+{
+  "schema_version": "ai-pm.eval.gate-policy.v1",
+  "policy_id": "quality-non-regression-v1",
+  "require_same_suite": true,
+  "require_same_case_set": true,
+  "checks": [
+    {
+      "check_id": "recall-at-5",
+      "metric": "retrieval.recall_at_k.5",
+      "rule": "non_regression",
+      "direction": "higher"
+    },
+    {
+      "check_id": "mrr",
+      "metric": "retrieval.mrr",
+      "rule": "non_regression",
+      "direction": "higher"
+    },
+    {
+      "check_id": "citation-validity",
+      "metric": "grounding.citation_validity",
+      "rule": "non_regression",
+      "direction": "higher"
+    },
+    {
+      "check_id": "citation-coverage",
+      "metric": "grounding.citation_coverage",
+      "rule": "non_regression",
+      "direction": "higher"
+    },
+    {
+      "check_id": "expected-claim-coverage",
+      "metric": "grounding.expected_claim_coverage",
+      "rule": "non_regression",
+      "direction": "higher"
+    },
+    {
+      "check_id": "grounding-score",
+      "metric": "grounding.grounding_score",
+      "rule": "non_regression",
+      "direction": "higher"
+    },
+    {
+      "check_id": "completion-rate",
+      "metric": "behavior.completion_rate",
+      "rule": "non_regression",
+      "direction": "higher"
+    },
+    {
+      "check_id": "answer-kind-accuracy",
+      "metric": "behavior.answer_kind_accuracy",
+      "rule": "non_regression",
+      "direction": "higher"
+    },
+    {
+      "check_id": "refusal-accuracy",
+      "metric": "behavior.refusal_accuracy",
+      "rule": "non_regression",
+      "direction": "higher"
+    },
+    {
+      "check_id": "trace-compliance",
+      "metric": "behavior.trace_compliance",
+      "rule": "non_regression",
+      "direction": "higher"
+    },
+    {
+      "check_id": "latency-p95",
+      "metric": "operations.latency_ms.p95",
+      "rule": "non_regression",
+      "direction": "lower",
+      "relative_tolerance": 0.2
+    },
+    {
+      "check_id": "mean-cost",
+      "metric": "operations.mean_cost_usd",
+      "rule": "non_regression",
+      "direction": "lower",
+      "relative_tolerance": 0.2
+    }
+  ]
+}

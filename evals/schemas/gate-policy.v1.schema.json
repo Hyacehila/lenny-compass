@@ -1,0 +1,126 @@
+{
+  "$defs": {
+    "GateCheckSpec": {
+      "additionalProperties": false,
+      "properties": {
+        "absolute_tolerance": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Absolute Tolerance",
+          "type": "number"
+        },
+        "check_id": {
+          "maxLength": 160,
+          "minLength": 1,
+          "title": "Check Id",
+          "type": "string"
+        },
+        "direction": {
+          "anyOf": [
+            {
+              "enum": [
+                "higher",
+                "lower"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Direction"
+        },
+        "metric": {
+          "maxLength": 160,
+          "minLength": 1,
+          "title": "Metric",
+          "type": "string"
+        },
+        "relative_tolerance": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Relative Tolerance",
+          "type": "number"
+        },
+        "rule": {
+          "enum": [
+            "non_regression",
+            "minimum",
+            "maximum"
+          ],
+          "title": "Rule",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value"
+        },
+        "when_unavailable": {
+          "default": "skip",
+          "enum": [
+            "fail",
+            "skip"
+          ],
+          "title": "When Unavailable",
+          "type": "string"
+        }
+      },
+      "required": [
+        "check_id",
+        "metric",
+        "rule"
+      ],
+      "title": "GateCheckSpec",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "checks": {
+      "items": {
+        "$ref": "#/$defs/GateCheckSpec"
+      },
+      "minItems": 1,
+      "title": "Checks",
+      "type": "array"
+    },
+    "policy_id": {
+      "maxLength": 160,
+      "minLength": 1,
+      "title": "Policy Id",
+      "type": "string"
+    },
+    "require_same_case_set": {
+      "default": true,
+      "title": "Require Same Case Set",
+      "type": "boolean"
+    },
+    "require_same_suite": {
+      "default": true,
+      "title": "Require Same Suite",
+      "type": "boolean"
+    },
+    "schema_version": {
+      "const": "ai-pm.eval.gate-policy.v1",
+      "title": "Schema Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "policy_id",
+    "checks"
+  ],
+  "title": "GatePolicy",
+  "type": "object"
+}

@@ -46,7 +46,12 @@ def test_reserved_wiki_and_image_contracts_have_stable_explicit_keys() -> None:
 
 
 def test_evidence_has_typed_strict_image_observations() -> None:
-    locator = make_document("vision", ["A chart supports the claim."]).chunks[0].locator
+    image = ImageReference(image_id="chart-1", url="https://example.test/chart.png")
+    locator = (
+        make_document("vision", ["A chart supports the claim."])
+        .chunks[0]
+        .locator.model_copy(update={"images": (image,)})
+    )
     observation = ImageObservation(
         image_id="chart-1",
         url="https://example.test/chart.png",
@@ -63,3 +68,13 @@ def test_evidence_has_typed_strict_image_observations() -> None:
     assert evidence.image_observations == (observation,)
     with pytest.raises(ValidationError):
         ImageObservation(image_id="chart-1", confidence=0.9)
+    with pytest.raises(ValidationError):
+        Evidence(
+            evidence_id="source:vision:0",
+            evidence_kind="source_chunk",
+            locator=locator,
+            text="A chart supports the claim.",
+            image_observations=(
+                ImageObservation(image_id="not-in-locator", inspected=False),
+            ),
+        )

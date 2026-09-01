@@ -1,5 +1,57 @@
 export type RagMode = "direct" | "agentic";
+export type AnswerKind = "grounded" | "insufficient_evidence";
+export type AnswerContractVersion = "v1" | "v2";
+export type ResponseKind =
+  | "grounded_answer"
+  | "general_guidance"
+  | "clarification"
+  | "insufficient_evidence";
+export type ClaimRole = "core" | "supporting" | "advice_rationale";
 export type UtilityTab = "evidence" | "process" | "system";
+export type AnswerRunStatus = "streaming" | "completed" | "stopped" | "failed";
+
+export interface AnswerClaim {
+  claim_id: string;
+  text: string;
+  evidence_ids: string[];
+  role?: ClaimRole;
+}
+
+export interface AdviceItem {
+  advice_id: string;
+  text: string;
+  basis: "evidence_synthesis" | "general_pm_guidance";
+  rationale_claim_ids: string[];
+}
+
+export interface UserPremise {
+  premise_id: string;
+  text: string;
+  source_message_id: string;
+}
+
+export interface Clarification {
+  coaching_id: string;
+  round: number;
+  prompt: string;
+  suggestions: string[];
+  can_skip: true;
+}
+
+export interface AnswerVerification {
+  status: "passed";
+  scope: "claim_evidence_support";
+  policy_version: string;
+  checked_claim_count: number;
+  omitted_claim_count: number;
+  calibration_level: "uncalibrated" | "minimal";
+}
+
+export interface AnswerRunError {
+  code: string;
+  message: string;
+  retryable: boolean;
+}
 
 export interface Conversation {
   id: string;
@@ -92,7 +144,22 @@ export interface ChatMessage {
   mode?: RagMode;
   created_at: string;
   citations?: Citation[];
+  answer_kind?: AnswerKind | null;
+  contract_version?: AnswerContractVersion;
+  response_kind?: ResponseKind | null;
+  claims?: AnswerClaim[];
+  advice?: AdviceItem[];
+  user_premises?: UserPremise[];
+  clarification?: Clarification | null;
+  verification?: AnswerVerification | null;
+  insufficient_reason?: "no_evidence" | "semantic_support_failed" | "semantic_support_uncertain" | null;
   process_trace?: AnswerProcessTrace | null;
+  run_id?: string;
+  request_id?: string;
+  assistant_message_id?: string;
+  run_status?: AnswerRunStatus;
+  run_error?: AnswerRunError;
+  retry_question?: string;
 }
 
 export interface HealthStatus {
@@ -102,6 +169,7 @@ export interface HealthStatus {
   lexical_ready?: boolean;
   semantic_ready?: boolean;
   deepseek_ready?: boolean;
+  claim_verifier_ready?: boolean;
   zhipu_ready?: boolean;
   answer_ready?: boolean;
   full_ready?: boolean;
@@ -144,6 +212,21 @@ export type SseEvent =
   | { type: "answer_delta"; delta: string }
   | {
       type: "done";
-      response: { request_id: string; mode: RagMode; answer: string; evidence: Citation[] };
+      response: {
+        request_id: string;
+        assistant_message_id?: string;
+        mode: RagMode;
+        contract_version?: AnswerContractVersion;
+        response_kind?: ResponseKind | null;
+        answer_kind: AnswerKind | null;
+        answer: string;
+        evidence: Citation[];
+        claims: AnswerClaim[];
+        advice?: AdviceItem[];
+        user_premises?: UserPremise[];
+        clarification?: Clarification | null;
+        verification?: AnswerVerification | null;
+        insufficient_reason?: "no_evidence" | "semantic_support_failed" | "semantic_support_uncertain" | null;
+      };
     }
   | { type: "error"; error: { code: string; message: string; retryable: boolean } };

@@ -32,6 +32,10 @@ class Settings(BaseSettings):
     query_rewrite_prompt_path: Path = Path("config/agent/query_rewrite.txt")
     answer_prompt_path: Path = Path("config/agent/direct_answer.txt")
     agentic_prompt_path: Path = Path("config/agent/agentic_answer.txt")
+    question_plan_prompt_path: Path = Path("config/agent/question_plan.txt")
+    stage2_answer_prompt_path: Path = Path("config/agent/stage2_answer.txt")
+    semantic_verify_prompt_path: Path = Path("config/agent/semantic_verify.txt")
+    stage2_repair_prompt_path: Path = Path("config/agent/stage2_repair.txt")
     vision_prompt_path: Path = Path("config/agent/vision_observation.txt")
 
     llm_wiki_enabled: bool = False
@@ -43,12 +47,17 @@ class Settings(BaseSettings):
     deepseek_base_url: str = "https://api.deepseek.com"
     deepseek_answer_model: str = "deepseek-v4-flash"
     deepseek_rewrite_model: str = "deepseek-v4-flash"
+    deepseek_verify_model: str = "deepseek-v4-flash"
     zhipu_api_key: str | None = None
     zhipu_base_url: str = "https://open.bigmodel.cn/api/paas/v4"
     zhipu_embedding_model: str = "embedding-3"
     zhipu_embedding_dimensions: int = Field(default=2048, ge=2048, le=2048)
     zhipu_vision_model: str = "glm-5v-turbo"
     provider_timeout_seconds: float = Field(default=60.0, gt=0, le=300)
+    # Stage 2 can make a bounded sequence of provider calls (planning, retrieval,
+    # vision, drafting, verification, and at most one repair). Keep a total
+    # deadline, but make it large enough for those individually bounded steps.
+    answer_run_timeout_seconds: float = Field(default=480.0, gt=0, le=900)
 
     @field_validator("app_host")
     @classmethod
@@ -92,6 +101,22 @@ class Settings(BaseSettings):
     @property
     def resolved_answer_prompt_path(self) -> Path:
         return self.resolve_path(self.answer_prompt_path)
+
+    @property
+    def resolved_question_plan_prompt_path(self) -> Path:
+        return self.resolve_path(self.question_plan_prompt_path)
+
+    @property
+    def resolved_stage2_answer_prompt_path(self) -> Path:
+        return self.resolve_path(self.stage2_answer_prompt_path)
+
+    @property
+    def resolved_semantic_verify_prompt_path(self) -> Path:
+        return self.resolve_path(self.semantic_verify_prompt_path)
+
+    @property
+    def resolved_stage2_repair_prompt_path(self) -> Path:
+        return self.resolve_path(self.stage2_repair_prompt_path)
 
     @property
     def resolved_vision_prompt_path(self) -> Path:

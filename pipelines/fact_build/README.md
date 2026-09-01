@@ -23,8 +23,13 @@ uv run --package lenny-compass-fact-build fact-build validate
 ```
 
 `build` refuses to start the full corpus unless all five pilot documents pass.
-It atomically publishes `facts/documents/v2`, `facts/chunks/v2`, and
-`facts/manifests/build.json`. Locator artifact paths are relative to `facts/`;
+It writes a complete immutable generation beneath
+`facts/generations/<build-id>/` and atomically advances
+`facts/manifests/build.json` only after that generation is complete. Existing
+manifests that reference the original `facts/documents/v2` and
+`facts/chunks/v2` layout remain valid. Every generation also contains its own
+immutable `manifest.json`, allowing a retrieval snapshot to remain pinned after
+the active pointer advances. Locator artifact paths are relative to `facts/`;
 raw and enhanced paths are explicit repository-relative fields with independent
 SHA-256 hashes. Each manifest entry also hashes the final fact-document bytes,
 and each locator hashes its canonical chunk content. A non-empty

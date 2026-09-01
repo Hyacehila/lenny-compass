@@ -3,8 +3,11 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import shutil
 import sqlite3
 import uuid
+from contextlib import closing
+from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Literal
@@ -42,6 +45,7 @@ class RetrievalBundleManifest(BaseModel):
     created_at: datetime
     facts_manifest_file: str = Field(min_length=1)
     facts_manifest_sha256: str = Field(pattern=r"^[0-9a-f]{64}$")
+    facts_build_id: str | None = Field(default=None, min_length=1)
     document_count: int = Field(ge=0)
     chunk_count: int = Field(ge=0)
 
@@ -77,6 +81,17 @@ class RetrievalBundleManifest(BaseModel):
         return self
 
 
+@dataclass(frozen=True)
+class ValidatedRetrievalBundle:
+    """A validated manifest together with its resolved immutable artifacts."""
+
+    manifest: RetrievalBundleManifest
+    manifest_path: Path
+    facts_manifest_path: Path
+    lexical_database_path: Path
+    semantic_database_path: Path | None
+
+
 def build_retrieval_bundle(
     *,
     facts_manifest_path: str | Path,
@@ -86,27 +101,36 @@ def build_retrieval_bundle(
     embedder: EmbeddingProvider | None = None,
     semantic_reason: str | None = None,
 ) -> RetrievalBundleManifest:
-    """Build separate lexical/vector databases and publish the manifest last.
-
-    The bundle manifest is the commit marker. If a process stops between a
-    database replacement and the manifest replacement, startup hash/build-id
-    validation fails closed instead of mixing generations.
-    """
+    """Build immutable lexical/vector databases and publish one pointer last."""
 
     facts_manifest_file = Path(facts_manifest_path).resolve(strict=True)
-    # Contract: facts/manifests/build.json points to paths relative to facts/.
-    if facts_manifest_file.parent.name.casefold() != "manifests":
+    generation_manifest_id: str | None = None
+    if facts_manifest_file.parent.name.casefold() == "manifests":
+        facts_root = facts_manifest_file.parent.parent
+    elif (
+        facts_manifest_file.name.casefold() == "manifest.json"
+        and facts_manifest_file.parent.parent.name.casefold() == "generations"
+    ):
+        facts_root = facts_manifest_file.parent.parent.parent
+        generation_manifest_id = facts_manifest_file.parent.name
+    else:
         raise IndexBuildError(
             "INVALID_FACT_MANIFEST_PATH",
-            "facts manifest must be inside the facts/manifests directory",
+            "facts manifest must be the active pointer or an immutable generation manifest",
         )
-    facts_root = facts_manifest_file.parent.parent
     facts_manifest_bytes = facts_manifest_file.read_bytes()
     facts_manifest_sha256 = hashlib.sha256(facts_manifest_bytes).hexdigest()
     try:
         facts_manifest = FactBuildManifest.model_validate_json(facts_manifest_bytes)
     except ValueError as exc:
         raise IndexBuildError("INVALID_FACT_MANIFEST", str(exc)) from exc
+    if generation_manifest_id is not None and (
+        generation_manifest_id != facts_manifest.build_id
+    ):
+        raise IndexBuildError(
+            "INVALID_FACT_MANIFEST",
+            "facts generation directory does not match its manifest build ID",
+        )
 
     manifest_output = Path(manifest_output_path).resolve(strict=False)
     # Contract: retrieval/manifests/build.json points to paths relative to retrieval/.
@@ -139,22 +163,38 @@ def build_retrieval_bundle(
             "bundle manifest must be separate from database files",
         )
 
+    build_id = uuid.uuid4().hex
+    lexical_layout = lexical_output.relative_to(bundle_root)
+    semantic_layout = semantic_output.relative_to(bundle_root)
+    for label, layout in (
+        ("lexical", lexical_layout),
+        ("semantic", semantic_layout),
+    ):
+        if layout.parts[0].casefold() in {"generations", "manifests"}:
+            raise IndexBuildError(
+                "INVALID_OUTPUT_PATH",
+                f"{label} output must describe a stable layout outside reserved directories",
+            )
+
     bundle_root.mkdir(parents=True, exist_ok=True)
     manifest_output.parent.mkdir(parents=True, exist_ok=True)
-    lexical_output.parent.mkdir(parents=True, exist_ok=True)
-    semantic_output.parent.mkdir(parents=True, exist_ok=True)
-
-    build_id = uuid.uuid4().hex
-    lexical_staging = lexical_output.with_name(f".{lexical_output.name}.{build_id}.tmp")
-    semantic_staging = semantic_output.with_name(
-        f".{semantic_output.name}.{build_id}.tmp"
-    )
+    generation_target = bundle_root / "generations" / build_id
+    generation_target.parent.mkdir(parents=True, exist_ok=True)
+    staging_root = bundle_root / f".retrieval-build-staging-{build_id}"
+    staging_root.mkdir(parents=False, exist_ok=False)
+    lexical_staging = staging_root / lexical_layout
+    semantic_staging = staging_root / semantic_layout
+    lexical_staging.parent.mkdir(parents=True, exist_ok=True)
+    semantic_staging.parent.mkdir(parents=True, exist_ok=True)
+    lexical_generation_output = generation_target / lexical_layout
+    semantic_generation_output = generation_target / semantic_layout
     manifest_staging = manifest_output.with_name(
         f".{manifest_output.name}.{build_id}.tmp"
     )
 
     lexical_connection: sqlite3.Connection | None = None
     semantic_connection: sqlite3.Connection | None = None
+    installed_generation = False
     try:
         lexical_connection = connect_lexical(lexical_staging)
         sqlite_version = check_sqlite_version(lexical_connection)
@@ -285,16 +325,24 @@ def build_retrieval_bundle(
         semantic_sha256 = (
             _sha256_file(semantic_staging) if semantic_status != "not_ready" else None
         )
+        immutable_facts_manifest_file = _ensure_immutable_facts_manifest(
+            facts_root=facts_root,
+            manifest=facts_manifest,
+            manifest_bytes=facts_manifest_bytes,
+        )
         manifest = RetrievalBundleManifest(
             build_id=build_id,
             created_at=datetime.now(UTC),
             facts_manifest_file=_relative_artifact_path(
-                repository_root, facts_manifest_file
+                repository_root, immutable_facts_manifest_file
             ),
             facts_manifest_sha256=facts_manifest_sha256,
+            facts_build_id=facts_manifest.build_id,
             document_count=loaded_documents,
             chunk_count=loaded_chunks,
-            lexical_database_file=_relative_artifact_path(bundle_root, lexical_output),
+            lexical_database_file=_relative_artifact_path(
+                bundle_root, lexical_generation_output
+            ),
             lexical_database_sha256=lexical_sha256,
             semantic_status=semantic_status,
             semantic_reason=(
@@ -304,7 +352,7 @@ def build_retrieval_bundle(
                 )
             ),
             semantic_database_file=(
-                _relative_artifact_path(bundle_root, semantic_output)
+                _relative_artifact_path(bundle_root, semantic_generation_output)
                 if semantic_status != "not_ready"
                 else None
             ),
@@ -314,32 +362,177 @@ def build_retrieval_bundle(
             sqlite_vec_version=sqlite_vec_version,
         )
         _write_json_fsync(manifest_staging, manifest.model_dump(mode="json"))
+        if RetrievalBundleManifest.model_validate_json(
+            manifest_staging.read_bytes()
+        ) != manifest:
+            raise IndexBuildError(
+                "INVALID_BUILD_MANIFEST", "candidate manifest roundtrip mismatch"
+            )
 
-        # Publish databases first and the manifest last as the atomic commit marker.
-        os.replace(lexical_staging, lexical_output)
+        _validate_candidate_database(
+            path=lexical_staging,
+            expected_sha256=lexical_sha256,
+            index_kind="lexical",
+            build_id=build_id,
+            facts_manifest_sha256=facts_manifest_sha256,
+            expected_status="ready",
+        )
         if semantic_status != "not_ready":
-            os.replace(semantic_staging, semantic_output)
-        else:
-            # A prior ready generation must never look usable beside a new
-            # not-ready commit marker. The manifest is still published last.
-            semantic_output.unlink(missing_ok=True)
-        os.replace(manifest_staging, manifest_output)
+            if semantic_sha256 is None:
+                raise IndexBuildError(
+                    "INVALID_BUILD_MANIFEST", "semantic hash is missing"
+                )
+            _validate_candidate_database(
+                path=semantic_staging,
+                expected_sha256=semantic_sha256,
+                index_kind="semantic",
+                build_id=build_id,
+                facts_manifest_sha256=facts_manifest_sha256,
+                expected_status=semantic_status,
+                expected_sqlite_vec_version=sqlite_vec_version,
+            )
+
+        # Do not publish an index for a fact pointer that advanced mid-build.
+        if hashlib.sha256(facts_manifest_file.read_bytes()).hexdigest() != (
+            facts_manifest_sha256
+        ):
+            raise IndexBuildError(
+                "STALE_FACT_MANIFEST", "facts manifest changed during retrieval build"
+            )
+
+        # The generation directory is immutable. The manifest replacement is
+        # the only operation that changes the active bundle.
+        os.replace(staging_root, generation_target)
+        installed_generation = True
+        try:
+            os.replace(manifest_staging, manifest_output)
+        except Exception:
+            shutil.rmtree(generation_target, ignore_errors=True)
+            installed_generation = False
+            raise
         return manifest
     except Exception:
         if lexical_connection is not None:
             lexical_connection.close()
         if semantic_connection is not None:
             semantic_connection.close()
-        lexical_staging.unlink(missing_ok=True)
-        semantic_staging.unlink(missing_ok=True)
+        if installed_generation:
+            shutil.rmtree(generation_target, ignore_errors=True)
+        if staging_root.exists():
+            shutil.rmtree(staging_root, ignore_errors=True)
         manifest_staging.unlink(missing_ok=True)
         raise
 
 
-def load_and_validate_bundle_manifest(
+def _safe_generation_component(build_id: str) -> str:
+    if not build_id or any(
+        character not in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789._-"
+        for character in build_id
+    ):
+        raise IndexBuildError(
+            "INVALID_FACT_MANIFEST", f"unsafe facts build ID: {build_id!r}"
+        )
+    return build_id
+
+
+def _ensure_immutable_facts_manifest(
+    *,
+    facts_root: Path,
+    manifest: FactBuildManifest,
+    manifest_bytes: bytes,
+) -> Path:
+    """Resolve or materialize the immutable identity for a facts generation."""
+
+    build_id = _safe_generation_component(manifest.build_id)
+    target = facts_root / "generations" / build_id / "manifest.json"
+    if target.exists():
+        try:
+            existing = target.read_bytes()
+        except OSError as exc:
+            raise IndexBuildError("INVALID_FACT_MANIFEST", str(exc)) from exc
+        if existing != manifest_bytes:
+            raise IndexBuildError(
+                "FACT_GENERATION_COLLISION",
+                f"immutable facts manifest differs for build ID {build_id}",
+            )
+        return target
+
+    generation_prefix = f"generations/{build_id}/"
+    uses_generation_paths = any(
+        entry.fact_document_path.startswith(generation_prefix)
+        or entry.docling_path.startswith(generation_prefix)
+        for entry in manifest.documents
+    )
+    if uses_generation_paths:
+        raise IndexBuildError(
+            "INVALID_FACT_MANIFEST",
+            f"immutable facts manifest is missing for generation {build_id}",
+        )
+
+    # Legacy v2 artifacts are no longer replaced by the fact builder. Snapshot
+    # their manifest once so a retrieval generation never follows the mutable
+    # facts/manifests/build.json pointer.
+    target.parent.mkdir(parents=True, exist_ok=True)
+    temporary = target.with_name(f".{target.name}.{uuid.uuid4().hex}.tmp")
+    try:
+        with temporary.open("xb") as handle:
+            handle.write(manifest_bytes)
+            handle.flush()
+            os.fsync(handle.fileno())
+        try:
+            os.link(temporary, target)
+        except FileExistsError:
+            if target.read_bytes() != manifest_bytes:
+                raise IndexBuildError(
+                    "FACT_GENERATION_COLLISION",
+                    f"immutable facts manifest differs for build ID {build_id}",
+                )
+    except OSError as exc:
+        raise IndexBuildError(
+            "FACT_MANIFEST_SNAPSHOT_FAILED",
+            f"could not publish immutable facts manifest: {exc}",
+        ) from exc
+    finally:
+        temporary.unlink(missing_ok=True)
+    return target
+
+
+def _validate_candidate_database(
+    *,
+    path: Path,
+    expected_sha256: str,
+    index_kind: Literal["lexical", "semantic"],
+    build_id: str,
+    facts_manifest_sha256: str,
+    expected_status: str,
+    expected_sqlite_vec_version: str | None = None,
+) -> None:
+    if _sha256_file(path) != expected_sha256:
+        raise IndexBuildError(
+            "STALE_BUILD_MANIFEST", f"candidate {index_kind} database hash changed"
+        )
+    connector = connect_lexical if index_kind == "lexical" else connect_semantic
+    with closing(connector(path, query_only=True)) as connection:
+        _validate_index_identity(
+            index_kind=index_kind,
+            build_id=build_id,
+            facts_manifest_sha256=facts_manifest_sha256,
+            expected_status=expected_status,
+            actual=get_index_status(connection),
+        )
+        if index_kind == "semantic":
+            _sqlite_version, vec_version = check_semantic_runtime_versions(connection)
+            if vec_version != expected_sqlite_vec_version:
+                raise IndexBuildError(
+                    "STALE_BUILD_MANIFEST",
+                    "candidate sqlite-vec runtime version changed",
+                )
+
+
+def load_and_resolve_bundle_manifest(
     manifest_path: str | Path,
-) -> RetrievalBundleManifest:
-    """Validate artifact hashes, build IDs, facts hash, and runtime versions."""
+) -> ValidatedRetrievalBundle:
+    """Validate and resolve one committed legacy or immutable bundle."""
 
     manifest_file = Path(manifest_path).resolve(strict=True)
     # Contract: retrieval/manifests/build.json points to paths relative to retrieval/.
@@ -361,15 +554,29 @@ def load_and_validate_bundle_manifest(
         manifest.facts_manifest_file,
         code="INVALID_BUILD_MANIFEST",
     )
-    if _sha256_file(facts_manifest) != manifest.facts_manifest_sha256:
+    try:
+        facts_manifest_bytes = facts_manifest.read_bytes()
+        facts_snapshot = FactBuildManifest.model_validate_json(facts_manifest_bytes)
+    except (OSError, ValueError) as exc:
+        raise IndexBuildError("INVALID_FACT_MANIFEST", str(exc)) from exc
+    if hashlib.sha256(facts_manifest_bytes).hexdigest() != manifest.facts_manifest_sha256:
         raise IndexBuildError("STALE_BUILD_MANIFEST", "facts manifest hash changed")
+    if manifest.facts_build_id is not None and (
+        facts_snapshot.build_id != manifest.facts_build_id
+    ):
+        raise IndexBuildError("STALE_BUILD_MANIFEST", "facts build ID changed")
+    if (
+        facts_snapshot.document_count != manifest.document_count
+        or facts_snapshot.chunk_count != manifest.chunk_count
+    ):
+        raise IndexBuildError("STALE_BUILD_MANIFEST", "facts counts changed")
 
     lexical_database = _resolve_under_root(
         bundle_root, manifest.lexical_database_file, code="INVALID_BUILD_MANIFEST"
     )
     if _sha256_file(lexical_database) != manifest.lexical_database_sha256:
         raise IndexBuildError("STALE_BUILD_MANIFEST", "lexical database hash changed")
-    with connect_lexical(lexical_database, query_only=True) as connection:
+    with closing(connect_lexical(lexical_database, query_only=True)) as connection:
         status = get_index_status(connection)
         _validate_index_identity(
             index_kind="lexical",
@@ -378,7 +585,12 @@ def load_and_validate_bundle_manifest(
             expected_status="ready",
             actual=status,
         )
+        if check_sqlite_version(connection) != manifest.sqlite_version:
+            raise IndexBuildError(
+                "STALE_BUILD_MANIFEST", "SQLite runtime version changed"
+            )
 
+    semantic_database: Path | None = None
     if manifest.semantic_status != "not_ready":
         if not manifest.semantic_database_file or not manifest.semantic_database_sha256:
             raise IndexBuildError(
@@ -393,7 +605,7 @@ def load_and_validate_bundle_manifest(
             raise IndexBuildError(
                 "STALE_BUILD_MANIFEST", "semantic database hash changed"
             )
-        with connect_semantic(semantic_database, query_only=True) as connection:
+        with closing(connect_semantic(semantic_database, query_only=True)) as connection:
             status = get_index_status(connection)
             _validate_index_identity(
                 index_kind="semantic",
@@ -402,12 +614,30 @@ def load_and_validate_bundle_manifest(
                 expected_status=manifest.semantic_status,
                 actual=status,
             )
-            _, vec_version = check_semantic_runtime_versions(connection)
+            sqlite_version, vec_version = check_semantic_runtime_versions(connection)
+            if sqlite_version != manifest.sqlite_version:
+                raise IndexBuildError(
+                    "STALE_BUILD_MANIFEST", "SQLite runtime version changed"
+                )
             if vec_version != manifest.sqlite_vec_version:
                 raise IndexBuildError(
                     "STALE_BUILD_MANIFEST", "sqlite-vec runtime version changed"
                 )
-    return manifest
+    return ValidatedRetrievalBundle(
+        manifest=manifest,
+        manifest_path=manifest_file,
+        facts_manifest_path=facts_manifest,
+        lexical_database_path=lexical_database,
+        semantic_database_path=semantic_database,
+    )
+
+
+def load_and_validate_bundle_manifest(
+    manifest_path: str | Path,
+) -> RetrievalBundleManifest:
+    """Compatibility wrapper returning the validated manifest model only."""
+
+    return load_and_resolve_bundle_manifest(manifest_path).manifest
 
 
 def _validate_index_identity(

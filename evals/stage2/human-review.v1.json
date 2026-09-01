@@ -1,0 +1,415 @@
+{
+  "schema_version": "stage2-human-review.v1",
+  "status": "awaiting_human_review",
+  "instructions": "请填写 human_verdict（supported、insufficient_context 或 contradicted）以及每个端到端案例的 rating（pass 或 fail）。全部完成并签名后，才能把界面校准状态改为 minimal。",
+  "claim_pairs": [
+    {
+      "review_id": "human-01",
+      "case_id": "support-01-1",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-1",
+        "text": "The playbook recommends that new self-serve users review the setup funnel when activation drops after setup.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-02",
+      "case_id": "support-01-2",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-2",
+        "text": "The recommendation is scoped to new self-serve users.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-03",
+      "case_id": "support-01-3",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-04",
+      "case_id": "support-02-1",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-1",
+        "text": "The playbook recommends that weekly active teams compare cohorts by acquisition source when retention differs across sources.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-05",
+      "case_id": "support-02-2",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-2",
+        "text": "The recommendation is scoped to weekly active teams.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-06",
+      "case_id": "support-02-3",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-3",
+        "text": "The evidence does not say that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-07",
+      "case_id": "support-03-1",
+      "evidence": {
+        "evidence_id": "synthetic:pricing:03",
+        "text": "For prospective buyers, the playbook recommends to test willingness to pay when price sensitivity is uncertain. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-03-1",
+        "text": "The playbook recommends that prospective buyers test willingness to pay when price sensitivity is uncertain.",
+        "evidence_ids": [
+          "synthetic:pricing:03"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-08",
+      "case_id": "support-03-2",
+      "evidence": {
+        "evidence_id": "synthetic:pricing:03",
+        "text": "For prospective buyers, the playbook recommends to test willingness to pay when price sensitivity is uncertain. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-03-2",
+        "text": "The recommendation is scoped to prospective buyers.",
+        "evidence_ids": [
+          "synthetic:pricing:03"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-09",
+      "case_id": "support-01-4",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-4",
+        "text": "Every product team should always review the setup funnel.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-10",
+      "case_id": "support-01-5",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-11",
+      "case_id": "support-01-6",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-12",
+      "case_id": "support-02-4",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-4",
+        "text": "Every product team should always compare cohorts by acquisition source.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-13",
+      "case_id": "support-02-5",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-5",
+        "text": "The step will increase revenue by 30 percent.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-14",
+      "case_id": "support-02-6",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-6",
+        "text": "The team must run the step for exactly 14 days.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-15",
+      "case_id": "support-01-7",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-7",
+        "text": "The playbook tells new self-serve users not to review the setup funnel when activation drops after setup.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-16",
+      "case_id": "support-01-8",
+      "evidence": {
+        "evidence_id": "synthetic:activation:01",
+        "text": "For new self-serve users, the playbook recommends to review the setup funnel when activation drops after setup. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-01-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:activation:01"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-17",
+      "case_id": "support-02-7",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-7",
+        "text": "The playbook tells weekly active teams not to compare cohorts by acquisition source when retention differs across sources.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-18",
+      "case_id": "support-02-8",
+      "evidence": {
+        "evidence_id": "synthetic:retention:02",
+        "text": "For weekly active teams, the playbook recommends to compare cohorts by acquisition source when retention differs across sources. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-02-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:retention:02"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-19",
+      "case_id": "support-03-7",
+      "evidence": {
+        "evidence_id": "synthetic:pricing:03",
+        "text": "For prospective buyers, the playbook recommends to test willingness to pay when price sensitivity is uncertain. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-03-7",
+        "text": "The playbook tells prospective buyers not to test willingness to pay when price sensitivity is uncertain.",
+        "evidence_ids": [
+          "synthetic:pricing:03"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    },
+    {
+      "review_id": "human-20",
+      "case_id": "support-03-8",
+      "evidence": {
+        "evidence_id": "synthetic:pricing:03",
+        "text": "For prospective buyers, the playbook recommends to test willingness to pay when price sensitivity is uncertain. It describes this as a diagnostic step and explicitly does not claim that the step guarantees a business outcome."
+      },
+      "claim": {
+        "claim_id": "claim-03-8",
+        "text": "The evidence proves that the diagnostic step guarantees a business outcome.",
+        "evidence_ids": [
+          "synthetic:pricing:03"
+        ]
+      },
+      "human_verdict": null,
+      "notes": ""
+    }
+  ],
+  "e2e_cases": [
+    {
+      "review_id": "e2e-01",
+      "mode": "快速模式",
+      "question": "什么是北极星指标？",
+      "acceptance": "资料结论可回溯，且没有无证据事实",
+      "rating": null,
+      "notes": ""
+    },
+    {
+      "review_id": "e2e-02",
+      "mode": "深入模式",
+      "question": "比较北极星指标和 OMTM 的使用场景。",
+      "acceptance": "跨文档比较覆盖主要差异",
+      "rating": null,
+      "notes": ""
+    },
+    {
+      "review_id": "e2e-03",
+      "mode": "快速模式",
+      "question": "我们的激活率下降了，我该先做什么？",
+      "acceptance": "只追问一个会改变建议的关键信息",
+      "rating": null,
+      "notes": ""
+    },
+    {
+      "review_id": "e2e-04",
+      "mode": "快速模式",
+      "question": "跳过追问，基于现有信息继续。",
+      "acceptance": "建议保留不确定性并标明依据类型",
+      "rating": null,
+      "notes": ""
+    },
+    {
+      "review_id": "e2e-05",
+      "mode": "快速模式",
+      "question": "如果资料里没有答案，给我一套通用的 PM 复盘提纲。",
+      "acceptance": "通用建议明确标注且不伪装成资料结论",
+      "rating": null,
+      "notes": ""
+    },
+    {
+      "review_id": "e2e-06",
+      "mode": "快速模式",
+      "question": "资料中是否记录了 2030 年的公司收入？",
+      "acceptance": "没有证据时拒绝编造事实",
+      "rating": null,
+      "notes": ""
+    },
+    {
+      "review_id": "e2e-07",
+      "mode": "深入模式",
+      "question": "把上一条建议缩成两步，并说明各自依据。",
+      "acceptance": "正确使用会话上下文和来源",
+      "rating": null,
+      "notes": ""
+    },
+    {
+      "review_id": "e2e-08",
+      "mode": "深入模式",
+      "question": "给出一个结论、一个用户前提和一个可执行建议。",
+      "acceptance": "三类内容在界面中清楚分开",
+      "rating": null,
+      "notes": ""
+    }
+  ],
+  "reviewer": "",
+  "reviewed_at": null
+}

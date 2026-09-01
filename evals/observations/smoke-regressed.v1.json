@@ -1,0 +1,83 @@
+{
+  "schema_version": "ai-pm.eval.observation-set.v1",
+  "run_id": "synthetic-regressed-001",
+  "suite_id": "synthetic-pm-smoke-v1",
+  "system_id": "offline-fixture-regressed",
+  "metadata": {
+    "deterministic": true,
+    "purpose": "exercise a failing non-regression gate"
+  },
+  "cases": [
+    {
+      "case_id": "discovery-synthesis",
+      "outcome": "completed",
+      "retrieved_evidence_ids": [
+        "synthetic:distractor:01",
+        "synthetic:interview:01"
+      ],
+      "grounded_evidence_ids": ["synthetic:interview:01"],
+      "answer_kind": "answer",
+      "claims": [
+        {
+          "claim_id": "observed-pain",
+          "expectation_id": "pain-point",
+          "citation_ids": ["synthetic:interview:01"]
+        },
+        {
+          "claim_id": "observed-hypothesis",
+          "expectation_id": "testable-hypothesis",
+          "citation_ids": ["synthetic:not-read:99"]
+        }
+      ],
+      "trace": {
+        "events": [{"tool": "search", "status": "ok"}],
+        "completed": true,
+        "termination_reason": "answer_ready"
+      },
+      "latency_ms": 1100,
+      "cost_usd": 0.005,
+      "input_tokens": 1200,
+      "output_tokens": 300
+    },
+    {
+      "case_id": "insufficient-evidence-refusal",
+      "outcome": "completed",
+      "retrieved_evidence_ids": [],
+      "grounded_evidence_ids": [],
+      "answer_kind": "answer",
+      "claims": [],
+      "trace": {
+        "events": [{"tool": "search", "status": "ok"}],
+        "completed": true,
+        "termination_reason": "answer_ready"
+      },
+      "latency_ms": 500,
+      "cost_usd": 0.002,
+      "input_tokens": 500,
+      "output_tokens": 100
+    },
+    {
+      "case_id": "multi-source-prioritization",
+      "outcome": "truncated",
+      "retrieved_evidence_ids": [
+        "synthetic:distractor:02",
+        "synthetic:metric:activation"
+      ],
+      "grounded_evidence_ids": ["synthetic:metric:activation"],
+      "answer_kind": null,
+      "claims": [],
+      "trace": {
+        "events": [
+          {"tool": "search", "status": "ok"},
+          {"tool": "vision", "status": "ok"}
+        ],
+        "completed": false,
+        "termination_reason": "stream_incomplete"
+      },
+      "latency_ms": 2600,
+      "cost_usd": 0.015,
+      "input_tokens": 2100,
+      "output_tokens": 300
+    }
+  ]
+}

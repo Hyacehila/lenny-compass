@@ -23,12 +23,48 @@ class FactStoreError(RetrievalError):
 class FactStore:
     """Resolve locators only after revalidating every on-disk fact boundary."""
 
-    def __init__(self, facts_root: str | Path):
+    def __init__(
+        self,
+        facts_root: str | Path,
+        *,
+        manifest_path: str | Path | None = None,
+    ):
         self.root = Path(facts_root).resolve(strict=True)
         if not self.root.is_dir():
             raise ValueError(f"facts_root is not a directory: {self.root}")
         self.repo_root = self.root.parent.resolve(strict=True)
-        self.manifest_path = self.root / "manifests" / "build.json"
+        if manifest_path is None:
+            candidate = self.root / "manifests" / "build.json"
+        else:
+            provided = Path(manifest_path)
+            candidate = provided if provided.is_absolute() else self.root / provided
+        self.manifest_path = candidate.resolve(strict=False)
+        try:
+            relative_manifest = self.manifest_path.relative_to(self.root)
+        except ValueError as exc:
+            raise ValueError("manifest_path must be beneath facts_root") from exc
+        parts = relative_manifest.parts
+        is_active_manifest = (
+            len(parts) == 2
+            and parts[0].casefold() == "manifests"
+            and parts[1].casefold() == "build.json"
+        )
+        is_generation_manifest = (
+            len(parts) == 3
+            and parts[0].casefold() == "generations"
+            and bool(parts[1])
+            and parts[2].casefold() == "manifest.json"
+        )
+        if not (is_active_manifest or is_generation_manifest):
+            raise ValueError(
+                "manifest_path must be facts/manifests/build.json or a generation manifest"
+            )
+        self._manifest = self._load_manifest()
+        if is_generation_manifest and self._manifest.build_id != parts[1]:
+            raise FactStoreError(
+                "INVALID_FACT_ARTIFACT",
+                "generation directory does not match the facts manifest build ID",
+            )
 
     def read_source_window(
         self,
@@ -106,18 +142,7 @@ class FactStore:
     def _load_manifest_entry(
         self, locator: DocumentChunkLocator
     ) -> FactBuildManifestEntry:
-        try:
-            manifest = FactBuildManifest.model_validate_json(
-                self.manifest_path.read_bytes()
-            )
-        except FileNotFoundError as exc:
-            raise FactStoreError(
-                "LOCATOR_NOT_FOUND", "facts build manifest is missing"
-            ) from exc
-        except (OSError, ValueError) as exc:
-            raise FactStoreError(
-                "INVALID_FACT_ARTIFACT", "facts build manifest is invalid"
-            ) from exc
+        manifest = self._manifest
         entry = next(
             (
                 item
@@ -132,6 +157,20 @@ class FactStore:
                 f"document {locator.document_id!r} is absent from the facts manifest",
             )
         return entry
+
+    def _load_manifest(self) -> FactBuildManifest:
+        try:
+            return FactBuildManifest.model_validate_json(
+                self.manifest_path.read_bytes()
+            )
+        except FileNotFoundError as exc:
+            raise FactStoreError(
+                "LOCATOR_NOT_FOUND", "facts build manifest is missing"
+            ) from exc
+        except (OSError, ValueError) as exc:
+            raise FactStoreError(
+                "INVALID_FACT_ARTIFACT", "facts build manifest is invalid"
+            ) from exc
 
     def _load_document(self, entry: FactBuildManifestEntry) -> FactDocument:
         path = self._resolve_facts_path(entry.fact_document_path)

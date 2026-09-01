@@ -147,12 +147,38 @@ def _markdown_images(text: str) -> tuple[MarkdownImage, ...]:
     return tuple(images)
 
 
-def _document_paths(config: FactBuildConfig, document_id: str) -> tuple[Path, Path, str, str]:
+def _generation_prefix(build_id: str) -> Path:
+    """Return the immutable generation prefix for a safe build identity."""
+
+    if not build_id or any(
+        character not in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789._-"
+        for character in build_id
+    ):
+        raise FactBuildError(f"unsafe fact build ID: {build_id!r}")
+    return Path("generations") / build_id
+
+
+def _document_paths(
+    config: FactBuildConfig,
+    document_id: str,
+    *,
+    artifact_prefix: Path | None = None,
+) -> tuple[Path, Path, str, str]:
     source_relative = Path(document_id)
     docling_name = source_relative.with_suffix(".docling.json")
     chunks_name = source_relative.with_suffix(".chunks.json")
-    docling_absolute = config.output_path("documents_root") / docling_name
-    chunks_absolute = config.output_path("chunks_root") / chunks_name
+    facts_root = (config.repo_root / "facts").resolve(strict=False)
+    documents_relative = Path(
+        config.facts_relative(config.output_path("documents_root"))
+    )
+    chunks_relative = Path(config.facts_relative(config.output_path("chunks_root")))
+    if artifact_prefix is not None:
+        if artifact_prefix.is_absolute() or ".." in artifact_prefix.parts:
+            raise FactBuildError(f"unsafe fact artifact prefix: {artifact_prefix}")
+        documents_relative = artifact_prefix / documents_relative
+        chunks_relative = artifact_prefix / chunks_relative
+    docling_absolute = facts_root / documents_relative / docling_name
+    chunks_absolute = facts_root / chunks_relative / chunks_name
     return (
         docling_absolute,
         chunks_absolute,
@@ -164,8 +190,68 @@ def _document_paths(config: FactBuildConfig, document_id: str) -> tuple[Path, Pa
 def _safe_write(path: Path, data: bytes) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_name(f".{path.name}.{uuid.uuid4().hex}.tmp")
-    temporary.write_bytes(data)
-    os.replace(temporary, path)
+    try:
+        with temporary.open("xb") as handle:
+            handle.write(data)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary, path)
+    finally:
+        temporary.unlink(missing_ok=True)
+
+
+def _tree_file_hashes(root: Path) -> dict[str, str]:
+    """Describe a generation without following paths outside its directory."""
+
+    return {
+        path.relative_to(root).as_posix(): _sha256(path.read_bytes())
+        for path in sorted(root.rglob("*"))
+        if path.is_file()
+    }
+
+
+def _publish_fact_generation(
+    *,
+    facts_root: Path,
+    staging_root: Path,
+    build_id: str,
+    manifest_path: Path,
+    manifest_bytes: bytes,
+) -> None:
+    """Publish one immutable generation, then atomically move the manifest pointer.
+
+    The active manifest never references directories being replaced. A normal
+    exception while moving the pointer removes a newly installed, unreachable
+    generation and leaves the previous manifest and its artifacts intact. A
+    hard process stop can at worst leave an unreferenced generation behind.
+    """
+
+    generation_relative = _generation_prefix(build_id)
+    staged_generation = staging_root / generation_relative
+    target_generation = facts_root / generation_relative
+    if not staged_generation.is_dir():
+        raise FactBuildError(f"staged fact generation is missing: {staged_generation}")
+
+    target_generation.parent.mkdir(parents=True, exist_ok=True)
+    installed_generation = False
+    if target_generation.exists():
+        if not target_generation.is_dir() or _tree_file_hashes(
+            target_generation
+        ) != _tree_file_hashes(staged_generation):
+            raise FactBuildError(
+                f"immutable fact generation collision for build ID {build_id}"
+            )
+        shutil.rmtree(staged_generation)
+    else:
+        os.replace(staged_generation, target_generation)
+        installed_generation = True
+
+    try:
+        _safe_write(manifest_path, manifest_bytes)
+    except Exception:
+        if installed_generation:
+            shutil.rmtree(target_generation, ignore_errors=True)
+        raise
 
 
 def _assert_chunk_integrity(chunk: FactChunkRecord) -> None:
@@ -383,7 +469,12 @@ class FactBuilder:
             associations[target].append(image)
         return [tuple(items) for items in associations]
 
-    def convert_one(self, document_id: str) -> BuiltDocument:
+    def convert_one(
+        self,
+        document_id: str,
+        *,
+        artifact_prefix: Path | None = None,
+    ) -> BuiltDocument:
         started = time.perf_counter()
         try:
             record = self.records[document_id]
@@ -426,7 +517,11 @@ class FactBuilder:
         )
 
         _docling_absolute, _chunks_absolute, docling_path, fact_document_path = (
-            _document_paths(self.config, document_id)
+            _document_paths(
+                self.config,
+                document_id,
+                artifact_prefix=artifact_prefix,
+            )
         )
         fact_chunks: list[FactChunkRecord] = []
         segment_counts: dict[tuple[str, ...], int] = {}
@@ -703,12 +798,29 @@ class FactBuilder:
         self.clear_quarantine()
 
         facts_root = (self.config.repo_root / "facts").resolve(strict=True)
+        build_material = _json_bytes(
+            {
+                "config_sha256": self.config.sha256,
+                "documents": [
+                    {
+                        "document_id": record.document_id,
+                        "raw_sha256": record.raw_sha256,
+                        "enhanced_sha256": record.enhanced_sha256,
+                    }
+                    for record in sorted(
+                        self.records.values(), key=lambda item: item.document_id
+                    )
+                ],
+            }
+        )
+        build_id = f"{self.config.config_version}-{_sha256(build_material)[:20]}"
+        generation_prefix = _generation_prefix(build_id)
         staging = facts_root / f".fact-build-staging-{uuid.uuid4().hex}"
         staging.mkdir(parents=False, exist_ok=False)
-        (staging / self.config.facts_relative(self.config.output_path("assets_root"))).mkdir(
-            parents=True,
-            exist_ok=False,
+        assets_relative = Path(
+            self.config.facts_relative(self.config.output_path("assets_root"))
         )
+        (staging / generation_prefix / assets_relative).mkdir(parents=True, exist_ok=False)
         entries: list[FactBuildManifestEntry] = []
         total_chunks = 0
         documents = sorted(self.records)
@@ -717,7 +829,10 @@ class FactBuilder:
                 if index == 1 or index % 25 == 0 or index == len(documents):
                     self.progress(f"build {index}/{len(documents)}: {document_id}")
                 try:
-                    built = self.convert_one(document_id)
+                    built = self.convert_one(
+                        document_id,
+                        artifact_prefix=generation_prefix,
+                    )
                 except Exception as exc:
                     self._write_quarantine(document_id, exc, "full")
                     raise
@@ -728,24 +843,28 @@ class FactBuilder:
                 entries.append(built.manifest_entry)
                 total_chunks += len(built.document.chunks)
 
-            build_material = _json_bytes(
-                {
-                    "config_sha256": self.config.sha256,
-                    "documents": [
-                        {
-                            "document_id": entry.document_id,
-                            "raw_sha256": entry.raw_sha256,
-                            "enhanced_sha256": entry.enhanced_sha256,
-                            "docling_sha256": entry.docling_sha256,
-                            "fact_document_sha256": entry.fact_document_sha256,
-                        }
-                        for entry in entries
-                    ],
-                }
+            immutable_manifest_path = (
+                facts_root / generation_prefix / "manifest.json"
             )
+            created_at = datetime.now(UTC)
+            if immutable_manifest_path.exists():
+                try:
+                    previous_generation_manifest = FactBuildManifest.model_validate_json(
+                        immutable_manifest_path.read_bytes()
+                    )
+                except (OSError, ValueError) as exc:
+                    raise FactBuildError(
+                        f"immutable fact generation manifest is invalid: {build_id}"
+                    ) from exc
+                if previous_generation_manifest.build_id != build_id:
+                    raise FactBuildError(
+                        f"immutable fact generation manifest ID mismatch: {build_id}"
+                    )
+                created_at = previous_generation_manifest.created_at
+
             manifest = FactBuildManifest(
-                build_id=f"{self.config.config_version}-{_sha256(build_material)[:20]}",
-                created_at=datetime.now(UTC),
+                build_id=build_id,
+                created_at=created_at,
                 config_version=self.config.config_version,
                 document_count=len(entries),
                 chunk_count=total_chunks,
@@ -757,17 +876,20 @@ class FactBuilder:
                     f"{self.config.expected_document_count}"
                 )
 
-            for output_key in ("documents_root", "chunks_root", "assets_root"):
-                target = self.config.output_path(output_key)
-                staged = staging / self.config.facts_relative(target)
-                if target.exists():
-                    shutil.rmtree(target)
-                target.parent.mkdir(parents=True, exist_ok=True)
-                os.replace(staged, target)
             manifest_bytes = _json_bytes(manifest.model_dump(mode="json"))
             if FactBuildManifest.model_validate_json(manifest_bytes) != manifest:
                 raise FactBuildError("FactBuildManifest JSON roundtrip mismatch")
-            _safe_write(self.config.output_path("build_manifest"), manifest_bytes)
+            _safe_write(
+                staging / generation_prefix / "manifest.json",
+                manifest_bytes,
+            )
+            _publish_fact_generation(
+                facts_root=facts_root,
+                staging_root=staging,
+                build_id=build_id,
+                manifest_path=self.config.output_path("build_manifest"),
+                manifest_bytes=manifest_bytes,
+            )
             return manifest
         finally:
             if staging.exists():
@@ -777,6 +899,28 @@ class FactBuilder:
         manifest_path = self.config.output_path("build_manifest")
         manifest_bytes = manifest_path.read_bytes()
         manifest = FactBuildManifest.model_validate_json(manifest_bytes)
+        generation_prefix = f"generations/{manifest.build_id}/"
+        uses_generation = any(
+            entry.fact_document_path.startswith(generation_prefix)
+            or entry.docling_path.startswith(generation_prefix)
+            for entry in manifest.documents
+        )
+        if uses_generation:
+            immutable_manifest = (
+                (self.config.repo_root / "facts").resolve(strict=True)
+                / _generation_prefix(manifest.build_id)
+                / "manifest.json"
+            )
+            try:
+                immutable_manifest_bytes = immutable_manifest.read_bytes()
+            except OSError as exc:
+                raise FactBuildError(
+                    "published immutable generation manifest is missing"
+                ) from exc
+            if immutable_manifest_bytes != manifest_bytes:
+                raise FactBuildError(
+                    "published pointer and immutable generation manifest differ"
+                )
         if manifest.document_count != self.config.expected_document_count:
             raise FactBuildError("published manifest document count mismatch")
         if manifest.config_version != self.config.config_version:
@@ -796,9 +940,37 @@ class FactBuilder:
             if index == 1 or index % 50 == 0 or index == len(manifest.documents):
                 self.progress(f"validate {index}/{len(manifest.documents)}: {entry.document_id}")
             record = self.records[entry.document_id]
-            expected_docling_absolute, expected_fact_absolute, expected_docling, expected_fact = (
-                _document_paths(self.config, entry.document_id)
-            )
+            legacy_paths = _document_paths(self.config, entry.document_id)
+            if (entry.docling_path, entry.fact_document_path) == (
+                legacy_paths[2],
+                legacy_paths[3],
+            ):
+                (
+                    expected_docling_absolute,
+                    expected_fact_absolute,
+                    expected_docling,
+                    expected_fact,
+                ) = legacy_paths
+            else:
+                generation_paths = _document_paths(
+                    self.config,
+                    entry.document_id,
+                    artifact_prefix=_generation_prefix(manifest.build_id),
+                )
+                if (entry.docling_path, entry.fact_document_path) != (
+                    generation_paths[2],
+                    generation_paths[3],
+                ):
+                    raise FactBuildError(
+                        "published manifest artifact generation mismatch: "
+                        f"{entry.document_id}"
+                    )
+                (
+                    expected_docling_absolute,
+                    expected_fact_absolute,
+                    expected_docling,
+                    expected_fact,
+                ) = generation_paths
             expected_identity = (
                 (entry.raw_path, record.raw_path, "raw path"),
                 (entry.raw_sha256, record.raw_sha256, "raw hash"),
